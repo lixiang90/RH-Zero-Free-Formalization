@@ -1,0 +1,111 @@
+{
+  "kind": "new_mathematical_authored_extension",
+  "origin": "authored_extension",
+  "git_blob": null,
+  "status": "canonical_prepared_not_actual_compiled_or_independently_replayed",
+  "module": "OAI.NumberTheory.DirichletL.Moments.UniformHeightSourcePlainMarkedLowKappa",
+  "path": "OAI/NumberTheory/DirichletL/Moments/UniformHeightSourcePlainMarkedLowKappa.lean",
+  "roots": [
+    "OAI.SevenEighths.UniformHeightSourcePlainMarkedLowKappa.exists_degrees_height_before_finite_family"
+  ],
+  "root_count": 1,
+  "copied_helper_root_count": 0,
+  "raw_sha256": "7f0e0c3b043356c07e583f925a35452ae9298206cbb5579fae45f152eea7113a",
+  "lf_sha256": "7f0e0c3b043356c07e583f925a35452ae9298206cbb5579fae45f152eea7113a",
+  "bytes": 10257,
+  "draft_path": "E:\\codex-build\\RH-Weil\\tmp\\uniform-height-supply-phase-20261009\\UniformHeightSourcePlainMarkedLowKappa.lean",
+  "audit_source_path": "E:\\codex-build\\RH-Weil\\tmp\\uniform-height-supply-phase-20261009\\CanonicalAxiomAudit.lean",
+  "audit_source_sha256": "252911aa6d238b9764cbc013e87f37968e775ed8c1e38a03e595906612612e41",
+  "statement_path": "E:\\codex-build\\RH-Weil\\tmp\\uniform-height-supply-phase-20261009\\canonical-statement.lean.txt",
+  "statement_sha256": "92246ddf28e0997bf6c70997434ef81a53238d869bdc1183b433aa55cb641307",
+  "private_source_path": "E:\\codex-build\\RH-Weil\\tmp\\uniform-height-source-plain-marked-20261009\\UniformHeightSourcePlainMarked.candidate.lean",
+  "private_source_sha256": "8cbc718a5cc7e76325dc5cf5af46f684415b04ef3210c02b37a39c481a02b09d",
+  "private_metadata_path": "E:\\codex-build\\RH-Weil\\tmp\\uniform-height-source-plain-marked-20261009\\metadata.json",
+  "private_metadata_sha256": "7818655180f44e96898a0e999375b8e32025a3f2368823030c4ec90bf6126842",
+  "private_fresh_record_sha256": "e09c8b908447f1e5951687ba689e46004e47a622ea99e2392369a4bc3d35a5fe",
+  "private_full_type_and_axes_sha256": "42deb797a72029d42f9d4503b1a721a16566786573e9386f031e4d2ff6e94486",
+  "private_boundary_sha256": "03a9e99d1911e27cb469992ff81f0b6489730ac04422cd345e28d813db0d73c8",
+  "canonical_changes": "Copyright/scope header and namespace only; imports, complete statement and proof otherwise byte-identical after reversing namespace edits",
+  "statement_and_proof_preserved_after_reversing_namespace_edits": true,
+  "autoImplicit": false,
+  "canonical_imports": [
+    "OAI.NumberTheory.DirichletL.Energy.UniformDegreePositiveAtLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.FiniteRowNaturalState"
+  ],
+  "canonical_dependency_bindings": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Energy.UniformDegreePositiveAtLowKappa",
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Energy\\UniformDegreePositiveAtLowKappa.lean",
+      "source_sha256": "aa4b6ef991ef8d40bebbc02ed0ed24f5c3c0674ac555183e5003ad4295434871",
+      "fingerprint": "1be133b41c1bf39fe36828d173ee9d65be48cb958e516a591caee626fd85aa74",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\UniformDegreePositiveAtLowKappa.olean": "6c9502c484a6915a31e0a9086f3d5f77cf3c54194362a663467b1da93ecbac36",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\UniformDegreePositiveAtLowKappa.ilean": "e9361f4cd0bec2f1fd20e3d030f658241c18d5e82919b608622711946cbbbfd5"
+      },
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-173437-bounded8v2\\OAI.NumberTheory.DirichletL.Energy.UniformDegreePositiveAtLowKappa.log",
+      "wall_seconds": 17.985,
+      "actual_exit_code": 0
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa",
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\PlainMarkedAdmissionLowKappa.lean",
+      "source_sha256": "9241a17be41bbd52bcf7aef2a1ad24cf47165e11cb52af8a129977ca1c0292f9",
+      "fingerprint": "053eba3b6188c7a6f514336e5b830c0f7917aefa9bda6069a861e052427377ed",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\PlainMarkedAdmissionLowKappa.olean": "e070e064d32f7c1e9e8b7d6202c5736325902d7db5b662e9d40e20ebf4c577ed",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\PlainMarkedAdmissionLowKappa.ilean": "05d0dba2734d2a82cfb11e626dd71e89ef7a423a8e2ee2b8f2f80926d354aec0"
+      },
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-173437-bounded8v2\\OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa.log",
+      "wall_seconds": 19.422,
+      "actual_exit_code": 0
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.FiniteRowNaturalState",
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\FiniteRowNaturalState.lean",
+      "source_sha256": "f2c1ec843235fc5d2524afa005abfc14c80cce6b82f11383481bd8cbbb93a2ef",
+      "fingerprint": "e6f744f51a04947353bf677612274be1de9564ba806e1edbc4986995f9a3fb12",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\FiniteRowNaturalState.olean": "c4610cf30b1311c0924c7318e1df45f9bda6a27dba949182c80b27b81dcfc1ce",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\FiniteRowNaturalState.ilean": "af923a5e0a640cf5d6537ee1ca01cb1c24ad49e0fb45d2f3ba34ba8f6c14853a"
+      },
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-155848-bounded8v2\\OAI.NumberTheory.DirichletL.Moments.FiniteRowNaturalState.log",
+      "wall_seconds": 18.187,
+      "actual_exit_code": 0
+    }
+  ],
+  "exact_quantifier_order": "fixed Slot/M/H/W/geometry -> positive rho/epsilonE -> terminal degree/S/profileJ/Cp -> common positive height ceiling tau -> arbitrary finite eta/Q maps -> Phi/Ctotal -> eventuallyZ -> every0<tauPrime<=tau -> actual F/height/selected/j/k/sigma/t",
+  "native_uniform_degree_primitive_used": true,
+  "weak_helper_quantifiers_rearranged": false,
+  "family_constant_and_eventual_threshold_before_bounded_tauPrime": true,
+  "family_dependent_witnesses": [
+    "Phi",
+    "Ctotal",
+    "eventual Z threshold"
+  ],
+  "map_independent_witnesses": [
+    "rho",
+    "epsilonE",
+    "terminal degree",
+    "terminal seminorm set",
+    "profileJ",
+    "Cp",
+    "height ceiling tau"
+  ],
+  "fixed_slot_type_before_degree": true,
+  "scope_limitations": [
+    "one plain-marked field only",
+    "the returned positive common ceiling bounds all later height exponents",
+    "actual arithmetic/source/geometry gates retained",
+    "no uniformity over arbitrary later slot types or chosen N",
+    "no unrestricted RawMomentInput or complete four-field Moments",
+    "no source-Batch dictionary gate proof, moving-count consumer or all-fiber plain_unmarked",
+    "no final family-zero-free conclusion"
+  ],
+  "installation_owner": "plain_range_graph; this script writes no workcopy, state, public source, manifest or controller",
+  "canonical_actual_compile_status": "pending_graph_controller_after_current27_freeze",
+  "canonical_independent_replay_status": "pending_prep_after_actual_canonical_compile",
+  "private_checks_not_counted_as_canonical_evidence": true,
+  "current27_checkpoint_unchanged": true,
+  "source_script_sha256": "1d9910b8c28627386e4f21083346e061cc8287665d25766f9d77b70aa190b5dc"
+}

@@ -1,0 +1,27 @@
+{
+  "old_formal_commit": "6e47bf050ba5fbff281bd0ee5a99d2b9ebac9961",
+  "old_authored27_manifest_sha256": "86e316d98090497ad039fe5a9dcacc8ea01fdc41eda1fb3ab70441db73c7b269",
+  "old_selected_declaration_count": 88,
+  "new_authored_module_count": 28,
+  "new_selected_declaration_count": 89,
+  "new_prepared_module_count": 1,
+  "new_prepared_declaration_count": 1,
+  "new_prepared_sources": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.UniformHeightSourcePlainMarkedLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/UniformHeightSourcePlainMarkedLowKappa.lean",
+      "sha256": "7f0e0c3b043356c07e583f925a35452ae9298206cbb5579fae45f152eea7113a",
+      "roots": [
+        "OAI.SevenEighths.UniformHeightSourcePlainMarkedLowKappa.exists_degrees_height_before_finite_family"
+      ],
+      "scope": "Native terminal degree, seminorm set, detector profile degree and positive height exponent are chosen before arbitrary finite eta/Q families; family-specific positive constant and Z threshold before every smaller positive height exponent tauPrime<=tau. Supplies a genuine eventual source plain-marked field with all source/arithmetic/calibration/profile/slot/prime/external/height/capacity/global-beta/moving-kappa gates explicit. One field only; complete SourceMomentsAt/RawMomentInput, the four-field Moments record, counting/probe and improved unconditional zero-free assembly remain pending.",
+      "status": "canonical_prepared_not_actual_compiled_or_independently_replayed"
+    }
+  ],
+  "original41_aggregate_patch_sha256_unchanged": "58ddc470f93afd26265525e78b951706ccb202839c6768f7ef39006af699dc42",
+  "source_installation_and_controller_owner": "plain_range_graph",
+  "new_actual_compilation_status": "pending",
+  "new_selected_independent_replay_status": "pending",
+  "old88_declarations_retested": false,
+  "old_source_state_sha256_unchanged": "7f91825351a1e3b185e3232eef1f7de1d79bc755ff8281a4ea7454ba4ee234b6"
+}

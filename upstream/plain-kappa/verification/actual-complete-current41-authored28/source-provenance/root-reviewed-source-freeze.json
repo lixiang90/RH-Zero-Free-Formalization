@@ -1,0 +1,14 @@
+{
+  "status": "root_reviewed_one_source_frozen_canonical_compile_and_independent_replay_pending",
+  "baseline_formal_commit": "6e47bf050ba5fbff281bd0ee5a99d2b9ebac9961",
+  "module": "OAI.NumberTheory.DirichletL.Moments.UniformHeightSourcePlainMarkedLowKappa",
+  "source_path": "E:\\codex-build\\RH-Weil\\tmp\\uniform-height-supply-phase-20261009\\UniformHeightSourcePlainMarkedLowKappa.lean",
+  "source_sha256": "7f0e0c3b043356c07e583f925a35452ae9298206cbb5579fae45f152eea7113a",
+  "source_bytes": 10257,
+  "selected_roots": [
+    "OAI.SevenEighths.UniformHeightSourcePlainMarkedLowKappa.exists_degrees_height_before_finite_family"
+  ],
+  "expected_total_authored_modules": 28,
+  "expected_total_authored_roots": 89,
+  "scope": "Native degree/S and profile J/common positive height ceiling before arbitrary finite character/ideal maps. Their constant and scale threshold precede every bounded 0<tau_prime<=tau. One marked field with actual row/slot/prime/height gates, not complete SourceMomentsAt or RawMomentInput."
+}

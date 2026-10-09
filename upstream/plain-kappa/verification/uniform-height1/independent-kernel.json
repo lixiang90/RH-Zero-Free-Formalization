@@ -1,0 +1,109 @@
+{
+  "scope": "One new canonical authored source field: terminal degree/S, detector control degree and positive common height exponent chosen before arbitrary finite eta/Q families; for each family the same positive constant and eventual Z threshold work before every smaller positive tauPrime<=tau. All source profile, radial state, arithmetic/calibration, row lower bounds, native beta/kappa, slot mesh, coprime-prime, external Re=17/50, height and moving plain capacity gates remain explicit in full types. Only the actual plain-marked field is supplied; complete SourceMomentsAt/RawMomentInput, the four-field Moments record, counts/probe and improved unconditional zero-free assembly remain pending. Private Candidate records and older88 selected roots are distinct; exact unused imported PNTA holes remain disclosed and absent from the selected kernel export.",
+  "module": "UpstreamNano_20261009_175635",
+  "roots": [
+    "OAI.SevenEighths.UniformHeightSourcePlainMarkedLowKappa.exists_degrees_height_before_finite_family"
+  ],
+  "compiler": "Lean (version 4.34.1, x86_64-w64-windows-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "pins": {
+    "lean4export": "b18d673bd29b476466a51a3be1012df2ed322b10",
+    "nanoda": "418320295890faed83a96fd97907b12a3b6728c2",
+    "official_comparator": "273294467ce06429e6667ece7f5699f8678c9f4e"
+  },
+  "input_paths": {
+    "driver_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-kernel\\scripts\\verify_independent_nanoda_34.py",
+    "source_lean": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\UpstreamNano_20261009_175635.lean",
+    "source_olean": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\UpstreamNano_20261009_175635.olean",
+    "exporter_binary": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-kernel\\lean4export\\.lake\\build\\bin\\lean4export.exe",
+    "nanoda_binary": "E:\\codex-build\\RH-Zero-Proportion-Formalization\\tmp\\kernel-tools\\nanoda-target\\release\\nanoda_bin",
+    "export": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\tmp\\verification\\uniform-height1-actual-20261009-175622-nano\\export.ndjson",
+    "export_metadata": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\tmp\\verification\\uniform-height1-actual-20261009-175622-nano\\export-metadata.json",
+    "configuration": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\tmp\\verification\\uniform-height1-actual-20261009-175622-nano\\nanoda-config.json"
+  },
+  "lean_path_directories": [
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean"
+  ],
+  "exporter_environment_lean_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\Cli\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\LeanArchitect\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\checkdecls\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\leancert\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\PrimeCert\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\batteries\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\Qq\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\aesop\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\proofwidgets\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\importGraph\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\LeanSearchClient\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\plausible\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\PrimeNumberTheoremAnd\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean;c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\lib\\lean",
+  "working_directory": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+  "sha256_before": {
+    "driver_source": "d215b5502d4821cf8af87044f90c0cc214d0fd40129b37ed52ffe1f47c4603c1",
+    "source_lean": "05ffc98ae3f2d60f005744c9286ca6dd0ea315f95632f8d1709f5c9bfbffa539",
+    "source_olean": "0394f2c65daed592a860c87036b0eae7dd093d0ab6fa92e0a35fe2a405cc7caf",
+    "exporter_binary": "59c8e239262153a57d37b83869732b75b5b3b5a1689b489a0660a5e713dd3701",
+    "nanoda_binary": "b19804767cb72bf5a317fcfc20e8af7eafdfba789dd6b24bddee2574379ff35a",
+    "export": "7726590417d61d8780e1d6a5b37ff62b47d1b69b2ab1936c66e210bb45c46384",
+    "export_metadata": "faf5fe92572b2f3e32d49ad34e444b05b95ecc7c2e0d8fdde31a72f9f16a05de",
+    "configuration": "4542f6fa7a063010f45a820f36f15f76ab8d074b33ec6afcd63c66b5a5178178"
+  },
+  "sha256_after": {
+    "driver_source": "d215b5502d4821cf8af87044f90c0cc214d0fd40129b37ed52ffe1f47c4603c1",
+    "source_lean": "05ffc98ae3f2d60f005744c9286ca6dd0ea315f95632f8d1709f5c9bfbffa539",
+    "source_olean": "0394f2c65daed592a860c87036b0eae7dd093d0ab6fa92e0a35fe2a405cc7caf",
+    "exporter_binary": "59c8e239262153a57d37b83869732b75b5b3b5a1689b489a0660a5e713dd3701",
+    "nanoda_binary": "b19804767cb72bf5a317fcfc20e8af7eafdfba789dd6b24bddee2574379ff35a",
+    "export": "7726590417d61d8780e1d6a5b37ff62b47d1b69b2ab1936c66e210bb45c46384",
+    "export_metadata": "faf5fe92572b2f3e32d49ad34e444b05b95ecc7c2e0d8fdde31a72f9f16a05de",
+    "configuration": "4542f6fa7a063010f45a820f36f15f76ab8d074b33ec6afcd63c66b5a5178178"
+  },
+  "inputs_unchanged": true,
+  "existing_compiled_module": true,
+  "module_recompiled_in_this_invocation": false,
+  "reused_export": false,
+  "export_process_ran": true,
+  "export_command": [
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-kernel\\lean4export\\.lake\\build\\bin\\lean4export.exe",
+    "UpstreamNano_20261009_175635",
+    "--",
+    "OAI.SevenEighths.UniformHeightSourcePlainMarkedLowKappa.exists_degrees_height_before_finite_family"
+  ],
+  "export_exit_code": 0,
+  "prior_export_exit_code": null,
+  "prior_export_command": null,
+  "export_bytes": 1136645152,
+  "configuration": {
+    "use_stdin": true,
+    "permitted_axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "unpermitted_axiom_hard_error": true,
+    "nat_extension": true,
+    "string_extension": true,
+    "num_threads": 1,
+    "unsafe_permit_all_axioms": false,
+    "print_success_message": true,
+    "print_axioms": true,
+    "pp_to_stdout": true
+  },
+  "configuration_basis": "Pinned Comparator.Main.runNanoda; only thread scheduling and success/axiom output are added",
+  "actual_nano_command": [
+    "C:\\WINDOWS\\system32\\wsl.exe",
+    "--distribution",
+    "Ubuntu",
+    "--exec",
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/mnt/e/codex-build/RH-Zero-Free-Formalization/tmp/upstream-plain/tmp/verification/uniform-height1-actual-20261009-175622-nano/nanoda-time.txt",
+    "/mnt/e/codex-build/RH-Zero-Proportion-Formalization/tmp/kernel-tools/nanoda-target/release/nanoda_bin",
+    "/mnt/e/codex-build/RH-Zero-Free-Formalization/tmp/upstream-plain/tmp/verification/uniform-height1-actual-20261009-175622-nano/nanoda-config.json"
+  ],
+  "actual_nano_exit_code": 0,
+  "nano_elapsed_seconds": 131.0,
+  "total_elapsed_seconds": 209.531,
+  "checked_declarations": 101827,
+  "observed_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "nano_check_passed": true,
+  "log": "tmp\\verification\\uniform-height1-actual-20261009-175622-nano\\nanoda.log",
+  "log_sha256": "79e929502ab3c895ca941eebbfe1a7c094fdd17869899ceb673dc029173d0d45",
+  "resource_log": "tmp\\verification\\uniform-height1-actual-20261009-175622-nano\\nanoda-time.txt",
+  "resources": "\tCommand being timed: \"/mnt/e/codex-build/RH-Zero-Proportion-Formalization/tmp/kernel-tools/nanoda-target/release/nanoda_bin /mnt/e/codex-build/RH-Zero-Free-Formalization/tmp/upstream-plain/tmp/verification/uniform-height1-actual-20261009-175622-nano/nanoda-config.json\"\n\tUser time (seconds): 129.09\n\tSystem time (seconds): 1.65\n\tPercent of CPU this job got: 99%\n\tElapsed (wall clock) time (h:mm:ss or m:ss): 2:10.95\n\tAverage shared text size (kbytes): 0\n\tAverage unshared data size (kbytes): 0\n\tAverage stack size (kbytes): 0\n\tAverage total size (kbytes): 0\n\tMaximum resident set size (kbytes): 1677284\n\tAverage resident set size (kbytes): 0\n\tMajor (requiring I/O) page faults: 22\n\tMinor (reclaiming a frame) page faults: 78758\n\tVoluntary context switches: 3356\n\tInvoluntary context switches: 90\n\tSwaps: 0\n\tFile system inputs: 2832\n\tFile system outputs: 0\n\tSocket messages sent: 0\n\tSocket messages received: 0\n\tSignals delivered: 0\n\tPage size (bytes): 4096\n\tExit status: 0\n",
+  "official_comparator_verified": false,
+  "whole_submission_compiled": false,
+  "submitted": false
+}

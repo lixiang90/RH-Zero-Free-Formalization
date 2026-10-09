@@ -143,8 +143,11 @@ The new finite-row modules prove radial domination and the exact actual
 fiber-to-energy dictionary, construct the NaturalState and extend finite
 witnesses. The fixed finite-family marked bridge now supplies the actual state, terminal
 PositiveAt and native capacity under explicit row/source/slot/prime/height
-gates. Its source-specific universal Batch wrapper and character-independent
-height choice still need integration. ActualSourceBatchTotal now generalizes the real source constructor
+gates. UniformHeightSourcePlainMarkedLowKappa further gives terminal/profile
+degrees and a common positive height ceiling before every finite character/ideal
+family for fixed slots, with constants and thresholds before all bounded
+smaller exponents. The universal source Batch wrapper and loss-before-slot
+allocation still need integration. ActualSourceBatchTotal now generalizes the real source constructor
 to sum(ell)=Lambda with dmax<=37*Lambda/7, preserving its witness budget.
 FiniteLabelPositiveAtLowKappa constructs and unifies the actual terminal
 PositiveAt supply. MarkedHeightBudgetLowKappa proves the remaining deterministic

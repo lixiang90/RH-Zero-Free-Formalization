@@ -1,0 +1,42 @@
+{
+  "status": "canonical_actual_compile_passed_formal_fresh_and_independent_replay_pending",
+  "actual_compile_controller_session": 78540,
+  "controller_completed_exit_code": 0,
+  "actual_compile_log_directory": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-175444-bounded8v2",
+  "target_count": 31,
+  "custom_module_count": 2275,
+  "compiled": 1,
+  "strictly_reused": 2274,
+  "wall_seconds": 21.594,
+  "failed_count": 0,
+  "pending_count": 0,
+  "new_module": "OAI.NumberTheory.DirichletL.Moments.UniformHeightSourcePlainMarkedLowKappa",
+  "new_source_sha256": "7f0e0c3b043356c07e583f925a35452ae9298206cbb5579fae45f152eea7113a",
+  "new_actual_compile_wall_seconds": 20.328,
+  "new_actual_compile_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "new_actual_compile_log_text": "",
+  "new_fingerprint": "36207e507ab32b77439825af930a35d20c6f9b22f25dac1a3c5ef9f333a7ef34",
+  "new_artifact_sha256": {
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\UniformHeightSourcePlainMarkedLowKappa.olean": "f0cabf2df50ee1d0672d19897034f7bb4a14fc09db2e21f8f73e3b09885ec768",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\UniformHeightSourcePlainMarkedLowKappa.ilean": "e40ab3f007ad6f954c1c3c9632c750136d53bdd2bdff8d482ed02329057bb0a1"
+  },
+  "old_27_and_original_41_exact_source_guards_preserved": true,
+  "v6_scanner_source_sha256": "4c8943ab15c9853b2666c94f7d353e5060104b2f4e7aa2614b5748381455532c",
+  "v6_scanner_actual_exit_code": 0,
+  "v6_scanner_actual_wall_seconds": 1.55,
+  "v6_scanner_targets_file_path": "E:\\codex-build\\RH-Weil\\tmp\\uniform-height-supply-phase-20261009\\next-31-targets.json",
+  "v6_scanner_targets_file_sha256": "7e5eae7e347ce5d14c85ed9e3800ffd9773fef29b978cd027e2a4c68ccca477a",
+  "v6_scanner_targets_before_after_bytes_match": true,
+  "v6_scanner_command_argv": [
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\checkpoint_actual_build_v6.py",
+    "--session",
+    "78540",
+    "--source-freeze",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\tmp\\actual-math-repairs\\physical-kappa-nonnegative-20261009-155446\\current-41-source-freeze.json",
+    "--targets-file",
+    "E:\\codex-build\\RH-Weil\\tmp\\uniform-height-supply-phase-20261009\\next-31-targets.json"
+  ],
+  "state_sha256": "43cc7199277bf238816dfbe0c1af4bdba21c2c30fc39b8f05c6974d84a861e39",
+  "checkpoint_saved_path": "E:\\codex-build\\RH-Weil\\tmp\\uniform-height-supply-phase-20261009\\checkpoint-v6-31-targets\\current-checkpoint.json",
+  "fresh_or_independent_kernel_proof_claimed_by_this_capture": false
+}

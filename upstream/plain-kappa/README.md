@@ -5,12 +5,12 @@ our cubic boundary to the actual Hecke arithmetic in OpenAI/math. Author:
 **Li Xiang / lixiang90**. It is independent of the primary Lean 4.33.0-rc2
 library, and its results are counted separately.
 
-**The complete improved zero-free region is still pending.** All 88 selected
-roots in the twenty-seven authored modules below passed actual compilation, fresh
+**The complete improved zero-free region is still pending.** All 89 selected
+roots in the twenty-eight authored modules below passed actual compilation, fresh
 complete types/axioms and independent Nano replay. The complete patched
 low-kappa energy induction and terminal output passed a separate four-root
-independent replay. The final source controller compiled all 2274 custom
-dependency modules and 30 targets successfully. The previous 2271 successful
+independent replay. The final source controller compiled all 2275 custom
+dependency modules and 31 targets successfully. The previous 2274 successful
 modules were reused only after their source/dependency/artifact bindings matched.
 The terminal output preserves its arithmetic inputs. Complete detector marked
 moments, improved counts and the physical low/raw-high probe remain open.
@@ -29,8 +29,8 @@ The original d18941bd revision is retained in the historical evidence. Four
 final proof-body repairs supply the exact weaker premises expected by existing
 APIs; their declaration headers and mathematical hypotheses are unchanged.
 
-The [authored-source manifest](extensions/manifest.json) records twenty-seven extra
-modules with 88 selected roots separately from those patched upstream sources.
+The [authored-source manifest](extensions/manifest.json) records twenty-eight extra
+modules with 89 selected roots separately from those patched upstream sources.
 Each has an exact
 source hash, declaration list and verification status.
 
@@ -120,8 +120,10 @@ The [source-Batch/PositiveAt/height replay](verification/sourcebatch-positiveat-
 checks the seven new roots across five further modules. The current authored
 24-module checkpoint contains 85 distinct selected declarations. The current
 [marked-supply replay](verification/marked-supply3/strict-replay-result.json)
-adds exactly three roots in three modules, bringing the current authored
-set to 88 distinct selected declarations across 27 modules.
+adds exactly three roots in three modules, completing the historical
+27-module/88-root checkpoint. The current [uniform-height replay](verification/uniform-height1/strict-replay-result.json)
+adds one further declaration in one module, bringing the authored set to
+89 distinct selected declarations across 28 modules.
 The five additional original OAI sources were restored from exact pinned Git
 blobs and compiled without compatibility changes; the original SourceBatch
 was a separate compilation target, not an extra independently selected root.
@@ -167,7 +169,11 @@ also proved. The fixed finite-family marked field now constructs its actual
 PositiveAt and NaturalState and derives the native capacity. It retains the
 real row lower bound, source dictionary, common window/upper, prime
 coprimality, scaled slot mesh, external real part and actual height gates.
-Its source-specific universal Batch wrapper and common-height quantifiers
+UniformHeightSourcePlainMarkedLowKappa now uses the native uniform degree
+primitive to choose degree/J and a positive common height ceiling before
+every finite character/ideal family. Each family has one positive constant
+and scale threshold before all 0<tau_prime<=tau. The slots remain fixed first.
+The source-specific universal Batch wrapper and loss-before-slot allocation
 still need integration. The other three Moments fields, improved detector
 count and the physical probe remain open.
 
@@ -179,7 +185,12 @@ The [marked-supply replay](verification/marked-supply3/strict-replay-result.json
 | Energy.UniformDegreePositiveAtLowKappa | Construct native PositiveAt with degree and finite seminorm set before every character and ideal; constants and thresholds may depend on those arithmetic inputs. |
 | Moments.EventualFiniteSourcePlainMarkedLowKappa | Construct PositiveAt and NaturalState and prove the eventual marked bound for every fiber admitted by a fixed finite character/ideal family and the genuine row/slot/prime/height gates. |
 
-Each of these three roots passed actual compilation, fresh complete types/axioms and the same joint independent replay. The last interface still fixes its finite maps before degree; the independent uniform-degree primitive does not silently strengthen that statement.
+The further Moments.UniformHeightSourcePlainMarkedLowKappa root passed actual
+compilation, complete fresh types/axioms and its own [one-root independent replay](verification/uniform-height1/strict-replay-result.json).
+Its degree/J/common-height witnesses precede arbitrary finite character/ideal
+maps for fixed slots; the actual row/slot/prime/height gates remain explicit.
+
+Each of the preceding three roots passed actual compilation, fresh complete types/axioms and the same joint independent replay. The last interface still fixes its finite maps before degree; the independent uniform-degree primitive does not silently strengthen that statement.
 
 The [source-wrapper audit](../../docs/source-plain-wrapper-audit/README.md) records the exact source-specific universal Batch quantifiers and the remaining admission gates. It is a read-only audit, counted separately from the proved roots.
 

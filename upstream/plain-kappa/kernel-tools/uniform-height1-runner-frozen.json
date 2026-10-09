@@ -1,0 +1,15 @@
+{
+  "status": "prepared_waiting_actual_canonical_compile_before_any_replay",
+  "runner_sha256": "e9cc518136e68b1b8af6f11010d561e6baaa44c1a69847fb344d5acebbd9b714",
+  "wrapper_sha256": "5e6f616018f631782ee5138b8c5bc47bbc38587786dcebd180d7032fdc225c49",
+  "groups_sha256": "cf969b18c670140e662780936da55356bd24d1c8ce746959b461ba5acab5d444",
+  "target_modules": [
+    "OAI.NumberTheory.DirichletL.Moments.UniformHeightSourcePlainMarkedLowKappa"
+  ],
+  "selected_roots": [
+    "OAI.SevenEighths.UniformHeightSourcePlainMarkedLowKappa.exists_degrees_height_before_finite_family"
+  ],
+  "public_evidence_label": "uniform-height1",
+  "scope": "One new canonical authored source field: terminal degree/S, detector control degree and positive common height exponent chosen before arbitrary finite eta/Q families; for each family the same positive constant and eventual Z threshold work before every smaller positive tauPrime<=tau. All source profile, radial state, arithmetic/calibration, row lower bounds, native beta/kappa, slot mesh, coprime-prime, external Re=17/50, height and moving plain capacity gates remain explicit in full types. Only the actual plain-marked field is supplied; complete SourceMomentsAt/RawMomentInput, the four-field Moments record, counts/probe and improved unconditional zero-free assembly remain pending. Private Candidate records and older88 selected roots are distinct; exact unused imported PNTA holes remain disclosed and absent from the selected kernel export.",
+  "previous88_roots_retested": false
+}

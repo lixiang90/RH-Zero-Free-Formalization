@@ -47,7 +47,7 @@ reference and reflected-row APIs. The old detector theorem with its fixed
 2/27 conclusion is outside this plain extension and is not weakened.
 
 The complete patched chain passed actual compilation. The final controller
-record contains 2274 successful custom dependency modules and 30 targets,
+record contains 2275 successful custom dependency modules and 31 targets,
 with no failed or pending modules. A fresh four-root independent replay checks
 actual_successor, certified_bands, terminal_certificate and certified_terminal.
 The latter exposes actual ZeroAt/PositiveAt with its terminal CertifiedBand
@@ -56,7 +56,7 @@ Their complete printed types and transitive axioms retain the actual family
 supremum and arithmetic data. Separate reflection, reference-state and low-branch
 geometry scopes bring the independently selected upstream declarations to 22;
 21 belong to modified modules and one to an unchanged upstream interface.
-These are distinct from the 88 authored roots and from the primary library.
+These are distinct from the 89 authored roots and from the primary library.
 The primary 4.33.0-rc2 proof record does not certify these 4.34.1 targets.
 
 The checked arithmetic low-kappa certificate must now be instantiated

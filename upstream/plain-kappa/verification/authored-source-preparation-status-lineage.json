@@ -1,10 +1,10 @@
 {
-  "historical_source_preparation_record": "source-preparation-authored27-marked-supply.json",
-  "historical_source_preparation_record_sha256": "f7bc20225360452a139ce40418f247b9e31d6e41275bdd0ea594c2d66882c9c9",
-  "historical_extension_manifest_sha256": "737b7972ca3add29fb6784f31b76ca3d9542ce1aca7674464e84472b221d284d",
-  "current_extension_manifest_sha256": "c31a1c7db5a2f927455e28b02d8af2083bf70c75b8d5d555eafdcc6604913604",
-  "historically_prepared_authored_source_count": 27,
-  "current_authored_source_count": 27,
+  "historical_source_preparation_record": "source-preparation-authored28-uniform-height.json",
+  "historical_source_preparation_record_sha256": "bfee76430382a1a38b1c357ed3be9bcd73c69494ef500856342cfaf5b92507e2",
+  "historical_extension_manifest_sha256": "ed42cdb69f1421d2a8cd2c4fc0869a290eab858d69e66237308acdd01857926a",
+  "current_extension_manifest_sha256": "e218deff999298c496b5a2301632a0108669f0bdc3659c510c2a450c62d05adc",
+  "historically_prepared_authored_source_count": 28,
+  "current_authored_source_count": 28,
   "current_source_payloads_all_match_last_successful_preparation": true,
   "authored_source_payloads_pending_new_preparation": [],
   "update_scope": "Verification status/evidence is separate from source preparation. Previous preparation records remain historical exact inputs; new or proof-repaired source payloads require their own refreshed preparation fixture."

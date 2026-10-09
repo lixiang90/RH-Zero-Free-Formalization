@@ -87,9 +87,11 @@ the source Batch for arbitrary positive total length from the actual detector
 and row gates. Finite-label PositiveAt constants and deterministic height
 absorption are proved. EventualFiniteSourcePlainMarkedLowKappa now constructs
 the actual state and PositiveAt and proves the fixed finite-family marked
-field under its genuine row/slot/prime/height gates. The source-specific
-universal Batch wrapper and a common height chosen before all characters
-remain to be assembled; inverse_raw, inverse_marked and plain_unmarked
+field under its genuine row/slot/prime/height gates.
+UniformHeightSourcePlainMarkedLowKappa also chooses the terminal/profile
+degrees and common height before every finite character/ideal family for
+fixed slots. The source-specific universal Batch wrapper and loss-before-slot
+allocation remain to be assembled; inverse_raw, inverse_marked and plain_unmarked
 also remain separate requirements. UniformDegreePositiveAtLowKappa proves
 the native degree/seminorm set can be fixed before all characters and ideals.
 2. The flexible compensated probe for new lx, ly, h and e, including its

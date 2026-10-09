@@ -1,14 +1,14 @@
 {
   "path_base": "repository_root",
-  "scope": "Root-owned repository README and documentation include all60 exact-byte finite-row audit artifacts, finite-row integration, and the 18-file source-wrapper quantifier/gates ledger with14 quoted raw Lean sources. These documents are outside the capsule directory; hashes are separate from capsule-relative artifacts and include ignored logs as exact bytes. Source audits do not make their uncompiled branches proof results. Current mathematical scope is authored28/89 with separate selected upstream22 and external Rellich54.",
+  "scope": "Root-owned repository README and documentation include all60 exact-byte finite-row audit artifacts, finite-row integration, and the 18-file source-wrapper quantifier/gates ledger with14 quoted raw Lean sources. These documents are outside the capsule directory; hashes are separate from capsule-relative artifacts and include ignored logs as exact bytes. Source audits do not make their uncompiled branches proof results. Current mathematical scope is authored27/88 with separate selected upstream22 and external Rellich54.",
   "artifacts": {
     "README.md": {
-      "bytes": 8314,
-      "sha256": "5f2aaedaebd7527d93dbc4c7c2ec02a650ade41d1e6b558469ae7184d3d32e9e"
+      "bytes": 8093,
+      "sha256": "f0c79268d4ab6885587735a344e85e4ae9b84a559194f376685e96bebac2f18d"
     },
     "docs/arithmetic-integration.md": {
-      "bytes": 10242,
-      "sha256": "4b8f56a2147c620c6b256dec8020a8ebe9181d32da6600fd7763a2afe7c16b83"
+      "bytes": 10016,
+      "sha256": "35627d93307162d16768e598da23e37b2b4f1987a0b065dade3e7b87894139bc"
     },
     "docs/finite-row-energy-audit/FinitePositiveRowDomination.candidate.lean": {
       "bytes": 2951,
@@ -251,8 +251,8 @@
       "sha256": "5bf07ed42ea9380777bc4c9424173b99a8e355a8a2731ef8eda1fdb5b68e99bc"
     },
     "docs/finite-row-energy-integration.zh.md": {
-      "bytes": 9830,
-      "sha256": "cae7a2eebfd4e4f5dfbc3395367368deef9c67afcaa0a27707ee28a851723d10"
+      "bytes": 9166,
+      "sha256": "cb84d449db3dfeea39290b97095e5a20d861a7079bd58ede9cee6f3ab30b3a84"
     },
     "docs/marked-moment-audit/IdentityClassCoefficient.lean.raw-source.json": {
       "bytes": 1750,
@@ -276,7 +276,7 @@
     },
     "docs/plain-kappa-extension.md": {
       "bytes": 5168,
-      "sha256": "d7dfa0bd2c0b6be38a5b420b6a3d7b81c15779f2836dbfdb08b670099ccb3e53"
+      "sha256": "ca454611799e3a9ac070a6a4cc7ae46cca22fa1d00fe216b82f6378183247d6a"
     },
     "docs/pnta-normalizer-audit/README.md": {
       "bytes": 1320,
@@ -307,8 +307,8 @@
       "sha256": "bd6aa8dfb869d8615b18bba06f942ce5cfd8502394aa8a03f29808dabc4831ec"
     },
     "docs/proof-status.md": {
-      "bytes": 8792,
-      "sha256": "9aa2ccb3b42f09d21ae4c03f00ce6de7dcb7f88d5966b5d0a7ab3f886e7d6ba8"
+      "bytes": 8648,
+      "sha256": "eb39fd3c755ad33a230d47b9136ab3f934d3dc7e842cda12356a6a63926cecf6"
     },
     "docs/source-plain-wrapper-audit/README.md": {
       "bytes": 1067,

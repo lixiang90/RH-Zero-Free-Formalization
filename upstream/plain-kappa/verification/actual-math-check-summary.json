@@ -1543,6 +1543,54 @@
         "blocked_name_occurrences": [],
         "selected_export_contains_neither_unproved_auxiliaries_nor_sorryAx": true
       }
+    },
+    "OAI.NumberTheory.DirichletL.Moments.UniformHeightSourcePlainMarkedLowKappa": {
+      "origin": "authored",
+      "selected_declaration_count": 1,
+      "selected_declarations": [
+        "OAI.SevenEighths.UniformHeightSourcePlainMarkedLowKappa.exists_degrees_height_before_finite_family"
+      ],
+      "joint_replay_selected_root_count": 1,
+      "scope": "One new canonical authored source field: terminal degree/S, detector control degree and positive common height exponent chosen before arbitrary finite eta/Q families; for each family the same positive constant and eventual Z threshold work before every smaller positive tauPrime<=tau. All source profile, radial state, arithmetic/calibration, row lower bounds, native beta/kappa, slot mesh, coprime-prime, external Re=17/50, height and moving plain capacity gates remain explicit in full types. Only the actual plain-marked field is supplied; complete SourceMomentsAt/RawMomentInput, the four-field Moments record, counts/probe and improved unconditional zero-free assembly remain pending. Private Candidate records and older88 selected roots are distinct; exact unused imported PNTA holes remain disclosed and absent from the selected kernel export.",
+      "actual_custom_closure_count": 2253,
+      "source_sha256": "7f0e0c3b043356c07e583f925a35452ae9298206cbb5579fae45f152eea7113a",
+      "independent_replay_record": "uniform-height1/strict-replay-result.json",
+      "independent_replay_record_sha256": "07a02b13a04ac47eda4456775f4fadf780b0a8f7e45e09789abd2b733dcd327d",
+      "complete_types_and_only_standard_axioms": true,
+      "actual_selected_source_artifact_state_unchanged": true,
+      "independent_kernel_replay_passed": true,
+      "known_unproved_imported_auxiliaries": [
+        {
+          "module": "PrimeNumberTheoremAnd.Wiener",
+          "package_url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd.git",
+          "package_pin": "c39a751132c88b6e8080b74c74023fd95b3d8be0",
+          "raw_actual_source_sha256": "963151c22caeb12f5c203ae944961629bfe7840915519255d79220f415ca0fbf",
+          "canonical_lf_sha256": "7bd40c9cffedc1d9a0f675ea971c6719e490b1b106807459d549145f30d70f05",
+          "unproved_auxiliary_declarations": [
+            "prelim_decay_2",
+            "prelim_decay_3"
+          ],
+          "allowed_exact_warning_lines": [
+            "PrimeNumberTheoremAnd/Wiener.lean:325:8: warning: declaration uses `sorry`",
+            "PrimeNumberTheoremAnd/Wiener.lean:344:8: warning: declaration uses `sorry`"
+          ],
+          "only_unselected_imported_auxiliary_warnings_allowed": true,
+          "whole_import_environment_hole_free": false,
+          "source_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\PrimeNumberTheoremAnd\\PrimeNumberTheoremAnd\\Wiener.lean",
+          "actual_build_log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-124959-bounded8v2\\PrimeNumberTheoremAnd.Wiener.log",
+          "actual_build_log_sha256": "9f2053e32670eaf6fec71f7d61eed19e8cb600d083c1f013839db576945cbdcc"
+        }
+      ],
+      "selected_export_unproved_auxiliary_absence_audit": {
+        "export_sha256": "7726590417d61d8780e1d6a5b37ff62b47d1b69b2ab1936c66e210bb45c46384",
+        "blocked_global_names": [
+          "prelim_decay_2",
+          "prelim_decay_3",
+          "sorryAx"
+        ],
+        "blocked_name_occurrences": [],
+        "selected_export_contains_neither_unproved_auxiliaries_nor_sorryAx": true
+      }
     }
   },
   "separate_previous_slot_root_count": 0,

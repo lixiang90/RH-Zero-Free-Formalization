@@ -1,6 +1,6 @@
 {
   "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
-  "status": "all_28_authored_modules_and_89_selected_declarations_independently_verified_full_analytic_supply_pending",
+  "status": "frozen_sources_27_modules_88_roots_checked_1_new_canonical_module_and_root_pending",
   "origin": "authored_extension",
   "files": [
     {
@@ -683,21 +683,13 @@
       "origin": "authored_extension",
       "git_blob": null,
       "author": "Li Xiang / lixiang90",
-      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "status": "canonical_prepared_not_actual_compiled_or_independently_replayed",
       "raw_actual_source_sha256": "7f0e0c3b043356c07e583f925a35452ae9298206cbb5579fae45f152eea7113a",
       "canonical_lf_sha256": "7f0e0c3b043356c07e583f925a35452ae9298206cbb5579fae45f152eea7113a",
-      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "raw_source_scope": "frozen prepared canonical input; actual source-controller and independent replay still required",
       "installation_owner": "plain_range_graph",
       "candidate_independent_audit_is_distinct_from_actual_module": true,
-      "scope": "Native terminal degree, seminorm set, detector profile degree and positive height exponent are chosen before arbitrary finite eta/Q families; family-specific positive constant and Z threshold before every smaller positive height exponent tauPrime<=tau. Supplies a genuine eventual source plain-marked field with all source/arithmetic/calibration/profile/slot/prime/external/height/capacity/global-beta/moving-kappa gates explicit. One field only; complete SourceMomentsAt/RawMomentInput, the four-field Moments record, counting/probe and improved unconditional zero-free assembly remain pending.",
-      "independent_replay_record": "../verification/uniform-height1/strict-replay-result.json",
-      "independent_replay_record_sha256": "07a02b13a04ac47eda4456775f4fadf780b0a8f7e45e09789abd2b733dcd327d",
-      "independently_replayed_declarations": [
-        "OAI.SevenEighths.UniformHeightSourcePlainMarkedLowKappa.exists_degrees_height_before_finite_family"
-      ],
-      "independently_replayed_declaration_count": 1,
-      "joint_replay_selected_root_count": 1,
-      "imported_environment_contains_known_unproved_auxiliaries": true
+      "scope": "Native terminal degree, seminorm set, detector profile degree and positive height exponent are chosen before arbitrary finite eta/Q families; family-specific positive constant and Z threshold before every smaller positive height exponent tauPrime<=tau. Supplies a genuine eventual source plain-marked field with all source/arithmetic/calibration/profile/slot/prime/external/height/capacity/global-beta/moving-kappa gates explicit. One field only; complete SourceMomentsAt/RawMomentInput, the four-field Moments record, counting/probe and improved unconditional zero-free assembly remain pending."
     }
   ],
   "targets": [

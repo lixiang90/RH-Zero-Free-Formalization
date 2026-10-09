@@ -56,7 +56,9 @@ FiniteLabelPositiveAtLowKappa 的已验类型先固定有限 eta/Q maps，再存
 
 PlainMarkedAdmissionLowKappa 已从真实容量 2m+6*kappaPlain*sum(widths)<=1 和 kappaEnergy<=kappaPlain 推出原生能量容量。F.lengths 供给 m>=0；kappaPlain>=0 进一步给 m<=1/2，再由 d/2<=L 供给真实多项式长度 cap。
 
-EventualFiniteSourcePlainMarkedLowKappa 对固定有限 eta/Q 族实际构造 PositiveAt 与 NaturalState，统一正 Ctotal=max(1,C*Cp^4*diagonalControl(Phi)*2^(degree+4J)) 和 atTop 阈值，供给所有满足行下界、source 字典、共同 profile/upper、互素、scaled mesh、external.re=17/50 与高度条件的 fiber 的 marked 上界。rho 在 Mcap-dmax 的正余量内选择；tau 随后支付精确 2*tau*(degree+4J) 费用。该族仍在 degree/J/tau 之前固定，完整 SourceMomentsAt 全称包装尚未供给。
+EventualFiniteSourcePlainMarkedLowKappa 对固定有限 eta/Q 族实际构造 PositiveAt 与 NaturalState，统一正 Ctotal=max(1,C*Cp^4*diagonalControl(Phi)*2^(degree+4J)) 和 atTop 阈值，供给所有满足行下界、source 字典、共同 profile/upper、互素、scaled mesh、external.re=17/50 与高度条件的 fiber 的 marked 上界。rho 在 Mcap-dmax 的正余量内选择；tau 随后支付精确 2*tau*(degree+4J) 费用。该定理的族仍在 degree/J/tau 之前固定，完整 SourceMomentsAt 全称包装尚未供给。
+
+UniformHeightSourcePlainMarkedLowKappa 已独立核验真正更强的顺序：固定 Slot 后，先选择 rho/epsilon_E、degree/J 和共同正 tau，再对任意有限 eta/Q maps 选择 Phi 与正 Ctotal。这个 Ctotal 和同一个 atTop 阈值先于所有 0<tau_prime<=tau，预算由单调性支付；它没有把原弱有限族定理的存在量词交换。该结论只供给 one-field 和有上限的高度范围，不等于完整 RawMomentInput 的四字段及任意 tau<=1。
 
 取 selected 为空只能给 2m<=1 下的无槽估计；真实 Fiber.lengths 允许 m<=1/2+75*epsilon，完整 plain_unmarked 的 max(1,2m) 范围须另行证明。
 
@@ -66,7 +68,7 @@ EventualFiniteSourcePlainMarkedLowKappa 对固定有限 eta/Q 族实际构造 Po
 
 1. 用已证明的 ActualSourceBatchTotal 作用于实际保留行与 detector maxima，供给其校准、行增长、margin 和 mesh 条件。再证明共同窗口与 upper、素理想互素和实际 external 的界。
 2. 将已证明的固定有限族 marked 字段接到所有匹配 source 字典的 q、Batch 与非空 fiber。需要保留 β≥51/100、κTerminal≥37/50、2β−1≤κTerminal，以及 internalQ 的实际条件。κPlain 的 padding 与 terminal κ 要满足真实容量比较。
-3. 利用已证明的原生 degree/S-before-eta/Q 供给，固定 profile 的 J，并在所有 source 字符之前选择共同高度指数 h，使
+3. 将已证明的固定 Slot 共同高度接到实际 source 构造，保留损耗 epsilon_E -> energy fineMesh -> N/ell -> Slot=Fin N -> degree/J/tau 的顺序。槽数量依 mesh 选择，因此还须在源装配中证明损耗先于 Slot，而不能交换现有类型中的存在量词。共同高度预算仍为
 
        ρ + εE + h*(degree+4J) ≤ dmin*εm.
 
