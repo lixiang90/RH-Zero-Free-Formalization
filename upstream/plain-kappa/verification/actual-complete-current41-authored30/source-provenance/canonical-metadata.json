@@ -1,0 +1,74 @@
+{
+  "status": "two_reviewed_canonical_sources_prepared_awaiting_public_fixture_and_sole_installation",
+  "published_baseline_head": "a4a7007d77b2c277f489a524854a7cdf7f25b654",
+  "state_sha256_before": "43cc7199277bf238816dfbe0c1af4bdba21c2c30fc39b8f05c6974d84a861e39",
+  "state_sha256_after": "43cc7199277bf238816dfbe0c1af4bdba21c2c30fc39b8f05c6974d84a861e39",
+  "files": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh",
+      "path": "OAI/NumberTheory/DirichletL/Moments/GenericSourceIdealAndMesh.lean",
+      "source": "E:\\codex-build\\RH-Weil\\tmp\\generic-losses-supply-phase-20261009\\GenericSourceIdealAndMesh.lean",
+      "sha256": "2a0fec6b6d42a2caeaaad8c30d73eefd8fcb46de2cf313f9b231661995346840",
+      "bytes": 4421,
+      "namespace": "OAI.SevenEighths.GenericSourceIdealAndMesh",
+      "roots": [
+        "OAI.SevenEighths.GenericSourceIdealAndMesh.source_fixed_ideal_gates",
+        "OAI.SevenEighths.GenericSourceIdealAndMesh.exists_source_slots_for_both_meshes",
+        "OAI.SevenEighths.GenericSourceIdealAndMesh.batch_fiber_absolute_slot_width"
+      ],
+      "imports": [
+        "OAI.NumberTheory.DirichletL.Moments.DetectorDictionarySource",
+        "OAI.NumberTheory.DirichletL.Moments.NaturalFixedRaySourceInternal",
+        "OAI.NumberTheory.DirichletL.Hecke.DetectorBatch",
+        "OAI.NumberTheory.DirichletL.ParametersSlotLengthsLowKappa"
+      ],
+      "private_source": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-wrapper-audit-20261009\\GenericSourceIdealAndMesh.candidate.lean",
+      "private_source_sha256": "5620f202de656bdb18382900e48cb569fc1a143a639b7f17776a261a550bad88",
+      "normalization": "Only initial copyright/content header and namespace/end identifiers changed; declarations and proof bodies byte-identical after reversing the namespace substitution.",
+      "status": "reviewed_normalized_prepared_not_installed_or_compiled"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/LossesBeforeSlotSourcePlainMarkedLowKappa.lean",
+      "source": "E:\\codex-build\\RH-Weil\\tmp\\generic-losses-supply-phase-20261009\\LossesBeforeSlotSourcePlainMarkedLowKappa.lean",
+      "sha256": "d5b1e7b5be2f5aae02fc27b210d62cce3341b5a6a67a1f8490dca4599f3d42d4",
+      "bytes": 10241,
+      "namespace": "OAI.SevenEighths.LossesBeforeSlotSourcePlainMarkedLowKappa",
+      "roots": [
+        "OAI.SevenEighths.LossesBeforeSlotSourcePlainMarkedLowKappa.exists_losses_before_slots_degrees_height_and_finite_family"
+      ],
+      "imports": [
+        "OAI.NumberTheory.DirichletL.Energy.UniformDegreePositiveAtLowKappa",
+        "OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa",
+        "OAI.NumberTheory.DirichletL.Moments.FiniteRowNaturalState"
+      ],
+      "private_source": "E:\\codex-build\\RH-Weil\\tmp\\losses-before-slot-source-20261009\\LossesBeforeSlotSourcePlainMarked.candidate.lean",
+      "private_source_sha256": "fe5a9b071ae43075e305d85005f98f1ab193743d284e8f3145424a950b9b8834",
+      "normalization": "Only initial copyright/content header and namespace/end identifiers changed; declarations and proof bodies byte-identical after reversing the namespace substitution.",
+      "status": "reviewed_normalized_prepared_not_installed_or_compiled"
+    }
+  ],
+  "new_source_count": 2,
+  "new_root_count": 4,
+  "expected_total_authored_sources": 30,
+  "expected_total_authored_roots": 93,
+  "targets_file": "E:\\codex-build\\RH-Weil\\tmp\\generic-losses-supply-phase-20261009\\next-33-targets.json",
+  "targets_raw_sha256": "8626836a2ae00712538987aca9696748ce67243b95f0d6fdc0348035f4eb93e4",
+  "target_count": 33,
+  "original_custom_plan_sha256": "6d1b3babba8b7d1109ccf789946cd7d633247eafb5fe04454b99efb36439aee3",
+  "read_only_union_plan": {
+    "custom_modules": 2277,
+    "cached_frontier": 282,
+    "new_custom_modules": [
+      "OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh",
+      "OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa"
+    ],
+    "new_original_sources": 0,
+    "all_new_direct_imports_already_passed": true,
+    "actual_driver_plan_must_confirm_at_build": true
+  },
+  "lean_invoked": false,
+  "canonical_workcopy_installed": false,
+  "state_modified": false,
+  "public_manifest_modified": false
+}

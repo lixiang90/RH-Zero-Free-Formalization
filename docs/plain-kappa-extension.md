@@ -47,7 +47,7 @@ reference and reflected-row APIs. The old detector theorem with its fixed
 2/27 conclusion is outside this plain extension and is not weakened.
 
 The complete patched chain passed actual compilation. The final controller
-record contains 2275 successful custom dependency modules and 31 targets,
+record contains 2279 successful custom dependency modules and 35 targets,
 with no failed or pending modules. A fresh four-root independent replay checks
 actual_successor, certified_bands, terminal_certificate and certified_terminal.
 The latter exposes actual ZeroAt/PositiveAt with its terminal CertifiedBand
@@ -56,7 +56,7 @@ Their complete printed types and transitive axioms retain the actual family
 supremum and arithmetic data. Separate reflection, reference-state and low-branch
 geometry scopes bring the independently selected upstream declarations to 22;
 21 belong to modified modules and one to an unchanged upstream interface.
-These are distinct from the 89 authored roots and from the primary library.
+These are distinct from the 96 authored roots and from the primary library.
 The primary 4.33.0-rc2 proof record does not certify these 4.34.1 targets.
 
 The checked arithmetic low-kappa certificate must now be instantiated
@@ -68,8 +68,9 @@ for the cubic algebra and feedback; the arithmetic choice is kappa=2*beta-1
 the required moving range 37/50<=kappa<=3/4, where that bootstrap is supplied.
 The new parameter lemma keeps beta<=7/8 explicit; it does not prove the
 bootstrap. The original pinned FinalAssemblyUnconditional source does
-construct the unconditional 7/8 arithmetic package; its extra 711-module
-closure has not been compiled or independently checked by this capsule.
+construct the unconditional 7/8 arithmetic package; the historical source
+audit identified an extra 711-module closure. The full bootstrap has not
+been compiled or independently checked by this capsule.
 The terminal certificate itself needs no kappa upper bound, while
 some downstream detector-count branches do. A supremum of the single Riemann
 zeta function cannot replace the Hecke-family supremum in this certificate.

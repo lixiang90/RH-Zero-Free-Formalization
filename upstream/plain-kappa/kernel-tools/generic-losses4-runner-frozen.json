@@ -1,0 +1,19 @@
+{
+  "status": "prepared_waiting_actual_canonical_compile_before_any_replay",
+  "runner_sha256": "e9cc518136e68b1b8af6f11010d561e6baaa44c1a69847fb344d5acebbd9b714",
+  "wrapper_sha256": "02853d7aa94768599d6de17ba9c2dd72c9f7dbd9a5720ec11ed74af03832e28d",
+  "groups_sha256": "8f760eb71f31e2bf1a25f57fd936baf4c1b8c40495ae3a47d788aaaa98902e60",
+  "target_modules": [
+    "OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh",
+    "OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa"
+  ],
+  "selected_roots": [
+    "OAI.SevenEighths.GenericSourceIdealAndMesh.source_fixed_ideal_gates",
+    "OAI.SevenEighths.GenericSourceIdealAndMesh.exists_source_slots_for_both_meshes",
+    "OAI.SevenEighths.GenericSourceIdealAndMesh.batch_fiber_absolute_slot_width",
+    "OAI.SevenEighths.LossesBeforeSlotSourcePlainMarkedLowKappa.exists_losses_before_slots_degrees_height_and_finite_family"
+  ],
+  "public_evidence_label": "generic-losses4",
+  "scope": "Four new canonical source helpers: actual fixed ideal/internalQ gates, arbitrary positive total slot construction meeting batch/physical/energy meshes, exact absolute width for an actual nonempty batch fiber, and a genuine eventual source plain-marked field choosing scalar losses before every finite Slot. Degree/J/common height may depend on Slot but precede finite arithmetic maps; each family has a common positive constant and Z threshold before every smaller positive height. All beta/kappa/source/profile/row/prime/slot/external/height/plain-capacity gates are retained in complete types. Full SourceMomentsAt/RawMomentInput, remaining three fields, counts/probe and improved unconditional zero-free assembly remain pending. Private Candidate evidence and older89 roots are distinct; exact unused imported PNTA holes are disclosed and prohibited in selected exports.",
+  "previous89_roots_retested": false
+}

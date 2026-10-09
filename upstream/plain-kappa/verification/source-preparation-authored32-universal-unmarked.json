@@ -1,0 +1,457 @@
+{
+  "upstream_repo": "https://github.com/openai/math",
+  "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "tool_source_sha256": "8140aa48ac70e197d8d8c93ffc49df9e3dac49a20b347bc8657b182783fc5851",
+  "original_upstream_module_count": 2217,
+  "authored_extension_module_count": 32,
+  "extension_manifest_sha256": "44e13fdfaa20004f078cc3b7e9765c6499a641be980abee2823a1a89d28aaf5d",
+  "targets": [
+    "OAI.NumberTheory.DirichletL.Moments.ReflectionRetainedLength",
+    "OAI.NumberTheory.DirichletL.Energy.CertifiedExistence",
+    "OAI.NumberTheory.DirichletL.Detector.SourceBatch",
+    "OAI.NumberTheory.DirichletL.Detector.GlobalRegionLowKappa",
+    "OAI.NumberTheory.DirichletL.Detector.GlobalCorrectionLowKappa",
+    "LowKappaParameters",
+    "OAI.NumberTheory.DirichletL.ParametersSlotLengthsLowKappa",
+    "OAI.NumberTheory.DirichletL.Detector.GlobalSourceCorrectionExistenceLowKappa",
+    "OAI.NumberTheory.DirichletL.PrincipalSignalScalingLowKappa",
+    "OAI.NumberTheory.DirichletL.Hecke.DirichletLowKappa",
+    "OAI.NumberTheory.DirichletL.Detector.LowSourceScalesLowKappa",
+    "OAI.NumberTheory.DirichletL.PrimeRows.CubeNormalizerLowKappa",
+    "OAI.NumberTheory.DirichletL.PrincipalSlotEstimateLowKappa",
+    "OAI.NumberTheory.DirichletL.PrincipalSignalComparisonLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.RayIdentityClassCoefficient",
+    "OAI.NumberTheory.DirichletL.Moments.FinitePositiveRowDomination",
+    "OAI.NumberTheory.DirichletL.Moments.FixedRadialRowDomination",
+    "OAI.NumberTheory.DirichletL.Moments.FiniteFamilyNonexceptional",
+    "OAI.NumberTheory.DirichletL.Moments.FiberRelativeEnergyBridge",
+    "OAI.NumberTheory.DirichletL.Hecke.FiniteSupportedWitnessRetraction",
+    "OAI.NumberTheory.DirichletL.Moments.FiniteRowNaturalState",
+    "OAI.NumberTheory.DirichletL.Moments.DetectorPairControl",
+    "OAI.NumberTheory.DirichletL.Detector.ArbitraryTotalSourceBatch",
+    "OAI.NumberTheory.DirichletL.Detector.ActualSourceBatchTotal",
+    "OAI.NumberTheory.DirichletL.Moments.FiberPositiveAtLowKappa",
+    "OAI.NumberTheory.DirichletL.Energy.FiniteLabelPositiveAtLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.MarkedHeightBudgetLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa",
+    "OAI.NumberTheory.DirichletL.Energy.UniformDegreePositiveAtLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.EventualFiniteSourcePlainMarkedLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.UniformHeightSourcePlainMarkedLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh",
+    "OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.SourcePlainMarkedUniversalLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.PlainUnmarkedAdmissionLowKappa"
+  ],
+  "patches": [
+    {
+      "file": "reviewed-pending.patch",
+      "sha256": "58ddc470f93afd26265525e78b951706ccb202839c6768f7ef39006af699dc42"
+    }
+  ],
+  "status": "prepared_pending_compile",
+  "independent_kernel_replay_completed": false,
+  "axiom_audit_completed": false,
+  "stages": [],
+  "external_compatibility": {
+    "status": "pending_install",
+    "manifest_sha256": "73a7ac87bd02f53415b1677426a9723cd73e75f89aa2b0de77b2aeb3c1c9d06c"
+  },
+  "execution_exit_code": 0,
+  "preparation_fixture": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\repro-final32-universal-unmarked-20261009",
+  "full_inventory_record_sha256": "2e3de44d56d9974b9e05b591d5ce7b8dcd8a1f9451757c7954521f8c74244d3b",
+  "full_inventory_bytes": 1506765,
+  "source_count": 2249,
+  "source_origins": {
+    "upstream_git_blob": 2217,
+    "authored_extension": 32
+  },
+  "original_upstream_OAI_module_count": 2217,
+  "authored_OAI_module_count": 31,
+  "authored_root_module_count": 1,
+  "source_inventory_omitted_from_public_record": true,
+  "authored_sources": {
+    "OAI.NumberTheory.DirichletL.Moments.PlainUnmarkedAdmissionLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/Moments/PlainUnmarkedAdmissionLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "ee2c5abf01b552e2c9a9893ebf5f2441238b040337a78db1379768ba6f0b494d",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Moments.FiberPositiveAtLowKappa",
+        "OAI.NumberTheory.DirichletL.Moments.MarkedHeightBudgetLowKappa",
+        "OAI.NumberTheory.DirichletL.Hecke.DetectorRawBranches"
+      ],
+      "modified_sha256": "ee2c5abf01b552e2c9a9893ebf5f2441238b040337a78db1379768ba6f0b494d"
+    },
+    "OAI.NumberTheory.DirichletL.Moments.MarkedHeightBudgetLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/Moments/MarkedHeightBudgetLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "418984fdc03c07ca74822e6874bf9a7baefe486421027656b60ac2007a7d31c5",
+      "baseline_imports": [
+        "Mathlib.Analysis.SpecialFunctions.Pow.Real",
+        "Mathlib.Tactic"
+      ],
+      "modified_sha256": "418984fdc03c07ca74822e6874bf9a7baefe486421027656b60ac2007a7d31c5"
+    },
+    "OAI.NumberTheory.DirichletL.Moments.FiberPositiveAtLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/Moments/FiberPositiveAtLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "4ddd9eb8ae83d8888db8c6d2fabb3e51262d307189ccbd9a779b0504d92bb4ef",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Moments.FiberRelativeEnergyBridge",
+        "OAI.NumberTheory.DirichletL.Moments.DetectorPairControl",
+        "OAI.NumberTheory.DirichletL.Energy.Bands"
+      ],
+      "modified_sha256": "4ddd9eb8ae83d8888db8c6d2fabb3e51262d307189ccbd9a779b0504d92bb4ef"
+    },
+    "OAI.NumberTheory.DirichletL.Moments.DetectorPairControl": {
+      "path": "OAI/NumberTheory/DirichletL/Moments/DetectorPairControl.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "e0d8ae544067df2e35384477bb56cbd1b60b29b54afb21e93fbc4c240368863c",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Moments.DetectorDictionaryUniformTests",
+        "OAI.NumberTheory.DirichletL.Moments.FiniteProfileExceptionalPair"
+      ],
+      "modified_sha256": "e0d8ae544067df2e35384477bb56cbd1b60b29b54afb21e93fbc4c240368863c"
+    },
+    "OAI.NumberTheory.DirichletL.Moments.FiberRelativeEnergyBridge": {
+      "path": "OAI/NumberTheory/DirichletL/Moments/FiberRelativeEnergyBridge.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "07b56b6a50f3898ee13155da18fc485753bce90dba84bbf0699bf3d48609ffba",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Moments.NaturalFixedRaySourceFiber",
+        "OAI.NumberTheory.DirichletL.Moments.RayIdentityClassCoefficient",
+        "OAI.NumberTheory.DirichletL.Moments.FinitePositiveRowDomination"
+      ],
+      "modified_sha256": "07b56b6a50f3898ee13155da18fc485753bce90dba84bbf0699bf3d48609ffba"
+    },
+    "OAI.NumberTheory.DirichletL.Moments.FinitePositiveRowDomination": {
+      "path": "OAI/NumberTheory/DirichletL/Moments/FinitePositiveRowDomination.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "16a3d4ce137a2552b8c569111d450e72a546673f840506758621bc53c2d0c848",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Moments.InductionEnergy",
+        "OAI.NumberTheory.DirichletL.Hecke.InverseAmplificationRows"
+      ],
+      "modified_sha256": "16a3d4ce137a2552b8c569111d450e72a546673f840506758621bc53c2d0c848"
+    },
+    "OAI.NumberTheory.DirichletL.Moments.RayIdentityClassCoefficient": {
+      "path": "OAI/NumberTheory/DirichletL/Moments/RayIdentityClassCoefficient.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "9235373ea53a25edba238947a5781a1951eb116c43adfd95a6929051846a43fb",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.RayQuotient"
+      ],
+      "modified_sha256": "9235373ea53a25edba238947a5781a1951eb116c43adfd95a6929051846a43fb"
+    },
+    "OAI.NumberTheory.DirichletL.Moments.SourcePlainMarkedUniversalLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/Moments/SourcePlainMarkedUniversalLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "c1e3b3832bda8e904853ebd68b8f555a09721980e3e35c2c8d1461ce695b12c7",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa",
+        "OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh",
+        "OAI.NumberTheory.DirichletL.Moments.DetectorDictionarySource"
+      ],
+      "modified_sha256": "c1e3b3832bda8e904853ebd68b8f555a09721980e3e35c2c8d1461ce695b12c7"
+    },
+    "OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh": {
+      "path": "OAI/NumberTheory/DirichletL/Moments/GenericSourceIdealAndMesh.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "2a0fec6b6d42a2caeaaad8c30d73eefd8fcb46de2cf313f9b231661995346840",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Moments.DetectorDictionarySource",
+        "OAI.NumberTheory.DirichletL.Moments.NaturalFixedRaySourceInternal",
+        "OAI.NumberTheory.DirichletL.Hecke.DetectorBatch",
+        "OAI.NumberTheory.DirichletL.ParametersSlotLengthsLowKappa"
+      ],
+      "modified_sha256": "2a0fec6b6d42a2caeaaad8c30d73eefd8fcb46de2cf313f9b231661995346840"
+    },
+    "OAI.NumberTheory.DirichletL.ParametersSlotLengthsLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/ParametersSlotLengthsLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "44075d6b503b9b7e03af86b11dd591141b539c64a9893be38228ddc1f410907c",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.ParametersSlotLengths"
+      ],
+      "modified_sha256": "44075d6b503b9b7e03af86b11dd591141b539c64a9893be38228ddc1f410907c"
+    },
+    "OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/Moments/LossesBeforeSlotSourcePlainMarkedLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "d5b1e7b5be2f5aae02fc27b210d62cce3341b5a6a67a1f8490dca4599f3d42d4",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Energy.UniformDegreePositiveAtLowKappa",
+        "OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa",
+        "OAI.NumberTheory.DirichletL.Moments.FiniteRowNaturalState"
+      ],
+      "modified_sha256": "d5b1e7b5be2f5aae02fc27b210d62cce3341b5a6a67a1f8490dca4599f3d42d4"
+    },
+    "OAI.NumberTheory.DirichletL.Moments.FiniteRowNaturalState": {
+      "path": "OAI/NumberTheory/DirichletL/Moments/FiniteRowNaturalState.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "f2c1ec843235fc5d2524afa005abfc14c80cce6b82f11383481bd8cbbb93a2ef",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Moments.FiniteFamilyNonexceptional",
+        "OAI.NumberTheory.DirichletL.Energy.FixedRadialSource",
+        "OAI.NumberTheory.DirichletL.Energy.State"
+      ],
+      "modified_sha256": "f2c1ec843235fc5d2524afa005abfc14c80cce6b82f11383481bd8cbbb93a2ef"
+    },
+    "OAI.NumberTheory.DirichletL.Moments.FiniteFamilyNonexceptional": {
+      "path": "OAI/NumberTheory/DirichletL/Moments/FiniteFamilyNonexceptional.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "b2c4cfda56d10ec425eb673aae7d18265e1e793184d951e8514add3dd07a9498",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Hecke.ExceptionalRows",
+        "OAI.NumberTheory.DirichletL.Hecke.InverseAmplificationRows"
+      ],
+      "modified_sha256": "b2c4cfda56d10ec425eb673aae7d18265e1e793184d951e8514add3dd07a9498"
+    },
+    "OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/Moments/PlainMarkedAdmissionLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "9241a17be41bbd52bcf7aef2a1ad24cf47165e11cb52af8a129977ca1c0292f9",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Moments.FiberPositiveAtLowKappa",
+        "OAI.NumberTheory.DirichletL.Moments.MarkedHeightBudgetLowKappa",
+        "OAI.NumberTheory.DirichletL.Hecke.DetectorRawBranches"
+      ],
+      "modified_sha256": "9241a17be41bbd52bcf7aef2a1ad24cf47165e11cb52af8a129977ca1c0292f9"
+    },
+    "OAI.NumberTheory.DirichletL.Energy.UniformDegreePositiveAtLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/Energy/UniformDegreePositiveAtLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "aa4b6ef991ef8d40bebbc02ed0ed24f5c3c0674ac555183e5003ad4295434871",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Energy.CertifiedExistence"
+      ],
+      "modified_sha256": "aa4b6ef991ef8d40bebbc02ed0ed24f5c3c0674ac555183e5003ad4295434871"
+    },
+    "OAI.NumberTheory.DirichletL.Moments.UniformHeightSourcePlainMarkedLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/Moments/UniformHeightSourcePlainMarkedLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "7f0e0c3b043356c07e583f925a35452ae9298206cbb5579fae45f152eea7113a",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Energy.UniformDegreePositiveAtLowKappa",
+        "OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa",
+        "OAI.NumberTheory.DirichletL.Moments.FiniteRowNaturalState"
+      ],
+      "modified_sha256": "7f0e0c3b043356c07e583f925a35452ae9298206cbb5579fae45f152eea7113a"
+    },
+    "OAI.NumberTheory.DirichletL.Moments.EventualFiniteSourcePlainMarkedLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/Moments/EventualFiniteSourcePlainMarkedLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "67c70cbb2613930b240781f124b146dad4e34a4aa697404c7069436199bd17b1",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Energy.FiniteLabelPositiveAtLowKappa",
+        "OAI.NumberTheory.DirichletL.Moments.FiniteRowNaturalState",
+        "OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa"
+      ],
+      "modified_sha256": "67c70cbb2613930b240781f124b146dad4e34a4aa697404c7069436199bd17b1"
+    },
+    "OAI.NumberTheory.DirichletL.Energy.FiniteLabelPositiveAtLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/Energy/FiniteLabelPositiveAtLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "f17d8075f9bc3edb83cf44e0bcb5308e5bc6639ea3408bd25f506988640d804b",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Energy.CertifiedExistence"
+      ],
+      "modified_sha256": "f17d8075f9bc3edb83cf44e0bcb5308e5bc6639ea3408bd25f506988640d804b"
+    },
+    "OAI.NumberTheory.DirichletL.Detector.ActualSourceBatchTotal": {
+      "path": "OAI/NumberTheory/DirichletL/Detector/ActualSourceBatchTotal.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "aca72c6cc970e283a7054fe4b7250c5b741e95b1e9b134722d067a219eab6116",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Detector.ArbitraryTotalSourceBatch",
+        "OAI.NumberTheory.DirichletL.PrimeRows.CubeSupportedWitness"
+      ],
+      "modified_sha256": "aca72c6cc970e283a7054fe4b7250c5b741e95b1e9b134722d067a219eab6116"
+    },
+    "OAI.NumberTheory.DirichletL.Detector.ArbitraryTotalSourceBatch": {
+      "path": "OAI/NumberTheory/DirichletL/Detector/ArbitraryTotalSourceBatch.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "65360fb7aa6f34916553142ee24f67ce91c3c35cbe4a141c9d21846fb6023f97",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Detector.DetectorBatch"
+      ],
+      "modified_sha256": "65360fb7aa6f34916553142ee24f67ce91c3c35cbe4a141c9d21846fb6023f97"
+    },
+    "OAI.NumberTheory.DirichletL.Hecke.FiniteSupportedWitnessRetraction": {
+      "path": "OAI/NumberTheory/DirichletL/Hecke/FiniteSupportedWitnessRetraction.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "3a509c28a4000af83087fbb1bde4a00437b7cb295c56e8b89e64eb1772db30c2",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Hecke.DetectorSupportedWitness",
+        "OAI.NumberTheory.DirichletL.Hecke.InverseAmplificationRows"
+      ],
+      "modified_sha256": "3a509c28a4000af83087fbb1bde4a00437b7cb295c56e8b89e64eb1772db30c2"
+    },
+    "OAI.NumberTheory.DirichletL.Moments.FixedRadialRowDomination": {
+      "path": "OAI/NumberTheory/DirichletL/Moments/FixedRadialRowDomination.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "62bd2c98bb69d70e6939650bf53a898de1e3891e2b67baf5ac3b2d1fbef89ae2",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Energy.FixedRadialSource"
+      ],
+      "modified_sha256": "62bd2c98bb69d70e6939650bf53a898de1e3891e2b67baf5ac3b2d1fbef89ae2"
+    },
+    "OAI.NumberTheory.DirichletL.PrincipalSignalComparisonLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/PrincipalSignalComparisonLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "35877a0db17a93d77f7b4f144f1b492cda3d411bb1185d8b6200858a638fa9be",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.PrincipalSignalComparison",
+        "OAI.NumberTheory.DirichletL.PrincipalSlotEstimateLowKappa"
+      ],
+      "modified_sha256": "35877a0db17a93d77f7b4f144f1b492cda3d411bb1185d8b6200858a638fa9be"
+    },
+    "OAI.NumberTheory.DirichletL.PrincipalSlotEstimateLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/PrincipalSlotEstimateLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "26d09b6ce8d57a4b2d062a38b027ff92f5acf2cb7a2e64a1cd05b29f2c6fcc09",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.PrincipalSlotEstimate",
+        "OAI.NumberTheory.DirichletL.Detector.GlobalRegionLowKappa"
+      ],
+      "modified_sha256": "26d09b6ce8d57a4b2d062a38b027ff92f5acf2cb7a2e64a1cd05b29f2c6fcc09"
+    },
+    "OAI.NumberTheory.DirichletL.Detector.GlobalRegionLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/Detector/GlobalRegionLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "45cf5406b7fbaa1611767f7b51a42fb6acd2c6f8292b0200d7220935f44dd06f",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Detector.GlobalHolomorphic"
+      ],
+      "modified_sha256": "45cf5406b7fbaa1611767f7b51a42fb6acd2c6f8292b0200d7220935f44dd06f"
+    },
+    "OAI.NumberTheory.DirichletL.PrimeRows.CubeNormalizerLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/PrimeRows/CubeNormalizerLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "d208f74b505988b8d2e52a037db26330d715600d0cf5553e01e2164bc139199f",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Detector.PrincipalNormalized"
+      ],
+      "modified_sha256": "d208f74b505988b8d2e52a037db26330d715600d0cf5553e01e2164bc139199f"
+    },
+    "OAI.NumberTheory.DirichletL.Detector.LowSourceScalesLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/Detector/LowSourceScalesLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "67da88f87fba796ee156b663172cb2012b7f7a2c9efc3d8a6c48469afad7e062",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Detector.LowSourceScales"
+      ],
+      "modified_sha256": "67da88f87fba796ee156b663172cb2012b7f7a2c9efc3d8a6c48469afad7e062"
+    },
+    "OAI.NumberTheory.DirichletL.Hecke.DirichletLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/Hecke/DirichletLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "d217d5fa6e5fa5c7553a36bd0946814cfd12287abb713aa7f1bbd1ca2b2868fd",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Hecke.Dirichlet"
+      ],
+      "modified_sha256": "d217d5fa6e5fa5c7553a36bd0946814cfd12287abb713aa7f1bbd1ca2b2868fd"
+    },
+    "OAI.NumberTheory.DirichletL.PrincipalSignalScalingLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/PrincipalSignalScalingLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "0672efaf4726d3ff9feab91aec4190e3944da6e5b7450a9ba86f6ad2d216b033",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.PrincipalSignalComparison",
+        "OAI.NumberTheory.DirichletL.Detector.PrincipalNormalizer"
+      ],
+      "modified_sha256": "0672efaf4726d3ff9feab91aec4190e3944da6e5b7450a9ba86f6ad2d216b033"
+    },
+    "OAI.NumberTheory.DirichletL.Detector.GlobalSourceCorrectionExistenceLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/Detector/GlobalSourceCorrectionExistenceLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "5cfacc972a29e39030e2b01ad920f5b805251be26c0988382db228f894e4ee0a",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Detector.GlobalCorrectionLowKappa"
+      ],
+      "modified_sha256": "5cfacc972a29e39030e2b01ad920f5b805251be26c0988382db228f894e4ee0a"
+    },
+    "OAI.NumberTheory.DirichletL.Detector.GlobalCorrectionLowKappa": {
+      "path": "OAI/NumberTheory/DirichletL/Detector/GlobalCorrectionLowKappa.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "a71c60baecc8d17c405cc230e655ffec490d11671cc42cec2219b937f6cc8252",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.PrincipalSignalComparison",
+        "OAI.NumberTheory.DirichletL.Detector.GlobalRegionLowKappa"
+      ],
+      "modified_sha256": "a71c60baecc8d17c405cc230e655ffec490d11671cc42cec2219b937f6cc8252"
+    },
+    "LowKappaParameters": {
+      "path": "LowKappaParameters.lean",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "baseline_sha256": null,
+      "authored_source_sha256": "43bbe21a12526efafc15d35372252f59a2dcc4d5205589ea3165a11da9ee26af",
+      "baseline_imports": [
+        "OAI.NumberTheory.DirichletL.Hecke.ZeroSupremum"
+      ],
+      "modified_sha256": "43bbe21a12526efafc15d35372252f59a2dcc4d5205589ea3165a11da9ee26af"
+    }
+  }
+}

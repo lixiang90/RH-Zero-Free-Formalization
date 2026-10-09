@@ -1,0 +1,11 @@
+{
+  "historical_source_preparation_record": "source-preparation-authored30-generic-losses.json",
+  "historical_source_preparation_record_sha256": "5e2af2916295f41b87e44dd93b017af9d5fa2bdf3d91b052565928ffb81d353f",
+  "historical_extension_manifest_sha256": "8e3b6b5083bbc0034d8f7ef025ef6b3a5a08480a85e191c405034049a61a973e",
+  "current_extension_manifest_sha256": "40acbe9684f9787b8414099d6a902a20dcda57afc4b75e0f737314d8db5ecb8a",
+  "historically_prepared_authored_source_count": 30,
+  "current_authored_source_count": 30,
+  "current_source_payloads_all_match_last_successful_preparation": true,
+  "authored_source_payloads_pending_new_preparation": [],
+  "update_scope": "Verification status/evidence is separate from source preparation; exact sources match the current successful preparation, whose manifest contains historical pre-audit statuses."
+}

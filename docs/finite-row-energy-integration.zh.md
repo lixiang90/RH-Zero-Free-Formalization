@@ -56,24 +56,39 @@ FiniteLabelPositiveAtLowKappa 的已验类型先固定有限 eta/Q maps，再存
 
 PlainMarkedAdmissionLowKappa 已从真实容量 2m+6*kappaPlain*sum(widths)<=1 和 kappaEnergy<=kappaPlain 推出原生能量容量。F.lengths 供给 m>=0；kappaPlain>=0 进一步给 m<=1/2，再由 d/2<=L 供给真实多项式长度 cap。
 
-EventualFiniteSourcePlainMarkedLowKappa 对固定有限 eta/Q 族实际构造 PositiveAt 与 NaturalState，统一正 Ctotal=max(1,C*Cp^4*diagonalControl(Phi)*2^(degree+4J)) 和 atTop 阈值，供给所有满足行下界、source 字典、共同 profile/upper、互素、scaled mesh、external.re=17/50 与高度条件的 fiber 的 marked 上界。rho 在 Mcap-dmax 的正余量内选择；tau 随后支付精确 2*tau*(degree+4J) 费用。该定理的族仍在 degree/J/tau 之前固定，完整 SourceMomentsAt 全称包装尚未供给。
+EventualFiniteSourcePlainMarkedLowKappa 对固定有限 eta/Q 族实际构造 PositiveAt 与 NaturalState，统一正 Ctotal=max(1,C*Cp^4*diagonalControl(Phi)*2^(degree+4J)) 和 atTop 阈值，供给所有满足行下界、source 字典、共同 profile/upper、互素、scaled mesh、external.re=17/50 与高度条件的 fiber 的 marked 上界。rho 在 Mcap-dmax 的正余量内选择；tau 随后支付精确 2*tau*(degree+4J) 费用。该定理的族仍在 degree/J/tau 之前固定；它与下述更强的全称源包装分别核验，类型没有被悄悄加强。
 
 UniformHeightSourcePlainMarkedLowKappa 已独立核验真正更强的顺序：固定 Slot 后，先选择 rho/epsilon_E、degree/J 和共同正 tau，再对任意有限 eta/Q maps 选择 Phi 与正 Ctotal。这个 Ctotal 和同一个 atTop 阈值先于所有 0<tau_prime<=tau，预算由单调性支付；它没有把原弱有限族定理的存在量词交换。该结论只供给 one-field 和有上限的高度范围，不等于完整 RawMomentInput 的四字段及任意 tau<=1。
 
-取 selected 为空只能给 2m<=1 下的无槽估计；真实 Fiber.lengths 允许 m<=1/2+75*epsilon，完整 plain_unmarked 的 max(1,2m) 范围须另行证明。
+LossesBeforeSlotSourcePlainMarkedLowKappa 已直接证明损耗先于任意有限 Slot 类型的顺序：固定算术源与 W 后先选正 ρ、εE，再对任意 Slot 选择 degree/J/共同 τ，随后对有限 η/Q maps 选共同常数与 eventual 阈值。这里保留真实的原生能量构造，没有交换旧定理的存在量词。
+
+GenericSourceIdealAndMesh 从实际素集 S 和 M=product(S) 推出非零、proper 与 internalQ 条件。Q0=M⊓span{72}；internalQ≤span{72} 与 internalQ≤η.modulus 是并列两界，不宣称 span{72}≤η.modulus 或 Q0≤η.modulus。实际 source_product_le_rowMask 另供 mask 条件，由全称包装组装。它按绝对能量 fineMesh 与 Batch 的 scaled mesh 同时选择任意正总长度的 distinct ell，证明实际 fiber 的 d*width=ell。绝对条件 ell≤energyFineMesh 与 ell/d≤batchMesh 分别保留。
+
+SourcePlainMarkedUniversalLowKappa 将这些部件接到真正的 source 字典。固定素集 S、product ideal M、H 和共同 W 后，量词顺序为
+
+    标量损耗 ρ/εE → fineMesh → N/ell/slotLower → Slot=Fin N
+    → degree/J/共同 τ → 任意 outer η → 正 Cη/eventual Z
+    → 任意 0<τ′≤τ、实际行集、q、所有匹配 Batch 和非空 fiber。
+
+它从真实 source 条件推出 rowMask、互素、共同 profile/upper、external、绝对 ell mesh 与行上下界，实际构造 NaturalState 和 PositiveAt，再得到移动 κ 的 plain_marked 上界。没有把最终平方和、PositiveAt、CertifiedBand 或 NaturalState 作为整个结论的替代输入。全称范围覆盖所有匹配 Batch；这些 Batch 的存在性仍由 ActualSourceBatchTotal 在其真实检测器前提下另行供给。这仅是一字段与有上限的高度接口，不等于完整 SourceMomentsAt 或 RawMomentInput。
+
+PlainUnmarkedAdmissionLowKappa 已另行证明正确的无标记准入。真实 Fiber.lengths 允许 m≤1/2+75ε；取 selected 为空后不再附加 marked 容量，因此没有 m≤1/2 限制。原生 rowWidth 改为 d*max(1,2m)，总 state.width=d*max(1,2m)+ρ，得到指数 U^(max(1,2m)+εm)。该准入保留真实 PositiveAt、state.width≤Mcap、径向覆盖/keep/profile 与多项式 cap d*(1/2+75ε)≤L；它还没有为所有源纤维构造这个放大状态和统一 cap。
+
+若 0≤ε≤εmax，则 max(1,2m)≤1+150εmax。因此可用
+
+    dmax*(1+150εmax)+ρ≤Mcap，
+    dmax*(1/2+75εmax)≤L
+
+建立源族的统一容量。marked 所用的 L≥dmax/2 不足以支付正 ε 的统一多项式余量；下一构造需要实际正余量或更强的 L。
 
 [实际 source 包装审计](source-plain-wrapper-audit/README.md) 列出 q、Batch 和非空 fiber 的全称范围，以及绝对槽长 ell<=energyFineMesh、外部高度与素理想互素等真实准入门槛。
 
 ## 下一步实际供给
 
-1. 用已证明的 ActualSourceBatchTotal 作用于实际保留行与 detector maxima，供给其校准、行增长、margin 和 mesh 条件。再证明共同窗口与 upper、素理想互素和实际 external 的界。
-2. 将已证明的固定有限族 marked 字段接到所有匹配 source 字典的 q、Batch 与非空 fiber。需要保留 β≥51/100、κTerminal≥37/50、2β−1≤κTerminal，以及 internalQ 的实际条件。κPlain 的 padding 与 terminal κ 要满足真实容量比较。
-3. 将已证明的固定 Slot 共同高度接到实际 source 构造，保留损耗 epsilon_E -> energy fineMesh -> N/ell -> Slot=Fin N -> degree/J/tau 的顺序。槽数量依 mesh 选择，因此还须在源装配中证明损耗先于 Slot，而不能交换现有类型中的存在量词。共同高度预算仍为
+1. 补齐完整源参数的正确顺序。当前全称 marked 定理固定 S/product ideal 在损耗和 slots 之前，而真实 SourceData 包含 FirstTail(4*D.e) S；D.e 的上限又依赖 slot 数量和最小 ell。全局 correction 的 prime-norm cutoff 本身与物理 slot 数量无关；耦合来自 FirstTail。W 和实数能量 fineMesh 可早选。下一真实接口需要 ρ/εE、mesh、slots → detector e → 最终 S/product ideal → degree/J/τ，再选 outer η 的常数；不能从现有存在量词推出这个顺序。原始八个关键源码及只读结论见 [装配顺序审计](source-assembly-order-audit/audit.md)。
+2. 将已验的 ActualSourceBatchTotal 实例化到真实 retained rows、detector maxima、校准、行增长和 margin；完成 source-wide plain_unmarked 的放大 NaturalState 与上述统一 cap，同时分别供给 inverse_raw、inverse_marked。完整四字段记录仍未构造。
+3. 把已验的全称 marked sum 交给 generic plain_fiber_count，统一修改下游分母 6κPlain、crossing 和 count 优化。保留 β≥51/100、κTerminal≥37/50、2β−1≤κTerminal 与 κTerminal≤κPlain；旧 Moments 的 plain_marked 固定 3/4+2Δ，其 inverse 参数不能替代新的 plain κ。padding 后的 κ 上限也需真实 bootstrap/margin。
+4. 完成 variable lx/ly/total 的实际 reflected-energy 与 small/middle/floor/outer estimates，组装完整 low/raw-high probe，并保留共同高度先于后续 tail order。当前界只涵盖 0<τ′≤共同 τ，不自动给出旧 RawMomentInput 的任意 0<τ≤1。
+5. 实例化完整有限阶 Hecke 族及其延拓结论，并在同一固定 Lean 环境中验证最终算术定理。
 
-       ρ + εE + h*(degree+4J) ≤ dmin*εm.
-
-   εm 是 Moments 中独立的正实数。实际测试频率和 external 高度均需共同界；i≤I 的固定因子进入共同常数。由此才能从 Z^(d+ρ+εE) 推出 U^(1+εm)。源参数 τ 可取满足 h=2τ 的值，其选择先于后续 tail order。
-4. 把实际 marked sum 交给 generic plain_fiber_count，统一修改下游分母 6κPlain、crossing 和 count 优化，并分别供给 inverse_raw、inverse_marked、plain_unmarked。旧 Moments 的 plain_marked 固定 3/4+2Δ；其 inverse 参数不能替代新的 plain κ。
-5. 完成 variable lx/ly/total 的实际 reflected-energy 和 small/floor/outer estimates，组装完整 low/raw-high probe，并在一个固定 Lean 环境中验证最终算术结论。
-
-[完整源审计](finite-row-energy-audit/README.md) 保存 canonical Batch 尚缺条件的实际源码和历史候选记录。ArithmeticProbeObligation 仍需完整 marked moments、改进 count 和实际 low/raw-high probe 的证明供给。
+[完整源审计](finite-row-energy-audit/README.md) 保留实际源码与历史候选记录；[两批新增证明记录](../upstream/plain-kappa/verification/generic-losses4/strict-replay-result.json)与[全称源/无标记准入记录](../upstream/plain-kappa/verification/source-universal-unmarked3/strict-replay-result.json)分别核验本轮四根和三根。ArithmeticProbeObligation 仍需完整 Moments、改进 count 与实际 low/raw-high probe，尚无已证明的 inhabitant。

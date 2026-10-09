@@ -23,9 +23,9 @@ kappa<=3/4 is needed; that bound is not inferred from a zeta-only theorem.
 The pinned original source has a genuinely unconditional
 `Detector.FinalAssemblyUnconditional.detector_certified_bands` construction,
 which yields the full-family 7/8 bound through its chosen moments and common
-probe. That downstream closure includes 711 additional OAI modules not yet
-compiled by this capsule; the source audit is not a kernel certificate for
-the bootstrap.
+probe. The historical source audit identified 711 additional OAI modules in that
+downstream closure. The full bootstrap has not been compiled or independently
+checked by this capsule; the source audit is not its kernel certificate.
 
 ## Principal normalization
 
@@ -85,7 +85,9 @@ The remaining integration must supply these actual interfaces:
 2. Generalize the physical low probe from the fixed lx=17/48, ly=23/48
    and total slots=1/6 to the paper's parameters, proving the reflected-energy
    and Gram estimates for actual sums.
-3. Construct actual marked moments at plain kappa=2*beta-1. The legacy raw
+3. Assemble the complete actual Moments at plain kappa=2*beta-1 from the
+   now checked fixed-source universal marked field and the remaining fields.
+   The full source requires slots before the FirstTail-dependent S. The legacy raw
    fiber field uses 3/4+2*Delta and denominators 9/2+12*Delta; the generalized
    capacity denominator is 6*kappa. A bound on an abstract count envelope
    does not supply these marked moments.
@@ -146,8 +148,16 @@ PositiveAt and native capacity under explicit row/source/slot/prime/height
 gates. UniformHeightSourcePlainMarkedLowKappa further gives terminal/profile
 degrees and a common positive height ceiling before every finite character/ideal
 family for fixed slots, with constants and thresholds before all bounded
-smaller exponents. The universal source Batch wrapper and loss-before-slot
-allocation still need integration. ActualSourceBatchTotal now generalizes the real source constructor
+smaller exponents. LossesBeforeSlotSourcePlainMarkedLowKappa now fixes losses before the finite
+Slot type. GenericSourceIdealAndMesh supplies the actual ideal gates and
+both mesh inequalities; the existing source_product_le_rowMask supplies the
+mask gate. SourcePlainMarkedUniversalLowKappa proves the field
+for every matching source q/Batch and nonempty fiber, keeping S/product ideal
+and W fixed before the scalar losses. Complete SourceData needs a stronger
+order: loss/mesh/slots, detector e, final FirstTail-compatible S/product ideal,
+then degree/J/common height. The [read-only source-order audit](source-assembly-order-audit/audit.md)
+shows why the current fixed-S type does not imply that order.
+ActualSourceBatchTotal now generalizes the real source constructor
 to sum(ell)=Lambda with dmax<=37*Lambda/7, preserving its witness budget.
 FiniteLabelPositiveAtLowKappa constructs and unifies the actual terminal
 PositiveAt supply. MarkedHeightBudgetLowKappa proves the remaining deterministic
@@ -156,5 +166,9 @@ PlainMarkedAdmissionLowKappa proves moving-capacity admission, and
 EventualFiniteSourcePlainMarkedLowKappa assembles the fixed-family marked
 bound. UniformDegreePositiveAtLowKappa separately preserves the native
 degree/S-before-all-characters quantifier order. The [finite-row integration note](finite-row-energy-integration.zh.md)
-records the actual conditions and the squared profile loss C^4(1+norm(t))^(4J). The inverse_raw, inverse_marked and plain_unmarked fields also
-remain separate requirements of a complete Moments record.
+records the actual conditions and the squared profile loss C^4(1+norm(t))^(4J).
+PlainUnmarkedAdmissionLowKappa now proves actual max(1,2m) admission without
+the marked 2m<=1 restriction; it retains PositiveAt, enlarged state width,
+polynomial-scale cap and radial cover. Its source-wide state and uniform caps
+remain to be constructed. inverse_raw and inverse_marked are also separate
+requirements of a complete Moments record.

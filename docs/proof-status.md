@@ -80,7 +80,7 @@ is an energy estimate, not a complete detector Moments record.
 An unconditional improved-region theorem still requires kernel-checked proofs of:
 
 1. Instantiate the terminal energy with the actual canonical finite detector
-rows and supply the complete marked moments. The new finite-row modules
+rows and supply the complete four-field Moments record. The new finite-row modules
 construct the radial profile, NaturalState and witness retraction and prove
 the actual fiber-to-energy dictionary. ActualSourceBatchTotal now constructs
 the source Batch for arbitrary positive total length from the actual detector
@@ -88,17 +88,26 @@ and row gates. Finite-label PositiveAt constants and deterministic height
 absorption are proved. EventualFiniteSourcePlainMarkedLowKappa now constructs
 the actual state and PositiveAt and proves the fixed finite-family marked
 field under its genuine row/slot/prime/height gates.
-UniformHeightSourcePlainMarkedLowKappa also chooses the terminal/profile
-degrees and common height before every finite character/ideal family for
-fixed slots. The source-specific universal Batch wrapper and loss-before-slot
-allocation remain to be assembled; inverse_raw, inverse_marked and plain_unmarked
-also remain separate requirements. UniformDegreePositiveAtLowKappa proves
-the native degree/seminorm set can be fixed before all characters and ideals.
+LossesBeforeSlotSourcePlainMarkedLowKappa now chooses scalar losses before
+any finite Slot type. GenericSourceIdealAndMesh supplies the actual ideal
+and absolute/scaled mesh gates. SourcePlainMarkedUniversalLowKappa proves
+the fixed-source plain_marked field for every matching q/Batch and nonempty
+fiber; degree/J/common height precede outer characters and each character's
+constant/threshold precede all smaller admitted heights and batches.
+This fixes S/product ideal first. Complete SourceData instead requires a
+FirstTail-compatible S after the slot-dependent detector parameter e; a
+stronger losses/slots-before-S interface remains to be proved, as recorded in
+the [source-order audit](source-assembly-order-audit/audit.md).
+PlainUnmarkedAdmissionLowKappa proves actual admission with exponent
+max(1,2m), retaining PositiveAt, state.width=d*max(1,2m)+rho and real
+state-width/polynomial-scale caps. The source-wide state and uniform caps,
+inverse_raw and inverse_marked remain separate requirements. The complete
+four-field Moments record is still open.
 2. The flexible compensated probe for new lx, ly, h and e, including its
 actual reflected-energy estimate. The new lowGramFactor and physical-scale
 extension proves the variable-exponent scale gate; the full low-probe bound
 requires the reflected sums as well as this factor.
-3. Actual marked moments, their improved detector-count consumers and all
+3. The complete four-field Moments record, its improved detector-count consumers and all
 physical small/middle/floor/outer estimates. The actual Euler correction and
 one finite excluded set chosen before all characters passed independent
 replay. Principal-slot comparison, residue normalization and positive
@@ -122,7 +131,7 @@ real algebra remain separately classified.
 | Paper section | Formal coverage |
 |---|---|
 | Root and comparison | Boundary, complete. |
-| Extended plain moment | Scalar budget/slack in Geometry; separate actual low-kappa energy induction and terminal output independently checked. Full marked-moment integration remains open. |
+| Extended plain moment | Scalar budget/slack in Geometry; separate actual low-kappa energy induction and terminal output independently checked. Universal fixed-source plain_marked is checked; full four-field/source assembly remains open. |
 | Inverse/plain counts | Rational envelope and feedback in Feedback; arithmetic realization open. |
 | Probe and low estimate | SourceScaling checks complex-power normalization and its zeta-amplitude identity; separate actual source normalization and Gram-factor scale gates are available. Full reflected sums and the complete probe estimate remain open. |
 | Continuous reference certificate | Certificate plus Main, complete for the stated envelope. |

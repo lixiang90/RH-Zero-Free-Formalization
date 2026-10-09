@@ -1,6 +1,6 @@
 {
   "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
-  "status": "all_28_authored_modules_and_89_selected_declarations_independently_verified_full_analytic_supply_pending",
+  "status": "all_32_authored_modules_and_96_selected_declarations_independently_verified_full_analytic_supply_pending",
   "origin": "authored_extension",
   "files": [
     {
@@ -698,6 +698,105 @@
       "independently_replayed_declaration_count": 1,
       "joint_replay_selected_root_count": 1,
       "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh",
+      "path": "OAI/NumberTheory/DirichletL/Moments/GenericSourceIdealAndMesh.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Moments/GenericSourceIdealAndMesh.lean",
+      "sha256": "2a0fec6b6d42a2caeaaad8c30d73eefd8fcb46de2cf313f9b231661995346840",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "2a0fec6b6d42a2caeaaad8c30d73eefd8fcb46de2cf313f9b231661995346840",
+      "canonical_lf_sha256": "2a0fec6b6d42a2caeaaad8c30d73eefd8fcb46de2cf313f9b231661995346840",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "installation_owner": "plain_range_graph",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "scope": "Three genuine source-interface arithmetic helpers: fixed modulus Q0=M meet (72) and all actual internalQ nonzero/proper/divisibility gates; an arbitrary positive total of injective slots simultaneously meeting batch/physical/energy meshes; exact absolute slot width for an actual nonempty Batch fiber. No SourceMomentsAt or complete Moments construction is asserted.",
+      "independent_replay_record": "../verification/generic-losses4/strict-replay-result.json",
+      "independent_replay_record_sha256": "f94858c9e25a3c97ea4067ae24d6fe3790cc9edcffcbc73be19499f9cafa13ce",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.GenericSourceIdealAndMesh.source_fixed_ideal_gates",
+        "OAI.SevenEighths.GenericSourceIdealAndMesh.exists_source_slots_for_both_meshes",
+        "OAI.SevenEighths.GenericSourceIdealAndMesh.batch_fiber_absolute_slot_width"
+      ],
+      "independently_replayed_declaration_count": 3,
+      "joint_replay_selected_root_count": 4,
+      "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/LossesBeforeSlotSourcePlainMarkedLowKappa.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Moments/LossesBeforeSlotSourcePlainMarkedLowKappa.lean",
+      "sha256": "d5b1e7b5be2f5aae02fc27b210d62cce3341b5a6a67a1f8490dca4599f3d42d4",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "d5b1e7b5be2f5aae02fc27b210d62cce3341b5a6a67a1f8490dca4599f3d42d4",
+      "canonical_lf_sha256": "d5b1e7b5be2f5aae02fc27b210d62cce3341b5a6a67a1f8490dca4599f3d42d4",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "installation_owner": "plain_range_graph",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "scope": "Native scalar losses rho and epsilonE chosen before every finite Slot type; terminal/profile degrees and common positive height exponent may depend on Slot but precede all finite arithmetic maps. For each family the same positive constant and eventual threshold precede all smaller positive height exponents. All beta/kappa/source/prime/radial/slot/external/height/plain-capacity gates remain explicit. Actual plain-marked field only; SourceMomentsAt/RawMomentInput, remaining three fields, counts/probe and improved unconditional zero-free assembly remain pending.",
+      "independent_replay_record": "../verification/generic-losses4/strict-replay-result.json",
+      "independent_replay_record_sha256": "f94858c9e25a3c97ea4067ae24d6fe3790cc9edcffcbc73be19499f9cafa13ce",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.LossesBeforeSlotSourcePlainMarkedLowKappa.exists_losses_before_slots_degrees_height_and_finite_family"
+      ],
+      "independently_replayed_declaration_count": 1,
+      "joint_replay_selected_root_count": 4,
+      "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.SourcePlainMarkedUniversalLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/SourcePlainMarkedUniversalLowKappa.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Moments/SourcePlainMarkedUniversalLowKappa.lean",
+      "sha256": "c1e3b3832bda8e904853ebd68b8f555a09721980e3e35c2c8d1461ce695b12c7",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "c1e3b3832bda8e904853ebd68b8f555a09721980e3e35c2c8d1461ce695b12c7",
+      "canonical_lf_sha256": "c1e3b3832bda8e904853ebd68b8f555a09721980e3e35c2c8d1461ce695b12c7",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "installation_owner": "plain_range_graph",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "scope": "Actual source-dictionary plain-marked field for every matching q/Batch and nonempty fiber, with arbitrary positive total slot length. The fixed prime set S/product M precedes scalar losses, N/ell/slotLower and terminal/profile degrees/common height; these precede every outer character. A character-specific positive constant and eventual threshold precede all smaller positive heights and all matching source batches. All fixed-prime/internalQ, beta/kappa, row lower bounds, exact source data/family/profile/window/prime/mesh/external/height/plain-capacity gates remain explicit. Only the theorem is a selected root; SourcePlainMarkedAt is the exact predicate, not an extra counted root. Complete SourceData/SourceMomentsAt/RawMomentInput and the remaining three fields remain pending.",
+      "independent_replay_record": "../verification/source-universal-unmarked3/strict-replay-result.json",
+      "independent_replay_record_sha256": "ce530aeb57c345e96f2941ef1aff062eaf101d9810df583ebc913f8363a9105b",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.SourcePlainMarkedUniversalLowKappa.exists_source_slots_and_universal_plain_marked"
+      ],
+      "independently_replayed_declaration_count": 1,
+      "joint_replay_selected_root_count": 3,
+      "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.PlainUnmarkedAdmissionLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/PlainUnmarkedAdmissionLowKappa.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Moments/PlainUnmarkedAdmissionLowKappa.lean",
+      "sha256": "ee2c5abf01b552e2c9a9893ebf5f2441238b040337a78db1379768ba6f0b494d",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "ee2c5abf01b552e2c9a9893ebf5f2441238b040337a78db1379768ba6f0b494d",
+      "canonical_lf_sha256": "ee2c5abf01b552e2c9a9893ebf5f2441238b040337a78db1379768ba6f0b494d",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "installation_owner": "plain_range_graph",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "scope": "Two actual mathematical results: growth absorption for any principal exponent and genuine empty-selected unmarked finite-fiber admission from PositiveAt with natural state width d*max(1,2*m)+rho. No marked-capacity premise is imposed. PositiveAt, total natural-state width cap, actual polynomial scale cap, radial keep/profile cover, loss/height budget and derivative/time range remain explicit; the final exponent is max(1,2*m)+epsilonM. This is an admission theorem with supplied state, not a complete universal source four-field record.",
+      "independent_replay_record": "../verification/source-universal-unmarked3/strict-replay-result.json",
+      "independent_replay_record_sha256": "ce530aeb57c345e96f2941ef1aff062eaf101d9810df583ebc913f8363a9105b",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_growth_absorption_principal_exponent",
+        "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_plain_unmarked_admission"
+      ],
+      "independently_replayed_declaration_count": 2,
+      "joint_replay_selected_root_count": 3,
+      "imported_environment_contains_known_unproved_auxiliaries": true
     }
   ],
   "targets": [
@@ -728,7 +827,11 @@
     "OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa",
     "OAI.NumberTheory.DirichletL.Energy.UniformDegreePositiveAtLowKappa",
     "OAI.NumberTheory.DirichletL.Moments.EventualFiniteSourcePlainMarkedLowKappa",
-    "OAI.NumberTheory.DirichletL.Moments.UniformHeightSourcePlainMarkedLowKappa"
+    "OAI.NumberTheory.DirichletL.Moments.UniformHeightSourcePlainMarkedLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh",
+    "OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.SourcePlainMarkedUniversalLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.PlainUnmarkedAdmissionLowKappa"
   ],
   "declarations": [
     "OAI.SevenEighths.ProbeEuler.unramifiedClosed_open_region_bound_lowKappa",
@@ -819,7 +922,14 @@
     "OAI.SevenEighths.PlainMarkedAdmissionLowKappa.actual_plain_marked_admission",
     "OAI.SevenEighths.UniformDegreePositiveAtLowKappa.exists_degree_before_character_positiveAt",
     "OAI.SevenEighths.EventualFiniteSourcePlainMarkedLowKappa.eventually_finite_source_plain_marked",
-    "OAI.SevenEighths.UniformHeightSourcePlainMarkedLowKappa.exists_degrees_height_before_finite_family"
+    "OAI.SevenEighths.UniformHeightSourcePlainMarkedLowKappa.exists_degrees_height_before_finite_family",
+    "OAI.SevenEighths.GenericSourceIdealAndMesh.source_fixed_ideal_gates",
+    "OAI.SevenEighths.GenericSourceIdealAndMesh.exists_source_slots_for_both_meshes",
+    "OAI.SevenEighths.GenericSourceIdealAndMesh.batch_fiber_absolute_slot_width",
+    "OAI.SevenEighths.LossesBeforeSlotSourcePlainMarkedLowKappa.exists_losses_before_slots_degrees_height_and_finite_family",
+    "OAI.SevenEighths.SourcePlainMarkedUniversalLowKappa.exists_source_slots_and_universal_plain_marked",
+    "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_growth_absorption_principal_exponent",
+    "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_plain_unmarked_admission"
   ],
   "note": "Authored sources retain per-file verification states and exact source hashes. Complete actual-module replay evidence applies only to listed selected declarations; standalone prototypes are distinct. Full analytic moment and zero-free supplies remain pending. Selected roots permit only three standard axioms; exact imported original PNTA holes, if present, are explicitly recorded and absent from selected kernel exports."
 }

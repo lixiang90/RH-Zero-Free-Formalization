@@ -1591,6 +1591,201 @@
         "blocked_name_occurrences": [],
         "selected_export_contains_neither_unproved_auxiliaries_nor_sorryAx": true
       }
+    },
+    "OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh": {
+      "origin": "authored",
+      "selected_declaration_count": 3,
+      "selected_declarations": [
+        "OAI.SevenEighths.GenericSourceIdealAndMesh.source_fixed_ideal_gates",
+        "OAI.SevenEighths.GenericSourceIdealAndMesh.exists_source_slots_for_both_meshes",
+        "OAI.SevenEighths.GenericSourceIdealAndMesh.batch_fiber_absolute_slot_width"
+      ],
+      "joint_replay_selected_root_count": 4,
+      "scope": "Four new canonical source helpers: actual fixed ideal/internalQ gates, arbitrary positive total slot construction meeting batch/physical/energy meshes, exact absolute width for an actual nonempty batch fiber, and a genuine eventual source plain-marked field choosing scalar losses before every finite Slot. Degree/J/common height may depend on Slot but precede finite arithmetic maps; each family has a common positive constant and Z threshold before every smaller positive height. All beta/kappa/source/profile/row/prime/slot/external/height/plain-capacity gates are retained in complete types. Full SourceMomentsAt/RawMomentInput, remaining three fields, counts/probe and improved unconditional zero-free assembly remain pending. Private Candidate evidence and older89 roots are distinct; exact unused imported PNTA holes are disclosed and prohibited in selected exports.",
+      "actual_custom_closure_count": 2255,
+      "source_sha256": "2a0fec6b6d42a2caeaaad8c30d73eefd8fcb46de2cf313f9b231661995346840",
+      "independent_replay_record": "generic-losses4/strict-replay-result.json",
+      "independent_replay_record_sha256": "f94858c9e25a3c97ea4067ae24d6fe3790cc9edcffcbc73be19499f9cafa13ce",
+      "complete_types_and_only_standard_axioms": true,
+      "actual_selected_source_artifact_state_unchanged": true,
+      "independent_kernel_replay_passed": true,
+      "known_unproved_imported_auxiliaries": [
+        {
+          "module": "PrimeNumberTheoremAnd.Wiener",
+          "package_url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd.git",
+          "package_pin": "c39a751132c88b6e8080b74c74023fd95b3d8be0",
+          "raw_actual_source_sha256": "963151c22caeb12f5c203ae944961629bfe7840915519255d79220f415ca0fbf",
+          "canonical_lf_sha256": "7bd40c9cffedc1d9a0f675ea971c6719e490b1b106807459d549145f30d70f05",
+          "unproved_auxiliary_declarations": [
+            "prelim_decay_2",
+            "prelim_decay_3"
+          ],
+          "allowed_exact_warning_lines": [
+            "PrimeNumberTheoremAnd/Wiener.lean:325:8: warning: declaration uses `sorry`",
+            "PrimeNumberTheoremAnd/Wiener.lean:344:8: warning: declaration uses `sorry`"
+          ],
+          "only_unselected_imported_auxiliary_warnings_allowed": true,
+          "whole_import_environment_hole_free": false,
+          "source_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\PrimeNumberTheoremAnd\\PrimeNumberTheoremAnd\\Wiener.lean",
+          "actual_build_log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-124959-bounded8v2\\PrimeNumberTheoremAnd.Wiener.log",
+          "actual_build_log_sha256": "9f2053e32670eaf6fec71f7d61eed19e8cb600d083c1f013839db576945cbdcc"
+        }
+      ],
+      "selected_export_unproved_auxiliary_absence_audit": {
+        "export_sha256": "105e9cfb1be91efb3499f9a4b31432809408bc9f68628bbf3204c19ba253b21e",
+        "blocked_global_names": [
+          "prelim_decay_2",
+          "prelim_decay_3",
+          "sorryAx"
+        ],
+        "blocked_name_occurrences": [],
+        "selected_export_contains_neither_unproved_auxiliaries_nor_sorryAx": true
+      }
+    },
+    "OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa": {
+      "origin": "authored",
+      "selected_declaration_count": 1,
+      "selected_declarations": [
+        "OAI.SevenEighths.LossesBeforeSlotSourcePlainMarkedLowKappa.exists_losses_before_slots_degrees_height_and_finite_family"
+      ],
+      "joint_replay_selected_root_count": 4,
+      "scope": "Four new canonical source helpers: actual fixed ideal/internalQ gates, arbitrary positive total slot construction meeting batch/physical/energy meshes, exact absolute width for an actual nonempty batch fiber, and a genuine eventual source plain-marked field choosing scalar losses before every finite Slot. Degree/J/common height may depend on Slot but precede finite arithmetic maps; each family has a common positive constant and Z threshold before every smaller positive height. All beta/kappa/source/profile/row/prime/slot/external/height/plain-capacity gates are retained in complete types. Full SourceMomentsAt/RawMomentInput, remaining three fields, counts/probe and improved unconditional zero-free assembly remain pending. Private Candidate evidence and older89 roots are distinct; exact unused imported PNTA holes are disclosed and prohibited in selected exports.",
+      "actual_custom_closure_count": 2255,
+      "source_sha256": "d5b1e7b5be2f5aae02fc27b210d62cce3341b5a6a67a1f8490dca4599f3d42d4",
+      "independent_replay_record": "generic-losses4/strict-replay-result.json",
+      "independent_replay_record_sha256": "f94858c9e25a3c97ea4067ae24d6fe3790cc9edcffcbc73be19499f9cafa13ce",
+      "complete_types_and_only_standard_axioms": true,
+      "actual_selected_source_artifact_state_unchanged": true,
+      "independent_kernel_replay_passed": true,
+      "known_unproved_imported_auxiliaries": [
+        {
+          "module": "PrimeNumberTheoremAnd.Wiener",
+          "package_url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd.git",
+          "package_pin": "c39a751132c88b6e8080b74c74023fd95b3d8be0",
+          "raw_actual_source_sha256": "963151c22caeb12f5c203ae944961629bfe7840915519255d79220f415ca0fbf",
+          "canonical_lf_sha256": "7bd40c9cffedc1d9a0f675ea971c6719e490b1b106807459d549145f30d70f05",
+          "unproved_auxiliary_declarations": [
+            "prelim_decay_2",
+            "prelim_decay_3"
+          ],
+          "allowed_exact_warning_lines": [
+            "PrimeNumberTheoremAnd/Wiener.lean:325:8: warning: declaration uses `sorry`",
+            "PrimeNumberTheoremAnd/Wiener.lean:344:8: warning: declaration uses `sorry`"
+          ],
+          "only_unselected_imported_auxiliary_warnings_allowed": true,
+          "whole_import_environment_hole_free": false,
+          "source_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\PrimeNumberTheoremAnd\\PrimeNumberTheoremAnd\\Wiener.lean",
+          "actual_build_log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-124959-bounded8v2\\PrimeNumberTheoremAnd.Wiener.log",
+          "actual_build_log_sha256": "9f2053e32670eaf6fec71f7d61eed19e8cb600d083c1f013839db576945cbdcc"
+        }
+      ],
+      "selected_export_unproved_auxiliary_absence_audit": {
+        "export_sha256": "105e9cfb1be91efb3499f9a4b31432809408bc9f68628bbf3204c19ba253b21e",
+        "blocked_global_names": [
+          "prelim_decay_2",
+          "prelim_decay_3",
+          "sorryAx"
+        ],
+        "blocked_name_occurrences": [],
+        "selected_export_contains_neither_unproved_auxiliaries_nor_sorryAx": true
+      }
+    },
+    "OAI.NumberTheory.DirichletL.Moments.SourcePlainMarkedUniversalLowKappa": {
+      "origin": "authored",
+      "selected_declaration_count": 1,
+      "selected_declarations": [
+        "OAI.SevenEighths.SourcePlainMarkedUniversalLowKappa.exists_source_slots_and_universal_plain_marked"
+      ],
+      "joint_replay_selected_root_count": 3,
+      "scope": "Three new canonical mathematical roots: a universal actual source-dictionary plain-marked field for every matching q/Batch and nonempty fiber, plus principal-exponent growth absorption and actual empty-selected unmarked admission. For the universal field, fixed prime S/product M precedes scalar losses, N/ell/slotLower, then terminal/profile degrees and common positive height ceiling; these precede every outer character. Each character has a positive constant and eventual threshold before all smaller positive heights, source rows and all matching batches/fibers. The exact SourcePlainMarkedAt predicate is not an extra selected root. The unmarked admission uses natural row width d*max(1,2*m)+rho without marked capacity, retaining actual PositiveAt, state-width and polynomial-scale caps, radial keep/profile cover and the height/loss budget. All arithmetic, beta/kappa, source-data/family/profile/window, prime/mesh/external/height/plain-capacity gates in the full types remain explicit. Complete SourceData/SourceMomentsAt/RawMomentInput, remaining fields, counts/probe and improved unconditional zero-free assembly remain pending. Older93 roots and private prototypes are not replayed; exact unused imported PNTA holes remain disclosed and absent from selected exports.",
+      "actual_custom_closure_count": 2257,
+      "source_sha256": "c1e3b3832bda8e904853ebd68b8f555a09721980e3e35c2c8d1461ce695b12c7",
+      "independent_replay_record": "source-universal-unmarked3/strict-replay-result.json",
+      "independent_replay_record_sha256": "ce530aeb57c345e96f2941ef1aff062eaf101d9810df583ebc913f8363a9105b",
+      "complete_types_and_only_standard_axioms": true,
+      "actual_selected_source_artifact_state_unchanged": true,
+      "independent_kernel_replay_passed": true,
+      "known_unproved_imported_auxiliaries": [
+        {
+          "module": "PrimeNumberTheoremAnd.Wiener",
+          "package_url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd.git",
+          "package_pin": "c39a751132c88b6e8080b74c74023fd95b3d8be0",
+          "raw_actual_source_sha256": "963151c22caeb12f5c203ae944961629bfe7840915519255d79220f415ca0fbf",
+          "canonical_lf_sha256": "7bd40c9cffedc1d9a0f675ea971c6719e490b1b106807459d549145f30d70f05",
+          "unproved_auxiliary_declarations": [
+            "prelim_decay_2",
+            "prelim_decay_3"
+          ],
+          "allowed_exact_warning_lines": [
+            "PrimeNumberTheoremAnd/Wiener.lean:325:8: warning: declaration uses `sorry`",
+            "PrimeNumberTheoremAnd/Wiener.lean:344:8: warning: declaration uses `sorry`"
+          ],
+          "only_unselected_imported_auxiliary_warnings_allowed": true,
+          "whole_import_environment_hole_free": false,
+          "source_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\PrimeNumberTheoremAnd\\PrimeNumberTheoremAnd\\Wiener.lean",
+          "actual_build_log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-124959-bounded8v2\\PrimeNumberTheoremAnd.Wiener.log",
+          "actual_build_log_sha256": "9f2053e32670eaf6fec71f7d61eed19e8cb600d083c1f013839db576945cbdcc"
+        }
+      ],
+      "selected_export_unproved_auxiliary_absence_audit": {
+        "export_sha256": "5aa16e66effa689061e49f2490985b451ae21aefb9ada53993ff4bb6bc44ea2b",
+        "blocked_global_names": [
+          "prelim_decay_2",
+          "prelim_decay_3",
+          "sorryAx"
+        ],
+        "blocked_name_occurrences": [],
+        "selected_export_contains_neither_unproved_auxiliaries_nor_sorryAx": true
+      }
+    },
+    "OAI.NumberTheory.DirichletL.Moments.PlainUnmarkedAdmissionLowKappa": {
+      "origin": "authored",
+      "selected_declaration_count": 2,
+      "selected_declarations": [
+        "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_growth_absorption_principal_exponent",
+        "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_plain_unmarked_admission"
+      ],
+      "joint_replay_selected_root_count": 3,
+      "scope": "Three new canonical mathematical roots: a universal actual source-dictionary plain-marked field for every matching q/Batch and nonempty fiber, plus principal-exponent growth absorption and actual empty-selected unmarked admission. For the universal field, fixed prime S/product M precedes scalar losses, N/ell/slotLower, then terminal/profile degrees and common positive height ceiling; these precede every outer character. Each character has a positive constant and eventual threshold before all smaller positive heights, source rows and all matching batches/fibers. The exact SourcePlainMarkedAt predicate is not an extra selected root. The unmarked admission uses natural row width d*max(1,2*m)+rho without marked capacity, retaining actual PositiveAt, state-width and polynomial-scale caps, radial keep/profile cover and the height/loss budget. All arithmetic, beta/kappa, source-data/family/profile/window, prime/mesh/external/height/plain-capacity gates in the full types remain explicit. Complete SourceData/SourceMomentsAt/RawMomentInput, remaining fields, counts/probe and improved unconditional zero-free assembly remain pending. Older93 roots and private prototypes are not replayed; exact unused imported PNTA holes remain disclosed and absent from selected exports.",
+      "actual_custom_closure_count": 2257,
+      "source_sha256": "ee2c5abf01b552e2c9a9893ebf5f2441238b040337a78db1379768ba6f0b494d",
+      "independent_replay_record": "source-universal-unmarked3/strict-replay-result.json",
+      "independent_replay_record_sha256": "ce530aeb57c345e96f2941ef1aff062eaf101d9810df583ebc913f8363a9105b",
+      "complete_types_and_only_standard_axioms": true,
+      "actual_selected_source_artifact_state_unchanged": true,
+      "independent_kernel_replay_passed": true,
+      "known_unproved_imported_auxiliaries": [
+        {
+          "module": "PrimeNumberTheoremAnd.Wiener",
+          "package_url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd.git",
+          "package_pin": "c39a751132c88b6e8080b74c74023fd95b3d8be0",
+          "raw_actual_source_sha256": "963151c22caeb12f5c203ae944961629bfe7840915519255d79220f415ca0fbf",
+          "canonical_lf_sha256": "7bd40c9cffedc1d9a0f675ea971c6719e490b1b106807459d549145f30d70f05",
+          "unproved_auxiliary_declarations": [
+            "prelim_decay_2",
+            "prelim_decay_3"
+          ],
+          "allowed_exact_warning_lines": [
+            "PrimeNumberTheoremAnd/Wiener.lean:325:8: warning: declaration uses `sorry`",
+            "PrimeNumberTheoremAnd/Wiener.lean:344:8: warning: declaration uses `sorry`"
+          ],
+          "only_unselected_imported_auxiliary_warnings_allowed": true,
+          "whole_import_environment_hole_free": false,
+          "source_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\PrimeNumberTheoremAnd\\PrimeNumberTheoremAnd\\Wiener.lean",
+          "actual_build_log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-124959-bounded8v2\\PrimeNumberTheoremAnd.Wiener.log",
+          "actual_build_log_sha256": "9f2053e32670eaf6fec71f7d61eed19e8cb600d083c1f013839db576945cbdcc"
+        }
+      ],
+      "selected_export_unproved_auxiliary_absence_audit": {
+        "export_sha256": "5aa16e66effa689061e49f2490985b451ae21aefb9ada53993ff4bb6bc44ea2b",
+        "blocked_global_names": [
+          "prelim_decay_2",
+          "prelim_decay_3",
+          "sorryAx"
+        ],
+        "blocked_name_occurrences": [],
+        "selected_export_contains_neither_unproved_auxiliaries_nor_sorryAx": true
+      }
     }
   },
   "separate_previous_slot_root_count": 0,

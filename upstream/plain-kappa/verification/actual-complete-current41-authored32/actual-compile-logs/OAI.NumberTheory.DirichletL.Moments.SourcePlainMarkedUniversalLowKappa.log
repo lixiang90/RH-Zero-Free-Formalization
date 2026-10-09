@@ -1,0 +1,10 @@
+OAI\NumberTheory\DirichletL\Moments\SourcePlainMarkedUniversalLowKappa.lean:141:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+OAI\NumberTheory\DirichletL\Moments\SourcePlainMarkedUniversalLowKappa.lean:130:2: warning: Try this: intro τ' hτ' hτ'le d hd hd' rows hrowLower a ε binWidth i z hz height hheight hheight_le hzim q B hrows hdata
+  hreverse hBslots hwidths hprofile hupper hexternal hmesh hbinWidth hfamilySource bin label Ileft Iright hne

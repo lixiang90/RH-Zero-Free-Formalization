@@ -1,0 +1,9 @@
+{
+  "OAI.NumberTheory.DirichletL.Moments.SourcePlainMarkedUniversalLowKappa": [
+    "OAI.SevenEighths.SourcePlainMarkedUniversalLowKappa.exists_source_slots_and_universal_plain_marked"
+  ],
+  "OAI.NumberTheory.DirichletL.Moments.PlainUnmarkedAdmissionLowKappa": [
+    "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_growth_absorption_principal_exponent",
+    "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_plain_unmarked_admission"
+  ]
+}

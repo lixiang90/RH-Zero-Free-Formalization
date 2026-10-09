@@ -1,0 +1,59 @@
+{
+  "status": "independently_verified_intermediate_phase_without_separate_git_commit",
+  "published_baseline_git_commit": "a4a7007d77b2c277f489a524854a7cdf7f25b654",
+  "phase_has_own_git_commit": false,
+  "authored_module_count": 30,
+  "distinct_selected_declaration_count": 93,
+  "actual_source_custom_count": 2277,
+  "actual_target_count": 33,
+  "new_module_count": 2,
+  "new_independent_root_count": 4,
+  "older89_roots_retested": false,
+  "new_strict_replay_record": "verification/generic-losses4/strict-replay-result.json",
+  "new_strict_replay_record_sha256": "f94858c9e25a3c97ea4067ae24d6fe3790cc9edcffcbc73be19499f9cafa13ce",
+  "source_checkpoint_record": "verification/actual-complete-current41-authored30/checkpoint.json",
+  "source_checkpoint_record_sha256": "d8f9445a6cbe79809276e8257e730fc9b60998f17a80178a6b943c24521a0e49",
+  "original41_current_patch_sha256": "58ddc470f93afd26265525e78b951706ccb202839c6768f7ef39006af699dc42",
+  "exact_byte_snapshot_files": {
+    "extensions-manifest.json": {
+      "bytes": 65955,
+      "sha256": "40acbe9684f9787b8414099d6a902a20dcda57afc4b75e0f737314d8db5ecb8a",
+      "original_capsule_path": "extensions/manifest.json"
+    },
+    "original41-manifest.json": {
+      "bytes": 33007,
+      "sha256": "fb37798fb8a796b49ed5146cd72e39c1cc754e24021cf1f54ff649182a07dabc",
+      "original_capsule_path": "manifest.json"
+    },
+    "latest-actual-module-status.json": {
+      "bytes": 127986,
+      "sha256": "0c0d06658edba3b69586884ae48e50996db1238052a1267a8bca8ccb1d0416bc",
+      "original_capsule_path": "verification/latest-actual-module-status.json"
+    },
+    "frozen-checkpoint-scope.json": {
+      "bytes": 5365,
+      "sha256": "b275fec994bb396f184ffaf8182105c7700a4b2bb6b83dbb7a3e63b57cd19d31",
+      "original_capsule_path": "verification/frozen-checkpoint-scope.json"
+    },
+    "authored93-independent-evidence-integrity.json": {
+      "bytes": 24955,
+      "sha256": "c00546ec1298871ee0d1e61a408e40d924c154f090cd6199903e7035fe04abb6",
+      "original_capsule_path": "verification/authored93-independent-evidence-integrity.json"
+    },
+    "source-preparation-authored30-generic-losses.json": {
+      "bytes": 22014,
+      "sha256": "5e2af2916295f41b87e44dd93b017af9d5fa2bdf3d91b052565928ffb81d353f",
+      "original_capsule_path": "verification/source-preparation-authored30-generic-losses.json"
+    },
+    "external-source-application-authored30-generic-losses.json": {
+      "bytes": 22557,
+      "sha256": "d40ed96519cebc973ed34f7f7c6477be25b5a032739369d626b622425a1b472f",
+      "original_capsule_path": "verification/external-source-application-authored30-generic-losses.json"
+    },
+    "authored-source-preparation-status-lineage.json": {
+      "bytes": 853,
+      "sha256": "1df910f6e3fb4d932727fcba2492db7c07a8115e02a1e2814d3420061cc2b955",
+      "original_capsule_path": "verification/authored-source-preparation-status-lineage.json"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh": [
+    "OAI.SevenEighths.GenericSourceIdealAndMesh.source_fixed_ideal_gates",
+    "OAI.SevenEighths.GenericSourceIdealAndMesh.exists_source_slots_for_both_meshes",
+    "OAI.SevenEighths.GenericSourceIdealAndMesh.batch_fiber_absolute_slot_width"
+  ],
+  "OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa": [
+    "OAI.SevenEighths.LossesBeforeSlotSourcePlainMarkedLowKappa.exists_losses_before_slots_degrees_height_and_finite_family"
+  ]
+}

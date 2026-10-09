@@ -1,0 +1,113 @@
+{
+  "scope": "Three new canonical mathematical roots: a universal actual source-dictionary plain-marked field for every matching q/Batch and nonempty fiber, plus principal-exponent growth absorption and actual empty-selected unmarked admission. For the universal field, fixed prime S/product M precedes scalar losses, N/ell/slotLower, then terminal/profile degrees and common positive height ceiling; these precede every outer character. Each character has a positive constant and eventual threshold before all smaller positive heights, source rows and all matching batches/fibers. The exact SourcePlainMarkedAt predicate is not an extra selected root. The unmarked admission uses natural row width d*max(1,2*m)+rho without marked capacity, retaining actual PositiveAt, state-width and polynomial-scale caps, radial keep/profile cover and the height/loss budget. All arithmetic, beta/kappa, source-data/family/profile/window, prime/mesh/external/height/plain-capacity gates in the full types remain explicit. Complete SourceData/SourceMomentsAt/RawMomentInput, remaining fields, counts/probe and improved unconditional zero-free assembly remain pending. Older93 roots and private prototypes are not replayed; exact unused imported PNTA holes remain disclosed and absent from selected exports.",
+  "module": "UpstreamNano_20261009_220116",
+  "roots": [
+    "OAI.SevenEighths.SourcePlainMarkedUniversalLowKappa.exists_source_slots_and_universal_plain_marked",
+    "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_growth_absorption_principal_exponent",
+    "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_plain_unmarked_admission"
+  ],
+  "compiler": "Lean (version 4.34.1, x86_64-w64-windows-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "pins": {
+    "lean4export": "b18d673bd29b476466a51a3be1012df2ed322b10",
+    "nanoda": "418320295890faed83a96fd97907b12a3b6728c2",
+    "official_comparator": "273294467ce06429e6667ece7f5699f8678c9f4e"
+  },
+  "input_paths": {
+    "driver_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-kernel\\scripts\\verify_independent_nanoda_34.py",
+    "source_lean": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\UpstreamNano_20261009_220116.lean",
+    "source_olean": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\UpstreamNano_20261009_220116.olean",
+    "exporter_binary": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-kernel\\lean4export\\.lake\\build\\bin\\lean4export.exe",
+    "nanoda_binary": "E:\\codex-build\\RH-Zero-Proportion-Formalization\\tmp\\kernel-tools\\nanoda-target\\release\\nanoda_bin",
+    "export": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\tmp\\verification\\source-universal-unmarked3-actual-20261009-220103-nano\\export.ndjson",
+    "export_metadata": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\tmp\\verification\\source-universal-unmarked3-actual-20261009-220103-nano\\export-metadata.json",
+    "configuration": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\tmp\\verification\\source-universal-unmarked3-actual-20261009-220103-nano\\nanoda-config.json"
+  },
+  "lean_path_directories": [
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean"
+  ],
+  "exporter_environment_lean_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\Cli\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\LeanArchitect\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\checkdecls\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\leancert\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\PrimeCert\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\batteries\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\Qq\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\aesop\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\proofwidgets\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\importGraph\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\LeanSearchClient\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\plausible\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\PrimeNumberTheoremAnd\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean;E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean;c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\lib\\lean",
+  "working_directory": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+  "sha256_before": {
+    "driver_source": "d215b5502d4821cf8af87044f90c0cc214d0fd40129b37ed52ffe1f47c4603c1",
+    "source_lean": "d57a1306dd8fec76b0d9be7e5a8b696a21343ee9314062af81d4afc6a8b2dd82",
+    "source_olean": "3b5c5d23f0ff34601042fd924f16595e72e07812e6f95fc2ca5aa265a84dd9bf",
+    "exporter_binary": "59c8e239262153a57d37b83869732b75b5b3b5a1689b489a0660a5e713dd3701",
+    "nanoda_binary": "b19804767cb72bf5a317fcfc20e8af7eafdfba789dd6b24bddee2574379ff35a",
+    "export": "5aa16e66effa689061e49f2490985b451ae21aefb9ada53993ff4bb6bc44ea2b",
+    "export_metadata": "5b20b19694817ad8f54360a7f9e00d07c41bbb2add3b1c76a875628feb94b749",
+    "configuration": "4542f6fa7a063010f45a820f36f15f76ab8d074b33ec6afcd63c66b5a5178178"
+  },
+  "sha256_after": {
+    "driver_source": "d215b5502d4821cf8af87044f90c0cc214d0fd40129b37ed52ffe1f47c4603c1",
+    "source_lean": "d57a1306dd8fec76b0d9be7e5a8b696a21343ee9314062af81d4afc6a8b2dd82",
+    "source_olean": "3b5c5d23f0ff34601042fd924f16595e72e07812e6f95fc2ca5aa265a84dd9bf",
+    "exporter_binary": "59c8e239262153a57d37b83869732b75b5b3b5a1689b489a0660a5e713dd3701",
+    "nanoda_binary": "b19804767cb72bf5a317fcfc20e8af7eafdfba789dd6b24bddee2574379ff35a",
+    "export": "5aa16e66effa689061e49f2490985b451ae21aefb9ada53993ff4bb6bc44ea2b",
+    "export_metadata": "5b20b19694817ad8f54360a7f9e00d07c41bbb2add3b1c76a875628feb94b749",
+    "configuration": "4542f6fa7a063010f45a820f36f15f76ab8d074b33ec6afcd63c66b5a5178178"
+  },
+  "inputs_unchanged": true,
+  "existing_compiled_module": true,
+  "module_recompiled_in_this_invocation": false,
+  "reused_export": false,
+  "export_process_ran": true,
+  "export_command": [
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-kernel\\lean4export\\.lake\\build\\bin\\lean4export.exe",
+    "UpstreamNano_20261009_220116",
+    "--",
+    "OAI.SevenEighths.SourcePlainMarkedUniversalLowKappa.exists_source_slots_and_universal_plain_marked",
+    "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_growth_absorption_principal_exponent",
+    "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_plain_unmarked_admission"
+  ],
+  "export_exit_code": 0,
+  "prior_export_exit_code": null,
+  "prior_export_command": null,
+  "export_bytes": 1142266767,
+  "configuration": {
+    "use_stdin": true,
+    "permitted_axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "unpermitted_axiom_hard_error": true,
+    "nat_extension": true,
+    "string_extension": true,
+    "num_threads": 1,
+    "unsafe_permit_all_axioms": false,
+    "print_success_message": true,
+    "print_axioms": true,
+    "pp_to_stdout": true
+  },
+  "configuration_basis": "Pinned Comparator.Main.runNanoda; only thread scheduling and success/axiom output are added",
+  "actual_nano_command": [
+    "C:\\WINDOWS\\system32\\wsl.exe",
+    "--distribution",
+    "Ubuntu",
+    "--exec",
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/mnt/e/codex-build/RH-Zero-Free-Formalization/tmp/upstream-plain/tmp/verification/source-universal-unmarked3-actual-20261009-220103-nano/nanoda-time.txt",
+    "/mnt/e/codex-build/RH-Zero-Proportion-Formalization/tmp/kernel-tools/nanoda-target/release/nanoda_bin",
+    "/mnt/e/codex-build/RH-Zero-Free-Formalization/tmp/upstream-plain/tmp/verification/source-universal-unmarked3-actual-20261009-220103-nano/nanoda-config.json"
+  ],
+  "actual_nano_exit_code": 0,
+  "nano_elapsed_seconds": 134.703,
+  "total_elapsed_seconds": 214.922,
+  "checked_declarations": 101944,
+  "observed_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "nano_check_passed": true,
+  "log": "tmp\\verification\\source-universal-unmarked3-actual-20261009-220103-nano\\nanoda.log",
+  "log_sha256": "0dd011bd22cec145627963d8ea043ebdc4c967ca49e192cbf0dac826eb11528c",
+  "resource_log": "tmp\\verification\\source-universal-unmarked3-actual-20261009-220103-nano\\nanoda-time.txt",
+  "resources": "\tCommand being timed: \"/mnt/e/codex-build/RH-Zero-Proportion-Formalization/tmp/kernel-tools/nanoda-target/release/nanoda_bin /mnt/e/codex-build/RH-Zero-Free-Formalization/tmp/upstream-plain/tmp/verification/source-universal-unmarked3-actual-20261009-220103-nano/nanoda-config.json\"\n\tUser time (seconds): 132.75\n\tSystem time (seconds): 1.80\n\tPercent of CPU this job got: 99%\n\tElapsed (wall clock) time (h:mm:ss or m:ss): 2:14.65\n\tAverage shared text size (kbytes): 0\n\tAverage unshared data size (kbytes): 0\n\tAverage stack size (kbytes): 0\n\tAverage total size (kbytes): 0\n\tMaximum resident set size (kbytes): 1682456\n\tAverage resident set size (kbytes): 0\n\tMajor (requiring I/O) page faults: 22\n\tMinor (reclaiming a frame) page faults: 80875\n\tVoluntary context switches: 882\n\tInvoluntary context switches: 79\n\tSwaps: 0\n\tFile system inputs: 2832\n\tFile system outputs: 0\n\tSocket messages sent: 0\n\tSocket messages received: 0\n\tSignals delivered: 0\n\tPage size (bytes): 4096\n\tExit status: 0\n",
+  "official_comparator_verified": false,
+  "whole_submission_compiled": false,
+  "submitted": false
+}

@@ -5,15 +5,16 @@ our cubic boundary to the actual Hecke arithmetic in OpenAI/math. Author:
 **Li Xiang / lixiang90**. It is independent of the primary Lean 4.33.0-rc2
 library, and its results are counted separately.
 
-**The complete improved zero-free region is still pending.** All 89 selected
-roots in the twenty-eight authored modules below passed actual compilation, fresh
+**The complete improved zero-free region is still pending.** All 96 selected
+roots in the thirty-two authored modules below passed actual compilation, fresh
 complete types/axioms and independent Nano replay. The complete patched
 low-kappa energy induction and terminal output passed a separate four-root
-independent replay. The final source controller compiled all 2275 custom
-dependency modules and 31 targets successfully. The previous 2274 successful
+independent replay. The final source controller compiled all 2279 custom
+dependency modules and 35 targets successfully. The previous 2277 successful
 modules were reused only after their source/dependency/artifact bindings matched.
-The terminal output preserves its arithmetic inputs. Complete detector marked
-moments, improved counts and the physical low/raw-high probe remain open.
+The terminal output preserves its arithmetic inputs. The fixed-source
+plain_marked field is now proved universally over matching batches. Complete
+four-field Moments, improved counts and the physical low/raw-high probe remain open.
 
 ## Mathematical scope
 
@@ -29,8 +30,8 @@ The original d18941bd revision is retained in the historical evidence. Four
 final proof-body repairs supply the exact weaker premises expected by existing
 APIs; their declaration headers and mathematical hypotheses are unchanged.
 
-The [authored-source manifest](extensions/manifest.json) records twenty-eight extra
-modules with 89 selected roots separately from those patched upstream sources.
+The [authored-source manifest](extensions/manifest.json) records thirty-two extra
+modules with 96 selected roots separately from those patched upstream sources.
 Each has an exact
 source hash, declaration list and verification status.
 
@@ -117,13 +118,20 @@ checks 82,748 from three roots. The
 checks 87,870 transitive declarations from the six remaining finite-row roots. Together the authored selected
 set contains 78 distinct declarations across the historical 19 modules.
 The [source-Batch/PositiveAt/height replay](verification/sourcebatch-positiveat-height7/strict-replay-result.json)
-checks the seven new roots across five further modules. The current authored
-24-module checkpoint contains 85 distinct selected declarations. The current
+checks the seven new roots across five further modules. The historical authored
+24-module checkpoint contains 85 distinct selected declarations. The
 [marked-supply replay](verification/marked-supply3/strict-replay-result.json)
 adds exactly three roots in three modules, completing the historical
-27-module/88-root checkpoint. The current [uniform-height replay](verification/uniform-height1/strict-replay-result.json)
+27-module/88-root checkpoint. The [uniform-height replay](verification/uniform-height1/strict-replay-result.json)
 adds one further declaration in one module, bringing the authored set to
-89 distinct selected declarations across 28 modules.
+89 distinct selected declarations across the historical 28 modules.
+The [generic ideal/mesh and loss-before-slot replay](verification/generic-losses4/strict-replay-result.json)
+adds four roots across two modules, reaching the historical 30-module/93-root
+phase boundary. The [universal source/unmarked replay](verification/source-universal-unmarked3/strict-replay-result.json)
+adds three roots across two further modules. The current authored set is
+**32 modules and 96 distinct selected declarations**, with exact source and
+declaration bindings in the [integrity record](verification/authored96-independent-evidence-integrity.json).
+The 30/93 phase is a frozen intermediate snapshot, not a separate Git commit.
 The five additional original OAI sources were restored from exact pinned Git
 blobs and compiled without compatibility changes; the original SourceBatch
 was a separate compilation target, not an extra independently selected root.
@@ -173,9 +181,20 @@ UniformHeightSourcePlainMarkedLowKappa now uses the native uniform degree
 primitive to choose degree/J and a positive common height ceiling before
 every finite character/ideal family. Each family has one positive constant
 and scale threshold before all 0<tau_prime<=tau. The slots remain fixed first.
-The source-specific universal Batch wrapper and loss-before-slot allocation
-still need integration. The other three Moments fields, improved detector
-count and the physical probe remain open.
+LossesBeforeSlotSourcePlainMarkedLowKappa now fixes scalar losses before any
+finite Slot type, with degree/J/height before finite character maps.
+GenericSourceIdealAndMesh supplies the actual ideal gates and both
+absolute-energy and scaled-Batch meshes. The existing source_product_le_rowMask
+supplies the mask gate. SourcePlainMarkedUniversalLowKappa
+assembles these into the actual source plain_marked field for every matching
+q/Batch and nonempty fiber, with S/product ideal fixed before the losses.
+The complete source assembly additionally needs losses/slots before the final
+FirstTail-compatible S/product ideal; see the [read-only order audit](../../docs/source-assembly-order-audit/audit.md).
+PlainUnmarkedAdmissionLowKappa proves the genuine max(1,2m) admission without
+marked capacity, retaining actual PositiveAt, state.width=d*max(1,2m)+rho,
+state-width/polynomial-scale caps and radial cover. Its source-wide state and
+uniform caps still need to be constructed. inverse_raw, inverse_marked,
+the complete four-field record, improved counts and the physical probe remain open.
 
 The [marked-supply replay](verification/marked-supply3/strict-replay-result.json) checks these three further interfaces:
 
@@ -192,7 +211,24 @@ maps for fixed slots; the actual row/slot/prime/height gates remain explicit.
 
 Each of the preceding three roots passed actual compilation, fresh complete types/axioms and the same joint independent replay. The last interface still fixes its finite maps before degree; the independent uniform-degree primitive does not silently strengthen that statement.
 
-The [source-wrapper audit](../../docs/source-plain-wrapper-audit/README.md) records the exact source-specific universal Batch quantifiers and the remaining admission gates. It is a read-only audit, counted separately from the proved roots.
+The [source-wrapper audit](../../docs/source-plain-wrapper-audit/README.md)
+preserves the historical admission dictionary. The new seven selected roots
+have their own completed fresh audits and independent replays:
+
+| Interface | Proved scope | Roots |
+|---|---|---|
+| Moments.GenericSourceIdealAndMesh | Actual fixed product/internal ideal gates; arbitrary-total slots satisfying both absolute energy and scaled Batch meshes; actual fiber absolute width. | 3 |
+| Moments.LossesBeforeSlotSourcePlainMarkedLowKappa | Scalar losses before arbitrary finite slots, then degree/J/common height before every finite character/ideal family. | 1 |
+| Moments.SourcePlainMarkedUniversalLowKappa | For fixed S/product ideal and window, construct losses and slots and prove the moving-kappa marked bound universally for every matching source q/Batch and nonempty fiber. | 1 |
+| Moments.PlainUnmarkedAdmissionLowKappa | Principal-exponent height absorption and actual empty-selected unmarked admission at exponent max(1,2m), retaining real state and caps. | 2 |
+
+The first four-root replay checked 101,887 transitive declarations; the last
+three-root replay checked 101,944. Their closures overlap and are not added.
+The SourcePlainMarkedAt predicate is not an additional selected root. Both
+replays bind complete types and the three standard axioms; the selected exports
+contain neither the disclosed PNTA auxiliary placeholders nor sorryAx.
+The [assembly-order audit](../../docs/source-assembly-order-audit/audit.md)
+binds eight original source snapshots and adds zero proved roots.
 
 ## Pinned sources and tools
 

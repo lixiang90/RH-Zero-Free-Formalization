@@ -1,0 +1,23 @@
+import UpstreamNano_20261009_212936
+set_option pp.universes true
+set_option pp.fullNames true
+set_option pp.explicit true
+set_option pp.all true
+set_option pp.maxSteps 1000000
+
+set_option pp.universes true
+#check @OAI.SevenEighths.GenericSourceIdealAndMesh.source_fixed_ideal_gates
+set_option pp.universes false
+#print axioms OAI.SevenEighths.GenericSourceIdealAndMesh.source_fixed_ideal_gates
+set_option pp.universes true
+#check @OAI.SevenEighths.GenericSourceIdealAndMesh.exists_source_slots_for_both_meshes
+set_option pp.universes false
+#print axioms OAI.SevenEighths.GenericSourceIdealAndMesh.exists_source_slots_for_both_meshes
+set_option pp.universes true
+#check @OAI.SevenEighths.GenericSourceIdealAndMesh.batch_fiber_absolute_slot_width
+set_option pp.universes false
+#print axioms OAI.SevenEighths.GenericSourceIdealAndMesh.batch_fiber_absolute_slot_width
+set_option pp.universes true
+#check @OAI.SevenEighths.LossesBeforeSlotSourcePlainMarkedLowKappa.exists_losses_before_slots_degrees_height_and_finite_family
+set_option pp.universes false
+#print axioms OAI.SevenEighths.LossesBeforeSlotSourcePlainMarkedLowKappa.exists_losses_before_slots_degrees_height_and_finite_family

@@ -1,0 +1,41 @@
+{
+  "old_formal_commit": "a4a7007d77b2c277f489a524854a7cdf7f25b654",
+  "old_authored28_manifest_sha256": "48b1c34715450d2241228303edffd1b001078ede6d77f581cde5267f375d7b9e",
+  "old_selected_declaration_count": 89,
+  "new_authored_module_count": 30,
+  "new_selected_declaration_count": 93,
+  "new_prepared_module_count": 2,
+  "new_prepared_declaration_count": 4,
+  "new_prepared_sources": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh",
+      "path": "OAI/NumberTheory/DirichletL/Moments/GenericSourceIdealAndMesh.lean",
+      "sha256": "2a0fec6b6d42a2caeaaad8c30d73eefd8fcb46de2cf313f9b231661995346840",
+      "roots": [
+        "OAI.SevenEighths.GenericSourceIdealAndMesh.source_fixed_ideal_gates",
+        "OAI.SevenEighths.GenericSourceIdealAndMesh.exists_source_slots_for_both_meshes",
+        "OAI.SevenEighths.GenericSourceIdealAndMesh.batch_fiber_absolute_slot_width"
+      ],
+      "scope": "Three genuine source-interface arithmetic helpers: fixed modulus Q0=M meet (72) and all actual internalQ nonzero/proper/divisibility gates; an arbitrary positive total of injective slots simultaneously meeting batch/physical/energy meshes; exact absolute slot width for an actual nonempty Batch fiber. No SourceMomentsAt or complete Moments construction is asserted.",
+      "status": "canonical_prepared_not_actual_compiled_or_independently_replayed"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/LossesBeforeSlotSourcePlainMarkedLowKappa.lean",
+      "sha256": "d5b1e7b5be2f5aae02fc27b210d62cce3341b5a6a67a1f8490dca4599f3d42d4",
+      "roots": [
+        "OAI.SevenEighths.LossesBeforeSlotSourcePlainMarkedLowKappa.exists_losses_before_slots_degrees_height_and_finite_family"
+      ],
+      "scope": "Native scalar losses rho and epsilonE chosen before every finite Slot type; terminal/profile degrees and common positive height exponent may depend on Slot but precede all finite arithmetic maps. For each family the same positive constant and eventual threshold precede all smaller positive height exponents. All beta/kappa/source/prime/radial/slot/external/height/plain-capacity gates remain explicit. Actual plain-marked field only; SourceMomentsAt/RawMomentInput, remaining three fields, counts/probe and improved unconditional zero-free assembly remain pending.",
+      "status": "canonical_prepared_not_actual_compiled_or_independently_replayed"
+    }
+  ],
+  "original41_aggregate_patch_sha256_unchanged": "58ddc470f93afd26265525e78b951706ccb202839c6768f7ef39006af699dc42",
+  "source_installation_and_controller_owner": "plain_range_graph",
+  "new_actual_compilation_status": "pending",
+  "new_selected_independent_replay_status": "pending",
+  "old89_declarations_retested": false,
+  "old_source_state_sha256_unchanged": "43cc7199277bf238816dfbe0c1af4bdba21c2c30fc39b8f05c6974d84a861e39",
+  "canonical_metadata_sha256": "dc58c3948a14faa6d938b28edd6618667e0c7edccbcdb617c7b02db054aee159",
+  "next33_target_input_sha256": "8626836a2ae00712538987aca9696748ce67243b95f0d6fdc0348035f4eb93e4"
+}

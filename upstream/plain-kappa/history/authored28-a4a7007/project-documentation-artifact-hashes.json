@@ -1,0 +1,386 @@
+{
+  "path_base": "repository_root",
+  "scope": "Root-owned repository README and documentation include all60 exact-byte finite-row audit artifacts, finite-row integration, and the 18-file source-wrapper quantifier/gates ledger with14 quoted raw Lean sources. These documents are outside the capsule directory; hashes are separate from capsule-relative artifacts and include ignored logs as exact bytes. Source audits do not make their uncompiled branches proof results. Current mathematical scope is authored28/89 with separate selected upstream22 and external Rellich54.",
+  "artifacts": {
+    "README.md": {
+      "bytes": 8314,
+      "sha256": "5f2aaedaebd7527d93dbc4c7c2ec02a650ade41d1e6b558469ae7184d3d32e9e"
+    },
+    "docs/arithmetic-integration.md": {
+      "bytes": 10242,
+      "sha256": "4b8f56a2147c620c6b256dec8020a8ebe9181d32da6600fd7763a2afe7c16b83"
+    },
+    "docs/finite-row-energy-audit/FinitePositiveRowDomination.candidate.lean": {
+      "bytes": 2951,
+      "sha256": "b1c646e98cd1b8e08a06da8076e4925c2d36086b9b443b5406dee858c270b01b"
+    },
+    "docs/finite-row-energy-audit/README.md": {
+      "bytes": 1218,
+      "sha256": "78a4a3b9191e679ecb5c8ce79c4345c7dfab89d82ec5cb37b0c1958cf20108ba"
+    },
+    "docs/finite-row-energy-audit/audit.md": {
+      "bytes": 16915,
+      "sha256": "1cf6b5a37c9363c61a3cee2744a1c804a70e993c2909eec6f95253c9597c1efe"
+    },
+    "docs/finite-row-energy-audit/metadata.json": {
+      "bytes": 48801,
+      "sha256": "ebb8a35492d53e78ecdea8930e01e8bb89d17d33a40b1422336777efb5963157"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Detector/DetectorMomentData.lean": {
+      "bytes": 2851,
+      "sha256": "0fb5b95b1d8aabb0a0d77deb9c38f5b151ee62d06dde3d12fbf139aa65ce4e4a"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Detector/FinalAssemblyData.lean": {
+      "bytes": 3173,
+      "sha256": "e4ed7337985e8b5843727f0884472dd98f3c04934fef839f4e184125cf8c57fa"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Detector/RayCharacterFamily.lean": {
+      "bytes": 6750,
+      "sha256": "b8f30f1023d71966768ef4371ba111277f1afe77fb88bd5b24fec3a2a183041b"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Energy/Bands.lean": {
+      "bytes": 5393,
+      "sha256": "42fd3fe963d8deef1cc5772979b41a8273e80940641e9f24475ff33397a09c2e"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Energy/CapacityRemoval.lean": {
+      "bytes": 15259,
+      "sha256": "01429c7a3230a11416c654b56616410595bc2c76fcb5fbde274b0df8e514a157"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Energy/CappedWidthInduction.lean": {
+      "bytes": 7463,
+      "sha256": "4d9ed300268c73c78c65e7102d538eef72613a450099c35131e12ba2b50c4325"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Energy/CertifiedExistence.lean": {
+      "bytes": 2702,
+      "sha256": "06ff1fed7defc2f2eb790ce226d968d258841a2e30c55ec840bf43f5422f64f5"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Energy/FixedRadialSource.lean": {
+      "bytes": 4698,
+      "sha256": "97e8d9bf4e9d3d91107a636a6ac4c0c188a45328fa0499b75771d6056eb6258e"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Energy/State.lean": {
+      "bytes": 3074,
+      "sha256": "b5118d2f6f04ed495a6317317b74a7d60ba1b32f2050aeb7ee7e9e4783d67222"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Hecke/DetectorAdaptiveCutoff.lean": {
+      "bytes": 2747,
+      "sha256": "dbb2cd8a15db4c981dc8276ed0caf783cff1949a4ce4ae34985a0d2d150dda21"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Hecke/DetectorAmplitudeFirst.lean": {
+      "bytes": 4796,
+      "sha256": "901ff6bf1cfc3e7882c131c7696bf45b423fc5df61d06c039b41d61d65d06351"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Hecke/DetectorBatch.lean": {
+      "bytes": 4597,
+      "sha256": "ac1d356279c3fbc7e5813a717daa12585f289ee8168e7947bd5b0f018fea5589"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Hecke/DetectorFiberPartition.lean": {
+      "bytes": 5970,
+      "sha256": "60a73dc7e48734436db2d0553aa5132e9a26ef302006736c318bb289670f53af"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Hecke/DetectorPhysicalSelection.lean": {
+      "bytes": 2949,
+      "sha256": "f834263cba5fca818a8001b40ffd71acd20d4ea03317d2ce3770ae3d9b19ecfa"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Hecke/DetectorRawBranches.lean": {
+      "bytes": 4183,
+      "sha256": "0c7be2f4783978d946dae3e345fe623af200fe954b7c00bda543c590b536ecf3"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Hecke/DetectorRawFiber.lean": {
+      "bytes": 5076,
+      "sha256": "67f7deaea66fbf26ca0c697aafa579afa58f12c17735f70cf83f4c14ac7a4607"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Hecke/DetectorSimultaneousSupport.lean": {
+      "bytes": 8010,
+      "sha256": "a2ef898f0a4be2e342db9b87fdce18ff476e75d00f2ec0e015d56952354f14bb"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Hecke/DetectorSupportedWitness.lean": {
+      "bytes": 3360,
+      "sha256": "33046704d34c916d729de421350d1da7df631b76f9ff7e8593c8189bdc7f134c"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Hecke/DetectorWitnessRows.lean": {
+      "bytes": 4511,
+      "sha256": "56d358c4fc6fa721e82fe1d507d48952c940907f6fa60254745184a7cf79f812"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Hecke/InverseAmplificationRows.lean": {
+      "bytes": 3318,
+      "sha256": "d0cda378c4121cd700e8a80e8337b19bc89d22373f2797f46e74efe6b5c35733"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Hecke/RayQuotient.lean": {
+      "bytes": 3038,
+      "sha256": "4636aa0c818fe58150804ba7f86a4a13cd03b0080db98f5e16b9d03a3933322b"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/DetectorDictionaryFiber.lean": {
+      "bytes": 3794,
+      "sha256": "1452f3b17324dc18738a8a986a344bcc826283273d4824733d14fa3025b6ee84"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/DetectorDictionaryProfiles.lean": {
+      "bytes": 2401,
+      "sha256": "346a286bea7e1af3bad0041c6ebda6a25e0cc64e4b0f309dee0fc9cc54379c06"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/DetectorDictionarySlots.lean": {
+      "bytes": 3342,
+      "sha256": "2b78a21489a0a4af9df2453afe6580bbc9d648cf92e9a53d5b387012ad502dc6"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/DetectorDictionarySource.lean": {
+      "bytes": 3674,
+      "sha256": "2f9894c7cc17a0b329229f826397b6708a0294bbc40726afa3c35248cd0f3e98"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/DetectorDictionaryUniformHeight.lean": {
+      "bytes": 2218,
+      "sha256": "b5b4e0cdc390f8bcae744e12921b87e1b935d3a5f6e709b1072c13228a2cbd2b"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/DetectorDictionaryUniformLog.lean": {
+      "bytes": 3805,
+      "sha256": "4882e53e02c5a36375a6ee81cba864a1e3a186e6fcbb8e1185acb52fb6d8d11f"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/DetectorDictionaryUniformTests.lean": {
+      "bytes": 3178,
+      "sha256": "0e9f8adb9eebef1f15c047e545d9eba302dc5fe3911c325b824ab56067db5fdf"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/FiniteProfileExceptionalNormalize.lean": {
+      "bytes": 2700,
+      "sha256": "63962cab986744c497aa52a2770cf1aaca8c810919dd332d3aff93125b2fc1dc"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/FiniteProfileExceptionalPair.lean": {
+      "bytes": 4806,
+      "sha256": "f4e6a790fafc9dce047fbbc0acc3fbb01643b288050e79a7ef3e3ff1e406028d"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/InductionEnergy.lean": {
+      "bytes": 6029,
+      "sha256": "1bb64bac9e5e03fbda5f90a1ab05519a145afe75aeac58c0b15eb67c0ab65141"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/NaturalFixedRaySourceBatch.lean": {
+      "bytes": 4793,
+      "sha256": "8291f8700e87eacd90e3dbf7da0102a7bad34598322addc4f6672b85f3026a68"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/NaturalFixedRaySourceCharacters.lean": {
+      "bytes": 4552,
+      "sha256": "109c1a153b9a5f5f9545946b73184396801791da94f38066127071adf3871189"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/NaturalFixedRaySourceFiber.lean": {
+      "bytes": 5557,
+      "sha256": "0f3f6267f8fe1850215b8c2d5db856808d33b15501c5ad41fa8fc6d276762c72"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/NaturalFixedRaySourceFixedIdeal.lean": {
+      "bytes": 2986,
+      "sha256": "190e5726dbc032db6d9c0ea31d9b45e7abbbd8ddcc2acb7564c34fee8eac26cb"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/NaturalFixedRaySourceFreeExceptional.lean": {
+      "bytes": 4834,
+      "sha256": "e61699d887e4375efe50cd0ad7c719857901066f1d11eca3e82582a966c81514"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/NaturalFixedRaySourceInternal.lean": {
+      "bytes": 4454,
+      "sha256": "0ade3f70de71ba092e670b54568bc84bd17a265aeb1412ab1ba71a9a61dd9cd4"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/PositiveSummability.lean": {
+      "bytes": 5714,
+      "sha256": "9884c65e35b55678c75d47044ebce9f57503e541317003427ad38988e5fb055e"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/PrimeSlot.lean": {
+      "bytes": 3519,
+      "sha256": "b55cab3d0ee3306d4cff599a923fca6cafefc286b4f8f175a1bde06795803aa7"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/RayIdentityClassCoefficient.lean": {
+      "bytes": 1068,
+      "sha256": "9235373ea53a25edba238947a5781a1951eb116c43adfd95a6929051846a43fb"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Moments/RetainedEnergy.lean": {
+      "bytes": 8622,
+      "sha256": "2c6afbe49477008b64f702cfa32bd543af5cd7990d132b2cf341ffe3ee0fd3bd"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/PrimeRows/BufferedBin.lean": {
+      "bytes": 3351,
+      "sha256": "878b426b575edd9cd9108fbfb82da185a23c2360df901514bf8adde2c04d98b9"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/PrimeRows/CanonicalCubeBins.lean": {
+      "bytes": 2529,
+      "sha256": "392efdda2a516e0be3cc92f7b6a040d2dd6b53758150eb4a53bb2050464f68dc"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/PrimeRows/CanonicalRayCube.lean": {
+      "bytes": 5120,
+      "sha256": "53b066621e39813045c8effecccfd514a40b2291b9f410dae7b9ea1bcdae8294"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/PrimeRows/CanonicalReduction.lean": {
+      "bytes": 4535,
+      "sha256": "bca3bafc69d469660bd2eae554d9ab9170c39b368be8a84f7c869fe7ce835d76"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/PrimeRows/Conductor.lean": {
+      "bytes": 2524,
+      "sha256": "e9a464a7071a91ad1ae988a4eb3e69ca1ec08b8ac8d2c12290769df4d98b0bc8"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/PrimeRows/DetectorBins.lean": {
+      "bytes": 3982,
+      "sha256": "06f7bd8317e94e3f11d75bb572fa6180b63e792c801f50169a81758928c2fd88"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/PrimeRows/Euler.lean": {
+      "bytes": 4750,
+      "sha256": "16915d79ae73612846a226dfa2f15091dd461e946771eb056012213f70acdf98"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/PrimeRows/NonfloorCount.lean": {
+      "bytes": 5151,
+      "sha256": "dba31f83223efb91818e86c8e8345df18b25c6fefb9043c91690d5c906d315f6"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/PrimeRows/PrincipalMask.lean": {
+      "bytes": 3744,
+      "sha256": "94e15482e02efa867ef7cfa75bf43f9061f0f9edf4b9663a55c3181b5fba1b4b"
+    },
+    "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/PrimeRows/RowPartition.lean": {
+      "bytes": 5249,
+      "sha256": "3e5ac378d1d7f3ff2e3438a7e40140e133b7a681ab06b4d9b2df48ab4507be19"
+    },
+    "docs/finite-row-energy-audit/verification/AxiomAudit.lean": {
+      "bytes": 3216,
+      "sha256": "1185cf7f346f68cbd55ca0d36d5a5d3e2e0986c54318135591e1fe8dfe2d3da1"
+    },
+    "docs/finite-row-energy-audit/verification/compile.json": {
+      "bytes": 1174,
+      "sha256": "e90f4e71a1eaff0fa4cf072ed8ba6ac9714eaaf12638afab8c8ca27f7e6e254a"
+    },
+    "docs/finite-row-energy-audit/verification/compile.log": {
+      "bytes": 340,
+      "sha256": "04d9a262a2cdc33c3510c8929c40cb64a36dfea06455fe6e44de7f0e3c62d2cc"
+    },
+    "docs/finite-row-energy-audit/verification/fresh.json": {
+      "bytes": 510544,
+      "sha256": "faff37d3bc6483682b62564e444bc03e0bcc584c79b63f1450d99475d6d99ceb"
+    },
+    "docs/finite-row-energy-audit/verification/fresh.log": {
+      "bytes": 17771,
+      "sha256": "5bf07ed42ea9380777bc4c9424173b99a8e355a8a2731ef8eda1fdb5b68e99bc"
+    },
+    "docs/finite-row-energy-integration.zh.md": {
+      "bytes": 9830,
+      "sha256": "cae7a2eebfd4e4f5dfbc3395367368deef9c67afcaa0a27707ee28a851723d10"
+    },
+    "docs/marked-moment-audit/IdentityClassCoefficient.lean.raw-source.json": {
+      "bytes": 1750,
+      "sha256": "7e3d6093bafff9ec9631238efbcbe25e41b316c2920a74702ff6a03ef252b646"
+    },
+    "docs/marked-moment-audit/README.md": {
+      "bytes": 1463,
+      "sha256": "d5333fe169c6f20868c27f5506a728b4f019dcb74e45cd9a82d5e63ecfd9f7a7"
+    },
+    "docs/marked-moment-audit/audit.zh.md": {
+      "bytes": 16082,
+      "sha256": "17c08fdf4f67c69a038309d1bb85bb811edfb903d4bdd775bf1a4f8790b7d40b"
+    },
+    "docs/marked-moment-audit/canonical-row-domain.zh.md": {
+      "bytes": 2083,
+      "sha256": "ecc3a85624a4dd4df8fbd027a92986b20ce6d2476969cd146194922ed2ac15ce"
+    },
+    "docs/marked-moment-audit/source-snapshot.json": {
+      "bytes": 14789,
+      "sha256": "213d3bf1dcc70ed523b94ad33f629c92ed6aec672e6b861fafa0e6f94b4ce056"
+    },
+    "docs/plain-kappa-extension.md": {
+      "bytes": 5168,
+      "sha256": "d7dfa0bd2c0b6be38a5b420b6a3d7b81c15779f2836dbfdb08b670099ccb3e53"
+    },
+    "docs/pnta-normalizer-audit/README.md": {
+      "bytes": 1320,
+      "sha256": "12eae3886e3abc78b0f700c318de5c4addee8e6069f9361a3ddacc40406924c7"
+    },
+    "docs/pnta-normalizer-audit/audit.md": {
+      "bytes": 4167,
+      "sha256": "0b4681baf48586b2a15fa7eff8a9e1b1891c0103b38d04ac5ed84ece2398f16b"
+    },
+    "docs/pnta-normalizer-audit/leaf-fresh-evidence/ActualSuppliesAudit.lean": {
+      "bytes": 346,
+      "sha256": "894bc8e24ecc96ea7716014182d955a82edc4e38f835c948194a2d8c54420e09"
+    },
+    "docs/pnta-normalizer-audit/leaf-fresh-evidence/AxiomAudit.lean": {
+      "bytes": 516,
+      "sha256": "e4e4db002fe8112e38cba7068248304001e403284950fe37248ce297c5eb6d44"
+    },
+    "docs/pnta-normalizer-audit/leaf-fresh-evidence/actual-supplies-axes.log": {
+      "bytes": 1436,
+      "sha256": "a5492f8c68ae3b2291db5bbcb08952d2edb71ee6b9258f97846365506986960b"
+    },
+    "docs/pnta-normalizer-audit/leaf-fresh-evidence/fresh-axes.log": {
+      "bytes": 1878,
+      "sha256": "24496571e40d32b472a4226be210be77dc8a8b26089dcf8644c2a93bdefac9cb"
+    },
+    "docs/pnta-normalizer-audit/metadata.json": {
+      "bytes": 6992,
+      "sha256": "bd6aa8dfb869d8615b18bba06f942ce5cfd8502394aa8a03f29808dabc4831ec"
+    },
+    "docs/proof-status.md": {
+      "bytes": 8792,
+      "sha256": "9aa2ccb3b42f09d21ae4c03f00ce6de7dcb7f88d5966b5d0a7ab3f886e7d6ba8"
+    },
+    "docs/source-plain-wrapper-audit/README.md": {
+      "bytes": 1067,
+      "sha256": "d9ab1baf4f688d323cd184340c340aec248bb216df1feef1715f548d8eb886c0"
+    },
+    "docs/source-plain-wrapper-audit/audit.md": {
+      "bytes": 10033,
+      "sha256": "9b3dfab7d174188c0361838a36656bf837358e427b85d5ed5924ca6f6a2d4c7f"
+    },
+    "docs/source-plain-wrapper-audit/closures.json": {
+      "bytes": 1466358,
+      "sha256": "373989dc6b41659aa2a611b73b365a0f5179b7702416d47279669eed54e29141"
+    },
+    "docs/source-plain-wrapper-audit/metadata.json": {
+      "bytes": 7538,
+      "sha256": "c10ec6bd394359b714eb1e40a4996a7e9f21be452b36b68ae149e1eb4eb4a0ec"
+    },
+    "docs/source-plain-wrapper-audit/quoted-sources/Detector/SourceExclusions.lean": {
+      "bytes": 2501,
+      "sha256": "1430bb9bf9e3d40b8162a9155578ac7c9e80c3d8416016614ebdc4e0533fffcd"
+    },
+    "docs/source-plain-wrapper-audit/quoted-sources/Energy/WidthRanges.lean": {
+      "bytes": 3288,
+      "sha256": "4fd022dd8ef39d5e89a0eac27ccb8ebfbf02e55143d52a89f3e39666c73b9f5a"
+    },
+    "docs/source-plain-wrapper-audit/quoted-sources/Hecke/DetectorBatch.lean": {
+      "bytes": 4498,
+      "sha256": "bd7bf9bedfe6b8c8bfa7584b5bd2455238663bb29dec0d51516847068e4e2c04"
+    },
+    "docs/source-plain-wrapper-audit/quoted-sources/Hecke/DetectorBranchBudget.lean": {
+      "bytes": 3124,
+      "sha256": "10491ef291665f80ff61771bce01c4aa5fed4fe168b92de67427d683c6fc77a7"
+    },
+    "docs/source-plain-wrapper-audit/quoted-sources/Hecke/DetectorCountFromMoments.lean": {
+      "bytes": 5369,
+      "sha256": "5d29e2f64e2e52ac5beb54a873684c5ea7fb32511280e8d53fd4b378ac014149"
+    },
+    "docs/source-plain-wrapper-audit/quoted-sources/Hecke/DetectorFiberPartition.lean": {
+      "bytes": 5855,
+      "sha256": "b79c31ccef2cfbbd8ffe03b6757ccbe69318f6ee0dbe7ae880f76161ef669173"
+    },
+    "docs/source-plain-wrapper-audit/quoted-sources/Hecke/DetectorRawBranches.lean": {
+      "bytes": 4113,
+      "sha256": "696bbacc691905ef06aa8934946185ae5d158907a93167d08005bd5da4ad3a4c"
+    },
+    "docs/source-plain-wrapper-audit/quoted-sources/Hecke/DetectorRawFiber.lean": {
+      "bytes": 4980,
+      "sha256": "491911b0b17d19943fdb1b43f479e741279e0c0c2b9f1e9e9c5d11de24335c5d"
+    },
+    "docs/source-plain-wrapper-audit/quoted-sources/Moments/DetectorDictionarySource.lean": {
+      "bytes": 3594,
+      "sha256": "b8f6d1f292e243d21ee2a48e3c7d0033e27055d1fad16953881064ed1b1e7391"
+    },
+    "docs/source-plain-wrapper-audit/quoted-sources/Moments/NaturalFixedRaySourceBatch.lean": {
+      "bytes": 4708,
+      "sha256": "bcabe2864432eeaa7817d5a7481164b2ddb0e856c8b8cf0fde37c6c870b53783"
+    },
+    "docs/source-plain-wrapper-audit/quoted-sources/Moments/NaturalFixedRaySourceFixedIdeal.lean": {
+      "bytes": 2923,
+      "sha256": "7814f20f7dae39272b939a7ea392bc6022abcc0757582560c77571a40c21ad22"
+    },
+    "docs/source-plain-wrapper-audit/quoted-sources/Moments/NaturalFixedRaySourceInternal.lean": {
+      "bytes": 4369,
+      "sha256": "ceb3cb424caeb79f840031156695189f88ff1db3ab88b170caf07a33382b2e79"
+    },
+    "docs/source-plain-wrapper-audit/quoted-sources/PrimeRows/NonfloorMoments.lean": {
+      "bytes": 1567,
+      "sha256": "1a858768eee8f4568ac011680d3ec6b742228f75b21e8a24f39d5d28f759788c"
+    },
+    "docs/source-plain-wrapper-audit/quoted-sources/PrimeRows/RowPartition.lean": {
+      "bytes": 5132,
+      "sha256": "5433506b2b0efcf82066fabbee2e121f64126f997f9fef0bc090ccce2971ab6b"
+    }
+  }
+}

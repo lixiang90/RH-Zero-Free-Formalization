@@ -1,0 +1,43 @@
+{
+  "published_baseline_git_commit": "a4a7007d77b2c277f489a524854a7cdf7f25b654",
+  "previous_verified_phase_history": "history/authored30-generic-losses4/phase-boundary.json",
+  "previous_verified_phase_history_sha256": "8275c49a3cf540fb56202de7eace59fcabe611b5e1e518ed997ba41017ae6b2a",
+  "previous_phase_has_own_git_commit": false,
+  "old_authored30_manifest_sha256": "40acbe9684f9787b8414099d6a902a20dcda57afc4b75e0f737314d8db5ecb8a",
+  "old_selected_declaration_count": 93,
+  "new_authored_module_count": 32,
+  "new_selected_declaration_count": 96,
+  "new_prepared_module_count": 2,
+  "new_prepared_declaration_count": 3,
+  "new_prepared_sources": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.SourcePlainMarkedUniversalLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/SourcePlainMarkedUniversalLowKappa.lean",
+      "sha256": "c1e3b3832bda8e904853ebd68b8f555a09721980e3e35c2c8d1461ce695b12c7",
+      "roots": [
+        "OAI.SevenEighths.SourcePlainMarkedUniversalLowKappa.exists_source_slots_and_universal_plain_marked"
+      ],
+      "scope": "Actual source-dictionary plain-marked field for every matching q/Batch and nonempty fiber, with arbitrary positive total slot length. The fixed prime set S/product M precedes scalar losses, N/ell/slotLower and terminal/profile degrees/common height; these precede every outer character. A character-specific positive constant and eventual threshold precede all smaller positive heights and all matching source batches. All fixed-prime/internalQ, beta/kappa, row lower bounds, exact source data/family/profile/window/prime/mesh/external/height/plain-capacity gates remain explicit. Only the theorem is a selected root; SourcePlainMarkedAt is the exact predicate, not an extra counted root. Complete SourceData/SourceMomentsAt/RawMomentInput and the remaining three fields remain pending.",
+      "status": "canonical_prepared_not_actual_compiled_or_independently_replayed"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.PlainUnmarkedAdmissionLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/PlainUnmarkedAdmissionLowKappa.lean",
+      "sha256": "ee2c5abf01b552e2c9a9893ebf5f2441238b040337a78db1379768ba6f0b494d",
+      "roots": [
+        "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_growth_absorption_principal_exponent",
+        "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_plain_unmarked_admission"
+      ],
+      "scope": "Two actual mathematical results: growth absorption for any principal exponent and genuine empty-selected unmarked finite-fiber admission from PositiveAt with natural state width d*max(1,2*m)+rho. No marked-capacity premise is imposed. PositiveAt, total natural-state width cap, actual polynomial scale cap, radial keep/profile cover, loss/height budget and derivative/time range remain explicit; the final exponent is max(1,2*m)+epsilonM. This is an admission theorem with supplied state, not a complete universal source four-field record.",
+      "status": "canonical_prepared_not_actual_compiled_or_independently_replayed"
+    }
+  ],
+  "original41_aggregate_patch_sha256_unchanged": "58ddc470f93afd26265525e78b951706ccb202839c6768f7ef39006af699dc42",
+  "source_installation_and_controller_owner": "plain_range_graph",
+  "new_actual_compilation_status": "pending",
+  "new_selected_independent_replay_status": "pending",
+  "old93_declarations_retested": false,
+  "old_source_state_sha256_unchanged": "1a4752f1f1c4064255f45575209ee1d7bf694cc0872758d6a40f8bc47e5effe1",
+  "canonical_metadata_sha256": "4db5b09730363eba64f049e3ce0f85d4f515c14f28838bed1a055c7ac91a434f",
+  "next35_target_input_sha256": "8f2181f3719ae70a86d00a799857ce925c9a554f0f12146de29a0ea799e0d8ed"
+}

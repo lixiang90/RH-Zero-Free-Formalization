@@ -1,0 +1,59 @@
+{
+  "status": "new_four_canonical_roots_compiled_pending_full_types_axes_and_independent_replay",
+  "session": 91392,
+  "run_directory": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-212719-bounded8v2",
+  "records": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh",
+      "roots": [
+        "OAI.SevenEighths.GenericSourceIdealAndMesh.source_fixed_ideal_gates",
+        "OAI.SevenEighths.GenericSourceIdealAndMesh.exists_source_slots_for_both_meshes",
+        "OAI.SevenEighths.GenericSourceIdealAndMesh.batch_fiber_absolute_slot_width"
+      ],
+      "source_sha256": "2a0fec6b6d42a2caeaaad8c30d73eefd8fcb46de2cf313f9b231661995346840",
+      "dependency_fingerprint": "525abb5272c8c7cc547161844297c2b64a6c413ddc037eb52ba9d74b67fdad8f",
+      "exit_code": 0,
+      "wall_seconds": 11.562,
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\GenericSourceIdealAndMesh.olean": "1e8dea72b970d87cced8ee85543306ea9528848ec6bd0ce0d84522aeb252c35d",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\GenericSourceIdealAndMesh.ilean": "2a74ea3c7d0e80d3a395c9c94853269e1805d2f033334e29a53dfcc4856dd9e9"
+      },
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-212719-bounded8v2\\OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa",
+      "roots": [
+        "OAI.SevenEighths.LossesBeforeSlotSourcePlainMarkedLowKappa.exists_losses_before_slots_degrees_height_and_finite_family"
+      ],
+      "source_sha256": "d5b1e7b5be2f5aae02fc27b210d62cce3341b5a6a67a1f8490dca4599f3d42d4",
+      "dependency_fingerprint": "024a7a16687c27276aebd3869979c6238f8c52b3ed8d19d4528ee07a8011a436",
+      "exit_code": 0,
+      "wall_seconds": 14.484,
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeSlotSourcePlainMarkedLowKappa.olean": "f0e92416c8885d3774f314942c84410f25e0e79ac8b032085d60e6eeeb7af96f",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeSlotSourcePlainMarkedLowKappa.ilean": "17cb80ff5bf4bf387c7b1027151b2f474013deae600eb74acb9eba1f1ad3bb00"
+      },
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-212719-bounded8v2\\OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "source_controller_driver_sha256": "85b3ed5447a3118fe91dacdf8ba80cc771fd655dc4d08e585ac190757164b9ed",
+  "checkpoint_reader_sha256": "4c8943ab15c9853b2666c94f7d353e5060104b2f4e7aa2614b5748381455532c",
+  "all_old69_actual_raw_source_hashes_unchanged": true,
+  "new_source_count": 2,
+  "new_root_count": 4,
+  "total_authored_sources": 30,
+  "total_authored_roots": 93,
+  "state_sha256": "1a4752f1f1c4064255f45575209ee1d7bf694cc0872758d6a40f8bc47e5effe1",
+  "source_custom_count": 2277,
+  "cached_frontier_count": 282,
+  "target_count": 33,
+  "targets_file_raw_sha256": "8626836a2ae00712538987aca9696748ce67243b95f0d6fdc0348035f4eb93e4",
+  "summary_sha256": "c394a3f54377b96439899d78e8b5d0d306db2c4d10c2dc7b3138ad6b3e26be2c",
+  "plan_sha256": "9477ed5e756b6c70108b684e4266080113f7354ead4f199fc593dc7a1ce0dab4",
+  "checkpoint_json_sha256": "d8f9445a6cbe79809276e8257e730fc9b60998f17a80178a6b943c24521a0e49",
+  "packet": "E:\\codex-build\\RH-Weil\\tmp\\generic-losses-supply-phase-20261009\\checkpoint-v6-33-targets",
+  "independent_replay_completed": false,
+  "original_mathematics_sources_modified": false
+}

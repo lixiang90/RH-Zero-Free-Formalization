@@ -1,0 +1,9 @@
+{
+  "folder": "E:\\codex-build\\RH-Weil\\tmp\\source-assembly-order-audit-20261009",
+  "audit_sha256": "5c8fcb523036124e99e6432be02e78ef34cb029273539e37eec10c624ee95e9e",
+  "metadata_sha256": "4639aef97c3168dee47aac7157710baa19184df2dfb9d497fcc80eca21cb52dd",
+  "quoted_source_sha256": "20071826f531120d191f277f27f5ba17fcfd06d90d4082201702173774b5a4b6",
+  "key_source_bindings": 8,
+  "sources_before_after_stable": true,
+  "new_proof_roots": 0
+}

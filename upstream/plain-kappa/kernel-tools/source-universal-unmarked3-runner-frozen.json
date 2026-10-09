@@ -1,0 +1,18 @@
+{
+  "status": "prepared_waiting_actual_canonical_compile_before_any_replay",
+  "runner_sha256": "e9cc518136e68b1b8af6f11010d561e6baaa44c1a69847fb344d5acebbd9b714",
+  "wrapper_sha256": "1f45b257790e62e0f471da3727651207ba5e192b6339dda1f48f1ef57e31bd97",
+  "groups_sha256": "19cd70b60c0d9ee62ef8f437501e1391b6c2eac82b093245c4c8bab4b7774725",
+  "target_modules": [
+    "OAI.NumberTheory.DirichletL.Moments.SourcePlainMarkedUniversalLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.PlainUnmarkedAdmissionLowKappa"
+  ],
+  "selected_roots": [
+    "OAI.SevenEighths.SourcePlainMarkedUniversalLowKappa.exists_source_slots_and_universal_plain_marked",
+    "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_growth_absorption_principal_exponent",
+    "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_plain_unmarked_admission"
+  ],
+  "public_evidence_label": "source-universal-unmarked3",
+  "scope": "Three new canonical mathematical roots: a universal actual source-dictionary plain-marked field for every matching q/Batch and nonempty fiber, plus principal-exponent growth absorption and actual empty-selected unmarked admission. For the universal field, fixed prime S/product M precedes scalar losses, N/ell/slotLower, then terminal/profile degrees and common positive height ceiling; these precede every outer character. Each character has a positive constant and eventual threshold before all smaller positive heights, source rows and all matching batches/fibers. The exact SourcePlainMarkedAt predicate is not an extra selected root. The unmarked admission uses natural row width d*max(1,2*m)+rho without marked capacity, retaining actual PositiveAt, state-width and polynomial-scale caps, radial keep/profile cover and the height/loss budget. All arithmetic, beta/kappa, source-data/family/profile/window, prime/mesh/external/height/plain-capacity gates in the full types remain explicit. Complete SourceData/SourceMomentsAt/RawMomentInput, remaining fields, counts/probe and improved unconditional zero-free assembly remain pending. Older93 roots and private prototypes are not replayed; exact unused imported PNTA holes remain disclosed and absent from selected exports.",
+  "previous93_roots_retested": false
+}

@@ -1,0 +1,76 @@
+{
+  "status": "two_reviewed_canonical_sources_prepared_awaiting_public_fixture_and_sole_installation",
+  "baseline": "authored30-generic-losses4 phase-boundary snapshot; no independent Git commit is claimed",
+  "files": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.SourcePlainMarkedUniversalLowKappa",
+      "namespace": "OAI.SevenEighths.SourcePlainMarkedUniversalLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/SourcePlainMarkedUniversalLowKappa.lean",
+      "source": "E:\\codex-build\\RH-Weil\\tmp\\source-universal-unmarked-phase-20261009\\SourcePlainMarkedUniversalLowKappa.lean",
+      "sha256": "c1e3b3832bda8e904853ebd68b8f555a09721980e3e35c2c8d1461ce695b12c7",
+      "bytes": 10118,
+      "roots": [
+        "OAI.SevenEighths.SourcePlainMarkedUniversalLowKappa.exists_source_slots_and_universal_plain_marked"
+      ],
+      "imports": [
+        "OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa",
+        "OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh",
+        "OAI.NumberTheory.DirichletL.Moments.DetectorDictionarySource"
+      ],
+      "reviewed_source": "E:\\codex-build\\RH-Weil\\tmp\\source-universal-unmarked-phase-20261009\\SourcePlainMarkedUniversalLowKappa.lean",
+      "normalization": "Only initial copyright/content header and namespace/end identifiers changed; declaration, source predicate and proof body byte-identical after reversing namespace substitution.",
+      "private_source": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-universal-phase-20261009\\SourcePlainMarkedUniversal.candidate.lean",
+      "private_source_sha256": "74b844466e2ac6e04c0e4df55892ae147216c038dab38bcbc9a67338031afe3d",
+      "private_verification_metadata_sha256": "70e2d0bdd0a4b7bb97182abd4f9aaac093ad0744ddcdbfd65963703327edd285",
+      "predicate": "OAI.SevenEighths.SourcePlainMarkedUniversalLowKappa.SourcePlainMarkedAt",
+      "predicate_not_counted_as_selected_root": true,
+      "normalization_record_sha256": "d2f46574913b77cc4c8c6bb79c5781991f8fdb196fc011c777bdd0bce71df837"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.PlainUnmarkedAdmissionLowKappa",
+      "namespace": "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/PlainUnmarkedAdmissionLowKappa.lean",
+      "source": "E:\\codex-build\\RH-Weil\\tmp\\source-universal-unmarked-phase-20261009\\PlainUnmarkedAdmissionLowKappa.lean",
+      "sha256": "ee2c5abf01b552e2c9a9893ebf5f2441238b040337a78db1379768ba6f0b494d",
+      "bytes": 7531,
+      "roots": [
+        "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_growth_absorption_principal_exponent",
+        "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_plain_unmarked_admission"
+      ],
+      "imports": [
+        "OAI.NumberTheory.DirichletL.Moments.FiberPositiveAtLowKappa",
+        "OAI.NumberTheory.DirichletL.Moments.MarkedHeightBudgetLowKappa",
+        "OAI.NumberTheory.DirichletL.Hecke.DetectorRawBranches"
+      ],
+      "private_source": "E:\\codex-build\\RH-Weil\\tmp\\plain-unmarked-admission-phase-20261009\\PlainUnmarkedAdmission.candidate.lean",
+      "private_source_sha256": "3fdb459787489fced45dca698aeebb914a58dc5a93edf2a68e2983421d853b3b",
+      "normalization": "Only initial copyright/content header and namespace/end identifiers changed; declarations and proof bodies byte-identical after reversing namespace substitution.",
+      "normalization_record_sha256": "ebbad4ea0d5ac3036c36d1a5446f6302dd925ec5d298093ca7a9b7ec8727d34e"
+    }
+  ],
+  "new_source_count": 2,
+  "new_root_count": 3,
+  "expected_total_authored_sources": 32,
+  "expected_total_authored_roots": 96,
+  "state_sha256_before": "1a4752f1f1c4064255f45575209ee1d7bf694cc0872758d6a40f8bc47e5effe1",
+  "state_sha256_after": "1a4752f1f1c4064255f45575209ee1d7bf694cc0872758d6a40f8bc47e5effe1",
+  "targets_file": "E:\\codex-build\\RH-Weil\\tmp\\source-universal-unmarked-phase-20261009\\next-35-targets.json",
+  "targets_raw_sha256": "8f2181f3719ae70a86d00a799857ce925c9a554f0f12146de29a0ea799e0d8ed",
+  "target_count": 35,
+  "original_custom_plan_sha256": "9477ed5e756b6c70108b684e4266080113f7354ead4f199fc593dc7a1ce0dab4",
+  "read_only_union_plan": {
+    "custom_modules": 2279,
+    "cached_frontier": 282,
+    "new_custom_modules": [
+      "OAI.NumberTheory.DirichletL.Moments.SourcePlainMarkedUniversalLowKappa",
+      "OAI.NumberTheory.DirichletL.Moments.PlainUnmarkedAdmissionLowKappa"
+    ],
+    "new_original_sources": 0,
+    "all_new_direct_imports_already_passed": true,
+    "actual_driver_plan_must_confirm_at_build": true
+  },
+  "lean_invoked": false,
+  "canonical_workcopy_installed": false,
+  "state_modified": false,
+  "public_manifest_modified": false
+}

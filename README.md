@@ -106,19 +106,22 @@ is compiled separately with its original toolchain; its current proof status
 and repaired margins are described in [plain-kappa-extension.md](docs/plain-kappa-extension.md).
 The [arithmetic capsule](upstream/plain-kappa/README.md) separately records
 actual Lean 4.34.1 compilation, fresh complete types/axioms and independent
-replays for all **89 selected roots in 28 authored modules**: slot construction,
+replays for all **96 selected roots in 32 authored modules**: slot construction,
 moving parameters, Euler correction, principal comparison/normalization,
 Gram-factor scales, the ray-prime normalizer, conditional Dirichlet/zeta
 transfer, actual finite-row energy interfaces, arbitrary-total source Batch
 construction, the finite-fiber height-loss budget, actual moving-kappa marked
-admission and an eventual marked bound for a fixed finite source family.
-The native terminal degree is also proved uniform before all characters and
-ideals. For fixed slots, the terminal/profile degrees and positive common
-height ceiling can be fixed before every finite character/ideal family; its
-constant and scale threshold precede all admitted smaller height exponents.
-A separate four-root replay
-checks the complete patched low-kappa induction and its terminal output.
-The complete marked-moment and physical-probe proof remains open.
+admission and a universal marked bound for every matching source Batch and
+nonempty fiber. For a fixed prime set and its product ideal, scalar losses
+precede the mesh and slots; terminal/profile degrees and a common positive
+height ceiling precede all outer characters. Each character's constant and
+scale threshold precede every admitted smaller height exponent and Batch.
+The unmarked admission additionally covers max(1,2m), retaining its actual
+PositiveAt, enlarged state-width and polynomial-scale caps.
+A separate four-root replay checks the complete patched low-kappa induction
+and its terminal output. Full source assembly still needs slots before the
+FirstTail-dependent prime set, the remaining Moments fields, counts and the
+physical probe. See the [source-order audit](docs/source-assembly-order-audit/audit.md).
 The [finite-row integration note](docs/finite-row-energy-integration.zh.md)
 explains the constructed NaturalState, exact fiber dictionary and height budget.
 The imported PNTA source contains two original placeholders; neither occurs

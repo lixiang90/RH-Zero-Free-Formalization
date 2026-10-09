@@ -1,0 +1,58 @@
+{
+  "status": "new_three_canonical_roots_compiled_pending_full_types_axes_and_independent_replay",
+  "session": 31549,
+  "run_directory": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-215925-bounded8v2",
+  "records": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.SourcePlainMarkedUniversalLowKappa",
+      "roots": [
+        "OAI.SevenEighths.SourcePlainMarkedUniversalLowKappa.exists_source_slots_and_universal_plain_marked"
+      ],
+      "source_sha256": "c1e3b3832bda8e904853ebd68b8f555a09721980e3e35c2c8d1461ce695b12c7",
+      "dependency_fingerprint": "2b193ff2d7839e3836b91a4368256e4007d690e91e59b21424d31ea9f98b2c4b",
+      "exit_code": 0,
+      "wall_seconds": 19.968,
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\SourcePlainMarkedUniversalLowKappa.olean": "7ab2f058d8568c7b1b9cfe062bc98295103223247b3a9835e6b59b2b6eae85e2",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\SourcePlainMarkedUniversalLowKappa.ilean": "3258a3a10a4f8a874d0798c97afa534db10c8d3ad60ea63185664f5d66fc46b6"
+      },
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-215925-bounded8v2\\OAI.NumberTheory.DirichletL.Moments.SourcePlainMarkedUniversalLowKappa.log",
+      "log_sha256": "cb8bc75a30992d03506f46ace167fae72052a59aba5b5008aca6d21d22634a5a"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.PlainUnmarkedAdmissionLowKappa",
+      "roots": [
+        "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_growth_absorption_principal_exponent",
+        "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_plain_unmarked_admission"
+      ],
+      "source_sha256": "ee2c5abf01b552e2c9a9893ebf5f2441238b040337a78db1379768ba6f0b494d",
+      "dependency_fingerprint": "11177090ef3e0638b437357d60228a9fb3427a41c68943a3962c98963de6c43e",
+      "exit_code": 0,
+      "wall_seconds": 18.812,
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\PlainUnmarkedAdmissionLowKappa.olean": "8fa01f79998d1945ca2f0a8b36aeeb5dfd16223aa1492a3ebe6ef21fdb622aec",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\PlainUnmarkedAdmissionLowKappa.ilean": "a01d55bd7a66fafe9a4f5a41f8935d47fecacd964f2216cf8ce5f0d6319b3faf"
+      },
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-215925-bounded8v2\\OAI.NumberTheory.DirichletL.Moments.PlainUnmarkedAdmissionLowKappa.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "source_controller_driver_sha256": "85b3ed5447a3118fe91dacdf8ba80cc771fd655dc4d08e585ac190757164b9ed",
+  "checkpoint_reader_sha256": "4c8943ab15c9853b2666c94f7d353e5060104b2f4e7aa2614b5748381455532c",
+  "all_old71_actual_raw_source_hashes_unchanged": true,
+  "new_source_count": 2,
+  "new_root_count": 3,
+  "total_authored_sources": 32,
+  "total_authored_roots": 96,
+  "state_sha256": "f144fb67f376648f0dd4f3b213e28a709339951a2b08e032e4794fe09f398043",
+  "source_custom_count": 2279,
+  "cached_frontier_count": 282,
+  "target_count": 35,
+  "targets_file_raw_sha256": "8f2181f3719ae70a86d00a799857ce925c9a554f0f12146de29a0ea799e0d8ed",
+  "summary_sha256": "6a27179f5fec17e3ae3e0d2c0e0d9483c8d3b211b908d4ea21b66eb27ced5b65",
+  "plan_sha256": "07085d187d6d13b13f7f4bcee7a6d0a868e5265fe9d7d4223a0a27b8d5dc0bf2",
+  "checkpoint_json_sha256": "0212e2ae648c803644fa6e0bc20da970581004b7cb4c3e68f15255361431a20e",
+  "packet": "E:\\codex-build\\RH-Weil\\tmp\\source-universal-unmarked-phase-20261009\\checkpoint-v6-35-targets",
+  "independent_replay_completed": false,
+  "original_mathematics_sources_modified": false
+}

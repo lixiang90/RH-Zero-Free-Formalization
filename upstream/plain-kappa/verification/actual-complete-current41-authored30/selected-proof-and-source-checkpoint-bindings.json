@@ -1,0 +1,21 @@
+{
+  "status": "source_targets_and_all_listed_selected_declarations_verified",
+  "custom_source_count": 2277,
+  "cached_frontier_count": 282,
+  "source_target_count": 33,
+  "authored_module_count": 30,
+  "authored_distinct_selected_declaration_count": 93,
+  "new_selected_root_count": 4,
+  "new_actual_compile_count": 2,
+  "previous_verified_reuse_count": 2275,
+  "source_state_raw_sha256": "1a4752f1f1c4064255f45575209ee1d7bf694cc0872758d6a40f8bc47e5effe1",
+  "checkpoint_raw_sha256": "d8f9445a6cbe79809276e8257e730fc9b60998f17a80178a6b943c24521a0e49",
+  "current_authored_manifest_sha256": "40acbe9684f9787b8414099d6a902a20dcda57afc4b75e0f737314d8db5ecb8a",
+  "authored93_integrity_sha256": "c00546ec1298871ee0d1e61a408e40d924c154f090cd6199903e7035fe04abb6",
+  "new4_strict_replay_sha256": "f94858c9e25a3c97ea4067ae24d6fe3790cc9edcffcbc73be19499f9cafa13ce",
+  "upstream_selected22_and_external54_are_separate": true,
+  "whole_import_environment_hole_free": false,
+  "full_improved_unconditional_zero_free_assembly_verified": false,
+  "raw_scanner_proof_flags_are_not_selected_audit_results": true,
+  "strict_runner_sha256_unchanged": "e9cc518136e68b1b8af6f11010d561e6baaa44c1a69847fb344d5acebbd9b714"
+}
