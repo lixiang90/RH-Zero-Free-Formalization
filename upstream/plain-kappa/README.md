@@ -5,12 +5,12 @@ our cubic boundary to the actual Hecke arithmetic in OpenAI/math. Author:
 **Li Xiang / lixiang90**. It is independent of the primary Lean 4.33.0-rc2
 library, and its results are counted separately.
 
-**The complete improved zero-free region is still pending.** All 85 selected
-roots in the twenty-four authored modules below passed actual compilation, fresh
+**The complete improved zero-free region is still pending.** All 88 selected
+roots in the twenty-seven authored modules below passed actual compilation, fresh
 complete types/axioms and independent Nano replay. The complete patched
 low-kappa energy induction and terminal output passed a separate four-root
-independent replay. The final source controller compiled all 2271 custom
-dependency modules and 27 targets successfully. The previous 2261 successful
+independent replay. The final source controller compiled all 2274 custom
+dependency modules and 30 targets successfully. The previous 2271 successful
 modules were reused only after their source/dependency/artifact bindings matched.
 The terminal output preserves its arithmetic inputs. Complete detector marked
 moments, improved counts and the physical low/raw-high probe remain open.
@@ -29,8 +29,8 @@ The original d18941bd revision is retained in the historical evidence. Four
 final proof-body repairs supply the exact weaker premises expected by existing
 APIs; their declaration headers and mathematical hypotheses are unchanged.
 
-The [authored-source manifest](extensions/manifest.json) records twenty-four extra
-modules with 85 selected roots separately from those patched upstream sources.
+The [authored-source manifest](extensions/manifest.json) records twenty-seven extra
+modules with 88 selected roots separately from those patched upstream sources.
 Each has an exact
 source hash, declaration list and verification status.
 
@@ -118,7 +118,10 @@ checks 87,870 transitive declarations from the six remaining finite-row roots. T
 set contains 78 distinct declarations across the historical 19 modules.
 The [source-Batch/PositiveAt/height replay](verification/sourcebatch-positiveat-height7/strict-replay-result.json)
 checks the seven new roots across five further modules. The current authored
-set therefore contains 85 distinct selected declarations across 24 modules.
+24-module checkpoint contains 85 distinct selected declarations. The current
+[marked-supply replay](verification/marked-supply3/strict-replay-result.json)
+adds exactly three roots in three modules, bringing the current authored
+set to 88 distinct selected declarations across 27 modules.
 The five additional original OAI sources were restored from exact pinned Git
 blobs and compiled without compatibility changes; the original SourceBatch
 was a separate compilation target, not an extra independently selected root.
@@ -160,9 +163,25 @@ exact source snapshots and historical prototypes. The
 explains the now constructed radial weight, NaturalState, witness retraction
 and fiber energy bridge. The arbitrary-total source Batch now has a proved actual constructor and
 fixed finite-label constants are unified. The deterministic height budget is
-also proved. Actual source/state admission and capacity/height bounds must
-still be assembled to supply the marked moment field; inverse fields,
-complete Moments, improved detector count and the physical probe remain open.
+also proved. The fixed finite-family marked field now constructs its actual
+PositiveAt and NaturalState and derives the native capacity. It retains the
+real row lower bound, source dictionary, common window/upper, prime
+coprimality, scaled slot mesh, external real part and actual height gates.
+Its source-specific universal Batch wrapper and common-height quantifiers
+still need integration. The other three Moments fields, improved detector
+count and the physical probe remain open.
+
+The [marked-supply replay](verification/marked-supply3/strict-replay-result.json) checks these three further interfaces:
+
+| Interface | Proved scope |
+|---|---|
+| Moments.PlainMarkedAdmissionLowKappa | Derive native energy capacity and the polynomial-length cap from actual selected-slot capacity; absorb the exact degree+4J height growth. |
+| Energy.UniformDegreePositiveAtLowKappa | Construct native PositiveAt with degree and finite seminorm set before every character and ideal; constants and thresholds may depend on those arithmetic inputs. |
+| Moments.EventualFiniteSourcePlainMarkedLowKappa | Construct PositiveAt and NaturalState and prove the eventual marked bound for every fiber admitted by a fixed finite character/ideal family and the genuine row/slot/prime/height gates. |
+
+Each of these three roots passed actual compilation, fresh complete types/axioms and the same joint independent replay. The last interface still fixes its finite maps before degree; the independent uniform-degree primitive does not silently strengthen that statement.
+
+The [source-wrapper audit](../../docs/source-plain-wrapper-audit/README.md) records the exact source-specific universal Batch quantifiers and the remaining admission gates. It is a read-only audit, counted separately from the proved roots.
 
 ## Pinned sources and tools
 

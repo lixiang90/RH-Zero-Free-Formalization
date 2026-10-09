@@ -1,0 +1,38 @@
+{
+  "status": "three_sources_root_reviewed_frozen_actual_compile_fresh_and_independent_replay_pending",
+  "baseline_formal_commit": "4b255e1b77068d3503c6c07939c020f4f1b44d06",
+  "new_sources": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa",
+      "path": "E:\\codex-build\\RH-Weil\\tmp\\marked-supply-phase-20261009\\PlainMarkedAdmissionLowKappa.lean",
+      "sha256": "9241a17be41bbd52bcf7aef2a1ad24cf47165e11cb52af8a129977ca1c0292f9",
+      "bytes": 7338,
+      "selected_roots": [
+        "OAI.SevenEighths.PlainMarkedAdmissionLowKappa.actual_plain_marked_admission"
+      ]
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Energy.UniformDegreePositiveAtLowKappa",
+      "path": "E:\\codex-build\\RH-Weil\\tmp\\marked-supply-phase-20261009\\UniformDegreePositiveAtLowKappa.lean",
+      "sha256": "aa4b6ef991ef8d40bebbc02ed0ed24f5c3c0674ac555183e5003ad4295434871",
+      "bytes": 2757,
+      "selected_roots": [
+        "OAI.SevenEighths.UniformDegreePositiveAtLowKappa.exists_degree_before_character_positiveAt"
+      ]
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.EventualFiniteSourcePlainMarkedLowKappa",
+      "path": "E:\\codex-build\\RH-Weil\\tmp\\marked-supply-phase-20261009\\EventualFiniteSourcePlainMarkedLowKappa.lean",
+      "sha256": "67c70cbb2613930b240781f124b146dad4e34a4aa697404c7069436199bd17b1",
+      "bytes": 8771,
+      "selected_roots": [
+        "OAI.SevenEighths.EventualFiniteSourcePlainMarkedLowKappa.eventually_finite_source_plain_marked"
+      ]
+    }
+  ],
+  "expected_authored_modules": 27,
+  "expected_selected_authored_roots": 88,
+  "existing_24_sources_unchanged": true,
+  "existing_41_patch_unchanged": true,
+  "scope": "Finite-fiber marked admission, global native degree primitive, fixed finite-family eventual marked field. SourceMomentsAt universal wrapper, full four-field Moments and unconditional improved region remain open."
+}

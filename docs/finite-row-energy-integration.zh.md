@@ -52,13 +52,21 @@ MarkedHeightBudgetLowKappa 先选 rho、epsilon_E，再对 degree/J 和任意正
 
 SourceMomentsAt 要求对每个满足实际 source 字典的 q、Batch 及非空 fiber 供给完整 Moments。这是固定 source 数据下的全称接口；只证明某一个选定 Batch 不够。完整 Moments 的 inverse_raw、inverse_marked、plain_marked、plain_unmarked 四个字段仍须分别供给。
 
-FiniteLabelPositiveAtLowKappa 的已验类型先固定有限 eta/Q maps，再存在 degree/S 和共同常数。RawMomentInput 还要求 degree 先于所有 eta 的更强量词顺序；后续须直接使用原生 terminal certificate 证明该统一性，不能仅从当前有限族类型推出。
+FiniteLabelPositiveAtLowKappa 的已验类型先固定有限 eta/Q maps，再存在 degree/S 和共同常数。UniformDegreePositiveAtLowKappa 已直接从原生 terminal certificate 证明 degree/S 先于所有 eta/Q 的统一性；这个独立结果没有改变有限族整合定理的量词。RawMomentInput 的完整四字段接口还要求共同次数先于所有 eta、各 C_eta 先于任意 tau，仍须在 source 装配中保留这些顺序。
+
+PlainMarkedAdmissionLowKappa 已从真实容量 2m+6*kappaPlain*sum(widths)<=1 和 kappaEnergy<=kappaPlain 推出原生能量容量。F.lengths 供给 m>=0；kappaPlain>=0 进一步给 m<=1/2，再由 d/2<=L 供给真实多项式长度 cap。
+
+EventualFiniteSourcePlainMarkedLowKappa 对固定有限 eta/Q 族实际构造 PositiveAt 与 NaturalState，统一正 Ctotal=max(1,C*Cp^4*diagonalControl(Phi)*2^(degree+4J)) 和 atTop 阈值，供给所有满足行下界、source 字典、共同 profile/upper、互素、scaled mesh、external.re=17/50 与高度条件的 fiber 的 marked 上界。rho 在 Mcap-dmax 的正余量内选择；tau 随后支付精确 2*tau*(degree+4J) 费用。该族仍在 degree/J/tau 之前固定，完整 SourceMomentsAt 全称包装尚未供给。
+
+取 selected 为空只能给 2m<=1 下的无槽估计；真实 Fiber.lengths 允许 m<=1/2+75*epsilon，完整 plain_unmarked 的 max(1,2m) 范围须另行证明。
+
+[实际 source 包装审计](source-plain-wrapper-audit/README.md) 列出 q、Batch 和非空 fiber 的全称范围，以及绝对槽长 ell<=energyFineMesh、外部高度与素理想互素等真实准入门槛。
 
 ## 下一步实际供给
 
 1. 用已证明的 ActualSourceBatchTotal 作用于实际保留行与 detector maxima，供给其校准、行增长、margin 和 mesh 条件。再证明共同窗口与 upper、素理想互素和实际 external 的界。
-2. 接合已构造的有限标签 PositiveAt、fiber 字典和 NaturalState。需要保留 β≥51/100、κTerminal≥37/50、2β−1≤κTerminal，以及 internalQ 的实际条件。κPlain 的 padding 与 terminal κ 要满足真实容量比较。
-3. 应用已证明的有限标签统一与高度吸收；在 certificate 的 degree/S 和 profile 的 J 确定后选择高度指数 h，使
+2. 将已证明的固定有限族 marked 字段接到所有匹配 source 字典的 q、Batch 与非空 fiber。需要保留 β≥51/100、κTerminal≥37/50、2β−1≤κTerminal，以及 internalQ 的实际条件。κPlain 的 padding 与 terminal κ 要满足真实容量比较。
+3. 利用已证明的原生 degree/S-before-eta/Q 供给，固定 profile 的 J，并在所有 source 字符之前选择共同高度指数 h，使
 
        ρ + εE + h*(degree+4J) ≤ dmin*εm.
 

@@ -1,0 +1,29 @@
+{
+  "status": "canonical_prepared_root_reviewed_not_compiled",
+  "source": "E:/codex-build/RH-Weil/tmp/marked-supply-phase-20261009/UniformDegreePositiveAtLowKappa.lean",
+  "source_sha256": "aa4b6ef991ef8d40bebbc02ed0ed24f5c3c0674ac555183e5003ad4295434871",
+  "source_bytes": 2757,
+  "module": "OAI.NumberTheory.DirichletL.Energy.UniformDegreePositiveAtLowKappa",
+  "namespace": "OAI.SevenEighths.UniformDegreePositiveAtLowKappa",
+  "roots": [
+    "OAI.SevenEighths.UniformDegreePositiveAtLowKappa.exists_degree_before_character_positiveAt"
+  ],
+  "imports": [
+    "OAI.NumberTheory.DirichletL.Energy.CertifiedExistence"
+  ],
+  "root_count": 1,
+  "new_original_modules": 0,
+  "existing_custom_dependency_closure_count": 2242,
+  "existing_cached_frontier_count": 281,
+  "private_candidate": "E:/codex-build/RH-Weil/tmp/uniform-degree-source-audit/UniformDegreePositiveAtLowKappa.candidate.lean",
+  "private_candidate_sha256": "6d1292a57a1de6c11be8bca9f03dca44a92fd750d3bf8a54f1db9e098ca11f85",
+  "normalization_changes": [
+    "Replace the private/uncompiled status comment with mathematical scope documentation.",
+    "Drop Candidate suffix from the namespace and matching end declaration."
+  ],
+  "theorem_statement_and_body_unchanged": true,
+  "actual_canonical_compile_passed": false,
+  "fresh_type_and_axiom_audit_passed": false,
+  "independent_kernel_replay_passed": false,
+  "old_24_or_original_41_modified": false
+}

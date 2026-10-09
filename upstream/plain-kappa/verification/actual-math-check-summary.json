@@ -1399,6 +1399,150 @@
         "blocked_name_occurrences": [],
         "selected_export_contains_neither_unproved_auxiliaries_nor_sorryAx": true
       }
+    },
+    "OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa": {
+      "origin": "authored",
+      "selected_declaration_count": 1,
+      "selected_declarations": [
+        "OAI.SevenEighths.PlainMarkedAdmissionLowKappa.actual_plain_marked_admission"
+      ],
+      "joint_replay_selected_root_count": 3,
+      "scope": "Three new canonical authored declarations: actual finite-fiber plain-marked admission with derived energy capacity and exact degree+4J growth absorption; native terminal degree/S selected before all characters and ideals; and an actual eventual plain-marked field for fixed finite eta/Q maps before degree. The finite-family field imports formal Admission and does not use the separate global-degree primitive to enlarge its quantifiers. Complete real state, row/calibration, character/ideal, profile/prime/window/external/height/plain-capacity/budget and global beta/moving-kappa gates stay visible. This is one moving-capacity Moments field; all-character RawMomentInput uniform profile degree, complete four-field Moments, counts and unconditional improved zero-free assembly remain pending. Historical private Candidate artifacts are separate, and older85 roots are not replayed as an added selected set. Exact unused imported PNTA auxiliaries are disclosed and excluded from the selected export.",
+      "actual_custom_closure_count": 2254,
+      "source_sha256": "9241a17be41bbd52bcf7aef2a1ad24cf47165e11cb52af8a129977ca1c0292f9",
+      "independent_replay_record": "marked-supply3/strict-replay-result.json",
+      "independent_replay_record_sha256": "c5d3f5f1bd0d16e1950063d825ad4e2af9dc8024fd531d01231e9fda8404fe22",
+      "complete_types_and_only_standard_axioms": true,
+      "actual_selected_source_artifact_state_unchanged": true,
+      "independent_kernel_replay_passed": true,
+      "known_unproved_imported_auxiliaries": [
+        {
+          "module": "PrimeNumberTheoremAnd.Wiener",
+          "package_url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd.git",
+          "package_pin": "c39a751132c88b6e8080b74c74023fd95b3d8be0",
+          "raw_actual_source_sha256": "963151c22caeb12f5c203ae944961629bfe7840915519255d79220f415ca0fbf",
+          "canonical_lf_sha256": "7bd40c9cffedc1d9a0f675ea971c6719e490b1b106807459d549145f30d70f05",
+          "unproved_auxiliary_declarations": [
+            "prelim_decay_2",
+            "prelim_decay_3"
+          ],
+          "allowed_exact_warning_lines": [
+            "PrimeNumberTheoremAnd/Wiener.lean:325:8: warning: declaration uses `sorry`",
+            "PrimeNumberTheoremAnd/Wiener.lean:344:8: warning: declaration uses `sorry`"
+          ],
+          "only_unselected_imported_auxiliary_warnings_allowed": true,
+          "whole_import_environment_hole_free": false,
+          "source_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\PrimeNumberTheoremAnd\\PrimeNumberTheoremAnd\\Wiener.lean",
+          "actual_build_log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-124959-bounded8v2\\PrimeNumberTheoremAnd.Wiener.log",
+          "actual_build_log_sha256": "9f2053e32670eaf6fec71f7d61eed19e8cb600d083c1f013839db576945cbdcc"
+        }
+      ],
+      "selected_export_unproved_auxiliary_absence_audit": {
+        "export_sha256": "cafb316dbf76ec5c2bb6e81009d6318db33335dc78295ef8fc16982dbe1d6cf9",
+        "blocked_global_names": [
+          "prelim_decay_2",
+          "prelim_decay_3",
+          "sorryAx"
+        ],
+        "blocked_name_occurrences": [],
+        "selected_export_contains_neither_unproved_auxiliaries_nor_sorryAx": true
+      }
+    },
+    "OAI.NumberTheory.DirichletL.Energy.UniformDegreePositiveAtLowKappa": {
+      "origin": "authored",
+      "selected_declaration_count": 1,
+      "selected_declarations": [
+        "OAI.SevenEighths.UniformDegreePositiveAtLowKappa.exists_degree_before_character_positiveAt"
+      ],
+      "joint_replay_selected_root_count": 3,
+      "scope": "Three new canonical authored declarations: actual finite-fiber plain-marked admission with derived energy capacity and exact degree+4J growth absorption; native terminal degree/S selected before all characters and ideals; and an actual eventual plain-marked field for fixed finite eta/Q maps before degree. The finite-family field imports formal Admission and does not use the separate global-degree primitive to enlarge its quantifiers. Complete real state, row/calibration, character/ideal, profile/prime/window/external/height/plain-capacity/budget and global beta/moving-kappa gates stay visible. This is one moving-capacity Moments field; all-character RawMomentInput uniform profile degree, complete four-field Moments, counts and unconditional improved zero-free assembly remain pending. Historical private Candidate artifacts are separate, and older85 roots are not replayed as an added selected set. Exact unused imported PNTA auxiliaries are disclosed and excluded from the selected export.",
+      "actual_custom_closure_count": 2254,
+      "source_sha256": "aa4b6ef991ef8d40bebbc02ed0ed24f5c3c0674ac555183e5003ad4295434871",
+      "independent_replay_record": "marked-supply3/strict-replay-result.json",
+      "independent_replay_record_sha256": "c5d3f5f1bd0d16e1950063d825ad4e2af9dc8024fd531d01231e9fda8404fe22",
+      "complete_types_and_only_standard_axioms": true,
+      "actual_selected_source_artifact_state_unchanged": true,
+      "independent_kernel_replay_passed": true,
+      "known_unproved_imported_auxiliaries": [
+        {
+          "module": "PrimeNumberTheoremAnd.Wiener",
+          "package_url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd.git",
+          "package_pin": "c39a751132c88b6e8080b74c74023fd95b3d8be0",
+          "raw_actual_source_sha256": "963151c22caeb12f5c203ae944961629bfe7840915519255d79220f415ca0fbf",
+          "canonical_lf_sha256": "7bd40c9cffedc1d9a0f675ea971c6719e490b1b106807459d549145f30d70f05",
+          "unproved_auxiliary_declarations": [
+            "prelim_decay_2",
+            "prelim_decay_3"
+          ],
+          "allowed_exact_warning_lines": [
+            "PrimeNumberTheoremAnd/Wiener.lean:325:8: warning: declaration uses `sorry`",
+            "PrimeNumberTheoremAnd/Wiener.lean:344:8: warning: declaration uses `sorry`"
+          ],
+          "only_unselected_imported_auxiliary_warnings_allowed": true,
+          "whole_import_environment_hole_free": false,
+          "source_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\PrimeNumberTheoremAnd\\PrimeNumberTheoremAnd\\Wiener.lean",
+          "actual_build_log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-124959-bounded8v2\\PrimeNumberTheoremAnd.Wiener.log",
+          "actual_build_log_sha256": "9f2053e32670eaf6fec71f7d61eed19e8cb600d083c1f013839db576945cbdcc"
+        }
+      ],
+      "selected_export_unproved_auxiliary_absence_audit": {
+        "export_sha256": "cafb316dbf76ec5c2bb6e81009d6318db33335dc78295ef8fc16982dbe1d6cf9",
+        "blocked_global_names": [
+          "prelim_decay_2",
+          "prelim_decay_3",
+          "sorryAx"
+        ],
+        "blocked_name_occurrences": [],
+        "selected_export_contains_neither_unproved_auxiliaries_nor_sorryAx": true
+      }
+    },
+    "OAI.NumberTheory.DirichletL.Moments.EventualFiniteSourcePlainMarkedLowKappa": {
+      "origin": "authored",
+      "selected_declaration_count": 1,
+      "selected_declarations": [
+        "OAI.SevenEighths.EventualFiniteSourcePlainMarkedLowKappa.eventually_finite_source_plain_marked"
+      ],
+      "joint_replay_selected_root_count": 3,
+      "scope": "Three new canonical authored declarations: actual finite-fiber plain-marked admission with derived energy capacity and exact degree+4J growth absorption; native terminal degree/S selected before all characters and ideals; and an actual eventual plain-marked field for fixed finite eta/Q maps before degree. The finite-family field imports formal Admission and does not use the separate global-degree primitive to enlarge its quantifiers. Complete real state, row/calibration, character/ideal, profile/prime/window/external/height/plain-capacity/budget and global beta/moving-kappa gates stay visible. This is one moving-capacity Moments field; all-character RawMomentInput uniform profile degree, complete four-field Moments, counts and unconditional improved zero-free assembly remain pending. Historical private Candidate artifacts are separate, and older85 roots are not replayed as an added selected set. Exact unused imported PNTA auxiliaries are disclosed and excluded from the selected export.",
+      "actual_custom_closure_count": 2254,
+      "source_sha256": "67c70cbb2613930b240781f124b146dad4e34a4aa697404c7069436199bd17b1",
+      "independent_replay_record": "marked-supply3/strict-replay-result.json",
+      "independent_replay_record_sha256": "c5d3f5f1bd0d16e1950063d825ad4e2af9dc8024fd531d01231e9fda8404fe22",
+      "complete_types_and_only_standard_axioms": true,
+      "actual_selected_source_artifact_state_unchanged": true,
+      "independent_kernel_replay_passed": true,
+      "known_unproved_imported_auxiliaries": [
+        {
+          "module": "PrimeNumberTheoremAnd.Wiener",
+          "package_url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd.git",
+          "package_pin": "c39a751132c88b6e8080b74c74023fd95b3d8be0",
+          "raw_actual_source_sha256": "963151c22caeb12f5c203ae944961629bfe7840915519255d79220f415ca0fbf",
+          "canonical_lf_sha256": "7bd40c9cffedc1d9a0f675ea971c6719e490b1b106807459d549145f30d70f05",
+          "unproved_auxiliary_declarations": [
+            "prelim_decay_2",
+            "prelim_decay_3"
+          ],
+          "allowed_exact_warning_lines": [
+            "PrimeNumberTheoremAnd/Wiener.lean:325:8: warning: declaration uses `sorry`",
+            "PrimeNumberTheoremAnd/Wiener.lean:344:8: warning: declaration uses `sorry`"
+          ],
+          "only_unselected_imported_auxiliary_warnings_allowed": true,
+          "whole_import_environment_hole_free": false,
+          "source_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\PrimeNumberTheoremAnd\\PrimeNumberTheoremAnd\\Wiener.lean",
+          "actual_build_log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-124959-bounded8v2\\PrimeNumberTheoremAnd.Wiener.log",
+          "actual_build_log_sha256": "9f2053e32670eaf6fec71f7d61eed19e8cb600d083c1f013839db576945cbdcc"
+        }
+      ],
+      "selected_export_unproved_auxiliary_absence_audit": {
+        "export_sha256": "cafb316dbf76ec5c2bb6e81009d6318db33335dc78295ef8fc16982dbe1d6cf9",
+        "blocked_global_names": [
+          "prelim_decay_2",
+          "prelim_decay_3",
+          "sorryAx"
+        ],
+        "blocked_name_occurrences": [],
+        "selected_export_contains_neither_unproved_auxiliaries_nor_sorryAx": true
+      }
     }
   },
   "separate_previous_slot_root_count": 0,

@@ -141,12 +141,17 @@ consumers do not construct the required canonical Batch. The new ray
 coefficient identity removes the restriction to the trivial ray character.
 The new finite-row modules prove radial domination and the exact actual
 fiber-to-energy dictionary, construct the NaturalState and extend finite
-witnesses. The remaining bridge must supply canonical source/mask admission,
-full capacity coverage and actual height bounds before it can supply
-plain_marked. ActualSourceBatchTotal now generalizes the real source constructor
+witnesses. The fixed finite-family marked bridge now supplies the actual state, terminal
+PositiveAt and native capacity under explicit row/source/slot/prime/height
+gates. Its source-specific universal Batch wrapper and character-independent
+height choice still need integration. ActualSourceBatchTotal now generalizes the real source constructor
 to sum(ell)=Lambda with dmax<=37*Lambda/7, preserving its witness budget.
 FiniteLabelPositiveAtLowKappa constructs and unifies the actual terminal
 PositiveAt supply. MarkedHeightBudgetLowKappa proves the remaining deterministic
-absorption once the real state and height gates have been supplied. The [finite-row integration note](finite-row-energy-integration.zh.md)
+absorption once the real state and height gates have been supplied.
+PlainMarkedAdmissionLowKappa proves moving-capacity admission, and
+EventualFiniteSourcePlainMarkedLowKappa assembles the fixed-family marked
+bound. UniformDegreePositiveAtLowKappa separately preserves the native
+degree/S-before-all-characters quantifier order. The [finite-row integration note](finite-row-energy-integration.zh.md)
 records the actual conditions and the squared profile loss C^4(1+norm(t))^(4J). The inverse_raw, inverse_marked and plain_unmarked fields also
 remain separate requirements of a complete Moments record.

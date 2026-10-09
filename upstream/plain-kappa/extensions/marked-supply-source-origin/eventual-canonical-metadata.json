@@ -1,0 +1,41 @@
+{
+  "kind": "new_mathematical_authored_extension",
+  "origin": "authored_extension",
+  "git_blob": null,
+  "status": "canonical_prepared_not_actual_compiled_or_independently_replayed",
+  "module": "OAI.NumberTheory.DirichletL.Moments.EventualFiniteSourcePlainMarkedLowKappa",
+  "path": "OAI/NumberTheory/DirichletL/Moments/EventualFiniteSourcePlainMarkedLowKappa.lean",
+  "roots": [
+    "OAI.SevenEighths.EventualFiniteSourcePlainMarkedLowKappa.eventually_finite_source_plain_marked"
+  ],
+  "root_count": 1,
+  "copied_helper_root_count": 0,
+  "raw_sha256": "67c70cbb2613930b240781f124b146dad4e34a4aa697404c7069436199bd17b1",
+  "lf_sha256": "67c70cbb2613930b240781f124b146dad4e34a4aa697404c7069436199bd17b1",
+  "bytes": 8771,
+  "draft_path": "E:\\codex-build\\RH-Weil\\tmp\\marked-supply-phase-20261009\\EventualFiniteSourcePlainMarkedLowKappa.lean",
+  "audit_source_path": "E:\\codex-build\\RH-Weil\\tmp\\eventual-finite-source-plain-marked-20261009\\CanonicalAxiomAudit.lean",
+  "audit_source_sha256": "faabf7fa689358fadea908938fc354847abbbe82b964129f11ea271454f746b2",
+  "private_source_path": "E:\\codex-build\\RH-Weil\\tmp\\eventual-finite-source-plain-marked-20261009\\EventualFiniteSourcePlainMarked.candidate.lean",
+  "private_source_sha256": "6d245bd6effd9dc5e1b59e9642bc50bc76b2093f098b39c3b75ce8c192a2b09b",
+  "private_metadata_sha256": "03b5f240be3f92600636e8e39525d0043d7f682e57bb9eed42bccf0a9421f1fe",
+  "private_fresh_record_sha256": "f94138e389810a17f69da1356ef4fb94a0e4ab2c0f5ef34bdf57c2a0ada945d9",
+  "private_full_type_and_axes_sha256": "236717949c1f3542a69d4b497e0df8e3b9cbe84bdadbb0eb74b7098d0c0f6ec7",
+  "canonical_changes": "Remove exact historical copied Admission; import prepared canonical AdmissionLowKappa; namespace/description changes only in the new assembly statement and proof",
+  "statement_and_proof_preserved_after_reversing_namespace_edits": true,
+  "prepared_dependency": {
+    "module": "OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa",
+    "source_sha256": "9241a17be41bbd52bcf7aef2a1ad24cf47165e11cb52af8a129977ca1c0292f9",
+    "actual_canonical_compile_status": "pending_graph_controller"
+  },
+  "quantifier_scope": "Fixed finite Label/Slot and eta/Q maps before terminal degree/J; Ctotal positive and before eventual Z and all actual fibers/height/selected/j/k/sigma/t",
+  "scope_limitations": [
+    "one plain-marked field only",
+    "explicit actual source gates retained",
+    "no all-character uniform-degree claim",
+    "no complete Moments/count/family-zero-free claim"
+  ],
+  "installation_owner": "plain_range_graph; this script writes no workcopy, state, manifest or controller",
+  "public_source_status": "pending_root_review_and_freeze",
+  "source_script_sha256": "744360fc637a5e36502d893196faafb1309dc3ab0496275d57f415f1ec4e8986"
+}

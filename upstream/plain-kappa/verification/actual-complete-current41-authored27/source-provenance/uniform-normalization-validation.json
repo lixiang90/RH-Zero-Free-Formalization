@@ -1,0 +1,20 @@
+{
+  "status": "canonical_prepared_not_compiled",
+  "theorem_statement_and_body_exactly_unchanged": true,
+  "private_to_canonical_allowed_delta": [
+    "header",
+    "namespace/end suffix"
+  ],
+  "three_source_sha256": {
+    "PlainMarkedAdmissionLowKappa.lean": "9241a17be41bbd52bcf7aef2a1ad24cf47165e11cb52af8a129977ca1c0292f9",
+    "UniformDegreePositiveAtLowKappa.lean": "aa4b6ef991ef8d40bebbc02ed0ed24f5c3c0674ac555183e5003ad4295434871",
+    "EventualFiniteSourcePlainMarkedLowKappa.lean": "67c70cbb2613930b240781f124b146dad4e34a4aa697404c7069436199bd17b1"
+  },
+  "old_target_count": 27,
+  "next_target_count": 30,
+  "state_unchanged": true,
+  "state_sha256": "505a8b3ab0ce81aaaf812a25495ae41d16c1ea8ebd874ac232882ea5e4267fec",
+  "canonical_installed": false,
+  "lean_invoked": false,
+  "controller_invoked": false
+}

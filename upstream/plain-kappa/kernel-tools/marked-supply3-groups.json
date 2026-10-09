@@ -1,0 +1,11 @@
+{
+  "OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa": [
+    "OAI.SevenEighths.PlainMarkedAdmissionLowKappa.actual_plain_marked_admission"
+  ],
+  "OAI.NumberTheory.DirichletL.Energy.UniformDegreePositiveAtLowKappa": [
+    "OAI.SevenEighths.UniformDegreePositiveAtLowKappa.exists_degree_before_character_positiveAt"
+  ],
+  "OAI.NumberTheory.DirichletL.Moments.EventualFiniteSourcePlainMarkedLowKappa": [
+    "OAI.SevenEighths.EventualFiniteSourcePlainMarkedLowKappa.eventually_finite_source_plain_marked"
+  ]
+}

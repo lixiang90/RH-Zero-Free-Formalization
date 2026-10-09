@@ -1,0 +1,10 @@
+{
+  "input_candidate_sha256": "5295fff80474ac682489fa451c3739eb93a1136a31c74addbc472982e250c2cd",
+  "source_sha256": "9241a17be41bbd52bcf7aef2a1ad24cf47165e11cb52af8a129977ca1c0292f9",
+  "module": "OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa",
+  "selected_roots": [
+    "OAI.SevenEighths.PlainMarkedAdmissionLowKappa.actual_plain_marked_admission"
+  ],
+  "delta": "Namespace and scope header only; proof body unchanged.",
+  "actual_normalized_module_compile_pending": true
+}

@@ -106,11 +106,14 @@ is compiled separately with its original toolchain; its current proof status
 and repaired margins are described in [plain-kappa-extension.md](docs/plain-kappa-extension.md).
 The [arithmetic capsule](upstream/plain-kappa/README.md) separately records
 actual Lean 4.34.1 compilation, fresh complete types/axioms and independent
-replays for all **85 selected roots in 24 authored modules**: slot construction,
+replays for all **88 selected roots in 27 authored modules**: slot construction,
 moving parameters, Euler correction, principal comparison/normalization,
 Gram-factor scales, the ray-prime normalizer, conditional Dirichlet/zeta
 transfer, actual finite-row energy interfaces, arbitrary-total source Batch
-construction and the finite-fiber height-loss budget. A separate four-root replay
+construction, the finite-fiber height-loss budget, actual moving-kappa marked
+admission and an eventual marked bound for a fixed finite source family.
+The native terminal degree is also proved uniform before all characters and
+ideals. A separate four-root replay
 checks the complete patched low-kappa induction and its terminal output.
 The complete marked-moment and physical-probe proof remains open.
 The [finite-row integration note](docs/finite-row-energy-integration.zh.md)

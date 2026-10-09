@@ -1,0 +1,24 @@
+{
+  "module": "UpstreamNano_20261009_173643",
+  "roots": [
+    "OAI.SevenEighths.PlainMarkedAdmissionLowKappa.actual_plain_marked_admission",
+    "OAI.SevenEighths.UniformDegreePositiveAtLowKappa.exists_degree_before_character_positiveAt",
+    "OAI.SevenEighths.EventualFiniteSourcePlainMarkedLowKappa.eventually_finite_source_plain_marked"
+  ],
+  "export_exit_code": 0,
+  "exporter_commit": "b18d673bd29b476466a51a3be1012df2ed322b10",
+  "exporter_sha256": "59c8e239262153a57d37b83869732b75b5b3b5a1689b489a0660a5e713dd3701",
+  "source_olean_sha256": "de09aee9aab1a9627a1b04470dbe69d05d1cfb51b0ddb5db94ada62c8c79a171",
+  "source_sha256": "4ef7da49b7309939bad6ab9b549623e3ce1792d73b2f8410ca4851ab24777895",
+  "export_sha256": "cafb316dbf76ec5c2bb6e81009d6318db33335dc78295ef8fc16982dbe1d6cf9",
+  "export_bytes": 1139668584,
+  "actual_export_command": [
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-kernel\\lean4export\\.lake\\build\\bin\\lean4export.exe",
+    "UpstreamNano_20261009_173643",
+    "--",
+    "OAI.SevenEighths.PlainMarkedAdmissionLowKappa.actual_plain_marked_admission",
+    "OAI.SevenEighths.UniformDegreePositiveAtLowKappa.exists_degree_before_character_positiveAt",
+    "OAI.SevenEighths.EventualFiniteSourcePlainMarkedLowKappa.eventually_finite_source_plain_marked"
+  ],
+  "compiler": "Lean (version 4.34.1, x86_64-w64-windows-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)"
+}

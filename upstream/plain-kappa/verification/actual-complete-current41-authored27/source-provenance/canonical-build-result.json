@@ -1,0 +1,85 @@
+{
+  "status": "actual_canonical_compile_passed_fresh_and_independent_replay_pending",
+  "actual_compile_controller_session": 3564,
+  "controller_completed_exit_code": 0,
+  "actual_compile_log_directory": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-173437-bounded8v2",
+  "target_count": 30,
+  "custom_module_count": 2274,
+  "compiled": 3,
+  "strictly_reused": 2271,
+  "wall_seconds": 40.547,
+  "failed_count": 0,
+  "pending_count": 0,
+  "selected_new_canonical_records": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa",
+      "selected_roots": [
+        "OAI.SevenEighths.PlainMarkedAdmissionLowKappa.actual_plain_marked_admission"
+      ],
+      "source_sha256": "9241a17be41bbd52bcf7aef2a1ad24cf47165e11cb52af8a129977ca1c0292f9",
+      "fingerprint": "053eba3b6188c7a6f514336e5b830c0f7917aefa9bda6069a861e052427377ed",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\PlainMarkedAdmissionLowKappa.olean": "e070e064d32f7c1e9e8b7d6202c5736325902d7db5b662e9d40e20ebf4c577ed",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\PlainMarkedAdmissionLowKappa.ilean": "05d0dba2734d2a82cfb11e626dd71e89ef7a423a8e2ee2b8f2f80926d354aec0"
+      },
+      "exit_code": 0,
+      "wall_seconds": 19.422,
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-173437-bounded8v2\\OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "log_text": ""
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Energy.UniformDegreePositiveAtLowKappa",
+      "selected_roots": [
+        "OAI.SevenEighths.UniformDegreePositiveAtLowKappa.exists_degree_before_character_positiveAt"
+      ],
+      "source_sha256": "aa4b6ef991ef8d40bebbc02ed0ed24f5c3c0674ac555183e5003ad4295434871",
+      "fingerprint": "1be133b41c1bf39fe36828d173ee9d65be48cb958e516a591caee626fd85aa74",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\UniformDegreePositiveAtLowKappa.olean": "6c9502c484a6915a31e0a9086f3d5f77cf3c54194362a663467b1da93ecbac36",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\UniformDegreePositiveAtLowKappa.ilean": "e9361f4cd0bec2f1fd20e3d030f658241c18d5e82919b608622711946cbbbfd5"
+      },
+      "exit_code": 0,
+      "wall_seconds": 17.985,
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-173437-bounded8v2\\OAI.NumberTheory.DirichletL.Energy.UniformDegreePositiveAtLowKappa.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "log_text": ""
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.EventualFiniteSourcePlainMarkedLowKappa",
+      "selected_roots": [
+        "OAI.SevenEighths.EventualFiniteSourcePlainMarkedLowKappa.eventually_finite_source_plain_marked"
+      ],
+      "source_sha256": "67c70cbb2613930b240781f124b146dad4e34a4aa697404c7069436199bd17b1",
+      "fingerprint": "c8a72529ac0d33ebf499727b50703a1ea520bddfd6ed2594d56cb1be0acf8c21",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\EventualFiniteSourcePlainMarkedLowKappa.olean": "ed2d9bea472dae7287fd0cbbe419d78512efd2cba41c457650591fd5474ebf7c",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\EventualFiniteSourcePlainMarkedLowKappa.ilean": "e04094ea782b1768cab4e01d974fc5f6fc11d0823e60c4ddad9f42af237e1680"
+      },
+      "exit_code": 0,
+      "wall_seconds": 19.75,
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-173437-bounded8v2\\OAI.NumberTheory.DirichletL.Moments.EventualFiniteSourcePlainMarkedLowKappa.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "log_text": ""
+    }
+  ],
+  "old_24_and_original_41_exact_source_guards_preserved": true,
+  "v6_scanner_source_sha256": "4c8943ab15c9853b2666c94f7d353e5060104b2f4e7aa2614b5748381455532c",
+  "v6_scanner_actual_exit_code": 0,
+  "v6_scanner_actual_wall_seconds": 1.529,
+  "v6_scanner_targets_file_path": "E:\\codex-build\\RH-Weil\\tmp\\marked-supply-phase-20261009\\next-30-targets.json",
+  "v6_scanner_targets_file_sha256": "f3a2c7f2a66e61e7852e1ae6ee1421424d07c71c3fc9b09a248029f4d0172666",
+  "v6_scanner_targets_before_after_bytes_match": true,
+  "v6_scanner_command_argv": [
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\checkpoint_actual_build_v6.py",
+    "--session",
+    "3564",
+    "--source-freeze",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\tmp\\actual-math-repairs\\physical-kappa-nonnegative-20261009-155446\\current-41-source-freeze.json",
+    "--targets-file",
+    "E:\\codex-build\\RH-Weil\\tmp\\marked-supply-phase-20261009\\next-30-targets.json"
+  ],
+  "state_sha256": "7f91825351a1e3b185e3232eef1f7de1d79bc755ff8281a4ea7454ba4ee234b6",
+  "checkpoint_saved_path": "E:\\codex-build\\RH-Weil\\tmp\\marked-supply-phase-20261009\\checkpoint-v6-30-targets\\current-checkpoint.json",
+  "fresh_or_independent_kernel_proof_claimed_by_this_capture": false
+}

@@ -1,0 +1,109 @@
+{
+  "kind": "read_only_actual_source_plain_field_wrapper_ledger",
+  "upstream_revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "report_sha256": "9b3dfab7d174188c0361838a36656bf837358e427b85d5ed5924ca6f6a2d4c7f",
+  "closure_snapshot_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-wrapper-audit-20261009\\closures.json",
+  "closure_snapshot_sha256": "373989dc6b41659aa2a611b73b365a0f5179b7702416d47279669eed54e29141",
+  "source_bindings": [
+    {
+      "git_path": "lean/OAI/NumberTheory/DirichletL/Hecke/DetectorBatch.lean",
+      "git_blob": "2432fd4911341bc5f85ef5746a7f51df947b8b4a",
+      "git_raw_sha256": "bd7bf9bedfe6b8c8bfa7584b5bd2455238663bb29dec0d51516847068e4e2c04",
+      "git_lf_sha256": "bd7bf9bedfe6b8c8bfa7584b5bd2455238663bb29dec0d51516847068e4e2c04",
+      "snapshot_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-wrapper-audit-20261009\\quoted-sources\\Hecke\\DetectorBatch.lean"
+    },
+    {
+      "git_path": "lean/OAI/NumberTheory/DirichletL/Hecke/DetectorFiberPartition.lean",
+      "git_blob": "c845aa8b242b4b7cb23a3272dd51b5c501241cae",
+      "git_raw_sha256": "b79c31ccef2cfbbd8ffe03b6757ccbe69318f6ee0dbe7ae880f76161ef669173",
+      "git_lf_sha256": "b79c31ccef2cfbbd8ffe03b6757ccbe69318f6ee0dbe7ae880f76161ef669173",
+      "snapshot_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-wrapper-audit-20261009\\quoted-sources\\Hecke\\DetectorFiberPartition.lean"
+    },
+    {
+      "git_path": "lean/OAI/NumberTheory/DirichletL/Hecke/DetectorRawFiber.lean",
+      "git_blob": "ee826e81bbec1df5820f26aa15bce53bcb675cd6",
+      "git_raw_sha256": "491911b0b17d19943fdb1b43f479e741279e0c0c2b9f1e9e9c5d11de24335c5d",
+      "git_lf_sha256": "491911b0b17d19943fdb1b43f479e741279e0c0c2b9f1e9e9c5d11de24335c5d",
+      "snapshot_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-wrapper-audit-20261009\\quoted-sources\\Hecke\\DetectorRawFiber.lean"
+    },
+    {
+      "git_path": "lean/OAI/NumberTheory/DirichletL/Hecke/DetectorRawBranches.lean",
+      "git_blob": "16adf0ef89dafd510b98dd44e9a5461e3fbf351d",
+      "git_raw_sha256": "696bbacc691905ef06aa8934946185ae5d158907a93167d08005bd5da4ad3a4c",
+      "git_lf_sha256": "696bbacc691905ef06aa8934946185ae5d158907a93167d08005bd5da4ad3a4c",
+      "snapshot_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-wrapper-audit-20261009\\quoted-sources\\Hecke\\DetectorRawBranches.lean"
+    },
+    {
+      "git_path": "lean/OAI/NumberTheory/DirichletL/Hecke/DetectorBranchBudget.lean",
+      "git_blob": "05e7948b9df4c2385d08db006fbdbae56f62b0c3",
+      "git_raw_sha256": "10491ef291665f80ff61771bce01c4aa5fed4fe168b92de67427d683c6fc77a7",
+      "git_lf_sha256": "10491ef291665f80ff61771bce01c4aa5fed4fe168b92de67427d683c6fc77a7",
+      "snapshot_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-wrapper-audit-20261009\\quoted-sources\\Hecke\\DetectorBranchBudget.lean"
+    },
+    {
+      "git_path": "lean/OAI/NumberTheory/DirichletL/Hecke/DetectorCountFromMoments.lean",
+      "git_blob": "91a6e8aa5e0336d6006a5211e77a13f7f8aba348",
+      "git_raw_sha256": "5d29e2f64e2e52ac5beb54a873684c5ea7fb32511280e8d53fd4b378ac014149",
+      "git_lf_sha256": "5d29e2f64e2e52ac5beb54a873684c5ea7fb32511280e8d53fd4b378ac014149",
+      "snapshot_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-wrapper-audit-20261009\\quoted-sources\\Hecke\\DetectorCountFromMoments.lean"
+    },
+    {
+      "git_path": "lean/OAI/NumberTheory/DirichletL/Moments/DetectorDictionarySource.lean",
+      "git_blob": "e1ee26c29aa796ca308f071f135a1b19bac32b00",
+      "git_raw_sha256": "b8f6d1f292e243d21ee2a48e3c7d0033e27055d1fad16953881064ed1b1e7391",
+      "git_lf_sha256": "b8f6d1f292e243d21ee2a48e3c7d0033e27055d1fad16953881064ed1b1e7391",
+      "snapshot_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-wrapper-audit-20261009\\quoted-sources\\Moments\\DetectorDictionarySource.lean"
+    },
+    {
+      "git_path": "lean/OAI/NumberTheory/DirichletL/Moments/NaturalFixedRaySourceBatch.lean",
+      "git_blob": "f2a2540b7035759d94fa9dd0b2f55364ae868897",
+      "git_raw_sha256": "bcabe2864432eeaa7817d5a7481164b2ddb0e856c8b8cf0fde37c6c870b53783",
+      "git_lf_sha256": "bcabe2864432eeaa7817d5a7481164b2ddb0e856c8b8cf0fde37c6c870b53783",
+      "snapshot_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-wrapper-audit-20261009\\quoted-sources\\Moments\\NaturalFixedRaySourceBatch.lean"
+    },
+    {
+      "git_path": "lean/OAI/NumberTheory/DirichletL/Moments/NaturalFixedRaySourceFixedIdeal.lean",
+      "git_blob": "6f0792817c18262c8b70028886bc7fdf4ee57937",
+      "git_raw_sha256": "7814f20f7dae39272b939a7ea392bc6022abcc0757582560c77571a40c21ad22",
+      "git_lf_sha256": "7814f20f7dae39272b939a7ea392bc6022abcc0757582560c77571a40c21ad22",
+      "snapshot_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-wrapper-audit-20261009\\quoted-sources\\Moments\\NaturalFixedRaySourceFixedIdeal.lean"
+    },
+    {
+      "git_path": "lean/OAI/NumberTheory/DirichletL/Moments/NaturalFixedRaySourceInternal.lean",
+      "git_blob": "a2b2993ad9c7f3830518f744864dae3468972c0b",
+      "git_raw_sha256": "ceb3cb424caeb79f840031156695189f88ff1db3ab88b170caf07a33382b2e79",
+      "git_lf_sha256": "ceb3cb424caeb79f840031156695189f88ff1db3ab88b170caf07a33382b2e79",
+      "snapshot_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-wrapper-audit-20261009\\quoted-sources\\Moments\\NaturalFixedRaySourceInternal.lean"
+    },
+    {
+      "git_path": "lean/OAI/NumberTheory/DirichletL/PrimeRows/RowPartition.lean",
+      "git_blob": "6ead009eaab5b5cc063cd002ce8d59c66fbcd679",
+      "git_raw_sha256": "5433506b2b0efcf82066fabbee2e121f64126f997f9fef0bc090ccce2971ab6b",
+      "git_lf_sha256": "5433506b2b0efcf82066fabbee2e121f64126f997f9fef0bc090ccce2971ab6b",
+      "snapshot_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-wrapper-audit-20261009\\quoted-sources\\PrimeRows\\RowPartition.lean"
+    },
+    {
+      "git_path": "lean/OAI/NumberTheory/DirichletL/PrimeRows/NonfloorMoments.lean",
+      "git_blob": "5711ee00b7ab3fdb61d8f91d092c29781c437bfb",
+      "git_raw_sha256": "1a858768eee8f4568ac011680d3ec6b742228f75b21e8a24f39d5d28f759788c",
+      "git_lf_sha256": "1a858768eee8f4568ac011680d3ec6b742228f75b21e8a24f39d5d28f759788c",
+      "snapshot_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-wrapper-audit-20261009\\quoted-sources\\PrimeRows\\NonfloorMoments.lean"
+    },
+    {
+      "git_path": "lean/OAI/NumberTheory/DirichletL/Detector/SourceExclusions.lean",
+      "git_blob": "438bef0305ffa1afef7198d392a664c32afdac80",
+      "git_raw_sha256": "1430bb9bf9e3d40b8162a9155578ac7c9e80c3d8416016614ebdc4e0533fffcd",
+      "git_lf_sha256": "1430bb9bf9e3d40b8162a9155578ac7c9e80c3d8416016614ebdc4e0533fffcd",
+      "snapshot_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-wrapper-audit-20261009\\quoted-sources\\Detector\\SourceExclusions.lean"
+    },
+    {
+      "git_path": "lean/OAI/NumberTheory/DirichletL/Energy/WidthRanges.lean",
+      "git_blob": "4763f92c5a0c439262841b1bbd839809dd44ae4b",
+      "git_raw_sha256": "4fd022dd8ef39d5e89a0eac27ccb8ebfbf02e55143d52a89f3e39666c73b9f5a",
+      "git_lf_sha256": "4fd022dd8ef39d5e89a0eac27ccb8ebfbf02e55143d52a89f3e39666c73b9f5a",
+      "snapshot_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-wrapper-audit-20261009\\quoted-sources\\Energy\\WidthRanges.lean"
+    }
+  ],
+  "scope": "Exact source Batch/fiber one-field admission dictionary and verified-vs-uncompiled source boundary; no new Lean theorem/count/Moments claim",
+  "script_sha256": "bbc8bbdc780bac00e6d38327506fafd92291bf87ef59b807d9ebaf1de00c9158"
+}

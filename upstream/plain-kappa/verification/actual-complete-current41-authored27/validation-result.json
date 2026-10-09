@@ -1,0 +1,32 @@
+{
+  "status": "actual_canonical_compile_passed_fresh_and_independent_replay_pending",
+  "actual_compile_controller_session": 3564,
+  "controller_completed_exit_code": 0,
+  "actual_compile_log_directory": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-173437-bounded8v2",
+  "target_count": 30,
+  "custom_module_count": 2274,
+  "compiled": 3,
+  "strictly_reused": 2271,
+  "wall_seconds": 40.547,
+  "failed_count": 0,
+  "pending_count": 0,
+  "old_24_and_original_41_exact_source_guards_preserved": true,
+  "v6_scanner_source_sha256": "4c8943ab15c9853b2666c94f7d353e5060104b2f4e7aa2614b5748381455532c",
+  "v6_scanner_actual_exit_code": 0,
+  "v6_scanner_actual_wall_seconds": 1.529,
+  "v6_scanner_targets_file_path": "E:\\codex-build\\RH-Weil\\tmp\\marked-supply-phase-20261009\\next-30-targets.json",
+  "v6_scanner_targets_file_sha256": "f3a2c7f2a66e61e7852e1ae6ee1421424d07c71c3fc9b09a248029f4d0172666",
+  "v6_scanner_targets_before_after_bytes_match": true,
+  "v6_scanner_command_argv": [
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\checkpoint_actual_build_v6.py",
+    "--session",
+    "3564",
+    "--source-freeze",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\tmp\\actual-math-repairs\\physical-kappa-nonnegative-20261009-155446\\current-41-source-freeze.json",
+    "--targets-file",
+    "E:\\codex-build\\RH-Weil\\tmp\\marked-supply-phase-20261009\\next-30-targets.json"
+  ],
+  "state_sha256": "7f91825351a1e3b185e3232eef1f7de1d79bc755ff8281a4ea7454ba4ee234b6",
+  "checkpoint_saved_path": "E:\\codex-build\\RH-Weil\\tmp\\marked-supply-phase-20261009\\checkpoint-v6-30-targets\\current-checkpoint.json",
+  "fresh_or_independent_kernel_proof_claimed_by_this_capture": false
+}

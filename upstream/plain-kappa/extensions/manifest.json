@@ -1,6 +1,6 @@
 {
   "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
-  "status": "all_24_authored_modules_and_85_selected_declarations_independently_verified_full_analytic_supply_pending",
+  "status": "all_27_authored_modules_and_88_selected_declarations_independently_verified_full_analytic_supply_pending",
   "origin": "authored_extension",
   "files": [
     {
@@ -602,6 +602,78 @@
       "independently_replayed_declaration_count": 2,
       "joint_replay_selected_root_count": 7,
       "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/PlainMarkedAdmissionLowKappa.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Moments/PlainMarkedAdmissionLowKappa.lean",
+      "sha256": "9241a17be41bbd52bcf7aef2a1ad24cf47165e11cb52af8a129977ca1c0292f9",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "9241a17be41bbd52bcf7aef2a1ad24cf47165e11cb52af8a129977ca1c0292f9",
+      "canonical_lf_sha256": "9241a17be41bbd52bcf7aef2a1ad24cf47165e11cb52af8a129977ca1c0292f9",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "installation_owner": "plain_range_graph",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "scope": "Actual finite-fiber marked sum from PositiveAt, with energy capacity derived from kappaEnergy<=kappaPlain and actual nonnegative selected widths; m in [0,1/2], exact length and exponent conversion, degree+4J monomial absorption. PositiveAt, source/arithmetic/state/cover/slot/external/height/plain-capacity and budget gates remain explicit. One field only, no complete Moments/count/unconditional zero-free supply.",
+      "independent_replay_record": "../verification/marked-supply3/strict-replay-result.json",
+      "independent_replay_record_sha256": "c5d3f5f1bd0d16e1950063d825ad4e2af9dc8024fd531d01231e9fda8404fe22",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.PlainMarkedAdmissionLowKappa.actual_plain_marked_admission"
+      ],
+      "independently_replayed_declaration_count": 1,
+      "joint_replay_selected_root_count": 3,
+      "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Energy.UniformDegreePositiveAtLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Energy/UniformDegreePositiveAtLowKappa.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Energy/UniformDegreePositiveAtLowKappa.lean",
+      "sha256": "aa4b6ef991ef8d40bebbc02ed0ed24f5c3c0674ac555183e5003ad4295434871",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "aa4b6ef991ef8d40bebbc02ed0ed24f5c3c0674ac555183e5003ad4295434871",
+      "canonical_lf_sha256": "aa4b6ef991ef8d40bebbc02ed0ed24f5c3c0674ac555183e5003ad4295434871",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "installation_owner": "plain_range_graph",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "scope": "Native terminal degree and seminorm set selected before all characters and ideals, by genuine certified terminal supply. All global beta, moving kappa, arithmetic, terminal geometry and branch gates remain explicit; character-dependent positive constants are chosen afterwards. Not a complete RawMomentInput or all-character plain-marked field.",
+      "independent_replay_record": "../verification/marked-supply3/strict-replay-result.json",
+      "independent_replay_record_sha256": "c5d3f5f1bd0d16e1950063d825ad4e2af9dc8024fd531d01231e9fda8404fe22",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.UniformDegreePositiveAtLowKappa.exists_degree_before_character_positiveAt"
+      ],
+      "independently_replayed_declaration_count": 1,
+      "joint_replay_selected_root_count": 3,
+      "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.EventualFiniteSourcePlainMarkedLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/EventualFiniteSourcePlainMarkedLowKappa.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Moments/EventualFiniteSourcePlainMarkedLowKappa.lean",
+      "sha256": "67c70cbb2613930b240781f124b146dad4e34a4aa697404c7069436199bd17b1",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "67c70cbb2613930b240781f124b146dad4e34a4aa697404c7069436199bd17b1",
+      "canonical_lf_sha256": "67c70cbb2613930b240781f124b146dad4e34a4aa697404c7069436199bd17b1",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "installation_owner": "plain_range_graph",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "scope": "Actual eventual plain-marked field for a fixed finite label/slot family with eta/Q maps selected before terminal degree and profile degree; positive total constant before Z, fibers, selected slots, height, derivative orders and frequencies. Imports formal Admission and supplies natural state/PositiveAt/capacity. Actual row, calibration, source profile, prime/slot/height/plain-capacity gates remain explicit. No all-character uniform-degree or complete Moments/count/family-zero-free claim.",
+      "independent_replay_record": "../verification/marked-supply3/strict-replay-result.json",
+      "independent_replay_record_sha256": "c5d3f5f1bd0d16e1950063d825ad4e2af9dc8024fd531d01231e9fda8404fe22",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.EventualFiniteSourcePlainMarkedLowKappa.eventually_finite_source_plain_marked"
+      ],
+      "independently_replayed_declaration_count": 1,
+      "joint_replay_selected_root_count": 3,
+      "imported_environment_contains_known_unproved_auxiliaries": true
     }
   ],
   "targets": [
@@ -628,7 +700,10 @@
     "OAI.NumberTheory.DirichletL.Detector.ActualSourceBatchTotal",
     "OAI.NumberTheory.DirichletL.Moments.FiberPositiveAtLowKappa",
     "OAI.NumberTheory.DirichletL.Energy.FiniteLabelPositiveAtLowKappa",
-    "OAI.NumberTheory.DirichletL.Moments.MarkedHeightBudgetLowKappa"
+    "OAI.NumberTheory.DirichletL.Moments.MarkedHeightBudgetLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa",
+    "OAI.NumberTheory.DirichletL.Energy.UniformDegreePositiveAtLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.EventualFiniteSourcePlainMarkedLowKappa"
   ],
   "declarations": [
     "OAI.SevenEighths.ProbeEuler.unramifiedClosed_open_region_bound_lowKappa",
@@ -715,7 +790,10 @@
     "OAI.SevenEighths.FiberPositiveAtLowKappa.actual_finite_fiber_bound_of_positiveAt",
     "OAI.SevenEighths.FiniteLabelPositiveAtLowKappa.eventually_finite_label_positiveAt",
     "OAI.SevenEighths.MarkedHeightBudgetLowKappa.exists_losses_before_height",
-    "OAI.SevenEighths.MarkedHeightBudgetLowKappa.actual_growth_absorption"
+    "OAI.SevenEighths.MarkedHeightBudgetLowKappa.actual_growth_absorption",
+    "OAI.SevenEighths.PlainMarkedAdmissionLowKappa.actual_plain_marked_admission",
+    "OAI.SevenEighths.UniformDegreePositiveAtLowKappa.exists_degree_before_character_positiveAt",
+    "OAI.SevenEighths.EventualFiniteSourcePlainMarkedLowKappa.eventually_finite_source_plain_marked"
   ],
   "note": "Authored sources retain per-file verification states and exact source hashes. Complete actual-module replay evidence applies only to listed selected declarations; standalone prototypes are distinct. Full analytic moment and zero-free supplies remain pending. Selected roots permit only three standard axioms; exact imported original PNTA holes, if present, are explicitly recorded and absent from selected kernel exports."
 }
