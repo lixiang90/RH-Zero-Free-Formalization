@@ -1,0 +1,11 @@
+--- a/OAI/NumberTheory/DirichletL/Energy/PositiveHighPhysical.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/PositiveHighPhysical.lean
+@@ -98,7 +98,7 @@
+     w σ freq (fun i=>⟨hσlo i,hσhi i⟩) state p ha t X₁ X₂ hX₁ hX₂
+   have hu:=four_upper_scales M H hH η₀ θ W hW.continuous aslot bslot lo hi haslot hWs
+     w σ freq (fun i=>⟨hσlo i,hσhi i⟩) state p ha t X₁ X₂ hX₁ hX₂ κ (max Lgoal Mparent)
+-    hZ hw hκ hcapacity (hstate.trans (le_max_right _ _))
++    hZ hw hκsmall hcapacity (hstate.trans (le_max_right _ _))
+   have hp:=fixed_lower_product M H hH η₀ θ W hW.continuous aslot bslot lo hi haslot hWs
+     w σ freq (fun i=>⟨hσlo i,hσhi i⟩) state p ha t X₁ X₂ hX₁ hX₂ N hN
+   have hr:=CenteredMomentEnergyNaturalSourceAdmission.radial_admission state

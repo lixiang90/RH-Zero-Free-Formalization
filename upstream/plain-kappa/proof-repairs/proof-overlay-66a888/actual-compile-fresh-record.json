@@ -1,0 +1,25 @@
+{
+  "module": "OAI.NumberTheory.DirichletL.Energy.PositiveHighSourceBounded",
+  "captured_at_utc": "2026-10-09T07:47:27.661535+00:00",
+  "status": "independent_actual_compile_and_fresh_all_one_public_types_axes_pass_controller_recompile_pending",
+  "compile_exit_code": 0,
+  "compile_wall_seconds": 12.265000000130385,
+  "fresh_exit_code": 0,
+  "fresh_wall_seconds": 16.359999999869615,
+  "source_sha256": "ad0b9cefbf351e818b7f880df92a08eefc679b169f2d4a6d5b8b305f588d22ab",
+  "artifact_sha256": {
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\PositiveHighSourceBounded.olean": "38e1ad1df8827d0bda96bc956291e64a79f3ecb78f172a7043deb59812fb036e",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\PositiveHighSourceBounded.ilean": "bd3804f8d582f626a8cded6d1d55b16ce15b0d2f2a3763aabf613c69f80c76ba"
+  },
+  "public_roots": [
+    "OAI.SevenEighths.CenteredMomentEnergyPositiveHighSourceBounded.actual_positive_source_entry"
+  ],
+  "axes": {
+    "OAI.SevenEighths.CenteredMomentEnergyPositiveHighSourceBounded.actual_positive_source_entry": "propext,\n Classical.choice.{u},\n Quot.sound.{u}"
+  },
+  "selected_dependency_count": 1908,
+  "selected_dependency_bindings_unchanged": true,
+  "raw_state_bytes_unchanged": true,
+  "raw_state_sha256": "e082e78de968a0a43dd32564babbf9304dafcbb4bfa4eccfa8c3cb36471f2446",
+  "scope_note": "This independent source compile did not write controller state. The failed prior graph entry remains; the sole graph controller must recompile this repaired source."
+}

@@ -1,0 +1,11 @@
+--- a/OAI/NumberTheory/DirichletL/Energy/PositiveHighSourceBounded.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/PositiveHighSourceBounded.lean
+@@ -96,7 +96,7 @@
+     have hphysical:=hr.2 inp (p.profile 0) (p.profile 1) rfl rfl
+       (p.support 0) (p.support 1) (fun _=>le_rfl) s.puncture s.radial s.radial_support
+       (balanced_volume_bound M H hH η₀ θ Wslot hcSlot aslot bslot lo hi haslot hsSlot
+-        w σ freq (fun i=>⟨hσlo i,hσhi i⟩) s p ha t X₁ X₂ hX₁ hX₂ κ Mcap hz.1 hw hκ hcap hs)
++        w σ freq (fun i=>⟨hσlo i,hσhi i⟩) s p ha t X₁ X₂ hX₁ hX₂ κ Mcap hz.1 hw (by linarith only [hκ]) hcap hs)
+       (natural_inverse_scale s Mcap hM)
+     have href':energy inp.η (fixedBadMask*idealGenerator s.puncture) 1 inp.t
+         inp.W₁ inp.W₂ inp.slots inp.toData.coefficient inp.P inp.Y₁ inp.Y₂

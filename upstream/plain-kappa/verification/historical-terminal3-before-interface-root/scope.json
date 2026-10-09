@@ -1,0 +1,12 @@
+{
+  "status": "historical_completed_three_root_replay_superseded_in_final_checkpoint_scope_by_new_four_root_replay",
+  "actual_selected_root_count": 3,
+  "roots": [
+    "OAI.SevenEighths.CenteredMomentEnergyCappedAnalyticSuccessor.actual_successor",
+    "OAI.SevenEighths.CenteredMomentEnergyCertifiedExistence.certified_bands",
+    "OAI.SevenEighths.CenteredMomentEnergyCertifiedExistence.terminal_certificate"
+  ],
+  "independent_replay_passed": true,
+  "not_added_to_unique_final_modified_root_count": true,
+  "reason": "Root added the certified_terminal PositiveAt/ZeroAt interface after this three-root exporter had already started. Original completed record and selected input bindings are preserved; this record is not rewritten or relabeled as four roots."
+}

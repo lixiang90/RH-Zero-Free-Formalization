@@ -1,0 +1,23 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-j",
+    "2",
+    "--root=E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009",
+    "-o",
+    "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\verification\\Candidate.olean",
+    "-i",
+    "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\verification\\Candidate.ilean",
+    "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\FinitePositiveRowDomination.candidate.lean"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 13.953,
+  "source_sha256": "b1c646e98cd1b8e08a06da8076e4925c2d36086b9b443b5406dee858c270b01b",
+  "log": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\verification\\compile.log",
+  "artifact_sha256": {
+    "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\verification\\Candidate.olean": "30dbcb434ab90b209fc8c46c86a3f4d183d3d1ae4ccde6c23ced8a566243e811",
+    "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\verification\\Candidate.ilean": "6bc5b95ca9e23a80fc23c95bf2d9d218a7c378589c18a7e43afbecb73ae76e08"
+  }
+}

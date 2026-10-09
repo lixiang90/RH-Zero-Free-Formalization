@@ -1,0 +1,32 @@
+{
+  "captured_at_utc": "2026-10-09T07:54:46.176284+00:00",
+  "captured_full_failed_state_sha256": "72eaffa72098b39be95a180f9157ca168e5eaf5274e409a63b8cda1e46433af7",
+  "historic_41_patch_sha256": "d18941bdb3a32f42032c5e82c6518baa5dc03968ff8af652ca30d62d6467566e",
+  "prior_proof_only_overlay_patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+  "modules": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Energy.PositiveHighPhysical",
+      "before_raw_sha256": "32165c28273093bbdf55edb98e2dd82946727ac65665e53de3fc8e1516785c3a",
+      "after_raw_sha256": "73727672d6503202d0d32cc45d60f6fcf1879aea1728d105b05b08e533dc59a1",
+      "after_lf_sha256": "73727672d6503202d0d32cc45d60f6fcf1879aea1728d105b05b08e533dc59a1",
+      "baseline_gitblob_path": "lean/OAI/NumberTheory/DirichletL/Energy/PositiveHighPhysical.lean",
+      "baseline_lf_sha256": "880a4b1cee7bb9a0c2dbb0b8dc50fa52ba3579e0d2fd5a4c8aca37bf4a31e32d",
+      "declaration_headers_definitions_hypotheses_unchanged": true,
+      "prior_actual_compile_failure": true,
+      "repair": "Explicitly derive 0 <= kappa from the existing 37/50 <= kappa at parameter_gates and eventually_actual_four_fit calls. Existing 1/6 proof retained.",
+      "status": "proof_only_body_delta_prepared_pending_actual_module_compile"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Energy.ZeroGrowthPhysical",
+      "before_raw_sha256": "d2b6b011929dc5c09954de46f399160650438d62d8b66e2674ae302229369545",
+      "after_raw_sha256": "345a9d81129feaafc959d3995691d0210d7421d302588ae5d7dc84ce18357200",
+      "after_lf_sha256": "345a9d81129feaafc959d3995691d0210d7421d302588ae5d7dc84ce18357200",
+      "baseline_gitblob_path": "lean/OAI/NumberTheory/DirichletL/Energy/ZeroGrowthPhysical.lean",
+      "baseline_lf_sha256": "5cecb6430db18c1cccab84f81d4f81b9fbc988c9261c2fa8b71e44ee8d5706c6",
+      "declaration_headers_definitions_hypotheses_unchanged": true,
+      "prior_actual_compile_failure": true,
+      "repair": "Explicitly derive 0 <= kappa from the existing 37/50 <= kappa at parameter_gates and eventually_actual_four_fit calls. Existing 1/6 proof retained.",
+      "status": "proof_only_body_delta_prepared_pending_actual_module_compile"
+    }
+  ]
+}

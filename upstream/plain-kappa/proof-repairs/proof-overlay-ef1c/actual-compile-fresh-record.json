@@ -1,0 +1,33 @@
+{
+  "module": "OAI.NumberTheory.DirichletL.Energy.PositiveHighSource",
+  "captured_at_utc": "2026-10-09T07:40:47.621498+00:00",
+  "status": "independent_actual_compile_and_fresh_five_public_types_axes_pass_controller_recompile_pending",
+  "compile_exit_code": 0,
+  "compile_wall_seconds": 12.483999999938533,
+  "fresh_exit_code": 0,
+  "fresh_wall_seconds": 10.577999999979511,
+  "source_sha256": "e7434c627192f3eb2c9fdadffe32327e15d0c082577c6867e69621d70518e270",
+  "artifact_sha256": {
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\PositiveHighSource.olean": "25f7e62f112225c350c159fcf67991ff11acb89fd94430eb54cdbb03028fa7e6",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\PositiveHighSource.ilean": "7921335321477270a4f3d1afb5f5bf1c2d7487292a476dad563044f86edf723d"
+  },
+  "public_roots": [
+    "OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.balancedInput",
+    "OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.balanced_matches",
+    "OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.balanced_volume",
+    "OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.balanced_volume_bound",
+    "OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.actual_positive_source_entry"
+  ],
+  "axes": {
+    "OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.balancedInput": "propext,\n Classical.choice.{u},\n Quot.sound.{u}",
+    "OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.balanced_matches": "propext,\n Classical.choice.{u},\n Quot.sound.{u}",
+    "OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.balanced_volume": "propext,\n Classical.choice.{u},\n Quot.sound.{u}",
+    "OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.balanced_volume_bound": "propext,\n Classical.choice.{u},\n Quot.sound.{u}",
+    "OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.actual_positive_source_entry": "propext,\n Classical.choice.{u},\n Quot.sound.{u}"
+  },
+  "selected_dependency_count": 1903,
+  "selected_dependency_bindings_unchanged": true,
+  "raw_state_bytes_unchanged": true,
+  "raw_state_sha256": "d45421af7970fa3a2355d41bc0999ffe264440e1a6ab18f3df4fc597fac01aa6",
+  "scope_note": "This independent source compile did not write controller state. The failed prior graph entry remains; the sole graph controller must recompile this repaired source."
+}

@@ -1,0 +1,245 @@
+warning: rellich-kondrachov: repository 'E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake/packages\rellich-kondrachov' has local changes
+@OAI.SevenEighths.FinitePositiveRowDomination.finite_positiveSlotRow_le_actual_energy.{u_1} : ∀ {ι : Type u_1}
+  [inst : Fintype.{u_1} ι] [DecidableEq.{u_1 + 1} ι]
+  (rows : Finset.{0} OAI.SevenEighths.HeckeInverseAmplification.FreeRow) (η : OAI.SevenEighths.HeckeFamily.Character)
+  (m A : OAI.SevenEighths.HeckeFamily.O) (t X₁ X₂ : Real) (W₁ W₂ : Real → Complex)
+  (pool :
+    ι →
+      Finset.{0}
+        (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+          (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+            (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+              (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                  Rat.instField))))))
+  (coefficient :
+    ι →
+      @Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+          (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+            (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+              (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                  Rat.instField)))) →
+        Complex)
+  (P : ι → Real) (keep : OAI.SevenEighths.HeckeFamily.O → Prop)
+  (Φ :
+    @SchwartzMap.{0, 0} Real Complex Real.normedAddCommGroup
+      (@InnerProductSpace.toNormedSpace.{0, 0} Real Real Real.instRCLike
+        (@NormedAddCommGroup.toSeminormedAddCommGroup.{0} Real Real.normedAddCommGroup)
+        (@RCLike.toInnerProductSpaceReal.{0} Real Real.instRCLike))
+      Complex.instNormedAddCommGroup
+      (@InnerProductSpace.toNormedSpace.{0, 0} Real Complex Real.instRCLike
+        (@NormedAddCommGroup.toSeminormedAddCommGroup.{0} Complex Complex.instNormedAddCommGroup)
+        instInnerProductSpaceRealComplex))
+  (K b₁ b₂ : Real)
+  (hK : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) K)
+  (hX₁ : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) X₁)
+  (hX₂ : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) X₂)
+  (hs₁ :
+    @LE.le.{0} (Set.{0} Real) (@Set.instLE.{0} Real) (@Function.support.{0, 0} Real Complex Complex.instZero W₁)
+      (@Set.Iic.{0} Real Real.instPreorder b₁))
+  (hs₂ :
+    @LE.le.{0} (Set.{0} Real) (@Set.instLE.{0} Real) (@Function.support.{0, 0} Real Complex Complex.instZero W₂)
+      (@Set.Iic.{0} Real Real.instPreorder b₂))
+  (hΦ :
+    ∀ (z : OAI.SevenEighths.HeckeFamily.O),
+      @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))
+        (Complex.re
+          (@DFunLike.coe.{1, 1, 1}
+            (@SchwartzMap.{0, 0} Real Complex Real.normedAddCommGroup
+              (@InnerProductSpace.toNormedSpace.{0, 0} Real Real Real.instRCLike
+                (@NormedAddCommGroup.toSeminormedAddCommGroup.{0} Real Real.normedAddCommGroup)
+                (@RCLike.toInnerProductSpaceReal.{0} Real Real.instRCLike))
+              Complex.instNormedAddCommGroup
+              (@InnerProductSpace.toNormedSpace.{0, 0} Real Complex Real.instRCLike
+                (@NormedAddCommGroup.toSeminormedAddCommGroup.{0} Complex Complex.instNormedAddCommGroup)
+                instInnerProductSpaceRealComplex))
+            Real (fun (x : Real) => Complex)
+            (@SchwartzMap.instFunLike.{0, 0} Real Complex Real.normedAddCommGroup
+              (@InnerProductSpace.toNormedSpace.{0, 0} Real Real Real.instRCLike
+                (@NormedAddCommGroup.toSeminormedAddCommGroup.{0} Real Real.normedAddCommGroup)
+                (@RCLike.toInnerProductSpaceReal.{0} Real Real.instRCLike))
+              Complex.instNormedAddCommGroup
+              (@InnerProductSpace.toNormedSpace.{0, 0} Real Complex Real.instRCLike
+                (@NormedAddCommGroup.toSeminormedAddCommGroup.{0} Complex Complex.instNormedAddCommGroup)
+                instInnerProductSpaceRealComplex))
+            Φ
+            (@HDiv.hDiv.{0, 0, 0} Real Real Real
+              (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+              (@HPow.hPow.{0, 0, 0} Real Nat Real
+                (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+                (@Norm.norm.{0} Complex Complex.instNorm
+                  (@DFunLike.coe.{1, 1, 1}
+                    (@RingHom.{0, 0} OAI.EisensteinEmbedding.O Complex
+                      (@Semiring.toNonAssocSemiring.{0} OAI.EisensteinEmbedding.O
+                        (@CommSemiring.toSemiring.{0} OAI.EisensteinEmbedding.O
+                          (@CommRing.toCommSemiring.{0} OAI.EisensteinEmbedding.O
+                            (@NumberField.instCommRingRingOfIntegers.{0} OAI.EisensteinEmbedding.K
+                              (@CyclotomicField.instField.{0}
+                                (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField)))))
+                      (@Semiring.toNonAssocSemiring.{0} Complex Complex.instSemiring))
+                    OAI.EisensteinEmbedding.O (fun (x : OAI.EisensteinEmbedding.O) => Complex)
+                    (@RingHom.instFunLike.{0, 0} OAI.EisensteinEmbedding.O Complex
+                      (@Semiring.toNonAssocSemiring.{0} OAI.EisensteinEmbedding.O
+                        (@CommSemiring.toSemiring.{0} OAI.EisensteinEmbedding.O
+                          (@CommRing.toCommSemiring.{0} OAI.EisensteinEmbedding.O
+                            (@NumberField.instCommRingRingOfIntegers.{0} OAI.EisensteinEmbedding.K
+                              (@CyclotomicField.instField.{0}
+                                (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField)))))
+                      (@Semiring.toNonAssocSemiring.{0} Complex Complex.instSemiring))
+                    OAI.ConcreteTraceCRT.eisEmbedding z))
+                (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+              K))))
+  (hkeep :
+    ∀ (u : OAI.SevenEighths.HeckeInverseAmplification.FreeRow),
+      @Membership.mem.{0, 0} OAI.SevenEighths.HeckeInverseAmplification.FreeRow
+          (Finset.{0} OAI.SevenEighths.HeckeInverseAmplification.FreeRow)
+          (@SetLike.instMembership.{0, 0} (Finset.{0} OAI.SevenEighths.HeckeInverseAmplification.FreeRow)
+            OAI.SevenEighths.HeckeInverseAmplification.FreeRow
+            (@Finset.instSetLike.{0} OAI.SevenEighths.HeckeInverseAmplification.FreeRow))
+          rows u →
+        keep
+          (@Subtype.val.{1} OAI.SevenEighths.HeckeFamily.O
+            (fun (u : OAI.SevenEighths.HeckeFamily.O) =>
+              And
+                (@Ne.{1} OAI.SevenEighths.HeckeFamily.O u
+                  (@OfNat.ofNat.{0} OAI.SevenEighths.HeckeFamily.O (nat_lit 0)
+                    (@Zero.toOfNat0.{0} OAI.SevenEighths.HeckeFamily.O
+                      (@MulZeroClass.toZero.{0} OAI.SevenEighths.HeckeFamily.O
+                        (@instMulZeroClassOfSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                          (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                            (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                              (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                                (@CyclotomicField.instField.{0}
+                                  (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                                  Rat.instField)))))))))
+                (OAI.SevenEighths.HeckeInverseAmplification.SixthFree
+                  (@Ideal.span.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                      (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                        (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                          (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                            Rat Rat.instField))))
+                    (@Singleton.singleton.{0, 0} OAI.SevenEighths.HeckeFamily.O (Set.{0} OAI.SevenEighths.HeckeFamily.O)
+                      (@Set.instSingletonSet.{0} OAI.SevenEighths.HeckeFamily.O) u))))
+            u))
+  (hone :
+    ∀ (u : OAI.SevenEighths.HeckeInverseAmplification.FreeRow),
+      @Membership.mem.{0, 0} OAI.SevenEighths.HeckeInverseAmplification.FreeRow
+          (Finset.{0} OAI.SevenEighths.HeckeInverseAmplification.FreeRow)
+          (@SetLike.instMembership.{0, 0} (Finset.{0} OAI.SevenEighths.HeckeInverseAmplification.FreeRow)
+            OAI.SevenEighths.HeckeInverseAmplification.FreeRow
+            (@Finset.instSetLike.{0} OAI.SevenEighths.HeckeInverseAmplification.FreeRow))
+          rows u →
+        @Eq.{1} Complex
+          (@DFunLike.coe.{1, 1, 1}
+            (@SchwartzMap.{0, 0} Real Complex Real.normedAddCommGroup
+              (@InnerProductSpace.toNormedSpace.{0, 0} Real Real Real.instRCLike
+                (@NormedAddCommGroup.toSeminormedAddCommGroup.{0} Real Real.normedAddCommGroup)
+                (@RCLike.toInnerProductSpaceReal.{0} Real Real.instRCLike))
+              Complex.instNormedAddCommGroup
+              (@InnerProductSpace.toNormedSpace.{0, 0} Real Complex Real.instRCLike
+                (@NormedAddCommGroup.toSeminormedAddCommGroup.{0} Complex Complex.instNormedAddCommGroup)
+                instInnerProductSpaceRealComplex))
+            Real (fun (x : Real) => Complex)
+            (@SchwartzMap.instFunLike.{0, 0} Real Complex Real.normedAddCommGroup
+              (@InnerProductSpace.toNormedSpace.{0, 0} Real Real Real.instRCLike
+                (@NormedAddCommGroup.toSeminormedAddCommGroup.{0} Real Real.normedAddCommGroup)
+                (@RCLike.toInnerProductSpaceReal.{0} Real Real.instRCLike))
+              Complex.instNormedAddCommGroup
+              (@InnerProductSpace.toNormedSpace.{0, 0} Real Complex Real.instRCLike
+                (@NormedAddCommGroup.toSeminormedAddCommGroup.{0} Complex Complex.instNormedAddCommGroup)
+                instInnerProductSpaceRealComplex))
+            Φ
+            (@HDiv.hDiv.{0, 0, 0} Real Real Real
+              (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+              (@HPow.hPow.{0, 0, 0} Real Nat Real
+                (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+                (@Norm.norm.{0} Complex Complex.instNorm
+                  (@DFunLike.coe.{1, 1, 1}
+                    (@RingHom.{0, 0} OAI.EisensteinEmbedding.O Complex
+                      (@Semiring.toNonAssocSemiring.{0} OAI.EisensteinEmbedding.O
+                        (@CommSemiring.toSemiring.{0} OAI.EisensteinEmbedding.O
+                          (@CommRing.toCommSemiring.{0} OAI.EisensteinEmbedding.O
+                            (@NumberField.instCommRingRingOfIntegers.{0} OAI.EisensteinEmbedding.K
+                              (@CyclotomicField.instField.{0}
+                                (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField)))))
+                      (@Semiring.toNonAssocSemiring.{0} Complex Complex.instSemiring))
+                    OAI.EisensteinEmbedding.O (fun (x : OAI.EisensteinEmbedding.O) => Complex)
+                    (@RingHom.instFunLike.{0, 0} OAI.EisensteinEmbedding.O Complex
+                      (@Semiring.toNonAssocSemiring.{0} OAI.EisensteinEmbedding.O
+                        (@CommSemiring.toSemiring.{0} OAI.EisensteinEmbedding.O
+                          (@CommRing.toCommSemiring.{0} OAI.EisensteinEmbedding.O
+                            (@NumberField.instCommRingRingOfIntegers.{0} OAI.EisensteinEmbedding.K
+                              (@CyclotomicField.instField.{0}
+                                (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField)))))
+                      (@Semiring.toNonAssocSemiring.{0} Complex Complex.instSemiring))
+                    OAI.ConcreteTraceCRT.eisEmbedding
+                    (@Subtype.val.{1} OAI.SevenEighths.HeckeFamily.O
+                      (fun (u : OAI.SevenEighths.HeckeFamily.O) =>
+                        And
+                          (@Ne.{1} OAI.SevenEighths.HeckeFamily.O u
+                            (@OfNat.ofNat.{0} OAI.SevenEighths.HeckeFamily.O (nat_lit 0)
+                              (@Zero.toOfNat0.{0} OAI.SevenEighths.HeckeFamily.O
+                                (@MulZeroClass.toZero.{0} OAI.SevenEighths.HeckeFamily.O
+                                  (@instMulZeroClassOfSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                                    (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                                      (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                                        (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                                          (@CyclotomicField.instField.{0}
+                                            (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                                            Rat.instField)))))))))
+                          (OAI.SevenEighths.HeckeInverseAmplification.SixthFree
+                            (@Ideal.span.{0} OAI.SevenEighths.HeckeFamily.O
+                              (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                                (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                                    (@CyclotomicField.instField.{0}
+                                      (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                                      Rat.instField))))
+                              (@Singleton.singleton.{0, 0} OAI.SevenEighths.HeckeFamily.O
+                                (Set.{0} OAI.SevenEighths.HeckeFamily.O)
+                                (@Set.instSingletonSet.{0} OAI.SevenEighths.HeckeFamily.O) u))))
+                      u)))
+                (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+              K))
+          (@OfNat.ofNat.{0} Complex (nat_lit 1) (@One.toOfNat1.{0} Complex Complex.instOne))),
+  @LE.le.{0} Real Real.instLE
+    (@Finset.sum.{0, 0} OAI.SevenEighths.HeckeInverseAmplification.FreeRow Real Real.instAddCommMonoid rows
+      fun (u : OAI.SevenEighths.HeckeInverseAmplification.FreeRow) =>
+      @HPow.hPow.{0, 0, 0} Real Nat Real
+        (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+        (@Norm.norm.{0} Complex Complex.instNorm
+          (@OAI.SevenEighths.CenteredMomentRetainedEnergy.positiveSlotRow.{u_1} ι inst η m A
+            (@Subtype.val.{1} OAI.SevenEighths.HeckeFamily.O
+              (fun (u : OAI.SevenEighths.HeckeFamily.O) =>
+                And
+                  (@Ne.{1} OAI.SevenEighths.HeckeFamily.O u
+                    (@OfNat.ofNat.{0} OAI.SevenEighths.HeckeFamily.O (nat_lit 0)
+                      (@Zero.toOfNat0.{0} OAI.SevenEighths.HeckeFamily.O
+                        (@MulZeroClass.toZero.{0} OAI.SevenEighths.HeckeFamily.O
+                          (@instMulZeroClassOfSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                            (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                              (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                                (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                                  (@CyclotomicField.instField.{0}
+                                    (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                                    Rat.instField)))))))))
+                  (OAI.SevenEighths.HeckeInverseAmplification.SixthFree
+                    (@Ideal.span.{0} OAI.SevenEighths.HeckeFamily.O
+                      (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                        (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                          (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                            (@CyclotomicField.instField.{0}
+                              (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField))))
+                      (@Singleton.singleton.{0, 0} OAI.SevenEighths.HeckeFamily.O
+                        (Set.{0} OAI.SevenEighths.HeckeFamily.O)
+                        (@Set.instSingletonSet.{0} OAI.SevenEighths.HeckeFamily.O) u))))
+              u)
+            W₁ W₂ pool coefficient P t X₁ X₂))
+        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+    (@OAI.SevenEighths.CenteredMomentInductionEnergy.energy.{u_1} ι inst η m A t W₁ W₂ pool coefficient P X₁ X₂ keep Φ
+      K)
+'OAI.SevenEighths.FinitePositiveRowDomination.finite_positiveSlotRow_le_actual_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

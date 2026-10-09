@@ -1,0 +1,20 @@
+--- a/OAI/NumberTheory/DirichletL/Energy/ZeroGrowthPhysical.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/ZeroGrowthPhysical.lean
+@@ -56,7 +56,7 @@
+   let r:=reserve Mschedule Bschedule ε
+   have hA:0≤A:=hMparent.trans (le_max_left _ _)
+   obtain ⟨hsigma,hsigma1,hr,hxiSigma,hxi1,hes,hes1,hem,hmesh,hmeshEta,heta0,heta,hSaving,hSeed⟩:=
+-    parameter_gates Mschedule A Bschedule κ ε hMschedule hA hBschedule hκ hε
++    parameter_gates Mschedule A Bschedule κ ε hMschedule hA hBschedule (by linarith only [hκ] : 0≤κ) hε
+   have hκsmall:(1/6:ℝ)≤κ:=by linarith
+   have ha2:0<a^2:=sq_pos_of_pos ha
+   obtain ⟨U,J,hphysical⟩:=actual_high_physical (α:=α) M H hH
+@@ -71,7 +71,7 @@
+     hA hBmask heta hr hsigma1 hxi1 hr hes1 le_rfl (fun _=>Ψ) (r/4) (a*a)
+     hr (mul_pos ha ha)
+   have hfit:=eventually_actual_four_fit Mschedule A Bmask Bschedule κ ε
+-    hMschedule hA hBmask hBschedule hready hκ hε
++    hMschedule hA hBmask hBschedule hready (by linarith only [hκ] : 0≤κ) hε
+   have hclip:∀ᶠZ:ℝ in atTop,1<Z ∧ Real.logb Z (max 1 b*max 1 b)≤2*(r/4):=by
+     filter_upwards [eventually_gt_atTop (1:ℝ),
+       (Filter.tendsto_atTop.1 (tendsto_rpow_atTop (show 0<2*(r/4) by linarith)))

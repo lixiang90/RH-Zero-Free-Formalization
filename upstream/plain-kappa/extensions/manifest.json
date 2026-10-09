@@ -1,6 +1,6 @@
 {
   "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
-  "status": "frozen_sources_with_partial_independent_replays_full_analytic_supply_pending",
+  "status": "all_frozen_authored_selected_declarations_independently_verified_full_zero_free_assembly_pending",
   "origin": "authored_extension",
   "files": [
     {
@@ -323,6 +323,163 @@
       "independently_replayed_declaration_count": 1,
       "joint_replay_selected_root_count": 49,
       "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.FinitePositiveRowDomination",
+      "path": "OAI/NumberTheory/DirichletL/Moments/FinitePositiveRowDomination.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Moments/FinitePositiveRowDomination.lean",
+      "sha256": "16a3d4ce137a2552b8c569111d450e72a546673f840506758621bc53c2d0c848",
+      "origin": "authored_extension",
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "16a3d4ce137a2552b8c569111d450e72a546673f840506758621bc53c2d0c848",
+      "canonical_lf_sha256": "16a3d4ce137a2552b8c569111d450e72a546673f840506758621bc53c2d0c848",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "scope": "Finite positiveSlotRow sum is bounded by actual detector energy. Summability derived from bounded annular product; retained-row keep and radial Phi=1 cover premises stay explicit. No complete NaturalState or marked moment instance supplied.",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "independent_replay_record": "../verification/finite-positive-row1/strict-replay-result.json",
+      "independent_replay_record_sha256": "207e8ffc9a1f6f8da5b84dd9c394b104566bd551b4247e289eee1df9bb85b9cf",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.FinitePositiveRowDomination.finite_positiveSlotRow_le_actual_energy"
+      ],
+      "independently_replayed_declaration_count": 1,
+      "joint_replay_selected_root_count": 1,
+      "imported_environment_contains_known_unproved_auxiliaries": false
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.FixedRadialRowDomination",
+      "path": "OAI/NumberTheory/DirichletL/Moments/FixedRadialRowDomination.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Moments/FixedRadialRowDomination.lean",
+      "sha256": "62bd2c98bb69d70e6939650bf53a898de1e3891e2b67baf5ac3b2d1fbef89ae2",
+      "origin": "authored_extension",
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "62bd2c98bb69d70e6939650bf53a898de1e3891e2b67baf5ac3b2d1fbef89ae2",
+      "canonical_lf_sha256": "62bd2c98bb69d70e6939650bf53a898de1e3891e2b67baf5ac3b2d1fbef89ae2",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "scope": "One fixed Schwartz radial profile is chosen before all finite rows, characters, slots and K. Ideal norm<=bK and keep conditions remain explicit; no complete Batch or Moments instance supplied.",
+      "independent_replay_record": "../verification/finite-family-radial3/strict-replay-result.json",
+      "independent_replay_record_sha256": "e7f0e7c6a6ab912cad59a3fb2825f8ef57d4c6d69f813b462c0b63bd79930fd2",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.FixedRadialRowDomination.exists_fixed_radial_positiveRow_domination"
+      ],
+      "independently_replayed_declaration_count": 1,
+      "joint_replay_selected_root_count": 3,
+      "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.FiniteFamilyNonexceptional",
+      "path": "OAI/NumberTheory/DirichletL/Moments/FiniteFamilyNonexceptional.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Moments/FiniteFamilyNonexceptional.lean",
+      "sha256": "b2c4cfda56d10ec425eb673aae7d18265e1e793184d951e8514add3dd07a9498",
+      "origin": "authored_extension",
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "b2c4cfda56d10ec425eb673aae7d18265e1e793184d951e8514add3dd07a9498",
+      "canonical_lf_sha256": "b2c4cfda56d10ec425eb673aae7d18265e1e793184d951e8514add3dd07a9498",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "scope": "Generic support valuation proof for simultaneous finite eta/Q eventual large-row nonexceptionality. No SourceData or slot-total premise is introduced; complete character and free-row constraints remain explicit.",
+      "independent_replay_record": "../verification/finite-family-radial3/strict-replay-result.json",
+      "independent_replay_record_sha256": "e7f0e7c6a6ab912cad59a3fb2825f8ef57d4c6d69f813b462c0b63bd79930fd2",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.FiniteFamilyNonexceptional.fixed_inducing_free_norm_le",
+        "OAI.SevenEighths.FiniteFamilyNonexceptional.eventually_finite_family_no_fixed_inducing"
+      ],
+      "independently_replayed_declaration_count": 2,
+      "joint_replay_selected_root_count": 3,
+      "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.FiberRelativeEnergyBridge",
+      "path": "OAI/NumberTheory/DirichletL/Moments/FiberRelativeEnergyBridge.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Moments/FiberRelativeEnergyBridge.lean",
+      "sha256": "07b56b6a50f3898ee13155da18fc485753bce90dba84bbf0699bf3d48609ffba",
+      "origin": "authored_extension",
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "07b56b6a50f3898ee13155da18fc485753bce90dba84bbf0699bf3d48609ffba",
+      "canonical_lf_sha256": "07b56b6a50f3898ee13155da18fc485753bce90dba84bbf0699bf3d48609ffba",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "scope": "Actual primePool relative coefficient identity and fiber plain-to-relative-energy bridge. Only canonical finite helper imported, no duplicate helper; all projection/row/cover premises remain explicit. Complete Batch/Moments supply pending.",
+      "independent_replay_record": "../verification/fiber-state-pair6/strict-replay-result.json",
+      "independent_replay_record_sha256": "13c41fa342b28ea21d1468acb053514a705dcb262fa6629dc6d5da75f7956f71",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.FiberRelativeEnergyBridge.relative_coefficient_on_actual_primePool",
+        "OAI.SevenEighths.FiberRelativeEnergyBridge.actual_fiber_plain_le_relative_energy"
+      ],
+      "independently_replayed_declaration_count": 2,
+      "joint_replay_selected_root_count": 6,
+      "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Hecke.FiniteSupportedWitnessRetraction",
+      "path": "OAI/NumberTheory/DirichletL/Hecke/FiniteSupportedWitnessRetraction.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Hecke/FiniteSupportedWitnessRetraction.lean",
+      "sha256": "3a509c28a4000af83087fbb1bde4a00437b7cb295c56e8b89e64eb1772db30c2",
+      "origin": "authored_extension",
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "3a509c28a4000af83087fbb1bde4a00437b7cb295c56e8b89e64eb1772db30c2",
+      "canonical_lf_sha256": "3a509c28a4000af83087fbb1bde4a00437b7cb295c56e8b89e64eb1772db30c2",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "scope": "Actual finite witness retraction: a nonempty finite row set and existing finite supported witness produce a genuine chosen row, identity and global supported witness with complete HEq on that row set. No global nonprincipal or zeroMaximum premise is introduced.",
+      "independent_replay_record": "../verification/fiber-state-pair6/strict-replay-result.json",
+      "independent_replay_record_sha256": "13c41fa342b28ea21d1468acb053514a705dcb262fa6629dc6d5da75f7956f71",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.FiniteSupportedWitnessRetraction.finite_supported_witness_retraction"
+      ],
+      "independently_replayed_declaration_count": 1,
+      "joint_replay_selected_root_count": 6,
+      "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.FiniteRowNaturalState",
+      "path": "OAI/NumberTheory/DirichletL/Moments/FiniteRowNaturalState.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Moments/FiniteRowNaturalState.lean",
+      "sha256": "f2c1ec843235fc5d2524afa005abfc14c80cce6b82f11383481bd8cbbb93a2ef",
+      "origin": "authored_extension",
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "f2c1ec843235fc5d2524afa005abfc14c80cce6b82f11383481bd8cbbb93a2ef",
+      "canonical_lf_sha256": "f2c1ec843235fc5d2524afa005abfc14c80cce6b82f11383481bd8cbbb93a2ef",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "scope": "A radial profile is chosen before the eventual Z threshold uniformly for finite eta/Q. For every d>=0 and finite row set with the stated lower/upper norm bounds, constructs genuine NaturalState Z 0 2 with puncture1, width d+rho, exact keep and Phi=1 on rows. All Q and positivity hypotheses remain explicit; no old slot total or beta premise. Complete Batch/Moments supply remains pending.",
+      "independent_replay_record": "../verification/fiber-state-pair6/strict-replay-result.json",
+      "independent_replay_record_sha256": "13c41fa342b28ea21d1468acb053514a705dcb262fa6629dc6d5da75f7956f71",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.FiniteRowNaturalState.eventually_finite_row_natural_state"
+      ],
+      "independently_replayed_declaration_count": 1,
+      "joint_replay_selected_root_count": 6,
+      "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.DetectorPairControl",
+      "path": "OAI/NumberTheory/DirichletL/Moments/DetectorPairControl.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Moments/DetectorPairControl.lean",
+      "sha256": "e0d8ae544067df2e35384477bb56cbd1b60b29b54afb21e93fbc4c240368863c",
+      "origin": "authored_extension",
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "e0d8ae544067df2e35384477bb56cbd1b60b29b54afb21e93fbc4c240368863c",
+      "canonical_lf_sha256": "e0d8ae544067df2e35384477bb56cbd1b60b29b54afb21e93fbc4c240368863c",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "scope": "Actual detector pair Profiles and uniform squared control. Uniform J and C are chosen before reverse/j/k<=2/sigma/t with the correct C^4 and growth exponent4J; all character/profile premises explicit. No detector lower bound or full moment supplied.",
+      "independent_replay_record": "../verification/fiber-state-pair6/strict-replay-result.json",
+      "independent_replay_record_sha256": "13c41fa342b28ea21d1468acb053514a705dcb262fa6629dc6d5da75f7956f71",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.DetectorPairControl.detectorPairProfiles",
+        "OAI.SevenEighths.DetectorPairControl.detectorPairProfiles_squared_control_uniform"
+      ],
+      "independently_replayed_declaration_count": 2,
+      "joint_replay_selected_root_count": 6,
+      "imported_environment_contains_known_unproved_auxiliaries": true
     }
   ],
   "targets": [
@@ -337,7 +494,14 @@
     "OAI.NumberTheory.DirichletL.PrimeRows.CubeNormalizerLowKappa",
     "OAI.NumberTheory.DirichletL.PrincipalSlotEstimateLowKappa",
     "OAI.NumberTheory.DirichletL.PrincipalSignalComparisonLowKappa",
-    "OAI.NumberTheory.DirichletL.Moments.RayIdentityClassCoefficient"
+    "OAI.NumberTheory.DirichletL.Moments.RayIdentityClassCoefficient",
+    "OAI.NumberTheory.DirichletL.Moments.FinitePositiveRowDomination",
+    "OAI.NumberTheory.DirichletL.Moments.FixedRadialRowDomination",
+    "OAI.NumberTheory.DirichletL.Moments.FiniteFamilyNonexceptional",
+    "OAI.NumberTheory.DirichletL.Moments.FiberRelativeEnergyBridge",
+    "OAI.NumberTheory.DirichletL.Hecke.FiniteSupportedWitnessRetraction",
+    "OAI.NumberTheory.DirichletL.Moments.FiniteRowNaturalState",
+    "OAI.NumberTheory.DirichletL.Moments.DetectorPairControl"
   ],
   "declarations": [
     "OAI.SevenEighths.ProbeEuler.unramifiedClosed_open_region_bound_lowKappa",
@@ -407,7 +571,17 @@
     "OAI.SevenEighths.PrincipalSignalComparison.principalSlot_differentiableAt_lowKappa",
     "OAI.SevenEighths.PrincipalSignalComparison.slotRatio_continuous_line_lowKappa",
     "OAI.SevenEighths.PrincipalSignalComparison.slotRatio_analytic_lowKappa",
-    "OAI.SevenEighths.RayQuotient.idealCharacter_eq_one_of_identityClass"
+    "OAI.SevenEighths.RayQuotient.idealCharacter_eq_one_of_identityClass",
+    "OAI.SevenEighths.FinitePositiveRowDomination.finite_positiveSlotRow_le_actual_energy",
+    "OAI.SevenEighths.FixedRadialRowDomination.exists_fixed_radial_positiveRow_domination",
+    "OAI.SevenEighths.FiniteFamilyNonexceptional.fixed_inducing_free_norm_le",
+    "OAI.SevenEighths.FiniteFamilyNonexceptional.eventually_finite_family_no_fixed_inducing",
+    "OAI.SevenEighths.FiberRelativeEnergyBridge.relative_coefficient_on_actual_primePool",
+    "OAI.SevenEighths.FiberRelativeEnergyBridge.actual_fiber_plain_le_relative_energy",
+    "OAI.SevenEighths.FiniteSupportedWitnessRetraction.finite_supported_witness_retraction",
+    "OAI.SevenEighths.FiniteRowNaturalState.eventually_finite_row_natural_state",
+    "OAI.SevenEighths.DetectorPairControl.detectorPairProfiles",
+    "OAI.SevenEighths.DetectorPairControl.detectorPairProfiles_squared_control_uniform"
   ],
   "note": "Authored sources retain per-file verification states and exact source hashes. Complete actual-module replay evidence applies only to listed selected declarations; standalone prototypes are distinct. Full analytic moment and zero-free supplies remain pending. Selected roots permit only three standard axioms; exact imported original PNTA holes, if present, are explicitly recorded and absent from selected kernel exports."
 }

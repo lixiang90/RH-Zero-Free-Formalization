@@ -1,0 +1,400 @@
+{
+  "status": "partially_verified_selected_geometry_full_analytic_moment_pending",
+  "upstream_repo": "https://github.com/openai/math",
+  "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "lean_toolchain": "leanprover/lean4:v4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "line_endings": "Canonical public Git blobs and patches are LF",
+  "changed_module_count": 41,
+  "patches": [
+    {
+      "file": "reviewed-pending.patch",
+      "sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0"
+    }
+  ],
+  "files": [
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/CappedAnalyticSuccessor.lean",
+      "baseline_sha256": "d31d07bfa0645d729342c381158bceb84c48f37117f36ee2b47417cab3f62184",
+      "modified_sha256": "9e6325c239a84e79366fb5e8c073f4acd5abc759988d09edc190f8ec48123562",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "0c1ed7a89d6f7991ab43c2b462e54e268760338d914f12093dc4ffb2890ab40c"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/CappedLowStage.lean",
+      "baseline_sha256": "1a24267eff796151262544c4958bc243d290a782b2af0363c5d22b017e58011b",
+      "modified_sha256": "64d3741b2431a02ae010dc3cd8315d8b32a173aeb800d99192f5a0cf9c5feedf",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "c5d7fe64cec145d6408f5118ce053d1101fde1d622cf429a99ed1ae3b96388ae"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/CertifiedExistence.lean",
+      "baseline_sha256": "2d48b75fdd14ba8eabb428f79f98e0a6e532c28083075bacf16e1d57f020d7a9",
+      "modified_sha256": "06ff1fed7defc2f2eb790ce226d968d258841a2e30c55ec840bf43f5422f64f5",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "c5c77b227bcb4cacefe9d03dc770654f83773c56279f038ef89f423e8154a1c3"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/DeletedRobustGeometry.lean",
+      "baseline_sha256": "2037b3c8eb49c9fdc5c8a4d805efd7ce64237ae6ca70ac4d50e1ef9dd265636d",
+      "modified_sha256": "2afc17c92a406977eeea0a29bac5a514c57f8259edfe52051a3c9aad25fd68df",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "c3f016111adc371b3474d9a10acd2b04b792c0ba56635c62e2f14fc36b331895"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/FirstSourceParameters.lean",
+      "baseline_sha256": "6e61abb66638c297a7df789be01a3d8986824c886256351ea98d0e69b12d96b6",
+      "modified_sha256": "64b593158305d1d696b16a72142f04a13f086fb69e1d4477e901d237dc5c7c7c",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "0442ef56e04a5df5202eaed42a78addc05960536aa56699458a3985c4b167ba5"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/LiveClippingDefect.lean",
+      "baseline_sha256": "2976bdb1d6a1497f4e3f72a09cb53792dde3bcf5e96c79b8ed72263978e8a5da",
+      "modified_sha256": "81c08e8af927952302f6e70aeeb965d426122a000940080cc632f287ec43eaa5",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "88fd3f380e79e0deb7c00e26bc9bc7b8e9310e02d9bec31b428ac7821862452a"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/NaturalHighStage.lean",
+      "baseline_sha256": "b166e54e362b6d22b507e488ed174781551b98ef13083e490090b3e87fe70732",
+      "modified_sha256": "74391b3fc90cf69d831718dc7a42ac0db6e9228a6d9e1cefa08df64805cebb43",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "d984a8aa84a8f65e20c40909793af2384d6bcb3bfa7113ad7ce5afc305922964"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/NaturalLowPhysical.lean",
+      "baseline_sha256": "cb1ea4e3b4b00293b23463f4c70e168abcecb1729d170e8a4a4e83621ee3bf4c",
+      "modified_sha256": "f6cf09954614490fa476fcba4a2dafb7114d83d8fce9b4979d57e588645c84a5",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "88c99d84f11be655ff188710fca2feaaed0f6adf48a33244ab1fc228b206f31a"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/NaturalLowStage.lean",
+      "baseline_sha256": "8d8bbf9d53c4c5e932cd7f137b871ace60f8f94dbe35dc7e4c98d3f258d406ab",
+      "modified_sha256": "33b36568352e658648ea31de36a37c8eee7898f5553303d89c32ceeba0a871f3",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "82c02e8a697d977ca1b19a59f150e583dcf4e7e6ed9757bd419abae37c97ce2a"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/NaturalZeroStage.lean",
+      "baseline_sha256": "f32ebf15c8e9faa8133cde1cdc7b7d849584cbe0847ee7127ef57a3fda1736c2",
+      "modified_sha256": "24d2f5711722b4587906bbfdb81038d546b3037c98ea4904a335136446b2e6b8",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "787741868251ee4fce3d59efe50da19e823aac9fbf8db38b00caef516d6a3c70"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionBounded.lean",
+      "baseline_sha256": "e8667278d9355dae0f7f372d86bfd478f04ac0f6d2aca0ab3c27dfd72744f75e",
+      "modified_sha256": "60f8c8034d357d92ddcc39b005af1be190bbe3bcade9b11672ec86745d42b973",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "b5f5c4d3049b2ac7d9d5b955fe48805d43650817d811e2d7a9e3a023c6fdfa68"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionDeleted.lean",
+      "baseline_sha256": "18b5206ff1a4ad49e0618cbec9654f83e598561d5c3830c266f065f030e92430",
+      "modified_sha256": "741546c0e3224d8430157d79716a9db64db1dd32511e0c53057f867bb1a2b338",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "a1b0c24fd825558e0ba809429a74ee80c28a6fbbc46b2aa1b97ccf0985942314"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionGeometry.lean",
+      "baseline_sha256": "79dc83d60f7356ffe6ec7a8f948279cb865d504f3bc81062fb4fcb0e0e0ea9b8",
+      "modified_sha256": "91ebaf8b53635908f1f5554376dc7938fb5922e02400376970846137605c9e17",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "6c5adf451b313eee848f0f9a3d6347a275f692dd4972938c5afa70068375b46b"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionOriginal.lean",
+      "baseline_sha256": "e1db9eb81af6631eca0ac3546f58a29cbe876fff64e06a70b68ea7164147778c",
+      "modified_sha256": "d7dc6dfd2434c4f68a9654210518c0deee702bbcfcb27effda9ac738a7b0e64b",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "920c816bf59a482e6168d793e9bcc34529ce7cbb5dbaa6c454b7ae57c6378906"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionPower.lean",
+      "baseline_sha256": "205516f6343f3e600ac9734a52547915804a43b3355d3f27c1d78066af85b68c",
+      "modified_sha256": "431f2ac7d1ac386ff43a35a2443e8723e27f84fcdf283dc0107847a3f6f2027f",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "63f62923da8ab0873db6539e50850568b22bdcb91e6d64fa37bf715511e5ee76"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionSymmetric.lean",
+      "baseline_sha256": "119005d30ab4de4c2dd2cac2cba4662c7606ed27ac28ae3aad3ff73cddbcce69",
+      "modified_sha256": "2445ceaa25f725d5b4b254f01580083301a90883b49259efc098df9e4d1d8393",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "c9d6bdea9f7864cc325cc1dc9de4bb5add26d2db9decf6f57014270d39f832cd"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionSymmetricBounded.lean",
+      "baseline_sha256": "7007d81a940fd698e9405a203c4b855aa25de4ad2d4c4281758d8257ecdc6f93",
+      "modified_sha256": "0aca2b84676db515b11068ff1e59760f8f45d4d0f33c615a8d99155d9f21bb25",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "a461ec78ec18822c4c826b3e0bba67494b086197a49160f8f86e990691d02058"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/PositiveBalancedAdmission.lean",
+      "baseline_sha256": "b970e995a4a232f42316d372f8f21f00b91d48509c04ee236da8e0d9fb5dd2e4",
+      "modified_sha256": "f52a9723a44c42b9bddf000578a7a0eaf32e9cfdac45c5f167386cb288f3bd04",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "52b6471621a67f55b07d02839eb128729f4a70019d40994f95bdf380c056e748"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/PositiveHighAssembly.lean",
+      "baseline_sha256": "cabaa148a5c065cde2d3c792d8178bea5b027ca7a4f56aa092d57418fc129299",
+      "modified_sha256": "85c69f2aa24f74307b1d50e1ca6ddaf66cf3241f0f04ff1c37c7db3efd505d41",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "e3943a70c8e27650d11b24a2c4754cbb575c0c311420754c40b11e4f80ec8760"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/PositiveHighAssemblyBounded.lean",
+      "baseline_sha256": "22da20ccb0e424e40f15bb58d17aaa7afb867e0e5bfe6d7705a4ea181216690a",
+      "modified_sha256": "b2b76a0853876c60621c99aad288b207f27124d0747544da6e014a3c36dd97a9",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "fb8a43a0d7ec15059f78927e4da6b14a28c37723ea0011b716aa09792b2e605e"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/PositiveHighBound.lean",
+      "baseline_sha256": "31f5f142cec0bc0cc6b5d008f5abdefbb2eddc3574dcc86fae407290a3eaddac",
+      "modified_sha256": "0830e4b999b4d84537e41d74c8c09aa362b14c08babec14437c49c23c9dc94e9",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "55eb4eac53a6defc109e7655fa4eac67cbd7d5cc45e78c854433917e4d6b31be"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/PositiveHighParameters.lean",
+      "baseline_sha256": "e3e0f7f1e4f0d3bd963d6962f70f9026ba26d274767896c711ce4574b483ad62",
+      "modified_sha256": "e4d0c00f8ee1107cac859bbe373ed7469cd41f06e7c980b68f81261676a951b9",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "4a2ee319c4d2fbb87372bd783f4aeacb82a66d7bfafee3a3fd61128e0108d601"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/PositiveHighPhysical.lean",
+      "baseline_sha256": "880a4b1cee7bb9a0c2dbb0b8dc50fa52ba3579e0d2fd5a4c8aca37bf4a31e32d",
+      "modified_sha256": "32165c28273093bbdf55edb98e2dd82946727ac65665e53de3fc8e1516785c3a",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "7bbe912492d5d63be8d3b7a7ccab4846e63b03e14d427f59a92b14384fdb048a"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/PositiveHighSource.lean",
+      "baseline_sha256": "370cd3a1dc2e3c4647c4e9d5c8d7df570f19e2e7b30e416296fecf64cc67bb36",
+      "modified_sha256": "e7434c627192f3eb2c9fdadffe32327e15d0c082577c6867e69621d70518e270",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "6ba8a3ef52aec5d3953e7000104700212fc62823e3f35a95a40ba7b44aedfe42"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/PositiveHighSourceBound.lean",
+      "baseline_sha256": "a912d66ac9d30b1d62b6993d6f060aa628c157f5c985e017cdc39b4866292055",
+      "modified_sha256": "a37fe5e77288342404aa0f11d013d4bfe2a46128e9aed6142dd57e2b7dd61289",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "cefee519439e594d3c6f04c6d643432a5df077f0fc25c5d04d8a623eb5c9f008"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/PositiveHighSourceBounded.lean",
+      "baseline_sha256": "394f0f27cf2d1604a89cdb3b167836746ef65187961d81a9bc015a2004ce0e8d",
+      "modified_sha256": "ad0b9cefbf351e818b7f880df92a08eefc679b169f2d4a6d5b8b305f588d22ab",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "d2a76eb19793363e637db00ac1d7e3dfbddef28450cecda2feadff1d32aa7ec9"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/ReferenceDeletionCapacity.lean",
+      "baseline_sha256": "b0ac576cd361867835a09a6603e62ef3067811d8ca81553a2de1e7611c890ec2",
+      "modified_sha256": "32e8f44546d2b97577de5bed3514c1dbc51a22ea48d71a26292d9532840a2a21",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "e0c13a6e6a817e6aa7950a3f4155388767b7ea7d769b4713863dfd318bbbb89c"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/ReferenceDeletionClipped.lean",
+      "baseline_sha256": "944057f947e92e20aaf28efddc62751e66386b88f76f3871293a462c6c9a2cd7",
+      "modified_sha256": "c545d5daceace47c7d706e8f0bcc3fef1c76a07c6ed497aa168d52a61c3cf5f7",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "f92b074b7681631c262c1241379ae6f25cbeabc29a908016e61a3a983a6276bf"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/ReferenceDivisors.lean",
+      "baseline_sha256": "2dc5c493fd69cacb1014012b3602c8753c260c3e748cf8b35efd68a3066f5042",
+      "modified_sha256": "1913b4cfb138ed268048632eb01db5e75b52ab150096dbe20e19058180ae2ea7",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "0998832d82e5caaf921fd35c29e7b5e20589875f97bf98c42dd6efe18fa4f8d7"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/ReferenceLiveBounded.lean",
+      "baseline_sha256": "586dfed838534c762c773fc4b5c2f17a8ca69c8f9a72a5e0dd23794d674eec55",
+      "modified_sha256": "f43adf203e0f95c95022a81f67dbf080673f87d65e7fe294e5cd0f8662dac6e9",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "c118d23d7e7f355299158cbb4af07a483784087645653951f6c5c8e17c22cf17"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/ReferenceLivePower.lean",
+      "baseline_sha256": "22bc9abd7a8eb9e14a61c98b9f39961d3e18d797d2b0fa6e35cd53a9859e8741",
+      "modified_sha256": "ce145cc4ddb3cac605d373b5eecf851f4da2b65b317566ca2f355e5736c93b06",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "501d53a41edfb893f14096c3dc5268059b43ae355ee54213422ef7c7f473e13a"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/ReferenceLowBranchGeometry.lean",
+      "baseline_sha256": "7e7e98943b00fb8afa21de7ca753750182152f6cbf680db71fdd9278c401a3f7",
+      "modified_sha256": "d9953beedac55ee421289c13c8cba175ae62127d49c4d68e7a965b8c7096a961",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "3a0189a9f510164ad643e2adf516f6d808a6a5d752ebac00680e7272498d32da"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/ReferenceLowDeletedGeometry.lean",
+      "baseline_sha256": "69eff4f2586186cf2f1580a4fccae2baf6de971c2a6f6d9c1bf1d618b2d3f142",
+      "modified_sha256": "85f75dbfd51713b23ff5f3517d1c53d87a58031e4f9b22f0d1dcf651e79acc01",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "eeec605de9a30b05d667c5e45248f78d7e390b8d4b93021f9b07da0f0e54568f"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/ReferenceLowWindow.lean",
+      "baseline_sha256": "a56c2be64bdae04dd6483e846bb8cf1ed0dea028b8a6424b8c4ec4a7ccdb7dba",
+      "modified_sha256": "2d0b766a23830c25b59430c75e2129043497e4fc6193cdc36ce9d739da32e8ff",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "0451a48324276c8700b73f4a8fea24f8b2be5bc6c78e65e7e385834692321d1c"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/ReferenceRobustBounded.lean",
+      "baseline_sha256": "06796591611908e4d485b5ac6bc20b2fc616670dddb12e7a760f9f492afa38ec",
+      "modified_sha256": "8ee22034fd425fd69d5c744320f39d92f65f2ec9a8e2f93a1a2a20c474b6335e",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "6d0b4042c7fe95334fe786899cd0bb2022a21593e3dbea9951b5ff6b0ead48b4"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/ReferenceRobustDeletedEnergy.lean",
+      "baseline_sha256": "b5e385d3e4e294539bf46139cbc8d4e94ffe9711d0e2517ff1d0c1111d449aa4",
+      "modified_sha256": "2f0159864a2360f9d586a06dbf6e7edeeae05168914c389446b1373f621eedeb",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "872ee630b9fb225db307ff67e22835c937129491bca5ae9677c48af82985fdc8"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/ReferenceRobustOriginal.lean",
+      "baseline_sha256": "88a8fce7fa21f4516b649cd44b075a37ce12d8d8eb2e221296147d742b9345f5",
+      "modified_sha256": "16a6c806eae0ca4d21cc579e890b55a159ba84ee25c567ecddea513e0fec98c5",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "c9de790c248a20d148834253eb8b031d4c576073bfd2c8f4a0d4ae8acb05f362"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/ReferenceRobustPower.lean",
+      "baseline_sha256": "dfab782560e99e50261982732ef0bfa91a66da08fbd50536192b20a89ea9088c",
+      "modified_sha256": "0d135c405eef49d157e33220ea213648800b3d0900b186d796de24884c90f07a",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "e139e3373b0a03e1a8ce3d9529ba3c0d3b0e9619dab274d882b71d765ea7fae9"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/ReferenceState.lean",
+      "baseline_sha256": "7822d5282ad029c61edf88653e157d2c03f85c37bd7a9967cf680e3e3500a2bd",
+      "modified_sha256": "ca46faf69d27f3bfa489dbcfe686457967009c7fbcde943b7667050be3c25dbd",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "ca38be4c7e829e2a358edd92b49e4767877e933e3f80efebbc3cb4ee1998bd5c",
+      "selected_declarations_status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "independent_replay_record": "verification/reference-state9/strict-replay-result.json",
+      "independent_replay_record_sha256": "f80a819755952ddf78d0b3eb4059f30dfa0fff3ed8d5e08b6b60f02610b46b70",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.CenteredMomentEnergyReferenceState.radialEnergy_effective",
+        "OAI.SevenEighths.CenteredMomentEnergyReferenceState.effective_row_norm",
+        "OAI.SevenEighths.CenteredMomentEnergyReferenceState.effective_character_nonprincipal",
+        "OAI.SevenEighths.CenteredMomentEnergyReferenceState.effective_character_cap",
+        "OAI.SevenEighths.CenteredMomentEnergyReferenceState.comparison_positive",
+        "OAI.SevenEighths.CenteredMomentEnergyReferenceState.comparison_same_product",
+        "OAI.SevenEighths.CenteredMomentEnergyReferenceState.comparison_second_power",
+        "OAI.SevenEighths.CenteredMomentEnergyReferenceState.balanced_reference_geometry",
+        "OAI.SevenEighths.CenteredMomentEnergyReferenceState.balanced_reflection_margins"
+      ],
+      "independently_replayed_declaration_count": 9
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Energy/ZeroGrowthPhysical.lean",
+      "baseline_sha256": "5cecb6430db18c1cccab84f81d4f81b9fbc988c9261c2fa8b71e44ee8d5706c6",
+      "modified_sha256": "d2b6b011929dc5c09954de46f399160650438d62d8b66e2674ae302229369545",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "7acd0dd5bcfd0e2e6c6fee7edffdb4cdf59f334d0bf23d58d2edce79fe951613"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Moments/ReflectionRetainedLength.lean",
+      "baseline_sha256": "0a4d0ca94d0ae90e562034756662ed3af3b4236e2d863a51b8fbdb321018e980",
+      "modified_sha256": "aedf316b9ac4a017bf81bf30cd5a0fa5e250fb14ba32d9ecdf610d69c0a8804f",
+      "patch_file": "reviewed-pending.patch",
+      "patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+      "diff_sha256": "eeb8d94a33c954d59a79d7bb1b6c1a99be3289e561891089aaec75142f1617f6",
+      "selected_declarations_status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "independent_replay_record": "verification/reflection4/strict-replay-result.json",
+      "independent_replay_record_sha256": "4991d014123421f4a20b7d4f4fa7b5d277365d59c5e7ca090b8a317c7c2fe74c",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.CenteredMomentReflectionRetainedLength.retained_scale_lower",
+        "OAI.SevenEighths.CenteredMomentReflectionRetainedLength.eventually_actual_retained_length",
+        "OAI.SevenEighths.CenteredMomentReflectionRetainedLength.one_reflection_total_width",
+        "OAI.SevenEighths.CenteredMomentReflectionRetainedLength.positive_slot_width_drop"
+      ],
+      "independently_replayed_declaration_count": 4
+    }
+  ],
+  "targets": [
+    "OAI.NumberTheory.DirichletL.Moments.ReflectionRetainedLength",
+    "OAI.NumberTheory.DirichletL.Energy.CertifiedExistence"
+  ],
+  "declarations": [
+    "OAI.SevenEighths.CenteredMomentReflectionRetainedLength.retained_scale_lower",
+    "OAI.SevenEighths.CenteredMomentReflectionRetainedLength.eventually_actual_retained_length",
+    "OAI.SevenEighths.CenteredMomentReflectionRetainedLength.one_reflection_total_width",
+    "OAI.SevenEighths.CenteredMomentReflectionRetainedLength.positive_slot_width_drop",
+    "OAI.SevenEighths.CenteredMomentEnergyCertifiedExistence.certified_bands",
+    "OAI.SevenEighths.CenteredMomentEnergyCertifiedExistence.terminal_certificate"
+  ],
+  "complete_analytic_moment_verified": false,
+  "independent_kernel_replay_completed": false,
+  "current_proof_repair_epoch": {
+    "status": "source_frozen_actual_graph_recompile_in_progress",
+    "current_aggregate_patch_sha256": "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0",
+    "historical_original_aggregate_sha256": "d18941bdb3a32f42032c5e82c6518baa5dc03968ff8af652ca30d62d6467566e",
+    "historical_first_proof_overlay_sha256": "ef1c3c5b1ed60929b3c60c5f12de4f137c2756f1255bff4a8bf08fb05615a30e",
+    "proof_body_only_repaired_modules": [
+      "OAI.NumberTheory.DirichletL.Energy.PositiveHighPhysical",
+      "OAI.NumberTheory.DirichletL.Energy.PositiveHighSource",
+      "OAI.NumberTheory.DirichletL.Energy.PositiveHighSourceBounded"
+    ],
+    "declaration_headers_definitions_hypotheses_unchanged_by_api_repairs": true,
+    "original_changed_module_count": 41,
+    "failure_history_preserved": true,
+    "history_directory": "history/original41-d189",
+    "repair_evidence_directory": "proof-repairs"
+  }
+}

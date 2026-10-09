@@ -1,0 +1,33 @@
+{
+  "source_tool_sha256": "8140aa48ac70e197d8d8c93ffc49df9e3dac49a20b347bc8657b182783fc5851",
+  "frozen_input_manifest_sha256": "8abaa099b6d9ae8d1497374f65662344f3293cf97f15d906edffb9fa78a95ab3",
+  "current_manifest_sha256": "8abaa099b6d9ae8d1497374f65662344f3293cf97f15d906edffb9fa78a95ab3",
+  "all_current_source_payloads_match_fresh_fixture": true,
+  "source_preparation_source_count": 2225,
+  "source_preparation_origins": {
+    "upstream_git_blob": 2212,
+    "authored_extension": 13
+  },
+  "declared_authored_root_count": 69,
+  "exact_raw_source_artifacts_reconstructed": [
+    {
+      "module": "LowKappaParameters",
+      "artifact": "extensions/raw-sources/LowKappaParameters.json",
+      "artifact_sha256": "57d66f918f00d55365bcf3c04c0858fb1d95f7d0a80002e8ac04ade6d66808b4",
+      "raw_actual_source_sha256": "2ed71385b979e7244f0edf22aec41a7c7df0b07e32a073cf3fb9bf42c183edca",
+      "canonical_lf_sha256": "43bbe21a12526efafc15d35372252f59a2dcc4d5205589ea3165a11da9ee26af",
+      "raw_source_reconstruction_checked": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.ParametersSlotLengthsLowKappa",
+      "artifact": "extensions/raw-sources/OAI.NumberTheory.DirichletL.ParametersSlotLengthsLowKappa.json",
+      "artifact_sha256": "ae20aff057eead060e3a04844d753359605c369fd6892fa2265456f8b909286e",
+      "raw_actual_source_sha256": "1ce189d49e7e808da2089f27da7a9df079004dc6d5b14e7228dd677aa4a9245f",
+      "canonical_lf_sha256": "44075d6b503b9b7e03af86b11dd591141b539c64a9893be38228ddc1f410907c",
+      "raw_source_reconstruction_checked": true
+    }
+  ],
+  "fresh_source_prepare_exit_code": 0,
+  "fresh_external_apply_exit_code": 0,
+  "checks_passed": true
+}

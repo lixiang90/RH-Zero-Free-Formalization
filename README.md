@@ -17,8 +17,9 @@ $$
 
 **Proof status:** the exact boundary, continuous algebraic certificate,
 parameter feedback, ordered height closure and the concrete zeta inverse
-Mellin signal are formalized. The separate arithmetic development now checks slot construction, moving
-parameters and local Euler corrections. The complete physical probe and its
+Mellin signal are formalized. The separate arithmetic development now checks the complete low-kappa energy
+induction, terminal certificate, finite-row energy bridges, slot construction,
+moving parameters and local Euler corrections. The complete physical probe and its
 low/raw-high estimates remain open. The sharpest zeta theorem
 has an explicit `ZetaInverse.ArithmeticProbeObligation` hypothesis;
 an unconditional Lean proof of the improved zero-free region is still pending.
@@ -44,7 +45,7 @@ line is excluded. The new code preserves those distinctions.
 | [ZetaConcrete](ZeroFree/ZetaConcrete.lean) | Prove boundedness of actual zeta zero real parts and entire pole removal with the proved residue at one. |
 | [ZetaInverse](ZeroFree/ZetaInverse.lean) | Construct the actual Gaussian inverse Mellin signal; prove the reciprocal bound, local integrability and arbitrary power decay at zero. |
 | [ZetaSignal](ZeroFree/ZetaSignal.lean) | Derive the Mellin product identity and reduce the zeta theorem to arithmetic correction/probe estimates. |
-| [PlainComparison](ZeroFree/PlainComparison.lean) | Check repaired scalar reflected/clipping budgets at kappa >= 37/50; actual moment induction remains pending. |
+| [PlainComparison](ZeroFree/PlainComparison.lean) | Check repaired scalar reflected/clipping budgets at kappa >= 37/50; the separate arithmetic capsule also checks the actual terminal induction. |
 | [SourceScaling](ZeroFree/SourceScaling.lean) | Normalize the actual complex powers at variable slot length and scale imbalance; match the paper exponent and the constructed zeta amplitude while preserving the intrinsic Mellin pole 1/6. |
 | [Main](ZeroFree/Main.lean) | Connection of the cubic certificate to the rational count, buffer admission, and the explicitly conditional best-boundary zeta theorem. |
 
@@ -105,10 +106,14 @@ is compiled separately with its original toolchain; its current proof status
 and repaired margins are described in [plain-kappa-extension.md](docs/plain-kappa-extension.md).
 The [arithmetic capsule](upstream/plain-kappa/README.md) separately records
 actual Lean 4.34.1 compilation, fresh complete types/axioms and independent
-replays for all **68 selected roots in 12 authored modules**: slot construction,
+replays for all **78 selected roots in 19 authored modules**: slot construction,
 moving parameters, Euler correction, principal comparison/normalization,
-Gram-factor scales, the ray-prime normalizer and the conditional Dirichlet/zeta
-transfer. The complete marked-moment and physical-probe proof remains open.
+Gram-factor scales, the ray-prime normalizer, conditional Dirichlet/zeta
+transfer and actual finite-row energy interfaces. A separate four-root replay
+checks the complete patched low-kappa induction and its terminal output.
+The complete marked-moment and physical-probe proof remains open.
+The [finite-row integration note](docs/finite-row-energy-integration.zh.md)
+explains the constructed NaturalState, exact fiber dictionary and height budget.
 The imported PNTA source contains two original placeholders; neither occurs
 in the selected exports. This separate scope is not added to the primary
 224-theorem count.

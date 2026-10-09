@@ -1,0 +1,4 @@
+import OAI.NumberTheory.DirichletL.Energy.PositiveHighPhysical
+set_option pp.all true
+#check @OAI.SevenEighths.CenteredMomentEnergyPositiveHighPhysical.actual_positive_high_physical
+#print axioms OAI.SevenEighths.CenteredMomentEnergyPositiveHighPhysical.actual_positive_high_physical

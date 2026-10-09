@@ -1,0 +1,30 @@
+{
+  "captured_at_utc": "2026-10-09T07:46:53.618810+00:00",
+  "captured_full_failed_state_sha256": "e082e78de968a0a43dd32564babbf9304dafcbb4bfa4eccfa8c3cb36471f2446",
+  "historic_41_patch_sha256": "d18941bdb3a32f42032c5e82c6518baa5dc03968ff8af652ca30d62d6467566e",
+  "prior_proof_only_overlay_patch_sha256": "ef1c3c5b1ed60929b3c60c5f12de4f137c2756f1255bff4a8bf08fb05615a30e",
+  "modules": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Energy.PositiveHighSourceBounded",
+      "before_raw_sha256": "1e4bb0f4aab63c86da76b7a2618266d22c54cda9e1cb083097ffd20a59ca25f8",
+      "after_raw_sha256": "ad0b9cefbf351e818b7f880df92a08eefc679b169f2d4a6d5b8b305f588d22ab",
+      "after_lf_sha256": "ad0b9cefbf351e818b7f880df92a08eefc679b169f2d4a6d5b8b305f588d22ab",
+      "baseline_gitblob_path": "lean/OAI/NumberTheory/DirichletL/Energy/PositiveHighSourceBounded.lean",
+      "baseline_lf_sha256": "394f0f27cf2d1604a89cdb3b167836746ef65187961d81a9bc015a2004ce0e8d",
+      "declaration_headers_definitions_hypotheses_unchanged": true,
+      "prior_actual_compile_failure": true,
+      "status": "proof_only_body_delta_prepared_pending_actual_module_compile"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Energy.PositiveHighPhysical",
+      "before_raw_sha256": "b16ebf59a1026b1d8083fa3a3a68eea1edb49e56d4b9882266ff080e68e9d14b",
+      "after_raw_sha256": "32165c28273093bbdf55edb98e2dd82946727ac65665e53de3fc8e1516785c3a",
+      "after_lf_sha256": "32165c28273093bbdf55edb98e2dd82946727ac65665e53de3fc8e1516785c3a",
+      "baseline_gitblob_path": "lean/OAI/NumberTheory/DirichletL/Energy/PositiveHighPhysical.lean",
+      "baseline_lf_sha256": "880a4b1cee7bb9a0c2dbb0b8dc50fa52ba3579e0d2fd5a4c8aca37bf4a31e32d",
+      "declaration_headers_definitions_hypotheses_unchanged": true,
+      "prior_actual_compile_failure": false,
+      "status": "proof_only_body_delta_prepared_pending_actual_module_compile"
+    }
+  ]
+}

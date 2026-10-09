@@ -1,0 +1,64 @@
+{
+  "scope": "Only the four API proof-body repairs preserve their immediately preceding modified declaration headers/definitions/hypotheses. The original mathematical41 patch itself deliberately changes kappa and geometry constants; no assertion is made that these are unchanged from upstream Git.",
+  "historical_aggregate_patches": [
+    "d18941bdb3a32f42032c5e82c6518baa5dc03968ff8af652ca30d62d6467566e",
+    "ef1c3c5b1ed60929b3c60c5f12de4f137c2756f1255bff4a8bf08fb05615a30e",
+    "66a888650285841395dd2b0f6264cfdd10d9f6caf3156db46818f602c8e647e0"
+  ],
+  "current_aggregate_patch_sha256": "58ddc470f93afd26265525e78b951706ccb202839c6768f7ef39006af699dc42",
+  "actual_graph_bindings": {
+    "OAI.NumberTheory.DirichletL.Energy.PositiveHighPhysical": {
+      "actual_graph_exit_code": 0,
+      "source_raw_sha256": "73727672d6503202d0d32cc45d60f6fcf1879aea1728d105b05b08e533dc59a1",
+      "canonical_lf_sha256": "73727672d6503202d0d32cc45d60f6fcf1879aea1728d105b05b08e533dc59a1",
+      "fingerprint": "cf25b4fcbd3dacfa46f31d3f8f57e9b8a4bd9be29b5dae5162df77dc8c8d5f47",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\PositiveHighPhysical.olean": "5402df8e6bea2dc57aa58435171d337a804d00daed64c1f8136ff7392b87c9b4",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\PositiveHighPhysical.ilean": "737925b183bf7027b66109f0885b256d1c0240b2df6720a5ba25cd51390c6d93"
+      },
+      "actual_log": null
+    },
+    "OAI.NumberTheory.DirichletL.Energy.PositiveHighSource": {
+      "actual_graph_exit_code": 0,
+      "source_raw_sha256": "e7434c627192f3eb2c9fdadffe32327e15d0c082577c6867e69621d70518e270",
+      "canonical_lf_sha256": "e7434c627192f3eb2c9fdadffe32327e15d0c082577c6867e69621d70518e270",
+      "fingerprint": "4b4a22ef189ba8ee519f1ab40176b5a5f0290b6e4e4d01e643c2e6282d594a1a",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\PositiveHighSource.olean": "25f7e62f112225c350c159fcf67991ff11acb89fd94430eb54cdbb03028fa7e6",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\PositiveHighSource.ilean": "7921335321477270a4f3d1afb5f5bf1c2d7487292a476dad563044f86edf723d"
+      },
+      "actual_log": null
+    },
+    "OAI.NumberTheory.DirichletL.Energy.PositiveHighSourceBounded": {
+      "actual_graph_exit_code": 0,
+      "source_raw_sha256": "ad0b9cefbf351e818b7f880df92a08eefc679b169f2d4a6d5b8b305f588d22ab",
+      "canonical_lf_sha256": "ad0b9cefbf351e818b7f880df92a08eefc679b169f2d4a6d5b8b305f588d22ab",
+      "fingerprint": "f4bdf43fa74a6498d57185584c140fe245c03f6eacf9e2910e4e5efa61e86a90",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\PositiveHighSourceBounded.olean": "38e1ad1df8827d0bda96bc956291e64a79f3ecb78f172a7043deb59812fb036e",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\PositiveHighSourceBounded.ilean": "bd3804f8d582f626a8cded6d1d55b16ce15b0d2f2a3763aabf613c69f80c76ba"
+      },
+      "actual_log": null
+    },
+    "OAI.NumberTheory.DirichletL.Energy.ZeroGrowthPhysical": {
+      "actual_graph_exit_code": 0,
+      "source_raw_sha256": "345a9d81129feaafc959d3995691d0210d7421d302588ae5d7dc84ce18357200",
+      "canonical_lf_sha256": "345a9d81129feaafc959d3995691d0210d7421d302588ae5d7dc84ce18357200",
+      "fingerprint": "0bef99d89d8f4d79e5f44c6c900cdbc627d552367c16258c04d9e5e04128168c",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\ZeroGrowthPhysical.olean": "8c1e1e2900bda54690a0adb1beeaaf12489dd70482fa752c76ac0427e3626cce",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\ZeroGrowthPhysical.ilean": "5eb94bdbc29bb8ccf8cc7875f040d5a22384a75c29940cf48efc9fb69d4f0726"
+      },
+      "actual_log": null
+    }
+  },
+  "original_and_failed_modified_inputs_preserved": true,
+  "all_original_41_current_sources_compiled": true,
+  "terminal_fresh_independent_scope_status": "four_roots_fresh_types_axioms_and_independent_Nano_passed",
+  "whole_import_environment_hole_free": false,
+  "terminal_selected_upstream_classification": {
+    "modified": 3,
+    "unmodified": 1,
+    "total": 4
+  }
+}

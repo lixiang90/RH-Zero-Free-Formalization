@@ -1,0 +1,20 @@
+{
+  "module": "UpstreamNano_20261009_152259",
+  "roots": [
+    "OAI.SevenEighths.FinitePositiveRowDomination.finite_positiveSlotRow_le_actual_energy"
+  ],
+  "export_exit_code": 0,
+  "exporter_commit": "b18d673bd29b476466a51a3be1012df2ed322b10",
+  "exporter_sha256": "59c8e239262153a57d37b83869732b75b5b3b5a1689b489a0660a5e713dd3701",
+  "source_olean_sha256": "47d427cdfeb8953b0bab758bb6e2a68d152a273a01f5f8704247d1b7aa621df8",
+  "source_sha256": "8ae48e869937897b9c557b75736cbf3f6667680b2600a10d10409002762f97e2",
+  "export_sha256": "bc45dfeed0c6b8f3f0831c4eaa874dd87628b39c72f7ec5586591b9b42a75d24",
+  "export_bytes": 595695203,
+  "actual_export_command": [
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-kernel\\lean4export\\.lake\\build\\bin\\lean4export.exe",
+    "UpstreamNano_20261009_152259",
+    "--",
+    "OAI.SevenEighths.FinitePositiveRowDomination.finite_positiveSlotRow_le_actual_energy"
+  ],
+  "compiler": "Lean (version 4.34.1, x86_64-w64-windows-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)"
+}

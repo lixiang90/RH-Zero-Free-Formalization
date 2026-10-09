@@ -1,0 +1,828 @@
+--- a/OAI/NumberTheory/DirichletL/Energy/CappedAnalyticSuccessor.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/CappedAnalyticSuccessor.lean
+@@ -31,7 +31,7 @@
+     (W:ℝ→ℂ)(aslot bslot a b radial Bmask L lo hi Mcap κ ε:ℝ)
+     (haslot:0<aslot)(hWs:Function.support W⊆Set.Icc aslot bslot)(hW:ContDiff ℝ ∞ W)
+     (hbslot:0≤bslot)(ha:0<a)(hlo:a≤1/4)(hhi:1≤b)(hrad:2≤radial)
+-    (hmask:0≤Bmask)(hMcap:0<Mcap)(hκ:(3/4:ℝ)≤κ)(hε:0<ε)
++    (hmask:0≤Bmask)(hMcap:0<Mcap)(hκ:(37/50:ℝ)≤κ)(hε:0<ε)
+     (hbeta:(51/100:ℝ)≤HeckeZeroSupremum.beta)(hκbeta:2*HeckeZeroSupremum.beta-1≤κ)
+     (k:ℕ)(hk:k<count Mcap ε)
+     (hold:CertifiedBand (α:=α) M H hH W bslot a b radial Bmask L lo hi Mcap κ ε k):
+--- a/OAI/NumberTheory/DirichletL/Energy/CappedLowStage.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/CappedLowStage.lean
+@@ -1,3 +1,6 @@
++/- Li Xiang / lixiang90: local plain-range extension. The source and frequency
++   budgets require only nonnegative kappa; the low physical API is extended to
++   kappa >= 37/50 using its existing kappa >= 1/6 arithmetic entry. -/
+ import OAI.NumberTheory.DirichletL.Energy.NaturalLowStage
+ import OAI.NumberTheory.DirichletL.Energy.CappedRequests
+ 
+@@ -26,7 +29,7 @@
+     (hW:ContDiff ℝ ∞ W)(haslot:0<aslot)
+     (hWs:Function.support W⊆Set.Icc aslot bslot)(hbslot:0≤bslot)
+     (ha:0<a)(hb:0≤b)(hrad:2≤radial)(hmask:0≤Bmask)(hMcap:0≤Mcap)
+-    (hκ:(3/4:ℝ)≤κ)(hε:0<ε)(hbeta:(51/100:ℝ)≤HeckeZeroSupremum.beta)
++    (hκ:(37/50:ℝ)≤κ)(hε:0<ε)(hbeta:(51/100:ℝ)≤HeckeZeroSupremum.beta)
+     (hκbeta:2*HeckeZeroSupremum.beta-1≤κ)(k:ℕ)(hk:k<count Mcap ε)
+     (hold:CenteredMomentEnergyCappedWidthInduction.CertifiedBand (α:=α) M H hH
+       W bslot a b radial Bmask L lo hi Mcap κ ε k):
+--- a/OAI/NumberTheory/DirichletL/Energy/CertifiedExistence.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/CertifiedExistence.lean
+@@ -19,7 +19,7 @@
+ theorem certified_bands (W:ℝ→ℂ)(aslot bslot a b radial Bmask L lo hi Mcap κ ε:ℝ)
+     (haslot:0<aslot)(hWs:Function.support W⊆Set.Icc aslot bslot)(hW:ContDiff ℝ ∞ W)
+     (hbslot:0≤bslot)(ha:0<a)(haUpper:a≤1/4)(hb:1≤b)(hrad:2≤radial)
+-    (hmask:0≤Bmask)(hMcap:0<Mcap)(hκ0:(3/4:ℝ)≤κ)(hε:0<ε)
++    (hmask:0≤Bmask)(hMcap:0<Mcap)(hκ0:(37/50:ℝ)≤κ)(hε:0<ε)
+     (hbeta:(51/100:ℝ)≤HeckeZeroSupremum.beta)(hκ:2*HeckeZeroSupremum.beta-1≤κ):
+     ∀k:ℕ,k≤count Mcap ε→
+       CertifiedBand (α:=α) M H hH W bslot a b radial Bmask L lo hi Mcap κ ε k:=by
+@@ -40,7 +40,7 @@
+ theorem terminal_certificate (W:ℝ→ℂ)(aslot bslot a b radial Bmask L lo hi Mcap κ ε:ℝ)
+     (haslot:0<aslot)(hWs:Function.support W⊆Set.Icc aslot bslot)(hW:ContDiff ℝ ∞ W)
+     (hbslot:0≤bslot)(ha:0<a)(haUpper:a≤1/4)(hb:1≤b)(_hrad:0<radial)
+-    (hmask:0≤Bmask)(hMcap:0<Mcap)(hκ0:(3/4:ℝ)≤κ)(hε:0<ε)
++    (hmask:0≤Bmask)(hMcap:0<Mcap)(hκ0:(37/50:ℝ)≤κ)(hε:0<ε)
+     (hbeta:(51/100:ℝ)≤HeckeZeroSupremum.beta)(hκ:2*HeckeZeroSupremum.beta-1≤κ):
+     CertifiedBand (α:=α) M H hH W bslot a b radial Bmask L lo hi Mcap κ ε (count Mcap ε):=by
+   apply certified_from_max_two (α:=α) M H hH W bslot a b radial Bmask L lo hi Mcap κ ε
+--- a/OAI/NumberTheory/DirichletL/Energy/DeletedRobustGeometry.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/DeletedRobustGeometry.lean
+@@ -16,7 +16,7 @@
+     (hZ:1<Z)(hB:0≤Bmask)(Mcap L X₁ X₂ ell z κ xi e:ℝ)
+     (hwidth:s.width≤Mcap)(hL:Mcap+Bmask+xi≤L)
+     (hX₁:0<X₁)(hX₂:0<X₂)(hell:0≤ell)(hz:0≤z)(hze:z≤ell)
+-    (hκ:3/4≤κ)(hxi:0≤xi)(he:0≤e)(hreserve:xi+11*e/7≤s.width/14)
++    (hκ:37/50≤κ)(hxi:0≤xi)(he:0≤e)(hreserve:xi+8*e/5≤s.width/15)
+     (hlarge:5*s.width/6-e≤Real.logb Z (X₁*X₂)+ell)
+     (hcap:Real.logb Z (X₁*X₂)+ell+(6*κ-1)*ell≤s.width)
+     (D₁ D₂:Finset (Ideal O))
+--- a/OAI/NumberTheory/DirichletL/Energy/FirstSourceParameters.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/FirstSourceParameters.lean
+@@ -1,3 +1,6 @@
++/- Li Xiang / lixiang90: local plain-range extension. The source and frequency
++   budgets require only nonnegative kappa; the low physical API is extended to
++   kappa >= 37/50 using its existing kappa >= 1/6 arithmetic entry. -/
+ import OAI.NumberTheory.DirichletL.Energy.FirstActualFrequencyBudget
+ import OAI.NumberTheory.DirichletL.Energy.FirstLiveAdmission
+ import OAI.NumberTheory.DirichletL.Energy.WidthRanges
+@@ -31,7 +34,7 @@
+     nlinarith [mul_nonneg ht (sub_nonneg.mpr hB),mul_nonneg hem (sub_nonneg.mpr hB)]
+ 
+ theorem parameter_gates (M A B κ ε:ℝ)(hM:0≤M)(hA:0≤A)(hB:0≤B)
+-    (hκ:(3/4:ℝ)≤κ)(hε:0<ε):
++    (hκ:0≤κ)(hε:0<ε):
+     let sigma:=amplification ε
+     let r:=reserve M B ε
+     0<sigma ∧ sigma≤1 ∧ 0<r/4 ∧ r/4≤sigma/4 ∧ r/4≤1 ∧
+@@ -40,7 +43,7 @@
+       mesh M B κ ε≤sigma/12 ∧ 0≤sigma/12 ∧ sigma/12<sigma/6 ∧
+       0<2*sigma+1 ∧ 0≤A+1:=by
+   dsimp only
+-  have hκ0:0≤κ:=by linarith
++  have hκ0:0≤κ:=hκ
+   have hb:=bounds M B κ ε hM hB hκ0 hε
+   have hr:=hb.2.2.2.1
+   have hrs:reserve M B ε≤amplification ε/100:=min_le_left _ _
+@@ -62,7 +65,7 @@
+ 
+ theorem eventually_actual_four_fit (M A P B κ ε:ℝ)
+     (hM:0≤M)(hA:0≤A)(_hP:0≤P)(hB:0≤B)(hready:readyBudget A P≤B)
+-    (hκ:(3/4:ℝ)≤κ)(hε:0<ε):
++    (hκ:0≤κ)(hε:0<ε):
+     let r:=reserve M B ε
+     ∀ᶠ Z:ℝ in atTop,1<Z ∧
+       ∀(k:ℕ)(εchild:ℝ),εchild≤stageLoss M B ε k→∀j:Fin 4,
+@@ -73,7 +76,7 @@
+             (sourceEpsilon M A B ε) A (2*amplification ε+1) j+
+           sourceEpsilon M A B ε*(A+1)+r/4≤columnLoss M B ε k:=by
+   dsimp only
+-  have hκ0:0≤κ:=by linarith
++  have hκ0:0≤κ:=hκ
+   have h:=actual_frequency_four_budget M A B (A+1) κ ε hM hA hB (by linarith) hκ0 hε
+   obtain ⟨_,_,hem,_,_,hevent⟩:=h
+   have hr:0<reserve M B ε:=(bounds M B κ ε hM hB hκ0 hε).2.2.2.1
+--- a/OAI/NumberTheory/DirichletL/Energy/LiveClippingDefect.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/LiveClippingDefect.lean
+@@ -184,37 +184,37 @@
+   constructor <;> nlinarith
+ 
+ theorem robust_slot_budgets (M total ell kappa defect : ℝ)
+-    (hell : 0 ≤ ell) (hk : 3/4 ≤ kappa)
++    (hell : 0 ≤ ell) (hk : 37/50 ≤ kappa)
+     (hlarge : 5*M/6-defect ≤ total+ell)
+     (hcap : total+ell+(6*kappa-1)*ell ≤ M) :
+-    ell ≤ M/21+2*defect/7 ∧ (6*kappa-1)*ell ≤ M/6+defect := by
+-  have hkell : 7/2*ell ≤ (6*kappa-1)*ell :=
++    ell ≤ M/20+3*defect/10 ∧ (6*kappa-1)*ell ≤ M/6+defect := by
++  have hkell : 10/3*ell ≤ (6*kappa-1)*ell :=
+     mul_le_mul_of_nonneg_right (by linarith) hell
+   constructor <;> nlinarith
+ 
+ theorem robust_defect_le_width (M xi defect : ℝ) (hM : 0 ≤ M) (hxi : 0 ≤ xi)
+-    (hreserve : xi+11*defect/7 ≤ M/14) : defect ≤ M := by
++    (hreserve : xi+8*defect/5 ≤ M/15) : defect ≤ M := by
+   linarith
+ 
+ theorem robust_balanced_long_nonneg (M total ell kappa xi defect : ℝ)
+-    (hM : 0 ≤ M) (hell : 0 ≤ ell) (hk : 3/4 ≤ kappa) (hxi : 0 ≤ xi)
++    (hM : 0 ≤ M) (hell : 0 ≤ ell) (hk : 37/50 ≤ kappa) (hxi : 0 ≤ xi)
+     (hlarge : 5*M/6-defect ≤ total+ell)
+     (hcap : total+ell+(6*kappa-1)*ell ≤ M)
+-    (hreserve : xi+11*defect/7 ≤ M/14) :
+-    15*M/28-9*defect/7 ≤ total-M/4 ∧ 0 ≤ total-M/4 := by
++    (hreserve : xi+8*defect/5 ≤ M/15) :
++    8*M/15-13*defect/10 ≤ total-M/4 ∧ 0 ≤ total-M/4 := by
+   obtain ⟨he, hb⟩ := robust_slot_budgets M total ell kappa defect hell hk hlarge hcap
+   constructor <;> linarith
+ 
+ theorem robust_reflected_low (M short along ell z kappa xi defect reflected : ℝ)
+     (hM : 0 ≤ M) (_hs : 0 ≤ short) (hsM : short ≤ M/4)
+-    (_hell : 0 ≤ ell) (_hz : 0 ≤ z) (hze : z ≤ ell) (hk : 3/4 ≤ kappa)
+-    (he : ell ≤ M/21+2*defect/7)
++    (_hell : 0 ≤ ell) (_hz : 0 ≤ z) (hze : z ≤ ell) (hk : 37/50 ≤ kappa)
++    (he : ell ≤ M/20+3*defect/10)
+     (hbudget : (6*kappa-1)*ell ≤ M/6+defect)
+     (hxi : 0 ≤ xi) (hdefect : 0 ≤ defect) (hdefectM : defect ≤ M)
+     (hhigh : 5*M/6 < short+max 0 along+z)
+     (href : reflected ≤ max 0 (M-along+xi)) :
+-    0 < along ∧ reflected+short+z ≤ 16*M/21+xi+4*defect/7 ∧
+-      reflected+short+6*kappa*z ≤ 13*M/14+xi+11*defect/7 := by
++    0 < along ∧ reflected+short+z ≤ 23*M/30+xi+3*defect/5 ∧
++      reflected+short+6*kappa*z ≤ 14*M/15+xi+8*defect/5 := by
+   have haz : 0 < along := by
+     by_contra hn
+     have ha : along ≤ 0 := le_of_not_gt hn
+@@ -223,7 +223,7 @@
+   rw [max_eq_right haz.le] at hhigh
+   have hzbudget : (6*kappa-1)*z ≤ M/6+defect :=
+     (mul_le_mul_of_nonneg_left hze (by linarith)).trans hbudget
+-  have hzcap : z ≤ M/21+2*defect/7 := hze.trans he
++  have hzcap : z ≤ M/20+3*defect/10 := hze.trans he
+   refine ⟨haz, ?_⟩
+   by_cases hr : 0 ≤ M-along+xi
+   · rw [max_eq_right hr] at href
+@@ -232,17 +232,17 @@
+     constructor <;> nlinarith
+ 
+ theorem robust_reflected_low_admissible (M xi defect short reflected z kappa : ℝ)
+-    (hd : 0 ≤ defect) (hreserve : xi+11*defect/7 ≤ M/14)
+-    (ht : reflected+short+z ≤ 16*M/21+xi+4*defect/7)
+-    (hc : reflected+short+6*kappa*z ≤ 13*M/14+xi+11*defect/7) :
++    (hd : 0 ≤ defect) (hreserve : xi+8*defect/5 ≤ M/15)
++    (ht : reflected+short+z ≤ 23*M/30+xi+3*defect/5)
++    (hc : reflected+short+6*kappa*z ≤ 14*M/15+xi+8*defect/5) :
+     reflected+short+z ≤ 5*M/6 ∧ reflected+short+6*kappa*z ≤ M := by
+   constructor <;> linarith
+ 
+ theorem robust_deleted_cases (M total short along ell z kappa xi defect reflected : ℝ)
+     (hM : 0 ≤ M) (hs : 0 ≤ short) (hsM : short ≤ M/4)
+-    (hell : 0 ≤ ell) (hz : 0 ≤ z) (hze : z ≤ ell) (hk : 3/4 ≤ kappa)
++    (hell : 0 ≤ ell) (hz : 0 ≤ z) (hze : z ≤ ell) (hk : 37/50 ≤ kappa)
+     (hxi : 0 ≤ xi) (hd : 0 ≤ defect)
+-    (hreserve : xi+11*defect/7 ≤ M/14)
++    (hreserve : xi+8*defect/5 ≤ M/15)
+     (hlarge : 5*M/6-defect ≤ total+ell)
+     (hcap : total+ell+(6*kappa-1)*ell ≤ M)
+     (halong : max 0 along ≤ total-M/4)
+@@ -262,7 +262,7 @@
+ 
+ theorem robust_fixed_slack (M₀ : ℝ) (hM₀ : 0 < M₀) :
+     0 < M₀/56 ∧ ∀M : ℝ, M₀ ≤ M →
+-      M₀/56+11*(M₀/56)/7 ≤ M/14 := by
++      M₀/56+8*(M₀/56)/5 ≤ M/15 := by
+   constructor
+   · positivity
+   · intro M hM
+@@ -273,8 +273,8 @@
+ 
+ theorem robust_deleted_reference_cases (Z M X₁ X₂ ell z κ ξ e reflected : ℝ)
+     (hZ : 1 < Z) (hM : 0 ≤ M) (hX₁ : 0 < X₁) (hX₂ : 0 < X₂)
+-    (hell : 0 ≤ ell) (hz : 0 ≤ z) (hze : z ≤ ell) (hκ : 3/4 ≤ κ)
+-    (hξ : 0 ≤ ξ) (he : 0 ≤ e) (hreserve : ξ+11*e/7 ≤ M/14)
++    (hell : 0 ≤ ell) (hz : 0 ≤ z) (hze : z ≤ ell) (hκ : 37/50 ≤ κ)
++    (hξ : 0 ≤ ξ) (he : 0 ≤ e) (hreserve : ξ+8*e/5 ≤ M/15)
+     (hlarge : 5*M/6-e ≤ Real.logb Z (X₁*X₂)+ell)
+     (hcap : Real.logb Z (X₁*X₂)+ell+(6*κ-1)*ell ≤ M)
+     (D₁ D₂ : Finset (Ideal O)) (hD₁ : ∀ I ∈ D₁, Prime I) (hD₂ : ∀ I ∈ D₂, Prime I)
+@@ -284,8 +284,8 @@
+     let long := length Z (comparisonSecond Z M X₁ X₂ / ((∏ I ∈ D₂, I).absNorm : ℝ));
+     (short+long+z ≤ 5*M/6 ∧ short+long+6*κ*z ≤ M) ∨
+     (0 < Real.logb Z (comparisonSecond Z M X₁ X₂ / ((∏ I ∈ D₂, I).absNorm : ℝ)) ∧
+-      reflected+short+z ≤ 16*M/21+ξ+4*e/7 ∧
+-      reflected+short+6*κ*z ≤ 13*M/14+ξ+11*e/7) := by
++      reflected+short+z ≤ 23*M/30+ξ+3*e/5 ∧
++      reflected+short+6*κ*z ≤ 14*M/15+ξ+8*e/5) := by
+   dsimp only
+   have hb := robust_balanced_long_nonneg M (Real.logb Z (X₁*X₂)) ell κ ξ e
+     hM hell hκ hξ hlarge hcap hreserve
+@@ -320,8 +320,8 @@
+ 
+ theorem robust_deleted_reference_window (Z M X₁ X₂ ell z κ ξ e : ℝ)
+     (hZ : 1 < Z) (hM : 0 ≤ M) (hX₁ : 0 < X₁) (hX₂ : 0 < X₂)
+-    (hell : 0 ≤ ell) (hz : 0 ≤ z) (hze : z ≤ ell) (hκ : 3/4 ≤ κ)
+-    (hξ : 0 ≤ ξ) (he : 0 ≤ e) (hreserve : ξ+11*e/7 ≤ M/14)
++    (hell : 0 ≤ ell) (hz : 0 ≤ z) (hze : z ≤ ell) (hκ : 37/50 ≤ κ)
++    (hξ : 0 ≤ ξ) (he : 0 ≤ e) (hreserve : ξ+8*e/5 ≤ M/15)
+     (hlarge : 5*M/6-e ≤ Real.logb Z (X₁*X₂)+ell)
+     (hcap : Real.logb Z (X₁*X₂)+ell+(6*κ-1)*ell ≤ M)
+     (D₁ D₂ : Finset (Ideal O)) (hD₁ : ∀ I ∈ D₁, Prime I) (hD₂ : ∀ I ∈ D₂, Prime I) :
+@@ -351,7 +351,7 @@
+       ∀ (η : Character) (m A u : O) (p : Profiles a b)
+         (S : ι → Finset (Ideal O)) (β : ι → Ideal O → ℂ) (P : ι → ℝ)
+         (t X₁ X₂ ell z κ : ℝ), 0 < X₁ → 0 < X₂ → 0 ≤ ell →
+-        0 ≤ z → z ≤ ell → 3/4 ≤ κ →
++        0 ≤ z → z ≤ ell → 37/50 ≤ κ →
+         5*M/6 ≤ length Z X₁+length Z X₂+ell →
+         length Z X₁+length Z X₂+6*κ*ell ≤ M →
+       ∀ (D₁ D₂ : Finset (Ideal O)), (∀ I ∈ D₁, Prime I) → (∀ I ∈ D₂, Prime I) →
+--- a/OAI/NumberTheory/DirichletL/Energy/NaturalHighStage.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/NaturalHighStage.lean
+@@ -35,7 +35,7 @@
+     (hrho:0<rho)(hMg:0≤Mglobal)(hA:0≤A)(hB:0≤B)(hBm:0≤Bmask)
+     (hMp:0≤Mparent)(hMc:0≤Mchild)(hL:0≤Lgoal)(hLs:0≤Lslot)
+     (hMA:Mparent≤A)(hready:readyBudget A Bmask≤B)
+-    (hκ:(3/4:ℝ)≤κ)(hbeta:(51/100:ℝ)≤HeckeZeroSupremum.beta)
++    (hκ:(37/50:ℝ)≤κ)(hbeta:(51/100:ℝ)≤HeckeZeroSupremum.beta)
+     (hκbeta:2*HeckeZeroSupremum.beta-1≤κ)(hε:0<ε)
+     (hslot:Lslot≤mesh Mglobal B κ ε)
+     (hdrop:Mparent-amplification ε/2≤Mchild)
+--- a/OAI/NumberTheory/DirichletL/Energy/NaturalLowPhysical.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/NaturalLowPhysical.lean
+@@ -1,3 +1,6 @@
++/- Li Xiang / lixiang90: local plain-range extension. The source and frequency
++   budgets require only nonnegative kappa; the low physical API is extended to
++   kappa >= 37/50 using its existing kappa >= 1/6 arithmetic entry. -/
+ import OAI.NumberTheory.DirichletL.Energy.CanonicalLowPhysical
+ import OAI.NumberTheory.DirichletL.Energy.PositiveBalancedAdmission
+ import OAI.NumberTheory.DirichletL.Energy.PositiveLowBandSource
+@@ -36,7 +39,7 @@
+     (hMg:0≤Mglobal)(hA:0≤A)(hB:0≤B)(hBm:0≤Bmask)
+     (_hMp:0≤Mparent)(hMc:0≤Mchild)(hL:0≤Lgoal)(hLs:0≤Lslot)
+     (hMA:Mparent≤A)(hready:readyBudget A Bmask≤B)
+-    (hκ:(3/4:ℝ)≤κ)(hbeta:(51/100:ℝ)≤HeckeZeroSupremum.beta)
++    (hκ:(37/50:ℝ)≤κ)(hbeta:(51/100:ℝ)≤HeckeZeroSupremum.beta)
+     (hκbeta:2*HeckeZeroSupremum.beta-1≤κ)(hε:0<ε)
+     (hslot:Lslot≤mesh Mglobal B κ ε)
+     (hdrop:Mparent-amplification ε/2≤Mchild)
+@@ -62,7 +65,7 @@
+   have ha0:0<a0:=CenteredMomentSecondInputCapacitySource.lowerFactor_pos N aslot a haslot ha
+   have hlp:0<lp:=by dsimp [lp];positivity
+   obtain ⟨hsigma,hsigma1,hr,hxi,hxi1,hes,hes1,hem,hmesh,hmesheta,heta,hetastrict,_,_⟩:=
+-    parameter_gates Mglobal A B κ ε hMg hA hB hκ hε
++    parameter_gates Mglobal A B κ ε hMg hA hB (by linarith : 0≤κ) hε
+   have hrpos:0<r/4:=hr
+   have hκsmall:(1/6:ℝ)≤κ:=by linarith
+   have hLbase:0≤max Lgoal Mparent:=hL.trans (le_max_left _ _)
+@@ -80,7 +83,7 @@
+   obtain ⟨C,hC,Z₀,hZ₀,hbound⟩:=hphysical η₀ Q hQM hQ0 hQt hQ72
+   refine ⟨C,hC,?_⟩
+   filter_upwards [eventually_ge_atTop Z₀,
+-    eventually_actual_four_fit Mglobal A Bmask B κ ε hMg hA hBm hB hready hκ hε,
++    eventually_actual_four_fit Mglobal A Bmask B κ ε hMg hA hBm hB hready (by linarith : 0≤κ) hε,
+     (Filter.tendsto_atTop.1 (tendsto_rpow_atTop (by linarith : 0<2*(r/4)))) (max 1 b*max 1 b),
+     eventually_scale_admission b (max Lgoal Mparent) (r/4) hLbase hr]
+     with Z hZZ hfit hclipPow hscale
+--- a/OAI/NumberTheory/DirichletL/Energy/NaturalLowStage.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/NaturalLowStage.lean
+@@ -1,3 +1,6 @@
++/- Li Xiang / lixiang90: local plain-range extension. The source and frequency
++   budgets require only nonnegative kappa; the low physical API is extended to
++   kappa >= 37/50 using its existing kappa >= 1/6 arithmetic entry. -/
+ import OAI.NumberTheory.DirichletL.Energy.NaturalLowPhysical
+ import OAI.NumberTheory.DirichletL.Energy.PositiveLowSourceControlled
+ import OAI.NumberTheory.DirichletL.Energy.BandMonotonicity
+@@ -42,7 +45,7 @@
+     (hMg:0≤Mglobal)(hA:0≤A)(hB:0≤B)(hBm:0≤Bmask)
+     (hMp:0≤Mparent)(hMc:0≤Mchild)(hL:0≤Lgoal)(hLs:0≤Lslot)
+     (hMA:Mparent≤A)(hready:readyBudget A Bmask≤B)
+-    (hκ:(3/4:ℝ)≤κ)(hbeta:(51/100:ℝ)≤HeckeZeroSupremum.beta)
++    (hκ:(37/50:ℝ)≤κ)(hbeta:(51/100:ℝ)≤HeckeZeroSupremum.beta)
+     (hκbeta:2*HeckeZeroSupremum.beta-1≤κ)(hε:0<ε)
+     (hslot:Lslot≤mesh Mglobal B κ ε)
+     (hdrop:Mparent-amplification ε/2≤Mchild)
+--- a/OAI/NumberTheory/DirichletL/Energy/NaturalZeroStage.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/NaturalZeroStage.lean
+@@ -25,7 +25,7 @@
+     (W:ℝ→ℂ)(aslot bslot Lslot lo hi κ a b bΦ Bmask Lgoal Mparent Mchild
+       Mschedule Bschedule ε rho:ℝ)(k:ℕ)
+     (haslot:0<aslot)(hWs:Function.support W⊆Set.Icc aslot bslot)
+-    (hW:ContDiff ℝ ∞ W)(hLs:0≤Lslot)(hκ:(3/4:ℝ)≤κ)
++    (hW:ContDiff ℝ ∞ W)(hLs:0≤Lslot)(hκ:(37/50:ℝ)≤κ)
+     (hbeta:(51/100:ℝ)≤HeckeZeroSupremum.beta)(hκbeta:2*HeckeZeroSupremum.beta-1≤κ)
+     (ha:0<a)(hlo:a≤1/4)(hhi:1≤b)(hbΦ:2≤bΦ)(hBmask:0≤Bmask)(_hLgoal:0≤Lgoal)
+     (hMparent:0≤Mparent)(hMchild:0≤Mchild)(hMschedule:0≤Mschedule)(hBschedule:0≤Bschedule)
+--- a/OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionBounded.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionBounded.lean
+@@ -39,7 +39,7 @@
+         Mcap e κ Z η₀ Q degree S K →
+       ∀(θ:α→RayQuotient.Characters M H)(w σ freq:α→ℝ)(t height:ℝ),
+       (∀i,0≤w i) → (∀i,w i≤Lslot) → (∀i,lo≤σ i) → (∀i,σ i≤hi) →
+-      0≤height → (∀i,|freq i|≤height) → 3/4≤κ →
++      0≤height → (∀i,|freq i|≤height) → 37/50≤κ →
+       ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀ → rho≤s.width → s.width≤Mcap →
+       ∀(W₁ W₂:𝓢(ℝ,ℂ)),
+       Function.support (W₁:ℝ→ℂ)⊆Set.Icc a b →
+@@ -70,7 +70,7 @@
+   refine ⟨hZ.1,?_⟩
+   intro e Lslot κ η₀ Q K he hK hlow θ w σ freq t height hw hwL hσlo hσhi hheight hfreq hκ
+     s hQ hslo hs W₁ W₂ hs₁ hs₂ X₁ X₂ hX₁ hX₂ hshort hlarge hcap
+-  have hxiM:xi≤s.width/14:=by linarith
++  have hxiM:xi≤s.width/15:=by linarith
+   have hh:=hZ.2 Lslot e κ η₀ Q K hK hlow θ w σ freq t height hw hwL hσlo hσhi hheight hfreq hκ
+     s hQ hs hxiM W₁ W₂ hs₁ hs₂ X₁ X₂ hX₁ hX₂ hshort hlarge hcap
+   have hsum:0≤∑i,w i:=Finset.sum_nonneg (fun i _=>hw i)
+--- a/OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionDeleted.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionDeleted.lean
+@@ -39,8 +39,8 @@
+         Mcap ε κ Z η₀ Q degree S K →
+       ∀(θ:α→RayQuotient.Characters M H)(w σ freq:α→ℝ)(t height:ℝ),
+       (∀i,0≤w i) → (∀i,w i≤Lslot) → (∀i,lo≤σ i) → (∀i,σ i≤hi) →
+-      0≤height → (∀i,|freq i|≤height) → 3/4≤κ →
+-      ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀ → s.width≤Mcap → xi≤s.width/14 →
++      0≤height → (∀i,|freq i|≤height) → 37/50≤κ →
++      ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀ → s.width≤Mcap → xi≤s.width/15 →
+       ∀(W₁ W₂:𝓢(ℝ,ℂ)),
+       ∀hs₁:Function.support (W₁:ℝ→ℂ)⊆Set.Icc a b,
+       ∀hs₂:Function.support (W₂:ℝ→ℂ)⊆Set.Icc a b,
+--- a/OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionGeometry.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionGeometry.lean
+@@ -12,7 +12,7 @@
+ local notation "O"=>HeckeFamily.O
+ 
+ lemma original_long_positive (Z M X₁ X₂ ell κ:ℝ)(hZ:1<Z)(hM:0<M)
+-    (_hX₁:0<X₁)(hX₂:0<X₂)(hell:0≤ell)(hκ:3/4≤κ)
++    (_hX₁:0<X₁)(hX₂:0<X₂)(hell:0≤ell)(hκ:37/50≤κ)
+     (hshort:length Z X₁≤M/4)
+     (hlarge:5*M/6≤length Z X₁+length Z X₂+ell)
+     (hcap:length Z X₁+length Z X₂+6*κ*ell≤M):
+@@ -39,7 +39,7 @@
+     (hZ:1<Z)(hM:0<s.width)(hB:0≤Bmask)(Mcap L X₁ X₂ ell z κ xi:ℝ)
+     (hwidth:s.width≤Mcap)(hL:Mcap+Bmask+xi≤L)
+     (hX₁:0<X₁)(hX₂:0<X₂)(hell:0≤ell)(hz:0≤z)(hze:z≤ell)
+-    (hκ:3/4≤κ)(hxi:0≤xi)(hxiM:xi≤s.width/14)
++    (hκ:37/50≤κ)(hxi:0≤xi)(hxiM:xi≤s.width/15)
+     (hshort:length Z X₁≤s.width/4)
+     (hlarge:5*s.width/6≤length Z X₁+length Z X₂+ell)
+     (hcap:length Z X₁+length Z X₂+6*κ*ell≤s.width)
+--- a/OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionOriginal.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionOriginal.lean
+@@ -41,8 +41,8 @@
+         Mcap ε κ Z η₀ Q degree S K →
+       ∀(θ:α→RayQuotient.Characters M H)(w σ freq:α→ℝ)(t height:ℝ),
+       (∀i,0≤w i) → (∀i,w i≤Lslot) → (∀i,lo≤σ i) → (∀i,σ i≤hi) →
+-      0≤height → (∀i,|freq i|≤height) → 3/4≤κ →
+-      ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀ → s.width≤Mcap → xi≤s.width/14 →
++      0≤height → (∀i,|freq i|≤height) → 37/50≤κ →
++      ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀ → s.width≤Mcap → xi≤s.width/15 →
+       ∀(W₁ W₂:𝓢(ℝ,ℂ)),
+       ∀hs₁:Function.support (W₁:ℝ→ℂ)⊆Set.Icc a b,
+       ∀hs₂:Function.support (W₂:ℝ→ℂ)⊆Set.Icc a b,
+--- a/OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionPower.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionPower.lean
+@@ -38,7 +38,7 @@
+         Mcap d κ Z η₀ Q degree S K →
+       ∀(θ:α→RayQuotient.Characters M H)(w σ freq:α→ℝ)(t height:ℝ),
+       (∀i,0≤w i) → (∀i,w i≤Lslot) → (∀i,lo≤σ i) → (∀i,σ i≤hi) →
+-      0≤height → (∀i,|freq i|≤height) → 3/4≤κ →
++      0≤height → (∀i,|freq i|≤height) → 37/50≤κ →
+       ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀ → rho≤s.width → s.width≤Mcap →
+       ∀(W₁ W₂:𝓢(ℝ,ℂ)),
+       Function.support (W₁:ℝ→ℂ)⊆Set.Icc a b →
+@@ -69,7 +69,7 @@
+   refine ⟨hZ.1,?_⟩
+   intro Lslot κ η₀ Q K hK hlow θ w σ freq t height hw hwL hσlo hσhi hheight hfreq hκ
+     s hQ hslo hs W₁ W₂ hs₁ hs₂ X₁ X₂ hX₁ hX₂ hshort hlarge hcap
+-  have hxiM:xi≤s.width/14:=by linarith
++  have hxiM:xi≤s.width/15:=by linarith
+   have hh:=hZ.2 Lslot d κ η₀ Q K hK hlow θ w σ freq t height hw hwL hσlo hσhi hheight hfreq hκ
+     s hQ hs hxiM W₁ W₂ hs₁ hs₂ X₁ X₂ hX₁ hX₂ hshort hlarge hcap
+   have hsum:0≤∑i,w i:=Finset.sum_nonneg (fun i _=>hw i)
+--- a/OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionSymmetric.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionSymmetric.lean
+@@ -83,7 +83,7 @@
+         Mcap d κ Z η₀ Q degree S K →
+       ∀(θ:α→RayQuotient.Characters M H)(w σ freq:α→ℝ)(t height:ℝ),
+       (∀i,0≤w i) → (∀i,w i≤Lslot) → (∀i,lo≤σ i) → (∀i,σ i≤hi) →
+-      0≤height → (∀i,|freq i|≤height) → 3/4≤κ →
++      0≤height → (∀i,|freq i|≤height) → 37/50≤κ →
+       ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀ → rho≤s.width → s.width≤Mcap →
+       ∀(W₁ W₂:𝓢(ℝ,ℂ)),
+       Function.support (W₁:ℝ→ℂ)⊆Set.Icc a b →
+--- a/OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionSymmetricBounded.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/OriginalHighReflectionSymmetricBounded.lean
+@@ -40,7 +40,7 @@
+         Mcap e κ Z η₀ Q degree S K →
+       ∀(θ:α→RayQuotient.Characters M H)(w σ freq:α→ℝ)(t height:ℝ),
+       (∀i,0≤w i) → (∀i,w i≤Lslot) → (∀i,lo≤σ i) → (∀i,σ i≤hi) →
+-      0≤height → (∀i,|freq i|≤height) → 3/4≤κ →
++      0≤height → (∀i,|freq i|≤height) → 37/50≤κ →
+       ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀ → rho≤s.width → s.width≤Mcap →
+       ∀(W₁ W₂:𝓢(ℝ,ℂ)),
+       Function.support (W₁:ℝ→ℂ)⊆Set.Icc a b →
+--- a/OAI/NumberTheory/DirichletL/Energy/PositiveBalancedAdmission.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/PositiveBalancedAdmission.lean
+@@ -64,7 +64,7 @@
+     ∑i,Real.logb Z (Z^(w i)) at hh
+   simpa only [Real.logb_rpow (zero_lt_one.trans hZ) hZ.ne'] using hh
+ 
+-theorem four_upper_scales (κ L:ℝ)(hZ:1<Z)(hw:∀i,0≤w i)(hκ:3/4≤κ)
++theorem four_upper_scales (κ L:ℝ)(hZ:1<Z)(hw:∀i,0≤w i)(hκ:1/6≤κ)
+     (hcap:length Z X₁+length Z X₂+6*κ*(∑i,w i)≤s.width)(hs:s.width≤L) :
+     (balancedSource).X₁≤Z^L ∧ (balancedSource).X₂≤Z^L ∧
+     (balancedSource).Y₁≤Z^L ∧ (balancedSource).Y₂≤Z^L := by
+@@ -93,7 +93,7 @@
+   have hh:=balanced_four_scale_gates Z s.width X₁ X₂ hZ hwidth hX₁ hX₂ hshort
+   exact ⟨hh.1,hh.2.1,hh.2.2.1,hh.2.2.2.1⟩
+ 
+-theorem state_capacity_packet (κ L:ℝ)(hZ:1<Z)(hw:∀i,0≤w i)(hκ:3/4≤κ)
++theorem state_capacity_packet (κ L:ℝ)(hZ:1<Z)(hw:∀i,0≤w i)(hκ:1/6≤κ)
+     (hcap:length Z X₁+length Z X₂+6*κ*(∑i,w i)≤s.width)(hs:s.width≤L) :
+     1≤s.radial.scale ∧ s.radial.scale⁻¹≤1 ∧
+     (balancedSource).η=s.character ∧ (balancedSource).m=s.mask ∧
+--- a/OAI/NumberTheory/DirichletL/Energy/PositiveHighAssembly.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/PositiveHighAssembly.lean
+@@ -59,7 +59,7 @@
+         Mcap d κ Z η₀ Q degree S K→
+       ∀(θ:α→ RayQuotient.Characters M H)(w σ freq:α→ ℝ)(t height:ℝ),
+       (∀i,0≤w i)→ (∀i,w i≤Lslot)→ ∀hσlo:(∀i,lo≤σ i),∀hσhi:(∀i,σ i≤hi),
+-      0≤height→ (∀i,|freq i|≤height)→ 3/4≤κ→
++      0≤height→ (∀i,|freq i|≤height)→ 37/50≤κ→
+       ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀→ rho≤s.width→ s.width≤Mcap→
+       ∀(p:Profiles a b)(X₁ X₂:ℝ)(hX₁:0<X₁)(hX₂:0<X₂),
+       5*s.width/6≤length Z X₁+length Z X₂+(∑i,w i)→
+--- a/OAI/NumberTheory/DirichletL/Energy/PositiveHighAssemblyBounded.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/PositiveHighAssemblyBounded.lean
+@@ -47,7 +47,7 @@
+         Mcap e κ Z η₀ Q degree S K→
+       ∀(θ:α→ RayQuotient.Characters M H)(w σ freq:α→ ℝ)(t height:ℝ),
+       (∀i,0≤w i)→ (∀i,w i≤Lslot)→ ∀hσlo:(∀i,lo≤σ i),∀hσhi:(∀i,σ i≤hi),
+-      0≤height→ (∀i,|freq i|≤height)→ 3/4≤κ→
++      0≤height→ (∀i,|freq i|≤height)→ 37/50≤κ→
+       ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀→ rho≤s.width→ s.width≤Mcap→
+       ∀(p:Profiles a b)(X₁ X₂:ℝ)(hX₁:0<X₁)(hX₂:0<X₂),
+       5*s.width/6≤length Z X₁+length Z X₂+(∑i,w i)→
+--- a/OAI/NumberTheory/DirichletL/Energy/PositiveHighBound.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/PositiveHighBound.lean
+@@ -53,7 +53,7 @@
+         Mcap e κ Z η₀ Q degree S K→
+       ∀(θ:α→ RayQuotient.Characters M H)(w σ freq:α→ ℝ)(t height:ℝ),
+       (∀i,0≤w i)→ (∀i,w i≤Lslot)→ ∀hσlo:(∀i,lo≤σ i),∀hσhi:(∀i,σ i≤hi),
+-      0≤height→ (∀i,|freq i|≤height)→ 3/4≤κ→
++      0≤height→ (∀i,|freq i|≤height)→ 37/50≤κ→
+       ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀→ rho≤s.width→ s.width≤Mcap→
+       ∀(p:Profiles a b)(X₁ X₂:ℝ)(hX₁:0<X₁)(hX₂:0<X₂),
+       5*s.width/6≤length Z X₁+length Z X₂+(∑i,w i)→
+--- a/OAI/NumberTheory/DirichletL/Energy/PositiveHighParameters.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/PositiveHighParameters.lean
+@@ -50,7 +50,7 @@
+   exact mul_le_mul_of_nonneg_left s.modulus_bound (Real.rpow_nonneg (by linarith) _)
+ 
+ omit [DecidableEq α] in
+-lemma balanced_log_volume (κ:ℝ)(hZ:1<Z)(hw:∀i,0≤w i)(hκ:3/4≤κ)
++lemma balanced_log_volume (κ:ℝ)(hZ:1<Z)(hw:∀i,0≤w i)(hκ:1/6≤κ)
+     (hcap:length Z X₁+length Z X₂+6*κ*(∑i,w i)≤s.width):
+     Real.logb Z (CenteredMomentAmplificationChildInput.volume balancedSource)≤s.width:=by
+   have hv:0<CenteredMomentAmplificationChildInput.volume balancedSource:=by
+--- a/OAI/NumberTheory/DirichletL/Energy/PositiveHighPhysical.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/PositiveHighPhysical.lean
+@@ -35,7 +35,7 @@
+     (hMg:0≤Mglobal)(hA:0≤A)(hB:0≤B)(hBm:0≤Bmask)
+     (_hMp:0≤Mparent)(hMc:0≤Mchild)(hL:0≤Lgoal)(hLs:0≤Lslot)
+     (hMA:Mparent≤A)(hready:readyBudget A Bmask≤B)
+-    (hκ:(3/4:ℝ)≤κ)(hbeta:(51/100:ℝ)≤HeckeZeroSupremum.beta)
++    (hκ:(37/50:ℝ)≤κ)(hbeta:(51/100:ℝ)≤HeckeZeroSupremum.beta)
+     (hκbeta:2*HeckeZeroSupremum.beta-1≤κ)(hε:0<ε)
+     (hslot:Lslot≤mesh Mglobal B κ ε)
+     (hdrop:Mparent-amplification ε/2≤Mchild)
+--- a/OAI/NumberTheory/DirichletL/Energy/PositiveHighSource.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/PositiveHighSource.lean
+@@ -54,7 +54,7 @@
+     CenteredMomentAmplificationChildInput.volume balancedSource=X₁*X₂*∏i,Z^(w i):=rfl
+ 
+ omit [DecidableEq α] in
+-lemma balanced_volume_bound (κ Mcap:ℝ)(hZ:1<Z)(hw:∀i,0≤w i)(hκ:3/4≤κ)
++lemma balanced_volume_bound (κ Mcap:ℝ)(hZ:1<Z)(hw:∀i,0≤w i)(hκ:1/6≤κ)
+     (hcap:length Z X₁+length Z X₂+6*κ*(∑i,w i)≤s.width)(hs:s.width≤Mcap):
+     CenteredMomentAmplificationChildInput.volume balancedSource≤Z^Mcap:=by
+   rw [balanced_volume]
+@@ -88,7 +88,7 @@
+         Mcap d κ Z η₀ Q degree S K→
+       ∀(θ:α→ RayQuotient.Characters M H)(w σ freq:α→ ℝ)(t height:ℝ),
+       (∀i,0≤w i)→ (∀i,w i≤Lslot)→ ∀hσlo:(∀i,lo≤σ i),∀hσhi:(∀i,σ i≤hi),
+-      0≤height→ (∀i,|freq i|≤height)→ 3/4≤κ→
++      0≤height→ (∀i,|freq i|≤height)→ 37/50≤κ→
+       ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀→ rho≤s.width→ s.width≤Mcap→
+       ∀(p:Profiles a b)(X₁ X₂:ℝ)(hX₁:0<X₁)(hX₂:0<X₂),
+       5*s.width/6≤length Z X₁+length Z X₂+(∑i,w i)→
+--- a/OAI/NumberTheory/DirichletL/Energy/PositiveHighSourceBound.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/PositiveHighSourceBound.lean
+@@ -75,7 +75,7 @@
+     ∃Jout:ℕ,∃U:Finset (ℕ×ℕ),∃Cfixed:ℝ,0<Cfixed ∧
+     ∀ᶠZ:ℝ in atTop,1<Z ∧
+     ∀(L Lslot κ e emass efinal:ℝ)(η₀:Character)(Q:Ideal O)(K Cphysical:ℝ),
+-      3/4≤κ→0≤e→0≤K→0≤Cphysical→e+ε≤efinal→emass≤efinal→εdiag≤efinal→-saving≤efinal→
++      37/50≤κ→0≤e→0≤K→0≤Cphysical→e+ε≤efinal→emass≤efinal→εdiag≤efinal→-saving≤efinal→
+       PositiveLowAt (α:=α) M H hH W bslot a b bΦ Bmask (Mcap+Bmask+rho/100)
+         Lslot lo hi Mcap e κ Z η₀ Q degree S K→
+       PhysicalHighAt (α:=α) M H hH W hW aslot bslot lo hi haslot hWs
+--- a/OAI/NumberTheory/DirichletL/Energy/PositiveHighSourceBounded.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/PositiveHighSourceBounded.lean
+@@ -54,7 +54,7 @@
+         Mcap e κ Z η₀ Q degree S K→
+       ∀(θ:α→ RayQuotient.Characters M H)(w σ freq:α→ ℝ)(t height:ℝ),
+       (∀i,0≤w i)→ (∀i,w i≤Lslot)→ ∀hσlo:(∀i,lo≤σ i),∀hσhi:(∀i,σ i≤hi),
+-      0≤height→ (∀i,|freq i|≤height)→ 3/4≤κ→
++      0≤height→ (∀i,|freq i|≤height)→ 37/50≤κ→
+       ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀→ rho≤s.width→ s.width≤Mcap→
+       ∀(p:Profiles a b)(X₁ X₂:ℝ)(hX₁:0<X₁)(hX₂:0<X₂),
+       5*s.width/6≤length Z X₁+length Z X₂+(∑i,w i)→
+--- a/OAI/NumberTheory/DirichletL/Energy/ReferenceDeletionCapacity.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/ReferenceDeletionCapacity.lean
+@@ -27,7 +27,7 @@
+ theorem deleted_reflection_excess {α:Type*}[DecidableEq α]
+     (F J:Finset α)(hJF:J⊆F)(w:α→ℝ)(hw:∀i∈F,0≤w i)
+     (Z M X₁ X₂ κ xi reflected:ℝ)(hZ:1<Z)(hM:0≤M)
+-    (hX₁:0<X₁)(hX₂:0<X₂)(hκ:3/4≤κ)(hxi:0≤xi)
++    (hX₁:0<X₁)(hX₂:0<X₂)(hκ:37/50≤κ)(hxi:0≤xi)
+     (hlarge:5*M/6≤Real.logb Z (X₁*X₂)+∑i∈F,w i)
+     (hcap:Real.logb Z (X₁*X₂)+∑i∈F,w i+(6*κ-1)*(∑i∈F,w i)≤M)
+     (D₁ D₂:Finset (Ideal O))(hD₁:∀I∈D₁,Prime I)(hD₂:∀I∈D₂,Prime I)
+@@ -57,7 +57,7 @@
+ theorem deleted_reflection_removal {α:Type*}[DecidableEq α]
+     (F J:Finset α)(hJF:J⊆F)(w:α→ℝ)(hw:∀i∈F,0≤w i)
+     (Z M X₁ X₂ κ xi reflected mesh:ℝ)(hZ:1<Z)(hM:0≤M)
+-    (hX₁:0<X₁)(hX₂:0<X₂)(hκ:3/4≤κ)(hxi:0≤xi)(hm:0≤mesh)(hwm:∀i∈J,w i≤mesh)
++    (hX₁:0<X₁)(hX₂:0<X₂)(hκ:37/50≤κ)(hxi:0≤xi)(hm:0≤mesh)(hwm:∀i∈J,w i≤mesh)
+     (hlarge:5*M/6≤Real.logb Z (X₁*X₂)+∑i∈F,w i)
+     (hcap:Real.logb Z (X₁*X₂)+∑i∈F,w i+(6*κ-1)*(∑i∈F,w i)≤M)
+     (D₁ D₂:Finset (Ideal O))(hD₁:∀I∈D₁,Prime I)(hD₂:∀I∈D₂,Prime I)
+--- a/OAI/NumberTheory/DirichletL/Energy/ReferenceDeletionClipped.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/ReferenceDeletionClipped.lean
+@@ -12,7 +12,7 @@
+ 
+ lemma deleted_long_le_width (Z M X₁ X₂ ell kappa : ℝ)
+     (hZ : 1 < Z) (hM : 0 ≤ M) (hX₁ : 0 < X₁) (hX₂ : 0 < X₂)
+-    (hell : 0 ≤ ell) (hkappa : 3/4 ≤ kappa)
++    (hell : 0 ≤ ell) (hkappa : 37/50 ≤ kappa)
+     (hlarge : 5*M/6 ≤ Real.logb Z (X₁*X₂)+ell)
+     (hcap : Real.logb Z (X₁*X₂)+ell+(6*kappa-1)*ell ≤ M)
+     (D : Finset (Ideal O)) (hD : ∀ I ∈ D, Prime I) :
+@@ -28,7 +28,7 @@
+ 
+ lemma clipped_reflected_bound (Z M X₁ X₂ ell kappa xi reflected : ℝ)
+     (hZ : 1 < Z) (hM : 0 ≤ M) (hX₁ : 0 < X₁) (hX₂ : 0 < X₂)
+-    (hell : 0 ≤ ell) (hkappa : 3/4 ≤ kappa) (hxi : 0 ≤ xi)
++    (hell : 0 ≤ ell) (hkappa : 37/50 ≤ kappa) (hxi : 0 ≤ xi)
+     (hlarge : 5*M/6 ≤ Real.logb Z (X₁*X₂)+ell)
+     (hcap : Real.logb Z (X₁*X₂)+ell+(6*kappa-1)*ell ≤ M)
+     (D : Finset (Ideal O)) (hD : ∀ I ∈ D, Prime I)
+--- a/OAI/NumberTheory/DirichletL/Energy/ReferenceDivisors.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/ReferenceDivisors.lean
+@@ -43,7 +43,7 @@
+ 
+ theorem balanced_divisor_range {Z Bmask bΦ:ℝ}(s:NaturalState Z Bmask bΦ)
+     (hZ:1<Z)(L X₁ X₂ ell κ:ℝ)(hwidth:s.width≤L)
+-    (hX₁:0<X₁)(hX₂:0<X₂)(hell:0≤ell)(hκ:3/4≤κ)
++    (hX₁:0<X₁)(hX₂:0<X₂)(hell:0≤ell)(hκ:37/50≤κ)
+     (hlarge:5*s.width/6≤Real.logb Z (X₁*X₂)+ell)
+     (hcap:Real.logb Z (X₁*X₂)+ell+(6*κ-1)*ell≤s.width)
+     (D₁ D₂:Finset (Ideal O))
+--- a/OAI/NumberTheory/DirichletL/Energy/ReferenceLiveBounded.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/ReferenceLiveBounded.lean
+@@ -36,7 +36,7 @@
+         Mcap e κ Z η₀ Q degree S K →
+       ∀(θ:α→RayQuotient.Characters M H)(w σ freq:α→ℝ)(t height:ℝ),
+       (∀i,0≤w i) → (∀i,w i≤Lslot) → (∀i,lo≤σ i) → (∀i,σ i≤hi) →
+-      0≤height → (∀i,|freq i|≤height) → 3/4≤κ →
++      0≤height → (∀i,|freq i|≤height) → 37/50≤κ →
+       ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀ → rho≤s.width → s.width≤Mcap →
+       ∀p:Profiles a b,
+       ∀X₁ X₂:ℝ,0<X₁ → 0<X₂ →
+--- a/OAI/NumberTheory/DirichletL/Energy/ReferenceLivePower.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/ReferenceLivePower.lean
+@@ -36,7 +36,7 @@
+         Mcap d κ Z η₀ Q degree S K →
+       ∀(θ:α→RayQuotient.Characters M H)(w σ freq:α→ℝ)(t height:ℝ),
+       (∀i,0≤w i) → (∀i,w i≤Lslot) → (∀i,lo≤σ i) → (∀i,σ i≤hi) →
+-      0≤height → (∀i,|freq i|≤height) → 3/4≤κ →
++      0≤height → (∀i,|freq i|≤height) → 37/50≤κ →
+       ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀ → rho≤s.width → s.width≤Mcap →
+       ∀p:Profiles a b,
+       ∀X₁ X₂:ℝ,0<X₁ → 0<X₂ →
+--- a/OAI/NumberTheory/DirichletL/Energy/ReferenceLowBranchGeometry.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/ReferenceLowBranchGeometry.lean
+@@ -19,19 +19,19 @@
+       simpa using Real.logb_le_logb_of_le hZ hX hx
+     rw [length,max_eq_left hx,Real.logb_one,max_eq_left hl]
+ 
+-lemma slot_budgets (M total ell kappa:ℝ)(_hM:0≤M)(hell:0≤ell)(hk:3/4≤kappa)
++lemma slot_budgets (M total ell kappa:ℝ)(_hM:0≤M)(hell:0≤ell)(hk:37/50≤kappa)
+     (hlarge:5*M/6≤total+ell)(hcap:total+ell+(6*kappa-1)*ell≤M):
+-    ell≤M/21 ∧ (6*kappa-1)*ell≤M/6:=by
+-  have hkell:7/2*ell≤(6*kappa-1)*ell:=mul_le_mul_of_nonneg_right (by linarith) hell
++    ell≤M/20 ∧ (6*kappa-1)*ell≤M/6:=by
++  have hkell:10/3*ell≤(6*kappa-1)*ell:=mul_le_mul_of_nonneg_right (by linarith) hell
+   constructor <;> nlinarith
+ 
+ theorem reflected_low (M short along ell z kappa xi reflected:ℝ)
+     (hM:0≤M)(_hs:0≤short)(hsM:short≤M/4)(_hell:0≤ell)(_hz:0≤z)(hze:z≤ell)
+-    (hk:3/4≤kappa)(he:ell≤M/21)(hbudget:(6*kappa-1)*ell≤M/6)(hxi:0≤xi)
++    (hk:37/50≤kappa)(he:ell≤M/20)(hbudget:(6*kappa-1)*ell≤M/6)(hxi:0≤xi)
+     (hhigh:5*M/6<short+max 0 along+z)
+     (href:reflected≤max 0 (M-along+xi)):
+-    0<along ∧ reflected+short+z≤16*M/21+xi ∧
+-      reflected+short+6*kappa*z≤13*M/14+xi:=by
++    0<along ∧ reflected+short+z≤23*M/30+xi ∧
++      reflected+short+6*kappa*z≤14*M/15+xi:=by
+   have haz:0<along:=by
+     by_contra hn
+     have ha:along≤0:=le_of_not_gt hn
+@@ -40,7 +40,7 @@
+   rw [max_eq_right haz.le] at hhigh
+   have hzbudget:(6*kappa-1)*z≤M/6:=
+     (mul_le_mul_of_nonneg_left hze (by linarith)).trans hbudget
+-  have hzcap:z≤M/21:=hze.trans he
++  have hzcap:z≤M/20:=hze.trans he
+   refine ⟨haz,?_⟩
+   by_cases hr:0≤M-along+xi
+   · rw [max_eq_right hr] at href
+@@ -50,7 +50,7 @@
+ 
+ theorem deleted_reference_cases (Z M X₁ X₂ ell z kappa xi reflected:ℝ)
+     (hZ:1<Z)(hM:0≤M)(hX₁:0<X₁)(hX₂:0<X₂)(hell:0≤ell)(hz:0≤z)(hze:z≤ell)
+-    (hk:3/4≤kappa)(hxi:0≤xi)
++    (hk:37/50≤kappa)(hxi:0≤xi)
+     (hlarge:5*M/6≤Real.logb Z (X₁*X₂)+ell)
+     (hcap:Real.logb Z (X₁*X₂)+ell+(6*kappa-1)*ell≤M)
+     (D₁ D₂:Finset (Ideal O))(hD₁:∀I∈D₁,Prime I)(hD₂:∀I∈D₂,Prime I)
+@@ -60,7 +60,7 @@
+     let long:=length Z (comparisonSecond Z M X₁ X₂/((∏I∈D₂,I).absNorm:ℝ));
+     (short+long+z≤5*M/6 ∧ short+long+6*kappa*z≤M) ∨
+     (0<Real.logb Z (comparisonSecond Z M X₁ X₂/((∏I∈D₂,I).absNorm:ℝ)) ∧
+-      reflected+short+z≤16*M/21+xi ∧ reflected+short+6*kappa*z≤13*M/14+xi):=by
++      reflected+short+z≤23*M/30+xi ∧ reflected+short+6*kappa*z≤14*M/15+xi):=by
+   dsimp only
+   have hg:=balanced_reference_geometry Z M X₁ X₂ ell kappa hZ hM hX₁ hX₂ hell hk hlarge hcap
+   have hpos:=comparison_positive Z M X₁ X₂ (zero_lt_one.trans hZ) hX₁ hX₂
+@@ -86,8 +86,8 @@
+     exact lt_of_not_ge hlo
+ 
+ lemma reflected_low_admissible (M xi short reflected z kappa:ℝ)
+-    (hxi:xi≤M/14)(ht:reflected+short+z≤16*M/21+xi)
+-    (hc:reflected+short+6*kappa*z≤13*M/14+xi):
++    (hxi:xi≤M/15)(ht:reflected+short+z≤23*M/30+xi)
++    (hc:reflected+short+6*kappa*z≤14*M/15+xi):
+     reflected+short+z≤5*M/6 ∧ reflected+short+6*kappa*z≤M:=by
+   constructor <;> linarith
+ 
+--- a/OAI/NumberTheory/DirichletL/Energy/ReferenceLowDeletedGeometry.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/ReferenceLowDeletedGeometry.lean
+@@ -16,7 +16,7 @@
+     (hZ:1<Z)(hB:0≤Bmask)(Mcap L X₁ X₂ ell z κ xi:ℝ)
+     (hwidth:s.width≤Mcap)(hL:Mcap+Bmask+xi≤L)
+     (hX₁:0<X₁)(hX₂:0<X₂)(hell:0≤ell)(hz:0≤z)(hze:z≤ell)
+-    (hκ:3/4≤κ)(hxi:0≤xi)(hxiM:xi≤s.width/14)
++    (hκ:37/50≤κ)(hxi:0≤xi)(hxiM:xi≤s.width/15)
+     (hlarge:5*s.width/6≤Real.logb Z (X₁*X₂)+ell)
+     (hcap:Real.logb Z (X₁*X₂)+ell+(6*κ-1)*ell≤s.width)
+     (D₁ D₂:Finset (Ideal O))
+--- a/OAI/NumberTheory/DirichletL/Energy/ReferenceLowWindow.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/ReferenceLowWindow.lean
+@@ -27,7 +27,7 @@
+ 
+ theorem deleted_reference_window (Z M X₁ X₂ ell z kappa xi:ℝ)
+     (hZ:1<Z)(hM:0≤M)(hX₁:0<X₁)(hX₂:0<X₂)(hell:0≤ell)(hz:0≤z)(hze:z≤ell)
+-    (hk:3/4≤kappa)(hxi:0≤xi)(hxiM:xi≤M/14)
++    (hk:37/50≤kappa)(hxi:0≤xi)(hxiM:xi≤M/15)
+     (hlarge:5*M/6≤Real.logb Z (X₁*X₂)+ell)
+     (hcap:Real.logb Z (X₁*X₂)+ell+(6*kappa-1)*ell≤M)
+     (D₁ D₂:Finset (Ideal O))(hD₁:∀I∈D₁,Prime I)(hD₂:∀I∈D₂,Prime I):
+--- a/OAI/NumberTheory/DirichletL/Energy/ReferenceRobustBounded.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/ReferenceRobustBounded.lean
+@@ -39,7 +39,7 @@
+         Mcap e κ Z η₀ Q degree S K →
+       ∀(θ:α→RayQuotient.Characters M H)(w σ freq:α→ℝ)(t height:ℝ),
+       (∀i,0≤w i) → (∀i,w i≤Lslot) → (∀i,lo≤σ i) → (∀i,σ i≤hi) →
+-      0≤height → (∀i,|freq i|≤height) → 3/4≤κ →
++      0≤height → (∀i,|freq i|≤height) → 37/50≤κ →
+       ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀ → rho≤s.width → s.width≤Mcap →
+       ∀(W₁ W₂:𝓢(ℝ,ℂ)),
+       Function.support (W₁:ℝ→ℂ)⊆Set.Icc a b →
+@@ -69,7 +69,7 @@
+   refine ⟨hZ.1,?_⟩
+   intro e Lslot κ η₀ Q K he hK hlow θ w σ freq t height hw hwL hσlo hσhi hheight hfreq hκ
+     s hQ hslo hs W₁ W₂ hs₁ hs₂ X₁ X₂ hX₁ hX₂ hlarge hcap
+-  have hxiM:xi+11*(rho/100)/7≤s.width/14:=by linarith
++  have hxiM:xi+8*(rho/100)/5≤s.width/15:=by linarith
+   have hh:=hZ.2 Lslot e κ η₀ Q K hK hlow θ w σ freq t height hw hwL hσlo hσhi hheight hfreq hκ
+     s hQ hs hxiM W₁ W₂ hs₁ hs₂ X₁ X₂ hX₁ hX₂ hlarge hcap
+   have hsum:0≤∑i,w i:=Finset.sum_nonneg (fun i _=>hw i)
+--- a/OAI/NumberTheory/DirichletL/Energy/ReferenceRobustDeletedEnergy.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/ReferenceRobustDeletedEnergy.lean
+@@ -39,8 +39,8 @@
+         Mcap ε κ Z η₀ Q degree S K →
+       ∀(θ:α→RayQuotient.Characters M H)(w σ freq:α→ℝ)(t height:ℝ),
+       (∀i,0≤w i) → (∀i,w i≤Lslot) → (∀i,lo≤σ i) → (∀i,σ i≤hi) →
+-      0≤height → (∀i,|freq i|≤height) → 3/4≤κ →
+-      ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀ → s.width≤Mcap → xi+11*defect/7≤s.width/14 →
++      0≤height → (∀i,|freq i|≤height) → 37/50≤κ →
++      ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀ → s.width≤Mcap → xi+8*defect/5≤s.width/15 →
+       ∀(W₁ W₂:𝓢(ℝ,ℂ)),
+       ∀hs₁:Function.support (W₁:ℝ→ℂ)⊆Set.Icc a b,
+       ∀hs₂:Function.support (W₂:ℝ→ℂ)⊆Set.Icc a b,
+--- a/OAI/NumberTheory/DirichletL/Energy/ReferenceRobustOriginal.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/ReferenceRobustOriginal.lean
+@@ -41,8 +41,8 @@
+         Mcap ε κ Z η₀ Q degree S K →
+       ∀(θ:α→RayQuotient.Characters M H)(w σ freq:α→ℝ)(t height:ℝ),
+       (∀i,0≤w i) → (∀i,w i≤Lslot) → (∀i,lo≤σ i) → (∀i,σ i≤hi) →
+-      0≤height → (∀i,|freq i|≤height) → 3/4≤κ →
+-      ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀ → s.width≤Mcap → xi+11*defect/7≤s.width/14 →
++      0≤height → (∀i,|freq i|≤height) → 37/50≤κ →
++      ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀ → s.width≤Mcap → xi+8*defect/5≤s.width/15 →
+       ∀(W₁ W₂:𝓢(ℝ,ℂ)),
+       ∀hs₁:Function.support (W₁:ℝ→ℂ)⊆Set.Icc a b,
+       ∀hs₂:Function.support (W₂:ℝ→ℂ)⊆Set.Icc a b,
+--- a/OAI/NumberTheory/DirichletL/Energy/ReferenceRobustPower.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/ReferenceRobustPower.lean
+@@ -38,7 +38,7 @@
+         Mcap d κ Z η₀ Q degree S K →
+       ∀(θ:α→RayQuotient.Characters M H)(w σ freq:α→ℝ)(t height:ℝ),
+       (∀i,0≤w i) → (∀i,w i≤Lslot) → (∀i,lo≤σ i) → (∀i,σ i≤hi) →
+-      0≤height → (∀i,|freq i|≤height) → 3/4≤κ →
++      0≤height → (∀i,|freq i|≤height) → 37/50≤κ →
+       ∀(s:NaturalState Z Bmask bΦ),s.fixedModulus=internalQ Q η₀ → rho≤s.width → s.width≤Mcap →
+       ∀(W₁ W₂:𝓢(ℝ,ℂ)),
+       Function.support (W₁:ℝ→ℂ)⊆Set.Icc a b →
+@@ -68,7 +68,7 @@
+   refine ⟨hZ.1,?_⟩
+   intro Lslot κ η₀ Q K hK hlow θ w σ freq t height hw hwL hσlo hσhi hheight hfreq hκ
+     s hQ hslo hs W₁ W₂ hs₁ hs₂ X₁ X₂ hX₁ hX₂ hlarge hcap
+-  have hxiM:xi+11*(rho/100)/7≤s.width/14:=by linarith
++  have hxiM:xi+8*(rho/100)/5≤s.width/15:=by linarith
+   have hh:=hZ.2 Lslot d κ η₀ Q K hK hlow θ w σ freq t height hw hwL hσlo hσhi hheight hfreq hκ
+     s hQ hs hxiM W₁ W₂ hs₁ hs₂ X₁ X₂ hX₁ hX₂ hlarge hcap
+   have hsum:0≤∑i,w i:=Finset.sum_nonneg (fun i _=>hw i)
+--- a/OAI/NumberTheory/DirichletL/Energy/ReferenceState.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/ReferenceState.lean
+@@ -73,16 +73,16 @@
+   rfl
+ 
+ theorem balanced_reference_geometry (Z M X₁ X₂ ell κ:ℝ)
+-    (hZ:1<Z)(hM:0≤M)(hX₁:0<X₁)(hX₂:0<X₂)(hell:0≤ell)(hκ:3/4≤κ)
++    (hZ:1<Z)(hM:0≤M)(hX₁:0<X₁)(hX₂:0<X₂)(hell:0≤ell)(hκ:37/50≤κ)
+     (hlarge:5*M/6≤Real.logb Z (X₁*X₂)+ell)
+     (hcap:Real.logb Z (X₁*X₂)+ell+(6*κ-1)*ell≤M):
+-    ell≤M/21 ∧
++    ell≤M/20 ∧
+     1≤comparisonFirst Z M ∧
+     comparisonFirst Z M≤comparisonSecond Z M X₁ X₂ ∧
+     Real.logb Z (comparisonSecond Z M X₁ X₂)=Real.logb Z (X₁*X₂)-M/4 ∧
+     Real.logb Z (comparisonSecond Z M X₁ X₂)≤M:=by
+-  have hkell:7/2*ell≤(6*κ-1)*ell:=mul_le_mul_of_nonneg_right (by linarith) hell
+-  have he:ell≤M/21:=by linarith
++  have hkell:10/3*ell≤(6*κ-1)*ell:=mul_le_mul_of_nonneg_right (by linarith) hell
++  have he:ell≤M/20:=by linarith
+   have hlen:M/2≤Real.logb Z (X₁*X₂):=by linarith
+   have hupper:Real.logb Z (X₁*X₂)-M/4≤M:=by linarith
+   have hlog:Real.logb Z (comparisonSecond Z M X₁ X₂)=Real.logb Z (X₁*X₂)-M/4:=by
+@@ -94,7 +94,7 @@
+   exact Real.rpow_le_rpow_of_exponent_le hZ.le (by linarith)
+ 
+ theorem balanced_reflection_margins (Z M X₁ X₂ ell κ ξ reflected:ℝ)
+-    (hZ:1<Z)(hM:0≤M)(hX₁:0<X₁)(hX₂:0<X₂)(hell:0≤ell)(hκ:3/4≤κ)
++    (hZ:1<Z)(hM:0≤M)(hX₁:0<X₁)(hX₂:0<X₂)(hell:0≤ell)(hκ:37/50≤κ)
+     (hlarge:5*M/6≤Real.logb Z (X₁*X₂)+ell)
+     (hcap:Real.logb Z (X₁*X₂)+ell+(6*κ-1)*ell≤M)
+     (href:reflected≤M-Real.logb Z (comparisonSecond Z M X₁ X₂)+ξ):
+--- a/OAI/NumberTheory/DirichletL/Energy/ZeroGrowthPhysical.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/ZeroGrowthPhysical.lean
+@@ -32,7 +32,7 @@
+     (Wslot:ℝ→ℂ)(aslot bslot Lslot lo hi κ a b bΦ Bmask Lgoal Lchild Mparent Mchild
+       Mschedule Bschedule ε:ℝ)
+     (haslot:0<aslot)(hWs:Function.support Wslot⊆Set.Icc aslot bslot)
+-    (hW:ContDiff ℝ ∞ Wslot)(hLs:0≤Lslot)(hκ:(3/4:ℝ)≤κ)
++    (hW:ContDiff ℝ ∞ Wslot)(hLs:0≤Lslot)(hκ:(37/50:ℝ)≤κ)
+     (hbeta:(51/100:ℝ)≤HeckeZeroSupremum.beta)(hκbeta:2*HeckeZeroSupremum.beta-1≤κ)
+     (ha:0<a)(hb:0≤b)(hBmask:0≤Bmask)(hLgoal:0≤Lgoal)(hLchild:0≤Lchild)
+     (hMparent:0≤Mparent)(hMchild:0≤Mchild)(hMschedule:0≤Mschedule)(hBschedule:0≤Bschedule)
+--- a/OAI/NumberTheory/DirichletL/Moments/ReflectionRetainedLength.lean
++++ b/OAI/NumberTheory/DirichletL/Moments/ReflectionRetainedLength.lean
+@@ -59,12 +59,12 @@
+     reflected+b+z≤3*M/2-A+2*z+xi := by linarith
+ 
+ lemma positive_slot_width_drop (M A z xi kappa : ℝ)
+-    (hM : 0≤M) (hz : 0≤z) (hk : 3/4≤kappa)
++    (hM : 0≤M) (hz : 0≤z) (hk : 37/50≤kappa)
+     (hA : 5*M/6≤A) (hcap : A+(6*kappa-1)*z≤M) :
+     3*M/2-A+2*z+xi≤23*M/30+xi ∧
+     3*M/2-A+2*z+xi+(6*kappa-1)*z≤14*M/15+xi := by
+-  have hkz : 7/2*z≤(6*kappa-1)*z := mul_le_mul_of_nonneg_right (by linarith) hz
+-  have hsmall : z≤M/21 := by linarith
++  have hkz : 10/3*z≤(6*kappa-1)*z := mul_le_mul_of_nonneg_right (by linarith) hz
++  have hsmall : z≤M/20 := by linarith
+   constructor <;> nlinarith
+ 
+ end SevenEighths.CenteredMomentReflectionRetainedLength

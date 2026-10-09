@@ -1,0 +1,13 @@
+{
+  "module": "OAI.NumberTheory.DirichletL.Energy.PositiveHighSource",
+  "captured_at_utc": "2026-10-09T07:34:34.170318+00:00",
+  "before_raw_sha256": "144ec63fa8f33fc5f239df0f7e05cd71f3ed4113272179713558a7b4cdb960e9",
+  "after_raw_sha256": "e7434c627192f3eb2c9fdadffe32327e15d0c082577c6867e69621d70518e270",
+  "captured_failed_state_sha256": "d45421af7970fa3a2355d41bc0999ffe264440e1a6ab18f3df4fc597fac01aa6",
+  "failed_state_entry_source_matches_before": true,
+  "failure_log_sha256": "a208361f80cef6e686731b6490755af5b81775f2c712f6b6c5c599d3b5415f91",
+  "repair": "explicitly derive 1/6 <= kappa from the existing 37/50 <= kappa hypothesis at balanced_volume_bound call",
+  "declaration_headers_definitions_hypotheses_unchanged": true,
+  "status": "proof_only_delta_prepared_pending_actual_compile",
+  "original_frozen_41_patch_preserved": "d18941bdb3a32f42032c5e82c6518baa5dc03968ff8af652ca30d62d6467566e"
+}

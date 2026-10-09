@@ -68,15 +68,22 @@ boundedness and the Mellin identity no longer need to be provided as fields.
 It remains a proposition with no proved inhabitant. The theorem
 `riemannZeta_ne_zero_of_arithmetic_probe` takes it explicitly.
 
+The complete actual low-kappa energy induction now passed compilation and
+independent replay through `actual_successor`, `certified_bands`,
+`terminal_certificate` and `certified_terminal`. These declarations retain
+all moving conductor, natural coefficient, mask and profile data, together
+with beta>=51/100, kappa>=37/50 and 2*HeckeZeroSupremum.beta-1<=kappa.
+The last interface takes the terminal CertifiedBand as a premise; the preceding
+certificate constructs that premise. Their actual ZeroAt/PositiveAt output
+is an energy estimate, not a complete detector Moments record.
+
 An unconditional improved-region theorem still requires kernel-checked proofs of:
 
-1. The full plain-moment induction for kappa >= 37/50, retaining the original
-moving conductors, natural row-zero extensions, masks, coefficient classes
-and actual premise 2*HeckeZeroSupremum.beta-1 <= kappa. The frozen 41-module
-patch repairs the original kappa >= 3/4 budgets; its complete terminal
-certificate still awaits actual compilation and independent replay. The
-separate moving-parameter and arbitrary-total slot constructors are checked,
-but do not construct the complete marked moments.
+1. Instantiate the terminal energy with the actual canonical finite detector
+rows and supply the complete marked moments. The new finite-row modules
+construct the radial profile, NaturalState and witness retraction and prove
+the actual fiber-to-energy dictionary. Canonical Batch admission, capacity
+coverage and the uniform height budget remain to be assembled.
 2. The flexible compensated probe for new lx, ly, h and e, including its
 actual reflected-energy estimate. The new lowGramFactor and physical-scale
 extension proves the variable-exponent scale gate; the full low-probe bound
@@ -105,7 +112,7 @@ real algebra remain separately classified.
 | Paper section | Formal coverage |
 |---|---|
 | Root and comparison | Boundary, complete. |
-| Extended plain moment | Numerical budget/slack in Geometry; analytic induction open. |
+| Extended plain moment | Scalar budget/slack in Geometry; separate actual low-kappa energy induction and terminal output independently checked. Full marked-moment integration remains open. |
 | Inverse/plain counts | Rational envelope and feedback in Feedback; arithmetic realization open. |
 | Probe and low estimate | SourceScaling checks complex-power normalization and its zeta-amplitude identity; separate actual source normalization and Gram-factor scale gates are available. Full reflected sums and the complete probe estimate remain open. |
 | Continuous reference certificate | Certificate plus Main, complete for the stated envelope. |

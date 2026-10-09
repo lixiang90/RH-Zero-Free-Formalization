@@ -1,0 +1,32 @@
+Initialized empty Git repository in E:/codex-build/RH-Zero-Free-Formalization/tmp/repro-final19-final41-repaired-20261009/.git/
+{
+  "directory": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\repro-final19-final41-repaired-20261009",
+  "modules": 2231,
+  "original_upstream_modules": 2212,
+  "authored_extension_modules": 19,
+  "targets": [
+    "OAI.NumberTheory.DirichletL.Moments.ReflectionRetainedLength",
+    "OAI.NumberTheory.DirichletL.Energy.CertifiedExistence",
+    "OAI.NumberTheory.DirichletL.Detector.GlobalRegionLowKappa",
+    "OAI.NumberTheory.DirichletL.Detector.GlobalCorrectionLowKappa",
+    "LowKappaParameters",
+    "OAI.NumberTheory.DirichletL.ParametersSlotLengthsLowKappa",
+    "OAI.NumberTheory.DirichletL.Detector.GlobalSourceCorrectionExistenceLowKappa",
+    "OAI.NumberTheory.DirichletL.PrincipalSignalScalingLowKappa",
+    "OAI.NumberTheory.DirichletL.Hecke.DirichletLowKappa",
+    "OAI.NumberTheory.DirichletL.Detector.LowSourceScalesLowKappa",
+    "OAI.NumberTheory.DirichletL.PrimeRows.CubeNormalizerLowKappa",
+    "OAI.NumberTheory.DirichletL.PrincipalSlotEstimateLowKappa",
+    "OAI.NumberTheory.DirichletL.PrincipalSignalComparisonLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.RayIdentityClassCoefficient",
+    "OAI.NumberTheory.DirichletL.Moments.FinitePositiveRowDomination",
+    "OAI.NumberTheory.DirichletL.Moments.FixedRadialRowDomination",
+    "OAI.NumberTheory.DirichletL.Moments.FiniteFamilyNonexceptional",
+    "OAI.NumberTheory.DirichletL.Moments.FiberRelativeEnergyBridge",
+    "OAI.NumberTheory.DirichletL.Hecke.FiniteSupportedWitnessRetraction",
+    "OAI.NumberTheory.DirichletL.Moments.FiniteRowNaturalState",
+    "OAI.NumberTheory.DirichletL.Moments.DetectorPairControl"
+  ],
+  "status": "prepared_pending_compile",
+  "record": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\repro-final19-final41-repaired-20261009\\capsule-reproduction.json"
+}

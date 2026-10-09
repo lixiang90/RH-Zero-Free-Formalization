@@ -1,0 +1,30 @@
+{
+  "cached": false,
+  "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Energy\\PositiveHighSourceBounded.lean",
+  "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+  "source_sha256": "1e4bb0f4aab63c86da76b7a2618266d22c54cda9e1cb083097ffd20a59ca25f8",
+  "imports": [
+    "OAI.NumberTheory.DirichletL.Energy.PositiveHighSource",
+    "OAI.NumberTheory.DirichletL.Energy.NaturalInputMatches",
+    "OAI.NumberTheory.DirichletL.Energy.OriginalHighReflectionSymmetric",
+    "OAI.NumberTheory.DirichletL.Energy.ReferenceLiveBounded",
+    "OAI.NumberTheory.DirichletL.Energy.FixedRadialReduction",
+    "OAI.NumberTheory.DirichletL.Energy.PhysicalEntry"
+  ],
+  "fingerprint": "28fedb4fda25fa53a30871898b1db2d531514479600ef2c1753a56c547a84bc1",
+  "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\PositiveHighSourceBounded.olean",
+  "exit_code": 1,
+  "wall_seconds": 12.625,
+  "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-154357-bounded8v2\\OAI.NumberTheory.DirichletL.Energy.PositiveHighSourceBounded.log",
+  "command": [
+    "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-o",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\PositiveHighSourceBounded.olean",
+    "-i",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\PositiveHighSourceBounded.ilean",
+    "-DautoImplicit=false",
+    "OAI\\NumberTheory\\DirichletL\\Energy\\PositiveHighSourceBounded.lean"
+  ]
+}

@@ -1,0 +1,2 @@
+E:\codex-build\RH-Weil\tmp\finite-row-positiveat-source-audit-20261009\FinitePositiveRowDomination.candidate.lean:52:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: rellich-kondrachov: repository 'E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake/packages\rellich-kondrachov' has local changes

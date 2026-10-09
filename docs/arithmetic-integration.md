@@ -20,6 +20,12 @@ improved zero-free region.
 The new LowKappaParameters module binds the moving parameter to the actual
 Hecke supremum. It retains the old family bound beta<=7/8 explicitly wherever
 kappa<=3/4 is needed; that bound is not inferred from a zeta-only theorem.
+The pinned original source has a genuinely unconditional
+`Detector.FinalAssemblyUnconditional.detector_certified_bands` construction,
+which yields the full-family 7/8 bound through its chosen moments and common
+probe. That downstream closure includes 711 additional OAI modules not yet
+compiled by this capsule; the source audit is not a kernel certificate for
+the bootstrap.
 
 ## Principal normalization
 
@@ -73,8 +79,9 @@ dependencies; neither assertion supplies the missing physical estimates.
 
 The remaining integration must supply these actual interfaces:
 
-1. Complete the low-kappa terminal CertifiedBand induction with moving
-   conductors, natural coefficients, masks, row-zero extensions and mesh order.
+1. Instantiate the now independently checked low-kappa terminal CertifiedBand
+   induction with the actual detector data, preserving moving conductors,
+   natural coefficients, masks, row-zero extensions and mesh order.
 2. Generalize the physical low probe from the fixed lx=17/48, ly=23/48
    and total slots=1/6 to the paper's parameters, proving the reflected-energy
    and Gram estimates for actual sums.
@@ -132,7 +139,10 @@ an exact finite-row dictionary and a direct radial-energy route. The canonical
 central rowBand already supplies rowNorm>=Z^(1/100); its generic Batch
 consumers do not construct the required canonical Batch. The new ray
 coefficient identity removes the restriction to the trivial ray character.
-The remaining bridge must prove the radial domination, source/mask geometry,
+The new finite-row modules prove radial domination and the exact actual
+fiber-to-energy dictionary, construct the NaturalState and extend finite
+witnesses. The remaining bridge must supply canonical source/mask admission,
 full capacity coverage and a uniform height-loss budget before it can supply
-plain_marked. The inverse_raw, inverse_marked and plain_unmarked fields also
+plain_marked. The [finite-row integration note](finite-row-energy-integration.zh.md)
+records the actual conditions and the squared profile loss C^4(1+norm(t))^(4J). The inverse_raw, inverse_marked and plain_unmarked fields also
 remain separate requirements of a complete Moments record.

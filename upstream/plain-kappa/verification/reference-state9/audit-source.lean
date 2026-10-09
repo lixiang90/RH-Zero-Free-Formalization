@@ -1,0 +1,43 @@
+import UpstreamNano_20261009_151022
+set_option pp.universes true
+set_option pp.fullNames true
+set_option pp.explicit true
+set_option pp.all true
+set_option pp.maxSteps 1000000
+
+set_option pp.universes true
+#check @OAI.SevenEighths.CenteredMomentEnergyReferenceState.radialEnergy_effective
+set_option pp.universes false
+#print axioms OAI.SevenEighths.CenteredMomentEnergyReferenceState.radialEnergy_effective
+set_option pp.universes true
+#check @OAI.SevenEighths.CenteredMomentEnergyReferenceState.effective_row_norm
+set_option pp.universes false
+#print axioms OAI.SevenEighths.CenteredMomentEnergyReferenceState.effective_row_norm
+set_option pp.universes true
+#check @OAI.SevenEighths.CenteredMomentEnergyReferenceState.effective_character_nonprincipal
+set_option pp.universes false
+#print axioms OAI.SevenEighths.CenteredMomentEnergyReferenceState.effective_character_nonprincipal
+set_option pp.universes true
+#check @OAI.SevenEighths.CenteredMomentEnergyReferenceState.effective_character_cap
+set_option pp.universes false
+#print axioms OAI.SevenEighths.CenteredMomentEnergyReferenceState.effective_character_cap
+set_option pp.universes true
+#check @OAI.SevenEighths.CenteredMomentEnergyReferenceState.comparison_positive
+set_option pp.universes false
+#print axioms OAI.SevenEighths.CenteredMomentEnergyReferenceState.comparison_positive
+set_option pp.universes true
+#check @OAI.SevenEighths.CenteredMomentEnergyReferenceState.comparison_same_product
+set_option pp.universes false
+#print axioms OAI.SevenEighths.CenteredMomentEnergyReferenceState.comparison_same_product
+set_option pp.universes true
+#check @OAI.SevenEighths.CenteredMomentEnergyReferenceState.comparison_second_power
+set_option pp.universes false
+#print axioms OAI.SevenEighths.CenteredMomentEnergyReferenceState.comparison_second_power
+set_option pp.universes true
+#check @OAI.SevenEighths.CenteredMomentEnergyReferenceState.balanced_reference_geometry
+set_option pp.universes false
+#print axioms OAI.SevenEighths.CenteredMomentEnergyReferenceState.balanced_reference_geometry
+set_option pp.universes true
+#check @OAI.SevenEighths.CenteredMomentEnergyReferenceState.balanced_reflection_margins
+set_option pp.universes false
+#print axioms OAI.SevenEighths.CenteredMomentEnergyReferenceState.balanced_reflection_margins

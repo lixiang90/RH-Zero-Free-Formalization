@@ -1,0 +1,576 @@
+{
+  "kind": "read_only_actual_finite_row_positiveat_source_review_and_standalone_candidate",
+  "upstream_revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "lean_version": "4.34.1",
+  "mathlib_revision": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "review_source_bindings": {
+    "OAI/NumberTheory/DirichletL/Moments/DetectorDictionaryFiber.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionaryFiber.lean",
+      "raw_sha256": "1452f3b17324dc18738a8a986a344bcc826283273d4824733d14fa3025b6ee84",
+      "lf_sha256": "329b8f98e7c80578bf2e1d9a5d6a7887af508f69c0b9e55e89493b57b668d5bf",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionaryFiber.lean",
+      "git_blob": "99ce4aa42aa86ceb3dd29de8807119485cb8fa92",
+      "git_blob_raw_sha256": "329b8f98e7c80578bf2e1d9a5d6a7887af508f69c0b9e55e89493b57b668d5bf",
+      "git_blob_lf_sha256": "329b8f98e7c80578bf2e1d9a5d6a7887af508f69c0b9e55e89493b57b668d5bf",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Moments/DetectorDictionarySource.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionarySource.lean",
+      "raw_sha256": "2f9894c7cc17a0b329229f826397b6708a0294bbc40726afa3c35248cd0f3e98",
+      "lf_sha256": "b8f6d1f292e243d21ee2a48e3c7d0033e27055d1fad16953881064ed1b1e7391",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionarySource.lean",
+      "git_blob": "e1ee26c29aa796ca308f071f135a1b19bac32b00",
+      "git_blob_raw_sha256": "b8f6d1f292e243d21ee2a48e3c7d0033e27055d1fad16953881064ed1b1e7391",
+      "git_blob_lf_sha256": "b8f6d1f292e243d21ee2a48e3c7d0033e27055d1fad16953881064ed1b1e7391",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Moments/DetectorDictionarySlots.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionarySlots.lean",
+      "raw_sha256": "2b78a21489a0a4af9df2453afe6580bbc9d648cf92e9a53d5b387012ad502dc6",
+      "lf_sha256": "d263889b617997352d8480a25fabccb3f5e8af814399deda52d563375eee6541",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionarySlots.lean",
+      "git_blob": "1023c2a7008ce3e428f6867a0d5339911df5da15",
+      "git_blob_raw_sha256": "d263889b617997352d8480a25fabccb3f5e8af814399deda52d563375eee6541",
+      "git_blob_lf_sha256": "d263889b617997352d8480a25fabccb3f5e8af814399deda52d563375eee6541",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Moments/DetectorDictionaryProfiles.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionaryProfiles.lean",
+      "raw_sha256": "346a286bea7e1af3bad0041c6ebda6a25e0cc64e4b0f309dee0fc9cc54379c06",
+      "lf_sha256": "e0269ea9a9637b66bbf82eae7d776e0cdcccae18fa7413796a2952c128771146",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionaryProfiles.lean",
+      "git_blob": "3af5cce6d728018703c4ff091ae26a9b95f4505b",
+      "git_blob_raw_sha256": "e0269ea9a9637b66bbf82eae7d776e0cdcccae18fa7413796a2952c128771146",
+      "git_blob_lf_sha256": "e0269ea9a9637b66bbf82eae7d776e0cdcccae18fa7413796a2952c128771146",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Moments/DetectorDictionaryUniformTests.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionaryUniformTests.lean",
+      "raw_sha256": "0e9f8adb9eebef1f15c047e545d9eba302dc5fe3911c325b824ab56067db5fdf",
+      "lf_sha256": "2e4a2dfe4c3499924e985ceab3f89f73ff0fba29f2ce844bffec266e0f824043",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionaryUniformTests.lean",
+      "git_blob": "e7b4bbc5f53ad05c6afe3add694e8b7f2d231ca1",
+      "git_blob_raw_sha256": "2e4a2dfe4c3499924e985ceab3f89f73ff0fba29f2ce844bffec266e0f824043",
+      "git_blob_lf_sha256": "2e4a2dfe4c3499924e985ceab3f89f73ff0fba29f2ce844bffec266e0f824043",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Moments/DetectorDictionaryUniformHeight.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionaryUniformHeight.lean",
+      "raw_sha256": "b5b4e0cdc390f8bcae744e12921b87e1b935d3a5f6e709b1072c13228a2cbd2b",
+      "lf_sha256": "02786e3187ade1aa46acbca98e597dd96f1e00cf85f464711fad6b4644a4e27c",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionaryUniformHeight.lean",
+      "git_blob": "9ff21bfd80872f7882a6cd79df1b70e18c49f7c3",
+      "git_blob_raw_sha256": "02786e3187ade1aa46acbca98e597dd96f1e00cf85f464711fad6b4644a4e27c",
+      "git_blob_lf_sha256": "02786e3187ade1aa46acbca98e597dd96f1e00cf85f464711fad6b4644a4e27c",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Moments/DetectorDictionaryUniformLog.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionaryUniformLog.lean",
+      "raw_sha256": "4882e53e02c5a36375a6ee81cba864a1e3a186e6fcbb8e1185acb52fb6d8d11f",
+      "lf_sha256": "a4998cbac5b5001efcc83c86914d5fa26456fddb67c907addc70bb4182b2921a",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionaryUniformLog.lean",
+      "git_blob": "a873147e89ec471d2253b08cd5ef0b061efd5d8d",
+      "git_blob_raw_sha256": "a4998cbac5b5001efcc83c86914d5fa26456fddb67c907addc70bb4182b2921a",
+      "git_blob_lf_sha256": "a4998cbac5b5001efcc83c86914d5fa26456fddb67c907addc70bb4182b2921a",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Moments/NaturalFixedRaySourceFiber.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\NaturalFixedRaySourceFiber.lean",
+      "raw_sha256": "0f3f6267f8fe1850215b8c2d5db856808d33b15501c5ad41fa8fc6d276762c72",
+      "lf_sha256": "4cffd09d689f283fe1c122c150e8f65292175804a6991aa2e12fb9b01a1cd64d",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\NaturalFixedRaySourceFiber.lean",
+      "git_blob": "b5ee9d7d05985a15a1e00fce475d1347fb2ac12d",
+      "git_blob_raw_sha256": "4cffd09d689f283fe1c122c150e8f65292175804a6991aa2e12fb9b01a1cd64d",
+      "git_blob_lf_sha256": "4cffd09d689f283fe1c122c150e8f65292175804a6991aa2e12fb9b01a1cd64d",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Moments/NaturalFixedRaySourceBatch.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\NaturalFixedRaySourceBatch.lean",
+      "raw_sha256": "8291f8700e87eacd90e3dbf7da0102a7bad34598322addc4f6672b85f3026a68",
+      "lf_sha256": "bcabe2864432eeaa7817d5a7481164b2ddb0e856c8b8cf0fde37c6c870b53783",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\NaturalFixedRaySourceBatch.lean",
+      "git_blob": "f2a2540b7035759d94fa9dd0b2f55364ae868897",
+      "git_blob_raw_sha256": "bcabe2864432eeaa7817d5a7481164b2ddb0e856c8b8cf0fde37c6c870b53783",
+      "git_blob_lf_sha256": "bcabe2864432eeaa7817d5a7481164b2ddb0e856c8b8cf0fde37c6c870b53783",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Moments/NaturalFixedRaySourceCharacters.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\NaturalFixedRaySourceCharacters.lean",
+      "raw_sha256": "109c1a153b9a5f5f9545946b73184396801791da94f38066127071adf3871189",
+      "lf_sha256": "12044cf80f4564f2efb1c221d797ae122398a774a8624e95cb58b51f36cf427c",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\NaturalFixedRaySourceCharacters.lean",
+      "git_blob": "54aa60ba011f31c67333550fb0205b21549bb534",
+      "git_blob_raw_sha256": "12044cf80f4564f2efb1c221d797ae122398a774a8624e95cb58b51f36cf427c",
+      "git_blob_lf_sha256": "12044cf80f4564f2efb1c221d797ae122398a774a8624e95cb58b51f36cf427c",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Moments/NaturalFixedRaySourceInternal.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\NaturalFixedRaySourceInternal.lean",
+      "raw_sha256": "0ade3f70de71ba092e670b54568bc84bd17a265aeb1412ab1ba71a9a61dd9cd4",
+      "lf_sha256": "ceb3cb424caeb79f840031156695189f88ff1db3ab88b170caf07a33382b2e79",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\NaturalFixedRaySourceInternal.lean",
+      "git_blob": "a2b2993ad9c7f3830518f744864dae3468972c0b",
+      "git_blob_raw_sha256": "ceb3cb424caeb79f840031156695189f88ff1db3ab88b170caf07a33382b2e79",
+      "git_blob_lf_sha256": "ceb3cb424caeb79f840031156695189f88ff1db3ab88b170caf07a33382b2e79",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Moments/NaturalFixedRaySourceFixedIdeal.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\NaturalFixedRaySourceFixedIdeal.lean",
+      "raw_sha256": "190e5726dbc032db6d9c0ea31d9b45e7abbbd8ddcc2acb7564c34fee8eac26cb",
+      "lf_sha256": "7814f20f7dae39272b939a7ea392bc6022abcc0757582560c77571a40c21ad22",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\NaturalFixedRaySourceFixedIdeal.lean",
+      "git_blob": "6f0792817c18262c8b70028886bc7fdf4ee57937",
+      "git_blob_raw_sha256": "7814f20f7dae39272b939a7ea392bc6022abcc0757582560c77571a40c21ad22",
+      "git_blob_lf_sha256": "7814f20f7dae39272b939a7ea392bc6022abcc0757582560c77571a40c21ad22",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Moments/NaturalFixedRaySourceFreeExceptional.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\NaturalFixedRaySourceFreeExceptional.lean",
+      "raw_sha256": "e61699d887e4375efe50cd0ad7c719857901066f1d11eca3e82582a966c81514",
+      "lf_sha256": "4dbb1822fa52e5743cd4a43d77baa773d9c299e554d13496f5a1c9d6d4318b35",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\NaturalFixedRaySourceFreeExceptional.lean",
+      "git_blob": "70357f2ed8192ecb5738fdc08d9c481c380c2181",
+      "git_blob_raw_sha256": "4dbb1822fa52e5743cd4a43d77baa773d9c299e554d13496f5a1c9d6d4318b35",
+      "git_blob_lf_sha256": "4dbb1822fa52e5743cd4a43d77baa773d9c299e554d13496f5a1c9d6d4318b35",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Moments/FiniteProfileExceptionalPair.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\FiniteProfileExceptionalPair.lean",
+      "raw_sha256": "f4e6a790fafc9dce047fbbc0acc3fbb01643b288050e79a7ef3e3ff1e406028d",
+      "lf_sha256": "956ff7daf1e9da732bfce2b6ada80f6b4edadf40b51858dd9ee3f011d11690d1",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\FiniteProfileExceptionalPair.lean",
+      "git_blob": "3e3db938e848797e6e2e917b49a4cdeeae484e68",
+      "git_blob_raw_sha256": "956ff7daf1e9da732bfce2b6ada80f6b4edadf40b51858dd9ee3f011d11690d1",
+      "git_blob_lf_sha256": "956ff7daf1e9da732bfce2b6ada80f6b4edadf40b51858dd9ee3f011d11690d1",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Moments/FiniteProfileExceptionalNormalize.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\FiniteProfileExceptionalNormalize.lean",
+      "raw_sha256": "63962cab986744c497aa52a2770cf1aaca8c810919dd332d3aff93125b2fc1dc",
+      "lf_sha256": "3a9731f3d3f6c45f6198f74599d3a5c09bfc751d40c1d306473b777fa68ff05a",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\FiniteProfileExceptionalNormalize.lean",
+      "git_blob": "28034ed8115d99b0aebad4da507dd69629fda93a",
+      "git_blob_raw_sha256": "3a9731f3d3f6c45f6198f74599d3a5c09bfc751d40c1d306473b777fa68ff05a",
+      "git_blob_lf_sha256": "3a9731f3d3f6c45f6198f74599d3a5c09bfc751d40c1d306473b777fa68ff05a",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Moments/RetainedEnergy.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\RetainedEnergy.lean",
+      "raw_sha256": "2c6afbe49477008b64f702cfa32bd543af5cd7990d132b2cf341ffe3ee0fd3bd",
+      "lf_sha256": "eeb0dd6dafd5fac1b7aeb570bda344613d65c2208b172828212837a4beb89fe1",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\RetainedEnergy.lean",
+      "git_blob": "85b1e7eaedb80c3c4271d3a57f7e8f20488c5341",
+      "git_blob_raw_sha256": "eeb0dd6dafd5fac1b7aeb570bda344613d65c2208b172828212837a4beb89fe1",
+      "git_blob_lf_sha256": "eeb0dd6dafd5fac1b7aeb570bda344613d65c2208b172828212837a4beb89fe1",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Moments/InductionEnergy.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\InductionEnergy.lean",
+      "raw_sha256": "1bb64bac9e5e03fbda5f90a1ab05519a145afe75aeac58c0b15eb67c0ab65141",
+      "lf_sha256": "010e75c398c3a7a7a50399baa3b293371367ec45a6fd7b81f9662be6e787ce44",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\InductionEnergy.lean",
+      "git_blob": "2f4ed341d662bd6479cd4fd3dec83b96aded9783",
+      "git_blob_raw_sha256": "010e75c398c3a7a7a50399baa3b293371367ec45a6fd7b81f9662be6e787ce44",
+      "git_blob_lf_sha256": "010e75c398c3a7a7a50399baa3b293371367ec45a6fd7b81f9662be6e787ce44",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Moments/PositiveSummability.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\PositiveSummability.lean",
+      "raw_sha256": "9884c65e35b55678c75d47044ebce9f57503e541317003427ad38988e5fb055e",
+      "lf_sha256": "5e9c587aa2b23ffa17600f0c50cd207d058dfb80d39175900ba835778d9d43e5",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\PositiveSummability.lean",
+      "git_blob": "3542c2cc0eabe724112ad1bea1e10fbed754c8fe",
+      "git_blob_raw_sha256": "5e9c587aa2b23ffa17600f0c50cd207d058dfb80d39175900ba835778d9d43e5",
+      "git_blob_lf_sha256": "5e9c587aa2b23ffa17600f0c50cd207d058dfb80d39175900ba835778d9d43e5",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Moments/PrimeSlot.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\PrimeSlot.lean",
+      "raw_sha256": "b55cab3d0ee3306d4cff599a923fca6cafefc286b4f8f175a1bde06795803aa7",
+      "lf_sha256": "e94a635d9180764a79bc5969c4ea75a0afc673494388add1d25dd99de2ea21b4",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\PrimeSlot.lean",
+      "git_blob": "d787d9feb80495d1574c815a937dd8ae75fe344d",
+      "git_blob_raw_sha256": "e94a635d9180764a79bc5969c4ea75a0afc673494388add1d25dd99de2ea21b4",
+      "git_blob_lf_sha256": "e94a635d9180764a79bc5969c4ea75a0afc673494388add1d25dd99de2ea21b4",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Hecke/InverseAmplificationRows.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\InverseAmplificationRows.lean",
+      "raw_sha256": "d0cda378c4121cd700e8a80e8337b19bc89d22373f2797f46e74efe6b5c35733",
+      "lf_sha256": "5aba9352dc9c92b7fb7052957d9215cb2272087e3b791de6b3cb70c52fded135",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Hecke\\InverseAmplificationRows.lean",
+      "git_blob": "180fb16a679b137f4e76c29fdc01840f40ef49a7",
+      "git_blob_raw_sha256": "5aba9352dc9c92b7fb7052957d9215cb2272087e3b791de6b3cb70c52fded135",
+      "git_blob_lf_sha256": "5aba9352dc9c92b7fb7052957d9215cb2272087e3b791de6b3cb70c52fded135",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Hecke/DetectorBatch.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorBatch.lean",
+      "raw_sha256": "ac1d356279c3fbc7e5813a717daa12585f289ee8168e7947bd5b0f018fea5589",
+      "lf_sha256": "bd7bf9bedfe6b8c8bfa7584b5bd2455238663bb29dec0d51516847068e4e2c04",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorBatch.lean",
+      "git_blob": "2432fd4911341bc5f85ef5746a7f51df947b8b4a",
+      "git_blob_raw_sha256": "bd7bf9bedfe6b8c8bfa7584b5bd2455238663bb29dec0d51516847068e4e2c04",
+      "git_blob_lf_sha256": "bd7bf9bedfe6b8c8bfa7584b5bd2455238663bb29dec0d51516847068e4e2c04",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Hecke/DetectorRawFiber.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorRawFiber.lean",
+      "raw_sha256": "67f7deaea66fbf26ca0c697aafa579afa58f12c17735f70cf83f4c14ac7a4607",
+      "lf_sha256": "491911b0b17d19943fdb1b43f479e741279e0c0c2b9f1e9e9c5d11de24335c5d",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorRawFiber.lean",
+      "git_blob": "ee826e81bbec1df5820f26aa15bce53bcb675cd6",
+      "git_blob_raw_sha256": "491911b0b17d19943fdb1b43f479e741279e0c0c2b9f1e9e9c5d11de24335c5d",
+      "git_blob_lf_sha256": "491911b0b17d19943fdb1b43f479e741279e0c0c2b9f1e9e9c5d11de24335c5d",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Hecke/DetectorRawBranches.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorRawBranches.lean",
+      "raw_sha256": "0c7be2f4783978d946dae3e345fe623af200fe954b7c00bda543c590b536ecf3",
+      "lf_sha256": "696bbacc691905ef06aa8934946185ae5d158907a93167d08005bd5da4ad3a4c",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorRawBranches.lean",
+      "git_blob": "16adf0ef89dafd510b98dd44e9a5461e3fbf351d",
+      "git_blob_raw_sha256": "696bbacc691905ef06aa8934946185ae5d158907a93167d08005bd5da4ad3a4c",
+      "git_blob_lf_sha256": "696bbacc691905ef06aa8934946185ae5d158907a93167d08005bd5da4ad3a4c",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Hecke/RayQuotient.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\RayQuotient.lean",
+      "raw_sha256": "4636aa0c818fe58150804ba7f86a4a13cd03b0080db98f5e16b9d03a3933322b",
+      "lf_sha256": "7eed3879d118ca87d25dfeb78babe3b7fc2b4204cb1cc32404aaf0203b23a3a6",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Hecke\\RayQuotient.lean",
+      "git_blob": "53ae743528b0abedbb17617ee5afa70d814ed56d",
+      "git_blob_raw_sha256": "7eed3879d118ca87d25dfeb78babe3b7fc2b4204cb1cc32404aaf0203b23a3a6",
+      "git_blob_lf_sha256": "7eed3879d118ca87d25dfeb78babe3b7fc2b4204cb1cc32404aaf0203b23a3a6",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Energy/State.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Energy\\State.lean",
+      "raw_sha256": "b5118d2f6f04ed495a6317317b74a7d60ba1b32f2050aeb7ee7e9e4783d67222",
+      "lf_sha256": "d3b480d46e850bb45422841816c644c9417b8d0f6cc651dabf3da89f1e0f5923",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Energy\\State.lean",
+      "git_blob": "c4792ceda73c8a28abf9b2566203125146565783",
+      "git_blob_raw_sha256": "d3b480d46e850bb45422841816c644c9417b8d0f6cc651dabf3da89f1e0f5923",
+      "git_blob_lf_sha256": "d3b480d46e850bb45422841816c644c9417b8d0f6cc651dabf3da89f1e0f5923",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Energy/Bands.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Energy\\Bands.lean",
+      "raw_sha256": "42fd3fe963d8deef1cc5772979b41a8273e80940641e9f24475ff33397a09c2e",
+      "lf_sha256": "a61844ac79dfb06cdbce70a09bdc62671b15ad25ded96a3069fc657909e20324",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Energy\\Bands.lean",
+      "git_blob": "a565218399cadcd62d92fbb47313631847c1ff4f",
+      "git_blob_raw_sha256": "a61844ac79dfb06cdbce70a09bdc62671b15ad25ded96a3069fc657909e20324",
+      "git_blob_lf_sha256": "a61844ac79dfb06cdbce70a09bdc62671b15ad25ded96a3069fc657909e20324",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Energy/CertifiedExistence.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Energy\\CertifiedExistence.lean",
+      "raw_sha256": "06ff1fed7defc2f2eb790ce226d968d258841a2e30c55ec840bf43f5422f64f5",
+      "lf_sha256": "06ff1fed7defc2f2eb790ce226d968d258841a2e30c55ec840bf43f5422f64f5",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Energy\\CertifiedExistence.lean",
+      "git_blob": "bb8024070c2f9c406801529e962eb94711178179",
+      "git_blob_raw_sha256": "2d48b75fdd14ba8eabb428f79f98e0a6e532c28083075bacf16e1d57f020d7a9",
+      "git_blob_lf_sha256": "2d48b75fdd14ba8eabb428f79f98e0a6e532c28083075bacf16e1d57f020d7a9",
+      "origin": "upstream_workcopy_existing_compat_or_frozen_patch"
+    },
+    "OAI/NumberTheory/DirichletL/Energy/CappedWidthInduction.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Energy\\CappedWidthInduction.lean",
+      "raw_sha256": "4d9ed300268c73c78c65e7102d538eef72613a450099c35131e12ba2b50c4325",
+      "lf_sha256": "d1817f2122c48f2b9f9954cc564eef59b119d2f1b467343b4ad9b78604b825d6",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Energy\\CappedWidthInduction.lean",
+      "git_blob": "0f1fc34a0033ee423642d372c16dcd6690d59363",
+      "git_blob_raw_sha256": "d1817f2122c48f2b9f9954cc564eef59b119d2f1b467343b4ad9b78604b825d6",
+      "git_blob_lf_sha256": "d1817f2122c48f2b9f9954cc564eef59b119d2f1b467343b4ad9b78604b825d6",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Energy/FixedRadialSource.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Energy\\FixedRadialSource.lean",
+      "raw_sha256": "97e8d9bf4e9d3d91107a636a6ac4c0c188a45328fa0499b75771d6056eb6258e",
+      "lf_sha256": "cdee7d41ffb34fa441de7f6eb1e8eb655b9073f1b9c43da283c3a66a540a29be",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Energy\\FixedRadialSource.lean",
+      "git_blob": "f71b6ef0ea57ae5be488f73f2b54d9cdf444f7a5",
+      "git_blob_raw_sha256": "cdee7d41ffb34fa441de7f6eb1e8eb655b9073f1b9c43da283c3a66a540a29be",
+      "git_blob_lf_sha256": "cdee7d41ffb34fa441de7f6eb1e8eb655b9073f1b9c43da283c3a66a540a29be",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Energy/CapacityRemoval.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Energy\\CapacityRemoval.lean",
+      "raw_sha256": "01429c7a3230a11416c654b56616410595bc2c76fcb5fbde274b0df8e514a157",
+      "lf_sha256": "228a8a2fba534a190e6b8573322f2f1e3b1784a408e15e5af4430698cb8e8ad9",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Energy\\CapacityRemoval.lean",
+      "git_blob": "608662c27ad9b0215771f1ffd6aee756d2731a5a",
+      "git_blob_raw_sha256": "228a8a2fba534a190e6b8573322f2f1e3b1784a408e15e5af4430698cb8e8ad9",
+      "git_blob_lf_sha256": "228a8a2fba534a190e6b8573322f2f1e3b1784a408e15e5af4430698cb8e8ad9",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/PrimeRows/CanonicalReduction.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\CanonicalReduction.lean",
+      "raw_sha256": "bca3bafc69d469660bd2eae554d9ab9170c39b368be8a84f7c869fe7ce835d76",
+      "lf_sha256": "9648af7dc18efeb4ab569036e5fe50d76f7b85e72e71c41158ffb97d00fd7ed5",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\CanonicalReduction.lean",
+      "git_blob": "f0c49c7948729882266cadfc0668d2c574f0e4f7",
+      "git_blob_raw_sha256": "9648af7dc18efeb4ab569036e5fe50d76f7b85e72e71c41158ffb97d00fd7ed5",
+      "git_blob_lf_sha256": "9648af7dc18efeb4ab569036e5fe50d76f7b85e72e71c41158ffb97d00fd7ed5",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/PrimeRows/RowPartition.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\RowPartition.lean",
+      "raw_sha256": "3e5ac378d1d7f3ff2e3438a7e40140e133b7a681ab06b4d9b2df48ab4507be19",
+      "lf_sha256": "5433506b2b0efcf82066fabbee2e121f64126f997f9fef0bc090ccce2971ab6b",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\RowPartition.lean",
+      "git_blob": "6ead009eaab5b5cc063cd002ce8d59c66fbcd679",
+      "git_blob_raw_sha256": "5433506b2b0efcf82066fabbee2e121f64126f997f9fef0bc090ccce2971ab6b",
+      "git_blob_lf_sha256": "5433506b2b0efcf82066fabbee2e121f64126f997f9fef0bc090ccce2971ab6b",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Detector/FinalAssemblyData.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Detector\\FinalAssemblyData.lean",
+      "raw_sha256": "e4ed7337985e8b5843727f0884472dd98f3c04934fef839f4e184125cf8c57fa",
+      "lf_sha256": "40177414737797476aa62242da6bbe91bd42c505887517be6d1ab19a6cef1628",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Detector\\FinalAssemblyData.lean",
+      "git_blob": "ebc462f5678b6c9dafd55ee8a434d1538d814790",
+      "git_blob_raw_sha256": "40177414737797476aa62242da6bbe91bd42c505887517be6d1ab19a6cef1628",
+      "git_blob_lf_sha256": "40177414737797476aa62242da6bbe91bd42c505887517be6d1ab19a6cef1628",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Moments/RayIdentityClassCoefficient.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\RayIdentityClassCoefficient.lean",
+      "raw_sha256": "9235373ea53a25edba238947a5781a1951eb116c43adfd95a6929051846a43fb",
+      "lf_sha256": "9235373ea53a25edba238947a5781a1951eb116c43adfd95a6929051846a43fb",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Moments\\RayIdentityClassCoefficient.lean",
+      "git_blob": null,
+      "git_blob_raw_sha256": null,
+      "git_blob_lf_sha256": null,
+      "origin": "authored_extension"
+    },
+    "OAI/NumberTheory/DirichletL/PrimeRows/BufferedBin.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\BufferedBin.lean",
+      "raw_sha256": "878b426b575edd9cd9108fbfb82da185a23c2360df901514bf8adde2c04d98b9",
+      "lf_sha256": "12139ac3630fa9c4416b66d68a588838881d97158291f0550de3a7b80c9c7090",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\BufferedBin.lean",
+      "git_blob": "4589971a115441435192cbaee1bc0fc6cc494550",
+      "git_blob_raw_sha256": "12139ac3630fa9c4416b66d68a588838881d97158291f0550de3a7b80c9c7090",
+      "git_blob_lf_sha256": "12139ac3630fa9c4416b66d68a588838881d97158291f0550de3a7b80c9c7090",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/PrimeRows/CanonicalCubeBins.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\CanonicalCubeBins.lean",
+      "raw_sha256": "392efdda2a516e0be3cc92f7b6a040d2dd6b53758150eb4a53bb2050464f68dc",
+      "lf_sha256": "978aa0b65987eea024a97b5b5b9f7ece0408fa259842600ebdb45669af044ad1",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\CanonicalCubeBins.lean",
+      "git_blob": "19295daf985e303f290b97c786fdd5bf39543c27",
+      "git_blob_raw_sha256": "978aa0b65987eea024a97b5b5b9f7ece0408fa259842600ebdb45669af044ad1",
+      "git_blob_lf_sha256": "978aa0b65987eea024a97b5b5b9f7ece0408fa259842600ebdb45669af044ad1",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/PrimeRows/CanonicalRayCube.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\CanonicalRayCube.lean",
+      "raw_sha256": "53b066621e39813045c8effecccfd514a40b2291b9f410dae7b9ea1bcdae8294",
+      "lf_sha256": "c42ec3bf993ce27fe4950ad028b724b42b1a405922670c03dbbcea30e12b0958",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\CanonicalRayCube.lean",
+      "git_blob": "bac924af9d543f17c5de3604b250f8ccde04df70",
+      "git_blob_raw_sha256": "c42ec3bf993ce27fe4950ad028b724b42b1a405922670c03dbbcea30e12b0958",
+      "git_blob_lf_sha256": "c42ec3bf993ce27fe4950ad028b724b42b1a405922670c03dbbcea30e12b0958",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/PrimeRows/DetectorBins.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\DetectorBins.lean",
+      "raw_sha256": "06f7bd8317e94e3f11d75bb572fa6180b63e792c801f50169a81758928c2fd88",
+      "lf_sha256": "8e24c6ac8cdbb4156ad9b7b65d33fe59a0e7a89d4c578f2650dabe2d6cd7673a",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\DetectorBins.lean",
+      "git_blob": "7f410810445e2af984b267b42ab3b8d1bc35679b",
+      "git_blob_raw_sha256": "8e24c6ac8cdbb4156ad9b7b65d33fe59a0e7a89d4c578f2650dabe2d6cd7673a",
+      "git_blob_lf_sha256": "8e24c6ac8cdbb4156ad9b7b65d33fe59a0e7a89d4c578f2650dabe2d6cd7673a",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/PrimeRows/Conductor.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\Conductor.lean",
+      "raw_sha256": "e9a464a7071a91ad1ae988a4eb3e69ca1ec08b8ac8d2c12290769df4d98b0bc8",
+      "lf_sha256": "032beb68252aecb437238fb118c73c21df96bb234df16a2a509b05dacdbc2417",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\Conductor.lean",
+      "git_blob": "2691d479f0679e6ab9a298ce8371906cfe2b7640",
+      "git_blob_raw_sha256": "032beb68252aecb437238fb118c73c21df96bb234df16a2a509b05dacdbc2417",
+      "git_blob_lf_sha256": "032beb68252aecb437238fb118c73c21df96bb234df16a2a509b05dacdbc2417",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/PrimeRows/PrincipalMask.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\PrincipalMask.lean",
+      "raw_sha256": "94e15482e02efa867ef7cfa75bf43f9061f0f9edf4b9663a55c3181b5fba1b4b",
+      "lf_sha256": "459874de2ab1bc2d4adf224c1fb537c1630857ef1d0e70365955f0ed1d907258",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\PrincipalMask.lean",
+      "git_blob": "11c7213a8df83da5a60c9a9f0ebd8dfb5c0228e5",
+      "git_blob_raw_sha256": "459874de2ab1bc2d4adf224c1fb537c1630857ef1d0e70365955f0ed1d907258",
+      "git_blob_lf_sha256": "459874de2ab1bc2d4adf224c1fb537c1630857ef1d0e70365955f0ed1d907258",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/PrimeRows/Euler.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\Euler.lean",
+      "raw_sha256": "16915d79ae73612846a226dfa2f15091dd461e946771eb056012213f70acdf98",
+      "lf_sha256": "a93ae1bc03e6175d2bb52bb5c0c2b9a13a3def143e955e79e9d311eecc54c7eb",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\Euler.lean",
+      "git_blob": "6e7f26117b55f54e8a040f78d4ad9835a43883ce",
+      "git_blob_raw_sha256": "a93ae1bc03e6175d2bb52bb5c0c2b9a13a3def143e955e79e9d311eecc54c7eb",
+      "git_blob_lf_sha256": "a93ae1bc03e6175d2bb52bb5c0c2b9a13a3def143e955e79e9d311eecc54c7eb",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/PrimeRows/NonfloorCount.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\NonfloorCount.lean",
+      "raw_sha256": "dba31f83223efb91818e86c8e8345df18b25c6fefb9043c91690d5c906d315f6",
+      "lf_sha256": "a52ccf6c3e635d3305336b6ede7b6b82271c0b8606178e410be3110e632734af",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\NonfloorCount.lean",
+      "git_blob": "664881d8c19f9b71d94afbcd1807bd53e6563666",
+      "git_blob_raw_sha256": "a52ccf6c3e635d3305336b6ede7b6b82271c0b8606178e410be3110e632734af",
+      "git_blob_lf_sha256": "a52ccf6c3e635d3305336b6ede7b6b82271c0b8606178e410be3110e632734af",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Hecke/DetectorSupportedWitness.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorSupportedWitness.lean",
+      "raw_sha256": "33046704d34c916d729de421350d1da7df631b76f9ff7e8593c8189bdc7f134c",
+      "lf_sha256": "b1bd8fc046e2adf721bd06c8c9c206a0f19f02637668e8206d235739f03917e5",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorSupportedWitness.lean",
+      "git_blob": "42f1060befe86b8455777ecfa5ade9a825edd9f8",
+      "git_blob_raw_sha256": "b1bd8fc046e2adf721bd06c8c9c206a0f19f02637668e8206d235739f03917e5",
+      "git_blob_lf_sha256": "b1bd8fc046e2adf721bd06c8c9c206a0f19f02637668e8206d235739f03917e5",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Hecke/DetectorWitnessRows.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorWitnessRows.lean",
+      "raw_sha256": "56d358c4fc6fa721e82fe1d507d48952c940907f6fa60254745184a7cf79f812",
+      "lf_sha256": "fb3f851ef3d6f4a260a584bf5511fe09704dad364da6f1f2bdf4c4fe7720d15b",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorWitnessRows.lean",
+      "git_blob": "45c7e2b56c8bca161f6384cfb51d5c2d06466e09",
+      "git_blob_raw_sha256": "fb3f851ef3d6f4a260a584bf5511fe09704dad364da6f1f2bdf4c4fe7720d15b",
+      "git_blob_lf_sha256": "fb3f851ef3d6f4a260a584bf5511fe09704dad364da6f1f2bdf4c4fe7720d15b",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Hecke/DetectorAdaptiveCutoff.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorAdaptiveCutoff.lean",
+      "raw_sha256": "dbb2cd8a15db4c981dc8276ed0caf783cff1949a4ce4ae34985a0d2d150dda21",
+      "lf_sha256": "494cc048ad3438976fcab45b364e3c2828e51cdaee3aa2eac00268119514f92a",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorAdaptiveCutoff.lean",
+      "git_blob": "bdc80c29fa1f135ec5c1a196e418f9f851c40957",
+      "git_blob_raw_sha256": "494cc048ad3438976fcab45b364e3c2828e51cdaee3aa2eac00268119514f92a",
+      "git_blob_lf_sha256": "494cc048ad3438976fcab45b364e3c2828e51cdaee3aa2eac00268119514f92a",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Hecke/DetectorAmplitudeFirst.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorAmplitudeFirst.lean",
+      "raw_sha256": "901ff6bf1cfc3e7882c131c7696bf45b423fc5df61d06c039b41d61d65d06351",
+      "lf_sha256": "d787f9d44bd8e3840aac72c2e26cd133cf0bc2e631fce7229c9e4f0623c7ca12",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorAmplitudeFirst.lean",
+      "git_blob": "e2f8a9451914f5ef1085e24b63988dc765ba7c62",
+      "git_blob_raw_sha256": "d787f9d44bd8e3840aac72c2e26cd133cf0bc2e631fce7229c9e4f0623c7ca12",
+      "git_blob_lf_sha256": "d787f9d44bd8e3840aac72c2e26cd133cf0bc2e631fce7229c9e4f0623c7ca12",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Hecke/DetectorPhysicalSelection.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorPhysicalSelection.lean",
+      "raw_sha256": "f834263cba5fca818a8001b40ffd71acd20d4ea03317d2ce3770ae3d9b19ecfa",
+      "lf_sha256": "a2ec5a5a0eebc9396bea8b8c73f413d82acb5eed72e70db90ec46d5a7cb3f301",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorPhysicalSelection.lean",
+      "git_blob": "50490e887d22af66bff4a8f37aab80a1ebd60be8",
+      "git_blob_raw_sha256": "a2ec5a5a0eebc9396bea8b8c73f413d82acb5eed72e70db90ec46d5a7cb3f301",
+      "git_blob_lf_sha256": "a2ec5a5a0eebc9396bea8b8c73f413d82acb5eed72e70db90ec46d5a7cb3f301",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Hecke/DetectorFiberPartition.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorFiberPartition.lean",
+      "raw_sha256": "60a73dc7e48734436db2d0553aa5132e9a26ef302006736c318bb289670f53af",
+      "lf_sha256": "b79c31ccef2cfbbd8ffe03b6757ccbe69318f6ee0dbe7ae880f76161ef669173",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorFiberPartition.lean",
+      "git_blob": "c845aa8b242b4b7cb23a3272dd51b5c501241cae",
+      "git_blob_raw_sha256": "b79c31ccef2cfbbd8ffe03b6757ccbe69318f6ee0dbe7ae880f76161ef669173",
+      "git_blob_lf_sha256": "b79c31ccef2cfbbd8ffe03b6757ccbe69318f6ee0dbe7ae880f76161ef669173",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Hecke/DetectorSimultaneousSupport.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorSimultaneousSupport.lean",
+      "raw_sha256": "a2ef898f0a4be2e342db9b87fdce18ff476e75d00f2ec0e015d56952354f14bb",
+      "lf_sha256": "fe274df3b8e03b30832ac3e87c995e7284144ee23c80e6c9dee940f696f8f0b3",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorSimultaneousSupport.lean",
+      "git_blob": "cc228bb29854bf1cf97748afe4c6f4cb8d732f19",
+      "git_blob_raw_sha256": "fe274df3b8e03b30832ac3e87c995e7284144ee23c80e6c9dee940f696f8f0b3",
+      "git_blob_lf_sha256": "fe274df3b8e03b30832ac3e87c995e7284144ee23c80e6c9dee940f696f8f0b3",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Detector/DetectorMomentData.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Detector\\DetectorMomentData.lean",
+      "raw_sha256": "0fb5b95b1d8aabb0a0d77deb9c38f5b151ee62d06dde3d12fbf139aa65ce4e4a",
+      "lf_sha256": "78e5f7704f09deaa4410cbac7a793ce00d82c0ef43e2c8412aad713128ece0a8",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Detector\\DetectorMomentData.lean",
+      "git_blob": "cf8832179002d3e866a90599e5d5b8bd44eacff7",
+      "git_blob_raw_sha256": "78e5f7704f09deaa4410cbac7a793ce00d82c0ef43e2c8412aad713128ece0a8",
+      "git_blob_lf_sha256": "78e5f7704f09deaa4410cbac7a793ce00d82c0ef43e2c8412aad713128ece0a8",
+      "origin": "upstream_public_git"
+    },
+    "OAI/NumberTheory/DirichletL/Detector/RayCharacterFamily.lean": {
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Detector\\RayCharacterFamily.lean",
+      "raw_sha256": "b8f30f1023d71966768ef4371ba111277f1afe77fb88bd5b24fec3a2a183041b",
+      "lf_sha256": "8988c4fc9c63702e32556885cf3790e79dd261d0e8c28a95b44aad0bb5e3b5ce",
+      "snapshot": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\source-snapshots\\OAI\\NumberTheory\\DirichletL\\Detector\\RayCharacterFamily.lean",
+      "git_blob": "8e639251dce4a0d50c2a38fb8958a7f4bfacaecd",
+      "git_blob_raw_sha256": "8988c4fc9c63702e32556885cf3790e79dd261d0e8c28a95b44aad0bb5e3b5ce",
+      "git_blob_lf_sha256": "8988c4fc9c63702e32556885cf3790e79dd261d0e8c28a95b44aad0bb5e3b5ce",
+      "origin": "upstream_public_git"
+    }
+  },
+  "review_sha256": "1cf6b5a37c9363c61a3cee2744a1c804a70e993c2909eec6f95253c9597c1efe",
+  "candidate_source": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\FinitePositiveRowDomination.candidate.lean",
+  "candidate_source_sha256": "b1c646e98cd1b8e08a06da8076e4925c2d36086b9b443b5406dee858c270b01b",
+  "candidate_status": "standalone_actual_compile_and_full_fresh_standard_axioms_pass_independent_kernel_replay_not_run",
+  "candidate_root": "OAI.SevenEighths.FinitePositiveRowDominationCandidate.finite_positiveSlotRow_le_actual_energy",
+  "upstream_sources_modified": false,
+  "controller_targets_added": false,
+  "new_mathematical_assumptions_added": false,
+  "review_frozen": true,
+  "completed_owned_six_module_kernel_record": {
+    "path": "E:\\codex-build\\RH-Zero-Free-Formalization\\upstream\\plain-kappa\\verification\\lowkappa49\\strict-replay-result.json",
+    "sha256": "e662c98e9be6d917bada34bb0ee225347c8c0eb31d4f005c457f598dfaa52b96",
+    "owned_subset_roots": 43,
+    "union_roots": 49
+  },
+  "scope": "Candidate is actual finite-row positiveSlotRow square sum to actual energy only; no PositiveAt supply, Moments instance, Hecke family nonvanishing, or final zero-free region is claimed.",
+  "candidate_compile": {
+    "record": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\verification\\compile.json",
+    "record_sha256": "e90f4e71a1eaff0fa4cf072ed8ba6ac9714eaaf12638afab8c8ca27f7e6e254a",
+    "exit_code": 0,
+    "elapsed_seconds": 13.953,
+    "source_sha256": "b1c646e98cd1b8e08a06da8076e4925c2d36086b9b443b5406dee858c270b01b",
+    "artifact_sha256": {
+      "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\verification\\Candidate.olean": "30dbcb434ab90b209fc8c46c86a3f4d183d3d1ae4ccde6c23ced8a566243e811",
+      "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\verification\\Candidate.ilean": "6bc5b95ca9e23a80fc23c95bf2d9d218a7c378589c18a7e43afbecb73ae76e08"
+    },
+    "log": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\verification\\compile.log"
+  },
+  "candidate_fresh": {
+    "record": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\verification\\fresh.json",
+    "record_sha256": "faff37d3bc6483682b62564e444bc03e0bcc584c79b63f1450d99475d6d99ceb",
+    "full_type_and_axioms_log": "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\verification\\fresh.log",
+    "log_sha256": "5bf07ed42ea9380777bc4c9424173b99a8e355a8a2731ef8eda1fdb5b68e99bc",
+    "status": "fresh_pass",
+    "exit_code": 0,
+    "elapsed_seconds": 13.078,
+    "axes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "axes_raw_pp_all": [
+      "propext",
+      "Classical.choice.{u}",
+      "Quot.sound.{u}"
+    ],
+    "unexpected_axioms": [],
+    "sorry_warning": false,
+    "audit_source_sha256": "1185cf7f346f68cbd55ca0d36d5a5d3e2e0986c54318135591e1fe8dfe2d3da1",
+    "stable_source_and_artifacts": true,
+    "selected_custom_closure_count": 444,
+    "standalone_artifact_sha256": {
+      "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\verification\\Candidate.olean": "30dbcb434ab90b209fc8c46c86a3f4d183d3d1ae4ccde6c23ced8a566243e811",
+      "E:\\codex-build\\RH-Weil\\tmp\\finite-row-positiveat-source-audit-20261009\\verification\\Candidate.ilean": "6bc5b95ca9e23a80fc23c95bf2d9d218a7c378589c18a7e43afbecb73ae76e08"
+    }
+  },
+  "candidate_history_frozen": true,
+  "source_bindings_count": 51
+}

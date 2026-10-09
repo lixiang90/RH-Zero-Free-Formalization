@@ -1,0 +1,31 @@
+import UpstreamNano_20261009_161453
+set_option pp.universes true
+set_option pp.fullNames true
+set_option pp.explicit true
+set_option pp.all true
+set_option pp.maxSteps 1000000
+
+set_option pp.universes true
+#check @OAI.SevenEighths.FiberRelativeEnergyBridge.relative_coefficient_on_actual_primePool
+set_option pp.universes false
+#print axioms OAI.SevenEighths.FiberRelativeEnergyBridge.relative_coefficient_on_actual_primePool
+set_option pp.universes true
+#check @OAI.SevenEighths.FiberRelativeEnergyBridge.actual_fiber_plain_le_relative_energy
+set_option pp.universes false
+#print axioms OAI.SevenEighths.FiberRelativeEnergyBridge.actual_fiber_plain_le_relative_energy
+set_option pp.universes true
+#check @OAI.SevenEighths.FiniteSupportedWitnessRetraction.finite_supported_witness_retraction
+set_option pp.universes false
+#print axioms OAI.SevenEighths.FiniteSupportedWitnessRetraction.finite_supported_witness_retraction
+set_option pp.universes true
+#check @OAI.SevenEighths.FiniteRowNaturalState.eventually_finite_row_natural_state
+set_option pp.universes false
+#print axioms OAI.SevenEighths.FiniteRowNaturalState.eventually_finite_row_natural_state
+set_option pp.universes true
+#check @OAI.SevenEighths.DetectorPairControl.detectorPairProfiles
+set_option pp.universes false
+#print axioms OAI.SevenEighths.DetectorPairControl.detectorPairProfiles
+set_option pp.universes true
+#check @OAI.SevenEighths.DetectorPairControl.detectorPairProfiles_squared_control_uniform
+set_option pp.universes false
+#print axioms OAI.SevenEighths.DetectorPairControl.detectorPairProfiles_squared_control_uniform

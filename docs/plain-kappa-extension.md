@@ -1,4 +1,4 @@
-# Low-kappa plain-moment extension: checked geometry and pending arithmetic
+# Low-kappa plain-moment extension: checked terminal energy and remaining integration
 
 The cubic boundary needs kappaStar < 3/4. Simply replacing a hypothesis
 3/4 <= kappa by 37/50 <= kappa in the upstream certificate is invalid.
@@ -46,31 +46,44 @@ theorem. The comparison/defect margins above are propagated into actual
 reference and reflected-row APIs. The old detector theorem with its fixed
 2/27 conclusion is outside this plain extension and is not weakened.
 
-The complete patched chain is pending actual compilation and independent
-replay of terminal CertifiedExistence. Four selected geometric roots in
-ReflectionRetainedLength have passed actual compilation, fresh complete
-types/axioms and independent replay; that scope does not certify the entire
-moment induction. The terminal target requires 2212 original OAI modules.
-One bounded dependency controller runs in the ignored workcopy, with eight
-Lean processes and two threads each. The primary 4.33.0-rc2 proof record does
-not certify these separate upstream targets.
+The complete patched chain passed actual compilation. The final controller
+record contains 2261 successful custom dependency modules and 21 targets,
+with no failed or pending modules. A fresh four-root independent replay checks
+actual_successor, certified_bands, terminal_certificate and certified_terminal.
+The latter exposes actual ZeroAt/PositiveAt with its terminal CertifiedBand
+premise; terminal_certificate constructs that band under the stated inputs.
+Their complete printed types and transitive axioms retain the actual family
+supremum and arithmetic data. Separate reflection, reference-state and low-branch
+geometry scopes bring the independently selected upstream declarations to 22;
+21 belong to modified modules and one to an unchanged upstream interface.
+These are distinct from the 78 authored roots and from the primary library.
+The primary 4.33.0-rc2 proof record does not certify these 4.34.1 targets.
 
-The complete arithmetic low-kappa certificate must be compiled and checked,
-then instantiated with the actual Hecke-family supremum beta and a moving
+The checked arithmetic low-kappa certificate must now be instantiated
+with the actual Hecke-family supremum beta and a moving
 kappa satisfying 2*beta-1<=kappa. In the contradiction beta>sigmaStar,
 kappaStar=2*sigmaStar-1 cannot satisfy that premise. It is the reference point
 for the cubic algebra and feedback; the arithmetic choice is kappa=2*beta-1
 (or an explicitly budgeted larger value). The existing 7/8 family bound gives
 the required moving range 37/50<=kappa<=3/4, where that bootstrap is supplied.
 The new parameter lemma keeps beta<=7/8 explicit; it does not prove the
-bootstrap. The terminal certificate itself needs no kappa upper bound, while
+bootstrap. The original pinned FinalAssemblyUnconditional source does
+construct the unconditional 7/8 arithmetic package; its extra 711-module
+closure has not been compiled or independently checked by this capsule.
+The terminal certificate itself needs no kappa upper bound, while
 some downstream detector-count branches do. A supremum of the single Riemann
 zeta function cannot replace the Hecke-family supremum in this certificate.
 
-Only after that check and correct instantiation can this extension count as
-the paper's plain-moment input. Passing scalar proofs or a static
-forbidden-token scan cannot substitute for the actual arithmetic proof.
+The remaining integration must feed the checked terminal energy into the
+actual marked moments and improved detector count. The finite-row construction
+and its precise outstanding gates are described in
+[finite-row-energy-integration.zh.md](finite-row-energy-integration.zh.md).
 
-The frozen pending patch, exact source-preparation/build tools, separate
+The current 41-module patch has SHA-256
+`58ddc470f93afd26265525e78b951706ccb202839c6768f7ef39006af699dc42`.
+Its final four proof-body repairs adapt existing stronger inputs to the
+actual weaker API premises; declaration headers and inputs are preserved.
+The original d18941bd revision and failed elaborations remain archived as
+historical records. Exact source-preparation/build tools, separate
 Rellich compatibility patches and local checkpoint records are in
 [upstream/plain-kappa](../upstream/plain-kappa/README.md).

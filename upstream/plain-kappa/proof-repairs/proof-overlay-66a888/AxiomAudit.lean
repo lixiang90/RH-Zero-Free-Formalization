@@ -1,0 +1,4 @@
+import OAI.NumberTheory.DirichletL.Energy.PositiveHighSourceBounded
+set_option pp.all true
+#check @OAI.SevenEighths.CenteredMomentEnergyPositiveHighSourceBounded.actual_positive_source_entry
+#print axioms OAI.SevenEighths.CenteredMomentEnergyPositiveHighSourceBounded.actual_positive_source_entry

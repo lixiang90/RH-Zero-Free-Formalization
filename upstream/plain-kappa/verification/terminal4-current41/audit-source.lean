@@ -1,0 +1,23 @@
+import UpstreamNano_20261009_160838
+set_option pp.universes true
+set_option pp.fullNames true
+set_option pp.explicit true
+set_option pp.all true
+set_option pp.maxSteps 1000000
+
+set_option pp.universes true
+#check @OAI.SevenEighths.CenteredMomentEnergyCappedAnalyticSuccessor.actual_successor
+set_option pp.universes false
+#print axioms OAI.SevenEighths.CenteredMomentEnergyCappedAnalyticSuccessor.actual_successor
+set_option pp.universes true
+#check @OAI.SevenEighths.CenteredMomentEnergyCertifiedExistence.certified_bands
+set_option pp.universes false
+#print axioms OAI.SevenEighths.CenteredMomentEnergyCertifiedExistence.certified_bands
+set_option pp.universes true
+#check @OAI.SevenEighths.CenteredMomentEnergyCertifiedExistence.terminal_certificate
+set_option pp.universes false
+#print axioms OAI.SevenEighths.CenteredMomentEnergyCertifiedExistence.terminal_certificate
+set_option pp.universes true
+#check @OAI.SevenEighths.CenteredMomentEnergyCappedWidthInduction.certified_terminal
+set_option pp.universes false
+#print axioms OAI.SevenEighths.CenteredMomentEnergyCappedWidthInduction.certified_terminal

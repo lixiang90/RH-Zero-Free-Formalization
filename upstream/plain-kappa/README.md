@@ -5,12 +5,14 @@ our cubic boundary to the actual Hecke arithmetic in OpenAI/math. Author:
 **Li Xiang / lixiang90**. It is independent of the primary Lean 4.33.0-rc2
 library, and its results are counted separately.
 
-**The complete improved zero-free region is still pending.** All 68 selected
-roots in the twelve authored modules below passed actual compilation, fresh
+**The complete improved zero-free region is still pending.** All 78 selected
+roots in the nineteen authored modules below passed actual compilation, fresh
 complete types/axioms and independent Nano replay. The complete patched
-moment chain continues its separate dependency build.
-An intermediate compile or source-preparation pass does not prove the complete
-moment certificate or the final zero-free half-plane.
+low-kappa energy induction and terminal output passed a separate four-root
+independent replay. The final source controller compiled all 2261 custom
+dependency modules and 21 targets successfully.
+The terminal output preserves its arithmetic inputs. Complete detector marked
+moments, improved counts and the physical low/raw-high probe remain open.
 
 ## Mathematical scope
 
@@ -21,10 +23,13 @@ moving conductors and the premise 2*HeckeZeroSupremum.beta-1 <= kappa.
 The scalar repairs and their scope are described in
 [plain-kappa-extension.md](../../docs/plain-kappa-extension.md).
 The patch SHA-256 is
-`d18941bdb3a32f42032c5e82c6518baa5dc03968ff8af652ca30d62d6467566e`.
+`58ddc470f93afd26265525e78b951706ccb202839c6768f7ef39006af699dc42`.
+The original d18941bd revision is retained in the historical evidence. Four
+final proof-body repairs supply the exact weaker premises expected by existing
+APIs; their declaration headers and mathematical hypotheses are unchanged.
 
-The [authored-source manifest](extensions/manifest.json) records twelve extra
-modules with 68 selected roots separately from those patched upstream sources.
+The [authored-source manifest](extensions/manifest.json) records nineteen extra
+modules with 78 selected roots separately from those patched upstream sources.
 Each has an exact
 source hash, declaration list and verification status.
 
@@ -41,6 +46,13 @@ source hash, declaration list and verification status.
 | PrimeRows.CubeNormalizerLowKappa | Prove the actual positive ray-prime normalizer nonzero and its inverse bounded by every positive power, using the actual slot sum. | 1 root passed actual compilation, fresh complete types/axioms and independent Nano replay, including its actual PNT dependencies. |
 | PrincipalSlotEstimateLowKappa and PrincipalSignalComparisonLowKappa | Bound the original marked slots and weighted slotRatio on Re s >= 21/25, with error 1440 Q^(-21/25); prove correction denominators nonzero and the original slotRatio analytic. | 24 roots, including the explicit bounds structure, passed actual compilation, fresh complete types/axioms and the combined 49-root Nano replay. |
 | Moments.RayIdentityClassCoefficient | Prove that every actual ray quotient character has coefficient one on identityClass ideals, without extra zero-free premises. | 1 canonical root passed actual compilation, fresh complete types/axioms and the combined 49-root Nano replay. The historical prototype is not a second library module. |
+| Moments.FinitePositiveRowDomination | Dominate actual finite positiveSlotRow sums by the same actual energy; derive summability from the proved bounded product. | 1 root passed actual compilation, fresh complete types/axioms and independent Nano replay. |
+| Moments.FixedRadialRowDomination | Choose one nonnegative Schwartz radial profile before every finite row set and derive the actual domination for those rows. | 1 root passed actual compilation, fresh complete types/axioms and the joint 3-root replay. |
+| Moments.FiniteFamilyNonexceptional | Prove eventual nonexceptionality of all sufficiently large rows for a fixed finite character/ideal family and every admitted nonzero mask. | 2 roots passed actual compilation, fresh complete types/axioms and the joint 3-root replay. |
+| Moments.FiberRelativeEnergyBridge | Preserve the actual fiber dictionary, identity-class coefficients, conjugated window, external parameters and masks in a marked-square-to-energy comparison. | 2 roots passed actual compilation, fresh complete types/axioms and the joint 6-root replay. |
+| Hecke.FiniteSupportedWitnessRetraction | Extend actual finite supported witnesses to all FreeRows and preserve the complete original witnesses by HEq on retained rows. | 1 root passed actual compilation, fresh complete types/axioms and the joint 6-root replay. |
+| Moments.FiniteRowNaturalState | Construct actual NaturalState with a fixed radial profile and keep predicate exactly the supplied finite rows. | 1 root passed actual compilation, fresh complete types/axioms and the joint 6-root replay. |
+| Moments.DetectorPairControl | Construct actual detector Profiles and prove the squared control bound C^4(1+norm(t))^(4J), with constants before all profile parameters. | 2 roots passed actual compilation, fresh complete types/axioms and the joint 6-root replay. |
 
 The widened Euler domain is a domain for the **correction factor**, not a
 zero-free region for an L-function. The sixfold Mellin pole remains z=1/6,
@@ -91,9 +103,29 @@ checked **90,764 transitive declarations from its one root**. It proves the
 normalizer nonzero and its inverse subpower bound for arbitrary positive slot
 lengths, retaining all window and ray-family hypotheses.
 
+The [finite-positive-row replay](verification/finite-positive-row1/strict-replay-result.json)
+checks 75,015 transitive declarations from one root. The
+[fixed-radial/finite-family replay](verification/finite-family-radial3/strict-replay-result.json)
+checks 82,748 from three roots. The
+[fiber/state/profile replay](verification/fiber-state-pair6/strict-replay-result.json)
+checks 87,870 transitive declarations from the six remaining finite-row roots. Together the authored selected
+set contains 78 distinct declarations across 19 modules.
+
+The patched actual induction has a separate
+[terminal four-root replay](verification/terminal4-current41/strict-replay-result.json),
+checking 101,590 transitive declarations from actual_successor, certified_bands, terminal_certificate and
+certified_terminal. The last interface explicitly takes CertifiedBand; the
+preceding roots construct it and its actual ZeroAt/PositiveAt estimates.
+Separate [reference-state nine-root](verification/reference-state9/strict-replay-result.json)
+and [low-branch five-root](verification/reference-low-geometry5/strict-replay-result.json)
+records, together with the four reflection roots, bring the distinct upstream
+selected set to 22: 21 from modified modules and the unchanged
+certified_terminal interface. The latter is bound to its original Git blob. The historical terminal three-root attempt is retained
+and is not added to that count.
+
 All replay scopes overlap in foundational declarations and must not be added
-together. They do not establish Energy.CertifiedExistence or the complete
-improved zero-free theorem. The
+together. These proofs establish their listed arithmetic energy interfaces;
+the complete improved zero-free theorem remains open. The
 [latest frozen build snapshot](verification/latest-actual-module-status.json)
 records actual process exits. Earlier records retain their original scopes;
 failed elaborations and proof-only repairs are preserved in the history.
@@ -109,9 +141,14 @@ records the exact Wiener-Ikehara route and its fresh leaf axiom output; it is
 not substituted for the final normalizer proof check.
 
 The [marked-moment audit](../../docs/marked-moment-audit/README.md) identifies
-the next arithmetic bridge: finite detector rows, identity-class coefficients,
-radial energy and the complete terminal capacity certificate. It also records
-the missing canonical batch construction and uniform height-loss budget.
+the actual detector/energy dictionary. The new
+[finite-row source audit](../../docs/finite-row-energy-audit/README.md) preserves
+exact source snapshots and historical prototypes. The
+[finite-row integration note](../../docs/finite-row-energy-integration.zh.md)
+explains the now constructed radial weight, NaturalState, witness retraction
+and fiber energy bridge. Canonical Batch admission, uniform finite-label
+constants, the height-loss budget, full Moments and detector count still
+require further integration.
 
 ## Pinned sources and tools
 

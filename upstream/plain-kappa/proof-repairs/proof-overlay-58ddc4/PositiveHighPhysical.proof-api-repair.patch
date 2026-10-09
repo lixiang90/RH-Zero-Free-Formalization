@@ -1,0 +1,20 @@
+--- a/OAI/NumberTheory/DirichletL/Energy/PositiveHighPhysical.lean
++++ b/OAI/NumberTheory/DirichletL/Energy/PositiveHighPhysical.lean
+@@ -61,7 +61,7 @@
+   have ha0:0<a0:=CenteredMomentSecondInputCapacitySource.lowerFactor_pos N aslot a haslot ha
+   have hlp:0<lp:=by dsimp [lp];positivity
+   obtain ⟨hsigma,hsigma1,hr,hxi,hxi1,hes,hes1,hem,hmesh,hmesheta,heta,hetastrict,_,_⟩:=
+-    parameter_gates Mglobal A B κ ε hMg hA hB hκ hε
++    parameter_gates Mglobal A B κ ε hMg hA hB (by linarith only [hκ] : 0≤κ) hε
+   have hrpos:0<r/4:=hr
+   have hκsmall:(1/6:ℝ)≤κ:=by linarith
+   have hLphys:0≤max Lgoal Mparent:=hL.trans (le_max_left _ _)
+@@ -78,7 +78,7 @@
+   obtain ⟨C,hC,Z₀,hZ₀,hbound⟩:=hphysical η₀ Q hQM hQ0 hQt hQ72
+   refine ⟨C,hC,?_⟩
+   filter_upwards [eventually_ge_atTop Z₀,
+-    eventually_actual_four_fit Mglobal A Bmask B κ ε hMg hA hBm hB hready hκ hε,
++    eventually_actual_four_fit Mglobal A Bmask B κ ε hMg hA hBm hB hready (by linarith only [hκ] : 0≤κ) hε,
+     (Filter.tendsto_atTop.1 (tendsto_rpow_atTop (by linarith : 0<2*(r/4)))) (max 1 b*max 1 b)]
+     with Z hZZ hfit hclipPow
+   have hZ:1<Z:=hZ₀.trans_le hZZ

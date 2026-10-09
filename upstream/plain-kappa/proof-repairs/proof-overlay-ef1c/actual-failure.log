@@ -1,0 +1,9 @@
+OAI\NumberTheory\DirichletL\Energy\PositiveHighSource.lean:133:80: error: Application type mismatch: The argument
+  hκ
+has type
+  37 / 50 ≤ κ
+but is expected to have type
+  1 / 6 ≤ κ
+in the application
+  balanced_volume_bound M H hH η₀ θ Wslot hcSlot aslot bslot lo hi haslot hsSlot w σ freq (fun i => ⟨hσlo i, hσhi i⟩) s
+    p ha t X₁ X₂ hX₁ hX₂ κ Mcap hz.left hw hκ

@@ -1,0 +1,12 @@
+import OAI.NumberTheory.DirichletL.Energy.PositiveHighSource
+set_option pp.all true
+#check @OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.balancedInput
+#print axioms OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.balancedInput
+#check @OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.balanced_matches
+#print axioms OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.balanced_matches
+#check @OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.balanced_volume
+#print axioms OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.balanced_volume
+#check @OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.balanced_volume_bound
+#print axioms OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.balanced_volume_bound
+#check @OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.actual_positive_source_entry
+#print axioms OAI.SevenEighths.CenteredMomentEnergyPositiveHighSource.actual_positive_source_entry

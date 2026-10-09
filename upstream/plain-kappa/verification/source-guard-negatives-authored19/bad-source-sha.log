@@ -1,0 +1,11 @@
+Initialized empty Git repository in E:/codex-build/RH-Zero-Free-Formalization/tmp/extension-guard-negatives-final19/bad-source-sha-output/.git/
+Traceback (most recent call last):
+  File "E:\codex-build\RH-Zero-Free-Formalization\upstream\plain-kappa\prepare_low_kappa_capsule.py", line 298, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "E:\codex-build\RH-Zero-Free-Formalization\upstream\plain-kappa\prepare_low_kappa_capsule.py", line 176, in main
+    extensions,extension_data=load_extensions(a.extension_manifest,src)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\codex-build\RH-Zero-Free-Formalization\upstream\plain-kappa\prepare_low_kappa_capsule.py", line 51, in load_extensions
+    raise ValueError("Authored extension source SHA mismatch: "+mod)
+ValueError: Authored extension source SHA mismatch: OAI.NumberTheory.DirichletL.Detector.GlobalRegionLowKappa
