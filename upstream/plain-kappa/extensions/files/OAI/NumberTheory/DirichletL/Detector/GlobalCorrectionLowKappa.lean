@@ -107,9 +107,10 @@ open HeckeFamily ProbePhysical
 theorem sourceCorrection_analytic_lowKappa (eta : Character)
     (S : Finset (Ideal HeckeFamily.O)) (hS : SourceExclusions S) :
     AnalyticOnNhd ℂ (sourceCorrection eta S) {s : ℂ | 21/25 < s.re} := by
-  simpa only [sourceCorrection] using
-    globalClosedCorrection_analytic_x_lowKappa eta S hS.tail 1 (1/6)
-      (by norm_num) (by norm_num)
+  change AnalyticOnNhd ℂ (fun s : ℂ => globalClosedCorrection eta S s 1 (1/6))
+    {s : ℂ | 21/25 < s.re}
+  exact globalClosedCorrection_analytic_x_lowKappa eta S hS.tail 1 (1/6)
+    (by norm_num) (by norm_num)
 
 theorem sourceCorrection_differentiable_lowKappa (eta : Character)
     (S : Finset (Ideal HeckeFamily.O)) (hS : SourceExclusions S) :

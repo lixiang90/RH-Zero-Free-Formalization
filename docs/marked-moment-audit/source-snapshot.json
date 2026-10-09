@@ -1,0 +1,188 @@
+{
+  "status": "read_only_type_and_mathematical_interface_review_no_new_Lean_proof",
+  "review_date": "2026-10-09",
+  "workcopy": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+  "review_document_sha256": "17c08fdf4f67c69a038309d1bb85bb811edfb903d4bdd775bf1a4f8790b7d40b",
+  "source_bindings": {
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorPlainFiberCount.lean": {
+      "raw_sha256": "d5995006f0589d8683c60d837f91687900f3e1bb63ba4abd36df3abcb2528403",
+      "lf_sha256": "59d4e231e772f7e2b696add18b8a1480db7d36d6f54cd3e207ac6db2e94659cc"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorRawFiber.lean": {
+      "raw_sha256": "67f7deaea66fbf26ca0c697aafa579afa58f12c17735f70cf83f4c14ac7a4607",
+      "lf_sha256": "491911b0b17d19943fdb1b43f479e741279e0c0c2b9f1e9e9c5d11de24335c5d"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorRawBranches.lean": {
+      "raw_sha256": "0c7be2f4783978d946dae3e345fe623af200fe954b7c00bda543c590b536ecf3",
+      "lf_sha256": "696bbacc691905ef06aa8934946185ae5d158907a93167d08005bd5da4ad3a4c"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorBranchBudget.lean": {
+      "raw_sha256": "556f8a9904f4ec30556dd8d890c21c6aaf752b1b3c1b279b4e85c2e46a980fd8",
+      "lf_sha256": "10491ef291665f80ff61771bce01c4aa5fed4fe168b92de67427d683c6fc77a7"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorCountFromMoments.lean": {
+      "raw_sha256": "dffc4c8d623fc62e898726daf7e90616ae939e62451f88712be7c43934b9ed13",
+      "lf_sha256": "5d29e2f64e2e52ac5beb54a873684c5ea7fb32511280e8d53fd4b378ac014149"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorRowCountCrossing.lean": {
+      "raw_sha256": "a6e60e882b7a683f9decea72c6dbb1d5cc4e8ff32cc7d8ce9014832e8cb2a549",
+      "lf_sha256": "1bc53cfbcc67251c35614694e55336e0e3ec3d872c7668ed7585a8ccff6864a4"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorRowCountOptimization.lean": {
+      "raw_sha256": "050e5f6462e23934b593250c88044c745493bf57ecb9f178805b00d532b2cfa5",
+      "lf_sha256": "db2977184a11c1ee832e6805fffa897c34d8910cd798a31123c9b5dacf5f0c20"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorBatch.lean": {
+      "raw_sha256": "ac1d356279c3fbc7e5813a717daa12585f289ee8168e7947bd5b0f018fea5589",
+      "lf_sha256": "bd7bf9bedfe6b8c8bfa7584b5bd2455238663bb29dec0d51516847068e4e2c04"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorBatchCount.lean": {
+      "raw_sha256": "6682db6a7b879dd52f2fded1422162c8702222dbd6ba1ee0f753d0d11b4f99db",
+      "lf_sha256": "b910426b7dfc442a1e5af94ec153debe617d8c7592d59e4f4b61e1142832b71d"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorFixedAmplitudeCount.lean": {
+      "raw_sha256": "91aada67319fe67cf8e49284844a42ce42e1b98d9d495facbdc1549b449684f1",
+      "lf_sha256": "baabf13565f77b3ae8bde6808c3ccab92d91499c967c05e474d00fb02768a447"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Detector\\FinalAssemblyCountParameters.lean": {
+      "raw_sha256": "f2183c59e14c429d7c63042d4e4694ea906955c1fb03f94b407474173ded365b",
+      "lf_sha256": "88b1a01167a672f116f0285f9384ed5c888cc456a55da7dbc71c90498632a968"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Detector\\FinalAssemblyData.lean": {
+      "raw_sha256": "e4ed7337985e8b5843727f0884472dd98f3c04934fef839f4e184125cf8c57fa",
+      "lf_sha256": "40177414737797476aa62242da6bbe91bd42c505887517be6d1ab19a6cef1628"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\ParametersHighData.lean": {
+      "raw_sha256": "4bbf9a79f4a7caa8ba443c1e5f6dbacfd6821d59d993270443b46f2d212b0691",
+      "lf_sha256": "e1e6e123d840366a92bc252e25510da2c103540880c7ba87e1077cac68451f0d"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\ParametersDetectorScales.lean": {
+      "raw_sha256": "1c2157f609c66a2437ee2fdf643f0d675ecbb35cf176daee2e5387e0c3435cc7",
+      "lf_sha256": "374bbbb6e7c0cd5d08ddacdb16a2233c730a6d488eb875739369fac982de437a"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\NaturalFixedRaySourceFiber.lean": {
+      "raw_sha256": "0f3f6267f8fe1850215b8c2d5db856808d33b15501c5ad41fa8fc6d276762c72",
+      "lf_sha256": "4cffd09d689f283fe1c122c150e8f65292175804a6991aa2e12fb9b01a1cd64d"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\NaturalFixedRaySourceBatch.lean": {
+      "raw_sha256": "8291f8700e87eacd90e3dbf7da0102a7bad34598322addc4f6672b85f3026a68",
+      "lf_sha256": "bcabe2864432eeaa7817d5a7481164b2ddb0e856c8b8cf0fde37c6c870b53783"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\NaturalFixedRaySourceProduct.lean": {
+      "raw_sha256": "d3ee81a1927809ec0f3229be1ec052e4b72d7eeb299fdfb1b9674313529a53a4",
+      "lf_sha256": "c06ebd5d3b18c12e2c201c072db4709865158271d49db5697a2a4c9595ef6995"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\NaturalFixedRaySourceCapacity.lean": {
+      "raw_sha256": "75ec52b5160521c787ffea5af87133ce1ea2b0793bd05f0354fab6309218513d",
+      "lf_sha256": "bf703b5908f202dcd9765215dfce6950c8e0be9907c1c31d078f434969a83894"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\NaturalFixedRaySourceFreeExceptional.lean": {
+      "raw_sha256": "e61699d887e4375efe50cd0ad7c719857901066f1d11eca3e82582a966c81514",
+      "lf_sha256": "4dbb1822fa52e5743cd4a43d77baa773d9c299e554d13496f5a1c9d6d4318b35"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\NaturalFixedRaySourceFixedIdeal.lean": {
+      "raw_sha256": "190e5726dbc032db6d9c0ea31d9b45e7abbbd8ddcc2acb7564c34fee8eac26cb",
+      "lf_sha256": "7814f20f7dae39272b939a7ea392bc6022abcc0757582560c77571a40c21ad22"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\NaturalFixedRaySourceDetectorProfile.lean": {
+      "raw_sha256": "8640c7820a812cd7e12a7c76e3f086ccfab64f7e0fed96b0b6ebea1e08bdb80c",
+      "lf_sha256": "5648950eb7c0b420fabf94f0867ece8135a6da9c92695666c4ea5e0b4198978c"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionaryFiber.lean": {
+      "raw_sha256": "1452f3b17324dc18738a8a986a344bcc826283273d4824733d14fa3025b6ee84",
+      "lf_sha256": "329b8f98e7c80578bf2e1d9a5d6a7887af508f69c0b9e55e89493b57b668d5bf"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionarySlots.lean": {
+      "raw_sha256": "2b78a21489a0a4af9df2453afe6580bbc9d648cf92e9a53d5b387012ad502dc6",
+      "lf_sha256": "d263889b617997352d8480a25fabccb3f5e8af814399deda52d563375eee6541"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\PrimeSlot.lean": {
+      "raw_sha256": "b55cab3d0ee3306d4cff599a923fca6cafefc286b4f8f175a1bde06795803aa7",
+      "lf_sha256": "e94a635d9180764a79bc5969c4ea75a0afc673494388add1d25dd99de2ea21b4"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\InductionEnergy.lean": {
+      "raw_sha256": "1bb64bac9e5e03fbda5f90a1ab05519a145afe75aeac58c0b15eb67c0ab65141",
+      "lf_sha256": "010e75c398c3a7a7a50399baa3b293371367ec45a6fd7b81f9662be6e787ce44"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Energy\\PositiveHighPhysical.lean": {
+      "raw_sha256": "b16ebf59a1026b1d8083fa3a3a68eea1edb49e56d4b9882266ff080e68e9d14b",
+      "lf_sha256": "b16ebf59a1026b1d8083fa3a3a68eea1edb49e56d4b9882266ff080e68e9d14b"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Energy\\PositiveHighSourceBound.lean": {
+      "raw_sha256": "a37fe5e77288342404aa0f11d013d4bfe2a46128e9aed6142dd57e2b7dd61289",
+      "lf_sha256": "a37fe5e77288342404aa0f11d013d4bfe2a46128e9aed6142dd57e2b7dd61289"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Energy\\Bands.lean": {
+      "raw_sha256": "42fd3fe963d8deef1cc5772979b41a8273e80940641e9f24475ff33397a09c2e",
+      "lf_sha256": "a61844ac79dfb06cdbce70a09bdc62671b15ad25ded96a3069fc657909e20324"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Energy\\State.lean": {
+      "raw_sha256": "b5118d2f6f04ed495a6317317b74a7d60ba1b32f2050aeb7ee7e9e4783d67222",
+      "lf_sha256": "d3b480d46e850bb45422841816c644c9417b8d0f6cc651dabf3da89f1e0f5923"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Energy\\CertifiedExistence.lean": {
+      "raw_sha256": "06ff1fed7defc2f2eb790ce226d968d258841a2e30c55ec840bf43f5422f64f5",
+      "lf_sha256": "06ff1fed7defc2f2eb790ce226d968d258841a2e30c55ec840bf43f5422f64f5"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Energy\\CappedWidthInduction.lean": {
+      "raw_sha256": "4d9ed300268c73c78c65e7102d538eef72613a450099c35131e12ba2b50c4325",
+      "lf_sha256": "d1817f2122c48f2b9f9954cc564eef59b119d2f1b467343b4ad9b78604b825d6"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Energy\\FixedRadialSource.lean": {
+      "raw_sha256": "97e8d9bf4e9d3d91107a636a6ac4c0c188a45328fa0499b75771d6056eb6258e",
+      "lf_sha256": "cdee7d41ffb34fa441de7f6eb1e8eb655b9073f1b9c43da283c3a66a540a29be"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\CanonicalReduction.lean": {
+      "raw_sha256": "bca3bafc69d469660bd2eae554d9ab9170c39b368be8a84f7c869fe7ce835d76",
+      "lf_sha256": "9648af7dc18efeb4ab569036e5fe50d76f7b85e72e71c41158ffb97d00fd7ed5"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\CanonicalCubeReduction.lean": {
+      "raw_sha256": "0918aa9f268d02f271bf5bfdbebc2c64a5983cddb8a56c1acd7a967f0f0440a1",
+      "lf_sha256": "28641905675b292399b202f22de7d8baae3e9d6f3e3fe0654652e9eb8e34313b"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\CanonicalCubeChoice.lean": {
+      "raw_sha256": "d1cb6b2c0e1c30e15e607b6ce682f7a43ea768d062e7e350419c9a10f061819a",
+      "lf_sha256": "d4bf1ea049dcd36b241c4f1c20b6e3c5e66c5a0ea38e9c805ae9b945fbeee14c"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\CanonicalRayCube.lean": {
+      "raw_sha256": "53b066621e39813045c8effecccfd514a40b2291b9f410dae7b9ea1bcdae8294",
+      "lf_sha256": "c42ec3bf993ce27fe4950ad028b724b42b1a405922670c03dbbcea30e12b0958"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\RowPartition.lean": {
+      "raw_sha256": "3e5ac378d1d7f3ff2e3438a7e40140e133b7a681ab06b4d9b2df48ab4507be19",
+      "lf_sha256": "5433506b2b0efcf82066fabbee2e121f64126f997f9fef0bc090ccce2971ab6b"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\NonfloorCount.lean": {
+      "raw_sha256": "dba31f83223efb91818e86c8e8345df18b25c6fefb9043c91690d5c906d315f6",
+      "lf_sha256": "a52ccf6c3e635d3305336b6ede7b6b82271c0b8606178e410be3110e632734af"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\PhysicalPartition.lean": {
+      "raw_sha256": "50f5d9ced21b30f7d89bbff650962c351cf9bc38c3fd7bc382d23502011c96c5",
+      "lf_sha256": "25373eaeb09764d700f3df8664919446f24a10fc1a60e629547322b4049cf38f"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\ExhaustivePartition.lean": {
+      "raw_sha256": "2371a663802f961786ef4bf0966696694a87b665398e701cd425d46f9916c6ef",
+      "lf_sha256": "64f6cdf6a0948d07fa64651ede430f8da4feb0f6567d92830564a83d929333fb"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\CanonicalTails.lean": {
+      "raw_sha256": "72daeae343a5b317666495e18e20e32c747d1ca3706deba459535ba33b846c64",
+      "lf_sha256": "3e3514944e4f06cb011fd73548f8d1ef63ae9ab6fc087298ccf5060dfdfc80a4"
+    },
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorFiberPartition.lean": {
+      "raw_sha256": "60a73dc7e48734436db2d0553aa5132e9a26ef302006736c318bb289670f53af",
+      "lf_sha256": "b79c31ccef2cfbbd8ffe03b6757ccbe69318f6ee0dbe7ae880f76161ef669173"
+    }
+  },
+  "edited_Lean_sources": [],
+  "owned_compile_status": "Region5 actual compile and fresh standard3 passed; other five authored targets awaiting actual proof completion; combined43 fresh still prepared, Nano owned by prep",
+  "standalone_coefficient_prototype_review": {
+    "path": "E:\\codex-build\\RH-Weil\\tmp\\marked-count-source-audit-20261009\\IdentityClassCoefficient.lean",
+    "raw_sha256": "853f717ae071e4f59e469c4eca5292a80a106cb8e7119c1227f911be07ed33c2",
+    "lf_sha256": "853f717ae071e4f59e469c4eca5292a80a106cb8e7119c1227f911be07ed33c2",
+    "mathematical_review": "correct; suffices for arbitrary ray theta in direct identityClass pool bridge",
+    "actual_compilation": "reported by root; this agent did not rerun compile",
+    "nano_status": "not included in frozen11 or Nano outcome"
+  },
+  "canonical_row_domain_review_document_sha256": "ecc3a85624a4dd4df8fbd027a92986b20ce6d2476969cd146194922ed2ac15ce",
+  "review_frozen": true
+}

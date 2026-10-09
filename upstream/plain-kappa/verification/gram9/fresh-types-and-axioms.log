@@ -1,0 +1,478 @@
+warning: rellich-kondrachov: repository 'E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake/packages\rellich-kondrachov' has local changes
+OAI.SevenEighths.ProbePhysical.source_scale_ratio_total : ∀ (Z ell b : Real)
+  (hZ : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) Z),
+  @Eq.{1} Real
+    (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+        (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b))
+      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+        (OAI.SevenEighths.ProbePhysical.totalSourceLx ell b)))
+    (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z b)
+'OAI.SevenEighths.ProbePhysical.source_scale_ratio_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+OAI.SevenEighths.ProbePhysical.source_scale_square_total : ∀ (Z ell b : Real)
+  (hZ : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) Z),
+  @Eq.{1} Real
+    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+            (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+              (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) ell)
+            (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+              (@OfNat.ofNat.{0} Real (nat_lit 3)
+                (@instOfNatAtLeastTwo.{0} Real (nat_lit 3) Real.instNatCast
+                  (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                    (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))))
+              b))
+          (@OfNat.ofNat.{0} Real (nat_lit 2)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))))))))
+      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+        (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b)))
+    (@HPow.hPow.{0, 0, 0} Real Nat Real
+      (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+        (OAI.SevenEighths.ProbePhysical.totalSourceLx ell b))
+      (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+'OAI.SevenEighths.ProbePhysical.source_scale_square_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+OAI.SevenEighths.ProbePhysical.source_compensated_scale_admissible_total : ∀ (q Z L ell b : Real)
+  (hq : @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) q)
+  (hZ : @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) Z)
+  (hL : @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) L)
+  (hb : @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) b)
+  (hql :
+    @LE.le.{0} Real Real.instLE q (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z b))
+  (hLl :
+    @LE.le.{0} Real Real.instLE L
+      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+            (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+              (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) ell)
+            (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+              (@OfNat.ofNat.{0} Real (nat_lit 3)
+                (@instOfNatAtLeastTwo.{0} Real (nat_lit 3) Real.instNatCast
+                  (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                    (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))))
+              b))
+          (@OfNat.ofNat.{0} Real (nat_lit 2)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))))))))),
+  And
+    (@LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+          (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b))
+        L))
+    (And
+      (@LE.le.{0} Real Real.instLE
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) q
+          (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+            (OAI.SevenEighths.ProbePhysical.totalSourceLx ell b)))
+        (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+          (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b)))
+      (@LE.le.{0} Real Real.instLE
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) L
+          (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+            (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b)))
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+          (@HPow.hPow.{0, 0, 0} Real Nat Real
+            (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid))) q
+            (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+          (@HPow.hPow.{0, 0, 0} Real Nat Real
+            (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+            (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+              (OAI.SevenEighths.ProbePhysical.totalSourceLx ell b))
+            (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+'OAI.SevenEighths.ProbePhysical.source_compensated_scale_admissible_total' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.ProbePhysical.source_gram_power_total : ∀ (Z ell b δ : Real)
+  (hZ : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) Z),
+  @Eq.{1} Real
+    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+        (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+          (OAI.SevenEighths.ProbePhysical.totalSourceLx ell b))
+        (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+          (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z b)
+          (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+            (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+            (@OfNat.ofNat.{0} Real (nat_lit 6)
+              (@instOfNatAtLeastTwo.{0} Real (nat_lit 6) Real.instNatCast
+                (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 5) (instOfNatNat (nat_lit 5)))
+                  (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))))))))))
+      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+        (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+          (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b))
+        δ))
+    (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+      (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+          (@OfNat.ofNat.{0} Real (nat_lit 2)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))))))
+          (OAI.SevenEighths.ProbePhysical.totalSourceLowExponent ell b))
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+          (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b) δ)))
+'OAI.SevenEighths.ProbePhysical.source_gram_power_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+OAI.SevenEighths.ProbePhysical.source_gram_sqrt_power_total : ∀ (Z ell b δ : Real)
+  (hZ : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) Z),
+  @Eq.{1} Real
+    (Real.sqrt
+      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+        (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+            (@OfNat.ofNat.{0} Real (nat_lit 2)
+              (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+                (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                  (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))))))
+            (OAI.SevenEighths.ProbePhysical.totalSourceLowExponent ell b))
+          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+            (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b) δ))))
+    (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+      (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+        (OAI.SevenEighths.ProbePhysical.totalSourceLowExponent ell b)
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+            (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b) δ)
+          (@OfNat.ofNat.{0} Real (nat_lit 2)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))))))))))
+'OAI.SevenEighths.ProbePhysical.source_gram_sqrt_power_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+OAI.SevenEighths.ProbePhysical.source_compensated_gram_scale_total : ∀ (q Z L ell b δ : Real)
+  (hq : @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) q)
+  (hZ : @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) Z)
+  (hL : @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) L)
+  (hb : @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) b)
+  (hql :
+    @LE.le.{0} Real Real.instLE q (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z b))
+  (hLl :
+    @LE.le.{0} Real Real.instLE L
+      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+            (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+              (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) ell)
+            (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+              (@OfNat.ofNat.{0} Real (nat_lit 3)
+                (@instOfNatAtLeastTwo.{0} Real (nat_lit 3) Real.instNatCast
+                  (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                    (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))))
+              b))
+          (@OfNat.ofNat.{0} Real (nat_lit 2)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))))))))))
+  (hδ : @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) δ),
+  @LE.le.{0} Real Real.instLE
+    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+            (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) q
+              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+                  (OAI.SevenEighths.ProbePhysical.totalSourceLx ell b))
+                L))
+            (@HDiv.hDiv.{0, 0, 0} Real Real Real
+              (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+              (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+                (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b))
+              L))
+          (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+            (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+              (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b))
+            L))
+        (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+          (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+            (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+            (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                (@HPow.hPow.{0, 0, 0} Real Nat Real
+                  (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+                  (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                    (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                    (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+                      (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b))
+                    L)
+                  (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) q
+                    (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                      (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+                        (OAI.SevenEighths.ProbePhysical.totalSourceLx ell b))
+                      L))
+                  (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                    (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                    (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+                      (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b))
+                    L)))
+              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+                (@OfNat.ofNat.{0} Real (nat_lit 6)
+                  (@instOfNatAtLeastTwo.{0} Real (nat_lit 6) Real.instNatCast
+                    (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 5) (instOfNatNat (nat_lit 5)))
+                      (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))))))))))
+          (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+            (@HPow.hPow.{0, 0, 0} Real Nat Real
+              (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                (@HPow.hPow.{0, 0, 0} Real Nat Real
+                  (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+                  (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                    (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                    (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+                      (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b))
+                    L)
+                  (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) q
+                    (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                      (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+                        (OAI.SevenEighths.ProbePhysical.totalSourceLx ell b))
+                      L))
+                  (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                    (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                    (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+                      (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b))
+                    L)))
+              (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+            (@HDiv.hDiv.{0, 0, 0} Real Real Real
+              (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+              (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+                (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b))
+              L))))
+      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+            (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b))
+          L)
+        δ))
+    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+          (@OfNat.ofNat.{0} Real (nat_lit 3)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 3) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))))
+          q)
+        L)
+      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+        (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+            (@OfNat.ofNat.{0} Real (nat_lit 2)
+              (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+                (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                  (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))))))
+            (OAI.SevenEighths.ProbePhysical.totalSourceLowExponent ell b))
+          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+            (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b) δ))))
+'OAI.SevenEighths.ProbePhysical.source_compensated_gram_scale_total' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.ProbePhysical.lowGramFactor_source_bound_total : ∀ (C : OAI.SevenEighths.ProbePhysical.CalibrationData)
+  (Z L ell b δ : Real)
+  (hZ : @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) Z)
+  (hL : @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) L)
+  (hb : @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) b)
+  (hql :
+    @LE.le.{0} Real Real.instLE
+      (OAI.SevenEighths.ProbePhysical.elementNorm (OAI.SevenEighths.ProbePhysical.CalibrationData.generator C))
+      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z b))
+  (hLl :
+    @LE.le.{0} Real Real.instLE L
+      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+            (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+              (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) ell)
+            (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+              (@OfNat.ofNat.{0} Real (nat_lit 3)
+                (@instOfNatAtLeastTwo.{0} Real (nat_lit 3) Real.instNatCast
+                  (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                    (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))))
+              b))
+          (@OfNat.ofNat.{0} Real (nat_lit 2)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))))))))))
+  (hδ : @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) δ),
+  @LE.le.{0} Real Real.instLE
+    (OAI.SevenEighths.ProbePhysical.lowGramFactor C
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+          (OAI.SevenEighths.ProbePhysical.totalSourceLx ell b))
+        L)
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+          (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b))
+        L)
+      δ)
+    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+      (Real.sqrt
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+            (@OfNat.ofNat.{0} Real (nat_lit 3)
+              (@instOfNatAtLeastTwo.{0} Real (nat_lit 3) Real.instNatCast
+                (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                  (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))))
+            (OAI.SevenEighths.ProbePhysical.elementNorm (OAI.SevenEighths.ProbePhysical.CalibrationData.generator C)))
+          L))
+      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+        (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+          (OAI.SevenEighths.ProbePhysical.totalSourceLowExponent ell b)
+          (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+            (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+              (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b) δ)
+            (@OfNat.ofNat.{0} Real (nat_lit 2)
+              (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+                (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                  (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))))))))))
+'OAI.SevenEighths.ProbePhysical.lowGramFactor_source_bound_total' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.ProbePhysical.eventually_compensated_source_scales_total : ∀
+  (C : OAI.SevenEighths.ProbePhysical.CalibrationData) (B ell b : Real)
+  (hb : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) b)
+  (hgeom :
+    @LT.lt.{0} Real Real.instLT
+      (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+          (@OfNat.ofNat.{0} Real (nat_lit 3)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 3) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))))
+          ell)
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+          (@OfNat.ofNat.{0} Real (nat_lit 3)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 3) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))))
+          b))
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))),
+  @Filter.Eventually.{0} Real
+    (fun (Z : Real) =>
+      And (@LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) Z)
+        (And
+          (@LE.le.{0} Real Real.instLE
+            (OAI.SevenEighths.ProbePhysical.elementNorm (OAI.SevenEighths.ProbePhysical.CalibrationData.generator C))
+            (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z b))
+          (∀ (L : Real),
+            @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) L →
+              @LE.le.{0} Real Real.instLE L
+                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) B
+                    (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z ell)) →
+                And
+                  (@LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+                    (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                      (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+                        (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b))
+                      L))
+                  (And
+                    (@LE.le.{0} Real Real.instLE
+                      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+                      (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                        (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                        (@HPow.hPow.{0, 0, 0} Real Nat Real
+                          (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+                          (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                            (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                            (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+                              (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b))
+                            L)
+                          (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (OAI.SevenEighths.ProbePhysical.lowPhysicalScale C
+                          (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                            (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                            (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+                              (OAI.SevenEighths.ProbePhysical.totalSourceLx ell b))
+                            L)
+                          (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                            (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                            (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+                              (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b))
+                            L))))
+                    (∀ (δ : Real),
+                      @LE.le.{0} Real Real.instLE
+                          (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) δ →
+                        @LE.le.{0} Real Real.instLE
+                          (OAI.SevenEighths.ProbePhysical.lowGramFactor C
+                            (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                              (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                              (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+                                (OAI.SevenEighths.ProbePhysical.totalSourceLx ell b))
+                              L)
+                            (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                              (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                              (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+                                (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b))
+                              L)
+                            δ)
+                          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                            (Real.sqrt
+                              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                                  (@OfNat.ofNat.{0} Real (nat_lit 3)
+                                    (@instOfNatAtLeastTwo.{0} Real (nat_lit 3) Real.instNatCast
+                                      (@Nat.instAtLeastTwoHAddOfNat
+                                        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                        (@Nat.instNeZeroSucc
+                                          (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))))
+                                  (OAI.SevenEighths.ProbePhysical.elementNorm
+                                    (OAI.SevenEighths.ProbePhysical.CalibrationData.generator C)))
+                                L))
+                            (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+                              (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                                (OAI.SevenEighths.ProbePhysical.totalSourceLowExponent ell b)
+                                (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                                  (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                                    (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b) δ)
+                                  (@OfNat.ofNat.{0} Real (nat_lit 2)
+                                    (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+                                      (@Nat.instAtLeastTwoHAddOfNat
+                                        (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                                        (@Nat.instNeZeroSucc
+                                          (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))))))))))))))))
+    (@Filter.atTop.{0} Real Real.instPreorder)
+'OAI.SevenEighths.ProbePhysical.eventually_compensated_source_scales_total' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.ProbePhysical.lowPhysicalScale_source_total : ∀ (C : OAI.SevenEighths.ProbePhysical.CalibrationData)
+  (Z L ell b : Real)
+  (hZ : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) Z),
+  @Eq.{1} Real
+    (OAI.SevenEighths.ProbePhysical.lowPhysicalScale C
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+          (OAI.SevenEighths.ProbePhysical.totalSourceLx ell b))
+        L)
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+          (OAI.SevenEighths.ProbePhysical.totalSourceLy ell b))
+        L))
+    (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+        (OAI.SevenEighths.ProbePhysical.elementNorm (OAI.SevenEighths.ProbePhysical.CalibrationData.generator C))
+        (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+          (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+            (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) ell)))
+      (@HPow.hPow.{0, 0, 0} Real Nat Real
+        (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid))) L
+        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+'OAI.SevenEighths.ProbePhysical.lowPhysicalScale_source_total' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

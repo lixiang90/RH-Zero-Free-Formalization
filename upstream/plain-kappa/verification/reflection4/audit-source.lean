@@ -1,0 +1,21 @@
+import UpstreamNano_20261009_135456
+set_option pp.universes true
+set_option pp.fullNames true
+set_option pp.explicit true
+
+set_option pp.universes true
+#check @OAI.SevenEighths.CenteredMomentReflectionRetainedLength.retained_scale_lower
+set_option pp.universes false
+#print axioms OAI.SevenEighths.CenteredMomentReflectionRetainedLength.retained_scale_lower
+set_option pp.universes true
+#check @OAI.SevenEighths.CenteredMomentReflectionRetainedLength.eventually_actual_retained_length
+set_option pp.universes false
+#print axioms OAI.SevenEighths.CenteredMomentReflectionRetainedLength.eventually_actual_retained_length
+set_option pp.universes true
+#check @OAI.SevenEighths.CenteredMomentReflectionRetainedLength.one_reflection_total_width
+set_option pp.universes false
+#print axioms OAI.SevenEighths.CenteredMomentReflectionRetainedLength.one_reflection_total_width
+set_option pp.universes true
+#check @OAI.SevenEighths.CenteredMomentReflectionRetainedLength.positive_slot_width_drop
+set_option pp.universes false
+#print axioms OAI.SevenEighths.CenteredMomentReflectionRetainedLength.positive_slot_width_drop

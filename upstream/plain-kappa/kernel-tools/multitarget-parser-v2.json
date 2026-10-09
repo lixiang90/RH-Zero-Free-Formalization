@@ -1,0 +1,88 @@
+{
+  "runner": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-kernel\\scripts\\run_upstream_nanoda_multitarget.py",
+  "runner_sha256": "175f717137a816c2d1503062bcd22ca15f36f19e1b6c786b51cdd636c067010e",
+  "captured_at_utc": "2026-10-09T05:32:48.996673+00:00",
+  "scope": "Parser unit checks only, paired with a separate actual fresh compilation and serial Nano positive test; no synthetic log is claimed to be compiler output.",
+  "cases": [
+    {
+      "case": "Unicode-and-apostrophe-full-type-and-three-standard-axioms",
+      "expected_accept": true,
+      "observed_accept": true,
+      "detail": {
+        "declaration_count": 1,
+        "checks": [
+          {
+            "declaration": "Example.extendₗ'",
+            "axioms": [
+              "propext",
+              "Quot.sound",
+              "Classical.choice"
+            ]
+          }
+        ],
+        "only_standard_axioms": true
+      }
+    },
+    {
+      "case": "No-axioms-full-type",
+      "expected_accept": true,
+      "observed_accept": true,
+      "detail": {
+        "declaration_count": 1,
+        "checks": [
+          {
+            "declaration": "Example.extendₗ'",
+            "axioms": []
+          }
+        ],
+        "only_standard_axioms": true
+      }
+    },
+    {
+      "case": "Reject-nonstandard-sorryAx",
+      "expected_accept": false,
+      "observed_accept": false,
+      "detail": "Unpermitted transitive axioms: {'declaration': \"Example.extendₗ'\", 'axioms': ['propext', 'Quot.sound', 'sorryAx']}"
+    },
+    {
+      "case": "Reject-unknown-axiom",
+      "expected_accept": false,
+      "observed_accept": false,
+      "detail": "Unpermitted transitive axioms: {'declaration': \"Example.extendₗ'\", 'axioms': ['propext', 'Quot.sound', 'Example.newAxiom']}"
+    },
+    {
+      "case": "Reject-duplicate-print-output",
+      "expected_accept": false,
+      "observed_accept": false,
+      "detail": "Fresh audit names/count mismatch"
+    },
+    {
+      "case": "Reject-wrong-declaration-name",
+      "expected_accept": false,
+      "observed_accept": false,
+      "detail": "Fresh audit names/count mismatch"
+    },
+    {
+      "case": "Reject-missing-complete-type",
+      "expected_accept": false,
+      "observed_accept": false,
+      "detail": "Fresh full type output missing: Example.extendₗ'"
+    },
+    {
+      "case": "Reject-compiler-sorry-warning",
+      "expected_accept": false,
+      "observed_accept": false,
+      "detail": "Fresh output contains a failed proof or declaration"
+    },
+    {
+      "case": "Reject-universe-decorated-axiom-name",
+      "expected_accept": false,
+      "observed_accept": false,
+      "detail": "Fresh audit names/count mismatch"
+    }
+  ],
+  "public_private_meta_import_prefixes_parsed": true,
+  "importModules_function_not_parsed_as_import": true,
+  "invalid_hyphenated_identifier_rejected": true,
+  "all_parser_cases_passed": true
+}

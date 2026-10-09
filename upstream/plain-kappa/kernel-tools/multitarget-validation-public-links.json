@@ -1,0 +1,11 @@
+{
+  "scope": "Frozen replay-tool validation only; repeated checks of two already certified slot roots add no mathematical record count.",
+  "runner": "run_upstream_nanoda_multitarget.py",
+  "runner_sha256": "175f717137a816c2d1503062bcd22ca15f36f19e1b6c786b51cdd636c067010e",
+  "parser_evidence": "multitarget-parser-v2.json",
+  "parser_evidence_sha256": "7782d95dd0b32f70f6f9b4b62a981037f3aa99e4696e34188bb0665a53991a24",
+  "actual_positive_test_record": "../verification/multitarget-runner-v2-validation/strict-replay-result.json",
+  "actual_positive_test_record_sha256": "b644191378636fc250f2b1587526ef3046438cad80bf522680acb56adb826c1a",
+  "actual_compilation_and_independent_replay_passed": true,
+  "new_mathematical_selected_root_count": 0
+}

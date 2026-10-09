@@ -1,0 +1,206 @@
+warning: rellich-kondrachov: repository 'E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake/packages\rellich-kondrachov' has local changes
+OAI.SevenEighths.ProbeEuler.unramifiedClosed_open_region_bound_lowKappa : ∀ (Q : Real) (A eta v x w z : Complex),
+  @LE.le.{0} Real Real.instLE
+      (@OfNat.ofNat.{0} Real (nat_lit 4) (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast ⋯)) Q →
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm A)
+        (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) →
+      @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm eta)
+          (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) →
+        @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm v)
+            (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) →
+          @LE.le.{0} Real Real.instLE
+              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                (@OfNat.ofNat.{0} Real (nat_lit 21) (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast ⋯))
+                (@OfNat.ofNat.{0} Real (nat_lit 25) (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast ⋯)))
+              x.re →
+            @LE.le.{0} Real Real.instLE
+                (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                  (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                  (@OfNat.ofNat.{0} Real (nat_lit 9) (@instOfNatAtLeastTwo.{0} Real (nat_lit 9) Real.instNatCast ⋯))
+                  (@OfNat.ofNat.{0} Real (nat_lit 10) (@instOfNatAtLeastTwo.{0} Real (nat_lit 10) Real.instNatCast ⋯)))
+                w.re →
+              @LE.le.{0} Real Real.instLE
+                  (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                    (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                    (@OfNat.ofNat.{0} Real (nat_lit 4) (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast ⋯))
+                    (@OfNat.ofNat.{0} Real (nat_lit 25)
+                      (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast ⋯)))
+                  z.re →
+                @LE.le.{0} Real Real.instLE
+                  (@Norm.norm.{0} Complex Complex.instNorm
+                    (@HSub.hSub.{0, 0, 0} Complex Complex Complex (@instHSub.{0} Complex Complex.instSub)
+                      (OAI.SevenEighths.ProbeEuler.unramifiedClosed Q A eta v x w z)
+                      (@OfNat.ofNat.{0} Complex (nat_lit 1) (@One.toOfNat1.{0} Complex Complex.instOne))))
+                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                    (@OfNat.ofNat.{0} Real (nat_lit 240)
+                      (@instOfNatAtLeastTwo.{0} Real (nat_lit 240) Real.instNatCast ⋯))
+                    (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Q
+                      (@Neg.neg.{0} Real Real.instNeg
+                        (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                          (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                          (@OfNat.ofNat.{0} Real (nat_lit 17)
+                            (@instOfNatAtLeastTwo.{0} Real (nat_lit 17) Real.instNatCast ⋯))
+                          (@OfNat.ofNat.{0} Real (nat_lit 10)
+                            (@instOfNatAtLeastTwo.{0} Real (nat_lit 10) Real.instNatCast ⋯))))))
+'OAI.SevenEighths.ProbeEuler.unramifiedClosed_open_region_bound_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.ProbeEuler.open_region_denominators_lowKappa : ∀ (Q : Real) (A eta v x z : Complex),
+  @LE.le.{0} Real Real.instLE
+      (@OfNat.ofNat.{0} Real (nat_lit 4) (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast ⋯)) Q →
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm A)
+        (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) →
+      @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm eta)
+          (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) →
+        @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm v)
+            (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) →
+          @LE.le.{0} Real Real.instLE
+              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                (@OfNat.ofNat.{0} Real (nat_lit 21) (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast ⋯))
+                (@OfNat.ofNat.{0} Real (nat_lit 25) (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast ⋯)))
+              x.re →
+            @LE.le.{0} Real Real.instLE
+                (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                  (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                  (@OfNat.ofNat.{0} Real (nat_lit 4) (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast ⋯))
+                  (@OfNat.ofNat.{0} Real (nat_lit 25) (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast ⋯)))
+                z.re →
+              And
+                (@Ne.{1} Complex
+                  (@HSub.hSub.{0, 0, 0} Complex Complex Complex (@instHSub.{0} Complex Complex.instSub)
+                    (@OfNat.ofNat.{0} Complex (nat_lit 1) (@One.toOfNat1.{0} Complex Complex.instOne))
+                    (OAI.SevenEighths.ProbeEuler.coordR Q A x z))
+                  (@OfNat.ofNat.{0} Complex (nat_lit 0) (@Zero.toOfNat0.{0} Complex Complex.instZero)))
+                (And
+                  (@Ne.{1} Complex
+                    (@HSub.hSub.{0, 0, 0} Complex Complex Complex (@instHSub.{0} Complex Complex.instSub)
+                      (@OfNat.ofNat.{0} Complex (nat_lit 1) (@One.toOfNat1.{0} Complex Complex.instOne))
+                      (OAI.SevenEighths.ProbeEuler.coordV Q z))
+                    (@OfNat.ofNat.{0} Complex (nat_lit 0) (@Zero.toOfNat0.{0} Complex Complex.instZero)))
+                  (@Ne.{1} Complex
+                    (@HSub.hSub.{0, 0, 0} Complex Complex Complex (@instHSub.{0} Complex Complex.instSub)
+                      (@OfNat.ofNat.{0} Complex (nat_lit 1) (@One.toOfNat1.{0} Complex Complex.instOne))
+                      (OAI.SevenEighths.ProbeEuler.coordD Q eta v x))
+                    (@OfNat.ofNat.{0} Complex (nat_lit 0) (@Zero.toOfNat0.{0} Complex Complex.instZero))))
+'OAI.SevenEighths.ProbeEuler.open_region_denominators_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_x_lowKappa : ∀ (Q : Real) (A eta v w z : Complex),
+  @LE.le.{0} Real Real.instLE
+      (@OfNat.ofNat.{0} Real (nat_lit 4) (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast ⋯)) Q →
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm A)
+        (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) →
+      @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm eta)
+          (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) →
+        @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm v)
+            (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) →
+          @LE.le.{0} Real Real.instLE
+              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                (@OfNat.ofNat.{0} Real (nat_lit 4) (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast ⋯))
+                (@OfNat.ofNat.{0} Real (nat_lit 25) (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast ⋯)))
+              z.re →
+            @AnalyticOnNhd.{0, 0, 0} Complex Complex Complex
+              (@DenselyNormedField.toNontriviallyNormedField.{0} Complex Complex.instDenselyNormedField)
+              Complex.instNormedAddCommGroup
+              (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+                (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+                  (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+              Complex.instNormedAddCommGroup
+              (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+                (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+                  (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+              (fun x => OAI.SevenEighths.ProbeEuler.unramifiedClosed Q A eta v x w z)
+              (@Set.ofPred.{0} Complex fun x =>
+                @LT.lt.{0} Real Real.instLT
+                  (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                    (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                    (@OfNat.ofNat.{0} Real (nat_lit 21) (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast ⋯))
+                    (@OfNat.ofNat.{0} Real (nat_lit 25)
+                      (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast ⋯)))
+                  x.re)
+'OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_x_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_w_lowKappa : ∀ (Q : Real) (A eta v x z : Complex),
+  @LE.le.{0} Real Real.instLE
+      (@OfNat.ofNat.{0} Real (nat_lit 4) (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast ⋯)) Q →
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm A)
+        (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) →
+      @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm eta)
+          (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) →
+        @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm v)
+            (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) →
+          @LE.le.{0} Real Real.instLE
+              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                (@OfNat.ofNat.{0} Real (nat_lit 21) (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast ⋯))
+                (@OfNat.ofNat.{0} Real (nat_lit 25) (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast ⋯)))
+              x.re →
+            @LE.le.{0} Real Real.instLE
+                (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                  (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                  (@OfNat.ofNat.{0} Real (nat_lit 4) (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast ⋯))
+                  (@OfNat.ofNat.{0} Real (nat_lit 25) (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast ⋯)))
+                z.re →
+              @AnalyticOnNhd.{0, 0, 0} Complex Complex Complex
+                (@DenselyNormedField.toNontriviallyNormedField.{0} Complex Complex.instDenselyNormedField)
+                Complex.instNormedAddCommGroup
+                (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+                  (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+                    (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+                Complex.instNormedAddCommGroup
+                (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+                  (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+                    (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+                (fun w => OAI.SevenEighths.ProbeEuler.unramifiedClosed Q A eta v x w z)
+                (@Set.ofPred.{0} Complex fun w =>
+                  @LT.lt.{0} Real Real.instLT
+                    (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                      (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                      (@OfNat.ofNat.{0} Real (nat_lit 9) (@instOfNatAtLeastTwo.{0} Real (nat_lit 9) Real.instNatCast ⋯))
+                      (@OfNat.ofNat.{0} Real (nat_lit 10)
+                        (@instOfNatAtLeastTwo.{0} Real (nat_lit 10) Real.instNatCast ⋯)))
+                    w.re)
+'OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_w_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_z_lowKappa : ∀ (Q : Real) (A eta v x w : Complex),
+  @LE.le.{0} Real Real.instLE
+      (@OfNat.ofNat.{0} Real (nat_lit 4) (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast ⋯)) Q →
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm A)
+        (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) →
+      @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm eta)
+          (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) →
+        @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm v)
+            (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) →
+          @LE.le.{0} Real Real.instLE
+              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                (@OfNat.ofNat.{0} Real (nat_lit 21) (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast ⋯))
+                (@OfNat.ofNat.{0} Real (nat_lit 25) (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast ⋯)))
+              x.re →
+            @AnalyticOnNhd.{0, 0, 0} Complex Complex Complex
+              (@DenselyNormedField.toNontriviallyNormedField.{0} Complex Complex.instDenselyNormedField)
+              Complex.instNormedAddCommGroup
+              (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+                (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+                  (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+              Complex.instNormedAddCommGroup
+              (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+                (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+                  (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+              (fun z => OAI.SevenEighths.ProbeEuler.unramifiedClosed Q A eta v x w z)
+              (@Set.ofPred.{0} Complex fun z =>
+                @LT.lt.{0} Real Real.instLT
+                  (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                    (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                    (@OfNat.ofNat.{0} Real (nat_lit 4) (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast ⋯))
+                    (@OfNat.ofNat.{0} Real (nat_lit 25)
+                      (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast ⋯)))
+                  z.re)
+'OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_z_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

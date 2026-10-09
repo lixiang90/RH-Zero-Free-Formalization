@@ -1,0 +1,1474 @@
+warning: rellich-kondrachov: repository 'E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake/packages\rellich-kondrachov' has local changes
+OAI.SevenEighths.ProbeEuler.unramifiedClosed_open_region_bound_lowKappa : ∀ (Q : Real) (A eta v x w z : Complex)
+  (hQ :
+    @LE.le.{0} Real Real.instLE
+      (@OfNat.ofNat.{0} Real (nat_lit 4)
+        (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast
+          (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+            (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+      Q)
+  (hA :
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm A)
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+  (heta :
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm eta)
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+  (hv :
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm v)
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+  (hx :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 21)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 20) (instOfNatNat (nat_lit 20)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 19) (instOfNatNat (nat_lit 19)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      (Complex.re x))
+  (hw :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 9)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 9) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 8) (instOfNatNat (nat_lit 8)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 7) (instOfNatNat (nat_lit 7)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 10)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 10) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 9) (instOfNatNat (nat_lit 9)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 8) (instOfNatNat (nat_lit 8))))))))
+      (Complex.re w))
+  (hz :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 4)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      (Complex.re z)),
+  @LE.le.{0} Real Real.instLE
+    (@Norm.norm.{0} Complex Complex.instNorm
+      (@HSub.hSub.{0, 0, 0} Complex Complex Complex (@instHSub.{0} Complex Complex.instSub)
+        (OAI.SevenEighths.ProbeEuler.unramifiedClosed Q A eta v x w z)
+        (@OfNat.ofNat.{0} Complex (nat_lit 1) (@One.toOfNat1.{0} Complex Complex.instOne))))
+    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+      (@OfNat.ofNat.{0} Real (nat_lit 240)
+        (@instOfNatAtLeastTwo.{0} Real (nat_lit 240) Real.instNatCast
+          (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 239) (instOfNatNat (nat_lit 239)))
+            (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 238) (instOfNatNat (nat_lit 238)))))))
+      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Q
+        (@Neg.neg.{0} Real Real.instNeg
+          (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+            (@OfNat.ofNat.{0} Real (nat_lit 17)
+              (@instOfNatAtLeastTwo.{0} Real (nat_lit 17) Real.instNatCast
+                (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 16) (instOfNatNat (nat_lit 16)))
+                  (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 15) (instOfNatNat (nat_lit 15)))))))
+            (@OfNat.ofNat.{0} Real (nat_lit 10)
+              (@instOfNatAtLeastTwo.{0} Real (nat_lit 10) Real.instNatCast
+                (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 9) (instOfNatNat (nat_lit 9)))
+                  (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 8) (instOfNatNat (nat_lit 8)))))))))))
+'OAI.SevenEighths.ProbeEuler.unramifiedClosed_open_region_bound_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.ProbeEuler.open_region_denominators_lowKappa : ∀ (Q : Real) (A eta v x z : Complex)
+  (hQ :
+    @LE.le.{0} Real Real.instLE
+      (@OfNat.ofNat.{0} Real (nat_lit 4)
+        (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast
+          (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+            (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+      Q)
+  (hA :
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm A)
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+  (he :
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm eta)
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+  (hv :
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm v)
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+  (hx :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 21)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 20) (instOfNatNat (nat_lit 20)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 19) (instOfNatNat (nat_lit 19)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      (Complex.re x))
+  (hz :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 4)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      (Complex.re z)),
+  And
+    (@Ne.{1} Complex
+      (@HSub.hSub.{0, 0, 0} Complex Complex Complex (@instHSub.{0} Complex Complex.instSub)
+        (@OfNat.ofNat.{0} Complex (nat_lit 1) (@One.toOfNat1.{0} Complex Complex.instOne))
+        (OAI.SevenEighths.ProbeEuler.coordR Q A x z))
+      (@OfNat.ofNat.{0} Complex (nat_lit 0) (@Zero.toOfNat0.{0} Complex Complex.instZero)))
+    (And
+      (@Ne.{1} Complex
+        (@HSub.hSub.{0, 0, 0} Complex Complex Complex (@instHSub.{0} Complex Complex.instSub)
+          (@OfNat.ofNat.{0} Complex (nat_lit 1) (@One.toOfNat1.{0} Complex Complex.instOne))
+          (OAI.SevenEighths.ProbeEuler.coordV Q z))
+        (@OfNat.ofNat.{0} Complex (nat_lit 0) (@Zero.toOfNat0.{0} Complex Complex.instZero)))
+      (@Ne.{1} Complex
+        (@HSub.hSub.{0, 0, 0} Complex Complex Complex (@instHSub.{0} Complex Complex.instSub)
+          (@OfNat.ofNat.{0} Complex (nat_lit 1) (@One.toOfNat1.{0} Complex Complex.instOne))
+          (OAI.SevenEighths.ProbeEuler.coordD Q eta v x))
+        (@OfNat.ofNat.{0} Complex (nat_lit 0) (@Zero.toOfNat0.{0} Complex Complex.instZero))))
+'OAI.SevenEighths.ProbeEuler.open_region_denominators_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_x_lowKappa : ∀ (Q : Real) (A eta v w z : Complex)
+  (hQ :
+    @LE.le.{0} Real Real.instLE
+      (@OfNat.ofNat.{0} Real (nat_lit 4)
+        (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast
+          (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+            (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+      Q)
+  (hA :
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm A)
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+  (he :
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm eta)
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+  (hv :
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm v)
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+  (hz :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 4)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      (Complex.re z)),
+  @AnalyticOnNhd.{0, 0, 0} Complex Complex Complex
+    (@DenselyNormedField.toNontriviallyNormedField.{0} Complex Complex.instDenselyNormedField)
+    Complex.instNormedAddCommGroup
+    (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+      (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+        (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+    Complex.instNormedAddCommGroup
+    (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+      (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+        (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+    (fun (x : Complex) => OAI.SevenEighths.ProbeEuler.unramifiedClosed Q A eta v x w z)
+    (@Set.ofPred.{0} Complex fun (x : Complex) =>
+      @LT.lt.{0} Real Real.instLT
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          (@OfNat.ofNat.{0} Real (nat_lit 21)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 20) (instOfNatNat (nat_lit 20)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 19) (instOfNatNat (nat_lit 19)))))))
+          (@OfNat.ofNat.{0} Real (nat_lit 25)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+        (Complex.re x))
+'OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_x_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_w_lowKappa : ∀ (Q : Real) (A eta v x z : Complex)
+  (hQ :
+    @LE.le.{0} Real Real.instLE
+      (@OfNat.ofNat.{0} Real (nat_lit 4)
+        (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast
+          (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+            (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+      Q)
+  (hA :
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm A)
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+  (he :
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm eta)
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+  (hv :
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm v)
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+  (hx :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 21)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 20) (instOfNatNat (nat_lit 20)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 19) (instOfNatNat (nat_lit 19)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      (Complex.re x))
+  (hz :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 4)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      (Complex.re z)),
+  @AnalyticOnNhd.{0, 0, 0} Complex Complex Complex
+    (@DenselyNormedField.toNontriviallyNormedField.{0} Complex Complex.instDenselyNormedField)
+    Complex.instNormedAddCommGroup
+    (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+      (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+        (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+    Complex.instNormedAddCommGroup
+    (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+      (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+        (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+    (fun (w : Complex) => OAI.SevenEighths.ProbeEuler.unramifiedClosed Q A eta v x w z)
+    (@Set.ofPred.{0} Complex fun (w : Complex) =>
+      @LT.lt.{0} Real Real.instLT
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          (@OfNat.ofNat.{0} Real (nat_lit 9)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 9) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 8) (instOfNatNat (nat_lit 8)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 7) (instOfNatNat (nat_lit 7)))))))
+          (@OfNat.ofNat.{0} Real (nat_lit 10)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 10) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 9) (instOfNatNat (nat_lit 9)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 8) (instOfNatNat (nat_lit 8))))))))
+        (Complex.re w))
+'OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_w_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_z_lowKappa : ∀ (Q : Real) (A eta v x w : Complex)
+  (hQ :
+    @LE.le.{0} Real Real.instLE
+      (@OfNat.ofNat.{0} Real (nat_lit 4)
+        (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast
+          (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+            (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+      Q)
+  (hA :
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm A)
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+  (he :
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm eta)
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+  (hv :
+    @LE.le.{0} Real Real.instLE (@Norm.norm.{0} Complex Complex.instNorm v)
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+  (hx :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 21)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 20) (instOfNatNat (nat_lit 20)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 19) (instOfNatNat (nat_lit 19)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      (Complex.re x)),
+  @AnalyticOnNhd.{0, 0, 0} Complex Complex Complex
+    (@DenselyNormedField.toNontriviallyNormedField.{0} Complex Complex.instDenselyNormedField)
+    Complex.instNormedAddCommGroup
+    (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+      (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+        (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+    Complex.instNormedAddCommGroup
+    (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+      (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+        (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+    (fun (z : Complex) => OAI.SevenEighths.ProbeEuler.unramifiedClosed Q A eta v x w z)
+    (@Set.ofPred.{0} Complex fun (z : Complex) =>
+      @LT.lt.{0} Real Real.instLT
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          (@OfNat.ofNat.{0} Real (nat_lit 4)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+          (@OfNat.ofNat.{0} Real (nat_lit 25)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+        (Complex.re z))
+'OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_z_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.ProbePhysical.idealClosedCorrection_bound_lowKappa : ∀ (η : OAI.SevenEighths.HeckeFamily.Character)
+  (P : OAI.SevenEighths.ProbePhysical.PrimeIdeal)
+  (hP :
+    @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))
+      (@DFunLike.coe.{1, 1, 1}
+        (@MonoidWithZeroHom.{0, 0}
+          (@Ideal.{0} OAI.ActualEisensteinCubic.O
+            (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+              (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                  (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                    Rat.instField)))))
+          Nat
+          (@instMulZeroOneClassOfSemiring.{0}
+            (@Ideal.{0} OAI.ActualEisensteinCubic.O
+              (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))))
+            (@IdemSemiring.toSemiring.{0}
+              (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                  (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField)))))
+              (@Submodule.idemSemiring.{0, 0} OAI.ActualEisensteinCubic.O
+                (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))
+                OAI.ActualEisensteinCubic.O
+                (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                  (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField))))
+                (@Algebra.id.{0} OAI.ActualEisensteinCubic.O
+                  (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField)))))))
+          Nat.instMulZeroOneClass)
+        (@Ideal.{0} OAI.ActualEisensteinCubic.O
+          (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+            (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+              (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                  Rat.instField)))))
+        (fun
+            (x :
+              @Ideal.{0} OAI.ActualEisensteinCubic.O
+                (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                  (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField))))) =>
+          Nat)
+        (@MonoidWithZeroHom.funLike.{0, 0}
+          (@Ideal.{0} OAI.ActualEisensteinCubic.O
+            (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+              (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                  (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                    Rat.instField)))))
+          Nat
+          (@instMulZeroOneClassOfSemiring.{0}
+            (@Ideal.{0} OAI.ActualEisensteinCubic.O
+              (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))))
+            (@IdemSemiring.toSemiring.{0}
+              (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                  (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField)))))
+              (@Submodule.idemSemiring.{0, 0} OAI.ActualEisensteinCubic.O
+                (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))
+                OAI.ActualEisensteinCubic.O
+                (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                  (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField))))
+                (@Algebra.id.{0} OAI.ActualEisensteinCubic.O
+                  (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField)))))))
+          Nat.instMulZeroOneClass)
+        (@Ideal.absNorm.{0} OAI.ActualEisensteinCubic.O
+          (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+            (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+              Rat.instField))
+          (@NumberField.RingOfIntegers.instIsDedekindDomain.{0} OAI.ActualEisensteinCubic.K
+            (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+              Rat.instField)
+            (@CyclotomicField.instNumberField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+              Rat.instField Rat.numberField))
+          (@CharZero.infinite.{0} OAI.ActualEisensteinCubic.O
+            (@AddGroupWithOne.toAddMonoidWithOne.{0} OAI.ActualEisensteinCubic.O
+              (@Ring.toAddGroupWithOne.{0} OAI.ActualEisensteinCubic.O
+                (@CommRing.toRing.{0} OAI.ActualEisensteinCubic.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))))
+            (@NumberField.RingOfIntegers.instCharZero_1.{0} OAI.ActualEisensteinCubic.K
+              (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                Rat.instField)
+              (@CyclotomicField.instCharZero.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                Rat.instField Rat.instCharZero))))
+        (@Subtype.val.{1}
+          (@Ideal.{0} OAI.ActualEisensteinCubic.O
+            (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+              (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                  (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                    Rat.instField)))))
+          (fun
+              (P :
+                @Ideal.{0} OAI.ActualEisensteinCubic.O
+                  (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                      (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                        (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                          Rat Rat.instField))))) =>
+            @Prime.{0}
+              (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                  (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField)))))
+              (@CommSemiring.toCommMonoidWithZero.{0}
+                (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                  (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                      (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                        (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                          Rat Rat.instField)))))
+                (@IdemCommSemiring.toCommSemiring.{0}
+                  (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                    (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                      (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                        (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                          (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                            Rat Rat.instField)))))
+                  (@Ideal.instIdemCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                      (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                        (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                          Rat Rat.instField))))))
+              P)
+          P)))
+  (x w z : Complex)
+  (hx :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 21)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 20) (instOfNatNat (nat_lit 20)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 19) (instOfNatNat (nat_lit 19)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      (Complex.re x))
+  (hw :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 9)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 9) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 8) (instOfNatNat (nat_lit 8)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 7) (instOfNatNat (nat_lit 7)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 10)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 10) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 9) (instOfNatNat (nat_lit 9)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 8) (instOfNatNat (nat_lit 8))))))))
+      (Complex.re w))
+  (hz :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 4)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      (Complex.re z)),
+  @LE.le.{0} Real Real.instLE
+    (@Norm.norm.{0} Complex Complex.instNorm
+      (@HSub.hSub.{0, 0, 0} Complex Complex Complex (@instHSub.{0} Complex Complex.instSub)
+        (OAI.SevenEighths.ProbePhysical.idealClosedCorrection η P x w z)
+        (@OfNat.ofNat.{0} Complex (nat_lit 1) (@One.toOfNat1.{0} Complex Complex.instOne))))
+    (OAI.SevenEighths.ProbePhysical.globalPrimeDefectBound P)
+'OAI.SevenEighths.ProbePhysical.idealClosedCorrection_bound_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.ProbePhysical.globalClosedCorrection_bound_lowKappa : ∀ (η : OAI.SevenEighths.HeckeFamily.Character)
+  (S :
+    Finset.{0}
+      (@Ideal.{0} OAI.ActualEisensteinCubic.O
+        (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+          (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+            (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+              (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                Rat.instField))))))
+  (hS : OAI.SevenEighths.ProbePhysical.CorrectionTail S) (x w z : Complex)
+  (hx :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 21)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 20) (instOfNatNat (nat_lit 20)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 19) (instOfNatNat (nat_lit 19)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      (Complex.re x))
+  (hw :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 9)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 9) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 8) (instOfNatNat (nat_lit 8)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 7) (instOfNatNat (nat_lit 7)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 10)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 10) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 9) (instOfNatNat (nat_lit 9)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 8) (instOfNatNat (nat_lit 8))))))))
+      (Complex.re w))
+  (hz :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 4)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      (Complex.re z)),
+  @LE.le.{0} Real Real.instLE
+    (@Norm.norm.{0} Complex Complex.instNorm
+      (@HSub.hSub.{0, 0, 0} Complex Complex Complex (@instHSub.{0} Complex Complex.instSub)
+        (OAI.SevenEighths.ProbePhysical.globalClosedCorrection η S x w z)
+        (@OfNat.ofNat.{0} Complex (nat_lit 1) (@One.toOfNat1.{0} Complex Complex.instOne))))
+    (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+      (@OfNat.ofNat.{0} Real (nat_lit 2)
+        (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+          (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+            (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))))))))
+'OAI.SevenEighths.ProbePhysical.globalClosedCorrection_bound_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.ProbePhysical.globalClosedCorrection_multipliable_lowKappa : ∀
+  (η : OAI.SevenEighths.HeckeFamily.Character)
+  (S :
+    Finset.{0}
+      (@Ideal.{0} OAI.ActualEisensteinCubic.O
+        (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+          (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+            (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+              (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                Rat.instField))))))
+  (hS : OAI.SevenEighths.ProbePhysical.CorrectionTail S) (x w z : Complex)
+  (hx :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 21)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 20) (instOfNatNat (nat_lit 20)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 19) (instOfNatNat (nat_lit 19)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      (Complex.re x))
+  (hw :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 9)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 9) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 8) (instOfNatNat (nat_lit 8)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 7) (instOfNatNat (nat_lit 7)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 10)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 10) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 9) (instOfNatNat (nat_lit 9)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 8) (instOfNatNat (nat_lit 8))))))))
+      (Complex.re w))
+  (hz :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 4)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      (Complex.re z)),
+  @Multipliable.{0, 0} Complex
+    (@Subtype.{1} OAI.SevenEighths.ProbePhysical.PrimeIdeal fun (P : OAI.SevenEighths.ProbePhysical.PrimeIdeal) =>
+      Not
+        (@Membership.mem.{0, 0}
+          (@Ideal.{0} OAI.ActualEisensteinCubic.O
+            (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+              (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                  (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                    Rat.instField)))))
+          (Finset.{0}
+            (@Ideal.{0} OAI.ActualEisensteinCubic.O
+              (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField))))))
+          (@SetLike.instMembership.{0, 0}
+            (Finset.{0}
+              (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                  (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField))))))
+            (@Ideal.{0} OAI.ActualEisensteinCubic.O
+              (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))))
+            (@Finset.instSetLike.{0}
+              (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                  (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField)))))))
+          S
+          (@Subtype.val.{1}
+            (@Ideal.{0} OAI.ActualEisensteinCubic.O
+              (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))))
+            (fun
+                (P :
+                  @Ideal.{0} OAI.ActualEisensteinCubic.O
+                    (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                      (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                        (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                          (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                            Rat Rat.instField))))) =>
+              @Prime.{0}
+                (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                  (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                      (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                        (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                          Rat Rat.instField)))))
+                (@CommSemiring.toCommMonoidWithZero.{0}
+                  (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                    (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                      (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                        (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                          (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                            Rat Rat.instField)))))
+                  (@IdemCommSemiring.toCommSemiring.{0}
+                    (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                      (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                        (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                          (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                            (@CyclotomicField.instField.{0}
+                              (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField)))))
+                    (@Ideal.instIdemCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                      (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                        (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                          (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                            Rat Rat.instField))))))
+                P)
+            P)))
+    (@CommRing.toCommMonoid.{0} Complex Complex.commRing)
+    (@UniformSpace.toTopologicalSpace.{0} Complex
+      (@PseudoMetricSpace.toUniformSpace.{0} Complex
+        (@SeminormedRing.toPseudoMetricSpace.{0} Complex
+          (@SeminormedCommRing.toSeminormedRing.{0} Complex
+            (@NormedCommRing.toSeminormedCommRing.{0} Complex
+              (@CommCStarAlgebra.toNormedCommRing.{0} Complex instCommCStarAlgebraComplex))))))
+    (fun
+        (P :
+          @Subtype.{1} OAI.SevenEighths.ProbePhysical.PrimeIdeal fun (P : OAI.SevenEighths.ProbePhysical.PrimeIdeal) =>
+            Not
+              (@Membership.mem.{0, 0}
+                (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                  (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                      (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                        (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                          Rat Rat.instField)))))
+                (Finset.{0}
+                  (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                    (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                      (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                        (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                          (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                            Rat Rat.instField))))))
+                (@SetLike.instMembership.{0, 0}
+                  (Finset.{0}
+                    (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                      (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                        (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                          (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                            (@CyclotomicField.instField.{0}
+                              (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField))))))
+                  (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                    (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                      (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                        (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                          (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                            Rat Rat.instField)))))
+                  (@Finset.instSetLike.{0}
+                    (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                      (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                        (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                          (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                            (@CyclotomicField.instField.{0}
+                              (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField)))))))
+                S
+                (@Subtype.val.{1}
+                  (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                    (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                      (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                        (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                          (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                            Rat Rat.instField)))))
+                  (fun
+                      (P :
+                        @Ideal.{0} OAI.ActualEisensteinCubic.O
+                          (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                            (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                              (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                                (@CyclotomicField.instField.{0}
+                                  (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                                  Rat.instField))))) =>
+                    @Prime.{0}
+                      (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                        (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                          (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                            (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                              (@CyclotomicField.instField.{0}
+                                (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField)))))
+                      (@CommSemiring.toCommMonoidWithZero.{0}
+                        (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                          (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                            (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                              (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                                (@CyclotomicField.instField.{0}
+                                  (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField)))))
+                        (@IdemCommSemiring.toCommSemiring.{0}
+                          (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                            (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                              (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                                (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                                  (@CyclotomicField.instField.{0}
+                                    (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField)))))
+                          (@Ideal.instIdemCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                            (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                              (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                                (@CyclotomicField.instField.{0}
+                                  (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField))))))
+                      P)
+                  P))) =>
+      OAI.SevenEighths.ProbePhysical.idealClosedCorrection η
+        (@Subtype.val.{1} OAI.SevenEighths.ProbePhysical.PrimeIdeal
+          (fun (P : OAI.SevenEighths.ProbePhysical.PrimeIdeal) =>
+            Not
+              (@Membership.mem.{0, 0}
+                (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                  (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                      (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                        (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                          Rat Rat.instField)))))
+                (Finset.{0}
+                  (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                    (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                      (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                        (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                          (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                            Rat Rat.instField))))))
+                (@SetLike.instMembership.{0, 0}
+                  (Finset.{0}
+                    (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                      (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                        (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                          (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                            (@CyclotomicField.instField.{0}
+                              (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField))))))
+                  (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                    (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                      (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                        (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                          (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                            Rat Rat.instField)))))
+                  (@Finset.instSetLike.{0}
+                    (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                      (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                        (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                          (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                            (@CyclotomicField.instField.{0}
+                              (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField)))))))
+                S
+                (@Subtype.val.{1}
+                  (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                    (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                      (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                        (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                          (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                            Rat Rat.instField)))))
+                  (fun
+                      (P :
+                        @Ideal.{0} OAI.ActualEisensteinCubic.O
+                          (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                            (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                              (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                                (@CyclotomicField.instField.{0}
+                                  (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                                  Rat.instField))))) =>
+                    @Prime.{0}
+                      (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                        (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                          (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                            (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                              (@CyclotomicField.instField.{0}
+                                (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField)))))
+                      (@CommSemiring.toCommMonoidWithZero.{0}
+                        (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                          (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                            (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                              (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                                (@CyclotomicField.instField.{0}
+                                  (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField)))))
+                        (@IdemCommSemiring.toCommSemiring.{0}
+                          (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                            (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                              (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                                (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                                  (@CyclotomicField.instField.{0}
+                                    (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField)))))
+                          (@Ideal.instIdemCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                            (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                              (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                                (@CyclotomicField.instField.{0}
+                                  (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField))))))
+                      P)
+                  P)))
+          P)
+        x w z)
+    (SummationFilter.unconditional.{0}
+      (@Subtype.{1} OAI.SevenEighths.ProbePhysical.PrimeIdeal fun (P : OAI.SevenEighths.ProbePhysical.PrimeIdeal) =>
+        Not
+          (@Membership.mem.{0, 0}
+            (@Ideal.{0} OAI.ActualEisensteinCubic.O
+              (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))))
+            (Finset.{0}
+              (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                  (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField))))))
+            (@SetLike.instMembership.{0, 0}
+              (Finset.{0}
+                (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                  (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                      (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                        (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                          Rat Rat.instField))))))
+              (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                  (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField)))))
+              (@Finset.instSetLike.{0}
+                (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                  (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                      (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                        (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                          Rat Rat.instField)))))))
+            S
+            (@Subtype.val.{1}
+              (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                  (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField)))))
+              (fun
+                  (P :
+                    @Ideal.{0} OAI.ActualEisensteinCubic.O
+                      (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                        (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                          (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                            (@CyclotomicField.instField.{0}
+                              (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField))))) =>
+                @Prime.{0}
+                  (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                    (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                      (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                        (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                          (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                            Rat Rat.instField)))))
+                  (@CommSemiring.toCommMonoidWithZero.{0}
+                    (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                      (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                        (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                          (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                            (@CyclotomicField.instField.{0}
+                              (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField)))))
+                    (@IdemCommSemiring.toCommSemiring.{0}
+                      (@Ideal.{0} OAI.ActualEisensteinCubic.O
+                        (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+                          (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                            (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                              (@CyclotomicField.instField.{0}
+                                (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField)))))
+                      (@Ideal.instIdemCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                        (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+                          (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                            (@CyclotomicField.instField.{0}
+                              (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat Rat.instField))))))
+                  P)
+              P))))
+'OAI.SevenEighths.ProbePhysical.globalClosedCorrection_multipliable_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_x_lowKappa : ∀
+  (η : OAI.SevenEighths.HeckeFamily.Character)
+  (S :
+    Finset.{0}
+      (@Ideal.{0} OAI.ActualEisensteinCubic.O
+        (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+          (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+            (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+              (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                Rat.instField))))))
+  (hS : OAI.SevenEighths.ProbePhysical.CorrectionTail S) (w z : Complex)
+  (hw :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 9)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 9) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 8) (instOfNatNat (nat_lit 8)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 7) (instOfNatNat (nat_lit 7)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 10)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 10) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 9) (instOfNatNat (nat_lit 9)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 8) (instOfNatNat (nat_lit 8))))))))
+      (Complex.re w))
+  (hz :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 4)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      (Complex.re z)),
+  @AnalyticOnNhd.{0, 0, 0} Complex Complex Complex
+    (@DenselyNormedField.toNontriviallyNormedField.{0} Complex Complex.instDenselyNormedField)
+    Complex.instNormedAddCommGroup
+    (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+      (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+        (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+    Complex.instNormedAddCommGroup
+    (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+      (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+        (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+    (fun (x : Complex) => OAI.SevenEighths.ProbePhysical.globalClosedCorrection η S x w z)
+    (@Set.ofPred.{0} Complex fun (x : Complex) =>
+      @LT.lt.{0} Real Real.instLT
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          (@OfNat.ofNat.{0} Real (nat_lit 21)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 20) (instOfNatNat (nat_lit 20)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 19) (instOfNatNat (nat_lit 19)))))))
+          (@OfNat.ofNat.{0} Real (nat_lit 25)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+        (Complex.re x))
+'OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_x_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_w_lowKappa : ∀
+  (η : OAI.SevenEighths.HeckeFamily.Character)
+  (S :
+    Finset.{0}
+      (@Ideal.{0} OAI.ActualEisensteinCubic.O
+        (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+          (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+            (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+              (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                Rat.instField))))))
+  (hS : OAI.SevenEighths.ProbePhysical.CorrectionTail S) (x z : Complex)
+  (hx :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 21)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 20) (instOfNatNat (nat_lit 20)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 19) (instOfNatNat (nat_lit 19)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      (Complex.re x))
+  (hz :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 4)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      (Complex.re z)),
+  @AnalyticOnNhd.{0, 0, 0} Complex Complex Complex
+    (@DenselyNormedField.toNontriviallyNormedField.{0} Complex Complex.instDenselyNormedField)
+    Complex.instNormedAddCommGroup
+    (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+      (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+        (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+    Complex.instNormedAddCommGroup
+    (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+      (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+        (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+    (fun (w : Complex) => OAI.SevenEighths.ProbePhysical.globalClosedCorrection η S x w z)
+    (@Set.ofPred.{0} Complex fun (w : Complex) =>
+      @LT.lt.{0} Real Real.instLT
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          (@OfNat.ofNat.{0} Real (nat_lit 9)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 9) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 8) (instOfNatNat (nat_lit 8)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 7) (instOfNatNat (nat_lit 7)))))))
+          (@OfNat.ofNat.{0} Real (nat_lit 10)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 10) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 9) (instOfNatNat (nat_lit 9)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 8) (instOfNatNat (nat_lit 8))))))))
+        (Complex.re w))
+'OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_w_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_z_lowKappa : ∀
+  (η : OAI.SevenEighths.HeckeFamily.Character)
+  (S :
+    Finset.{0}
+      (@Ideal.{0} OAI.ActualEisensteinCubic.O
+        (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+          (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+            (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+              (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                Rat.instField))))))
+  (hS : OAI.SevenEighths.ProbePhysical.CorrectionTail S) (x w : Complex)
+  (hx :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 21)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 20) (instOfNatNat (nat_lit 20)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 19) (instOfNatNat (nat_lit 19)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      (Complex.re x))
+  (hw :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 9)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 9) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 8) (instOfNatNat (nat_lit 8)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 7) (instOfNatNat (nat_lit 7)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 10)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 10) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 9) (instOfNatNat (nat_lit 9)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 8) (instOfNatNat (nat_lit 8))))))))
+      (Complex.re w)),
+  @AnalyticOnNhd.{0, 0, 0} Complex Complex Complex
+    (@DenselyNormedField.toNontriviallyNormedField.{0} Complex Complex.instDenselyNormedField)
+    Complex.instNormedAddCommGroup
+    (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+      (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+        (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+    Complex.instNormedAddCommGroup
+    (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+      (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+        (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+    (fun (z : Complex) => OAI.SevenEighths.ProbePhysical.globalClosedCorrection η S x w z)
+    (@Set.ofPred.{0} Complex fun (z : Complex) =>
+      @LT.lt.{0} Real Real.instLT
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          (@OfNat.ofNat.{0} Real (nat_lit 4)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+          (@OfNat.ofNat.{0} Real (nat_lit 25)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+        (Complex.re z))
+'OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_z_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_analytic_lowKappa : ∀
+  (eta : OAI.SevenEighths.HeckeFamily.Character)
+  (S :
+    Finset.{0}
+      (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+        (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+          (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+            (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+              (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                Rat.instField))))))
+  (hS : OAI.SevenEighths.ProbePhysical.SourceExclusions S),
+  @AnalyticOnNhd.{0, 0, 0} Complex Complex Complex
+    (@DenselyNormedField.toNontriviallyNormedField.{0} Complex Complex.instDenselyNormedField)
+    Complex.instNormedAddCommGroup
+    (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+      (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+        (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+    Complex.instNormedAddCommGroup
+    (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+      (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+        (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+    (OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection eta S)
+    (@Set.ofPred.{0} Complex fun (s : Complex) =>
+      @LT.lt.{0} Real Real.instLT
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          (@OfNat.ofNat.{0} Real (nat_lit 21)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 20) (instOfNatNat (nat_lit 20)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 19) (instOfNatNat (nat_lit 19)))))))
+          (@OfNat.ofNat.{0} Real (nat_lit 25)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+        (Complex.re s))
+'OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_analytic_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_differentiable_lowKappa : ∀
+  (eta : OAI.SevenEighths.HeckeFamily.Character)
+  (S :
+    Finset.{0}
+      (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+        (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+          (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+            (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+              (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                Rat.instField))))))
+  (hS : OAI.SevenEighths.ProbePhysical.SourceExclusions S),
+  @DifferentiableOn.{0, 0, 0} Complex
+    (@DenselyNormedField.toNontriviallyNormedField.{0} Complex Complex.instDenselyNormedField) Complex
+    Complex.addCommGroup
+    (@Semiring.toModule.{0} Complex
+      (@CommSemiring.toSemiring.{0} Complex
+        (@Semifield.toCommSemiring.{0} Complex
+          (@Field.toSemifield.{0} Complex
+            (@NormedField.toField.{0} Complex
+              (@NontriviallyNormedField.toNormedField.{0} Complex
+                (@DenselyNormedField.toNontriviallyNormedField.{0} Complex Complex.instDenselyNormedField)))))))
+    (@UniformSpace.toTopologicalSpace.{0} Complex
+      (@PseudoMetricSpace.toUniformSpace.{0} Complex
+        (@SeminormedRing.toPseudoMetricSpace.{0} Complex
+          (@SeminormedCommRing.toSeminormedRing.{0} Complex
+            (@NormedCommRing.toSeminormedCommRing.{0} Complex
+              (@CommCStarAlgebra.toNormedCommRing.{0} Complex instCommCStarAlgebraComplex))))))
+    Complex Complex.addCommGroup
+    (@Semiring.toModule.{0} Complex
+      (@CommSemiring.toSemiring.{0} Complex
+        (@Semifield.toCommSemiring.{0} Complex
+          (@Field.toSemifield.{0} Complex
+            (@NormedField.toField.{0} Complex
+              (@NontriviallyNormedField.toNormedField.{0} Complex
+                (@DenselyNormedField.toNontriviallyNormedField.{0} Complex Complex.instDenselyNormedField)))))))
+    (@UniformSpace.toTopologicalSpace.{0} Complex
+      (@PseudoMetricSpace.toUniformSpace.{0} Complex
+        (@SeminormedRing.toPseudoMetricSpace.{0} Complex
+          (@SeminormedCommRing.toSeminormedRing.{0} Complex
+            (@NormedCommRing.toSeminormedCommRing.{0} Complex
+              (@CommCStarAlgebra.toNormedCommRing.{0} Complex instCommCStarAlgebraComplex))))))
+    (OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection eta S)
+    (@Set.ofPred.{0} Complex fun (s : Complex) =>
+      @LT.lt.{0} Real Real.instLT
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          (@OfNat.ofNat.{0} Real (nat_lit 21)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 20) (instOfNatNat (nat_lit 20)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 19) (instOfNatNat (nat_lit 19)))))))
+          (@OfNat.ofNat.{0} Real (nat_lit 25)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+        (Complex.re s))
+'OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_differentiable_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_bound_lowKappa : ∀
+  (eta : OAI.SevenEighths.HeckeFamily.Character)
+  (S :
+    Finset.{0}
+      (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+        (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+          (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+            (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+              (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                Rat.instField))))))
+  (hS : OAI.SevenEighths.ProbePhysical.SourceExclusions S) (s : Complex)
+  (hs :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 21)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 20) (instOfNatNat (nat_lit 20)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 19) (instOfNatNat (nat_lit 19)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      (Complex.re s)),
+  @LE.le.{0} Real Real.instLE
+    (@Norm.norm.{0} Complex Complex.instNorm
+      (@HSub.hSub.{0, 0, 0} Complex Complex Complex (@instHSub.{0} Complex Complex.instSub)
+        (OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection eta S s)
+        (@OfNat.ofNat.{0} Complex (nat_lit 1) (@One.toOfNat1.{0} Complex Complex.instOne))))
+    (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+      (@OfNat.ofNat.{0} Real (nat_lit 2)
+        (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+          (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+            (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))))))))
+'OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_bound_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_on_lower_halfplane_lowKappa : ∀
+  (eta : OAI.SevenEighths.HeckeFamily.Character)
+  (S :
+    Finset.{0}
+      (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+        (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+          (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+            (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+              (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                Rat.instField))))))
+  (hS : OAI.SevenEighths.ProbePhysical.SourceExclusions S) {sigma : Real}
+  (hsigma :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 21)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 20) (instOfNatNat (nat_lit 20)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 19) (instOfNatNat (nat_lit 19)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 25)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+      sigma),
+  And
+    (@AnalyticOnNhd.{0, 0, 0} Complex Complex Complex
+      (@DenselyNormedField.toNontriviallyNormedField.{0} Complex Complex.instDenselyNormedField)
+      Complex.instNormedAddCommGroup
+      (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+        (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+          (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+      Complex.instNormedAddCommGroup
+      (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+        (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+          (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+      (OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection eta S)
+      (@Set.ofPred.{0} Complex fun (s : Complex) => @LT.lt.{0} Real Real.instLT sigma (Complex.re s)))
+    (∀ (s : Complex),
+      @LT.lt.{0} Real Real.instLT sigma (Complex.re s) →
+        @LE.le.{0} Real Real.instLE
+          (@Norm.norm.{0} Complex Complex.instNorm
+            (@HSub.hSub.{0, 0, 0} Complex Complex Complex (@instHSub.{0} Complex Complex.instSub)
+              (OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection eta S s)
+              (@OfNat.ofNat.{0} Complex (nat_lit 1) (@One.toOfNat1.{0} Complex Complex.instOne))))
+          (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+            (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+            (@OfNat.ofNat.{0} Real (nat_lit 2)
+              (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+                (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                  (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))))))))
+'OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_on_lower_halfplane_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.PrincipalSignalComparison.exists_actual_sourceCorrection_uniform_lowKappa : @Exists.{1}
+  (Finset.{0}
+    (@Ideal.{0} OAI.ActualEisensteinCubic.O
+      (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+        (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+          (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+            (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+              Rat.instField))))))
+  fun
+    (S :
+      Finset.{0}
+        (@Ideal.{0} OAI.ActualEisensteinCubic.O
+          (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+            (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+              (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                  Rat.instField)))))) =>
+  And (OAI.SevenEighths.ProbePhysical.SourceExclusions S)
+    (∀ (eta : OAI.SevenEighths.HeckeFamily.Character),
+      And
+        (@AnalyticOnNhd.{0, 0, 0} Complex Complex Complex
+          (@DenselyNormedField.toNontriviallyNormedField.{0} Complex Complex.instDenselyNormedField)
+          Complex.instNormedAddCommGroup
+          (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+            (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+              (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+          Complex.instNormedAddCommGroup
+          (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+            (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+              (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+          (OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection eta S)
+          (@Set.ofPred.{0} Complex fun (s : Complex) =>
+            @LT.lt.{0} Real Real.instLT
+              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                (@OfNat.ofNat.{0} Real (nat_lit 21)
+                  (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast
+                    (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 20) (instOfNatNat (nat_lit 20)))
+                      (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 19) (instOfNatNat (nat_lit 19)))))))
+                (@OfNat.ofNat.{0} Real (nat_lit 25)
+                  (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+                    (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+                      (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+              (Complex.re s)))
+        (∀ (s : Complex),
+          @LE.le.{0} Real Real.instLE
+              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                (@OfNat.ofNat.{0} Real (nat_lit 21)
+                  (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast
+                    (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 20) (instOfNatNat (nat_lit 20)))
+                      (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 19) (instOfNatNat (nat_lit 19)))))))
+                (@OfNat.ofNat.{0} Real (nat_lit 25)
+                  (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+                    (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+                      (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+              (Complex.re s) →
+            @LE.le.{0} Real Real.instLE
+              (@Norm.norm.{0} Complex Complex.instNorm
+                (@HSub.hSub.{0, 0, 0} Complex Complex Complex (@instHSub.{0} Complex Complex.instSub)
+                  (OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection eta S s)
+                  (@OfNat.ofNat.{0} Complex (nat_lit 1) (@One.toOfNat1.{0} Complex Complex.instOne))))
+              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+                (@OfNat.ofNat.{0} Real (nat_lit 2)
+                  (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+                    (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                      (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))))))))))
+'OAI.SevenEighths.PrincipalSignalComparison.exists_actual_sourceCorrection_uniform_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.PrincipalSignalComparison.exists_actual_sourceCorrection_uniform_halfplanes_lowKappa : @Exists.{1}
+  (Finset.{0}
+    (@Ideal.{0} OAI.ActualEisensteinCubic.O
+      (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+        (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+          (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+            (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+              Rat.instField))))))
+  fun
+    (S :
+      Finset.{0}
+        (@Ideal.{0} OAI.ActualEisensteinCubic.O
+          (@CommSemiring.toSemiring.{0} OAI.ActualEisensteinCubic.O
+            (@CommRing.toCommSemiring.{0} OAI.ActualEisensteinCubic.O
+              (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                  Rat.instField)))))) =>
+  And (OAI.SevenEighths.ProbePhysical.SourceExclusions S)
+    (∀ (sigma : Real),
+      @LE.le.{0} Real Real.instLE
+          (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+            (@OfNat.ofNat.{0} Real (nat_lit 21)
+              (@instOfNatAtLeastTwo.{0} Real (nat_lit 21) Real.instNatCast
+                (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 20) (instOfNatNat (nat_lit 20)))
+                  (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 19) (instOfNatNat (nat_lit 19)))))))
+            (@OfNat.ofNat.{0} Real (nat_lit 25)
+              (@instOfNatAtLeastTwo.{0} Real (nat_lit 25) Real.instNatCast
+                (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 24) (instOfNatNat (nat_lit 24)))
+                  (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 23) (instOfNatNat (nat_lit 23))))))))
+          sigma →
+        ∀ (eta : OAI.SevenEighths.HeckeFamily.Character),
+          And
+            (@AnalyticOnNhd.{0, 0, 0} Complex Complex Complex
+              (@DenselyNormedField.toNontriviallyNormedField.{0} Complex Complex.instDenselyNormedField)
+              Complex.instNormedAddCommGroup
+              (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+                (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+                  (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+              Complex.instNormedAddCommGroup
+              (@NonUnitalCStarAlgebra.toNormedSpace.{0} Complex
+                (@NonUnitalCommCStarAlgebra.toNonUnitalCStarAlgebra.{0} Complex
+                  (@CommCStarAlgebra.toNonUnitalCommCStarAlgebra.{0} Complex instCommCStarAlgebraComplex)))
+              (OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection eta S)
+              (@Set.ofPred.{0} Complex fun (s : Complex) => @LT.lt.{0} Real Real.instLT sigma (Complex.re s)))
+            (∀ (s : Complex),
+              @LE.le.{0} Real Real.instLE sigma (Complex.re s) →
+                @LE.le.{0} Real Real.instLE
+                  (@Norm.norm.{0} Complex Complex.instNorm
+                    (@HSub.hSub.{0, 0, 0} Complex Complex Complex (@instHSub.{0} Complex Complex.instSub)
+                      (OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection eta S s)
+                      (@OfNat.ofNat.{0} Complex (nat_lit 1) (@One.toOfNat1.{0} Complex Complex.instOne))))
+                  (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                    (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                    (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+                    (@OfNat.ofNat.{0} Real (nat_lit 2)
+                      (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+                        (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                          (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))))))))))
+'OAI.SevenEighths.PrincipalSignalComparison.exists_actual_sourceCorrection_uniform_halfplanes_lowKappa' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

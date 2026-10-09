@@ -1,0 +1,50 @@
+{
+  "actual-build-state-extract.json": {
+    "raw_sha256": "34e22481c6cb582c5bc9b354b94349a6aaaa2f7b8288ba7c13ebfc8ee88641b2",
+    "canonical_lf_sha256": "34e22481c6cb582c5bc9b354b94349a6aaaa2f7b8288ba7c13ebfc8ee88641b2"
+  },
+  "aggregate-compile.log": {
+    "raw_sha256": "416c5a1e8aea6b7c7a497c923f3e42370f7512928029f20d43420ea241e8dad0",
+    "canonical_lf_sha256": "416c5a1e8aea6b7c7a497c923f3e42370f7512928029f20d43420ea241e8dad0"
+  },
+  "aggregate-source.lean": {
+    "raw_sha256": "ba94ce0711a840e3bb38d5747022f98769e8d815383ab78ea4185a28c7860d63",
+    "canonical_lf_sha256": "ba94ce0711a840e3bb38d5747022f98769e8d815383ab78ea4185a28c7860d63"
+  },
+  "audit-source.lean": {
+    "raw_sha256": "0ab4297f31ffb3fce3e55f123db5bc96c45c2942badefc348503716c42afae93",
+    "canonical_lf_sha256": "0ab4297f31ffb3fce3e55f123db5bc96c45c2942badefc348503716c42afae93"
+  },
+  "closure-plan.json": {
+    "raw_sha256": "2ced89ecd82da415a15e4475e0e2f2c0c493af9c2f90a32bd72282a9923033a2",
+    "canonical_lf_sha256": "2ced89ecd82da415a15e4475e0e2f2c0c493af9c2f90a32bd72282a9923033a2"
+  },
+  "export-metadata.json": {
+    "raw_sha256": "a6f4e5c0b48db30d0904d23ad21f4b8cbf54ccdd4bf4dfa645c0caf50c8a0150",
+    "canonical_lf_sha256": "a6f4e5c0b48db30d0904d23ad21f4b8cbf54ccdd4bf4dfa645c0caf50c8a0150"
+  },
+  "fresh-types-and-axioms.log": {
+    "raw_sha256": "a2ad9028e5e88ab14c4ae06d18694154005810bb3c9e65cf9bae57ae3064204d",
+    "canonical_lf_sha256": "a2ad9028e5e88ab14c4ae06d18694154005810bb3c9e65cf9bae57ae3064204d"
+  },
+  "independent-kernel.json": {
+    "raw_sha256": "d4322fcc27f7dc9c06d71c114552aeed6fd37f0a0d454f29cf248e49d1e99415",
+    "canonical_lf_sha256": "d4322fcc27f7dc9c06d71c114552aeed6fd37f0a0d454f29cf248e49d1e99415"
+  },
+  "nanoda-config.json": {
+    "raw_sha256": "4542f6fa7a063010f45a820f36f15f76ab8d074b33ec6afcd63c66b5a5178178",
+    "canonical_lf_sha256": "4542f6fa7a063010f45a820f36f15f76ab8d074b33ec6afcd63c66b5a5178178"
+  },
+  "nanoda-time.txt": {
+    "raw_sha256": "35b48e2af9ad6f96f24665ee80ebc0c11acf8200d172388f1b453de8fe1e64ac",
+    "canonical_lf_sha256": "35b48e2af9ad6f96f24665ee80ebc0c11acf8200d172388f1b453de8fe1e64ac"
+  },
+  "nanoda.log": {
+    "raw_sha256": "9ea2f453c2574746d831bbde420fb8322e0f063a237314bfef78b9a502db2414",
+    "canonical_lf_sha256": "9ea2f453c2574746d831bbde420fb8322e0f063a237314bfef78b9a502db2414"
+  },
+  "strict-replay-result.json": {
+    "raw_sha256": "00c093b02b8ccde670ed166d371537695e6fee6219ec214d0ffea022e3af8116",
+    "canonical_lf_sha256": "00c093b02b8ccde670ed166d371537695e6fee6219ec214d0ffea022e3af8116"
+  }
+}

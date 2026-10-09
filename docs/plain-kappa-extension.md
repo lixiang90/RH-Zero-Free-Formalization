@@ -46,11 +46,14 @@ theorem. The comparison/defect margins above are propagated into actual
 reference and reflected-row APIs. The old detector theorem with its fixed
 2/27 conclusion is outside this plain extension and is not weakened.
 
-These source patches are pending full actual-module compilation and fresh
-transitive axiom audits. Building a narrow ReflectionRetainedLength target
-already requires 383 OAI modules; terminal CertifiedExistence requires 2212.
-A serial dependency build is in progress in the ignored workcopy. The public
-primary 4.33.0-rc2 proof record does not certify those upstream targets.
+The complete patched chain is pending actual compilation and independent
+replay of terminal CertifiedExistence. Four selected geometric roots in
+ReflectionRetainedLength have passed actual compilation, fresh complete
+types/axioms and independent replay; that scope does not certify the entire
+moment induction. The terminal target requires 2212 original OAI modules.
+One bounded dependency controller runs in the ignored workcopy, with eight
+Lean processes and two threads each. The primary 4.33.0-rc2 proof record does
+not certify these separate upstream targets.
 
 The complete arithmetic low-kappa certificate must be compiled and checked,
 then instantiated with the actual Hecke-family supremum beta and a moving
@@ -58,7 +61,10 @@ kappa satisfying 2*beta-1<=kappa. In the contradiction beta>sigmaStar,
 kappaStar=2*sigmaStar-1 cannot satisfy that premise. It is the reference point
 for the cubic algebra and feedback; the arithmetic choice is kappa=2*beta-1
 (or an explicitly budgeted larger value). The existing 7/8 family bound gives
-the required moving range 37/50<=kappa<=3/4. A supremum of the single Riemann
+the required moving range 37/50<=kappa<=3/4, where that bootstrap is supplied.
+The new parameter lemma keeps beta<=7/8 explicit; it does not prove the
+bootstrap. The terminal certificate itself needs no kappa upper bound, while
+some downstream detector-count branches do. A supremum of the single Riemann
 zeta function cannot replace the Hecke-family supremum in this certificate.
 
 Only after that check and correct instantiation can this extension count as

@@ -5,9 +5,10 @@ our cubic boundary to the actual Hecke arithmetic in OpenAI/math. Author:
 **Li Xiang / lixiang90**. It is independent of the primary Lean 4.33.0-rc2
 library, and its results are counted separately.
 
-**The complete improved zero-free region is still pending.** The checked slot
-constructor below is an actual arithmetic interface. The other new sources
-are frozen for review and reproduction while their dependency builds continue.
+**The complete improved zero-free region is still pending.** All 68 selected
+roots in the twelve authored modules below passed actual compilation, fresh
+complete types/axioms and independent Nano replay. The complete patched
+moment chain continues its separate dependency build.
 An intermediate compile or source-preparation pass does not prove the complete
 moment certificate or the final zero-free half-plane.
 
@@ -22,21 +23,24 @@ The scalar repairs and their scope are described in
 The patch SHA-256 is
 `d18941bdb3a32f42032c5e82c6518baa5dc03968ff8af652ca30d62d6467566e`.
 
-The [authored-source manifest](extensions/manifest.json) records eleven extra
-modules separately from those patched upstream sources. Each has an exact
+The [authored-source manifest](extensions/manifest.json) records twelve extra
+modules with 68 selected roots separately from those patched upstream sources.
+Each has an exact
 source hash, declaration list and verification status.
 
 | Interface | What the source proves | Current verification |
 |---|---|---|
 | ParametersSlotLengthsLowKappa | Distinct positive Fin N slot lengths with any positive total, chosen after the mesh and physical range; a uniform positive lower ratio. | 2 roots passed actual compilation, fresh complete types/axioms and independent Nano replay. |
-| LowKappaParameters | Bind the moving moment parameter to the actual Hecke-family supremum. The old family bound beta <= 7/8 stays explicit. | 7 roots prepared; actual target verification pending. |
-| GlobalRegionLowKappa and GlobalCorrectionLowKappa | Extend the original local/global Euler correction to Re x >= 21/25, retaining the same summable 240 Q^(-17/10) majorant. | 15 roots prepared; actual target verification pending. |
-| GlobalSourceCorrectionExistenceLowKappa | Choose one finite excluded set before every character and every later half-plane threshold. No L-function zero-free premise. | 2 roots prepared; actual target verification pending. |
-| Hecke.DirichletLowKappa | Apply the existing actual factorization to transfer an explicit whole-family nonvanishing hypothesis to Dirichlet functions and zeta at any positive threshold. | 2 roots prepared; actual target verification pending. |
-| PrincipalSignalScalingLowKappa | Normalize the actual Hecke sourceMultiplier and sourceResidueIntegral at variable total ell and imbalance b; derive the nonzero normalizer from positive windows and slot masses. | 5 roots prepared; actual target verification pending. |
-| LowSourceScalesLowKappa | Bound the actual compensated lowGramFactor with exponent (1-ell)/4-b/6 and derive the actual physical scale q Z^(1-ell)/L^2. | 9 roots prepared; actual target verification pending. |
-| PrimeRows.CubeNormalizerLowKappa | Prove the actual positive ray-prime normalizer nonzero and its inverse bounded by every positive power, using the actual slot sum. | 1 root prepared; actual target verification pending. |
-| PrincipalSlotEstimateLowKappa and PrincipalSignalComparisonLowKappa | Bound the original marked slots and weighted slotRatio on Re s >= 21/25, with error 1440 Q^(-21/25); prove correction denominators nonzero and the original slotRatio analytic. | 24 roots prepared, including the explicit bounds structure; actual target verification pending. |
+| LowKappaParameters | Bind the moving moment parameter to the actual Hecke-family supremum. The old family bound beta <= 7/8 stays explicit. | 7 roots passed actual compilation, fresh complete types/axioms and independent Nano replay. |
+| GlobalRegionLowKappa | Extend the original local Euler correction to Re x >= 21/25, retaining the 240 Q^(-17/10) majorant. | 5 roots passed actual compilation, fresh complete types/axioms and independent Nano replay. |
+| GlobalCorrectionLowKappa | Extend the original globalClosedCorrection and sourceCorrection to the same domain. | 10 roots passed actual compilation, fresh complete types/axioms and the combined 17-root Euler Nano replay. |
+| GlobalSourceCorrectionExistenceLowKappa | Choose one finite excluded set before every character and every later half-plane threshold. No L-function zero-free premise. | 2 roots passed actual compilation, fresh complete types/axioms and the combined 17-root Euler Nano replay. |
+| Hecke.DirichletLowKappa | Apply the existing actual factorization to transfer an explicit whole-family nonvanishing hypothesis to Dirichlet functions and zeta at any positive threshold. | 2 roots passed actual compilation, fresh complete types/axioms and the combined 49-root Nano replay; the whole-family premise remains explicit. |
+| PrincipalSignalScalingLowKappa | Normalize the actual Hecke sourceMultiplier and sourceResidueIntegral at variable total ell and imbalance b; derive the nonzero normalizer from positive windows and slot masses. | 5 roots passed actual compilation, fresh complete types/axioms and the combined 49-root Nano replay after namespace/cast repair. |
+| LowSourceScalesLowKappa | Bound the actual compensated lowGramFactor with exponent (1-ell)/4-b/6 and derive the actual physical scale q Z^(1-ell)/L^2. | 9 roots passed actual compilation, fresh complete types/axioms and independent Nano replay after a proof-only positivity repair. |
+| PrimeRows.CubeNormalizerLowKappa | Prove the actual positive ray-prime normalizer nonzero and its inverse bounded by every positive power, using the actual slot sum. | 1 root passed actual compilation, fresh complete types/axioms and independent Nano replay, including its actual PNT dependencies. |
+| PrincipalSlotEstimateLowKappa and PrincipalSignalComparisonLowKappa | Bound the original marked slots and weighted slotRatio on Re s >= 21/25, with error 1440 Q^(-21/25); prove correction denominators nonzero and the original slotRatio analytic. | 24 roots, including the explicit bounds structure, passed actual compilation, fresh complete types/axioms and the combined 49-root Nano replay. |
+| Moments.RayIdentityClassCoefficient | Prove that every actual ray quotient character has coefficient one on identityClass ideals, without extra zero-free premises. | 1 canonical root passed actual compilation, fresh complete types/axioms and the combined 49-root Nano replay. The historical prototype is not a second library module. |
 
 The widened Euler domain is a domain for the **correction factor**, not a
 zero-free region for an L-function. The sixfold Mellin pole remains z=1/6,
@@ -64,12 +68,50 @@ and [final54 replay](verification/rellich-final54/strict-replay-result.json)
 bind the exact sources and checks. The only permitted axioms are `propext`,
 `Quot.sound` and `Classical.choice`.
 
-These two replay scopes overlap in foundational declarations and must not be
-added together. Neither is a replay of ReflectionRetainedLength,
-Energy.CertifiedExistence or the whole improved zero-free theorem.
-The [latest frozen build snapshot](verification/latest-actual-module-status.json)
-records actual process exits; the two full arithmetic targets remain pending.
-Earlier records under verification/ retain their original, narrower scopes.
+The [moving-parameter replay](verification/lowparams7/strict-replay-result.json)
+checked **77,806 transitive declarations from 7 roots**. The
+[local Euler replay](verification/region5/strict-replay-result.json) checked
+**47,011 transitive declarations from 5 roots**. The combined [global Euler and excluded-set replay](verification/euler17/strict-replay-result.json)
+checked **75,322 transitive declarations from 17 roots**, including the five
+local Euler roots above. It checks the actual correction functions and one
+finite excluded set chosen uniformly before the characters. The four selected geometric
+lemmas in the patched ReflectionRetainedLength passed a separate
+[17,132-declaration replay](verification/reflection4/strict-replay-result.json).
+That four-root scope does not certify the full module or moment induction.
+
+The [principal/Euler/transfer replay](verification/lowkappa49/strict-replay-result.json)
+checked **88,593 transitive declarations from 49 roots** across eight authored
+modules. The [actual Gram-factor replay](verification/gram9/strict-replay-result.json)
+checked **36,287 transitive declarations from 9 roots**. This leaves the full
+reflected-energy sum outside its scope. Mathematical declaration headers are
+unchanged by the Gram positivity repair; the failed source and exact proof
+change remain recoverable in the source history.
+The [actual ray-prime normalizer replay](verification/cube1/strict-replay-result.json)
+checked **90,764 transitive declarations from its one root**. It proves the
+normalizer nonzero and its inverse subpower bound for arbitrary positive slot
+lengths, retaining all window and ray-family hypotheses.
+
+All replay scopes overlap in foundational declarations and must not be added
+together. They do not establish Energy.CertifiedExistence or the complete
+improved zero-free theorem. The
+[latest frozen build snapshot](verification/latest-actual-module-status.json)
+records actual process exits. Earlier records retain their original scopes;
+failed elaborations and proof-only repairs are preserved in the history.
+
+The pinned external file `PrimeNumberTheoremAnd/Wiener.lean` contains the
+original placeholders `prelim_decay_2` and `prelim_decay_3`. A fresh axiom audit
+of the 17 selected Euler roots reports only the standard three axioms, but
+this does not make the entire imported environment placeholder-free. Their
+completed 17-root Euler replay contains neither `sorryAx` nor either
+placeholder declaration. The separate actual ray-prime normalizer replay likewise excludes both
+placeholder declarations and `sorryAx`. The [PNT dependency audit](../../docs/pnta-normalizer-audit/README.md)
+records the exact Wiener-Ikehara route and its fresh leaf axiom output; it is
+not substituted for the final normalizer proof check.
+
+The [marked-moment audit](../../docs/marked-moment-audit/README.md) identifies
+the next arithmetic bridge: finite detector rows, identity-class coefficients,
+radial energy and the complete terminal capacity certificate. It also records
+the missing canonical batch construction and uniform height-loss budget.
 
 ## Pinned sources and tools
 
@@ -110,7 +152,7 @@ hashes, drains current tasks after a failure, and supports
 are reused only when their bindings still match.
 
 After a selected target has compiled, the
-[kernel replay runner](kernel-tools/run_upstream_nanoda.py) checks its actual
+[current strict multi-target replay runner](kernel-tools/run_upstream_nanoda_multitarget_v3.py) checks its actual
 custom dependency closure, freshly prints `#check @` types and transitive
 axioms for every selected root, and invokes the pinned exporter and serial
 Nano. It requires the Lean 4.34.1 exporter; the primary project's 4.33 exporter
@@ -118,6 +160,9 @@ is a different toolchain. Its commands and byte bindings are retained in each
 strict replay record and in
 [kernel-toolchain-provenance.json](kernel-tools/kernel-toolchain-provenance.json).
 All stages must pass for a target to be labelled independently verified.
+Version 3 permits exactly the two hash-pinned, unselected PNTA auxiliary
+warnings above, and still rejects any such declaration or `sorryAx` in the
+selected export. Earlier runners and failed preflight records remain archived.
 
 The upstream OAI Apache-2.0 license is preserved at
 [third_party/OAI-LICENSE](../../third_party/OAI-LICENSE); the external package

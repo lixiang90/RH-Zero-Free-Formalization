@@ -1,0 +1,75 @@
+import UpstreamNano_20261009_143253
+set_option pp.universes true
+set_option pp.fullNames true
+set_option pp.explicit true
+set_option pp.all true
+set_option pp.maxSteps 1000000
+
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbeEuler.unramifiedClosed_open_region_bound_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbeEuler.unramifiedClosed_open_region_bound_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbeEuler.open_region_denominators_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbeEuler.open_region_denominators_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_x_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_x_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_w_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_w_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_z_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_z_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbePhysical.idealClosedCorrection_bound_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbePhysical.idealClosedCorrection_bound_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbePhysical.globalClosedCorrection_bound_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbePhysical.globalClosedCorrection_bound_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbePhysical.globalClosedCorrection_multipliable_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbePhysical.globalClosedCorrection_multipliable_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_x_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_x_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_w_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_w_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_z_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_z_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_analytic_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_analytic_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_differentiable_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_differentiable_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_bound_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_bound_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_on_lower_halfplane_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_on_lower_halfplane_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.exists_actual_sourceCorrection_uniform_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.exists_actual_sourceCorrection_uniform_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.exists_actual_sourceCorrection_uniform_halfplanes_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.exists_actual_sourceCorrection_uniform_halfplanes_lowKappa

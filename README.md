@@ -17,8 +17,9 @@ $$
 
 **Proof status:** the exact boundary, continuous algebraic certificate,
 parameter feedback, ordered height closure and the concrete zeta inverse
-Mellin signal are formalized. The arithmetic correction and physical probe
-with their low/raw-high estimates remain open. The sharpest zeta theorem
+Mellin signal are formalized. The separate arithmetic development now checks slot construction, moving
+parameters and local Euler corrections. The complete physical probe and its
+low/raw-high estimates remain open. The sharpest zeta theorem
 has an explicit `ZetaInverse.ArithmeticProbeObligation` hypothesis;
 an unconditional Lean proof of the improved zero-free region is still pending.
 
@@ -102,10 +103,15 @@ proof was inspected statically; this repository has not compiled or
 kernel-certified that complete proof. The actual low-kappa source extension
 is compiled separately with its original toolchain; its current proof status
 and repaired margins are described in [plain-kappa-extension.md](docs/plain-kappa-extension.md).
-The [arithmetic capsule](upstream/plain-kappa/README.md) separately records an
-independently checked arbitrary-total slot constructor and the external
-compatibility repairs; the new Euler, Gram and principal-source extensions
-retain their individual pending verification status.
+The [arithmetic capsule](upstream/plain-kappa/README.md) separately records
+actual Lean 4.34.1 compilation, fresh complete types/axioms and independent
+replays for all **68 selected roots in 12 authored modules**: slot construction,
+moving parameters, Euler correction, principal comparison/normalization,
+Gram-factor scales, the ray-prime normalizer and the conditional Dirichlet/zeta
+transfer. The complete marked-moment and physical-probe proof remains open.
+The imported PNTA source contains two original placeholders; neither occurs
+in the selected exports. This separate scope is not added to the primary
+224-theorem count.
 
 Code is distributed under Apache-2.0. Archived paper authorship and
 publication status are preserved.

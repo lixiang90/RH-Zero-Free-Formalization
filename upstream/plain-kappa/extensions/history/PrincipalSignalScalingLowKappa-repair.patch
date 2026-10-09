@@ -1,0 +1,35 @@
+--- previous-authored/OAI/NumberTheory/DirichletL/PrincipalSignalScalingLowKappa.lean
++++ repaired-authored/OAI/NumberTheory/DirichletL/PrincipalSignalScalingLowKappa.lean
+@@ -61,18 +61,19 @@
+     sourceResidueConstant W0 W1 M*(Probe.principalScalar S Z ell (slotMass T w) : ℂ) ≠ 0 ∧
+     sourceResidueIntegral W0 W1 M χ a (Z^((1-ell-b)/2)) Y Z H B /
+       (sourceResidueConstant W0 W1 M*(Probe.principalScalar S Z ell (slotMass T w) : ℂ)) =
+-        verticalIntegral a (fun s =>
++        ProbePhysical.verticalIntegral a (fun s =>
+           (Z : ℂ)^(s+((-(4+b)/6 : ℝ) : ℂ))*Complex.exp ((s-5/6)^2)*H s 1 (1/6) /
+             LFunction χ s * slotRatio S T w Q A η s) := by
+   refine ⟨mul_ne_zero hc (source_normalizer_ne_zero S T w hZ hm),?_⟩
+-  unfold sourceResidueIntegral verticalIntegral
++  unfold sourceResidueIntegral ProbePhysical.verticalIntegral
+   norm_num only [Complex.ofReal_div, Complex.ofReal_mul, Complex.ofReal_one, Complex.ofReal_ofNat]
+   rw [mul_div_assoc, ← integral_div]
+   congr 1
+   apply integral_congr_ae
+   filter_upwards [] with t
+-  exact normalized_source_double_residue_total W0 W1 M χ Y Z ell b hZ _ (H _) (B _)
+-    S T w Q A η hc (hB _)
++  have ht := normalized_source_double_residue_total W0 W1 M χ Y Z ell b hZ
++    ((a : ℂ)+t*I) (H ((a : ℂ)+t*I)) (B ((a : ℂ)+t*I)) S T w Q A η hc (hB t)
++  simpa only [Complex.ofReal_div, Complex.ofReal_ofNat] using ht
+ 
+ theorem source_double_residue_integrable_total (W0 W1 : SchwartzMap ℝ ℂ)
+     (M : Ideal HeckeFamily.O) [NeZero M] (χ : Character) (a Y Z ell b : ℝ) (hZ : 0<Z)
+@@ -108,7 +109,7 @@
+     sourceResidueConstant W0 W1 M*(Probe.principalScalar S Z ell (slotMass T w) : ℂ) ≠ 0 ∧
+     sourceResidueIntegral W0 W1 M χ a (Z^((1-ell-b)/2)) Y Z H B /
+       (sourceResidueConstant W0 W1 M*(Probe.principalScalar S Z ell (slotMass T w) : ℂ)) =
+-        verticalIntegral a (fun s =>
++        ProbePhysical.verticalIntegral a (fun s =>
+           (Z : ℂ)^(s+((-(4+b)/6 : ℝ) : ℂ))*Complex.exp ((s-5/6)^2)*H s 1 (1/6) /
+             LFunction χ s * slotRatio S T w Q A η s) :=
+   sourceResidueIntegral_normalized_total W0 W1 M χ a Y Z ell b hZ H B S T w Q A η

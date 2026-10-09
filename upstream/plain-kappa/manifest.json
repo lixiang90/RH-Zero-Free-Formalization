@@ -1,5 +1,5 @@
 {
-  "status": "pending_actual_module_verification",
+  "status": "partially_verified_selected_geometry_full_analytic_moment_pending",
   "upstream_repo": "https://github.com/openai/math",
   "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
   "lean_toolchain": "leanprover/lean4:v4.34.1",
@@ -339,7 +339,17 @@
       "modified_sha256": "aedf316b9ac4a017bf81bf30cd5a0fa5e250fb14ba32d9ecdf610d69c0a8804f",
       "patch_file": "reviewed-pending.patch",
       "patch_sha256": "d18941bdb3a32f42032c5e82c6518baa5dc03968ff8af652ca30d62d6467566e",
-      "diff_sha256": "eeb8d94a33c954d59a79d7bb1b6c1a99be3289e561891089aaec75142f1617f6"
+      "diff_sha256": "eeb8d94a33c954d59a79d7bb1b6c1a99be3289e561891089aaec75142f1617f6",
+      "selected_declarations_status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "independent_replay_record": "verification/reflection4/strict-replay-result.json",
+      "independent_replay_record_sha256": "4991d014123421f4a20b7d4f4fa7b5d277365d59c5e7ca090b8a317c7c2fe74c",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.CenteredMomentReflectionRetainedLength.retained_scale_lower",
+        "OAI.SevenEighths.CenteredMomentReflectionRetainedLength.eventually_actual_retained_length",
+        "OAI.SevenEighths.CenteredMomentReflectionRetainedLength.one_reflection_total_width",
+        "OAI.SevenEighths.CenteredMomentReflectionRetainedLength.positive_slot_width_drop"
+      ],
+      "independently_replayed_declaration_count": 4
     }
   ],
   "targets": [

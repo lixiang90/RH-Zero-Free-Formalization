@@ -1,0 +1,3 @@
+import OAI.NumberTheory.DirichletL.Detector.GlobalRegionLowKappa
+import OAI.NumberTheory.DirichletL.Detector.GlobalCorrectionLowKappa
+import OAI.NumberTheory.DirichletL.Detector.GlobalSourceCorrectionExistenceLowKappa

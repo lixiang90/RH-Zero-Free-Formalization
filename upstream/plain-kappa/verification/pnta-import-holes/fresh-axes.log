@@ -1,0 +1,34 @@
+prelim_decay_2 : ∀ (ψ : ℝ → ℂ),
+  MeasureTheory.Integrable.{0, 0} ψ MeasureTheory.MeasureSpace.volume.{0} →
+    BoundedVariationOn.{0, 0} ψ Set.univ.{0} →
+      ∀ (u : ℝ),
+        Ne.{1} u 0 →
+          LE.le.{0} (Norm.norm.{0} (FourierTransform.fourier.{0, 0} ψ u))
+            (HDiv.hDiv.{0, 0, 0} (eVariationOn.{0, 0} ψ Set.univ.{0}).toReal
+              (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} 2 Real.pi) (Norm.norm.{0} u)))
+'prelim_decay_2' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+prelim_decay_3 : ∀ (ψ : ℝ → ℂ),
+  MeasureTheory.Integrable.{0, 0} ψ MeasureTheory.MeasureSpace.volume.{0} →
+    AbsolutelyContinuous ψ →
+      BoundedVariationOn.{0, 0} (deriv.{0, 0} ψ) Set.univ.{0} →
+        ∀ (u : ℝ),
+          Ne.{1} u 0 →
+            LE.le.{0} (Norm.norm.{0} (FourierTransform.fourier.{0, 0} ψ u))
+              (HDiv.hDiv.{0, 0, 0} (eVariationOn.{0, 0} (deriv.{0, 0} ψ) Set.univ.{0}).toReal
+                (HPow.hPow.{0, 0, 0} (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} 2 Real.pi) (Norm.norm.{0} u)) 2))
+'prelim_decay_3' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+WeakPNT : Filter.Tendsto.{0, 0} (fun N => HDiv.hDiv.{0, 0, 0} (cumsum.{0} (⇑ArithmeticFunction.vonMangoldt) N) ↑N)
+  Filter.atTop.{0} (nhds.{0} 1)
+'WeakPNT' depends on axioms: [propext, Classical.choice, Quot.sound]
+@WeakPNT_AP : ∀ {q a : ℕ},
+  GE.ge.{0} q 1 →
+    a.Coprime q →
+      LT.lt.{0} a q →
+        Filter.Tendsto.{0, 0}
+          (fun N =>
+            HDiv.hDiv.{0, 0, 0}
+              (cumsum.{0} (fun n => ite.{1} (Eq.{1} (HMod.hMod.{0, 0, 0} n q) a) (ArithmeticFunction.vonMangoldt n) 0)
+                N)
+              ↑N)
+          Filter.atTop.{0} (nhds.{0} (HDiv.hDiv.{0, 0, 0} 1 ↑q.totient))
+'WeakPNT_AP' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,23 @@
+	Command being timed: "/mnt/e/codex-build/RH-Zero-Proportion-Formalization/tmp/kernel-tools/nanoda-target/release/nanoda_bin /mnt/e/codex-build/RH-Zero-Free-Formalization/tmp/upstream-plain/tmp/verification/gram9-actual-lowkappa-20261009-144710-nano/nanoda-config.json"
+	User time (seconds): 17.91
+	System time (seconds): 0.36
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:18.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 276128
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 22
+	Minor (reclaiming a frame) page faults: 12944
+	Voluntary context switches: 320
+	Involuntary context switches: 16
+	Swaps: 0
+	File system inputs: 2832
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

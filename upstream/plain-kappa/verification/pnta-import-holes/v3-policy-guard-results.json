@@ -1,0 +1,112 @@
+{
+  "runner_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-kernel\\scripts\\run_upstream_nanoda_multitarget_v3.py",
+  "runner_sha256": "e9cc518136e68b1b8af6f11010d561e6baaa44c1a69847fb344d5acebbd9b714",
+  "policy": "only two exact unselected original PNTA auxiliaries; selected axes and independent kernel still three axioms only",
+  "cases": [
+    {
+      "case": "exact actual source pin declarations warning log accepted",
+      "expected_accept": true,
+      "actual_accept": true,
+      "reason": null
+    },
+    {
+      "case": "source bytes drift rejected",
+      "expected_accept": false,
+      "actual_accept": false,
+      "reason": "PNTA exact source changed"
+    },
+    {
+      "case": "package pin drift rejected",
+      "expected_accept": false,
+      "actual_accept": false,
+      "reason": "PNTA fixed pin changed"
+    },
+    {
+      "case": "public Git blob drift rejected",
+      "expected_accept": false,
+      "actual_accept": false,
+      "reason": "PNTA public Git blob mismatch"
+    },
+    {
+      "case": "warning declaration position drift rejected",
+      "expected_accept": false,
+      "actual_accept": false,
+      "reason": "PNTA exact warning declarations/positions/count changed"
+    },
+    {
+      "case": "additional sorry warning rejected",
+      "expected_accept": false,
+      "actual_accept": false,
+      "reason": "PNTA exact warning declarations/positions/count changed"
+    },
+    {
+      "case": "selected known unproved declaration rejected",
+      "expected_accept": false,
+      "actual_accept": false,
+      "reason": "Known unproved auxiliary was selected"
+    },
+    {
+      "case": "authored source proof warning rejected",
+      "expected_accept": false,
+      "actual_accept": false,
+      "reason": "Unpermitted proof warning module"
+    },
+    {
+      "case": "patched geometry proof warning rejected",
+      "expected_accept": false,
+      "actual_accept": false,
+      "reason": "Unpermitted proof warning module"
+    },
+    {
+      "case": "selected transitive sorryAx still rejected",
+      "expected_accept": false,
+      "actual_accept": false,
+      "reason": "Unpermitted transitive axioms: {'declaration': 'safe_root', 'axioms': ['propext', 'sorryAx']}"
+    },
+    {
+      "case": "prime-containing selected standard root accepted",
+      "expected_accept": true,
+      "actual_accept": true,
+      "reason": null
+    },
+    {
+      "case": "export sorryAx name rejected",
+      "expected_accept": false,
+      "actual_accept": false,
+      "reason": "Unproved declaration or sorryAx occurs in selected kernel export: [{'line': 1, 'name': 'sorryAx', 'name_id': 1}]"
+    },
+    {
+      "case": "export prelim_decay_2 rejected",
+      "expected_accept": false,
+      "actual_accept": false,
+      "reason": "Unproved declaration or sorryAx occurs in selected kernel export: [{'line': 1, 'name': 'prelim_decay_2', 'name_id': 1}]"
+    },
+    {
+      "case": "export prelim_decay_3 rejected",
+      "expected_accept": false,
+      "actual_accept": false,
+      "reason": "Unproved declaration or sorryAx occurs in selected kernel export: [{'line': 1, 'name': 'prelim_decay_3', 'name_id': 1}]"
+    },
+    {
+      "case": "export drift rejected",
+      "expected_accept": false,
+      "actual_accept": false,
+      "reason": "Export artifact digest mismatch"
+    },
+    {
+      "case": "safe export fixture accepted",
+      "expected_accept": true,
+      "actual_accept": true,
+      "reason": null
+    },
+    {
+      "case": "declaration name/source drift rejected",
+      "expected_accept": false,
+      "actual_accept": false,
+      "reason": "PNTA exact source changed"
+    }
+  ],
+  "all_cases_matched_expected": true,
+  "real_fixed_public_blob_verified": true,
+  "whole_import_environment_hole_free": false
+}

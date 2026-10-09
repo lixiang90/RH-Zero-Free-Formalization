@@ -34,23 +34,30 @@ constructed zeta amplitude. The resulting low exponent at the cubic parameters
 is sigmaStar+c=(1-ellStar)/4-bStar/6. The actual PrincipalSignalScalingLowKappa source generalizes sourceMultiplier
 and sourceResidueIntegral with this same shift. It uses the existing positive
 window theorem and positive actual slot masses to prove the complete scalar
-normalizer nonzero. Its actual-module verification is still pending.
+normalizer nonzero. Its five roots passed actual compilation, fresh complete
+types/axioms and the strict 49-root independent replay.
 
 ## Actual correction and physical probe
 
-GlobalRegionLowKappa and GlobalCorrectionLowKappa target the original
+GlobalRegionLowKappa and GlobalCorrectionLowKappa prove statements about the original
 unramifiedClosed, globalClosedCorrection and sourceCorrection objects.
 Their mathematical proof keeps the same CorrectionTail S and the majorant
 240*Q^(-17/10), and widens the sufficient x-domain to Re x>21/25.
 The other coordinates retain Re w>=9/10 and Re z>=4/25. This is a correction
-estimate, not a zero-free region for an L-function. Its exact verification
-status belongs in the separate upstream capsule.
+estimate, not a zero-free region for an L-function. Along with
+GlobalSourceCorrectionExistenceLowKappa, these 17 roots passed actual Lean
+compilation, fresh complete types and standard-axiom checks, then a strict
+independent Nano replay. The latter chooses one finite excluded set before
+all characters and all later half-plane thresholds. Exact evidence belongs
+in the separate [Euler replay](../upstream/plain-kappa/verification/euler17/strict-replay-result.json).
 
 The verified arbitrary-total slot constructor preserves the required mesh
 and physical-range quantifier order. LowSourceScalesLowKappa additionally
 derives the actual lowGramFactor exponent (1-ell)/4-b/6, uniformly over L and
 delta after an eventual height threshold; its sufficient geometry is b>0 and
-3*ell+3*b<1. That source is prepared, not yet independently verified.
+3*ell+3*b<1. Its nine roots passed actual compilation, fresh complete
+types/axioms and independent Nano replay. This factor estimate still requires
+the full reflected-energy sum to obtain the low physical-probe estimate.
 
 CubeNormalizerLowKappa removes the fixed-total specialization of the actual
 ray-prime normalizer inverse subpower theorem. The underlying positive mass
@@ -59,8 +66,10 @@ principal-slot modules likewise retain the original marked and weighted slot
 functions, widening their sufficient domain to Re s>=21/25 and changing their
 error to 1440 Q^(-21/25). Their stricter smallness condition is retained, and
 correction-denominator nonvanishing is not mistaken for a single slot being
-nonzero. These new targets still require actual compilation and independent
-replay.
+nonzero. The 24 principal-slot roots passed actual compilation, fresh
+complete types/axioms and the strict 49-root independent replay. The actual
+ray-prime inverse has its own verification record, including the PNT leaf
+dependencies; neither assertion supplies the missing physical estimates.
 
 The remaining integration must supply these actual interfaces:
 
@@ -110,3 +119,20 @@ reference; its plainExponent also contains 4*x/9 and 8*x/9. All of these must
 move together to obtain the paper's improvement. The small detector budget
 D.kappa (bounded by 1/16000 in HighData) and the inverse-amplification loss
 cannot serve as the terminal growth parameter 2*HeckeZeroSupremum.beta-1.
+
+The generic fiber count requires only kappaPlain>=0. The legacy optimization's
+zero-capacity branch additionally uses kappaPlain<=1, obtained from
+Delta<=1/8 and kappaPlain=3/4+2*Delta. For the moving terminal parameter,
+kappaTerminal<=1 alone does not imply kappaTerminal+padding<=1. This branch
+needs an actual bootstrap/margin, or a revised error coefficient with its own
+proved upper bound.
+
+The [source-level marked-moment audit](marked-moment-audit/README.md) identifies
+an exact finite-row dictionary and a direct radial-energy route. The canonical
+central rowBand already supplies rowNorm>=Z^(1/100); its generic Batch
+consumers do not construct the required canonical Batch. The new ray
+coefficient identity removes the restriction to the trivial ray character.
+The remaining bridge must prove the radial domination, source/mask geometry,
+full capacity coverage and a uniform height-loss budget before it can supply
+plain_marked. The inverse_raw, inverse_marked and plain_unmarked fields also
+remain separate requirements of a complete Moments record.

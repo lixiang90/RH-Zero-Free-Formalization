@@ -1,0 +1,69 @@
+warning: rellich-kondrachov: repository 'E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake/packages\rellich-kondrachov' has local changes
+OAI.SevenEighths.Parameters.exists_distinct_slot_lengths_total : ∀ (total mesh : Real),
+  @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) total →
+    @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) mesh →
+      ∃ N,
+        And (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) N)
+          (∃ ell,
+            And (@Function.Injective.{1, 1} (Fin N) Real ell)
+              (And
+                (∀ (j : Fin N),
+                  And
+                    (@LT.lt.{0} Real Real.instLT
+                      (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) (ell j))
+                    (@LT.lt.{0} Real Real.instLT (ell j) mesh))
+                (@Eq.{1} Real (∑ j, ell j) total)))
+'OAI.SevenEighths.Parameters.exists_distinct_slot_lengths_total' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.Parameters.exists_physical_slot_lengths_total : ∀ (total dmin dmax mesh R : Real),
+  @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) total →
+    @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) dmin →
+      @LE.le.{0} Real Real.instLE dmin dmax →
+        @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) mesh →
+          @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) R →
+            ∃ N,
+              And (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) N)
+                (∃ ell rmin,
+                  And
+                    (@LT.lt.{0} Real Real.instLT
+                      (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) rmin)
+                    (And (@Function.Injective.{1, 1} (Fin N) Real ell)
+                      (And (@Eq.{1} Real (∑ j, ell j) total)
+                        (And
+                          (∀ (j : Fin N),
+                            And
+                              (@LT.lt.{0} Real Real.instLT
+                                (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) (ell j))
+                              (And
+                                (@LE.le.{0} Real Real.instLE
+                                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) dmax rmin)
+                                  (ell j))
+                                (And
+                                  (@LE.le.{0} Real Real.instLE (ell j)
+                                    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) dmin mesh))
+                                  (@LE.le.{0} Real Real.instLE (ell j)
+                                    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) dmin R)))))
+                          (∀ (d : Real),
+                            @LE.le.{0} Real Real.instLE dmin d →
+                              @LE.le.{0} Real Real.instLE d dmax →
+                                ∀ (j : Fin N),
+                                  And
+                                    (@LE.le.{0} Real Real.instLE rmin
+                                      (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                                        (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                                        (ell j) d))
+                                    (And
+                                      (@LE.le.{0} Real Real.instLE
+                                        (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                                          (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                                          (ell j) d)
+                                        mesh)
+                                      (@LE.le.{0} Real Real.instLE
+                                        (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                                          (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                                          (ell j) d)
+                                        R)))))))
+'OAI.SevenEighths.Parameters.exists_physical_slot_lengths_total' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,112 @@
+warning: rellich-kondrachov: repository 'E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake/packages\rellich-kondrachov' has local changes
+LiXiang.LowKappaParameters.actualKappa_eq : @Eq.{1} Real LiXiang.LowKappaParameters.actualKappa
+  (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+      (@OfNat.ofNat.{0} Real (nat_lit 2) (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast ⋯))
+      OAI.SevenEighths.HeckeZeroSupremum.beta)
+    (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+'LiXiang.LowKappaParameters.actualKappa_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+LiXiang.LowKappaParameters.actualKappa_le_one : @LE.le.{0} Real Real.instLE LiXiang.LowKappaParameters.actualKappa
+  (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+'LiXiang.LowKappaParameters.actualKappa_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+@LiXiang.LowKappaParameters.actual_inputs : ∀ {sigma : Real},
+  @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 87) (@instOfNatAtLeastTwo.{0} Real (nat_lit 87) Real.instNatCast ⋯))
+        (@OfNat.ofNat.{0} Real (nat_lit 100) (@instOfNatAtLeastTwo.{0} Real (nat_lit 100) Real.instNatCast ⋯)))
+      sigma →
+    @LT.lt.{0} Real Real.instLT sigma OAI.SevenEighths.HeckeZeroSupremum.beta →
+      And
+        (@LT.lt.{0} Real Real.instLT
+          (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+            (@OfNat.ofNat.{0} Real (nat_lit 37) (@instOfNatAtLeastTwo.{0} Real (nat_lit 37) Real.instNatCast ⋯))
+            (@OfNat.ofNat.{0} Real (nat_lit 50) (@instOfNatAtLeastTwo.{0} Real (nat_lit 50) Real.instNatCast ⋯)))
+          LiXiang.LowKappaParameters.actualKappa)
+        (And
+          (@LE.le.{0} Real Real.instLE
+            (@HDiv.hDiv.{0, 0, 0} Real Real Real
+              (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+              (@OfNat.ofNat.{0} Real (nat_lit 51) (@instOfNatAtLeastTwo.{0} Real (nat_lit 51) Real.instNatCast ⋯))
+              (@OfNat.ofNat.{0} Real (nat_lit 100) (@instOfNatAtLeastTwo.{0} Real (nat_lit 100) Real.instNatCast ⋯)))
+            OAI.SevenEighths.HeckeZeroSupremum.beta)
+          (@LE.le.{0} Real Real.instLE
+            (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+              (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                (@OfNat.ofNat.{0} Real (nat_lit 2) (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast ⋯))
+                OAI.SevenEighths.HeckeZeroSupremum.beta)
+              (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+            LiXiang.LowKappaParameters.actualKappa))
+'LiXiang.LowKappaParameters.actual_inputs' depends on axioms: [propext, Classical.choice, Quot.sound]
+LiXiang.LowKappaParameters.actualKappa_reference_increment : ∀ (sigma : Real),
+  @Eq.{1} Real
+    (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub) LiXiang.LowKappaParameters.actualKappa
+      (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+          (@OfNat.ofNat.{0} Real (nat_lit 2) (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast ⋯)) sigma)
+        (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))))
+    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+      (@OfNat.ofNat.{0} Real (nat_lit 2) (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast ⋯))
+      (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub) OAI.SevenEighths.HeckeZeroSupremum.beta
+        sigma))
+'LiXiang.LowKappaParameters.actualKappa_reference_increment' depends on axioms: [propext, Classical.choice, Quot.sound]
+@LiXiang.LowKappaParameters.reference_not_admissible : ∀ {sigma : Real},
+  @LT.lt.{0} Real Real.instLT sigma OAI.SevenEighths.HeckeZeroSupremum.beta →
+    Not
+      (@LE.le.{0} Real Real.instLE
+        (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+            (@OfNat.ofNat.{0} Real (nat_lit 2) (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast ⋯))
+            OAI.SevenEighths.HeckeZeroSupremum.beta)
+          (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+        (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+            (@OfNat.ofNat.{0} Real (nat_lit 2) (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast ⋯)) sigma)
+          (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))))
+'LiXiang.LowKappaParameters.reference_not_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+LiXiang.LowKappaParameters.actualKappa_le_three_quarters : @LE.le.{0} Real Real.instLE
+    OAI.SevenEighths.HeckeZeroSupremum.beta
+    (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+      (@OfNat.ofNat.{0} Real (nat_lit 7) (@instOfNatAtLeastTwo.{0} Real (nat_lit 7) Real.instNatCast ⋯))
+      (@OfNat.ofNat.{0} Real (nat_lit 8) (@instOfNatAtLeastTwo.{0} Real (nat_lit 8) Real.instNatCast ⋯))) →
+  @LE.le.{0} Real Real.instLE LiXiang.LowKappaParameters.actualKappa
+    (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+      (@OfNat.ofNat.{0} Real (nat_lit 3) (@instOfNatAtLeastTwo.{0} Real (nat_lit 3) Real.instNatCast ⋯))
+      (@OfNat.ofNat.{0} Real (nat_lit 4) (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast ⋯)))
+'LiXiang.LowKappaParameters.actualKappa_le_three_quarters' depends on axioms: [propext, Classical.choice, Quot.sound]
+@LiXiang.LowKappaParameters.moving_range : ∀ {sigma : Real},
+  @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 87) (@instOfNatAtLeastTwo.{0} Real (nat_lit 87) Real.instNatCast ⋯))
+        (@OfNat.ofNat.{0} Real (nat_lit 100) (@instOfNatAtLeastTwo.{0} Real (nat_lit 100) Real.instNatCast ⋯)))
+      sigma →
+    @LT.lt.{0} Real Real.instLT sigma OAI.SevenEighths.HeckeZeroSupremum.beta →
+      @LE.le.{0} Real Real.instLE OAI.SevenEighths.HeckeZeroSupremum.beta
+          (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+            (@OfNat.ofNat.{0} Real (nat_lit 7) (@instOfNatAtLeastTwo.{0} Real (nat_lit 7) Real.instNatCast ⋯))
+            (@OfNat.ofNat.{0} Real (nat_lit 8) (@instOfNatAtLeastTwo.{0} Real (nat_lit 8) Real.instNatCast ⋯))) →
+        And
+          (@LT.lt.{0} Real Real.instLT
+            (@HDiv.hDiv.{0, 0, 0} Real Real Real
+              (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+              (@OfNat.ofNat.{0} Real (nat_lit 37) (@instOfNatAtLeastTwo.{0} Real (nat_lit 37) Real.instNatCast ⋯))
+              (@OfNat.ofNat.{0} Real (nat_lit 50) (@instOfNatAtLeastTwo.{0} Real (nat_lit 50) Real.instNatCast ⋯)))
+            LiXiang.LowKappaParameters.actualKappa)
+          (And
+            (@LE.le.{0} Real Real.instLE LiXiang.LowKappaParameters.actualKappa
+              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                (@OfNat.ofNat.{0} Real (nat_lit 3) (@instOfNatAtLeastTwo.{0} Real (nat_lit 3) Real.instNatCast ⋯))
+                (@OfNat.ofNat.{0} Real (nat_lit 4) (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast ⋯))))
+            (@Eq.{1} Real
+              (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+                LiXiang.LowKappaParameters.actualKappa
+                (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                    (@OfNat.ofNat.{0} Real (nat_lit 2) (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast ⋯))
+                    sigma)
+                  (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))))
+              (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                (@OfNat.ofNat.{0} Real (nat_lit 2) (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast ⋯))
+                (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+                  OAI.SevenEighths.HeckeZeroSupremum.beta sigma))))
+'LiXiang.LowKappaParameters.moving_range' depends on axioms: [propext, Classical.choice, Quot.sound]

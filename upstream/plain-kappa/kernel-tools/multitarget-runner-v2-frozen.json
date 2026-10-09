@@ -1,0 +1,15 @@
+{
+  "runner_sha256": "175f717137a816c2d1503062bcd22ca15f36f19e1b6c786b51cdd636c067010e",
+  "runner_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-kernel\\scripts\\run_upstream_nanoda_multitarget.py",
+  "parser_evidence_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-kernel\\verification\\multitarget-parser-v2.json",
+  "parser_evidence_sha256": "7782d95dd0b32f70f6f9b4b62a981037f3aa99e4696e34188bb0665a53991a24",
+  "actual_positive_test_record_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\tmp\\verification\\multitarget-runner-v2-positive-20261009-133158\\strict-replay-result.json",
+  "actual_positive_test_record_sha256": "b644191378636fc250f2b1587526ef3046438cad80bf522680acb56adb826c1a",
+  "actual_custom_closure_count": 4,
+  "actual_selected_root_count": 2,
+  "tool_source_bound_before_and_after_actual_compilation_and_Nano": true,
+  "actual_selected_source_artifact_state_guards_passed": true,
+  "new_mathematical_declarations_claimed_by_this_tool_test": 0,
+  "frozen_at_utc": "2026-10-09T05:33:21.384692+00:00",
+  "status": "frozen_tool_parser_checks_and_actual_positive_replay_passed"
+}

@@ -1,0 +1,226 @@
+warning: rellich-kondrachov: repository 'E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake/packages\rellich-kondrachov' has local changes
+OAI.SevenEighths.CenteredMomentReflectionRetainedLength.retained_scale_lower : ∀ (R Y : Real)
+  (hY : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) Y)
+  (n : Int),
+  @Membership.mem.{0, 0} Int (Finset.{0} Int)
+      (@SetLike.instMembership.{0, 0} (Finset.{0} Int) Int (@Finset.instSetLike.{0} Int))
+      (OAI.SevenEighths.CenteredMomentReflectedTruncation.retainedAnnuli R Y hY) n →
+    @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+        (OAI.SevenEighths.CenteredMomentSectorLocalization.dyadicScale n) Y)
+'OAI.SevenEighths.CenteredMomentReflectionRetainedLength.retained_scale_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.CenteredMomentReflectionRetainedLength.eventually_actual_retained_length : ∀ (C box xi : Real),
+  @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) C →
+    @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) box →
+      @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) xi →
+        @Filter.Eventually.{0} Real
+          (fun Z =>
+            And
+              (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) Z)
+              (∀ (M a Q R d h : Real),
+                @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))
+                    Q →
+                  @LT.lt.{0} Real Real.instLT
+                      (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) d →
+                    @LE.le.{0} Real Real.instLE
+                        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) Q R)
+                        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) C
+                          (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z M)) →
+                      @LE.le.{0} Real Real.instLE d R →
+                        @LE.le.{0} Real Real.instLE
+                            (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) h →
+                          ∀ (n : Int)
+                            (hY :
+                              @LT.lt.{0} Real Real.instLT
+                                (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))
+                                (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                                  (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) Q d)
+                                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                                    (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z a)
+                                    h))),
+                            @Membership.mem.{0, 0} Int (Finset.{0} Int)
+                                (@SetLike.instMembership.{0, 0} (Finset.{0} Int) Int (@Finset.instSetLike.{0} Int))
+                                (OAI.SevenEighths.CenteredMomentReflectedTruncation.retainedAnnuli
+                                  (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+                                    (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                                      (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid)) xi
+                                      (@OfNat.ofNat.{0} Real (nat_lit 4)
+                                        (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast ⋯))))
+                                  (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                                    (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                                    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) Q d)
+                                    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                                      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+                                        a)
+                                      h))
+                                  hY)
+                                n →
+                              And
+                                (@LE.le.{0} Real Real.instLE
+                                  (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+                                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                                    (OAI.SevenEighths.CenteredMomentSectorLocalization.dyadicScale n)
+                                    (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                                      (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                                      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) Q d)
+                                      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                                        (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow) Z
+                                          a)
+                                        h))))
+                                (And
+                                  (@LE.le.{0} Real Real.instLE
+                                    (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))
+                                    (Real.logb Z
+                                      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) box
+                                        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                                          (OAI.SevenEighths.CenteredMomentSectorLocalization.dyadicScale n)
+                                          (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                                            (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                                            (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) Q d)
+                                            (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                                              (@HPow.hPow.{0, 0, 0} Real Real Real
+                                                (@instHPow.{0, 0} Real Real Real.instPow) Z a)
+                                              h))))))
+                                  (@LE.le.{0} Real Real.instLE
+                                    (Real.logb Z
+                                      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) box
+                                        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                                          (OAI.SevenEighths.CenteredMomentSectorLocalization.dyadicScale n)
+                                          (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                                            (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                                            (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) Q d)
+                                            (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                                              (@HPow.hPow.{0, 0, 0} Real Real Real
+                                                (@instHPow.{0, 0} Real Real Real.instPow) Z a)
+                                              h)))))
+                                    (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                                      (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub) M a)
+                                      xi)))))
+          (@Filter.atTop.{0} Real Real.instPreorder)
+'OAI.SevenEighths.CenteredMomentReflectionRetainedLength.eventually_actual_retained_length' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.CenteredMomentReflectionRetainedLength.one_reflection_total_width : ∀ (M A z b xi reflected : Real),
+  @LE.le.{0} Real Real.instLE b
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid)) M
+        (@OfNat.ofNat.{0} Real (nat_lit 4) (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast ⋯))) →
+    @LE.le.{0} Real Real.instLE reflected
+        (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+          (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub) M
+            (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+              (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub) A z) b))
+          xi) →
+      @LE.le.{0} Real Real.instLE
+        (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+          (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd) reflected b) z)
+        (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+          (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+            (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                  (@OfNat.ofNat.{0} Real (nat_lit 3) (@instOfNatAtLeastTwo.{0} Real (nat_lit 3) Real.instNatCast ⋯)) M)
+                (@OfNat.ofNat.{0} Real (nat_lit 2) (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast ⋯)))
+              A)
+            (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+              (@OfNat.ofNat.{0} Real (nat_lit 2) (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast ⋯)) z))
+          xi)
+'OAI.SevenEighths.CenteredMomentReflectionRetainedLength.one_reflection_total_width' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+OAI.SevenEighths.CenteredMomentReflectionRetainedLength.positive_slot_width_drop : ∀ (M A z xi kappa : Real),
+  @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) M →
+    @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) z →
+      @LE.le.{0} Real Real.instLE
+          (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+            (@OfNat.ofNat.{0} Real (nat_lit 37) (@instOfNatAtLeastTwo.{0} Real (nat_lit 37) Real.instNatCast ⋯))
+            (@OfNat.ofNat.{0} Real (nat_lit 50) (@instOfNatAtLeastTwo.{0} Real (nat_lit 50) Real.instNatCast ⋯)))
+          kappa →
+        @LE.le.{0} Real Real.instLE
+            (@HDiv.hDiv.{0, 0, 0} Real Real Real
+              (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+              (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                (@OfNat.ofNat.{0} Real (nat_lit 5) (@instOfNatAtLeastTwo.{0} Real (nat_lit 5) Real.instNatCast ⋯)) M)
+              (@OfNat.ofNat.{0} Real (nat_lit 6) (@instOfNatAtLeastTwo.{0} Real (nat_lit 6) Real.instNatCast ⋯)))
+            A →
+          @LE.le.{0} Real Real.instLE
+              (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd) A
+                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                  (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+                    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                      (@OfNat.ofNat.{0} Real (nat_lit 6) (@instOfNatAtLeastTwo.{0} Real (nat_lit 6) Real.instNatCast ⋯))
+                      kappa)
+                    (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+                  z))
+              M →
+            And
+              (@LE.le.{0} Real Real.instLE
+                (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                  (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                    (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+                      (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                        (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                          (@OfNat.ofNat.{0} Real (nat_lit 3)
+                            (@instOfNatAtLeastTwo.{0} Real (nat_lit 3) Real.instNatCast ⋯))
+                          M)
+                        (@OfNat.ofNat.{0} Real (nat_lit 2)
+                          (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast ⋯)))
+                      A)
+                    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                      (@OfNat.ofNat.{0} Real (nat_lit 2) (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast ⋯))
+                      z))
+                  xi)
+                (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                  (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                    (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                      (@OfNat.ofNat.{0} Real (nat_lit 23)
+                        (@instOfNatAtLeastTwo.{0} Real (nat_lit 23) Real.instNatCast ⋯))
+                      M)
+                    (@OfNat.ofNat.{0} Real (nat_lit 30)
+                      (@instOfNatAtLeastTwo.{0} Real (nat_lit 30) Real.instNatCast ⋯)))
+                  xi))
+              (@LE.le.{0} Real Real.instLE
+                (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                  (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                    (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                      (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+                        (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                          (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                            (@OfNat.ofNat.{0} Real (nat_lit 3)
+                              (@instOfNatAtLeastTwo.{0} Real (nat_lit 3) Real.instNatCast ⋯))
+                            M)
+                          (@OfNat.ofNat.{0} Real (nat_lit 2)
+                            (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast ⋯)))
+                        A)
+                      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                        (@OfNat.ofNat.{0} Real (nat_lit 2)
+                          (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast ⋯))
+                        z))
+                    xi)
+                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                    (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+                      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                        (@OfNat.ofNat.{0} Real (nat_lit 6)
+                          (@instOfNatAtLeastTwo.{0} Real (nat_lit 6) Real.instNatCast ⋯))
+                        kappa)
+                      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+                    z))
+                (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                  (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                    (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                      (@OfNat.ofNat.{0} Real (nat_lit 14)
+                        (@instOfNatAtLeastTwo.{0} Real (nat_lit 14) Real.instNatCast ⋯))
+                      M)
+                    (@OfNat.ofNat.{0} Real (nat_lit 15)
+                      (@instOfNatAtLeastTwo.{0} Real (nat_lit 15) Real.instNatCast ⋯)))
+                  xi))
+'OAI.SevenEighths.CenteredMomentReflectionRetainedLength.positive_slot_width_drop' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

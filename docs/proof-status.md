@@ -47,7 +47,10 @@ lx/2-1+h/6, where h=(1+3*ell+b)/2. Its low exponent is
 sigmaStar+c=(1-ellStar)/4-bStar/6. The intrinsic sixfold Mellin pole
 z=1/6 and Gaussian center 5/6 remain fixed; the variable total slot length
 ell does not replace them. This identity does not supply the physical
-source residue theorem or the arithmetic low/raw-high bounds.
+source residue theorem or the arithmetic low/raw-high bounds. The separate
+4.34.1 PrincipalSignalScalingLowKappa module now checks the actual
+sourceMultiplier and sourceResidueIntegral normalization; its precise
+verification scope is recorded in the arithmetic capsule.
 
 ## Open obligation
 
@@ -67,20 +70,30 @@ It remains a proposition with no proved inhabitant. The theorem
 
 An unconditional improved-region theorem still requires kernel-checked proofs of:
 
-1. The plain-moment induction on 37/50 <= kappa <= 1, with the original moving
-conductors, natural row-zero extensions, masks, coefficient classes and
-uniform mesh chosen before the slot count. Existing upstream certificates
-require kappa >= 3/4.
-2. The flexible compensated probe for new lx, ly, h and e, its actual
-reflected-energy estimate, and the complete Gram bound. Verified exponent
-algebra provides only the numerical part of those estimates.
-3. Actual detector counts, strict widths, local Euler convergence, principal
-residues, prime normalizer and all physical small/middle/floor/outer estimates.
+1. The full plain-moment induction for kappa >= 37/50, retaining the original
+moving conductors, natural row-zero extensions, masks, coefficient classes
+and actual premise 2*HeckeZeroSupremum.beta-1 <= kappa. The frozen 41-module
+patch repairs the original kappa >= 3/4 budgets; its complete terminal
+certificate still awaits actual compilation and independent replay. The
+separate moving-parameter and arbitrary-total slot constructors are checked,
+but do not construct the complete marked moments.
+2. The flexible compensated probe for new lx, ly, h and e, including its
+actual reflected-energy estimate. The new lowGramFactor and physical-scale
+extension proves the variable-exponent scale gate; the full low-probe bound
+requires the reflected sums as well as this factor.
+3. Actual marked moments, their improved detector-count consumers and all
+physical small/middle/floor/outer estimates. The actual Euler correction and
+one finite excluded set chosen before all characters passed independent
+replay. Principal-slot comparison, residue normalization and positive
+ray-prime normalizer have separate verification records; none supplies the
+missing complete physical estimate.
 4. The physical probe and correction with their actual low/raw-high estimates.
 For zeta, the principal signal, Mellin identity, and height/tail-order closure
 are proved. Extending this construction to the intended Hecke family remains open.
-5. Concrete finite-order Hecke-family instantiation, imprimitive factors and
-quadratic Dirichlet transfer at the new boundary.
+5. Concrete finite-order Hecke-family instantiation and its whole-family
+nonvanishing premise. The actual Hecke-to-Dirichlet/zeta transfer at a variable
+positive threshold is checked with that premise explicit; the premise is not
+proved by the transfer.
 
 The paper's imported package R supplies the underlying written inputs. This
 repository has not formalized its full package or proved
@@ -94,10 +107,10 @@ real algebra remain separately classified.
 | Root and comparison | Boundary, complete. |
 | Extended plain moment | Numerical budget/slack in Geometry; analytic induction open. |
 | Inverse/plain counts | Rational envelope and feedback in Feedback; arithmetic realization open. |
-| Probe and low estimate | SourceScaling proves actual complex-power normalization and its zeta-amplitude identity; actual reflected sums and Gram estimates remain open. |
+| Probe and low estimate | SourceScaling checks complex-power normalization and its zeta-amplitude identity; separate actual source normalization and Gram-factor scale gates are available. Full reflected sums and the complete probe estimate remain open. |
 | Continuous reference certificate | Certificate plus Main, complete for the stated envelope. |
 | Actual parameter feedback | Feedback plus Main, complete. |
-| Physical admission/Euler/outer rows | Exact margins/identities; convergence and arithmetic estimates open. |
+| Physical admission/Euler/outer rows | Exact margins/identities; actual Euler correction and uniform exclusions independently checked. Complete physical and outer-row estimates remain open. |
 | Uniform continuation | Mellin implication and family contradiction proved; actual zeta inverse signal, identity, origin decay and height closure proved; arithmetic probe estimates and the concrete Hecke family remain open. |
 
 ## Verification interpretation

@@ -1,0 +1,21 @@
+@WienerIkeharaTheorem' : ∀ {A : ℝ} {G : ℂ → ℂ} {f : ℕ → ℝ},
+  LE.le.{0} 0 f →
+    (∀ (σ' : ℝ), LT.lt.{0} 1 σ' → Summable.{0, 0} (nterm (fun n => ↑(f n)) σ')) →
+      (cheby fun n => ↑(f n)) →
+        ContinuousOn.{0, 0} G (Set.ofPred.{0} fun s => LE.le.{0} 1 s.re) →
+          Set.EqOn.{0, 0} G
+              (fun s =>
+                HSub.hSub.{0, 0, 0} (LSeries (fun n => ↑(f n)) s) (HDiv.hDiv.{0, 0, 0} (↑A) (HSub.hSub.{0, 0, 0} s 1)))
+              (Set.ofPred.{0} fun s => LT.lt.{0} 1 s.re) →
+            Filter.Tendsto.{0, 0} (fun N => HDiv.hDiv.{0, 0, 0} (cumsum.{0} f N) ↑N) Filter.atTop.{0} (nhds.{0} A)
+'WienerIkeharaTheorem'' depends on axioms: [propext, Classical.choice, Quot.sound]
+@WienerIkeharaTheorem'' : ∀ {A : ℝ} {G : ℂ → ℂ} {f : ℕ → ℝ},
+  LE.le.{0} 0 f →
+    (∀ (σ' : ℝ), LT.lt.{0} 1 σ' → Summable.{0, 0} (nterm (fun n => ↑(f n)) σ')) →
+      ContinuousOn.{0, 0} G (Set.ofPred.{0} fun s => LE.le.{0} 1 s.re) →
+        Set.EqOn.{0, 0} G
+            (fun s =>
+              HSub.hSub.{0, 0, 0} (LSeries (fun n => ↑(f n)) s) (HDiv.hDiv.{0, 0, 0} (↑A) (HSub.hSub.{0, 0, 0} s 1)))
+            (Set.ofPred.{0} fun s => LT.lt.{0} 1 s.re) →
+          Filter.Tendsto.{0, 0} (fun N => HDiv.hDiv.{0, 0, 0} (cumsum.{0} f N) ↑N) Filter.atTop.{0} (nhds.{0} A)
+'WienerIkeharaTheorem''' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,11 @@
+{
+  "historical_source_preparation_record": "source-preparation-authored12-gram-repaired.json",
+  "historical_source_preparation_record_sha256": "dbd3af20d25c2bc1a3515bc7789152c0ad8ebbe894c3ac4140047ffaeba55c40",
+  "historical_extension_manifest_sha256": "c266bec965cdd2201521f22d8c244eac5d94e80649796e31459f8e0c502f8901",
+  "current_extension_manifest_sha256": "c42765abdb9ce27451c4dcba6df03b1b95fe1356c73aa4d1d2967b002b9eaba6",
+  "historically_prepared_authored_source_count": 12,
+  "current_authored_source_count": 12,
+  "current_source_payloads_all_match_last_successful_preparation": true,
+  "authored_source_payloads_pending_new_preparation": [],
+  "update_scope": "Verification status/evidence is separate from source preparation. Previous preparation records remain historical exact inputs; new or proof-repaired source payloads require their own refreshed preparation fixture."
+}

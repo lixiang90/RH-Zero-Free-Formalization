@@ -1,0 +1,141 @@
+{
+  "status": "source_call_graph_and_actual_used_pnt_leaf_axiom_audit_pass_final_oai_normalizer_compile_pending",
+  "audit_sha256": "0b4681baf48586b2a15fa7eff8a9e1b1891c0103b38d04ac5ed84ece2398f16b",
+  "upstream_oai_revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "pnta_pin": "c39a751132c88b6e8080b74c74023fd95b3d8be0",
+  "pnta_public_wiener_blob": "59fd5069a7eca51a8bc5005b5c43e31a5cbb38ac",
+  "pnta_public_wiener_raw_sha256": "7bd40c9cffedc1d9a0f675ea971c6719e490b1b106807459d549145f30d70f05",
+  "pnta_public_wiener_lf_sha256": "7bd40c9cffedc1d9a0f675ea971c6719e490b1b106807459d549145f30d70f05",
+  "wiener_workcopy_raw_matches_pin": false,
+  "wiener_workcopy_lf_matches_pin": true,
+  "source_bindings": {
+    "OAI/NumberTheory/DirichletL/PrimeRows/CubeNormalizer.lean": {
+      "raw_sha256": "b6808e221d9a1963fc56abef23b9da5f357f25dfc066612b57ed757bcaa5ca55",
+      "lf_sha256": "d57811850ecae40246f331be0fe5bf0ce0aca3cd0ab9e27f980d28907046529b"
+    },
+    "OAI/NumberTheory/DirichletL/PrimeRows/CubeNormalizerLowKappa.lean": {
+      "raw_sha256": "d208f74b505988b8d2e52a037db26330d715600d0cf5553e01e2164bc139199f",
+      "lf_sha256": "d208f74b505988b8d2e52a037db26330d715600d0cf5553e01e2164bc139199f"
+    },
+    "OAI/NumberTheory/DirichletL/Detector/RayPoolThresholds.lean": {
+      "raw_sha256": "469d39943061c81000433fd5d1ffec79dee89db47953809a173562542af3101a",
+      "lf_sha256": "0411f3084260288d0de442bb3f9cf17c55c90ea44e1506f0a5877ddbb8f9fe4d"
+    },
+    "OAI/NumberTheory/DirichletL/Detector/RayNormalization.lean": {
+      "raw_sha256": "f40f5ea33726752f2672315acfd5315267e28797896e2c468e1e8baf0219e09d",
+      "lf_sha256": "87553b4b2eced80b5fa9d4b51bcd2b574fc26fd9532aaffa6e707d4016a1a462"
+    },
+    "OAI/NumberTheory/DirichletL/Detector/RaySlots.lean": {
+      "raw_sha256": "3ef16c5521252dbb348b0ec0b5eceeec03889c71a66980aec020010c4b868efc",
+      "lf_sha256": "ec7b98c29e44366622912f329f3a78fe430f7747bd8fc9c79ae5e3100378eb37"
+    },
+    "OAI/NumberTheory/DirichletL/RayPrimeNormalizer.lean": {
+      "raw_sha256": "5fa8667e99895ffe0d7b33c115cfeab30d614df8bff946c8efec8288218e17d4",
+      "lf_sha256": "687d40a238d0963b8734a8a8c258fd32afc7c77fe8d66e06fe178c3802d4bebe"
+    },
+    "OAI/NumberTheory/DirichletL/Hecke/RayPrimes.lean": {
+      "raw_sha256": "355b50f5ffef3b46b39d28ca265d055baf343c0960ea7d6e9f12cda2ea0ae0a7",
+      "lf_sha256": "9b402e301e534f86854a4c403fd4f9a51c1ae55bb074222a78364987900e93d6"
+    },
+    "OAI/NumberTheory/DirichletL/PrimeCounting/RayAsymptotic.lean": {
+      "raw_sha256": "eb7c9650a1dd1ec5ca3f7bb38e0823bcb41646126158d6d58343fbe25cbb700f",
+      "lf_sha256": "c94d064e68a68ab49e211d5f077e79c4ea6fe3cd2fb9193240a06acb99afd22b"
+    },
+    "OAI/NumberTheory/DirichletL/PrimeCounting/AnnularPrimeMass.lean": {
+      "raw_sha256": "f48bb4ab40177c033070aa129fe90946ea166a30baaf8bd9bc3ca20fd2761e8a",
+      "lf_sha256": "d69022ebfc0c84ea6729ff47241c1fb7105c3d027070ab817f194e3da12b8949"
+    },
+    "OAI/NumberTheory/DirichletL/PrimeCounting/IdealPrimeMass.lean": {
+      "raw_sha256": "7722f12a5d7ed80f770b8552787c29a02feaa6fa8a5c1d355a50a08174732683",
+      "lf_sha256": "b5eed6cc5c03c507d2fe0f098f390778e33e5c3c5d28b5412978bc5cd49da909"
+    },
+    ".lake/packages/PrimeNumberTheoremAnd/PrimeNumberTheoremAnd/Wiener.lean": {
+      "raw_sha256": "963151c22caeb12f5c203ae944961629bfe7840915519255d79220f415ca0fbf",
+      "lf_sha256": "7bd40c9cffedc1d9a0f675ea971c6719e490b1b106807459d549145f30d70f05"
+    },
+    ".lake/packages/PrimeNumberTheoremAnd/PrimeNumberTheoremAnd/Fourier.lean": {
+      "raw_sha256": "fa654ecf371683173de2370f303977a90117e61bc7d00dfe69eaa647e7de7a88",
+      "lf_sha256": "44d2c28b251be0296f897e43a75a055f346a6199849b54ab204240fe4099e6c2"
+    },
+    ".lake/packages/PrimeNumberTheoremAnd/PrimeNumberTheoremAnd/IEANTN/CH2/CH2_part1.lean": {
+      "raw_sha256": "ace6fb304e303cc1c3082fbbc778b889f70c82f7ab4f74473eb218f71a984794",
+      "lf_sha256": "bec583c030d6af67248b3458aca6f7f01ff5ee53e78a64501913c1b697b70450"
+    }
+  },
+  "holes": [
+    "prelim_decay_2",
+    "prelim_decay_3"
+  ],
+  "direct_checked_consumers": [
+    "decay_alt",
+    "CH2.varphi_fourier_decay",
+    "CH2.private varphi_hat_integrable"
+  ],
+  "used_pnt_leaf": "WienerIkeharaTheorem'",
+  "no_source_edits": true,
+  "fresh_selected_euler_root_count": 17,
+  "fresh_selected_euler_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "leaf_fresh_evidence_binding": {
+    "ActualSuppliesAudit.lean": {
+      "original_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-kernel\\verification\\pnta-import-holes\\ActualSuppliesAudit.lean",
+      "copied_path": "E:\\codex-build\\RH-Weil\\tmp\\pnta-normalizer-source-audit-20261009\\leaf-fresh-evidence\\ActualSuppliesAudit.lean",
+      "raw_sha256": "894bc8e24ecc96ea7716014182d955a82edc4e38f835c948194a2d8c54420e09"
+    },
+    "actual-supplies-axes.log": {
+      "original_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-kernel\\verification\\pnta-import-holes\\actual-supplies-axes.log",
+      "copied_path": "E:\\codex-build\\RH-Weil\\tmp\\pnta-normalizer-source-audit-20261009\\leaf-fresh-evidence\\actual-supplies-axes.log",
+      "raw_sha256": "a5492f8c68ae3b2291db5bbcb08952d2edb71ee6b9258f97846365506986960b"
+    },
+    "AxiomAudit.lean": {
+      "original_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-kernel\\verification\\pnta-import-holes\\AxiomAudit.lean",
+      "copied_path": "E:\\codex-build\\RH-Weil\\tmp\\pnta-normalizer-source-audit-20261009\\leaf-fresh-evidence\\AxiomAudit.lean",
+      "raw_sha256": "e4e4db002fe8112e38cba7068248304001e403284950fe37248ce297c5eb6d44"
+    },
+    "fresh-axes.log": {
+      "original_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-kernel\\verification\\pnta-import-holes\\fresh-axes.log",
+      "copied_path": "E:\\codex-build\\RH-Weil\\tmp\\pnta-normalizer-source-audit-20261009\\leaf-fresh-evidence\\fresh-axes.log",
+      "raw_sha256": "24496571e40d32b472a4226be210be77dc8a8b26089dcf8644c2a93bdefac9cb"
+    }
+  },
+  "actual_leaf_per_root_axioms": {
+    "WienerIkeharaTheorem'": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "WienerIkeharaTheorem''": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "prelim_decay_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext",
+      "sorryAx"
+    ],
+    "prelim_decay_3": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext",
+      "sorryAx"
+    ],
+    "WeakPNT": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "WeakPNT_AP": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "leaf_audit_executor": "upstream_build_prep; actual Lean exit0; source/read-only review by zeta_signal_review",
+  "review_frozen": true,
+  "remaining_check": "actual compilation and fresh transitive axiom audit for RayPrimeNormalizer/Hecke.RayPrimes/CubeNormalizer[LowKappa] have not been performed"
+}

@@ -1,0 +1,70 @@
+{
+  "path_base": "repository_root",
+  "scope": "Root-owned repository README and documentation are outside the capsule directory. This separate index binds their exact bytes while preserving the original capsule-relative bundle index format.",
+  "artifacts": {
+    "README.md": {
+      "bytes": 7408,
+      "sha256": "3e5c60d6949306bf1b228cba8290dec4a43c97838ca1ac5f3da5d4f26de9b354"
+    },
+    "docs/proof-status.md": {
+      "bytes": 7475,
+      "sha256": "d7305bdeb4eaba07531ec1d99fd97f98fd426c9dd5e268cba26eab124876afc2"
+    },
+    "docs/plain-kappa-extension.md": {
+      "bytes": 4222,
+      "sha256": "a4bea819ef7e1e8f8e64c8e7a379aa43a76a0c8d2c631ae605aa7c98742c6708"
+    },
+    "docs/arithmetic-integration.md": {
+      "bytes": 8540,
+      "sha256": "5da3a8e5557457c43dabe0218561ddf294a58da12fbc699763ee66b110f78445"
+    },
+    "docs/marked-moment-audit/audit.zh.md": {
+      "bytes": 16082,
+      "sha256": "17c08fdf4f67c69a038309d1bb85bb811edfb903d4bdd775bf1a4f8790b7d40b"
+    },
+    "docs/marked-moment-audit/canonical-row-domain.zh.md": {
+      "bytes": 2083,
+      "sha256": "ecc3a85624a4dd4df8fbd027a92986b20ce6d2476969cd146194922ed2ac15ce"
+    },
+    "docs/marked-moment-audit/IdentityClassCoefficient.lean.raw-source.json": {
+      "bytes": 1750,
+      "sha256": "7e3d6093bafff9ec9631238efbcbe25e41b316c2920a74702ff6a03ef252b646"
+    },
+    "docs/marked-moment-audit/README.md": {
+      "bytes": 1463,
+      "sha256": "d5333fe169c6f20868c27f5506a728b4f019dcb74e45cd9a82d5e63ecfd9f7a7"
+    },
+    "docs/marked-moment-audit/source-snapshot.json": {
+      "bytes": 14789,
+      "sha256": "213d3bf1dcc70ed523b94ad33f629c92ed6aec672e6b861fafa0e6f94b4ce056"
+    },
+    "docs/pnta-normalizer-audit/audit.md": {
+      "bytes": 4167,
+      "sha256": "0b4681baf48586b2a15fa7eff8a9e1b1891c0103b38d04ac5ed84ece2398f16b"
+    },
+    "docs/pnta-normalizer-audit/leaf-fresh-evidence/actual-supplies-axes.log": {
+      "bytes": 1436,
+      "sha256": "a5492f8c68ae3b2291db5bbcb08952d2edb71ee6b9258f97846365506986960b"
+    },
+    "docs/pnta-normalizer-audit/leaf-fresh-evidence/ActualSuppliesAudit.lean": {
+      "bytes": 346,
+      "sha256": "894bc8e24ecc96ea7716014182d955a82edc4e38f835c948194a2d8c54420e09"
+    },
+    "docs/pnta-normalizer-audit/leaf-fresh-evidence/AxiomAudit.lean": {
+      "bytes": 516,
+      "sha256": "e4e4db002fe8112e38cba7068248304001e403284950fe37248ce297c5eb6d44"
+    },
+    "docs/pnta-normalizer-audit/leaf-fresh-evidence/fresh-axes.log": {
+      "bytes": 1878,
+      "sha256": "24496571e40d32b472a4226be210be77dc8a8b26089dcf8644c2a93bdefac9cb"
+    },
+    "docs/pnta-normalizer-audit/metadata.json": {
+      "bytes": 6992,
+      "sha256": "bd6aa8dfb869d8615b18bba06f942ce5cfd8502394aa8a03f29808dabc4831ec"
+    },
+    "docs/pnta-normalizer-audit/README.md": {
+      "bytes": 1320,
+      "sha256": "12eae3886e3abc78b0f700c318de5c4addee8e6069f9361a3ddacc40406924c7"
+    }
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "modules": [
+    "RellichKondrachov.MeasureTheory.Function.LpSpace.Restrict",
+    "OAI.NumberTheory.DirichletL.ParametersSlotLengthsLowKappa"
+  ],
+  "custom_count": 4,
+  "cached_frontier_count": 10,
+  "plans": {
+    "Mathlib.MeasureTheory.Function.LpSeminorm.Basic": {
+      "cached": true,
+      "fingerprint": "5edc752d0cb6bffdd22d1657edf90b4647326090c75d553e4f00eeebe5934a8e",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Function\\LpSeminorm\\Basic.olean"
+    },
+    "Mathlib.MeasureTheory.Function.LpSpace.Basic": {
+      "cached": true,
+      "fingerprint": "10decc14e49cd9b6bc15daa867670427f73c059e3a62832eccd8b00020e0cd0b",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Function\\LpSpace\\Basic.olean"
+    },
+    "RellichKondrachov.MeasureTheory.Function.LpSpace.Restrict": {
+      "cached": false,
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.lean",
+      "source_sha256": "476f1c54580987affd13c2532eb643cbf1f21d056031337e4e19e6a98a9e118b",
+      "fingerprint": "cc8db2dd0ce9b89f78795eed79dcf91b244b8cf9f029667880228894b1f386dd",
+      "imports": [
+        "Mathlib.MeasureTheory.Function.LpSeminorm.Basic",
+        "Mathlib.MeasureTheory.Function.LpSpace.Basic"
+      ],
+      "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.olean",
+      "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.olean": "cd31763bd2dfb28a971357ec8231c8bf820910084b615ae363ac5303e90c4753",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.ilean": "9543dbe44532b434b6b873633bf48f84b7c13829daa4407c8c16fd7620dc33ae"
+      },
+      "build_record": {
+        "cached": false,
+        "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.lean",
+        "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+        "source_sha256": "476f1c54580987affd13c2532eb643cbf1f21d056031337e4e19e6a98a9e118b",
+        "imports": [
+          "Mathlib.MeasureTheory.Function.LpSeminorm.Basic",
+          "Mathlib.MeasureTheory.Function.LpSpace.Basic"
+        ],
+        "fingerprint": "cc8db2dd0ce9b89f78795eed79dcf91b244b8cf9f029667880228894b1f386dd",
+        "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.olean",
+        "exit_code": 0,
+        "wall_seconds": 7.969,
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-114904-bounded\\RellichKondrachov.MeasureTheory.Function.LpSpace.Restrict.log",
+        "command": [
+          "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+          "-j",
+          "2",
+          "-o",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.olean",
+          "-i",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.ilean",
+          "-DautoImplicit=false",
+          "RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.lean"
+        ],
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.olean": "cd31763bd2dfb28a971357ec8231c8bf820910084b615ae363ac5303e90c4753",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.ilean": "9543dbe44532b434b6b873633bf48f84b7c13829daa4407c8c16fd7620dc33ae"
+        },
+        "artifact_binding_epoch": "2026-10-09T04:15:10.946352+00:00",
+        "artifact_binding_kind": "captured_current_local_state_not_historical_compile"
+      }
+    },
+    "Mathlib.Analysis.SpecialFunctions.Pow.Real": {
+      "cached": true,
+      "fingerprint": "4ab2761b2b1fe7f4ce35d9e44375239b7be3853ca193f67ac77b1a8a2a1a5679",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Analysis\\SpecialFunctions\\Pow\\Real.olean"
+    },
+    "Mathlib.Algebra.Order.Archimedean.Basic": {
+      "cached": true,
+      "fingerprint": "8e53c24aa5c4e48abd220afa262063350a91e743d39d53279a2f909295678b20",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\Order\\Archimedean\\Basic.olean"
+    },
+    "Mathlib.Analysis.Complex.Norm": {
+      "cached": true,
+      "fingerprint": "425e055fba9987e393dfc3c257f5eeb3974f577aea7ee780006d4e0723f3d63f",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Analysis\\Complex\\Norm.olean"
+    },
+    "Mathlib.Tactic.Linarith": {
+      "cached": true,
+      "fingerprint": "6ec1b9aa6c44c5581bd7b67812edfcb01f2fbe166542ae38b101e72ea466594f",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\Linarith.olean"
+    },
+    "Mathlib.Tactic.Positivity": {
+      "cached": true,
+      "fingerprint": "824d337e965379b03a70bdd7a77a22ec7c0784bb930229e1ae23ceba2ad872b1",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\Positivity.olean"
+    },
+    "Mathlib.Tactic.FieldSimp": {
+      "cached": true,
+      "fingerprint": "7f0e1b02981836d6e554c18daecac872848c316f7191632f5470947078344dda",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\FieldSimp.olean"
+    },
+    "OAI.NumberTheory.DirichletL.Parameters": {
+      "cached": false,
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Parameters.lean",
+      "source_sha256": "b92c1c225f8a0abbcee510d9578580a1db4b482598e07e3f5aeda4a2c11429e8",
+      "fingerprint": "c4a847e7cbd4806f1f182aae6da5132e2057ce683e4c48e6dd7048695429a1a0",
+      "imports": [
+        "Mathlib.Analysis.SpecialFunctions.Pow.Real",
+        "Mathlib.Algebra.Order.Archimedean.Basic",
+        "Mathlib.Analysis.Complex.Norm",
+        "Mathlib.Tactic.Linarith",
+        "Mathlib.Tactic.Positivity",
+        "Mathlib.Tactic.FieldSimp"
+      ],
+      "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Parameters.olean",
+      "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Parameters.olean": "7147783dd7703629e8a9afb5b1a91a9fdec42d8d7359e321aab46b81a232deca",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Parameters.ilean": "8574e1bb2577bdae7e4c8be609afbdb493e89ec8971ea8154790fdff9804f1cc"
+      },
+      "build_record": {
+        "cached": false,
+        "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Parameters.lean",
+        "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+        "source_sha256": "b92c1c225f8a0abbcee510d9578580a1db4b482598e07e3f5aeda4a2c11429e8",
+        "imports": [
+          "Mathlib.Analysis.SpecialFunctions.Pow.Real",
+          "Mathlib.Algebra.Order.Archimedean.Basic",
+          "Mathlib.Analysis.Complex.Norm",
+          "Mathlib.Tactic.Linarith",
+          "Mathlib.Tactic.Positivity",
+          "Mathlib.Tactic.FieldSimp"
+        ],
+        "fingerprint": "c4a847e7cbd4806f1f182aae6da5132e2057ce683e4c48e6dd7048695429a1a0",
+        "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Parameters.olean",
+        "exit_code": 0,
+        "wall_seconds": 9.797,
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-124959-bounded8v2\\OAI.NumberTheory.DirichletL.Parameters.log",
+        "command": [
+          "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+          "-j",
+          "2",
+          "-o",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Parameters.olean",
+          "-i",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Parameters.ilean",
+          "-DautoImplicit=false",
+          "OAI\\NumberTheory\\DirichletL\\Parameters.lean"
+        ],
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Parameters.olean": "7147783dd7703629e8a9afb5b1a91a9fdec42d8d7359e321aab46b81a232deca",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Parameters.ilean": "8574e1bb2577bdae7e4c8be609afbdb493e89ec8971ea8154790fdff9804f1cc"
+        },
+        "artifact_binding_kind": "captured_after_this_compilation",
+        "direct_dependency_artifact_sha256": {}
+      }
+    },
+    "Mathlib.Algebra.BigOperators.Fin": {
+      "cached": true,
+      "fingerprint": "ab06489a116743a853ab191c67b07ec454a3cdf7123b9b28fffd83aefdd89721",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Fin.olean"
+    },
+    "Mathlib.Algebra.BigOperators.Field": {
+      "cached": true,
+      "fingerprint": "8f3c93eb3b3838bb959e9719ac301f7aa9d9e29ee9ebe5ef2710f662e6be3908",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Field.olean"
+    },
+    "OAI.NumberTheory.DirichletL.ParametersSlotLengths": {
+      "cached": false,
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengths.lean",
+      "source_sha256": "e3aeda691b185f261bbac3f2afefb0ebf2d5a6a33bac8d714b323a4397bb7232",
+      "fingerprint": "9011748cfb55bc458fc8893401072164e7e37c7c71f111023edae32f7e9ea58b",
+      "imports": [
+        "OAI.NumberTheory.DirichletL.Parameters",
+        "Mathlib.Algebra.BigOperators.Fin",
+        "Mathlib.Algebra.BigOperators.Field"
+      ],
+      "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengths.olean",
+      "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengths.olean": "91bcd7b3abd39d32338c924cb5bc710ce6c385952f4d6c99c3622e574c466b56",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengths.ilean": "56e7023ee780f47d40c6e504a09b11fb423846760c81dfec1ab513bb9d0f26f2"
+      },
+      "build_record": {
+        "cached": false,
+        "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengths.lean",
+        "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+        "source_sha256": "e3aeda691b185f261bbac3f2afefb0ebf2d5a6a33bac8d714b323a4397bb7232",
+        "imports": [
+          "OAI.NumberTheory.DirichletL.Parameters",
+          "Mathlib.Algebra.BigOperators.Fin",
+          "Mathlib.Algebra.BigOperators.Field"
+        ],
+        "fingerprint": "9011748cfb55bc458fc8893401072164e7e37c7c71f111023edae32f7e9ea58b",
+        "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengths.olean",
+        "exit_code": 0,
+        "wall_seconds": 11.39,
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-124959-bounded8v2\\OAI.NumberTheory.DirichletL.ParametersSlotLengths.log",
+        "command": [
+          "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+          "-j",
+          "2",
+          "-o",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengths.olean",
+          "-i",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengths.ilean",
+          "-DautoImplicit=false",
+          "OAI\\NumberTheory\\DirichletL\\ParametersSlotLengths.lean"
+        ],
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengths.olean": "91bcd7b3abd39d32338c924cb5bc710ce6c385952f4d6c99c3622e574c466b56",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengths.ilean": "56e7023ee780f47d40c6e504a09b11fb423846760c81dfec1ab513bb9d0f26f2"
+        },
+        "artifact_binding_kind": "captured_after_this_compilation",
+        "direct_dependency_artifact_sha256": {
+          "OAI.NumberTheory.DirichletL.Parameters": {
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Parameters.olean": "7147783dd7703629e8a9afb5b1a91a9fdec42d8d7359e321aab46b81a232deca",
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Parameters.ilean": "8574e1bb2577bdae7e4c8be609afbdb493e89ec8971ea8154790fdff9804f1cc"
+          }
+        }
+      }
+    },
+    "OAI.NumberTheory.DirichletL.ParametersSlotLengthsLowKappa": {
+      "cached": false,
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengthsLowKappa.lean",
+      "source_sha256": "1ce189d49e7e808da2089f27da7a9df079004dc6d5b14e7228dd677aa4a9245f",
+      "fingerprint": "c2fb7955c84ae8b679009ef75d62ed6ee5ad929abe5bc5a118b36213a6f10d2c",
+      "imports": [
+        "OAI.NumberTheory.DirichletL.ParametersSlotLengths"
+      ],
+      "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengthsLowKappa.olean",
+      "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengthsLowKappa.olean": "e5479c5594feab5a0eab9562f54d73143afbcc3af2132557382e945f254952eb",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengthsLowKappa.ilean": "ed82fb257cf13b5b95df3d56ea8df6451d16d86b51cec009d895b4fe12f9338d"
+      },
+      "build_record": {
+        "cached": false,
+        "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengthsLowKappa.lean",
+        "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+        "source_sha256": "1ce189d49e7e808da2089f27da7a9df079004dc6d5b14e7228dd677aa4a9245f",
+        "imports": [
+          "OAI.NumberTheory.DirichletL.ParametersSlotLengths"
+        ],
+        "fingerprint": "c2fb7955c84ae8b679009ef75d62ed6ee5ad929abe5bc5a118b36213a6f10d2c",
+        "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengthsLowKappa.olean",
+        "exit_code": 0,
+        "wall_seconds": 10.078,
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-125257-bounded8v2\\OAI.NumberTheory.DirichletL.ParametersSlotLengthsLowKappa.log",
+        "command": [
+          "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+          "-j",
+          "2",
+          "-o",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengthsLowKappa.olean",
+          "-i",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengthsLowKappa.ilean",
+          "-DautoImplicit=false",
+          "OAI\\NumberTheory\\DirichletL\\ParametersSlotLengthsLowKappa.lean"
+        ],
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengthsLowKappa.olean": "e5479c5594feab5a0eab9562f54d73143afbcc3af2132557382e945f254952eb",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengthsLowKappa.ilean": "ed82fb257cf13b5b95df3d56ea8df6451d16d86b51cec009d895b4fe12f9338d"
+        },
+        "artifact_binding_kind": "captured_after_this_compilation",
+        "direct_dependency_artifact_sha256": {
+          "OAI.NumberTheory.DirichletL.ParametersSlotLengths": {
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengths.olean": "91bcd7b3abd39d32338c924cb5bc710ce6c385952f4d6c99c3622e574c466b56",
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersSlotLengths.ilean": "56e7023ee780f47d40c6e504a09b11fb423846760c81dfec1ab513bb9d0f26f2"
+          }
+        }
+      }
+    }
+  }
+}

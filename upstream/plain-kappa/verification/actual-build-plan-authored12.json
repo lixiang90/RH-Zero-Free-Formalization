@@ -1,0 +1,33 @@
+{
+  "actual_plan_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-142952-bounded8v2\\plan.json",
+  "actual_plan_sha256": "e751400ee2fdb075bf43476bd2b4c83b37cfa53613626a0a8078a0b11f868769",
+  "targets": [
+    "OAI.NumberTheory.DirichletL.Moments.RayIdentityClassCoefficient",
+    "OAI.NumberTheory.DirichletL.Hecke.DirichletLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.ReflectionRetainedLength",
+    "LowKappaParameters",
+    "OAI.NumberTheory.DirichletL.Detector.GlobalRegionLowKappa",
+    "OAI.NumberTheory.DirichletL.Detector.GlobalCorrectionLowKappa",
+    "OAI.NumberTheory.DirichletL.ParametersSlotLengthsLowKappa",
+    "OAI.NumberTheory.DirichletL.Detector.GlobalSourceCorrectionExistenceLowKappa",
+    "OAI.NumberTheory.DirichletL.PrincipalSignalScalingLowKappa",
+    "OAI.NumberTheory.DirichletL.Detector.LowSourceScalesLowKappa",
+    "OAI.NumberTheory.DirichletL.PrimeRows.CubeNormalizerLowKappa",
+    "OAI.NumberTheory.DirichletL.PrincipalSlotEstimateLowKappa",
+    "OAI.NumberTheory.DirichletL.PrincipalSignalComparisonLowKappa",
+    "OAI.NumberTheory.DirichletL.Energy.CertifiedExistence"
+  ],
+  "target_count": 14,
+  "module_count": 2535,
+  "custom_source_module_count": 2254,
+  "custom_prefix_counts": {
+    "OAI": 2223,
+    "RellichKondrachov": 15,
+    "LowKappaParameters": 1,
+    "Architect": 9,
+    "PrimeNumberTheoremAnd": 6
+  },
+  "cached_frontier_module_count": 281,
+  "max_parallel_processes": 8,
+  "plan_is_not_a_completed_build": true
+}

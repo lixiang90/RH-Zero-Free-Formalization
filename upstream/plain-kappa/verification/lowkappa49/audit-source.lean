@@ -1,0 +1,203 @@
+import UpstreamNano_20261009_144012
+set_option pp.universes true
+set_option pp.fullNames true
+set_option pp.explicit true
+set_option pp.all true
+set_option pp.maxSteps 1000000
+
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbeEuler.unramifiedClosed_open_region_bound_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbeEuler.unramifiedClosed_open_region_bound_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbeEuler.open_region_denominators_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbeEuler.open_region_denominators_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_x_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_x_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_w_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_w_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_z_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_z_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbePhysical.idealClosedCorrection_bound_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbePhysical.idealClosedCorrection_bound_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbePhysical.globalClosedCorrection_bound_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbePhysical.globalClosedCorrection_bound_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbePhysical.globalClosedCorrection_multipliable_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbePhysical.globalClosedCorrection_multipliable_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_x_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_x_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_w_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_w_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_z_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_z_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_analytic_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_analytic_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_differentiable_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_differentiable_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_bound_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_bound_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_on_lower_halfplane_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_on_lower_halfplane_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.exists_actual_sourceCorrection_uniform_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.exists_actual_sourceCorrection_uniform_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.exists_actual_sourceCorrection_uniform_halfplanes_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.exists_actual_sourceCorrection_uniform_halfplanes_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.HeckeDirichlet.dirichlet_ne_zero_of_hecke_halfplane
+set_option pp.universes false
+#print axioms OAI.SevenEighths.HeckeDirichlet.dirichlet_ne_zero_of_hecke_halfplane
+set_option pp.universes true
+#check @OAI.SevenEighths.HeckeDirichlet.zeta_ne_zero_of_hecke_halfplane
+set_option pp.universes false
+#print axioms OAI.SevenEighths.HeckeDirichlet.zeta_ne_zero_of_hecke_halfplane
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSlotEstimate.principal_correction_defect_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSlotEstimate.principal_correction_defect_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSlotEstimate.principal_correction_lower_bound_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSlotEstimate.principal_correction_lower_bound_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSlotEstimate.principal_correction_ne_zero_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSlotEstimate.principal_correction_ne_zero_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSlotEstimate.principal_correction_inverse_bound_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSlotEstimate.principal_correction_inverse_bound_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSlotEstimate.principal_marked_error_bounds_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSlotEstimate.principal_marked_error_bounds_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSlotEstimate.principal_replacement_error_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSlotEstimate.principal_replacement_error_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSlotEstimate.principal_slot_error_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSlotEstimate.principal_slot_error_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSlotEstimate.actual_principal_slot_error_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSlotEstimate.actual_principal_slot_error_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSlotEstimate.weighted_principal_slot_error_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSlotEstimate.weighted_principal_slot_error_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSlotEstimate.weighted_principal_product_error_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSlotEstimate.weighted_principal_product_error_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSlotEstimate.principal_geometric_bounds_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSlotEstimate.principal_geometric_bounds_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSlotEstimate.principal_correction_eq_raw_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSlotEstimate.principal_correction_eq_raw_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSlotEstimate.principal_raw_lower_bound_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSlotEstimate.principal_raw_lower_bound_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSlotEstimate.principal_raw_ne_zero_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSlotEstimate.principal_raw_ne_zero_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSlotEstimate.principal_slot_eq_raw_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSlotEstimate.principal_slot_eq_raw_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSlotEstimate.principal_raw_slot_error_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSlotEstimate.principal_raw_slot_error_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSlotEstimate.weighted_principal_product_error_linear_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSlotEstimate.weighted_principal_product_error_linear_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.SlotBoundsLowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.SlotBoundsLowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.slot_scalar_ne_zero_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.slot_scalar_ne_zero_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.slotRatio_error_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.slotRatio_error_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.slotRatio_bound_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.slotRatio_bound_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.principalSlot_differentiableAt_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.principalSlot_differentiableAt_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.slotRatio_continuous_line_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.slotRatio_continuous_line_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.slotRatio_analytic_lowKappa
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.slotRatio_analytic_lowKappa
+set_option pp.universes true
+#check @OAI.SevenEighths.RayQuotient.idealCharacter_eq_one_of_identityClass
+set_option pp.universes false
+#print axioms OAI.SevenEighths.RayQuotient.idealCharacter_eq_one_of_identityClass
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.source_power_identity_total
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.source_power_identity_total
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.normalized_source_double_residue_total
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.normalized_source_double_residue_total
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.sourceResidueIntegral_normalized_total
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.sourceResidueIntegral_normalized_total
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.source_double_residue_integrable_total
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.source_double_residue_integrable_total
+set_option pp.universes true
+#check @OAI.SevenEighths.PrincipalSignalComparison.sourceResidueIntegral_normalized_total_of_positive_windows
+set_option pp.universes false
+#print axioms OAI.SevenEighths.PrincipalSignalComparison.sourceResidueIntegral_normalized_total_of_positive_windows

@@ -100,6 +100,8 @@ lemma lowGramFactor_source_bound_total (C : CalibrationData) (Z L ell b δ : ℝ
     lowGramFactor C (Z^(totalSourceLx ell b)/L) (Z^(totalSourceLy ell b)/L) δ ≤
       Real.sqrt (3*elementNorm C.generator/L)*
         Z^(totalSourceLowExponent ell b+totalSourceLy ell b*δ/2) := by
+  have hnorm : 0≤elementNorm C.generator :=
+    le_trans (by norm_num : (0:ℝ)≤1) (calibration_elementNorm_ge_one C)
   apply (Real.sqrt_le_sqrt (source_compensated_gram_scale_total _ Z L ell b δ
     (calibration_elementNorm_ge_one C) hZ hL hb hql hLl hδ)).trans_eq
   rw [Real.sqrt_mul (by positivity),
