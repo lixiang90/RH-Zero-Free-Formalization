@@ -1,0 +1,13 @@
+{
+  "package": "rellich-kondrachov",
+  "package_pin": "70f85d4c1bf99c6e7d61e8be4daa6f3664d08d23",
+  "relative_source": "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/TranslationEstimateL2.lean",
+  "before_raw_sha256": "7c6f63c97b16f51a489ab9e599645eebaad08d433fb2d6bcfdfda89350b52951",
+  "baseline_lf_sha256": "f649d2d2daa167e1514231812c8543f2f6c25039abd2bd1bc945ce6a1b7b1a92",
+  "after_lf_sha256": "ffef923f25c1d9ea8297d5e6c236d6f6915d8d1540f9ee6f5b37e86603399a8a",
+  "patch_sha256": "26bfb2492afcc5535f96cd6d8fa793511a37088359182f5fe420696a7eda58bc",
+  "mathlib_pin": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "lean_version": "4.34.1",
+  "preserves_definitions_and_statements": true,
+  "additional_assumptions": []
+}

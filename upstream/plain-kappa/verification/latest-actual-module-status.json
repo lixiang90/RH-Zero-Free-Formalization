@@ -1,24 +1,33 @@
 {
   "status": "pending_actual_module_verification",
   "complete_target_passed": false,
-  "latest_recorded_source_modules_exit0": 61,
-  "latest_recorded_successful_source_prefixes": {
-    "OAI": 58,
-    "RellichKondrachov": 3
+  "latest_recorded_source_modules_exit0": 269,
+  "latest_recorded_failures": [],
+  "stable_checkpoint": {
+    "path": "actual-stable-checkpoint-269.json",
+    "sha256": "7fc145458b4e3d3fb787f3eaea7f1ec76e47eb03a2f57262b36b106ce46d9f70",
+    "captured_at_utc": "2026-10-09T05:13:41.015988+00:00",
+    "build_state_sha256": "e3766156d5c7872da4f2c217a2ca59b76ade69cd186f674d794713d8117fab1b",
+    "source_artifact_and_frozen41_bindings_all_match": true,
+    "successful_module_manifest": "actual-stable-successful-module-hashes-269.json",
+    "successful_module_manifest_sha256": "567d3b5b5d63acd656c2c96d9dfdae523ce0ccd4fb85804c182b6e25016b7296"
   },
-  "latest_recorded_failures": [
-    {
-      "module": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimateL2",
-      "source_sha256": "7c6f63c97b16f51a489ab9e599645eebaad08d433fb2d6bcfdfda89350b52951",
-      "exit_code": 1,
-      "log_sha256": "6cebb23de1c61bc3c724508c99e4a923024243bd01b99624ee6f732284339efb"
-    }
-  ],
-  "external_compatibility_declared_modules": [
-    "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/H1.lean",
-    "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/Translation.lean"
-  ],
-  "latest_run_can_be_superseded": true,
+  "separate_current_target_plan": {
+    "path": "actual-build-plan-authored11.json",
+    "sha256": "bef0d534a71d70707dcf70c62fd6970baf351a8c138d518a449ab2aacc4d7ede",
+    "custom_source_module_count": 2253,
+    "target_count": 13,
+    "completed": false
+  },
+  "external_compatibility_patch_count": 11,
+  "external_custom_closure_actual_compiled": 15,
+  "external_selected_roots_independently_replayed": 54,
+  "authored_slot_roots_independently_replayed": 2,
+  "authored_source_preparation_count": 11,
+  "authored_declared_roots": 67,
   "full_OAI_target_axiom_audit_completed": false,
-  "independent_kernel_replay_completed": false
+  "full_OAI_independent_kernel_replay_completed": false,
+  "terminal_certificate_checked": false,
+  "latest_run_can_be_superseded": true,
+  "scope_note": "269 is the saved stable boundary, not the moving live controller count. Its previous seven-target controller summary is preserved in the original snapshot; the separately hashed thirteen-target plan has 2253 custom modules and is still running. External54 and Slots2 checks are separate completed evidence and do not establish the full terminal analytic result."
 }

@@ -99,7 +99,10 @@
         "Retain intrinsic Mellin pole 1/6 and Gaussian center 5/6",
         "Derive normalized_zeta_source for the actual Mathlib zeta amplitude",
         "Check equality with the paper exponent and low-normalizer exponent"
-      ]
+      ],
+      "source_sha256_kind": "inspected Windows workcopy raw bytes",
+      "public_git_blob_sha256": "3609a84d40122a6137bfa44fcb41f2830046e3456b77d72c34eb83f5c29b0e7b",
+      "public_git_blob_object_id": "bd252b01e2784f9ec32fe9c1e0380c4b221adc23"
     }
   ],
   "upstream_lean": "v4.34.1",

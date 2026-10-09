@@ -1,0 +1,40 @@
+{
+  "kind": "new_mathematical_proof_not_compatibility",
+  "origin": "authored_extension",
+  "git_blob": null,
+  "upstream_revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "lean_version": "4.34.1",
+  "mathlib_revision": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "source": "OAI/NumberTheory/DirichletL/Detector/GlobalSourceCorrectionExistenceLowKappa.lean",
+  "source_canonical_lf_sha256": "5cfacc972a29e39030e2b01ad920f5b805251be26c0988382db228f894e4ee0a",
+  "patch_sha256": "9d0aa65609bbf7416c1297f5a03ffafc9877a2a6961616ab63e79a2dc265b20e",
+  "roots": [
+    "OAI.SevenEighths.PrincipalSignalComparison.exists_actual_sourceCorrection_uniform_lowKappa",
+    "OAI.SevenEighths.PrincipalSignalComparison.exists_actual_sourceCorrection_uniform_halfplanes_lowKappa"
+  ],
+  "status": "prepared_uncompiled_dependencies_pending_graph",
+  "existing_two_euler_sources_unchanged": {
+    "GlobalRegionLowKappa": "45cf5406b7fbaa1611767f7b51a42fb6acd2c6f8292b0200d7220935f44dd06f",
+    "GlobalCorrectionLowKappa": "4df8cbdb7e8fb30d7295c431d6325a435c12d26d5f84c73a201d87caa867632b"
+  },
+  "original_source_public_blob_binding": [
+    {
+      "path": "OAI/NumberTheory/DirichletL/Detector/SourceExclusions.lean",
+      "git_path": "lean/OAI/NumberTheory/DirichletL/Detector/SourceExclusions.lean",
+      "git_blob": "438bef0305ffa1afef7198d392a664c32afdac80",
+      "public_git_raw_sha256": "1430bb9bf9e3d40b8162a9155578ac7c9e80c3d8416016614ebdc4e0533fffcd",
+      "canonical_lf_sha256": "1430bb9bf9e3d40b8162a9155578ac7c9e80c3d8416016614ebdc4e0533fffcd",
+      "workcopy_raw_sha256": "7ce136a63d2478f75c876bc7404717a426b97829132b9c634647009a4cb8d650"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/ParametersFixedSource.lean",
+      "git_path": "lean/OAI/NumberTheory/DirichletL/ParametersFixedSource.lean",
+      "git_blob": "d7dc90c32ac1ceafb542191ac782e9ed4e13e9a9",
+      "public_git_raw_sha256": "01fb197c3353d800ef80bc77d56ee3e27a09baab98f22c59ec23db235e901637",
+      "canonical_lf_sha256": "01fb197c3353d800ef80bc77d56ee3e27a09baab98f22c59ec23db235e901637",
+      "workcopy_raw_sha256": "6d17586f6573f6ffcbc1343af5e7b27f5cc19824a0ada96a8bdff0b0adc2a1b8"
+    }
+  ],
+  "additional_assumptions": [],
+  "quantifier_order": "exists finite S before all eta, and before all sigma >= 21/25; no zero-free premise"
+}

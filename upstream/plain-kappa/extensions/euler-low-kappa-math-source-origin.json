@@ -1,0 +1,75 @@
+{
+  "kind": "new_mathematical_proof_not_compatibility",
+  "upstream_revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "lean_version": "4.34.1",
+  "mathlib_pin": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "original_source_lf_sha256": {
+    "OAI\\NumberTheory\\DirichletL\\Detector\\GlobalRegion.lean": "ad70278668b25b0aa988c583dca9632affebda26aa009a159dd5f92a20a6d2ee",
+    "OAI\\NumberTheory\\DirichletL\\Detector\\GlobalHolomorphic.lean": "b80c82079e56bf6188afc6b957d4e24c1346a2b50f90f835edb7439de0586591",
+    "OAI\\NumberTheory\\DirichletL\\Detector\\GlobalCorrection.lean": "93fe6f7968ef080b15cfe60b0f007948c6acee2949a8d8f8cce83e8ca2cb49a6",
+    "OAI\\NumberTheory\\DirichletL\\PrincipalSignalComparison.lean": "3609a84d40122a6137bfa44fcb41f2830046e3456b77d72c34eb83f5c29b0e7b"
+  },
+  "new_modules": {
+    "OAI/NumberTheory/DirichletL/Detector/GlobalRegionLowKappa.lean": "45cf5406b7fbaa1611767f7b51a42fb6acd2c6f8292b0200d7220935f44dd06f",
+    "OAI/NumberTheory/DirichletL/Detector/GlobalCorrectionLowKappa.lean": "4df8cbdb7e8fb30d7295c431d6325a435c12d26d5f84c73a201d87caa867632b"
+  },
+  "patch_sha256": "ef94bec8c327e9c082cc5a413eab4c6d7a368f6f87baa07a610b8005c0e6d599",
+  "roots": [
+    "OAI.SevenEighths.ProbeEuler.unramifiedClosed_open_region_bound_lowKappa",
+    "OAI.SevenEighths.ProbeEuler.open_region_denominators_lowKappa",
+    "OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_x_lowKappa",
+    "OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_w_lowKappa",
+    "OAI.SevenEighths.ProbeEuler.unramifiedClosed_analytic_z_lowKappa",
+    "OAI.SevenEighths.ProbePhysical.idealClosedCorrection_bound_lowKappa",
+    "OAI.SevenEighths.ProbePhysical.globalClosedCorrection_bound_lowKappa",
+    "OAI.SevenEighths.ProbePhysical.globalClosedCorrection_multipliable_lowKappa",
+    "OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_x_lowKappa",
+    "OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_w_lowKappa",
+    "OAI.SevenEighths.ProbePhysical.globalClosedCorrection_analytic_z_lowKappa",
+    "OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_analytic_lowKappa",
+    "OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_differentiable_lowKappa",
+    "OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_bound_lowKappa",
+    "OAI.SevenEighths.PrincipalSignalComparison.sourceCorrection_on_lower_halfplane_lowKappa"
+  ],
+  "additional_assumptions": [],
+  "objects": "unchanged actual unramifiedClosed/globalClosedCorrection/sourceCorrection, same CorrectionTail S and all Hecke characters",
+  "status": "prepared_uncompiled_dependencies_pending_graph",
+  "original_source_public_blob_binding": {
+    "OAI/NumberTheory/DirichletL/Detector/GlobalRegion.lean": {
+      "upstream_git_path": "lean/OAI/NumberTheory/DirichletL/Detector/GlobalRegion.lean",
+      "git_blob_object_id": "efad081f0da0a233679809bb95df77652661966f",
+      "public_blob_raw_sha256": "ad70278668b25b0aa988c583dca9632affebda26aa009a159dd5f92a20a6d2ee",
+      "public_blob_lf_sha256": "ad70278668b25b0aa988c583dca9632affebda26aa009a159dd5f92a20a6d2ee",
+      "workcopy_raw_sha256": "84e686d9a768faf35e459dc148f1c873f2ad6dd5707a63f851316ce9691d8ff0",
+      "workcopy_lf_sha256": "ad70278668b25b0aa988c583dca9632affebda26aa009a159dd5f92a20a6d2ee",
+      "canonical_source_matches_public_pin": true
+    },
+    "OAI/NumberTheory/DirichletL/Detector/GlobalHolomorphic.lean": {
+      "upstream_git_path": "lean/OAI/NumberTheory/DirichletL/Detector/GlobalHolomorphic.lean",
+      "git_blob_object_id": "b3581d4617039e88e9e68934e459c948a806a253",
+      "public_blob_raw_sha256": "b80c82079e56bf6188afc6b957d4e24c1346a2b50f90f835edb7439de0586591",
+      "public_blob_lf_sha256": "b80c82079e56bf6188afc6b957d4e24c1346a2b50f90f835edb7439de0586591",
+      "workcopy_raw_sha256": "99020b9db664c4dbca533c162af368ba432e656c47a2b00605b287d340afa308",
+      "workcopy_lf_sha256": "b80c82079e56bf6188afc6b957d4e24c1346a2b50f90f835edb7439de0586591",
+      "canonical_source_matches_public_pin": true
+    },
+    "OAI/NumberTheory/DirichletL/Detector/GlobalCorrection.lean": {
+      "upstream_git_path": "lean/OAI/NumberTheory/DirichletL/Detector/GlobalCorrection.lean",
+      "git_blob_object_id": "81bd73f1f3df61d4768969fd677b97f2dde64452",
+      "public_blob_raw_sha256": "93fe6f7968ef080b15cfe60b0f007948c6acee2949a8d8f8cce83e8ca2cb49a6",
+      "public_blob_lf_sha256": "93fe6f7968ef080b15cfe60b0f007948c6acee2949a8d8f8cce83e8ca2cb49a6",
+      "workcopy_raw_sha256": "e884072eed927e5260281e7f6065262b7d3209d2825b52836c9571841630fef9",
+      "workcopy_lf_sha256": "93fe6f7968ef080b15cfe60b0f007948c6acee2949a8d8f8cce83e8ca2cb49a6",
+      "canonical_source_matches_public_pin": true
+    },
+    "OAI/NumberTheory/DirichletL/PrincipalSignalComparison.lean": {
+      "upstream_git_path": "lean/OAI/NumberTheory/DirichletL/PrincipalSignalComparison.lean",
+      "git_blob_object_id": "bd252b01e2784f9ec32fe9c1e0380c4b221adc23",
+      "public_blob_raw_sha256": "3609a84d40122a6137bfa44fcb41f2830046e3456b77d72c34eb83f5c29b0e7b",
+      "public_blob_lf_sha256": "3609a84d40122a6137bfa44fcb41f2830046e3456b77d72c34eb83f5c29b0e7b",
+      "workcopy_raw_sha256": "fb59ccaed042ea0d445ca08b5333d0fd248b8db8ee12e691f79a32a351e1b08d",
+      "workcopy_lf_sha256": "3609a84d40122a6137bfa44fcb41f2830046e3456b77d72c34eb83f5c29b0e7b",
+      "canonical_source_matches_public_pin": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "module": "UpstreamNano_20261009_125450",
+  "roots": [
+    "OAI.SevenEighths.Parameters.exists_distinct_slot_lengths_total",
+    "OAI.SevenEighths.Parameters.exists_physical_slot_lengths_total"
+  ],
+  "export_exit_code": 0,
+  "exporter_commit": "b18d673bd29b476466a51a3be1012df2ed322b10",
+  "exporter_sha256": "59c8e239262153a57d37b83869732b75b5b3b5a1689b489a0660a5e713dd3701",
+  "source_olean_sha256": "6a5f57f890524338013d32221b0f10207d905bcb238d63966735a7e411fcf7fe",
+  "source_sha256": "0a50b1ad89e7b62385737e2fec6349b887c8736234d16328bd651d88dd2e74cb",
+  "export_sha256": "17428b6167c2eac50979b5b9fcea65ebecae7eb6b7acbd144852f6f47c975e4b",
+  "export_bytes": 35084569,
+  "actual_export_command": [
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-kernel\\lean4export\\.lake\\build\\bin\\lean4export.exe",
+    "UpstreamNano_20261009_125450",
+    "--",
+    "OAI.SevenEighths.Parameters.exists_distinct_slot_lengths_total",
+    "OAI.SevenEighths.Parameters.exists_physical_slot_lengths_total"
+  ],
+  "compiler": "Lean (version 4.34.1, x86_64-w64-windows-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)"
+}

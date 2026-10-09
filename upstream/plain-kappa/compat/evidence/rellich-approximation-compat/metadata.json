@@ -1,0 +1,14 @@
+{
+  "package": "rellich-kondrachov",
+  "package_pin": "70f85d4c1bf99c6e7d61e8be4daa6f3664d08d23",
+  "relative_source": "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/L2Compactness/Approximation.lean",
+  "before_raw_sha256": "83360893d9c0d6b32122efe2e67e022113d1c8580122a7585955de6536609fa0",
+  "baseline_lf_sha256": "0e3b898176ee5633607e1a3d23bc812ecf841b1a14718f9b3ddce52e70e3351c",
+  "after_lf_sha256": "7e611ee4d5dccadec7c6127ca731013993710ba984a72993ca07fbefe9d21809",
+  "patch_sha256": "1764993f2af3acdec10b55cf4e9b413fcbe7de341b3591dcffceb72bb96ff457",
+  "mathlib_pin": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "lean_version": "4.34.1",
+  "preserves_definitions_and_statements": true,
+  "instance_registration_change": "Remove uninferable local instance registration; same name, complete mathematical type, proof and two explicit haveI consumers are retained.",
+  "additional_assumptions": []
+}

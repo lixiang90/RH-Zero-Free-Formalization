@@ -1,216 +1,124 @@
-# Upstream low-kappa development capsule
+# Actual arithmetic development for the cubic boundary
 
-This frozen development snapshot is pending full actual-module verification. It
-does not modify the main Lean 4.33.0-rc2 project and none of its intermediate
-results belongs in that project's verified theorem count.
+This directory contains the separately pinned Lean development that connects
+our cubic boundary to the actual Hecke arithmetic in OpenAI/math. Author:
+**Li Xiang / lixiang90**. It is independent of the primary Lean 4.33.0-rc2
+library, and its results are counted separately.
 
-The source is public OpenAI/math commit
-`fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb`. Source bytes are read from the Git
-object at that commit, never trusted from an editable working-tree copy.
-The working project uses Lean 4.34.1 and Mathlib
-`d13f23b723b8a846827a245b89c10fc7d3f11612`. Its exact external imports require
-Rellich-Kondrachov `70f85d4c1bf99c6e7d61e8be4daa6f3664d08d23` and, for larger
-roots, PrimeNumberTheoremAnd `c39a751132c88b6e8080b74c74023fd95b3d8be0`.
-`template/lake-manifest.json` fixes their full package dependency graph.
+**The complete improved zero-free region is still pending.** The checked slot
+constructor below is an actual arithmetic interface. The other new sources
+are frozen for review and reproduction while their dependency builds continue.
+An intermediate compile or source-preparation pass does not prove the complete
+moment certificate or the final zero-free half-plane.
 
-## Source preparation
+## Mathematical scope
 
-With an existing clone containing that commit:
-
-```text
-python prepare_low_kappa_capsule.py --source /path/to/math --destination /new/empty/plain-project --target OAI.NumberTheory.DirichletL.Moments.ReflectionRetainedLength
-```
-
-To fetch the public Git commit without materializing the entire math repository,
-add `--fetch` and give an absent source directory. The Git object database is
-partial and OAI source blobs are read lazily. Existing source or output data is
-never recursively removed or overwritten.
-
-The actual baseline-only preparation was executed successfully on 2026-10-09:
-383 OAI modules were copied from pinned Git blobs in 4.27 seconds, with output
-status `prepared_pending_compile`. This is a test of the preparation tool,
-not a compilation claim.
-
-## Patches remain inputs
-
-Do not freeze the active working-copy changes until the owning agents finish
-and a reviewer checks their exact source differences. The tool accepts a frozen
-manifest of this shape; values below are placeholders:
-
-```json
-{
-  "status": "pending",
-  "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
-  "patches": [{"file": "reviewed.patch", "sha256": "<patch digest>"}],
-  "files": [{
-    "path": "OAI/NumberTheory/DirichletL/Moments/ReflectionRetainedLength.lean",
-    "baseline_sha256": "<exact pinned source digest>",
-    "modified_sha256": "<reviewed modified source digest>"
-  }],
-  "targets": ["OAI.NumberTheory.DirichletL.Moments.ReflectionRetainedLength"],
-  "declarations": [
-    "OAI.SevenEighths.CenteredMomentReflectionRetainedLength.positive_slot_width_drop"
-  ]
-}
-```
-
-Patch paths and hashes are checked; `git apply --check` precedes application.
-The tool rejects unlisted modifications, new files and unprepared OAI imports.
-Pending is a publication status, not a permission to insert an axiom.
-
-## Actual checks
-
-Add `--patch-manifest /path/to/manifest.json --install --build` to a fresh
-preparation command. `--install` runs the pinned Mathlib cache fetch;
-`--build` runs `serial_build.py` for the selected target closure and then a fresh
-Lean process containing `#check` and `#print axioms` for listed declarations.
-An existing prepared project can also run these stages directly:
-
-```text
-lake exe cache get
-lake env python -B -X utf8 serial_build.py OAI.NumberTheory.DirichletL.Moments.ReflectionRetainedLength
-lake env lean -j1 FreshLowKappaAudit.lean
-```
-
-The build driver uses one Lean process at a time and two Lean threads. It stores
-source and dependency fingerprints, output paths, commands, timings, logs and
-exit codes. Fresh types preserve all hypotheses in the report. The status after
-successful compilation remains `compiled_locally_pending_independent_replay`.
-An independent kernel replay must be added and passed before claiming full
-verification. A failure never becomes a successful summary.
-
-The target currently has 383 OAI source dependencies plus 15 actual
-Rellich-Kondrachov source dependencies. The complete CertifiedExistence target
-has 2,212 OAI modules (21.09 MB). A targeted first gate is considerably smaller
-than the final analytic chain, but still substantial. The proof-source edits
-must propagate consistently through all callers; compiling an early gate does
-not establish the final nonzero strip.
-
-Two pure arithmetic lemmas extracted from the modified ReflectionRetainedLength
-working copy separately passed Lean 4.34.1 and fresh transitive axiom printing:
-only `propext`, `Classical.choice`, `Quot.sound`. That small capsule contains no
-substitution for actual Hecke polynomial or retainedAnnuli definitions and does
-not certify an analytic moment bound.
-
-Static inspection of all 383 OAI modules strips nested comments and strings and
-finds no lexical `axiom`, `sorry`, `sorryAx`, `admit`, `native_decide`, `unsafe`,
-`opaque`, `implemented_by`, `extern`, or `trustLevel`. This inspection is useful
-source evidence; it cannot replace a compiled transitive axiom audit or replay.
-
-
-## Optional bounded scheduler
-
-The default is fully serial. The alternate driver has an explicit maximum of
-two Lean child processes, each with two threads; select it with `--jobs 2` in
-the preparation tool or run:
-
-```text
-lake env python -B -X utf8 serial_build_bounded.py --jobs 2 OAI.NumberTheory.DirichletL.Moments.ReflectionRetainedLength
-```
-
-Never run the serial and bounded source builders simultaneously. The bounded
-driver drains running tasks after the first failure, writes state through a
-single controller, rejects source changes during compilation, and accepts
-`.serial-build/stop-after-current.flag` to stop scheduling after current jobs
-finish. The actual bounded build has run with these limits and safely drained its
-running jobs after a dependency failure.
-
-## Frozen pending snapshot
-
-This bundle contains the currently frozen 41-module LF patch
-`reviewed-pending.patch` with SHA-256
+The [41-module patch](reviewed-pending.patch) propagates a plain-moment floor
+of kappa >= 37/50 through the original reflected and clipping budgets. It keeps
+the actual Hecke polynomials, natural coefficients, masks, prime deletions,
+moving conductors and the premise 2*HeckeZeroSupremum.beta-1 <= kappa.
+The scalar repairs and their scope are described in
+[plain-kappa-extension.md](../../docs/plain-kappa-extension.md).
+The patch SHA-256 is
 `d18941bdb3a32f42032c5e82c6518baa5dc03968ff8af652ca30d62d6467566e`.
-Its manifest is explicitly `pending_actual_module_verification`. The full
-physical module chain has not passed. One actual first build encountered an
-API compatibility error in the fixed Rellich dependency, Euclidean/H1.lean.
-That compatibility repair is maintained separately from the 41 mathematical
-source edits and must have its own package pin, source hashes and fresh audit.
 
-The preparation tool parses every fresh axiom line, requires exactly the
-requested declaration names and count, checks that a fresh type line exists,
-and allows only the three standard axioms. It also compares complete source
-hash snapshots before and after compilation and fresh audits. Successful
-`#print axioms` process exit alone cannot set the axiom-audit flag.
+The [authored-source manifest](extensions/manifest.json) records eleven extra
+modules separately from those patched upstream sources. Each has an exact
+source hash, declaration list and verification status.
 
-An external compatibility manifest can be supplied with
-`--external-compat-manifest`. It names exact package commits, relative files,
-baseline Git-blob SHA, modified LF SHA, independent patch SHA, target modules
-and declaration names. The tool verifies the package HEAD and canonical
-baseline before application, rejects unlisted modifications, and audits these
-declarations in a separate fresh process. It remains pending independent replay.
+| Interface | What the source proves | Current verification |
+|---|---|---|
+| ParametersSlotLengthsLowKappa | Distinct positive Fin N slot lengths with any positive total, chosen after the mesh and physical range; a uniform positive lower ratio. | 2 roots passed actual compilation, fresh complete types/axioms and independent Nano replay. |
+| LowKappaParameters | Bind the moving moment parameter to the actual Hecke-family supremum. The old family bound beta <= 7/8 stays explicit. | 7 roots prepared; actual target verification pending. |
+| GlobalRegionLowKappa and GlobalCorrectionLowKappa | Extend the original local/global Euler correction to Re x >= 21/25, retaining the same summable 240 Q^(-17/10) majorant. | 15 roots prepared; actual target verification pending. |
+| GlobalSourceCorrectionExistenceLowKappa | Choose one finite excluded set before every character and every later half-plane threshold. No L-function zero-free premise. | 2 roots prepared; actual target verification pending. |
+| Hecke.DirichletLowKappa | Apply the existing actual factorization to transfer an explicit whole-family nonvanishing hypothesis to Dirichlet functions and zeta at any positive threshold. | 2 roots prepared; actual target verification pending. |
+| PrincipalSignalScalingLowKappa | Normalize the actual Hecke sourceMultiplier and sourceResidueIntegral at variable total ell and imbalance b; derive the nonzero normalizer from positive windows and slot masses. | 5 roots prepared; actual target verification pending. |
+| LowSourceScalesLowKappa | Bound the actual compensated lowGramFactor with exponent (1-ell)/4-b/6 and derive the actual physical scale q Z^(1-ell)/L^2. | 9 roots prepared; actual target verification pending. |
+| PrimeRows.CubeNormalizerLowKappa | Prove the actual positive ray-prime normalizer nonzero and its inverse bounded by every positive power, using the actual slot sum. | 1 root prepared; actual target verification pending. |
+| PrincipalSlotEstimateLowKappa and PrincipalSignalComparisonLowKappa | Bound the original marked slots and weighted slotRatio on Re s >= 21/25, with error 1440 Q^(-21/25); prove correction denominators nonzero and the original slotRatio analytic. | 24 roots prepared, including the explicit bounds structure; actual target verification pending. |
 
-## This checkpoint's exact evidence
+The widened Euler domain is a domain for the **correction factor**, not a
+zero-free region for an L-function. The sixfold Mellin pole remains z=1/6,
+independently of the variable total slot length. The whole-family hypothesis
+in the transfer lemmas and the physical low/high estimates are not supplied by
+these identities. See [arithmetic-integration.md](../../docs/arithmetic-integration.md)
+for the parameter meanings and remaining interfaces.
 
-`verification/preparation-result.json` records a real successful reconstruction
-of all 2,212 OAI modules and application of all 41 frozen source patches from
-the public LF Git baseline. This is source preparation, not completion of
-either requested analytic target.
+## Checked evidence
 
-`compat/manifest.json` currently contains separate H1 and Translation proof
-compatibility patches for the pinned Rellich package. Both keep the original
-definitions and statement types. The source-only patch application was tested
-on a fresh local clone of the pinned package, and an idempotent second
-application verified every final hash. Its record is
-`verification/external-compatibility-application.json`.
+The slot constructor's fresh audit and serial independent replay checked
+**8,647 transitive declarations** from its two roots. The source, configuration,
+compiled artifacts and selected build records remained unchanged throughout.
+See [slots-total2/strict-replay-result.json](verification/slots-total2/strict-replay-result.json).
 
-A new fresh Lean process checked the exact types and permitted transitive
-axioms of all 24 listed H1/Translation declarations and preserved both source
-hashes; see `verification/rellich-compatibility-strict-audit.json` and its log.
-The parser handles wrapped Lean axiom lists and universe annotations; actual
-output and deliberately corrupted missing/extra-axiom output tested acceptance
-and rejection. These external module checks are not the full OAI moment proof.
+All **11 Rellich compatibility patches** also passed real compilation, fresh
+types and counted axiom audits, followed by a new independent replay of
+**45,863 transitive declarations from 54 roots**. They preserve the mathematical
+statements. One original local instance with uninferable proof parameters is
+now a same-name lemma, with explicit instances at its two consumers; this
+registration change is recorded rather than hidden.
+The [compatibility manifest](compat/manifest.json),
+[declaration-header comparison](verification/rellich-header-preservation-audit.json)
+and [final54 replay](verification/rellich-final54/strict-replay-result.json)
+bind the exact sources and checks. The only permitted axioms are `propext`,
+`Quot.sound` and `Classical.choice`.
 
-The latest completed driver run still had a subsequent Rellich
-TranslationEstimateL2 compatibility gate. The owning reviewer is addressing
-it separately. `verification/latest-actual-module-status.json` is a snapshot
-of completed actual process exits, not a final target-pass declaration.
-These dependency fixes and the 41 OAI changes remain outside the main
-Lean 4.33 project theorem count.
+These two replay scopes overlap in foundational declarations and must not be
+added together. Neither is a replay of ReflectionRetainedLength,
+Energy.CertifiedExistence or the whole improved zero-free theorem.
+The [latest frozen build snapshot](verification/latest-actual-module-status.json)
+records actual process exits; the two full arithmetic targets remain pending.
+Earlier records under verification/ retain their original, narrower scopes.
 
-For full reproduction in a new directory, add all current manifest flags:
+## Pinned sources and tools
 
-```text
-python prepare_low_kappa_capsule.py --source /path/to/math --destination /new/empty/plain-project --patch-manifest manifest.json --external-compat-manifest compat/manifest.json --install --build --jobs 2
+| Component | Pin |
+|---|---|
+| OpenAI/math | `fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb` |
+| Lean | `leanprover/lean4:v4.34.1` |
+| Mathlib | `d13f23b723b8a846827a245b89c10fc7d3f11612` |
+| Rellich-Kondrachov | `70f85d4c1bf99c6e7d61e8be4daa6f3664d08d23` |
+| PrimeNumberTheoremAnd | `c39a751132c88b6e8080b74c74023fd95b3d8be0` |
+| lean4export | `b18d673bd29b476466a51a3be1012df2ed322b10`, built with Lean 4.34.1 |
+| Nano | `418320295890faed83a96fd97907b12a3b6728c2`, serial replay |
+
+The [Lake manifest](template/lake-manifest.json) fixes the full dependency
+versions. Original OAI files are read from pinned Git blobs. Authored modules
+are explicitly labelled `authored_extension` and have no fabricated upstream
+Git baseline. Source preparation checks every patch and rejects unlisted
+changes or missing custom imports. The original math checkout is unchanged.
+
+## Reproduction
+
+With Elan, Python 3.10+ and a clone containing the pinned math commit, run from
+this directory, choosing a new empty destination:
+
+```sh
+python prepare_low_kappa_capsule.py --source /path/to/math --destination /new/empty/plain-project --patch-manifest manifest.json --external-compat-manifest compat/manifest.json --extension-manifest extensions/manifest.json --install --build --jobs 4
 ```
 
-To test only dependency patch application in an already prepared project
-containing untouched pinned package checkouts:
+For a public partial clone at an absent source path, add `--fetch`. Omit
+`--install --build` to verify source reconstruction only. The recorded fixtures
+under verification/ distinguish this preparation pass from a proof check.
 
-```text
-python prepare_low_kappa_capsule.py --source /path/to/math --destination /prepared/plain-project --external-compat-manifest compat/manifest.json --apply-external-only
-```
+The default `--jobs 1` is serial. Bounds of 2, 4 or 8 run that many Lean child
+processes at most, with two Lean threads each. There must be one source-build
+controller for a project. It checks source/dependency fingerprints and artifact
+hashes, drains current tasks after a failure, and supports
+`.serial-build/stop-after-current.flag` for a safe checkpoint. Existing successes
+are reused only when their bindings still match.
 
-No whole-chain certificate is asserted until the requested target compile,
-fresh counted axiom audit, source bindings and independent replay all pass.
+After a selected target has compiled, the
+[kernel replay runner](kernel-tools/run_upstream_nanoda.py) checks its actual
+custom dependency closure, freshly prints `#check @` types and transitive
+axioms for every selected root, and invokes the pinned exporter and serial
+Nano. It requires the Lean 4.34.1 exporter; the primary project's 4.33 exporter
+is a different toolchain. Its commands and byte bindings are retained in each
+strict replay record and in
+[kernel-toolchain-provenance.json](kernel-tools/kernel-toolchain-provenance.json).
+All stages must pass for a target to be labelled independently verified.
 
-
-## Checkpoint on 2026-10-09
-
-The primary 4.33.0-rc2 library separately passes 214 public roots and an
-independent replay of 58,109 declarations. None of the pending OAI targets
-in this directory is included in those counts.
-
-The actual 4.34.1 dependency build reached 61 successful modules. H1 and
-Translation compatibility repairs passed actual module compilation and
-fresh checks of 24 declarations, with only the three standard axioms.
-These preserve all original definitions and theorem statements. Their
-source patches, fixed package commit, raw/canonical hashes, logs and
-strict fresh audit are under compat/ and verification/; their independent
-replay is pending. The original Rellich Apache-2.0 license is under licenses/.
-
-The frozen snapshot excludes the subsequent TranslationEstimateL2 repair,
-which is being checked separately. A fresh full build with only this
-snapshot can therefore reach that known dependency compatibility gate.
-Neither ReflectionRetainedLength nor CertifiedExistence has completed
-its actual compilation/audit here.
-
-The source-preparation tool was actually run on this frozen 41-file LF patch,
-rebuilding its 2,212-module source closure directly from the pinned Git blobs
-and verifying every baseline and modified hash. Independent fresh-package
-fixtures applied both compatibility patches and checked their idempotence.
-Compact results are verification/preparation-result.json and
-verification/external-compatibility-application.json. These certify source
-preparation/application, not the remaining arithmetic moment proof.
-
-The OAI patch uses the upstream Apache-2.0 license preserved at
-[third_party/OAI-LICENSE](../../third_party/OAI-LICENSE).
+The upstream OAI Apache-2.0 license is preserved at
+[third_party/OAI-LICENSE](../../third_party/OAI-LICENSE); the external package
+license is [Rellich-LICENSE](licenses/Rellich-LICENSE).

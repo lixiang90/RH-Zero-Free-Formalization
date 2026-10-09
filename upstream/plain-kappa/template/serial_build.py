@@ -20,7 +20,7 @@ def olean(mod):
         if (base/rel).is_file():return base/rel
     return None
 def imports(txt):
-    return [im for line in txt.splitlines() if line.startswith("import ") for im in line[7:].split("--")[0].split()]
+    return [im for line in txt.splitlines() if (m:=re.match(r"^\s*(?:(?:public|private|meta)\s+)*import\s+(.+)$",line)) for im in m.group(1).split("--")[0].split()]
 def plan(mod):
     if mod in plans:return
     if mod in visiting:raise RuntimeError("Import cycle "+mod)

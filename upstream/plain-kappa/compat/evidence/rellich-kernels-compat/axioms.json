@@ -1,0 +1,32 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\tmp\\rellich-kernels-compat\\AxiomAudit.lean"
+  ],
+  "cwd": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+  "exit_code": 0,
+  "elapsed_seconds": 11.765,
+  "roots": [
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.exists_kernel_tsupport_subset_ball_integral_eq_one"
+  ],
+  "audit_count": 1,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "unexpected_axioms": [],
+  "source_before_sha256": "cec1738da247e9b710b12bb0874dad5797be30a556cd75b4bca4bc5dae7f0256",
+  "source_after_sha256": "cec1738da247e9b710b12bb0874dad5797be30a556cd75b4bca4bc5dae7f0256",
+  "source_unchanged": true,
+  "output_olean_sha256": "4a31dad887e40cade241ca41fad28d8878c3ac2dfaf54d08f0f4623d0bf0fc7f",
+  "compile_sorry_warning": false,
+  "checked": true
+}

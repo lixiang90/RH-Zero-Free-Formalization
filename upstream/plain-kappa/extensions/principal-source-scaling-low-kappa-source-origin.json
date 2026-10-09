@@ -1,0 +1,16 @@
+{
+  "status": "prepared_pending_compile",
+  "module": "OAI.NumberTheory.DirichletL.PrincipalSignalScalingLowKappa",
+  "path": "OAI/NumberTheory/DirichletL/PrincipalSignalScalingLowKappa.lean",
+  "sha256": "e32f40ffe78f66528b83504b920bfb3a539a440021a8ae6498189c1707f55822",
+  "declarations": [
+    "OAI.SevenEighths.PrincipalSignalComparison.source_power_identity_total",
+    "OAI.SevenEighths.PrincipalSignalComparison.normalized_source_double_residue_total",
+    "OAI.SevenEighths.PrincipalSignalComparison.sourceResidueIntegral_normalized_total",
+    "OAI.SevenEighths.PrincipalSignalComparison.source_double_residue_integrable_total",
+    "OAI.SevenEighths.PrincipalSignalComparison.sourceResidueIntegral_normalized_total_of_positive_windows"
+  ],
+  "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "authored_by": "Li Xiang / lixiang90",
+  "scope": "Actual sourceMultiplier/sourceResidueIntegral normalization, variable total slots; no physical low/high estimates asserted."
+}

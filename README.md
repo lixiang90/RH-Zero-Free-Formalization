@@ -102,6 +102,10 @@ proof was inspected statically; this repository has not compiled or
 kernel-certified that complete proof. The actual low-kappa source extension
 is compiled separately with its original toolchain; its current proof status
 and repaired margins are described in [plain-kappa-extension.md](docs/plain-kappa-extension.md).
+The [arithmetic capsule](upstream/plain-kappa/README.md) separately records an
+independently checked arbitrary-total slot constructor and the external
+compatibility repairs; the new Euler, Gram and principal-source extensions
+retain their individual pending verification status.
 
 Code is distributed under Apache-2.0. Archived paper authorship and
 publication status are preserved.

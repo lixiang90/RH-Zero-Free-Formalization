@@ -1,0 +1,35 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\tmp\\rellich-restrict-compat\\AxiomAudit.lean"
+  ],
+  "cwd": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+  "exit_code": 0,
+  "elapsed_seconds": 10.390000000130385,
+  "roots": [
+    "MeasureTheory.Lp.extendByZero\u2097",
+    "MeasureTheory.Lp.extendByZero\u2097\u1d62",
+    "MeasureTheory.Lp.extendByZero\u2097\u1d62_ae_eq",
+    "MeasureTheory.Lp.extendByZero\u2097\u1d62_congr"
+  ],
+  "audit_count": 4,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "unexpected_axioms": [],
+  "source_before_sha256": "476f1c54580987affd13c2532eb643cbf1f21d056031337e4e19e6a98a9e118b",
+  "source_after_sha256": "476f1c54580987affd13c2532eb643cbf1f21d056031337e4e19e6a98a9e118b",
+  "source_unchanged": true,
+  "output_olean_sha256": "17c5c85df1d2732460669eed70465c0e321e5c33444c106aafb4035bec9fcfd4",
+  "compile_sorry_warning": false,
+  "checked": true
+}

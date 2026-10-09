@@ -1,0 +1,25 @@
+{
+  "tool_source_sha256": "8140aa48ac70e197d8d8c93ffc49df9e3dac49a20b347bc8657b182783fc5851",
+  "cases": [
+    {
+      "case": "bad-source-sha",
+      "actual_exit_code": 1,
+      "expected_guard": "Authored extension source SHA mismatch",
+      "rejected": true,
+      "log_sha256": "c0d6aaf42b94d051ad14a435004d6d2ae55d58a15bb46f6285288234b9ed2235",
+      "no_completed_record": true
+    },
+    {
+      "case": "unlisted-owned-import",
+      "actual_exit_code": 1,
+      "expected_guard": "Unlisted authored or external import",
+      "rejected": true,
+      "log_sha256": "e4b5ca8dea4cf275a19eff3a96be6f927d3f19e72ac39e838f71710c3df9413b",
+      "no_completed_record": true
+    }
+  ],
+  "public_private_meta_import_prefixes_checked": true,
+  "importModules_not_misread": true,
+  "unlisted_root_source_file_detected": true,
+  "policy": "No guard relaxation; deliberate malformed authored source inputs reject before any completed preparation record."
+}

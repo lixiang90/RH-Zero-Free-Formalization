@@ -1,0 +1,1055 @@
+{
+  "module": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Rellich",
+  "custom_count": 15,
+  "cached_frontier_count": 39,
+  "plans": {
+    "Mathlib.Analysis.Normed.Operator.Compact": {
+      "cached": true,
+      "fingerprint": "85a25d97471e8d82ca178dacf5f1f2ae669acbf52a55fdd83b34a5205ca6af7e",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Analysis\\Normed\\Operator\\Compact.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.Lebesgue.Basic": {
+      "cached": true,
+      "fingerprint": "d22def90e455d792ab940d86ae4c76dd172e8161544fd9e1b03472fe79dd7eef",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Measure\\Lebesgue\\Basic.olean"
+    },
+    "Mathlib.MeasureTheory.Function.LpSpace.Complete": {
+      "cached": true,
+      "fingerprint": "52839945fd5481569eef6300d3fb9a4a1f208f76dfcfd926344baed125b7ac67",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Function\\LpSpace\\Complete.olean"
+    },
+    "Mathlib.Analysis.Calculus.ContDiff.Operations": {
+      "cached": true,
+      "fingerprint": "0bfe010aaeabfc3f1ae64334f8f143efb90ea598eb0b350f344eb6ddf4545275",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Analysis\\Calculus\\ContDiff\\Operations.olean"
+    },
+    "Mathlib.Analysis.Calculus.FDeriv.Const": {
+      "cached": true,
+      "fingerprint": "41734c732efd136daf95b9cb9cbbc9551ca8687e5cb44afca69da44e6273bea9",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Analysis\\Calculus\\FDeriv\\Const.olean"
+    },
+    "Mathlib.Analysis.InnerProductSpace.Dual": {
+      "cached": true,
+      "fingerprint": "99c7ea6924956a1d2966192cb9ab27e325cff552e9bcace14bca5be8c09ba2ff",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Analysis\\InnerProductSpace\\Dual.olean"
+    },
+    "Mathlib.MeasureTheory.Function.LpSpace.Indicator": {
+      "cached": true,
+      "fingerprint": "cf397f5c6a56ae8488d6df3c2fd9dabaef7a74740de0c69354f530946d0e7398",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Function\\LpSpace\\Indicator.olean"
+    },
+    "Mathlib.Topology.Algebra.Support": {
+      "cached": true,
+      "fingerprint": "ef0fa14aaac64bc0138c70b13523db2f2eea6be0e9c47054a6f878a3d2e43543",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Topology\\Algebra\\Support.olean"
+    },
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.H1": {
+      "cached": false,
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\H1.lean",
+      "source_sha256": "6d1914ab35038f45373ea41b12e9a2bd626d4e38904baedd5d14b9019b93c703",
+      "fingerprint": "daa84503b552f27fca7a6480415e22bfda0fb73fd5e57c4000d0cd619e7638ad",
+      "imports": [
+        "Mathlib.Analysis.Calculus.ContDiff.Operations",
+        "Mathlib.Analysis.Calculus.FDeriv.Const",
+        "Mathlib.Analysis.InnerProductSpace.Dual",
+        "Mathlib.MeasureTheory.Function.LpSpace.Complete",
+        "Mathlib.MeasureTheory.Function.LpSpace.Indicator",
+        "Mathlib.Topology.Algebra.Support"
+      ],
+      "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\H1.olean",
+      "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\H1.olean": "f5843da34c71474fe27ec41a780056369aa3468faed09cae727a28ec1735274f",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\H1.ilean": "0f3235bc384dc59c0222260dcaf482853d0c556c28a01d180011a3c01f8390cd"
+      },
+      "build_record": {
+        "cached": false,
+        "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\H1.lean",
+        "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+        "source_sha256": "6d1914ab35038f45373ea41b12e9a2bd626d4e38904baedd5d14b9019b93c703",
+        "imports": [
+          "Mathlib.Analysis.Calculus.ContDiff.Operations",
+          "Mathlib.Analysis.Calculus.FDeriv.Const",
+          "Mathlib.Analysis.InnerProductSpace.Dual",
+          "Mathlib.MeasureTheory.Function.LpSpace.Complete",
+          "Mathlib.MeasureTheory.Function.LpSpace.Indicator",
+          "Mathlib.Topology.Algebra.Support"
+        ],
+        "fingerprint": "daa84503b552f27fca7a6480415e22bfda0fb73fd5e57c4000d0cd619e7638ad",
+        "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\H1.olean",
+        "exit_code": 0,
+        "wall_seconds": 11.906,
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-112047-bounded\\RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.H1.log",
+        "command": [
+          "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+          "-j",
+          "2",
+          "-o",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\H1.olean",
+          "-i",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\H1.ilean",
+          "-DautoImplicit=false",
+          "RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\H1.lean"
+        ],
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\H1.olean": "f5843da34c71474fe27ec41a780056369aa3468faed09cae727a28ec1735274f",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\H1.ilean": "0f3235bc384dc59c0222260dcaf482853d0c556c28a01d180011a3c01f8390cd"
+        },
+        "artifact_binding_epoch": "2026-10-09T04:15:10.946352+00:00",
+        "artifact_binding_kind": "captured_current_local_state_not_historical_compile"
+      }
+    },
+    "Mathlib.Analysis.Calculus.FDeriv.Add": {
+      "cached": true,
+      "fingerprint": "aa7a3273ac5849fbde58f9499cade8e1856c21c8bb295f906d7e684ef0c7535f",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Analysis\\Calculus\\FDeriv\\Add.olean"
+    },
+    "Mathlib.MeasureTheory.Group.Measure": {
+      "cached": true,
+      "fingerprint": "8405dd485df05142ffd2076f4c0b598ff3cb5e5cb17849f9d195a174db4be04d",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Group\\Measure.olean"
+    },
+    "Mathlib.MeasureTheory.Function.LpSpace.Basic": {
+      "cached": true,
+      "fingerprint": "10decc14e49cd9b6bc15daa867670427f73c059e3a62832eccd8b00020e0cd0b",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Function\\LpSpace\\Basic.olean"
+    },
+    "Mathlib.Topology.Algebra.Group.Basic": {
+      "cached": true,
+      "fingerprint": "2042a7cecf364f7569c43fa937606389ae6c1c34ce53c083b5a9e8988fae55fe",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Topology\\Algebra\\Group\\Basic.olean"
+    },
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Translation": {
+      "cached": false,
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Translation.lean",
+      "source_sha256": "76f47626c2283f005570c29c2496b59b2452e9635937d26f26083e74446896ea",
+      "fingerprint": "9e869f0bb5905dcaf7fa881e4656235e845eed10e5ea77bd3d465698ed6f7564",
+      "imports": [
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.H1",
+        "Mathlib.Analysis.Calculus.FDeriv.Add",
+        "Mathlib.MeasureTheory.Group.Measure",
+        "Mathlib.MeasureTheory.Function.LpSpace.Basic",
+        "Mathlib.Topology.Algebra.Group.Basic"
+      ],
+      "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Translation.olean",
+      "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Translation.olean": "7d6a75a7c773a3ffb6e98a6f5b7fbd7deecff87259be009b0e3edc9a9faced39",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Translation.ilean": "3e08ef440e22327a746bce5e75381415b98f35423f311e523df091aa36cc3b69"
+      },
+      "build_record": {
+        "cached": false,
+        "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Translation.lean",
+        "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+        "source_sha256": "76f47626c2283f005570c29c2496b59b2452e9635937d26f26083e74446896ea",
+        "imports": [
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.H1",
+          "Mathlib.Analysis.Calculus.FDeriv.Add",
+          "Mathlib.MeasureTheory.Group.Measure",
+          "Mathlib.MeasureTheory.Function.LpSpace.Basic",
+          "Mathlib.Topology.Algebra.Group.Basic"
+        ],
+        "fingerprint": "9e869f0bb5905dcaf7fa881e4656235e845eed10e5ea77bd3d465698ed6f7564",
+        "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Translation.olean",
+        "exit_code": 0,
+        "wall_seconds": 10.61,
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-112821-bounded\\RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Translation.log",
+        "command": [
+          "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+          "-j",
+          "2",
+          "-o",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Translation.olean",
+          "-i",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Translation.ilean",
+          "-DautoImplicit=false",
+          "RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Translation.lean"
+        ],
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Translation.olean": "7d6a75a7c773a3ffb6e98a6f5b7fbd7deecff87259be009b0e3edc9a9faced39",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Translation.ilean": "3e08ef440e22327a746bce5e75381415b98f35423f311e523df091aa36cc3b69"
+        },
+        "artifact_binding_epoch": "2026-10-09T04:15:10.946352+00:00",
+        "artifact_binding_kind": "captured_current_local_state_not_historical_compile"
+      }
+    },
+    "Mathlib.MeasureTheory.Integral.IntervalIntegral.ContDiff": {
+      "cached": true,
+      "fingerprint": "ee31f3a395eef193130e131f2a62d1ffef64aaad8d169eb0e3d4a83f7b1a0e57",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Integral\\IntervalIntegral\\ContDiff.olean"
+    },
+    "Mathlib.Analysis.Calculus.Deriv.Comp": {
+      "cached": true,
+      "fingerprint": "a0d590288dd5e5fb4116cf537d8688ddb224ca445805021de884aed2fe96f1ee",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Analysis\\Calculus\\Deriv\\Comp.olean"
+    },
+    "Mathlib.Analysis.Calculus.Deriv.Mul": {
+      "cached": true,
+      "fingerprint": "61f24bfebd25f22cdcd65ccc647b289280548ed0339b00747669fdd38c918255",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Analysis\\Calculus\\Deriv\\Mul.olean"
+    },
+    "Mathlib.Analysis.Calculus.Deriv.Add": {
+      "cached": true,
+      "fingerprint": "968e7818833e0aad93d3e08ff2caeb261a2d9a9f22e10eafdddd3dd8e3921a51",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Analysis\\Calculus\\Deriv\\Add.olean"
+    },
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimate": {
+      "cached": false,
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimate.lean",
+      "source_sha256": "4503ba2d570d33630b0dd365c6f667f259c22d948353222fc51a4c2176ccc187",
+      "fingerprint": "c7895d6cfbf682c7672e288de8ad9518dbd84f2795aee9f4e58a5a109689c277",
+      "imports": [
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.H1",
+        "Mathlib.MeasureTheory.Integral.IntervalIntegral.ContDiff",
+        "Mathlib.Analysis.Calculus.Deriv.Comp",
+        "Mathlib.Analysis.Calculus.Deriv.Mul",
+        "Mathlib.Analysis.Calculus.Deriv.Add"
+      ],
+      "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimate.olean",
+      "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimate.olean": "4e13dfde504e0b67c989b4c9185b9b2e4bb20cc72fb023d637049b6be4efcf37",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimate.ilean": "1bd2a4a49aaaf4562ebd56b53ace7326e33ee04c676506e1afee36ddc41b6ce9"
+      },
+      "build_record": {
+        "cached": false,
+        "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimate.lean",
+        "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+        "source_sha256": "4503ba2d570d33630b0dd365c6f667f259c22d948353222fc51a4c2176ccc187",
+        "imports": [
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.H1",
+          "Mathlib.MeasureTheory.Integral.IntervalIntegral.ContDiff",
+          "Mathlib.Analysis.Calculus.Deriv.Comp",
+          "Mathlib.Analysis.Calculus.Deriv.Mul",
+          "Mathlib.Analysis.Calculus.Deriv.Add"
+        ],
+        "fingerprint": "c7895d6cfbf682c7672e288de8ad9518dbd84f2795aee9f4e58a5a109689c277",
+        "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimate.olean",
+        "exit_code": 0,
+        "wall_seconds": 10.765,
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-112821-bounded\\RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimate.log",
+        "command": [
+          "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+          "-j",
+          "2",
+          "-o",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimate.olean",
+          "-i",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimate.ilean",
+          "-DautoImplicit=false",
+          "RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimate.lean"
+        ],
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimate.olean": "4e13dfde504e0b67c989b4c9185b9b2e4bb20cc72fb023d637049b6be4efcf37",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimate.ilean": "1bd2a4a49aaaf4562ebd56b53ace7326e33ee04c676506e1afee36ddc41b6ce9"
+        },
+        "artifact_binding_epoch": "2026-10-09T04:15:10.946352+00:00",
+        "artifact_binding_kind": "captured_current_local_state_not_historical_compile"
+      }
+    },
+    "Mathlib.MeasureTheory.Integral.MeanInequalities": {
+      "cached": true,
+      "fingerprint": "d52cfb462ef39ef92e51bf751741b366bb88e477253ca3493e23bd63fdc66f7f",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Integral\\MeanInequalities.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.Prod": {
+      "cached": true,
+      "fingerprint": "d6dd618ad16090988c338eb634cc872db4cf89f9b1abad37312cc662f04cbaa6",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Measure\\Prod.olean"
+    },
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimateL2": {
+      "cached": false,
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateL2.lean",
+      "source_sha256": "ffef923f25c1d9ea8297d5e6c236d6f6915d8d1540f9ee6f5b37e86603399a8a",
+      "fingerprint": "a717d4c2b0c87e777532b4c994549e13adabf4d7c5be62d6d96eede90264145c",
+      "imports": [
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Translation",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimate",
+        "Mathlib.MeasureTheory.Integral.MeanInequalities",
+        "Mathlib.MeasureTheory.Measure.Prod"
+      ],
+      "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateL2.olean",
+      "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateL2.olean": "88139d012d89bd2d2aadfc337afc1f53fc3c56da7d5e2896cd6187fb955438e0",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateL2.ilean": "111de504c661539ad92c047a93668d39b43493ab7c6ebedf79ead4d1f3d0a766"
+      },
+      "build_record": {
+        "cached": false,
+        "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateL2.lean",
+        "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+        "source_sha256": "ffef923f25c1d9ea8297d5e6c236d6f6915d8d1540f9ee6f5b37e86603399a8a",
+        "imports": [
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Translation",
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimate",
+          "Mathlib.MeasureTheory.Integral.MeanInequalities",
+          "Mathlib.MeasureTheory.Measure.Prod"
+        ],
+        "fingerprint": "a717d4c2b0c87e777532b4c994549e13adabf4d7c5be62d6d96eede90264145c",
+        "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateL2.olean",
+        "exit_code": 0,
+        "wall_seconds": 13.0,
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-114016-bounded\\RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimateL2.log",
+        "command": [
+          "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+          "-j",
+          "2",
+          "-o",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateL2.olean",
+          "-i",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateL2.ilean",
+          "-DautoImplicit=false",
+          "RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateL2.lean"
+        ],
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateL2.olean": "88139d012d89bd2d2aadfc337afc1f53fc3c56da7d5e2896cd6187fb955438e0",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateL2.ilean": "111de504c661539ad92c047a93668d39b43493ab7c6ebedf79ead4d1f3d0a766"
+        },
+        "artifact_binding_epoch": "2026-10-09T04:15:10.946352+00:00",
+        "artifact_binding_kind": "captured_current_local_state_not_historical_compile"
+      }
+    },
+    "Mathlib.Topology.Order.OrderClosed": {
+      "cached": true,
+      "fingerprint": "f6596419ffa45e66da158baec5407c69302e994a39ffb7e9d5a367db6e31c1b6",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Topology\\Order\\OrderClosed.olean"
+    },
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimateH1": {
+      "cached": false,
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateH1.lean",
+      "source_sha256": "30ea76cd2e0c688e15f0371802d4725a2e5dbf84aecbc0cd210db6976eecd8b0",
+      "fingerprint": "5e23c53b5a4e9c26e9f0847807399c72d5fddad8a37206b81d8be76994cca0d5",
+      "imports": [
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimateL2",
+        "Mathlib.Topology.Order.OrderClosed"
+      ],
+      "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateH1.olean",
+      "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateH1.olean": "5dd68ed18d19fc01f8757b9a937bdb4762413687826b612c9488c3e77c636cb1",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateH1.ilean": "4997dcce213dd5d722836c7bd798a38371a199d24e81ae397f250b23be0b46aa"
+      },
+      "build_record": {
+        "cached": false,
+        "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateH1.lean",
+        "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+        "source_sha256": "30ea76cd2e0c688e15f0371802d4725a2e5dbf84aecbc0cd210db6976eecd8b0",
+        "imports": [
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimateL2",
+          "Mathlib.Topology.Order.OrderClosed"
+        ],
+        "fingerprint": "5e23c53b5a4e9c26e9f0847807399c72d5fddad8a37206b81d8be76994cca0d5",
+        "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateH1.olean",
+        "exit_code": 0,
+        "wall_seconds": 11.453,
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-114319-bounded\\RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimateH1.log",
+        "command": [
+          "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+          "-j",
+          "2",
+          "-o",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateH1.olean",
+          "-i",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateH1.ilean",
+          "-DautoImplicit=false",
+          "RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateH1.lean"
+        ],
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateH1.olean": "5dd68ed18d19fc01f8757b9a937bdb4762413687826b612c9488c3e77c636cb1",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateH1.ilean": "4997dcce213dd5d722836c7bd798a38371a199d24e81ae397f250b23be0b46aa"
+        },
+        "artifact_binding_epoch": "2026-10-09T04:15:10.946352+00:00",
+        "artifact_binding_kind": "captured_current_local_state_not_historical_compile"
+      }
+    },
+    "Mathlib.MeasureTheory.Function.LpSeminorm.Basic": {
+      "cached": true,
+      "fingerprint": "5edc752d0cb6bffdd22d1657edf90b4647326090c75d553e4f00eeebe5934a8e",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Function\\LpSeminorm\\Basic.olean"
+    },
+    "RellichKondrachov.MeasureTheory.Function.LpSpace.Restrict": {
+      "cached": false,
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.lean",
+      "source_sha256": "476f1c54580987affd13c2532eb643cbf1f21d056031337e4e19e6a98a9e118b",
+      "fingerprint": "cc8db2dd0ce9b89f78795eed79dcf91b244b8cf9f029667880228894b1f386dd",
+      "imports": [
+        "Mathlib.MeasureTheory.Function.LpSeminorm.Basic",
+        "Mathlib.MeasureTheory.Function.LpSpace.Basic"
+      ],
+      "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.olean",
+      "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.olean": "cd31763bd2dfb28a971357ec8231c8bf820910084b615ae363ac5303e90c4753",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.ilean": "9543dbe44532b434b6b873633bf48f84b7c13829daa4407c8c16fd7620dc33ae"
+      },
+      "build_record": {
+        "cached": false,
+        "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.lean",
+        "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+        "source_sha256": "476f1c54580987affd13c2532eb643cbf1f21d056031337e4e19e6a98a9e118b",
+        "imports": [
+          "Mathlib.MeasureTheory.Function.LpSeminorm.Basic",
+          "Mathlib.MeasureTheory.Function.LpSpace.Basic"
+        ],
+        "fingerprint": "cc8db2dd0ce9b89f78795eed79dcf91b244b8cf9f029667880228894b1f386dd",
+        "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.olean",
+        "exit_code": 0,
+        "wall_seconds": 7.969,
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-114904-bounded\\RellichKondrachov.MeasureTheory.Function.LpSpace.Restrict.log",
+        "command": [
+          "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+          "-j",
+          "2",
+          "-o",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.olean",
+          "-i",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.ilean",
+          "-DautoImplicit=false",
+          "RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.lean"
+        ],
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.olean": "cd31763bd2dfb28a971357ec8231c8bf820910084b615ae363ac5303e90c4753",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\MeasureTheory\\Function\\LpSpace\\Restrict.ilean": "9543dbe44532b434b6b873633bf48f84b7c13829daa4407c8c16fd7620dc33ae"
+        },
+        "artifact_binding_epoch": "2026-10-09T04:15:10.946352+00:00",
+        "artifact_binding_kind": "captured_current_local_state_not_historical_compile"
+      }
+    },
+    "Mathlib.Analysis.Convolution": {
+      "cached": true,
+      "fingerprint": "938f992cccaeb7cc26a79a6cb43e9700ec0ec2400f37d5461f1a8cb30b7c7c24",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Analysis\\Convolution.olean"
+    },
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Smoothing": {
+      "cached": false,
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Smoothing.lean",
+      "source_sha256": "c055cd9141f5a6e7b24db00d2679f1df5cfe4c35a506a6499826d52715b76f90",
+      "fingerprint": "44490dc7061c7b6b7b82a9d6e86bc26137afff7a896b997953b1abba3fcef92a",
+      "imports": [
+        "RellichKondrachov.MeasureTheory.Function.LpSpace.Restrict",
+        "Mathlib.Analysis.Convolution",
+        "Mathlib.Topology.Algebra.Support"
+      ],
+      "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Smoothing.olean",
+      "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Smoothing.olean": "5b5e574ef5777bf74917528947438e5c63ba70ed362f03626b207a1097ae84c2",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Smoothing.ilean": "d1bc087c03a8a88b8cba3176e252441f853e67dc5fbe283469da7de83f30ccf8"
+      },
+      "build_record": {
+        "cached": false,
+        "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Smoothing.lean",
+        "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+        "source_sha256": "c055cd9141f5a6e7b24db00d2679f1df5cfe4c35a506a6499826d52715b76f90",
+        "imports": [
+          "RellichKondrachov.MeasureTheory.Function.LpSpace.Restrict",
+          "Mathlib.Analysis.Convolution",
+          "Mathlib.Topology.Algebra.Support"
+        ],
+        "fingerprint": "44490dc7061c7b6b7b82a9d6e86bc26137afff7a896b997953b1abba3fcef92a",
+        "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Smoothing.olean",
+        "exit_code": 0,
+        "wall_seconds": 8.297,
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-120702-bounded\\RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Smoothing.log",
+        "command": [
+          "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+          "-j",
+          "2",
+          "-o",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Smoothing.olean",
+          "-i",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Smoothing.ilean",
+          "-DautoImplicit=false",
+          "RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Smoothing.lean"
+        ],
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Smoothing.olean": "5b5e574ef5777bf74917528947438e5c63ba70ed362f03626b207a1097ae84c2",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Smoothing.ilean": "d1bc087c03a8a88b8cba3176e252441f853e67dc5fbe283469da7de83f30ccf8"
+        },
+        "artifact_binding_epoch": "2026-10-09T04:15:10.946352+00:00",
+        "artifact_binding_kind": "captured_current_local_state_not_historical_compile"
+      }
+    },
+    "Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap": {
+      "cached": true,
+      "fingerprint": "2327a2a3617515820e746adad8c6752b7a7be9b9867463ec7dcd468754debba8",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Integral\\Bochner\\ContinuousLinearMap.olean"
+    },
+    "Mathlib.MeasureTheory.Integral.Bochner.Basic": {
+      "cached": true,
+      "fingerprint": "79482425309079537b8f782e97ab4dad277fe927af338cfa6c4b81e232fe2755",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Integral\\Bochner\\Basic.olean"
+    },
+    "Mathlib.MeasureTheory.Integral.Prod": {
+      "cached": true,
+      "fingerprint": "812c9c5e1aafa15d3acf8630b8eaf57a1f57d713e1f7d0a741bef600e52ab8c2",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Integral\\Prod.olean"
+    },
+    "Mathlib.MeasureTheory.Group.Prod": {
+      "cached": true,
+      "fingerprint": "921daff768d107efa33bac271651fbf7cb9f134106f365354c13fb5800949ead",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Group\\Prod.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.WithDensity": {
+      "cached": true,
+      "fingerprint": "4ec5a009514a0922a742eac683b687127cf8cb40e58b0b6d89ec8b3439b5ef23",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Measure\\WithDensity.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.Haar.Unique": {
+      "cached": true,
+      "fingerprint": "d1cb521efd04884260725a55be9e837ff77544558b236a8869dcf3e1143441cf",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Measure\\Haar\\Unique.olean"
+    },
+    "Mathlib.MeasureTheory.Function.L2Space": {
+      "cached": true,
+      "fingerprint": "89643608beec4c906f97efcc2041fb2ec8530af27fb1f6a2fe1487180978d76a",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Function\\L2Space.olean"
+    },
+    "Mathlib.Probability.Moments.Variance": {
+      "cached": true,
+      "fingerprint": "c1db721e95bda3e009bc361c6ce8047fa1aba15cf9884cee662dda7a700de058",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Probability\\Moments\\Variance.olean"
+    },
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Approximation": {
+      "cached": false,
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Approximation.lean",
+      "source_sha256": "7e611ee4d5dccadec7c6127ca731013993710ba984a72993ca07fbefe9d21809",
+      "fingerprint": "e937b9d7cb319e1355a7827e4ca393a0350faed457fd9a2896fed6f96a2746e3",
+      "imports": [
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Translation",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Smoothing",
+        "Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap",
+        "Mathlib.MeasureTheory.Integral.Bochner.Basic",
+        "Mathlib.MeasureTheory.Integral.MeanInequalities",
+        "Mathlib.MeasureTheory.Integral.Prod",
+        "Mathlib.MeasureTheory.Group.Prod",
+        "Mathlib.MeasureTheory.Measure.WithDensity",
+        "Mathlib.MeasureTheory.Measure.Haar.Unique",
+        "Mathlib.MeasureTheory.Function.L2Space",
+        "Mathlib.Probability.Moments.Variance"
+      ],
+      "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Approximation.olean",
+      "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Approximation.olean": "fe1ec05818ecf5ef13d4ab5d38cefb933ec45dcb63375292c634b1d260bf6916",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Approximation.ilean": "8157f0fcafbfaebed799d46cb6a52b1da60715a9192ac03c5dd27f75834e81e2"
+      },
+      "build_record": {
+        "cached": false,
+        "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Approximation.lean",
+        "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+        "source_sha256": "7e611ee4d5dccadec7c6127ca731013993710ba984a72993ca07fbefe9d21809",
+        "imports": [
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Translation",
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Smoothing",
+          "Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap",
+          "Mathlib.MeasureTheory.Integral.Bochner.Basic",
+          "Mathlib.MeasureTheory.Integral.MeanInequalities",
+          "Mathlib.MeasureTheory.Integral.Prod",
+          "Mathlib.MeasureTheory.Group.Prod",
+          "Mathlib.MeasureTheory.Measure.WithDensity",
+          "Mathlib.MeasureTheory.Measure.Haar.Unique",
+          "Mathlib.MeasureTheory.Function.L2Space",
+          "Mathlib.Probability.Moments.Variance"
+        ],
+        "fingerprint": "e937b9d7cb319e1355a7827e4ca393a0350faed457fd9a2896fed6f96a2746e3",
+        "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Approximation.olean",
+        "exit_code": 0,
+        "wall_seconds": 14.469,
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-121510-bounded4\\RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Approximation.log",
+        "command": [
+          "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+          "-j",
+          "2",
+          "-o",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Approximation.olean",
+          "-i",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Approximation.ilean",
+          "-DautoImplicit=false",
+          "RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Approximation.lean"
+        ],
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Approximation.olean": "fe1ec05818ecf5ef13d4ab5d38cefb933ec45dcb63375292c634b1d260bf6916",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Approximation.ilean": "8157f0fcafbfaebed799d46cb6a52b1da60715a9192ac03c5dd27f75834e81e2"
+        },
+        "artifact_binding_kind": "captured_after_this_compilation",
+        "direct_dependency_artifact_sha256": {
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Translation": {
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Translation.olean": "7d6a75a7c773a3ffb6e98a6f5b7fbd7deecff87259be009b0e3edc9a9faced39",
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Translation.ilean": "3e08ef440e22327a746bce5e75381415b98f35423f311e523df091aa36cc3b69"
+          },
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Smoothing": {
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Smoothing.olean": "5b5e574ef5777bf74917528947438e5c63ba70ed362f03626b207a1097ae84c2",
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Smoothing.ilean": "d1bc087c03a8a88b8cba3176e252441f853e67dc5fbe283469da7de83f30ccf8"
+          }
+        }
+      }
+    },
+    "Mathlib.MeasureTheory.Function.LpSeminorm.CompareExp": {
+      "cached": true,
+      "fingerprint": "ebc4d5000107dc6ee1e5a4309b39d21a308267fbe7c20310c079ed0143cb749e",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Function\\LpSeminorm\\CompareExp.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.Typeclasses.Finite": {
+      "cached": true,
+      "fingerprint": "649f84a203ac3c1e59cc88cf8efeea5277310248cee8abc42c2e16724965ff0b",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Measure\\Typeclasses\\Finite.olean"
+    },
+    "Mathlib.Topology.Algebra.Monoid": {
+      "cached": true,
+      "fingerprint": "f21197d57233775a718a8f208b0465a95a94cf86c046f947a7136f77e992a053",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Topology\\Algebra\\Monoid.olean"
+    },
+    "Mathlib.Topology.UniformSpace.HeineCantor": {
+      "cached": true,
+      "fingerprint": "e57cb32ab3c7ac372a43f717106500f215ffae0279ee40f3f1eca7bdec6eb43d",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Topology\\UniformSpace\\HeineCantor.olean"
+    },
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Compactness": {
+      "cached": false,
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Compactness.lean",
+      "source_sha256": "3b9db1f6b5ced7492ffd5d603614531c4c1a8880c4b9b48e5457d6cf3214259c",
+      "fingerprint": "eb5845916e0491ac88d131a5e82607d42ab09f6409e26bc2e60d3bd91f63e5b9",
+      "imports": [
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Smoothing",
+        "Mathlib.MeasureTheory.Function.LpSeminorm.CompareExp",
+        "Mathlib.MeasureTheory.Measure.Typeclasses.Finite",
+        "Mathlib.Topology.Algebra.Monoid",
+        "Mathlib.Topology.UniformSpace.HeineCantor"
+      ],
+      "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Compactness.olean",
+      "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Compactness.olean": "7f39faa8f2e8b3b7d8b711368dabc1394640f5b3d69ffa335d09a405857c90ef",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Compactness.ilean": "2d6288d17d60c9b4733e30629c002c000bcde3fb25f9c82baa8a14961ba23b41"
+      },
+      "build_record": {
+        "cached": false,
+        "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Compactness.lean",
+        "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+        "source_sha256": "3b9db1f6b5ced7492ffd5d603614531c4c1a8880c4b9b48e5457d6cf3214259c",
+        "imports": [
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Smoothing",
+          "Mathlib.MeasureTheory.Function.LpSeminorm.CompareExp",
+          "Mathlib.MeasureTheory.Measure.Typeclasses.Finite",
+          "Mathlib.Topology.Algebra.Monoid",
+          "Mathlib.Topology.UniformSpace.HeineCantor"
+        ],
+        "fingerprint": "eb5845916e0491ac88d131a5e82607d42ab09f6409e26bc2e60d3bd91f63e5b9",
+        "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Compactness.olean",
+        "exit_code": 0,
+        "wall_seconds": 11.047,
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-122025-bounded4\\RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Compactness.log",
+        "command": [
+          "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+          "-j",
+          "2",
+          "-o",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Compactness.olean",
+          "-i",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Compactness.ilean",
+          "-DautoImplicit=false",
+          "RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Compactness.lean"
+        ],
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Compactness.olean": "7f39faa8f2e8b3b7d8b711368dabc1394640f5b3d69ffa335d09a405857c90ef",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Compactness.ilean": "2d6288d17d60c9b4733e30629c002c000bcde3fb25f9c82baa8a14961ba23b41"
+        },
+        "artifact_binding_kind": "captured_after_this_compilation",
+        "direct_dependency_artifact_sha256": {
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Smoothing": {
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Smoothing.olean": "5b5e574ef5777bf74917528947438e5c63ba70ed362f03626b207a1097ae84c2",
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Smoothing.ilean": "d1bc087c03a8a88b8cba3176e252441f853e67dc5fbe283469da7de83f30ccf8"
+          }
+        }
+      }
+    },
+    "Mathlib.Analysis.Normed.Group.Bounded": {
+      "cached": true,
+      "fingerprint": "e4553a709d0898f12e2731a04ecb1735b21442b05fde07a8cf99cf052ca83ab2",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Analysis\\Normed\\Group\\Bounded.olean"
+    },
+    "Mathlib.Topology.ContinuousMap.Bounded.ArzelaAscoli": {
+      "cached": true,
+      "fingerprint": "d23e9489ebb807a2c39956c41c6eb6ba073a7ce90d46ec23b17fbe6f0040faea",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Topology\\ContinuousMap\\Bounded\\ArzelaAscoli.olean"
+    },
+    "Mathlib.MeasureTheory.Integral.Bochner.Set": {
+      "cached": true,
+      "fingerprint": "d946d7306677c72f10524caf9aabcf970167e76aa7c54b544da4b522009e3681",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\MeasureTheory\\Integral\\Bochner\\Set.olean"
+    },
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.ArzelaAscoli": {
+      "cached": false,
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\ArzelaAscoli.lean",
+      "source_sha256": "0756dfef2bc232e9e62280638668fd49e389490f4705db66a17213b1609b5115",
+      "fingerprint": "512fc91dfb719e7bf112237243584d75d32790fb28fafb030ec9998e00416588",
+      "imports": [
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Compactness",
+        "Mathlib.Analysis.Normed.Group.Bounded",
+        "Mathlib.Topology.ContinuousMap.Bounded.ArzelaAscoli",
+        "Mathlib.MeasureTheory.Function.L2Space",
+        "Mathlib.MeasureTheory.Integral.Bochner.Set"
+      ],
+      "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\ArzelaAscoli.olean",
+      "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\ArzelaAscoli.olean": "6d44b6422c38c937bb529fd137bfbba1afbfda7f42d6978bb759be29045b1907",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\ArzelaAscoli.ilean": "9b9ed05e93bba2160c5a02040f2d2561356846e69ba4e70d0beb95f2af4bc092"
+      },
+      "build_record": {
+        "cached": false,
+        "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\ArzelaAscoli.lean",
+        "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+        "source_sha256": "0756dfef2bc232e9e62280638668fd49e389490f4705db66a17213b1609b5115",
+        "imports": [
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Compactness",
+          "Mathlib.Analysis.Normed.Group.Bounded",
+          "Mathlib.Topology.ContinuousMap.Bounded.ArzelaAscoli",
+          "Mathlib.MeasureTheory.Function.L2Space",
+          "Mathlib.MeasureTheory.Integral.Bochner.Set"
+        ],
+        "fingerprint": "512fc91dfb719e7bf112237243584d75d32790fb28fafb030ec9998e00416588",
+        "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\ArzelaAscoli.olean",
+        "exit_code": 0,
+        "wall_seconds": 14.812,
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-122838-bounded8\\RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.ArzelaAscoli.log",
+        "command": [
+          "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+          "-j",
+          "2",
+          "-o",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\ArzelaAscoli.olean",
+          "-i",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\ArzelaAscoli.ilean",
+          "-DautoImplicit=false",
+          "RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\ArzelaAscoli.lean"
+        ],
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\ArzelaAscoli.olean": "6d44b6422c38c937bb529fd137bfbba1afbfda7f42d6978bb759be29045b1907",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\ArzelaAscoli.ilean": "9b9ed05e93bba2160c5a02040f2d2561356846e69ba4e70d0beb95f2af4bc092"
+        },
+        "artifact_binding_kind": "captured_after_this_compilation",
+        "direct_dependency_artifact_sha256": {
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Compactness": {
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Compactness.olean": "7f39faa8f2e8b3b7d8b711368dabc1394640f5b3d69ffa335d09a405857c90ef",
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Compactness.ilean": "2d6288d17d60c9b4733e30629c002c000bcde3fb25f9c82baa8a14961ba23b41"
+          }
+        }
+      }
+    },
+    "Mathlib.Topology.MetricSpace.Pseudo.Basic": {
+      "cached": true,
+      "fingerprint": "e2a9dcdefca0ce92c10d3fd8fcf44d94e870997e72ef346dfc6f626386c02f3c",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Topology\\MetricSpace\\Pseudo\\Basic.olean"
+    },
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Transfer": {
+      "cached": false,
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Transfer.lean",
+      "source_sha256": "f94d8dbe5c5b127e21618923079834c659398246a29204ddbaaaa81b87f606e9",
+      "fingerprint": "ca7621be5979aebcf78be48e343ec50bf75cee2bbf507f9f6370418bbd1ef9e7",
+      "imports": [
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.ArzelaAscoli",
+        "Mathlib.MeasureTheory.Function.LpSpace.Basic",
+        "Mathlib.Topology.MetricSpace.Pseudo.Basic"
+      ],
+      "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Transfer.olean",
+      "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Transfer.olean": "c30c0456b231a5f6f6a986473ec15063fe68e6408b91cd9200871ee1bd4733b6",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Transfer.ilean": "3ea652704751642e15f3581068b15dc09e8077347497cfc664846fb6fd75b67a"
+      },
+      "build_record": {
+        "cached": false,
+        "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Transfer.lean",
+        "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+        "source_sha256": "f94d8dbe5c5b127e21618923079834c659398246a29204ddbaaaa81b87f606e9",
+        "imports": [
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.ArzelaAscoli",
+          "Mathlib.MeasureTheory.Function.LpSpace.Basic",
+          "Mathlib.Topology.MetricSpace.Pseudo.Basic"
+        ],
+        "fingerprint": "ca7621be5979aebcf78be48e343ec50bf75cee2bbf507f9f6370418bbd1ef9e7",
+        "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Transfer.olean",
+        "exit_code": 0,
+        "wall_seconds": 14.797,
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-123426-bounded8\\RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Transfer.log",
+        "command": [
+          "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+          "-j",
+          "2",
+          "-o",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Transfer.olean",
+          "-i",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Transfer.ilean",
+          "-DautoImplicit=false",
+          "RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Transfer.lean"
+        ],
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Transfer.olean": "c30c0456b231a5f6f6a986473ec15063fe68e6408b91cd9200871ee1bd4733b6",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Transfer.ilean": "3ea652704751642e15f3581068b15dc09e8077347497cfc664846fb6fd75b67a"
+        },
+        "artifact_binding_kind": "captured_after_this_compilation",
+        "direct_dependency_artifact_sha256": {
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.ArzelaAscoli": {
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\ArzelaAscoli.olean": "6d44b6422c38c937bb529fd137bfbba1afbfda7f42d6978bb759be29045b1907",
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\ArzelaAscoli.ilean": "9b9ed05e93bba2160c5a02040f2d2561356846e69ba4e70d0beb95f2af4bc092"
+          }
+        }
+      }
+    },
+    "Mathlib.Topology.UniformSpace.Cauchy": {
+      "cached": true,
+      "fingerprint": "f0bedc7f62d3b54811fd59a23f6a9949ea5604e26fac00efed1ae69cc810ae52",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Topology\\UniformSpace\\Cauchy.olean"
+    },
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.FrechetKolmogorov": {
+      "cached": false,
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\FrechetKolmogorov.lean",
+      "source_sha256": "42e3456cb12477766868fb182719fd1e296765dff1f8fe23751b86e4c8eaa4c6",
+      "fingerprint": "db4c77723e174dde6d6a3e6a3942863e8c5e6fa558dc8ae861b0c21d12f4e922",
+      "imports": [
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Approximation",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Transfer",
+        "Mathlib.Topology.UniformSpace.Cauchy"
+      ],
+      "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\FrechetKolmogorov.olean",
+      "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\FrechetKolmogorov.olean": "75f3575cd4b16ec152e9e1c7cfe8c743236645d74c292b446bf1b328242acc23",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\FrechetKolmogorov.ilean": "9ff495584259d644b1cc391b2badef5b25986c6256590522016e6ca913410265"
+      },
+      "build_record": {
+        "cached": false,
+        "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\FrechetKolmogorov.lean",
+        "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+        "source_sha256": "42e3456cb12477766868fb182719fd1e296765dff1f8fe23751b86e4c8eaa4c6",
+        "imports": [
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Approximation",
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Transfer",
+          "Mathlib.Topology.UniformSpace.Cauchy"
+        ],
+        "fingerprint": "db4c77723e174dde6d6a3e6a3942863e8c5e6fa558dc8ae861b0c21d12f4e922",
+        "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\FrechetKolmogorov.olean",
+        "exit_code": 0,
+        "wall_seconds": 12.265,
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-123426-bounded8\\RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.FrechetKolmogorov.log",
+        "command": [
+          "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+          "-j",
+          "2",
+          "-o",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\FrechetKolmogorov.olean",
+          "-i",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\FrechetKolmogorov.ilean",
+          "-DautoImplicit=false",
+          "RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\FrechetKolmogorov.lean"
+        ],
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\FrechetKolmogorov.olean": "75f3575cd4b16ec152e9e1c7cfe8c743236645d74c292b446bf1b328242acc23",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\FrechetKolmogorov.ilean": "9ff495584259d644b1cc391b2badef5b25986c6256590522016e6ca913410265"
+        },
+        "artifact_binding_kind": "captured_after_this_compilation",
+        "direct_dependency_artifact_sha256": {
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Approximation": {
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Approximation.olean": "fe1ec05818ecf5ef13d4ab5d38cefb933ec45dcb63375292c634b1d260bf6916",
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Approximation.ilean": "8157f0fcafbfaebed799d46cb6a52b1da60715a9192ac03c5dd27f75834e81e2"
+          },
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Transfer": {
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Transfer.olean": "c30c0456b231a5f6f6a986473ec15063fe68e6408b91cd9200871ee1bd4733b6",
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Transfer.ilean": "3ea652704751642e15f3581068b15dc09e8077347497cfc664846fb6fd75b67a"
+          }
+        }
+      }
+    },
+    "Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension": {
+      "cached": true,
+      "fingerprint": "d250a37f4125b1103761745895f4aee62d06d6887d6e8c28fdb1b379350cf77c",
+      "artifact": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Analysis\\Calculus\\BumpFunction\\FiniteDimension.olean"
+    },
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Kernels": {
+      "cached": false,
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Kernels.lean",
+      "source_sha256": "cec1738da247e9b710b12bb0874dad5797be30a556cd75b4bca4bc5dae7f0256",
+      "fingerprint": "2cd2eecc22fb845ee8a8178c09bcb89a76a5244b45336893127146ec3377db88",
+      "imports": [
+        "Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension",
+        "Mathlib.MeasureTheory.Integral.Bochner.Set",
+        "Mathlib.Topology.Algebra.Support"
+      ],
+      "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Kernels.olean",
+      "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Kernels.olean": "cd06aa5b6712b12fc368cb81c92918af6e663645540b5e235aa7aa36b543c56b",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Kernels.ilean": "e30d14af1714a82ffbb5b3a2ae23cee5e8614372345ad12f99386886a5fdef84"
+      },
+      "build_record": {
+        "cached": false,
+        "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Kernels.lean",
+        "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+        "source_sha256": "cec1738da247e9b710b12bb0874dad5797be30a556cd75b4bca4bc5dae7f0256",
+        "imports": [
+          "Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension",
+          "Mathlib.MeasureTheory.Integral.Bochner.Set",
+          "Mathlib.Topology.Algebra.Support"
+        ],
+        "fingerprint": "2cd2eecc22fb845ee8a8178c09bcb89a76a5244b45336893127146ec3377db88",
+        "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Kernels.olean",
+        "exit_code": 0,
+        "wall_seconds": 12.188,
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-122358-bounded8\\RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Kernels.log",
+        "command": [
+          "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+          "-j",
+          "2",
+          "-o",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Kernels.olean",
+          "-i",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Kernels.ilean",
+          "-DautoImplicit=false",
+          "RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Kernels.lean"
+        ],
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Kernels.olean": "cd06aa5b6712b12fc368cb81c92918af6e663645540b5e235aa7aa36b543c56b",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Kernels.ilean": "e30d14af1714a82ffbb5b3a2ae23cee5e8614372345ad12f99386886a5fdef84"
+        },
+        "artifact_binding_kind": "captured_after_this_compilation",
+        "direct_dependency_artifact_sha256": {}
+      }
+    },
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.TranslationIntegral": {
+      "cached": false,
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\TranslationIntegral.lean",
+      "source_sha256": "093d07b7523810c708aa84fa2e0e715865185490511515ee62b476a77ccc7fbd",
+      "fingerprint": "9622ed34200c44f15921f87a3ca8049f19d5f120c04fe9f409f0556c92c8fcdb",
+      "imports": [
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Approximation",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Translation",
+        "Mathlib.MeasureTheory.Integral.Bochner.Basic"
+      ],
+      "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\TranslationIntegral.olean",
+      "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\TranslationIntegral.olean": "5b491ee0ca5b0f9a800b07ee826a4adcd2e06e0ccc86a00bc2d1d04e4a8b0b4d",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\TranslationIntegral.ilean": "0eaeae3962ce4e6441a0bb3b7d3bb67c24ac7b40737541b1b5e771aac2f32968"
+      },
+      "build_record": {
+        "cached": false,
+        "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\TranslationIntegral.lean",
+        "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+        "source_sha256": "093d07b7523810c708aa84fa2e0e715865185490511515ee62b476a77ccc7fbd",
+        "imports": [
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Approximation",
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Translation",
+          "Mathlib.MeasureTheory.Integral.Bochner.Basic"
+        ],
+        "fingerprint": "9622ed34200c44f15921f87a3ca8049f19d5f120c04fe9f409f0556c92c8fcdb",
+        "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\TranslationIntegral.olean",
+        "exit_code": 0,
+        "wall_seconds": 12.453,
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-122025-bounded4\\RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.TranslationIntegral.log",
+        "command": [
+          "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+          "-j",
+          "2",
+          "-o",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\TranslationIntegral.olean",
+          "-i",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\TranslationIntegral.ilean",
+          "-DautoImplicit=false",
+          "RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\TranslationIntegral.lean"
+        ],
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\TranslationIntegral.olean": "5b491ee0ca5b0f9a800b07ee826a4adcd2e06e0ccc86a00bc2d1d04e4a8b0b4d",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\TranslationIntegral.ilean": "0eaeae3962ce4e6441a0bb3b7d3bb67c24ac7b40737541b1b5e771aac2f32968"
+        },
+        "artifact_binding_kind": "captured_after_this_compilation",
+        "direct_dependency_artifact_sha256": {
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Approximation": {
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Approximation.olean": "fe1ec05818ecf5ef13d4ab5d38cefb933ec45dcb63375292c634b1d260bf6916",
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Approximation.ilean": "8157f0fcafbfaebed799d46cb6a52b1da60715a9192ac03c5dd27f75834e81e2"
+          },
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Translation": {
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Translation.olean": "7d6a75a7c773a3ffb6e98a6f5b7fbd7deecff87259be009b0e3edc9a9faced39",
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Translation.ilean": "3e08ef440e22327a746bce5e75381415b98f35423f311e523df091aa36cc3b69"
+          }
+        }
+      }
+    },
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Rellich": {
+      "cached": false,
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Rellich.lean",
+      "source_sha256": "e5ef9a329130e317ebd53d77c2c50afff9007a6ac10ba3e69268067b974128f3",
+      "fingerprint": "7cfff26bbff77475aae2a6a3e83fd7872c4c5e095dc5499773591a10ea4d565a",
+      "imports": [
+        "Mathlib.Analysis.Normed.Operator.Compact",
+        "Mathlib.MeasureTheory.Measure.Lebesgue.Basic",
+        "Mathlib.MeasureTheory.Function.LpSpace.Complete",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimateH1",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.FrechetKolmogorov",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Kernels",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.TranslationIntegral"
+      ],
+      "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Rellich.olean",
+      "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Rellich.olean": "3293bf3d5169f00acc8036bb1c58e45f7e6039f70d52554c272d3156e0442a54",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Rellich.ilean": "8fe9520d328d4695316fc64f4c17ff8af397adad070227c4071f1189bed02f8e"
+      },
+      "build_record": {
+        "cached": false,
+        "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Rellich.lean",
+        "base": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov",
+        "source_sha256": "e5ef9a329130e317ebd53d77c2c50afff9007a6ac10ba3e69268067b974128f3",
+        "imports": [
+          "Mathlib.Analysis.Normed.Operator.Compact",
+          "Mathlib.MeasureTheory.Measure.Lebesgue.Basic",
+          "Mathlib.MeasureTheory.Function.LpSpace.Complete",
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimateH1",
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.FrechetKolmogorov",
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Kernels",
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.TranslationIntegral"
+        ],
+        "fingerprint": "7cfff26bbff77475aae2a6a3e83fd7872c4c5e095dc5499773591a10ea4d565a",
+        "output": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Rellich.olean",
+        "exit_code": 0,
+        "wall_seconds": 18.391,
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-124330-bounded8\\RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Rellich.log",
+        "command": [
+          "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+          "-j",
+          "2",
+          "-o",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Rellich.olean",
+          "-i",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Rellich.ilean",
+          "-DautoImplicit=false",
+          "RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Rellich.lean"
+        ],
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Rellich.olean": "3293bf3d5169f00acc8036bb1c58e45f7e6039f70d52554c272d3156e0442a54",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Rellich.ilean": "8fe9520d328d4695316fc64f4c17ff8af397adad070227c4071f1189bed02f8e"
+        },
+        "artifact_binding_kind": "captured_after_this_compilation",
+        "direct_dependency_artifact_sha256": {
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimateH1": {
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateH1.olean": "5dd68ed18d19fc01f8757b9a937bdb4762413687826b612c9488c3e77c636cb1",
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\TranslationEstimateH1.ilean": "4997dcce213dd5d722836c7bd798a38371a199d24e81ae397f250b23be0b46aa"
+          },
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.FrechetKolmogorov": {
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\FrechetKolmogorov.olean": "75f3575cd4b16ec152e9e1c7cfe8c743236645d74c292b446bf1b328242acc23",
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\FrechetKolmogorov.ilean": "9ff495584259d644b1cc391b2badef5b25986c6256590522016e6ca913410265"
+          },
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Kernels": {
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Kernels.olean": "cd06aa5b6712b12fc368cb81c92918af6e663645540b5e235aa7aa36b543c56b",
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Kernels.ilean": "e30d14af1714a82ffbb5b3a2ae23cee5e8614372345ad12f99386886a5fdef84"
+          },
+          "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.TranslationIntegral": {
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\TranslationIntegral.olean": "5b491ee0ca5b0f9a800b07ee826a4adcd2e06e0ccc86a00bc2d1d04e4a8b0b4d",
+            "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\TranslationIntegral.ilean": "0eaeae3962ce4e6441a0bb3b7d3bb67c24ac7b40737541b1b5e771aac2f32968"
+          }
+        }
+      }
+    }
+  }
+}

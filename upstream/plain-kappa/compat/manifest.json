@@ -5,7 +5,7 @@
       "name": "rellich-kondrachov",
       "repository": "https://github.com/abenenson/rellich-kondrachov.git",
       "commit": "70f85d4c1bf99c6e7d61e8be4daa6f3664d08d23",
-      "status": "compiled_and_fresh_axiom_audited_locally_pending_independent_replay",
+      "status": "actual_custom_closure_compiled_fresh_types_axioms_and_all_54_roots_independently_replayed",
       "patches": [
         {
           "file": "rellich-h1.patch",
@@ -14,23 +14,244 @@
         {
           "file": "rellich-translation.patch",
           "sha256": "562e5ea9713debc4dad659511122f6ede8412d198c3dedaa77d298432f3c7dda"
+        },
+        {
+          "file": "rellich-translation-l2.patch",
+          "sha256": "26bfb2492afcc5535f96cd6d8fa793511a37088359182f5fe420696a7eda58bc"
+        },
+        {
+          "file": "rellich-translation-h1.patch",
+          "sha256": "cbdc1e369026516196d4ba699c7c992c6908254863a37f5cf4cf1670edd25d25"
+        },
+        {
+          "file": "rellich-restrict.patch",
+          "sha256": "d18e745658655c1f6b39a7a3104ddc6054e7d3fc70307cd4ccd32e5715586737"
+        },
+        {
+          "file": "rellich-approximation.patch",
+          "sha256": "1764993f2af3acdec10b55cf4e9b413fcbe7de341b3591dcffceb72bb96ff457"
+        },
+        {
+          "file": "rellich-compactness.patch",
+          "sha256": "48ef80dfca58380b060a304b7c13ba2c3e70c4645936ddf199624d227cdc1b77"
+        },
+        {
+          "file": "rellich-kernels.patch",
+          "sha256": "adc3209907ba7fabeae6121e9d9d39d145940370b1dbc950f4f07c0725147401"
+        },
+        {
+          "file": "rellich-arzela-ascoli.patch",
+          "sha256": "77b91653d4428b5f6608de44abe053423ff133cd33aa70df0bd480f092b55b9a"
+        },
+        {
+          "file": "rellich-transfer.patch",
+          "sha256": "44825d86a82300ced3e11ccc0331ddce32a8cb3563f9858723ee484826cd79f6"
+        },
+        {
+          "file": "rellich-euclidean.patch",
+          "sha256": "ce78eb07396fc6d36cb93ead81f2a2baf46c2d2d77e2baf18105f4dd37552c95"
         }
       ],
       "files": [
         {
           "path": "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/H1.lean",
           "baseline_sha256": "ee3947364efb12d300786f62e49324a58e893bbd1cd3acd3b5fc09019e84b0da",
-          "modified_sha256": "6d1914ab35038f45373ea41b12e9a2bd626d4e38904baedd5d14b9019b93c703"
+          "modified_sha256": "6d1914ab35038f45373ea41b12e9a2bd626d4e38904baedd5d14b9019b93c703",
+          "reviewed_raw_sha256": "6d1914ab35038f45373ea41b12e9a2bd626d4e38904baedd5d14b9019b93c703",
+          "mathematical_type_preserved": true,
+          "instance_registration_change": null,
+          "public_roots": [
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.C1c",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.continuous_grad",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.hasCompactSupport_grad",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.tsupport_grad_subset",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.memLp_of_mem_C1c",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.memLp_grad_of_mem_C1c",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.toL2Linear",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.toL2GradLinear",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.graph",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.isClosed_h1",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.instCompleteSpace_h1",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1ToL2",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1ToL2Grad"
+          ],
+          "individual_compile_exit_code": 0,
+          "individual_fresh_axiom_exit_code": 0
         },
         {
           "path": "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/Translation.lean",
           "baseline_sha256": "41d04c2c2da0652c8e1ae17136b23e8bac75bde1ed70d30a9bd1f00e72b8ddc6",
-          "modified_sha256": "76f47626c2283f005570c29c2496b59b2452e9635937d26f26083e74446896ea"
+          "modified_sha256": "76f47626c2283f005570c29c2496b59b2452e9635937d26f26083e74446896ea",
+          "reviewed_raw_sha256": "76f47626c2283f005570c29c2496b59b2452e9635937d26f26083e74446896ea",
+          "mathematical_type_preserved": true,
+          "instance_registration_change": null,
+          "public_roots": [
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translate",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.contDiff_translate",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.hasCompactSupport_translate",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.grad_translate",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.mem_C1c_translate",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateC1c",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_ae_eq",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_toL2",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_toL2Grad"
+          ],
+          "individual_compile_exit_code": 0,
+          "individual_fresh_axiom_exit_code": 0
+        },
+        {
+          "path": "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/TranslationEstimateL2.lean",
+          "baseline_sha256": "f649d2d2daa167e1514231812c8543f2f6c25039abd2bd1bc945ce6a1b7b1a92",
+          "modified_sha256": "ffef923f25c1d9ea8297d5e6c236d6f6915d8d1540f9ee6f5b37e86603399a8a",
+          "reviewed_raw_sha256": "ffef923f25c1d9ea8297d5e6c236d6f6915d8d1540f9ee6f5b37e86603399a8a",
+          "mathematical_type_preserved": true,
+          "instance_registration_change": null,
+          "public_roots": [
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.enorm_translateL2_sub_toL2_le",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.norm_translateL2_sub_toL2_le"
+          ],
+          "individual_compile_exit_code": 0,
+          "individual_fresh_axiom_exit_code": 0
+        },
+        {
+          "path": "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/TranslationEstimateH1.lean",
+          "baseline_sha256": "36e4891989e3eb73b37a71a8800d761cce792f0484abe11e73b56e101bed7a28",
+          "modified_sha256": "30ea76cd2e0c688e15f0371802d4725a2e5dbf84aecbc0cd210db6976eecd8b0",
+          "reviewed_raw_sha256": "30ea76cd2e0c688e15f0371802d4725a2e5dbf84aecbc0cd210db6976eecd8b0",
+          "mathematical_type_preserved": true,
+          "instance_registration_change": null,
+          "public_roots": [
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.norm_translateL2_sub_h1ToL2_le"
+          ],
+          "individual_compile_exit_code": 0,
+          "individual_fresh_axiom_exit_code": 0
+        },
+        {
+          "path": "RellichKondrachov/MeasureTheory/Function/LpSpace/Restrict.lean",
+          "baseline_sha256": "29a904809138432e4b29ad8ba385d1d993e3862432e5329a59445240bb2f5bee",
+          "modified_sha256": "476f1c54580987affd13c2532eb643cbf1f21d056031337e4e19e6a98a9e118b",
+          "reviewed_raw_sha256": "476f1c54580987affd13c2532eb643cbf1f21d056031337e4e19e6a98a9e118b",
+          "mathematical_type_preserved": true,
+          "instance_registration_change": null,
+          "public_roots": [
+            "MeasureTheory.Lp.extendByZeroₗ",
+            "MeasureTheory.Lp.extendByZeroₗᵢ",
+            "MeasureTheory.Lp.extendByZeroₗᵢ_ae_eq",
+            "MeasureTheory.Lp.extendByZeroₗᵢ_congr"
+          ],
+          "individual_compile_exit_code": 0,
+          "individual_fresh_axiom_exit_code": 0
+        },
+        {
+          "path": "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/L2Compactness/Approximation.lean",
+          "baseline_sha256": "0e3b898176ee5633607e1a3d23bc812ecf841b1a14718f9b3ddce52e70e3351c",
+          "modified_sha256": "7e611ee4d5dccadec7c6127ca731013993710ba984a72993ca07fbefe9d21809",
+          "reviewed_raw_sha256": "7e611ee4d5dccadec7c6127ca731013993710ba984a72993ca07fbefe9d21809",
+          "mathematical_type_preserved": true,
+          "instance_registration_change": "Remove uninferable local instance registration; same name, complete mathematical type, proof and two explicit haveI consumers are retained.",
+          "public_roots": [
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.kernelMeasure",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.kernelMeasure_univ",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.instIsProbabilityMeasure_kernelMeasure",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.integral_kernelMeasure_eq_integral_smul",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.integral_kernelMeasure_eq_integral_mul",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.smoothFun_eq_integral_kernelMeasure",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.sq_integral_le_integral_sq_of_isProbabilityMeasure",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.norm_sq_translateL2_sub_extendByZeroL2_eq_integral_sq",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.smoothFun_sub_extendByZeroFun_sq_le_integral_sq",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.norm_sq_smoothL2_sub_extendByZeroL2_le_integral_norm_sq_translateL2_sub_extendByZeroL2"
+          ],
+          "individual_compile_exit_code": 0,
+          "individual_fresh_axiom_exit_code": 0
+        },
+        {
+          "path": "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/L2Compactness/Compactness.lean",
+          "baseline_sha256": "2de58437e3e0fd6cd613533f414eeaf36a1e2e97c73176796e60ef4008c36ef5",
+          "modified_sha256": "3b9db1f6b5ced7492ffd5d603614531c4c1a8880c4b9b48e5457d6cf3214259c",
+          "reviewed_raw_sha256": "3b9db1f6b5ced7492ffd5d603614531c4c1a8880c4b9b48e5457d6cf3214259c",
+          "mathematical_type_preserved": true,
+          "instance_registration_change": null,
+          "public_roots": [
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Kψ",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.isCompact_Kψ",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.smoothBCF",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.smoothBCF_apply",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.uniformContinuous_ψ"
+          ],
+          "individual_compile_exit_code": 0,
+          "individual_fresh_axiom_exit_code": 0
+        },
+        {
+          "path": "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/L2Compactness/Kernels.lean",
+          "baseline_sha256": "0bef517a870d2c6c5420975a24533900036eefaea321b432b85ab2a69bd3ecd0",
+          "modified_sha256": "cec1738da247e9b710b12bb0874dad5797be30a556cd75b4bca4bc5dae7f0256",
+          "reviewed_raw_sha256": "cec1738da247e9b710b12bb0874dad5797be30a556cd75b4bca4bc5dae7f0256",
+          "mathematical_type_preserved": true,
+          "instance_registration_change": null,
+          "public_roots": [
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.exists_kernel_tsupport_subset_ball_integral_eq_one"
+          ],
+          "individual_compile_exit_code": 0,
+          "individual_fresh_axiom_exit_code": 0
+        },
+        {
+          "path": "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/L2Compactness/ArzelaAscoli.lean",
+          "baseline_sha256": "c2115a4f81a7e03529a6642e2c0a06edc18884597e90a845b7951ff8090c32d0",
+          "modified_sha256": "0756dfef2bc232e9e62280638668fd49e389490f4705db66a17213b1609b5115",
+          "reviewed_raw_sha256": "0756dfef2bc232e9e62280638668fd49e389490f4705db66a17213b1609b5115",
+          "mathematical_type_preserved": true,
+          "instance_registration_change": null,
+          "public_roots": [
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.smoothBCF_image_closedBall_isCompact"
+          ],
+          "individual_compile_exit_code": 0,
+          "individual_fresh_axiom_exit_code": 0
+        },
+        {
+          "path": "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/L2Compactness/Transfer.lean",
+          "baseline_sha256": "1bc8a93b2edb28a6c5230e04cc2b3e95145ab3ad32f400d308299aad36c6b215",
+          "modified_sha256": "f94d8dbe5c5b127e21618923079834c659398246a29204ddbaaaa81b87f606e9",
+          "reviewed_raw_sha256": "f94d8dbe5c5b127e21618923079834c659398246a29204ddbaaaa81b87f606e9",
+          "mathematical_type_preserved": true,
+          "instance_registration_change": null,
+          "public_roots": [
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.smoothL2_image_closedBall_isCompact"
+          ],
+          "individual_compile_exit_code": 0,
+          "individual_fresh_axiom_exit_code": 0
+        },
+        {
+          "path": "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/Rellich.lean",
+          "baseline_sha256": "621f33e678287fb38207ce2f713a68124d84b92c4465e41b4177850194563854",
+          "modified_sha256": "e5ef9a329130e317ebd53d77c2c50afff9007a6ac10ba3e69268067b974128f3",
+          "reviewed_raw_sha256": "e5ef9a329130e317ebd53d77c2c50afff9007a6ac10ba3e69268067b974128f3",
+          "mathematical_type_preserved": true,
+          "instance_registration_change": null,
+          "public_roots": [
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1On",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1OnToL2",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.isCompactOperator_h1OnToL2",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.isClosed_range_extendByZero",
+            "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.isCompactOperator_h1OnToL2_codRestrict_range_extendByZero"
+          ],
+          "individual_compile_exit_code": 0,
+          "individual_fresh_axiom_exit_code": 0
         }
       ],
       "targets": [
         "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.H1",
-        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Translation"
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Translation",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimateL2",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimateH1",
+        "RellichKondrachov.MeasureTheory.Function.LpSpace.Restrict",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Approximation",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Compactness",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Kernels",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.ArzelaAscoli",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Transfer",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Rellich"
       ],
       "declarations": [
         "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.C1c",
@@ -56,11 +277,45 @@
         "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2",
         "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_ae_eq",
         "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_toL2",
-        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_toL2Grad"
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_toL2Grad",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.enorm_translateL2_sub_toL2_le",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.norm_translateL2_sub_toL2_le",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.norm_translateL2_sub_h1ToL2_le",
+        "MeasureTheory.Lp.extendByZeroₗ",
+        "MeasureTheory.Lp.extendByZeroₗᵢ",
+        "MeasureTheory.Lp.extendByZeroₗᵢ_ae_eq",
+        "MeasureTheory.Lp.extendByZeroₗᵢ_congr",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.kernelMeasure",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.kernelMeasure_univ",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.instIsProbabilityMeasure_kernelMeasure",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.integral_kernelMeasure_eq_integral_smul",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.integral_kernelMeasure_eq_integral_mul",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.smoothFun_eq_integral_kernelMeasure",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.sq_integral_le_integral_sq_of_isProbabilityMeasure",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.norm_sq_translateL2_sub_extendByZeroL2_eq_integral_sq",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.smoothFun_sub_extendByZeroFun_sq_le_integral_sq",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.norm_sq_smoothL2_sub_extendByZeroL2_le_integral_norm_sq_translateL2_sub_extendByZeroL2",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Kψ",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.isCompact_Kψ",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.smoothBCF",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.smoothBCF_apply",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.uniformContinuous_ψ",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.exists_kernel_tsupport_subset_ball_integral_eq_one",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.smoothBCF_image_closedBall_isCompact",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.smoothL2_image_closedBall_isCompact",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1On",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1OnToL2",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.isCompactOperator_h1OnToL2",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.isClosed_range_extendByZero",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.isCompactOperator_h1OnToL2_codRestrict_range_extendByZero"
       ],
-      "preserves_definitions_and_statements": true,
-      "independent_kernel_replay_completed": false,
-      "license": "../licenses/Rellich-LICENSE"
+      "preserves_definitions_and_mathematical_statement_types": true,
+      "instance_registration_change": "Approximation.instIsProbabilityMeasure_kernelMeasure changes from local instance to same-name lemma; all four proof arguments, complete mathematical type and two explicit consumers remain. No new hypothesis.",
+      "independent_kernel_replay_completed": true,
+      "completed_independent_union_root_count": 54,
+      "license": "../licenses/Rellich-LICENSE",
+      "independent_replay_record_sha256": "760e5d55c6a9d5ea594d8a2704aba1f4de97b363a1426cdd4fce35a49e54b88f",
+      "independent_replay_record": "../verification/rellich-final54/strict-replay-result.json"
     }
   ]
 }

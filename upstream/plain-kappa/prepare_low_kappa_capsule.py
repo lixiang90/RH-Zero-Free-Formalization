@@ -21,7 +21,7 @@ def run(args,cwd,log=None):
     return r
 def imports(txt):
     # All pinned OAI imports occur on one line, before the namespace.
-    return [i for line in txt.splitlines() if line.startswith("import ") for i in line[7:].split("--")[0].split()]
+    return [im for line in txt.splitlines() if (m:=re.match(r"^\s*(?:(?:public|private|meta)\s+)*import\s+(.+)$",line)) for im in m.group(1).split("--")[0].split()]
 def contained(path,base):
     p=path.resolve();b=base.resolve()
     if p!=b and b not in p.parents:raise ValueError("Path outside intended directory: "+str(p))
@@ -31,6 +31,40 @@ def validate_lean_path(path):
     if p.is_absolute() or ".." in p.parts or not p.parts or p.parts[0]!="OAI" or p.suffix!=".lean":
         raise ValueError("Expected a relative OAI .lean file: "+str(path))
     return p
+EXTERNAL_PREFIXES={"Mathlib","Batteries","Aesop","Qq","ProofWidgets","ImportGraph","LeanSearchClient","Plausible","Lean","Init","Std","Lake","RellichKondrachov","PrimeNumberTheoremAnd","MathlibExtensions","Architect"}
+LEAN_NAME=re.compile(r"(?:[^\W\d]|_)[\w\u0027]*(?:\.(?:[^\W\d]|_)[\w\u0027]*)*",re.UNICODE)
+def load_extensions(path,source_repo):
+    if not path:return {},None
+    data=json.loads(path.read_text(encoding="utf-8"))
+    if data.get("upstream_commit")!=COMMIT:raise ValueError("Extension manifest upstream pin mismatch")
+    result={};destinations=set()
+    for f in data.get("files",[]):
+        mod=f.get("module","");rel=Path(f.get("path",""))
+        if not LEAN_NAME.fullmatch(mod) or rel!=Path(*mod.split(".")).with_suffix(".lean"):
+            raise ValueError("Owned extension module/path mismatch")
+        if mod.split(".")[0] in EXTERNAL_PREFIXES:raise ValueError("Owned extension shadows a pinned external namespace")
+        if f.get("origin")!="authored_extension":raise ValueError("Owned extension must declare authored_extension origin")
+        if mod in result or rel.as_posix() in destinations:raise ValueError("Duplicate authored extension")
+        file=contained(path.parent/f["file"],path.parent)
+        expected=f.get("sha256","")
+        if not re.fullmatch(r"[0-9a-f]{64}",expected) or sha(file.read_bytes())!=expected:
+            raise ValueError("Authored extension source SHA mismatch: "+mod)
+        if b"\r" in file.read_bytes():raise ValueError("Frozen authored source must use canonical LF")
+        probe=subprocess.run(["git","cat-file","-e",COMMIT+":lean/"+rel.as_posix()],cwd=source_repo,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
+        if probe.returncode==0:raise ValueError("Authored extension cannot shadow an upstream Git source: "+mod)
+        result[mod]={"path":rel.as_posix(),"file":file,"sha256":expected,"author":f.get("author")}
+        destinations.add(rel.as_posix())
+    if not result:raise ValueError("Extension manifest contains no authored sources")
+    return result,data
+def project_source_files(out):
+    found=set()
+    generated={"lakefile.lean","FreshLowKappaAudit.lean","FreshExternalCompatibilityAudit.lean"}
+    for parent,dirs,names in os.walk(out):
+        dirs[:]=[d for d in dirs if d not in (".lake",".git")]
+        for name in names:
+            rel=(Path(parent)/name).relative_to(out).as_posix()
+            if name.endswith(".lean") and rel not in generated:found.add(rel)
+    return found
 ALLOWED_AXIOMS={"propext","Classical.choice","Quot.sound"}
 def validate_axiom_log(text,declarations):
     if not declarations or len(set(declarations))!=len(declarations):
@@ -50,7 +84,7 @@ def validate_axiom_log(text,declarations):
     return {"declaration_count":len(found),"checks":found,"only_standard_axioms":True}
 def fresh_audit(lake,out,targets,declarations,label):
     for name in declarations:
-        if not all(p.isidentifier() for p in name.split(".")):raise ValueError("Invalid declaration name")
+        if not re.fullmatch(r"(?:[^\W\d]|_)[\w\u0027]*(?:\.(?:[^\W\d]|_)[\w\u0027]*)*",name,re.UNICODE):raise ValueError("Invalid declaration name")
     audit="\n".join("import "+m for m in targets)+"\n\n"+"\n".join("#check "+n+"\n#print axioms "+n for n in declarations)+"\n"
     file=out/(label+".lean");file.write_text(audit,encoding="utf-8")
     log=out/(label+".log")
@@ -74,7 +108,7 @@ def apply_external_compatibility(manifest_path,out):
             rel=Path(f["path"])
             if rel.is_absolute() or ".." in rel.parts:raise ValueError("Unsafe dependency file path")
             file=contained(pkg/rel,pkg)
-            baseline=subprocess.check_output(["git","show",pin+":"+rel.as_posix()],cwd=pkg)
+            baseline=subprocess.check_output(["git","cat-file","blob",pin+":"+rel.as_posix()],cwd=pkg)
             if sha(baseline)!=f["baseline_sha256"]:raise ValueError("Dependency Git baseline digest mismatch")
             raw=file.read_bytes().replace(b"\r\n",b"\n")
             if sha(raw)==f["baseline_sha256"]:already.append(False)
@@ -86,10 +120,10 @@ def apply_external_compatibility(manifest_path,out):
             path=contained(manifest_path.parent/patch["file"],manifest_path.parent)
             if sha(path.read_bytes())!=patch["sha256"]:raise ValueError("Dependency patch digest mismatch")
             if not all(already):
-                run(["git","-c","core.autocrlf=false","apply","--check",str(path)],pkg);run(["git","-c","core.autocrlf=false","apply",str(path)],pkg)
+                run(["git","-c","core.longpaths=true","-c","core.autocrlf=false","apply","--check",str(path)],pkg);run(["git","-c","core.longpaths=true","-c","core.autocrlf=false","apply",str(path)],pkg)
         for f in package["files"]:
             if sha((pkg/f["path"]).read_bytes())!=f["modified_sha256"]:raise ValueError("Patched dependency digest mismatch")
-        changed=subprocess.check_output(["git","diff","--name-only",pin],cwd=pkg,text=True).splitlines()
+        changed=subprocess.check_output(["git","-c","core.longpaths=true","diff","--name-only",pin],cwd=pkg,text=True).splitlines()
         if not set(changed)<={f["path"] for f in package["files"]}:raise ValueError("Unlisted dependency modification")
         checked.append(package)
     return {"status":"source_patches_applied_pending_kernel_audit","manifest_sha256":sha(manifest_path.read_bytes()),"packages":checked}
@@ -101,13 +135,14 @@ def main():
     parser.add_argument("--destination",required=True,type=Path,help="New empty build directory")
     parser.add_argument("--patch-manifest",type=Path,help="Frozen reviewed manifest; omission prepares baseline only")
     parser.add_argument("--external-compat-manifest",type=Path)
+    parser.add_argument("--extension-manifest",type=Path,help="Exact-pin authored extra modules; no fake upstream baseline")
     parser.add_argument("--apply-external-only",action="store_true",help="Apply exact dependency patches to an existing prepared project, without source preparation or compilation")
     parser.add_argument("--target",action="append",default=[])
     parser.add_argument("--declaration",action="append",default=[])
     parser.add_argument("--install",action="store_true")
     parser.add_argument("--build",action="store_true")
     parser.add_argument("--lake",default="lake")
-    parser.add_argument("--jobs",type=int,choices=(1,2),default=1)
+    parser.add_argument("--jobs",type=int,choices=(1,2,4,8),default=1)
     a=parser.parse_args()
     src=a.source.resolve();out=a.destination.resolve()
     if src==out or src in out.parents or out in src.parents:
@@ -135,12 +170,14 @@ def main():
     out.mkdir(parents=True,exist_ok=True)
     run(["git","init"],out) # isolate git apply from a surrounding repository
     run(["git","config","core.autocrlf","false"],out)
-    for name in ("lakefile.lean","lake-manifest.json","lean-toolchain","serial_build.py","serial_build_bounded.py"):
+    for name in ("lakefile.lean","lake-manifest.json","lean-toolchain","serial_build.py","serial_build_bounded.py","serial_build_bounded4.py","serial_build_bounded8.py"):
         shutil.copyfile(TEMPLATE/name,out/name)
     manifest=json.loads(a.patch_manifest.read_text(encoding="utf-8")) if a.patch_manifest else None
+    extensions,extension_data=load_extensions(a.extension_manifest,src)
     if manifest and manifest.get("upstream_commit")!=COMMIT:raise ValueError("Patch manifest baseline mismatch")
-    targets=a.target or (manifest.get("targets",[]) if manifest else []) or ["OAI.NumberTheory.DirichletL.Moments.ReflectionRetainedLength"]
-    declarations=a.declaration or (manifest.get("declarations",[]) if manifest else [])
+    targets=a.target or list(dict.fromkeys(((manifest.get("targets",[]) if manifest else []) or ["OAI.NumberTheory.DirichletL.Moments.ReflectionRetainedLength"])+(extension_data.get("targets",[]) if extension_data else [])))
+    declarations=a.declaration or list(dict.fromkeys((manifest.get("declarations",[]) if manifest else [])+(extension_data.get("declarations",[]) if extension_data else [])))
+    if not all(LEAN_NAME.fullmatch(n) for n in targets):raise ValueError("Invalid target module name")
     tracked={}
     cat=subprocess.Popen(["git","cat-file","--batch"],cwd=src,stdin=subprocess.PIPE,stdout=subprocess.PIPE)
     def blob(mod):
@@ -152,22 +189,32 @@ def main():
         size=int(header[2]);raw=cat.stdout.read(size)
         if cat.stdout.read(1)!=b"\n":raise RuntimeError("Invalid git cat-file stream")
         return rel,raw,header[0]
-    pending=list(targets)
+    pending=list(targets)+list(extensions)
     if manifest:
         for f in manifest.get("files",[]):
             rel=validate_lean_path(f["path"]);pending.append(".".join(rel.with_suffix("").parts))
     while pending:
         mod=pending.pop()
         if mod in tracked:continue
-        rel,raw,oid=blob(mod);dst=contained(out/rel,out);dst.parent.mkdir(parents=True,exist_ok=True);dst.write_bytes(raw)
+        if mod in extensions:
+            ext=extensions[mod];rel=ext["path"];raw=ext["file"].read_bytes();oid=None
+            if sha(raw)!=ext["sha256"]:raise ValueError("Authored source changed after validation: "+mod)
+            origin="authored_extension"
+        else:
+            rel,raw,oid=blob(mod);origin="upstream_git_blob"
+        dst=contained(out/rel,out);dst.parent.mkdir(parents=True,exist_ok=True);dst.write_bytes(raw)
         ims=imports(raw.decode("utf-8-sig"))
-        tracked[mod]={"path":rel,"git_blob":oid,"baseline_sha256":sha(raw),"baseline_imports":ims}
-        pending.extend(i for i in ims if i.startswith("OAI."))
+        if any(not LEAN_NAME.fullmatch(i) for i in ims):raise ValueError("Invalid imported module name: "+mod)
+        if any(not i.startswith("OAI.") and i not in extensions and i.split(".")[0] not in EXTERNAL_PREFIXES for i in ims):
+            raise ValueError("Unlisted authored or external import: "+mod)
+        tracked[mod]={"path":rel,"origin":origin,"git_blob":oid,"baseline_sha256":sha(raw) if origin=="upstream_git_blob" else None,"authored_source_sha256":sha(raw) if origin=="authored_extension" else None,"baseline_imports":ims}
+        pending.extend(i for i in ims if i.startswith("OAI.") or i in extensions)
     cat.stdin.close();cat.wait()
     applied=[]
     if manifest:
         for f in manifest.get("files",[]):
             rel=validate_lean_path(f["path"])
+            if ".".join(rel.with_suffix("").parts) in extensions:raise ValueError("Original patch manifest cannot modify an authored extension")
             if sha((out/rel).read_bytes())!=f["baseline_sha256"]:raise ValueError("Unexpected baseline "+str(rel))
         for entry in manifest.get("patches",[]):
             path=contained(a.patch_manifest.parent/entry["file"],a.patch_manifest.parent)
@@ -179,27 +226,35 @@ def main():
             if sha((out/rel).read_bytes())!=f["modified_sha256"]:raise ValueError("Unexpected patched source "+str(rel))
         listed={f["path"] for f in manifest.get("files",[])}
         expected_files={t["path"] for t in tracked.values()}
-        actual_files={p.relative_to(out).as_posix() for p in (out/"OAI").rglob("*.lean")}
+        actual_files=project_source_files(out)
         if actual_files!=expected_files:
-            raise ValueError("Patch creates or removes unmanifested OAI files")
+            raise ValueError("Patch creates or removes unmanifested project source files")
         for mod,t in tracked.items():
             new_imports=imports((out/t["path"]).read_text(encoding="utf-8-sig"))
-            if any(i.startswith("OAI.") and i not in tracked for i in new_imports):
-                raise ValueError("Patch introduces an unprepared OAI import: "+mod)
+            if any((i.startswith("OAI.") or i in extensions) and i not in tracked for i in new_imports) or any(not i.startswith("OAI.") and i not in extensions and i.split(".")[0] not in EXTERNAL_PREFIXES for i in new_imports):
+                raise ValueError("Patch introduces an unprepared or unlisted import: "+mod)
         for mod,t in tracked.items():
             modified=sha((out/t["path"]).read_bytes())!=t["baseline_sha256"]
-            if modified and t["path"] not in listed:raise ValueError("Unlisted modified file "+t["path"])
-    for mod,t in tracked.items():t["modified_sha256"]=sha((out/t["path"]).read_bytes())
-    record={"upstream_repo":REPO,"upstream_commit":COMMIT,"sources":tracked,"targets":targets,"patches":applied,"status":"prepared_pending_compile","independent_kernel_replay_completed":False,"axiom_audit_completed":False,"stages":[]}
+            if t["origin"]=="authored_extension":
+                if sha((out/t["path"]).read_bytes())!=t["authored_source_sha256"]:raise ValueError("Authored extension changed by patch")
+            elif modified and t["path"] not in listed:raise ValueError("Unlisted modified file "+t["path"])
+    for mod,t in tracked.items():
+        t["modified_sha256"]=sha((out/t["path"]).read_bytes())
+        if t["origin"]=="authored_extension" and t["modified_sha256"]!=t["authored_source_sha256"]:raise ValueError("Authored extension output SHA mismatch")
+        for i in imports((out/t["path"]).read_text(encoding="utf-8-sig")):
+            if (i.startswith("OAI.") or i in extensions) and i not in tracked:raise ValueError("Unprepared source import")
+            if not i.startswith("OAI.") and i not in extensions and i.split(".")[0] not in EXTERNAL_PREFIXES:raise ValueError("Unlisted source import")
+    record={"upstream_repo":REPO,"upstream_commit":COMMIT,"tool_source_sha256":sha(Path(__file__).read_bytes()),"original_upstream_module_count":sum(t["origin"]=="upstream_git_blob" for t in tracked.values()),"authored_extension_module_count":sum(t["origin"]=="authored_extension" for t in tracked.values()),"extension_manifest_sha256":sha(a.extension_manifest.read_bytes()) if a.extension_manifest else None,"sources":tracked,"targets":targets,"patches":applied,"status":"prepared_pending_compile","independent_kernel_replay_completed":False,"axiom_audit_completed":False,"stages":[]}
     recordfile=out/"capsule-reproduction.json"
     def save():recordfile.write_text(json.dumps(record,indent=2)+"\n",encoding="utf-8")
     save()
     def snapshot():
         paths={t["path"] for t in tracked.values()}
-        if {p.relative_to(out).as_posix() for p in (out/"OAI").rglob("*.lean")}!=paths:
+        if project_source_files(out)!=paths:
             raise ValueError("Source file set changed")
         result={name:sha((out/name).read_bytes()) for name in sorted(paths)}
         for name in ("lakefile.lean","lake-manifest.json","lean-toolchain"):result[name]=sha((out/name).read_bytes())
+        if a.extension_manifest:result["input:extension-manifest"]=sha(a.extension_manifest.read_bytes())
         if a.external_compat_manifest:
             ext=json.loads(a.external_compat_manifest.read_text(encoding="utf-8"))
             for pkg in ext["packages"]:
@@ -216,7 +271,8 @@ def main():
         save()
     if a.build:
         before=snapshot();record["build_source_snapshot"]=before;save()
-        buildargv=[a.lake,"env",sys.executable,"-B","-X","utf8"]+ (["serial_build_bounded.py","--jobs","2"] if a.jobs==2 else ["serial_build.py"])+targets
+        driver=["serial_build.py"] if a.jobs==1 else ["serial_build_bounded8.py","--jobs","8"] if a.jobs==8 else ["serial_build_bounded4.py","--jobs",str(a.jobs)] if a.jobs==4 else ["serial_build_bounded.py","--jobs","2"]
+        buildargv=[a.lake,"env",sys.executable,"-B","-X","utf8"]+driver+targets
         record["stages"].append(run(buildargv,out,out/"targeted-serial-build.log"));save()
         if snapshot()!=before:raise ValueError("Source hashes changed during build")
         if declarations:
@@ -238,5 +294,5 @@ def main():
                 record["external_compatibility"]["fresh_axiom_audit"]=audit
                 record["external_compatibility"]["status"]="compiled_locally_pending_independent_replay"
         save()
-    print(json.dumps({"directory":str(out),"modules":len(tracked),"targets":targets,"status":record["status"],"record":str(recordfile)},indent=2))
+    print(json.dumps({"directory":str(out),"modules":len(tracked),"original_upstream_modules":record["original_upstream_module_count"],"authored_extension_modules":record["authored_extension_module_count"],"targets":targets,"status":record["status"],"record":str(recordfile)},indent=2))
 if __name__=="__main__":main()

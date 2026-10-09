@@ -1,0 +1,69 @@
+{
+  "kind": "new_mathematical_proof_not_compatibility",
+  "origin": "authored_extension",
+  "git_blob": null,
+  "upstream_revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "lean_version": "4.34.1",
+  "mathlib_revision": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "new_modules": {
+    "OAI/NumberTheory/DirichletL/PrincipalSlotEstimateLowKappa.lean": "26d09b6ce8d57a4b2d062a38b027ff92f5acf2cb7a2e64a1cd05b29f2c6fcc09",
+    "OAI/NumberTheory/DirichletL/PrincipalSignalComparisonLowKappa.lean": "35877a0db17a93d77f7b4f144f1b492cda3d411bb1185d8b6200858a638fa9be"
+  },
+  "patch_sha256": "d57a5d3bc3d9a060765c6d4bcf031d4fda505be261e27e415c13cacea75fe155",
+  "roots": [
+    "OAI.SevenEighths.PrincipalSlotEstimate.principal_correction_defect_lowKappa",
+    "OAI.SevenEighths.PrincipalSlotEstimate.principal_correction_lower_bound_lowKappa",
+    "OAI.SevenEighths.PrincipalSlotEstimate.principal_correction_ne_zero_lowKappa",
+    "OAI.SevenEighths.PrincipalSlotEstimate.principal_correction_inverse_bound_lowKappa",
+    "OAI.SevenEighths.PrincipalSlotEstimate.principal_marked_error_bounds_lowKappa",
+    "OAI.SevenEighths.PrincipalSlotEstimate.principal_replacement_error_lowKappa",
+    "OAI.SevenEighths.PrincipalSlotEstimate.principal_slot_error_lowKappa",
+    "OAI.SevenEighths.PrincipalSlotEstimate.actual_principal_slot_error_lowKappa",
+    "OAI.SevenEighths.PrincipalSlotEstimate.weighted_principal_slot_error_lowKappa",
+    "OAI.SevenEighths.PrincipalSlotEstimate.weighted_principal_product_error_lowKappa",
+    "OAI.SevenEighths.PrincipalSlotEstimate.principal_geometric_bounds_lowKappa",
+    "OAI.SevenEighths.PrincipalSlotEstimate.principal_correction_eq_raw_lowKappa",
+    "OAI.SevenEighths.PrincipalSlotEstimate.principal_raw_lower_bound_lowKappa",
+    "OAI.SevenEighths.PrincipalSlotEstimate.principal_raw_ne_zero_lowKappa",
+    "OAI.SevenEighths.PrincipalSlotEstimate.principal_slot_eq_raw_lowKappa",
+    "OAI.SevenEighths.PrincipalSlotEstimate.principal_raw_slot_error_lowKappa",
+    "OAI.SevenEighths.PrincipalSlotEstimate.weighted_principal_product_error_linear_lowKappa",
+    "OAI.SevenEighths.PrincipalSignalComparison.SlotBoundsLowKappa",
+    "OAI.SevenEighths.PrincipalSignalComparison.slot_scalar_ne_zero_lowKappa",
+    "OAI.SevenEighths.PrincipalSignalComparison.slotRatio_error_lowKappa",
+    "OAI.SevenEighths.PrincipalSignalComparison.slotRatio_bound_lowKappa",
+    "OAI.SevenEighths.PrincipalSignalComparison.principalSlot_differentiableAt_lowKappa",
+    "OAI.SevenEighths.PrincipalSignalComparison.slotRatio_continuous_line_lowKappa",
+    "OAI.SevenEighths.PrincipalSignalComparison.slotRatio_analytic_lowKappa"
+  ],
+  "root_count": 24,
+  "status": "prepared_uncompiled_dependencies_pending_graph",
+  "original_source_public_blob_binding": [
+    {
+      "path": "OAI/NumberTheory/DirichletL/PrincipalSlotEstimate.lean",
+      "git_path": "lean/OAI/NumberTheory/DirichletL/PrincipalSlotEstimate.lean",
+      "git_blob": "f9250c7c4464f374902bbb39ebbb3487d96bea1f",
+      "public_git_raw_sha256": "cf5f5e473a2d9ae46c0b4628824eb3c2fbed706a4698179397cb075b86e8fb6e",
+      "canonical_lf_sha256": "cf5f5e473a2d9ae46c0b4628824eb3c2fbed706a4698179397cb075b86e8fb6e",
+      "workcopy_raw_sha256": "e5b3c324742e2c611530c0e295940f443be182e1ccbc14f0f730ea60ad244504"
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/PrincipalSignalComparison.lean",
+      "git_path": "lean/OAI/NumberTheory/DirichletL/PrincipalSignalComparison.lean",
+      "git_blob": "bd252b01e2784f9ec32fe9c1e0380c4b221adc23",
+      "public_git_raw_sha256": "3609a84d40122a6137bfa44fcb41f2830046e3456b77d72c34eb83f5c29b0e7b",
+      "canonical_lf_sha256": "3609a84d40122a6137bfa44fcb41f2830046e3456b77d72c34eb83f5c29b0e7b",
+      "workcopy_raw_sha256": "fb59ccaed042ea0d445ca08b5333d0fd248b8db8ee12e691f79a32a351e1b08d"
+    }
+  ],
+  "additional_assumptions": [],
+  "objects": "unchanged original principalMarked/principalReplacement/principalSlot/principalRawFactor, original weighted product, original slotRatio; no alternative envelope",
+  "changed_thresholds": {
+    "Re_s_min": "21/25",
+    "local_slot_error": "1440 Q^(-21/25)",
+    "weighted_product_smallness": "1440 P^(-21/25)<=1",
+    "correction_majorant": "240 Q^(-17/10)",
+    "prime_lower_bound": "480 unchanged"
+  },
+  "scope": "correction/raw denominator nonzero, actual principal and weighted error/analyticity; no claim principalSlot itself nonzero from error<=1, no physical low/high probe supply"
+}

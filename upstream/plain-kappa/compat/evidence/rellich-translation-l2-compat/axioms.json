@@ -1,0 +1,32 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\tmp\\rellich-translation-l2-compat\\AxiomAudit.lean"
+  ],
+  "cwd": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+  "exit_code": 0,
+  "elapsed_seconds": 11.764999999897555,
+  "roots": [
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.enorm_translateL2_sub_toL2_le",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.norm_translateL2_sub_toL2_le"
+  ],
+  "audit_count": 2,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "unexpected_axioms": [],
+  "source_before_sha256": "ffef923f25c1d9ea8297d5e6c236d6f6915d8d1540f9ee6f5b37e86603399a8a",
+  "source_after_sha256": "ffef923f25c1d9ea8297d5e6c236d6f6915d8d1540f9ee6f5b37e86603399a8a",
+  "source_unchanged": true,
+  "output_olean_sha256": "a1b416bb5ecee32eb069f28d6bb80231bbc70557323576d6ca88ff3e43bdf849",
+  "checked": true
+}

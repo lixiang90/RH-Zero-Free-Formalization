@@ -1,0 +1,13 @@
+{
+  "package": "rellich-kondrachov",
+  "package_pin": "70f85d4c1bf99c6e7d61e8be4daa6f3664d08d23",
+  "relative_source": "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/Rellich.lean",
+  "before_raw_sha256": "eb238839c35e7d5fe8d92a86fc2706a7e121d5b755ffb43625b2a59b69033847",
+  "baseline_lf_sha256": "621f33e678287fb38207ce2f713a68124d84b92c4465e41b4177850194563854",
+  "after_lf_sha256": "e5ef9a329130e317ebd53d77c2c50afff9007a6ac10ba3e69268067b974128f3",
+  "patch_sha256": "ce78eb07396fc6d36cb93ead81f2a2baf46c2d2d77e2baf18105f4dd37552c95",
+  "mathlib_pin": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "lean_version": "4.34.1",
+  "preserves_definitions_and_statements": true,
+  "additional_assumptions": []
+}

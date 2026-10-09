@@ -1,0 +1,16 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-o",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Rellich.olean",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\Rellich.lean"
+  ],
+  "cwd": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+  "exit_code": 0,
+  "elapsed_seconds": 19.25,
+  "source_sha256": "e5ef9a329130e317ebd53d77c2c50afff9007a6ac10ba3e69268067b974128f3",
+  "output_olean_sha256": "026d68e212549248b2364ffb2c10144bee8d1da565ffacb9e24bf3fd32a4a4e2",
+  "compile_sorry_warning": false
+}

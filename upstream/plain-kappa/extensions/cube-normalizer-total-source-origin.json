@@ -1,0 +1,12 @@
+{
+  "status": "prepared_pending_compile",
+  "module": "OAI.NumberTheory.DirichletL.PrimeRows.CubeNormalizerLowKappa",
+  "path": "OAI/NumberTheory/DirichletL/PrimeRows/CubeNormalizerLowKappa.lean",
+  "sha256": "d208f74b505988b8d2e52a037db26330d715600d0cf5553e01e2164bc139199f",
+  "declarations": [
+    "OAI.SevenEighths.ProbeHighRowFamily.actual_ray_normalizer_inverse_total"
+  ],
+  "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "authored_by": "Li Xiang / lixiang90",
+  "scope": "Actual ray-prime normalizer nonzero and inverse subpower bound for its actual arbitrary slot sum; positive windows and actual ray-family mass theorem retained."
+}

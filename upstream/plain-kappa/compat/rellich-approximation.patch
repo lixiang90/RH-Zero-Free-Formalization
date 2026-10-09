@@ -1,0 +1,85 @@
+--- a/RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/L2Compactness/Approximation.lean
++++ b/RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/L2Compactness/Approximation.lean
+@@ -81,7 +81,9 @@
+   -- Conclude using `∫ ψ = 1`.
+   simpa [hψint] using (hwd.trans hlin)
+ 
+-local instance instIsProbabilityMeasure_kernelMeasure
++-- The four proof arguments are supplied explicitly at each consumer.
++-- Keep the original mathematical type without an uninferable instance registration.
++lemma instIsProbabilityMeasure_kernelMeasure
+     (hψc : Continuous ψ) (hψcs : HasCompactSupport ψ)
+     (hψ0 : ∀ x, 0 ≤ ψ x)
+     (hψint : ∫ x, ψ x ∂(volume : Measure E) = 1) :
+@@ -189,7 +191,7 @@
+         MeasureTheory.MeasurePreserving (fun x : E => x - t)
+           (volume : Measure E) (volume : Measure E) :=
+       MeasureTheory.measurePreserving_sub_right (μ := (volume : Measure E)) t
+-    simpa [Function.comp] using (hmp.quasiMeasurePreserving.ae_eq_comp hF_ae)
++    simpa only [Function.comp_def] using (hmp.quasiMeasurePreserving.ae_eq_comp hF_ae)
+   -- TranslateL2 gives `F(x - t)` a.e.
+   have htrans :
+       ((translateL2 (μ := (volume : Measure E)) (-t)) F : E → ℝ) =ᵐ[(volume : Measure E)]
+@@ -221,7 +223,7 @@
+             ∂(volume : Measure E) =
+           ∫ x, (f (x - t) - f x) ^ 2 ∂(volume : Measure E) := by
+       refine MeasureTheory.integral_congr_ae ?_
+-      simpa using hdiff.pow_const 2
++      exact hdiff.pow_const 2
+     exact h1.trans h2
+   simpa [F, f] using hcalc
+ 
+@@ -288,7 +290,7 @@
+           (volume : Measure E) (volume : Measure E) :=
+       MeasureTheory.measurePreserving_add_right
+         (μ := (volume : Measure E)) x
+-    simpa [sub_eq_add_neg, add_comm, add_left_comm, add_assoc] using hadd.comp hneg
++    simpa only [Function.comp_def, sub_eq_add_neg, add_comm] using hadd.comp hneg
+   have hf_shift_vol :
+       MeasureTheory.MemLp (fun t : E => f (x - t))
+         (2 : ℝ≥0∞) (volume : Measure E) :=
+@@ -361,7 +363,7 @@
+         (∫ x, ((S - F) x) ^ 2 ∂(volume : Measure E)) =
+           ∫ x, (smoothFun (E := E) (K := K) ψ u x - f x) ^ 2 ∂(volume : Measure E) := by
+       refine MeasureTheory.integral_congr_ae ?_
+-      simpa using hSF_ae.pow_const 2
++      exact hSF_ae.pow_const 2
+     exact h1.trans h2
+   have hLHS_int :
+       MeasureTheory.Integrable (fun x : E => (smoothFun (E := E) (K := K) ψ u x - f x) ^ 2)
+@@ -414,7 +416,7 @@
+       MeasureTheory.Integrable (fun z : E × E => (f (z.1 - z.2)) ^ 2)
+         ((volume : Measure E).prod μ) := by
+     have := (hsub.integrable_comp hf_fst_sq_prod.aestronglyMeasurable).2 hf_fst_sq_prod
+-    simpa [Function.comp] using this
++    simpa only [Function.comp_def] using this
+   have hdom :
+       MeasureTheory.Integrable (fun z : E × E => (2 : ℝ) * ((f (z.1 - z.2)) ^ 2 + (f z.1) ^ 2))
+         ((volume : Measure E).prod μ) := by
+@@ -426,7 +428,7 @@
+         MeasureTheory.AEStronglyMeasurable f
+           (Measure.map Prod.fst
+             ((volume : Measure E).prod μ)) := by
+-      simpa [Measure.map_fst_prod] using hf_mem.1
++      simpa [Measure.map_fst_prod] using hf_mem.aestronglyMeasurable
+     exact MeasureTheory.AEStronglyMeasurable.comp_measurable
+       (μ := (volume : Measure E).prod μ) (f := Prod.fst)
+       (g := f) hf_map measurable_fst
+@@ -436,7 +438,7 @@
+         ((volume : Measure E).prod μ) := by
+     have := MeasureTheory.AEStronglyMeasurable.comp_measurePreserving (g := fun z : E × E => f z.1)
+       hf_fst_aesm hsub
+-    simpa [Function.comp] using this
++    simpa only [Function.comp_def] using this
+   have h_aesm :
+       MeasureTheory.AEStronglyMeasurable h ((volume : Measure E).prod μ) := by
+     -- Build up AE-strong measurability from the two components.
+@@ -444,7 +446,7 @@
+         MeasureTheory.AEStronglyMeasurable (fun z : E × E => f (z.1 - z.2) - f z.1)
+           ((volume : Measure E).prod μ) :=
+       hf_shift_aesm.sub hf_fst_aesm
+-    simpa [h] using (hsub'.pow 2)
++    exact hsub'.pow 2
+   have hint_h : MeasureTheory.Integrable h ((volume : Measure E).prod μ) := by
+     refine MeasureTheory.Integrable.mono (μ := (volume : Measure E).prod μ) hdom h_aesm ?_
+     refine Filter.Eventually.of_forall ?_

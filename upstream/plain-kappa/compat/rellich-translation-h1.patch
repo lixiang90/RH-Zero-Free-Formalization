@@ -1,0 +1,20 @@
+--- a/RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/TranslationEstimateH1.lean
++++ b/RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/TranslationEstimateH1.lean
+@@ -73,14 +73,14 @@
+       have hsub :
+           Continuous fun v : V =>
+             translateL2 (μ := μ) (F := ℝ) a v.1 - v.1 := by
+-        simpa [sub_eq_add_neg] using htr.sub hfst
+-      simpa using (continuous_norm.comp hsub)
++        exact htr.sub hfst
++      exact continuous_norm.comp hsub
+     have hg :
+         Continuous fun v : V =>
+           ‖a‖ * ‖v.2‖ := by
+       have hsnd : Continuous fun v : V => v.2 := continuous_snd
+       have hnorm : Continuous fun v : V => ‖v.2‖ := continuous_norm.comp hsnd
+-      simpa [mul_assoc] using (continuous_const.mul hnorm)
++      exact continuous_const.mul hnorm
+     exact isClosed_le hf hg
+   have hRange : (LinearMap.range (graph (μ := μ) (E := E)) : Set V) ⊆ S := by
+     rintro v ⟨f, rfl⟩

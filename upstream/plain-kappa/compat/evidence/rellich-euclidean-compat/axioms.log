@@ -1,0 +1,16 @@
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1On' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1OnToL2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.isCompactOperator_h1OnToL2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.isClosed_range_extendByZero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.isCompactOperator_h1OnToL2_codRestrict_range_extendByZero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+warning: rellich-kondrachov: repository 'E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake/packages\rellich-kondrachov' has local changes

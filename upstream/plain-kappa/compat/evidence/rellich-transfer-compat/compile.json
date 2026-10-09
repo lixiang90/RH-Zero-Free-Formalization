@@ -1,0 +1,16 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-o",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Transfer.olean",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\Transfer.lean"
+  ],
+  "cwd": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+  "exit_code": 0,
+  "elapsed_seconds": 16.015,
+  "source_sha256": "f94d8dbe5c5b127e21618923079834c659398246a29204ddbaaaa81b87f606e9",
+  "output_olean_sha256": "e899f2bd3a5d824d53dcd838bbc647dc97fa75cf8f37ae0e598215660c2d2aad",
+  "compile_sorry_warning": false
+}

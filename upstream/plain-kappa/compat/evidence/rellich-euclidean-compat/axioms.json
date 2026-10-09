@@ -1,0 +1,36 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\tmp\\rellich-euclidean-compat\\AxiomAudit.lean"
+  ],
+  "cwd": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+  "exit_code": 0,
+  "elapsed_seconds": 12.438,
+  "roots": [
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1On",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1OnToL2",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.isCompactOperator_h1OnToL2",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.isClosed_range_extendByZero",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.isCompactOperator_h1OnToL2_codRestrict_range_extendByZero"
+  ],
+  "audit_count": 5,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "unexpected_axioms": [],
+  "source_before_sha256": "e5ef9a329130e317ebd53d77c2c50afff9007a6ac10ba3e69268067b974128f3",
+  "source_after_sha256": "e5ef9a329130e317ebd53d77c2c50afff9007a6ac10ba3e69268067b974128f3",
+  "source_unchanged": true,
+  "output_olean_sha256": "026d68e212549248b2364ffb2c10144bee8d1da565ffacb9e24bf3fd32a4a4e2",
+  "compile_sorry_warning": false,
+  "checked": true
+}

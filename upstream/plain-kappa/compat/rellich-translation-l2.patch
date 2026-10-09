@@ -1,0 +1,37 @@
+--- a/RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/TranslationEstimateL2.lean
++++ b/RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/TranslationEstimateL2.lean
+@@ -112,7 +112,7 @@
+         (memLp_of_mem_C1c (μ := μ) (E := E) f.2).coeFn_toLp
+       have hf' :
+           (fun x => (toL2 (μ := μ) (E := E) f : E → ℝ) (x + a)) =ᵐ[μ] fun x => f.1 (x + a) := by
+-        simpa [Function.comp, Pi.add_apply] using
++        simpa only [Function.comp_def] using
+           (Measure.QuasiMeasurePreserving.ae_eq_comp
+             (MeasureTheory.measurePreserving_add_right μ a).quasiMeasurePreserving hf)
+       exact (translateL2_ae_eq (μ := μ) (F := ℝ) a (toL2 (μ := μ) (E := E) f)).trans hf'
+@@ -160,8 +160,14 @@
+     -- Expand the definition of `eLpNorm` at exponent `2`.
+     have h2_ne0 : (2 : ℝ≥0∞) ≠ 0 := by simp
+     have h2_netop : (2 : ℝ≥0∞) ≠ ∞ := by simp
+-    simp_rw [MeasureTheory.eLpNorm_eq_lintegral_rpow_enorm_toReal
+-      h2_ne0 h2_netop, ENNReal.toReal_ofNat] at *
++    have hdiff_meas : AEStronglyMeasurable (fun x : E => f.1 (x + a) - f.1 x) μ :=
++      ((f.2.1.continuous.comp (continuous_id.add continuous_const)).sub
++        f.2.1.continuous).aestronglyMeasurable
++    have hgrad_meas : AEStronglyMeasurable (fun x : E => grad (E := E) f.1 x) μ :=
++      (memLp_grad_of_mem_C1c (μ := μ) (E := E) f.2).aestronglyMeasurable
++    rw [MeasureTheory.eLpNorm_eq_lintegral_rpow_enorm_toReal h2_ne0 h2_netop hdiff_meas,
++      MeasureTheory.eLpNorm_eq_lintegral_rpow_enorm_toReal h2_ne0 h2_netop hgrad_meas]
++    simp only [ENNReal.toReal_ofNat]
+     -- It suffices to compare the squared integrals.
+     have hsq :
+         (∫⁻ x, ‖f.1 (x + a) - f.1 x‖ₑ ^ (2 : ℝ) ∂μ) ≤
+@@ -222,7 +228,7 @@
+           exact (hgrad.comp hcont).measurable.enorm
+         have hpow : Measurable fun r : ℝ≥0∞ => r ^ (2 : ℝ) :=
+           (ENNReal.continuous_rpow_const (y := (2 : ℝ))).measurable
+-        simpa [F] using (hpow.comp hbase).aemeasurable
++        simpa only [F, Function.comp_def] using (hpow.comp hbase).aemeasurable
+       have hTonelli :
+           (∫⁻ x, ∫⁻ t, ‖grad (E := E) f.1 (x + t • a)‖ₑ ^ (2 : ℝ) ∂(μI : Measure ℝ) ∂μ) =
+             ∫⁻ t, ∫⁻ x, ‖grad (E := E) f.1 (x + t • a)‖ₑ ^ (2 : ℝ) ∂μ ∂(μI : Measure ℝ) := by

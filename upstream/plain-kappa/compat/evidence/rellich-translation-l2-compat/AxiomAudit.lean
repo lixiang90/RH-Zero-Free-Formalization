@@ -1,0 +1,3 @@
+import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimateL2
+#print axioms RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.enorm_translateL2_sub_toL2_le
+#print axioms RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.norm_translateL2_sub_toL2_le

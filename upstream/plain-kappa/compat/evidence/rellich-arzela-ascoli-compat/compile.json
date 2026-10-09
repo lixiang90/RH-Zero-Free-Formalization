@@ -1,0 +1,16 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-o",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\.lake\\build\\lib\\lean\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\ArzelaAscoli.olean",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\packages\\rellich-kondrachov\\RellichKondrachov\\Analysis\\FunctionalSpaces\\Sobolev\\Euclidean\\L2Compactness\\ArzelaAscoli.lean"
+  ],
+  "cwd": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+  "exit_code": 0,
+  "elapsed_seconds": 16.094,
+  "source_sha256": "0756dfef2bc232e9e62280638668fd49e389490f4705db66a17213b1609b5115",
+  "output_olean_sha256": "70d798128e4039eb056f78cc48923d0cb78b26b5940979672848fd414ddd3e15",
+  "compile_sorry_warning": false
+}

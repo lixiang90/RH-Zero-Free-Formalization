@@ -1,0 +1,24 @@
+{
+  "status": "pending_actual_module_verification",
+  "complete_target_passed": false,
+  "latest_recorded_source_modules_exit0": 61,
+  "latest_recorded_successful_source_prefixes": {
+    "OAI": 58,
+    "RellichKondrachov": 3
+  },
+  "latest_recorded_failures": [
+    {
+      "module": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimateL2",
+      "source_sha256": "7c6f63c97b16f51a489ab9e599645eebaad08d433fb2d6bcfdfda89350b52951",
+      "exit_code": 1,
+      "log_sha256": "6cebb23de1c61bc3c724508c99e4a923024243bd01b99624ee6f732284339efb"
+    }
+  ],
+  "external_compatibility_declared_modules": [
+    "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/H1.lean",
+    "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/Translation.lean"
+  ],
+  "latest_run_can_be_superseded": true,
+  "full_OAI_target_axiom_audit_completed": false,
+  "independent_kernel_replay_completed": false
+}

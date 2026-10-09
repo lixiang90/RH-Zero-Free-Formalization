@@ -1,0 +1,43 @@
+warning: rellich-kondrachov: repository 'E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake/packages\rellich-kondrachov' has local changes
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.C1c' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.continuous_grad' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.hasCompactSupport_grad' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.tsupport_grad_subset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.memLp_of_mem_C1c' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.memLp_grad_of_mem_C1c' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.toL2Linear' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.toL2GradLinear' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.graph' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.isClosed_h1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.instCompleteSpace_h1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1ToL2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1ToL2Grad' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

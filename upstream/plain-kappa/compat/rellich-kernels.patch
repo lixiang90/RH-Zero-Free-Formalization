@@ -1,0 +1,14 @@
+--- a/RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/L2Compactness/Kernels.lean
++++ b/RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/L2Compactness/Kernels.lean
+@@ -77,9 +77,9 @@
+   -- Normalize: `ψ = I⁻¹ • f`.
+   let ψ : E → ℝ := fun x => I⁻¹ * f x
+   have hψc : Continuous ψ := by
+-    simpa [ψ] using (continuous_const.mul hf_cont)
++    exact continuous_const.mul hf_cont
+   have hψcs : HasCompactSupport ψ := by
+-    simpa [ψ, smul_eq_mul] using
++    simpa only [ψ, Pi.smul_def, Pi.mul_def, smul_eq_mul] using
+       (HasCompactSupport.smul_left (f := fun _x : E => I⁻¹) (f' := f) hf_cs)
+   have hψ0 : ∀ x, 0 ≤ ψ x := by
+     intro x

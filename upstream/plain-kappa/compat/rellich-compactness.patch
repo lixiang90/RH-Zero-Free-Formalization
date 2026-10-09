@@ -1,0 +1,11 @@
+--- a/RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/L2Compactness/Compactness.lean
++++ b/RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/L2Compactness/Compactness.lean
+@@ -72,7 +72,7 @@
+   continuous_toFun := by
+     have : Continuous (smoothFun (E := E) (K := K) ψ u) :=
+       continuous_smoothFun (E := E) (K := K) (ψ := ψ) (hKm := hKm) hψc hψcs u
+-    simpa using this.comp continuous_subtype_val
++    exact this.comp continuous_subtype_val
+ 
+ /-- `smoothFun` packaged as a `BoundedContinuousFunction` on the compact set `K + tsupport ψ`. -/
+ def smoothBCF (hK : IsCompact K) (hKm : MeasurableSet K) (hψc : Continuous ψ)

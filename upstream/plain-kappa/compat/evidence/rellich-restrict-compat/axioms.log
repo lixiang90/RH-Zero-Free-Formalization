@@ -1,0 +1,5 @@
+warning: rellich-kondrachov: repository 'E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake/packages\rellich-kondrachov' has local changes
+'MeasureTheory.Lp.extendByZeroₗ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MeasureTheory.Lp.extendByZeroₗᵢ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MeasureTheory.Lp.extendByZeroₗᵢ_ae_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MeasureTheory.Lp.extendByZeroₗᵢ_congr' depends on axioms: [propext, Classical.choice, Quot.sound]

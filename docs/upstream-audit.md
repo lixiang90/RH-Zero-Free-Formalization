@@ -50,6 +50,12 @@ uniform reciprocal bound in Re(s)>=2 from its Moebius series, and changes
 the correction domain to sigmaStar. One endpoint rearrangement uses simp
 instead of the upstream convert/ring tactic. Half-plane openness is proved
 from continuity of real part for compatibility. The originals remain unchanged.
+Raw source hashes in provenance headers describe the inspected Windows
+workcopy; canonical LF hashes describe the public Git bytes. For the new
+SourceScaling port, the exact public blob object ID and raw Git-blob SHA
+are also bound in the provenance record. CRLF workcopy and LF public hashes
+must not be interchanged.
+
 The local build uses Lean 4.33.0-rc2 and mathlib
 51e6992efd06126df61a496bebf8f49482a4e129, so it must be compiled here rather than
 assumed compatible from the upstream toolchain.

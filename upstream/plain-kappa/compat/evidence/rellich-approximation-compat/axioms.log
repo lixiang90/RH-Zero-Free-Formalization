@@ -1,0 +1,40 @@
+warning: rellich-kondrachov: repository 'E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake/packages\rellich-kondrachov' has local changes
+@RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.instIsProbabilityMeasure_kernelMeasure : ∀
+  {E : Type u_1} [inst : NormedAddCommGroup E] [inst_1 : InnerProductSpace ℝ E] [inst_2 : FiniteDimensional ℝ E]
+  (ψ : E → ℝ),
+  Continuous ψ →
+    HasCompactSupport ψ →
+      (∀ (x : E), 0 ≤ ψ x) →
+        ∫ (x : E), ψ x = 1 →
+          MeasureTheory.IsProbabilityMeasure
+            (RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.kernelMeasure ψ)
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.kernelMeasure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.kernelMeasure_univ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.instIsProbabilityMeasure_kernelMeasure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.integral_kernelMeasure_eq_integral_smul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.integral_kernelMeasure_eq_integral_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.smoothFun_eq_integral_kernelMeasure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.sq_integral_le_integral_sq_of_isProbabilityMeasure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.norm_sq_translateL2_sub_extendByZeroL2_eq_integral_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.smoothFun_sub_extendByZeroFun_sq_le_integral_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.norm_sq_smoothL2_sub_extendByZeroL2_le_integral_norm_sq_translateL2_sub_extendByZeroL2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

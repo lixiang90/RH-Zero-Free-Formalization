@@ -1,0 +1,42 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\tmp\\rellich-approximation-compat\\AxiomAudit.lean"
+  ],
+  "cwd": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+  "exit_code": 0,
+  "elapsed_seconds": 12.313000000081956,
+  "roots": [
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.kernelMeasure",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.kernelMeasure_univ",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.instIsProbabilityMeasure_kernelMeasure",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.integral_kernelMeasure_eq_integral_smul",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.integral_kernelMeasure_eq_integral_mul",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.smoothFun_eq_integral_kernelMeasure",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.sq_integral_le_integral_sq_of_isProbabilityMeasure",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.norm_sq_translateL2_sub_extendByZeroL2_eq_integral_sq",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.smoothFun_sub_extendByZeroFun_sq_le_integral_sq",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.norm_sq_smoothL2_sub_extendByZeroL2_le_integral_norm_sq_translateL2_sub_extendByZeroL2"
+  ],
+  "audit_count": 10,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "unexpected_axioms": [],
+  "source_before_sha256": "7e611ee4d5dccadec7c6127ca731013993710ba984a72993ca07fbefe9d21809",
+  "source_after_sha256": "7e611ee4d5dccadec7c6127ca731013993710ba984a72993ca07fbefe9d21809",
+  "source_unchanged": true,
+  "output_olean_sha256": "48724cfb87bdb1e10632f0676cf0a6d683bdd7e50335188dc62892b48f4faa2d",
+  "compile_sorry_warning": false,
+  "instance_type_check": "#check @RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.instIsProbabilityMeasure_kernelMeasure",
+  "checked": true
+}

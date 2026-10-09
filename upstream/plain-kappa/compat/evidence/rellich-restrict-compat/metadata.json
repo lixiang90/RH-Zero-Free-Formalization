@@ -1,0 +1,13 @@
+{
+  "package": "rellich-kondrachov",
+  "package_pin": "70f85d4c1bf99c6e7d61e8be4daa6f3664d08d23",
+  "relative_source": "RellichKondrachov/MeasureTheory/Function/LpSpace/Restrict.lean",
+  "before_raw_sha256": "43be5840ccc8550d847ef448fb793134afe0b3121e031eff7374573bab420f79",
+  "baseline_lf_sha256": "29a904809138432e4b29ad8ba385d1d993e3862432e5329a59445240bb2f5bee",
+  "after_lf_sha256": "476f1c54580987affd13c2532eb643cbf1f21d056031337e4e19e6a98a9e118b",
+  "patch_sha256": "d18e745658655c1f6b39a7a3104ddc6054e7d3fc70307cd4ccd32e5715586737",
+  "mathlib_pin": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "lean_version": "4.34.1",
+  "preserves_definitions_and_statements": true,
+  "additional_assumptions": []
+}

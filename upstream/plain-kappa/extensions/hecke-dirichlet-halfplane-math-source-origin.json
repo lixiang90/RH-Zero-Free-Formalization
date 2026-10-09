@@ -1,0 +1,36 @@
+{
+  "kind": "new_mathematical_proof_not_compatibility",
+  "origin": "authored_extension",
+  "git_blob": null,
+  "upstream_revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "lean_version": "4.34.1",
+  "mathlib_revision": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "source": "OAI/NumberTheory/DirichletL/Hecke/DirichletLowKappa.lean",
+  "source_canonical_lf_sha256": "d217d5fa6e5fa5c7553a36bd0946814cfd12287abb713aa7f1bbd1ca2b2868fd",
+  "patch_sha256": "59cfbe06a3d83a5b7d8411b024911e87e4a43ba71b10a94fcd221f6d68e03afc",
+  "roots": [
+    "OAI.SevenEighths.HeckeDirichlet.dirichlet_ne_zero_of_hecke_halfplane",
+    "OAI.SevenEighths.HeckeDirichlet.zeta_ne_zero_of_hecke_halfplane"
+  ],
+  "status": "prepared_uncompiled_dependencies_pending_graph",
+  "original_source_public_blob_binding": {
+    "path": "OAI/NumberTheory/DirichletL/Hecke/Dirichlet.lean",
+    "git_path": "lean/OAI/NumberTheory/DirichletL/Hecke/Dirichlet.lean",
+    "git_blob": "a95e8042b3714a064486c6de6cc0bf8c63116b49",
+    "public_git_raw_sha256": "8b33d23c18ec5b85a13043aa775841389903247645fc00536cc2b3286332ff7d",
+    "canonical_lf_sha256": "8b33d23c18ec5b85a13043aa775841389903247645fc00536cc2b3286332ff7d",
+    "workcopy_raw_sha256": "55d1d7d6caf40b33973651d25a12de35dcff0e3f9bfacf7f84e4997d8014702f"
+  },
+  "explicit_hypotheses": [
+    "0 < sigma",
+    "hH: actual full Hecke family is zero-free on Re(s)>sigma outside its pole (the module does NOT prove this premise)",
+    "Dirichlet theorem: NeZero q and not (chi=1 and s=1)"
+  ],
+  "additional_assumptions": [],
+  "proof_sources": [
+    "actual HeckeDirichlet.LFunction_eq_dirichlet_product on s!=0,1",
+    "Mathlib DirichletCharacter.LFunction_ne_zero_of_one_le_re",
+    "Mathlib riemannZeta_one_ne_zero",
+    "Mathlib DirichletCharacter.LFunction_modOne_eq"
+  ]
+}

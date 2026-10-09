@@ -1,0 +1,40 @@
+{
+  "exporter": {
+    "repository": "https://github.com/leanprover/lean4export.git",
+    "commit": "b18d673bd29b476466a51a3be1012df2ed322b10",
+    "tracked_source_or_configuration_changes": false,
+    "tracked_toolchain": "leanprover/lean4:v4.34.0-rc1",
+    "actual_compiler": "Lean (version 4.34.1, x86_64-w64-windows-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+    "compiler_override_command": [
+      "elan",
+      "run",
+      "leanprover/lean4:v4.34.1",
+      "lake",
+      "build",
+      "lean4export"
+    ],
+    "build_verification_exit_code": 0,
+    "build_verification_elapsed_seconds": 0.25,
+    "build_verification_may_reuse_previously_built_artifacts": true,
+    "initial_fresh_build_observed_exit_code": 0,
+    "binary_sha256": "59c8e239262153a57d37b83869732b75b5b3b5a1689b489a0660a5e713dd3701",
+    "build_log_sha256": "39054a3ab28cbb1f303071e8251278ec44f84e5f2288361596fe592873c6114c"
+  },
+  "nanoda": {
+    "repository": "https://github.com/ammkrn/nanoda_lib.git",
+    "commit": "418320295890faed83a96fd97907b12a3b6728c2",
+    "tracked_source_or_configuration_changes": false,
+    "binary_sha256": "b19804767cb72bf5a317fcfc20e8af7eafdfba789dd6b24bddee2574379ff35a",
+    "binary_reused": true,
+    "serial_threads": 1,
+    "accepted_actual_4_34_exported_proofs": true,
+    "permitted_axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "unsafe_permit_all_axioms": false,
+    "native_decide_added": false
+  },
+  "scope": "Tool compatibility and completed selected-root replays; full OAI moment remains pending"
+}

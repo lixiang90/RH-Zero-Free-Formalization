@@ -1,0 +1,32 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\tmp\\rellich-arzela-ascoli-compat\\AxiomAudit.lean"
+  ],
+  "cwd": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+  "exit_code": 0,
+  "elapsed_seconds": 11.734,
+  "roots": [
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.smoothBCF_image_closedBall_isCompact"
+  ],
+  "audit_count": 1,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "unexpected_axioms": [],
+  "source_before_sha256": "0756dfef2bc232e9e62280638668fd49e389490f4705db66a17213b1609b5115",
+  "source_after_sha256": "0756dfef2bc232e9e62280638668fd49e389490f4705db66a17213b1609b5115",
+  "source_unchanged": true,
+  "output_olean_sha256": "70d798128e4039eb056f78cc48923d0cb78b26b5940979672848fd414ddd3e15",
+  "compile_sorry_warning": false,
+  "checked": true
+}

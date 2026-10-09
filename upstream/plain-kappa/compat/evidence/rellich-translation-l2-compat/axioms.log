@@ -1,0 +1,7 @@
+warning: rellich-kondrachov: repository 'E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake/packages\rellich-kondrachov' has local changes
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.enorm_translateL2_sub_toL2_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.norm_translateL2_sub_toL2_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

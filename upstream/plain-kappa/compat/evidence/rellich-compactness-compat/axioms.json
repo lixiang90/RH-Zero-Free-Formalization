@@ -1,0 +1,36 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\tmp\\rellich-compactness-compat\\AxiomAudit.lean"
+  ],
+  "cwd": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+  "exit_code": 0,
+  "elapsed_seconds": 11.594,
+  "roots": [
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Kψ",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.isCompact_Kψ",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.smoothBCF",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.smoothBCF_apply",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.uniformContinuous_ψ"
+  ],
+  "audit_count": 5,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "unexpected_axioms": [],
+  "source_before_sha256": "3b9db1f6b5ced7492ffd5d603614531c4c1a8880c4b9b48e5457d6cf3214259c",
+  "source_after_sha256": "3b9db1f6b5ced7492ffd5d603614531c4c1a8880c4b9b48e5457d6cf3214259c",
+  "source_unchanged": true,
+  "output_olean_sha256": "9fcc1ec811764caf617007dcba6768951ec44434bc4735d99957aa5606b05e9c",
+  "compile_sorry_warning": false,
+  "checked": true
+}

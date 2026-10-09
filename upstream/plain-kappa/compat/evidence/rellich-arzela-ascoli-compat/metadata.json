@@ -1,0 +1,13 @@
+{
+  "package": "rellich-kondrachov",
+  "package_pin": "70f85d4c1bf99c6e7d61e8be4daa6f3664d08d23",
+  "relative_source": "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/L2Compactness/ArzelaAscoli.lean",
+  "before_raw_sha256": "49f57facd16054c41500640055ac26ab4d4d4fcebe62cdae33aaf98f03ccaa53",
+  "baseline_lf_sha256": "c2115a4f81a7e03529a6642e2c0a06edc18884597e90a845b7951ff8090c32d0",
+  "after_lf_sha256": "0756dfef2bc232e9e62280638668fd49e389490f4705db66a17213b1609b5115",
+  "patch_sha256": "77b91653d4428b5f6608de44abe053423ff133cd33aa70df0bd480f092b55b9a",
+  "mathlib_pin": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "lean_version": "4.34.1",
+  "preserves_definitions_and_statements": true,
+  "additional_assumptions": []
+}

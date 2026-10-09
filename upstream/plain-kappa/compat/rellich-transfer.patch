@@ -1,0 +1,34 @@
+--- a/RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/L2Compactness/Transfer.lean
++++ b/RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/L2Compactness/Transfer.lean
+@@ -121,7 +121,7 @@
+           (F : E → ℝ) =ᵐ[(volume : Measure E)]
+             fun x : E =>
+               smoothFun (E := E) (K := K) ψ u x - smoothFun (E := E) (K := K) ψ v x := by
+-        simpa [Pi.sub_apply] using hsub.trans (hu.sub hv)
++        exact hsub.trans (hu.sub hv)
+       exact MeasureTheory.ae_restrict_of_ae (μ := (volume : Measure E)) (s := s) hF
+     have hFs_ae : ((Fs : E → ℝ) =ᵐ[μs] g) := by
+       simpa [Fs, g] using
+@@ -157,11 +157,9 @@
+             smoothFun (E := E) (K := K) ψ v x = 0 := by
+       intro x hx
+       have hu_supp : Function.support (smoothFun (E := E) (K := K) ψ u) ⊆ s := by
+-        simpa [s] using
+-          (support_smoothFun_subset_add_tsupport (E := E) (K := K) (ψ := ψ) u)
++        exact support_smoothFun_subset_add_tsupport (E := E) (K := K) (ψ := ψ) u
+       have hv_supp : Function.support (smoothFun (E := E) (K := K) ψ v) ⊆ s := by
+-        simpa [s] using
+-          (support_smoothFun_subset_add_tsupport (E := E) (K := K) (ψ := ψ) v)
++        exact support_smoothFun_subset_add_tsupport (E := E) (K := K) (ψ := ψ) v
+       have hu0 : smoothFun (E := E) (K := K) ψ u x = 0 := by
+         have : x ∉ Function.support (smoothFun (E := E) (K := K) ψ u) := fun hx' => hx (hu_supp hx')
+         simpa [Function.support] using this
+@@ -190,7 +188,7 @@
+             (F : E → ℝ) =ᵐ[(volume : Measure E)]
+               fun x : E =>
+                 smoothFun (E := E) (K := K) ψ u x - smoothFun (E := E) (K := K) ψ v x := by
+-          simpa [Pi.sub_apply] using hsub.trans (hu.sub hv)
++          exact hsub.trans (hu.sub hv)
+         simpa [g] using hF
+       filter_upwards [hF_ae_full] with x hx
+       intro hxnot

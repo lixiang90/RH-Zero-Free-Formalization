@@ -1,0 +1,6 @@
+E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake\packages\rellich-kondrachov\RellichKondrachov\Analysis\FunctionalSpaces\Sobolev\Euclidean\Rellich.lean:1:0: warning: 
+'Mathlib.Analysis.Normed.Operator.Compact' has been deprecated: please replace this import by
+
+import Mathlib.Analysis.Normed.Operator.Compact.Basic
+E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake\packages\rellich-kondrachov\RellichKondrachov\Analysis\FunctionalSpaces\Sobolev\Euclidean\Rellich.lean:164:42: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: rellich-kondrachov: repository 'E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake/packages\rellich-kondrachov' has local changes

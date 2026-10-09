@@ -1,0 +1,20 @@
+{
+  "status": "prepared_pending_compile",
+  "module": "OAI.NumberTheory.DirichletL.Detector.LowSourceScalesLowKappa",
+  "path": "OAI/NumberTheory/DirichletL/Detector/LowSourceScalesLowKappa.lean",
+  "sha256": "bcf986194a08b02496d742176e4175488aa6dfd1d475faaea53fc1c593fbc500",
+  "declarations": [
+    "OAI.SevenEighths.ProbePhysical.source_scale_ratio_total",
+    "OAI.SevenEighths.ProbePhysical.source_scale_square_total",
+    "OAI.SevenEighths.ProbePhysical.source_compensated_scale_admissible_total",
+    "OAI.SevenEighths.ProbePhysical.source_gram_power_total",
+    "OAI.SevenEighths.ProbePhysical.source_gram_sqrt_power_total",
+    "OAI.SevenEighths.ProbePhysical.source_compensated_gram_scale_total",
+    "OAI.SevenEighths.ProbePhysical.lowGramFactor_source_bound_total",
+    "OAI.SevenEighths.ProbePhysical.eventually_compensated_source_scales_total",
+    "OAI.SevenEighths.ProbePhysical.lowPhysicalScale_source_total"
+  ],
+  "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "authored_by": "Li Xiang / lixiang90",
+  "scope": "Actual lowGramFactor/lowPhysicalScale, variable total ell and imbalance b; full reflected-energy sum remains open."
+}

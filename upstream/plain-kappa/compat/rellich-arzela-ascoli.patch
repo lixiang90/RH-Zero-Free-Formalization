@@ -1,0 +1,11 @@
+--- a/RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/L2Compactness/ArzelaAscoli.lean
++++ b/RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/L2Compactness/ArzelaAscoli.lean
+@@ -317,7 +317,7 @@
+             (MeasureTheory.Lp.coeFn_sub (μ := (volume.restrict K)) (p := (2 : ℝ≥0∞)) kx ky)] with
+             t ht hx_t hy_t hsub
+           have hxy' : dist ((x : E) - t) ((y : E) - t) < δ := by
+-            simpa [sub_eq_add_neg, add_assoc] using hxy
++            simpa [Subtype.dist_eq, sub_eq_add_neg, add_assoc] using hxy
+           have hψxy : dist (ψ ((x : E) - t)) (ψ ((y : E) - t)) < ε' :=
+             hδ (a := (x : E) - t) (b := (y : E) - t) hxy'
+           have : ‖ψ ((x : E) - t) - ψ ((y : E) - t)‖ ≤ ε' := by

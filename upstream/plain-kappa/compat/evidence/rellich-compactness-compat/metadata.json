@@ -1,0 +1,13 @@
+{
+  "package": "rellich-kondrachov",
+  "package_pin": "70f85d4c1bf99c6e7d61e8be4daa6f3664d08d23",
+  "relative_source": "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/L2Compactness/Compactness.lean",
+  "before_raw_sha256": "f7eca1bc250cd688b604c27f5467e6147c14cb410a6e8f1d66823df7fd63f40c",
+  "baseline_lf_sha256": "2de58437e3e0fd6cd613533f414eeaf36a1e2e97c73176796e60ef4008c36ef5",
+  "after_lf_sha256": "3b9db1f6b5ced7492ffd5d603614531c4c1a8880c4b9b48e5457d6cf3214259c",
+  "patch_sha256": "48ef80dfca58380b060a304b7c13ba2c3e70c4645936ddf199624d227cdc1b77",
+  "mathlib_pin": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "lean_version": "4.34.1",
+  "preserves_definitions_and_statements": true,
+  "additional_assumptions": []
+}

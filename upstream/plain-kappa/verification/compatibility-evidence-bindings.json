@@ -1,0 +1,83 @@
+{
+  "records": [
+    {
+      "directory": "compat/evidence/rellich-h1-compat",
+      "metadata_sha256": "5c9dac3ca3b4bb5625399e64756a8e51ef840ed6202bb4bb467c33d718a3ea5c",
+      "compile_record_sha256": "814b6d830dfc4406255930fc57aba2b690866dd4c2c803b9b518cbd4bccee038",
+      "axioms_record_sha256": "90129fb21799d09de7a1d33a47a1beb3e603f165e43f1e099917db3383182b12",
+      "root_count": 14
+    },
+    {
+      "directory": "compat/evidence/rellich-translation-compat",
+      "metadata_sha256": "979c780af632e6c01757933df65a52502bc553d6c765b11aae436738546ab21b",
+      "compile_record_sha256": "223a218c5dc1d0932a70535cccfe18a63c5a6d0e39fb2d41cc398b603451f8c0",
+      "axioms_record_sha256": "28c5d5f4a2ddab0d14fe29bcae0225a7e0a30f807a67766075effd83e7878e8d",
+      "root_count": 10
+    },
+    {
+      "directory": "compat/evidence/rellich-translation-l2-compat",
+      "metadata_sha256": "049a49ae5bd4356faf8678257a14ce5862a36ef7e1c3f13ad782a89bb326b8a7",
+      "compile_record_sha256": "58b7c5a687632b6595ddf18f9d4a02b3196faf50ac67b862daf389f54bea1ef2",
+      "axioms_record_sha256": "9bb7f564ff704c4eeac8eb3867bcaf84f45bfb7268f52871f9e4d5c689c27d71",
+      "root_count": 2
+    },
+    {
+      "directory": "compat/evidence/rellich-translation-h1-compat",
+      "metadata_sha256": "faef7704a475ea214a74833d147200dcb4721c4552473b5a4a3103cdb7d1fc53",
+      "compile_record_sha256": "4a4871d8ce41d9c2d5980bbf77318b570b9cd9c4cdf5ca8e52e1b0c199f96c3d",
+      "axioms_record_sha256": "3595436aab4da22c7c249633865c54738147b675174f94240ba9cb64bd656255",
+      "root_count": 1
+    },
+    {
+      "directory": "compat/evidence/rellich-restrict-compat",
+      "metadata_sha256": "ea056e47b38471582a0784eaed63aa23567592b79c3cb2df45d051c8cb514e5b",
+      "compile_record_sha256": "034355622ed40326d7ba5e07acfa68b022b5afa7607aa2fc9d6d47fc1653feb1",
+      "axioms_record_sha256": "18636bda9021bf38ee66f01a85dc7a4cf1f3ad6bddd31b72e79aa04d209f910b",
+      "root_count": 4
+    },
+    {
+      "directory": "compat/evidence/rellich-approximation-compat",
+      "metadata_sha256": "311f1ada17c32f827c7f595653de1068397cf45605e8cef13489697d8ad7c572",
+      "compile_record_sha256": "b3b5d52675ee37ce84ca099491dd629851d5c29da3628660abbfeab608994397",
+      "axioms_record_sha256": "bb54a5f896f476bb547cb589630853ae9d841449db6927d550adf0d3e974d21d",
+      "root_count": 10
+    },
+    {
+      "directory": "compat/evidence/rellich-compactness-compat",
+      "metadata_sha256": "9331df9e6ace32d0315074e03f474c8c6a076abae06157d597baa471a6cbdd9b",
+      "compile_record_sha256": "07a021f282f4ca2e8aed5bdda738ac881dd727acbb37455b1ed6a58317e6ef5b",
+      "axioms_record_sha256": "afba23c7072336368c29dbcc324b45e9767366e93d3e9a3861bd78e21038bdef",
+      "root_count": 5
+    },
+    {
+      "directory": "compat/evidence/rellich-kernels-compat",
+      "metadata_sha256": "9f41c09a4c79209eded1d27afff09c628c4f0791f5dc378f7574aca31f529d91",
+      "compile_record_sha256": "03054664e4ab9b0928574d8f57eef0caa96434880832c9d5f104a165a44e49fd",
+      "axioms_record_sha256": "739078d929394a47b84e1d43db47a4ee6e08c1d5a19b006f02f736380afb814f",
+      "root_count": 1
+    },
+    {
+      "directory": "compat/evidence/rellich-arzela-ascoli-compat",
+      "metadata_sha256": "c1904a89025017dc4000ed1abf7ee584ffdc8db66e10eba65cdf0c5108a1d9cd",
+      "compile_record_sha256": "a12ccdc8130ce6faa85c8e3f6d1f0f71ebeb73369c8da9a439495c6bc8038266",
+      "axioms_record_sha256": "7e49a404c7e8870cd01fb062163ea7097722a4aa7ff61007fdb5b13f18c077c0",
+      "root_count": 1
+    },
+    {
+      "directory": "compat/evidence/rellich-transfer-compat",
+      "metadata_sha256": "6379c26e0e23b7e15eb4f8493243548f341cadd7ec38a0fd99c771ddbfb93846",
+      "compile_record_sha256": "3010cd471d417e947380174345bc53a7fe78975d242154ef1e1a877fb1d555fe",
+      "axioms_record_sha256": "f242920752e6b663ac1e39df13ecb8da28f63e9f5037c7e937200f35bcf200fe",
+      "root_count": 1
+    },
+    {
+      "directory": "compat/evidence/rellich-euclidean-compat",
+      "metadata_sha256": "774ae45d5aecbeeac01790043644a41e18fb0ac2475f31992ec41ed802145afd",
+      "compile_record_sha256": "772cbabe72b93db0bfa1c5f7559b430c6c3872d46ea073b362e07a5d23402272",
+      "axioms_record_sha256": "16251f2336560fffd6115714beb54ce9bb01a49961ea80f2931f70274b756726",
+      "root_count": 5
+    }
+  ],
+  "selected_root_count": 54,
+  "full_OAI_target_pending": true
+}
