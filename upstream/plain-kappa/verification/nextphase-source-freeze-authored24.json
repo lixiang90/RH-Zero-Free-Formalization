@@ -1,0 +1,62 @@
+{
+  "old_formal_commit": "0f707ec8c562976204c2de1abc92bfe1ba8b3bc5",
+  "old_authored19_manifest_sha256": "23285588e17a4a46a8e985390e9c8fdfb3ef450a006a80c5567de7f962ab16f6",
+  "old_selected_declaration_count": 78,
+  "new_authored_module_count": 24,
+  "new_selected_declaration_count": 85,
+  "new_prepared_module_count": 5,
+  "new_prepared_declaration_count": 7,
+  "new_prepared_sources": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Detector.ArbitraryTotalSourceBatch",
+      "path": "OAI/NumberTheory/DirichletL/Detector/ArbitraryTotalSourceBatch.lean",
+      "sha256": "65360fb7aa6f34916553142ee24f67ce91c3c35cbe4a141c9d21846fb6023f97",
+      "roots": [
+        "OAI.SevenEighths.ProbeHighRowFamily.physical_slot_widths_total",
+        "OAI.SevenEighths.ProbeHighRowFamily.retainedSourceBatchTotal"
+      ],
+      "scope": "Real source Batch construction with arbitrary positive total; unchanged actual supported-witness budget; no Moments instance or zero-free conclusion"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Detector.ActualSourceBatchTotal",
+      "path": "OAI/NumberTheory/DirichletL/Detector/ActualSourceBatchTotal.lean",
+      "sha256": "aca72c6cc970e283a7054fe4b7250c5b741e95b1e9b134722d067a219eab6116",
+      "roots": [
+        "OAI.SevenEighths.ProbeHighRowFamily.actual_source_batch_total"
+      ],
+      "scope": "Real source Batch construction with arbitrary positive total; unchanged actual supported-witness budget; no Moments instance or zero-free conclusion"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.FiberPositiveAtLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/FiberPositiveAtLowKappa.lean",
+      "sha256": "4ddd9eb8ae83d8888db8c6d2fabb3e51262d307189ccbd9a779b0504d92bb4ef",
+      "roots": [
+        "OAI.SevenEighths.FiberPositiveAtLowKappa.actual_finite_fiber_bound_of_positiveAt"
+      ],
+      "scope": "actual finite-fiber admission to PositiveAt plus actual terminal PositiveAt uniform over a fixed finite label family; explicit state/arithmetic/window/global-beta/moving-kappa/cover gates retained; no Batch/Moments/nonvanishing claim"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Energy.FiniteLabelPositiveAtLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Energy/FiniteLabelPositiveAtLowKappa.lean",
+      "sha256": "f17d8075f9bc3edb83cf44e0bcb5308e5bc6639ea3408bd25f506988640d804b",
+      "roots": [
+        "OAI.SevenEighths.FiniteLabelPositiveAtLowKappa.eventually_finite_label_positiveAt"
+      ],
+      "scope": "actual finite-fiber admission to PositiveAt plus actual terminal PositiveAt uniform over a fixed finite label family; explicit state/arithmetic/window/global-beta/moving-kappa/cover gates retained; no Batch/Moments/nonvanishing claim"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.MarkedHeightBudgetLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/MarkedHeightBudgetLowKappa.lean",
+      "sha256": "418984fdc03c07ca74822e6874bf9a7baefe486421027656b60ac2007a7d31c5",
+      "roots": [
+        "OAI.SevenEighths.MarkedHeightBudgetLowKappa.exists_losses_before_height",
+        "OAI.SevenEighths.MarkedHeightBudgetLowKappa.actual_growth_absorption"
+      ],
+      "scope": "Actual deterministic absorption of the finite-fiber energy monomial with correct degree+4J and 2*tau budget. Losses before degree/J; height exponent afterwards with arbitrary positive ceiling. Genuine source height, state, capacity and terminal interfaces are separate inputs, not proved by this scalar module. No complete Moments or unconditional zero-free claim."
+    }
+  ],
+  "unmodified_original_added_target": "OAI.NumberTheory.DirichletL.Detector.SourceBatch",
+  "current_original41_patch_sha256_unchanged": "58ddc470f93afd26265525e78b951706ccb202839c6768f7ef39006af699dc42",
+  "new_actual_compile_and_independent_replay_pending": true,
+  "workcopy_installation_owned_by_graph": true
+}

@@ -1,0 +1,74 @@
+{
+  "status": "exact_driver_planning_only_no_controller_started",
+  "driver_sha256": "85b3ed5447a3118fe91dacdf8ba80cc771fd655dc4d08e585ac190757164b9ed",
+  "targets": [
+    "OAI.NumberTheory.DirichletL.Detector.ArbitraryTotalSourceBatch",
+    "OAI.NumberTheory.DirichletL.Detector.ActualSourceBatchTotal",
+    "OAI.NumberTheory.DirichletL.Detector.SourceBatch",
+    "OAI.NumberTheory.DirichletL.Moments.FiberPositiveAtLowKappa",
+    "OAI.NumberTheory.DirichletL.Energy.FiniteLabelPositiveAtLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.MarkedHeightBudgetLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.RayIdentityClassCoefficient",
+    "OAI.NumberTheory.DirichletL.Hecke.DirichletLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.FinitePositiveRowDomination",
+    "OAI.NumberTheory.DirichletL.Moments.FixedRadialRowDomination",
+    "OAI.NumberTheory.DirichletL.Moments.FiniteFamilyNonexceptional",
+    "OAI.NumberTheory.DirichletL.Moments.FiberRelativeEnergyBridge",
+    "OAI.NumberTheory.DirichletL.Hecke.FiniteSupportedWitnessRetraction",
+    "OAI.NumberTheory.DirichletL.Moments.FiniteRowNaturalState",
+    "OAI.NumberTheory.DirichletL.Moments.DetectorPairControl",
+    "OAI.NumberTheory.DirichletL.Moments.ReflectionRetainedLength",
+    "LowKappaParameters",
+    "OAI.NumberTheory.DirichletL.Detector.GlobalRegionLowKappa",
+    "OAI.NumberTheory.DirichletL.Detector.GlobalCorrectionLowKappa",
+    "OAI.NumberTheory.DirichletL.ParametersSlotLengthsLowKappa",
+    "OAI.NumberTheory.DirichletL.Detector.GlobalSourceCorrectionExistenceLowKappa",
+    "OAI.NumberTheory.DirichletL.PrincipalSignalScalingLowKappa",
+    "OAI.NumberTheory.DirichletL.Detector.LowSourceScalesLowKappa",
+    "OAI.NumberTheory.DirichletL.PrimeRows.CubeNormalizerLowKappa",
+    "OAI.NumberTheory.DirichletL.PrincipalSlotEstimateLowKappa",
+    "OAI.NumberTheory.DirichletL.PrincipalSignalComparisonLowKappa",
+    "OAI.NumberTheory.DirichletL.Energy.CertifiedExistence"
+  ],
+  "target_count": 27,
+  "custom_module_count": 2271,
+  "cached_import_count": 282,
+  "prior_exit0_fingerprint_matching_count": 2261,
+  "modules_requiring_actual_compile": [
+    "OAI.NumberTheory.DirichletL.Detector.DetectorBatch",
+    "OAI.NumberTheory.DirichletL.Detector.ArbitraryTotalSourceBatch",
+    "OAI.NumberTheory.DirichletL.PrimeRows.TargetPrincipal",
+    "OAI.NumberTheory.DirichletL.PrimeRows.DetectorReady",
+    "OAI.NumberTheory.DirichletL.PrimeRows.CubeSupportedWitness",
+    "OAI.NumberTheory.DirichletL.Detector.ActualSourceBatchTotal",
+    "OAI.NumberTheory.DirichletL.Detector.SourceBatch",
+    "OAI.NumberTheory.DirichletL.Moments.FiberPositiveAtLowKappa",
+    "OAI.NumberTheory.DirichletL.Energy.FiniteLabelPositiveAtLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.MarkedHeightBudgetLowKappa"
+  ],
+  "note": "Fingerprint match is a plan only; the actual controller will also verify source and artifact bindings before reuse.",
+  "state_sha256_unchanged": "641601d63919da2a49f0402c646ef13fd7fe84f673a0b5195da54969ce9b9721",
+  "installed_reviewed_sources": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.FiberPositiveAtLowKappa",
+      "source_sha256": "4ddd9eb8ae83d8888db8c6d2fabb3e51262d307189ccbd9a779b0504d92bb4ef",
+      "public_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\upstream\\plain-kappa\\extensions\\files\\OAI\\NumberTheory\\DirichletL\\Moments\\FiberPositiveAtLowKappa.lean",
+      "installed_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\FiberPositiveAtLowKappa.lean",
+      "status": "prepared_not_actual_compiled"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Energy.FiniteLabelPositiveAtLowKappa",
+      "source_sha256": "f17d8075f9bc3edb83cf44e0bcb5308e5bc6639ea3408bd25f506988640d804b",
+      "public_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\upstream\\plain-kappa\\extensions\\files\\OAI\\NumberTheory\\DirichletL\\Energy\\FiniteLabelPositiveAtLowKappa.lean",
+      "installed_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Energy\\FiniteLabelPositiveAtLowKappa.lean",
+      "status": "prepared_not_actual_compiled"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.MarkedHeightBudgetLowKappa",
+      "source_sha256": "418984fdc03c07ca74822e6874bf9a7baefe486421027656b60ac2007a7d31c5",
+      "public_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\upstream\\plain-kappa\\extensions\\files\\OAI\\NumberTheory\\DirichletL\\Moments\\MarkedHeightBudgetLowKappa.lean",
+      "installed_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\MarkedHeightBudgetLowKappa.lean",
+      "status": "prepared_not_actual_compiled"
+    }
+  ]
+}

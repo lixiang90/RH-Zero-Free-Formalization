@@ -1,6 +1,6 @@
 {
   "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
-  "status": "all_frozen_authored_selected_declarations_independently_verified_full_zero_free_assembly_pending",
+  "status": "all_24_authored_modules_and_85_selected_declarations_independently_verified_full_analytic_supply_pending",
   "origin": "authored_extension",
   "files": [
     {
@@ -480,6 +480,128 @@
       "independently_replayed_declaration_count": 2,
       "joint_replay_selected_root_count": 6,
       "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Detector.ArbitraryTotalSourceBatch",
+      "path": "OAI/NumberTheory/DirichletL/Detector/ArbitraryTotalSourceBatch.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Detector/ArbitraryTotalSourceBatch.lean",
+      "sha256": "65360fb7aa6f34916553142ee24f67ce91c3c35cbe4a141c9d21846fb6023f97",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "65360fb7aa6f34916553142ee24f67ce91c3c35cbe4a141c9d21846fb6023f97",
+      "canonical_lf_sha256": "65360fb7aa6f34916553142ee24f67ce91c3c35cbe4a141c9d21846fb6023f97",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "installation_owner": "plain_range_graph",
+      "scope": "Real source Batch construction with arbitrary positive total; unchanged actual supported-witness budget; no Moments instance or zero-free conclusion",
+      "independent_replay_record": "../verification/sourcebatch-positiveat-height7/strict-replay-result.json",
+      "independent_replay_record_sha256": "2a8658cfe6f9b41a18cc8c2fffec10cb60050e9f6b9c253edfc69287d7344256",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.ProbeHighRowFamily.physical_slot_widths_total",
+        "OAI.SevenEighths.ProbeHighRowFamily.retainedSourceBatchTotal"
+      ],
+      "independently_replayed_declaration_count": 2,
+      "joint_replay_selected_root_count": 7,
+      "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Detector.ActualSourceBatchTotal",
+      "path": "OAI/NumberTheory/DirichletL/Detector/ActualSourceBatchTotal.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Detector/ActualSourceBatchTotal.lean",
+      "sha256": "aca72c6cc970e283a7054fe4b7250c5b741e95b1e9b134722d067a219eab6116",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "aca72c6cc970e283a7054fe4b7250c5b741e95b1e9b134722d067a219eab6116",
+      "canonical_lf_sha256": "aca72c6cc970e283a7054fe4b7250c5b741e95b1e9b134722d067a219eab6116",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "installation_owner": "plain_range_graph",
+      "scope": "Real source Batch construction with arbitrary positive total; unchanged actual supported-witness budget; no Moments instance or zero-free conclusion",
+      "independent_replay_record": "../verification/sourcebatch-positiveat-height7/strict-replay-result.json",
+      "independent_replay_record_sha256": "2a8658cfe6f9b41a18cc8c2fffec10cb60050e9f6b9c253edfc69287d7344256",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.ProbeHighRowFamily.actual_source_batch_total"
+      ],
+      "independently_replayed_declaration_count": 1,
+      "joint_replay_selected_root_count": 7,
+      "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.FiberPositiveAtLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/FiberPositiveAtLowKappa.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Moments/FiberPositiveAtLowKappa.lean",
+      "sha256": "4ddd9eb8ae83d8888db8c6d2fabb3e51262d307189ccbd9a779b0504d92bb4ef",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "4ddd9eb8ae83d8888db8c6d2fabb3e51262d307189ccbd9a779b0504d92bb4ef",
+      "canonical_lf_sha256": "4ddd9eb8ae83d8888db8c6d2fabb3e51262d307189ccbd9a779b0504d92bb4ef",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "installation_owner": "plain_range_graph",
+      "scope": "actual finite-fiber admission to PositiveAt plus actual terminal PositiveAt uniform over a fixed finite label family; explicit state/arithmetic/window/global-beta/moving-kappa/cover gates retained; no Batch/Moments/nonvanishing claim",
+      "independent_replay_record": "../verification/sourcebatch-positiveat-height7/strict-replay-result.json",
+      "independent_replay_record_sha256": "2a8658cfe6f9b41a18cc8c2fffec10cb60050e9f6b9c253edfc69287d7344256",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.FiberPositiveAtLowKappa.actual_finite_fiber_bound_of_positiveAt"
+      ],
+      "independently_replayed_declaration_count": 1,
+      "joint_replay_selected_root_count": 7,
+      "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Energy.FiniteLabelPositiveAtLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Energy/FiniteLabelPositiveAtLowKappa.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Energy/FiniteLabelPositiveAtLowKappa.lean",
+      "sha256": "f17d8075f9bc3edb83cf44e0bcb5308e5bc6639ea3408bd25f506988640d804b",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "f17d8075f9bc3edb83cf44e0bcb5308e5bc6639ea3408bd25f506988640d804b",
+      "canonical_lf_sha256": "f17d8075f9bc3edb83cf44e0bcb5308e5bc6639ea3408bd25f506988640d804b",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "installation_owner": "plain_range_graph",
+      "scope": "actual finite-fiber admission to PositiveAt plus actual terminal PositiveAt uniform over a fixed finite label family; explicit state/arithmetic/window/global-beta/moving-kappa/cover gates retained; no Batch/Moments/nonvanishing claim",
+      "independent_replay_record": "../verification/sourcebatch-positiveat-height7/strict-replay-result.json",
+      "independent_replay_record_sha256": "2a8658cfe6f9b41a18cc8c2fffec10cb60050e9f6b9c253edfc69287d7344256",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.FiniteLabelPositiveAtLowKappa.eventually_finite_label_positiveAt"
+      ],
+      "independently_replayed_declaration_count": 1,
+      "joint_replay_selected_root_count": 7,
+      "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.MarkedHeightBudgetLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/MarkedHeightBudgetLowKappa.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Moments/MarkedHeightBudgetLowKappa.lean",
+      "sha256": "418984fdc03c07ca74822e6874bf9a7baefe486421027656b60ac2007a7d31c5",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "418984fdc03c07ca74822e6874bf9a7baefe486421027656b60ac2007a7d31c5",
+      "canonical_lf_sha256": "418984fdc03c07ca74822e6874bf9a7baefe486421027656b60ac2007a7d31c5",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "installation_owner": "plain_range_graph",
+      "scope": "Actual deterministic absorption of the finite-fiber energy monomial with correct degree+4J and 2*tau budget. Losses before degree/J; height exponent afterwards with arbitrary positive ceiling. Genuine source height, state, capacity and terminal interfaces are separate inputs, not proved by this scalar module. No complete Moments or unconditional zero-free claim.",
+      "independent_replay_record": "../verification/sourcebatch-positiveat-height7/strict-replay-result.json",
+      "independent_replay_record_sha256": "2a8658cfe6f9b41a18cc8c2fffec10cb60050e9f6b9c253edfc69287d7344256",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.MarkedHeightBudgetLowKappa.exists_losses_before_height",
+        "OAI.SevenEighths.MarkedHeightBudgetLowKappa.actual_growth_absorption"
+      ],
+      "independently_replayed_declaration_count": 2,
+      "joint_replay_selected_root_count": 7,
+      "imported_environment_contains_known_unproved_auxiliaries": true
     }
   ],
   "targets": [
@@ -501,7 +623,12 @@
     "OAI.NumberTheory.DirichletL.Moments.FiberRelativeEnergyBridge",
     "OAI.NumberTheory.DirichletL.Hecke.FiniteSupportedWitnessRetraction",
     "OAI.NumberTheory.DirichletL.Moments.FiniteRowNaturalState",
-    "OAI.NumberTheory.DirichletL.Moments.DetectorPairControl"
+    "OAI.NumberTheory.DirichletL.Moments.DetectorPairControl",
+    "OAI.NumberTheory.DirichletL.Detector.ArbitraryTotalSourceBatch",
+    "OAI.NumberTheory.DirichletL.Detector.ActualSourceBatchTotal",
+    "OAI.NumberTheory.DirichletL.Moments.FiberPositiveAtLowKappa",
+    "OAI.NumberTheory.DirichletL.Energy.FiniteLabelPositiveAtLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.MarkedHeightBudgetLowKappa"
   ],
   "declarations": [
     "OAI.SevenEighths.ProbeEuler.unramifiedClosed_open_region_bound_lowKappa",
@@ -581,7 +708,14 @@
     "OAI.SevenEighths.FiniteSupportedWitnessRetraction.finite_supported_witness_retraction",
     "OAI.SevenEighths.FiniteRowNaturalState.eventually_finite_row_natural_state",
     "OAI.SevenEighths.DetectorPairControl.detectorPairProfiles",
-    "OAI.SevenEighths.DetectorPairControl.detectorPairProfiles_squared_control_uniform"
+    "OAI.SevenEighths.DetectorPairControl.detectorPairProfiles_squared_control_uniform",
+    "OAI.SevenEighths.ProbeHighRowFamily.physical_slot_widths_total",
+    "OAI.SevenEighths.ProbeHighRowFamily.retainedSourceBatchTotal",
+    "OAI.SevenEighths.ProbeHighRowFamily.actual_source_batch_total",
+    "OAI.SevenEighths.FiberPositiveAtLowKappa.actual_finite_fiber_bound_of_positiveAt",
+    "OAI.SevenEighths.FiniteLabelPositiveAtLowKappa.eventually_finite_label_positiveAt",
+    "OAI.SevenEighths.MarkedHeightBudgetLowKappa.exists_losses_before_height",
+    "OAI.SevenEighths.MarkedHeightBudgetLowKappa.actual_growth_absorption"
   ],
   "note": "Authored sources retain per-file verification states and exact source hashes. Complete actual-module replay evidence applies only to listed selected declarations; standalone prototypes are distinct. Full analytic moment and zero-free supplies remain pending. Selected roots permit only three standard axioms; exact imported original PNTA holes, if present, are explicitly recorded and absent from selected kernel exports."
 }

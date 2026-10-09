@@ -1,0 +1,89 @@
+{
+  "status": "prepared_no_source_controller_started",
+  "prepared_utc": "2026-10-09T08:45:42.478702+00:00",
+  "original_git_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "actual_state_sha256_unchanged": "641601d63919da2a49f0402c646ef13fd7fe84f673a0b5195da54969ce9b9721",
+  "current41_aggregate_patch_sha256_unchanged": "58ddc470f93afd26265525e78b951706ccb202839c6768f7ef39006af699dc42",
+  "current41_freeze_metadata_sha256_unchanged": "c3bf449b9f8bb9cc20dbb3669e2b5277f5a5763ade65a3981f7e6b04383a2a95",
+  "new_original_sources": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Detector.DetectorBatch",
+      "original_git_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "pinned_blob_raw_sha256": "1b10930a0dba429879c4ee3e48b94f502ca1cc6a28d3bd3ef89a896982366d45",
+      "pinned_blob_lf_sha256": "1b10930a0dba429879c4ee3e48b94f502ca1cc6a28d3bd3ef89a896982366d45",
+      "was_present": true,
+      "installed_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Detector\\DetectorBatch.lean",
+      "exact_pin_bytes_match": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Detector.SourceBatch",
+      "original_git_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "pinned_blob_raw_sha256": "39c56d463054b01be89d79179a73e6efc74c4ffcc41aacf2cbd33565e04b0b84",
+      "pinned_blob_lf_sha256": "39c56d463054b01be89d79179a73e6efc74c4ffcc41aacf2cbd33565e04b0b84",
+      "was_present": true,
+      "installed_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Detector\\SourceBatch.lean",
+      "exact_pin_bytes_match": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.PrimeRows.CubeSupportedWitness",
+      "original_git_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "pinned_blob_raw_sha256": "e0745ae7b7c7d38c8f35cea95a919a5361d5a6193c07a978e4c6f0441addc478",
+      "pinned_blob_lf_sha256": "e0745ae7b7c7d38c8f35cea95a919a5361d5a6193c07a978e4c6f0441addc478",
+      "was_present": true,
+      "installed_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\CubeSupportedWitness.lean",
+      "exact_pin_bytes_match": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.PrimeRows.DetectorReady",
+      "original_git_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "pinned_blob_raw_sha256": "5609221f1f947d7cc23f18dfb933fec07bd3f30b2ccf744eaeb60c570be4c5a2",
+      "pinned_blob_lf_sha256": "5609221f1f947d7cc23f18dfb933fec07bd3f30b2ccf744eaeb60c570be4c5a2",
+      "was_present": true,
+      "installed_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\DetectorReady.lean",
+      "exact_pin_bytes_match": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.PrimeRows.TargetPrincipal",
+      "original_git_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "pinned_blob_raw_sha256": "f1a27c6555c3b0b9562b26ee1de00cc8e1f200dad3007b5daa7934827bc3ff27",
+      "pinned_blob_lf_sha256": "f1a27c6555c3b0b9562b26ee1de00cc8e1f200dad3007b5daa7934827bc3ff27",
+      "was_present": true,
+      "installed_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\TargetPrincipal.lean",
+      "exact_pin_bytes_match": true
+    }
+  ],
+  "authored_sources": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Detector.ArbitraryTotalSourceBatch",
+      "roots": [
+        "OAI.SevenEighths.ProbeHighRowFamily.physical_slot_widths_total",
+        "OAI.SevenEighths.ProbeHighRowFamily.retainedSourceBatchTotal"
+      ],
+      "source_sha256": "65360fb7aa6f34916553142ee24f67ce91c3c35cbe4a141c9d21846fb6023f97",
+      "bytes": 3130,
+      "stage_path": "E:\\codex-build\\RH-Weil\\tmp\\source-batch-total-phase\\files\\OAI\\NumberTheory\\DirichletL\\Detector\\ArbitraryTotalSourceBatch.lean",
+      "installed_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Detector\\ArbitraryTotalSourceBatch.lean",
+      "exact_stage_bytes_match": true,
+      "status": "prepared_not_actual_compiled_or_independent_replayed"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Detector.ActualSourceBatchTotal",
+      "roots": [
+        "OAI.SevenEighths.ProbeHighRowFamily.actual_source_batch_total"
+      ],
+      "source_sha256": "aca72c6cc970e283a7054fe4b7250c5b741e95b1e9b134722d067a219eab6116",
+      "bytes": 4266,
+      "stage_path": "E:\\codex-build\\RH-Weil\\tmp\\source-batch-total-phase\\files\\OAI\\NumberTheory\\DirichletL\\Detector\\ActualSourceBatchTotal.lean",
+      "installed_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Detector\\ActualSourceBatchTotal.lean",
+      "exact_stage_bytes_match": true,
+      "status": "prepared_not_actual_compiled_or_independent_replayed"
+    }
+  ],
+  "proposed_additional_targets": [
+    "OAI.NumberTheory.DirichletL.Detector.SourceBatch",
+    "OAI.NumberTheory.DirichletL.Detector.ArbitraryTotalSourceBatch",
+    "OAI.NumberTheory.DirichletL.Detector.ActualSourceBatchTotal"
+  ],
+  "authored_root_count": 3,
+  "mathematical_scope": "Real source Batch construction with arbitrary positive total; unchanged actual supported-witness budget; no Moments instance or zero-free conclusion"
+}

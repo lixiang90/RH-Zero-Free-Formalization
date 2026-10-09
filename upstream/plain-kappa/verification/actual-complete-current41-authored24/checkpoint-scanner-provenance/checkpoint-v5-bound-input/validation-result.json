@@ -1,0 +1,105 @@
+{
+  "helper_kind": "distinct_checkpoint_evidence_scanner_not_source_controller_or_kernel_runner",
+  "validation_status": "one_actual_27_capture_and_two_negative_cases_passed",
+  "v3_sha256": "85bc5c0edbc97d2b2bfd1f8ef361e01175fd207d7713e04c6cbdfe8d640ef07c",
+  "prior_v4_sha256": "95dff47e67f837b6b99f4c60cfc74ee689b687b4c819cd2389d86069551afe07",
+  "final_v5_sha256": "c741bac1cd8f179d364a7e1e534b5fecccb1496dc0c65331c2c04ce7b87b99f2",
+  "new_guard_scope": "target JSON validation and exact before/after rawbyte binding before evidence writes",
+  "unchanged_scope": "source/artifact scan, state before/after guard, evidence writer, source builder and independent kernel runner",
+  "negative_cases": [
+    {
+      "case": "empty",
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\checkpoint_actual_build_v5.py",
+        "--session",
+        "79576",
+        "--driver",
+        "serial_build_bounded8_v2.py",
+        "--source-freeze",
+        "tmp/actual-math-repairs/physical-kappa-nonnegative-20261009-155446/current-41-source-freeze.json",
+        "--targets-file",
+        "E:\\codex-build\\RH-Weil\\tmp\\source-batch-total-phase\\checkpoint-v5-bound-input\\inputs\\empty.json"
+      ],
+      "exit_code": 1,
+      "input_raw_sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "output_and_state_unchanged": true,
+      "before": {
+        "current-checkpoint.json": "e5931de4194d790a7a9195c0bdbb6b6dd5dd6bba37afc6fd329f1bda114e7215",
+        "successful-module-hashes.json": "26c7dc4dcbc10923d5b099f68a08ec35f9e02fc0dc3a39ad8bf9b0d356dfe9c3",
+        "state.json": "505a8b3ab0ce81aaaf812a25495ae41d16c1ea8ebd874ac232882ea5e4267fec"
+      },
+      "after": {
+        "current-checkpoint.json": "e5931de4194d790a7a9195c0bdbb6b6dd5dd6bba37afc6fd329f1bda114e7215",
+        "successful-module-hashes.json": "26c7dc4dcbc10923d5b099f68a08ec35f9e02fc0dc3a39ad8bf9b0d356dfe9c3",
+        "state.json": "505a8b3ab0ce81aaaf812a25495ae41d16c1ea8ebd874ac232882ea5e4267fec"
+      },
+      "log_sha256": "5101d730c732bc0ba8961bcdf7eb4d9d4862c6bf52a22d6807d670825a599e55"
+    },
+    {
+      "case": "duplicate",
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\checkpoint_actual_build_v5.py",
+        "--session",
+        "79576",
+        "--driver",
+        "serial_build_bounded8_v2.py",
+        "--source-freeze",
+        "tmp/actual-math-repairs/physical-kappa-nonnegative-20261009-155446/current-41-source-freeze.json",
+        "--targets-file",
+        "E:\\codex-build\\RH-Weil\\tmp\\source-batch-total-phase\\checkpoint-v5-bound-input\\inputs\\duplicate.json"
+      ],
+      "exit_code": 1,
+      "input_raw_sha256": "0dc8de9b6c605fab1328422600021fb6e19cb84f2ba38acc45a51a717a3c7a92",
+      "output_and_state_unchanged": true,
+      "before": {
+        "current-checkpoint.json": "e5931de4194d790a7a9195c0bdbb6b6dd5dd6bba37afc6fd329f1bda114e7215",
+        "successful-module-hashes.json": "26c7dc4dcbc10923d5b099f68a08ec35f9e02fc0dc3a39ad8bf9b0d356dfe9c3",
+        "state.json": "505a8b3ab0ce81aaaf812a25495ae41d16c1ea8ebd874ac232882ea5e4267fec"
+      },
+      "after": {
+        "current-checkpoint.json": "e5931de4194d790a7a9195c0bdbb6b6dd5dd6bba37afc6fd329f1bda114e7215",
+        "successful-module-hashes.json": "26c7dc4dcbc10923d5b099f68a08ec35f9e02fc0dc3a39ad8bf9b0d356dfe9c3",
+        "state.json": "505a8b3ab0ce81aaaf812a25495ae41d16c1ea8ebd874ac232882ea5e4267fec"
+      },
+      "log_sha256": "725a643e3d88faaf170497f30d9b1d51d820001728bccf3e0978c54e631fe16a"
+    }
+  ],
+  "nonstring_and_empty_string_guard": "present in source; no extra execution beyond root-requested two negative cases",
+  "actual_capture_command": [
+    "C:\\Python312\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\checkpoint_actual_build_v5.py",
+    "--session",
+    "79576",
+    "--driver",
+    "serial_build_bounded8_v2.py",
+    "--source-freeze",
+    "tmp/actual-math-repairs/physical-kappa-nonnegative-20261009-155446/current-41-source-freeze.json",
+    "--targets-file",
+    "E:\\codex-build\\RH-Weil\\tmp\\source-batch-total-phase\\targets.json"
+  ],
+  "actual_working_directory": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+  "targets_file_absolute_path": "E:\\codex-build\\RH-Weil\\tmp\\source-batch-total-phase\\targets.json",
+  "targets_file_sha256": "1cf4ff5ce2b786863b748362f2fc39fd13a45d5e9d9d3d50d469539c97497cbb",
+  "targets_file_before_after_bytes_match": true,
+  "state_sha256_unchanged": "505a8b3ab0ce81aaaf812a25495ae41d16c1ea8ebd874ac232882ea5e4267fec",
+  "actual_target_count": 27,
+  "successful_module_count": 2271,
+  "failed_module_count": 0,
+  "source_artifact_bindings": true,
+  "current41_bindings": true,
+  "does_not_supply_lean_or_kernel_evidence": true,
+  "final_checkpoint": "E:\\codex-build\\RH-Weil\\tmp\\source-batch-total-phase\\checkpoint-v5-bound-input\\current-checkpoint.json",
+  "packed_actual_targets_path": "inputs/actual-27.json",
+  "packed_actual_targets_sha256": "1cf4ff5ce2b786863b748362f2fc39fd13a45d5e9d9d3d50d469539c97497cbb"
+}

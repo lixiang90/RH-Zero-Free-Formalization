@@ -5,12 +5,13 @@ our cubic boundary to the actual Hecke arithmetic in OpenAI/math. Author:
 **Li Xiang / lixiang90**. It is independent of the primary Lean 4.33.0-rc2
 library, and its results are counted separately.
 
-**The complete improved zero-free region is still pending.** All 78 selected
-roots in the nineteen authored modules below passed actual compilation, fresh
+**The complete improved zero-free region is still pending.** All 85 selected
+roots in the twenty-four authored modules below passed actual compilation, fresh
 complete types/axioms and independent Nano replay. The complete patched
 low-kappa energy induction and terminal output passed a separate four-root
-independent replay. The final source controller compiled all 2261 custom
-dependency modules and 21 targets successfully.
+independent replay. The final source controller compiled all 2271 custom
+dependency modules and 27 targets successfully. The previous 2261 successful
+modules were reused only after their source/dependency/artifact bindings matched.
 The terminal output preserves its arithmetic inputs. Complete detector marked
 moments, improved counts and the physical low/raw-high probe remain open.
 
@@ -28,8 +29,8 @@ The original d18941bd revision is retained in the historical evidence. Four
 final proof-body repairs supply the exact weaker premises expected by existing
 APIs; their declaration headers and mathematical hypotheses are unchanged.
 
-The [authored-source manifest](extensions/manifest.json) records nineteen extra
-modules with 78 selected roots separately from those patched upstream sources.
+The [authored-source manifest](extensions/manifest.json) records twenty-four extra
+modules with 85 selected roots separately from those patched upstream sources.
 Each has an exact
 source hash, declaration list and verification status.
 
@@ -53,6 +54,11 @@ source hash, declaration list and verification status.
 | Hecke.FiniteSupportedWitnessRetraction | Extend actual finite supported witnesses to all FreeRows and preserve the complete original witnesses by HEq on retained rows. | 1 root passed actual compilation, fresh complete types/axioms and the joint 6-root replay. |
 | Moments.FiniteRowNaturalState | Construct actual NaturalState with a fixed radial profile and keep predicate exactly the supplied finite rows. | 1 root passed actual compilation, fresh complete types/axioms and the joint 6-root replay. |
 | Moments.DetectorPairControl | Construct actual detector Profiles and prove the squared control bound C^4(1+norm(t))^(4J), with constants before all profile parameters. | 2 roots passed actual compilation, fresh complete types/axioms and the joint 6-root replay. |
+| Moments.FiberPositiveAtLowKappa | Apply the actual PositiveAt interface to the same fiber marked polynomial/product sum, retaining its state, capacity, window, frequency and coprimality gates. | 1 root passed actual compilation, fresh complete types/axioms and the joint 7-root replay. |
+| Energy.FiniteLabelPositiveAtLowKappa | Construct actual terminal PositiveAt and unify its constants and eventual threshold for a fixed finite character/ideal family, including the empty-family case. | 1 root passed actual compilation, fresh complete types/axioms and the joint 7-root replay. |
+| Detector.ArbitraryTotalSourceBatch | Prove the actual supply condition for any positive slot total Lambda with d<=37*Lambda/7; construct retainedSourceBatchTotal from real supported witnesses. | 2 roots passed actual compilation, fresh complete types/axioms and the joint 7-root replay. |
+| Detector.ActualSourceBatchTotal | Obtain the real supported witnesses from the actual source-cube detector gates, then construct the complete source Batch with all data/profile/upper/external identities. | 1 root passed actual compilation, fresh complete types/axioms and the joint 7-root replay. |
+| Moments.MarkedHeightBudgetLowKappa | Fix modulus/energy losses before degree and J, then choose the positive height exponent; absorb both actual height factors into U^(1+epsilon_m). | 2 roots passed actual compilation, fresh complete types/axioms and the joint 7-root replay. |
 
 The widened Euler domain is a domain for the **correction factor**, not a
 zero-free region for an L-function. The sixfold Mellin pole remains z=1/6,
@@ -109,7 +115,13 @@ checks 75,015 transitive declarations from one root. The
 checks 82,748 from three roots. The
 [fiber/state/profile replay](verification/fiber-state-pair6/strict-replay-result.json)
 checks 87,870 transitive declarations from the six remaining finite-row roots. Together the authored selected
-set contains 78 distinct declarations across 19 modules.
+set contains 78 distinct declarations across the historical 19 modules.
+The [source-Batch/PositiveAt/height replay](verification/sourcebatch-positiveat-height7/strict-replay-result.json)
+checks the seven new roots across five further modules. The current authored
+set therefore contains 85 distinct selected declarations across 24 modules.
+The five additional original OAI sources were restored from exact pinned Git
+blobs and compiled without compatibility changes; the original SourceBatch
+was a separate compilation target, not an extra independently selected root.
 
 The patched actual induction has a separate
 [terminal four-root replay](verification/terminal4-current41/strict-replay-result.json),
@@ -146,9 +158,11 @@ the actual detector/energy dictionary. The new
 exact source snapshots and historical prototypes. The
 [finite-row integration note](../../docs/finite-row-energy-integration.zh.md)
 explains the now constructed radial weight, NaturalState, witness retraction
-and fiber energy bridge. Canonical Batch admission, uniform finite-label
-constants, the height-loss budget, full Moments and detector count still
-require further integration.
+and fiber energy bridge. The arbitrary-total source Batch now has a proved actual constructor and
+fixed finite-label constants are unified. The deterministic height budget is
+also proved. Actual source/state admission and capacity/height bounds must
+still be assembled to supply the marked moment field; inverse fields,
+complete Moments, improved detector count and the physical probe remain open.
 
 ## Pinned sources and tools
 

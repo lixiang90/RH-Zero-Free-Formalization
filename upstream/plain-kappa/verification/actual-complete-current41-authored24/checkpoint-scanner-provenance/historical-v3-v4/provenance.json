@@ -1,0 +1,47 @@
+{
+  "kind": "distinct_checkpoint_evidence_scanner_not_source_controller_or_kernel_runner",
+  "source_v3_sha256": "85bc5c0edbc97d2b2bfd1f8ef361e01175fd207d7713e04c6cbdfe8d640ef07c",
+  "authored_v4_sha256": "95dff47e67f837b6b99f4c60cfc74ee689b687b4c819cd2389d86069551afe07",
+  "exact_two_text_edits_verified": true,
+  "logic_delta": [
+    "required --targets-file argument",
+    "read explicit target JSON instead of hardcoded 21 targets"
+  ],
+  "scanner_guards_and_writer_logic_delta": "none",
+  "read_only_inputs": [
+    "state.json",
+    "source files",
+    "compiled artifact files",
+    "frozen source manifest",
+    "latest summary"
+  ],
+  "writes_same_evidence_outputs_as_v3": [
+    "current-checkpoint.json",
+    "successful-module-hashes.json"
+  ],
+  "does_not_write": [
+    "state.json",
+    "Lean sources",
+    "compiled artifacts"
+  ],
+  "launches_no_lean_or_nanoda": true,
+  "actual_command": [
+    "C:\\Python312\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\checkpoint_actual_build_v4.py",
+    "--session",
+    "79576",
+    "--driver",
+    "serial_build_bounded8_v2.py",
+    "--source-freeze",
+    "tmp/actual-math-repairs/physical-kappa-nonnegative-20261009-155446/current-41-source-freeze.json",
+    "--targets-file",
+    "E:\\codex-build\\RH-Weil\\tmp\\source-batch-total-phase\\targets.json"
+  ],
+  "actual_working_directory": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+  "actual_execution": "capture_checkpoint.py invoked this exact command; checkpoint-capture.log retained",
+  "source_modules_compile_not_used_to_validate_helper": true,
+  "independent_strict_and_kernel_runner": "unchanged existing v3 runner e9cc... owned by upstream_build_prep; this helper is not that tool"
+}

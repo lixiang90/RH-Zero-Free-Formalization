@@ -1,0 +1,8 @@
+Initialized empty Git repository in E:/codex-build/RH-Zero-Free-Formalization/tmp/extension-guard-negatives-final24/unlisted-owned-import-output/.git/
+Traceback (most recent call last):
+  File "E:\codex-build\RH-Zero-Free-Formalization\upstream\plain-kappa\prepare_low_kappa_capsule.py", line 298, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "E:\codex-build\RH-Zero-Free-Formalization\upstream\plain-kappa\prepare_low_kappa_capsule.py", line 209, in main
+    raise ValueError("Unlisted authored or external import: "+mod)
+ValueError: Unlisted authored or external import: LowKappaParameters

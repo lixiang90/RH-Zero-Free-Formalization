@@ -397,7 +397,8 @@
   ],
   "targets": [
     "OAI.NumberTheory.DirichletL.Moments.ReflectionRetainedLength",
-    "OAI.NumberTheory.DirichletL.Energy.CertifiedExistence"
+    "OAI.NumberTheory.DirichletL.Energy.CertifiedExistence",
+    "OAI.NumberTheory.DirichletL.Detector.SourceBatch"
   ],
   "declarations": [
     "OAI.SevenEighths.CenteredMomentReflectionRetainedLength.retained_scale_lower",
@@ -501,5 +502,8 @@
   "modified_source_declarations_checked_total": 21,
   "unmodified_source_declarations_checked_total": 1,
   "selected_terminal_certificate_statements_checked": true,
-  "unconditional_zeta_zero_free_bound_supplied_by_this_selected_audit": false
+  "unconditional_zeta_zero_free_bound_supplied_by_this_selected_audit": false,
+  "additional_unmodified_original_build_targets": [
+    "OAI.NumberTheory.DirichletL.Detector.SourceBatch"
+  ]
 }

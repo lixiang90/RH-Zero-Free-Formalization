@@ -1,26 +1,30 @@
 {
   "path_base": "repository_root",
-  "scope": "Root-owned repository README and documentation including all60 exact-byte finite-row audit artifacts and finite-row integration are outside the capsule directory. Their hashes are separate from capsule-relative artifacts; ignored logs are included as exact bound bytes.",
+  "scope": "Root-owned repository README and documentation including all60 exact-byte finite-row audit artifacts and finite-row integration are outside the capsule directory. Their hashes are separate from capsule-relative artifacts; ignored logs are included as exact bound bytes. Current mathematical scope is authored24/85 with separate selected upstream22 and external Rellich54.",
   "artifacts": {
-    "docs/arithmetic-integration.md": {
-      "bytes": 9281,
-      "sha256": "17843acc8738ecfc486f414cc70d0ed176cc003141eb837f99d40276947bf1b5"
+    "README.md": {
+      "bytes": 7909,
+      "sha256": "43f1b3b27886ca240dd76429f8e9e39270e2b135073de0cd5ec054217f9cf6e2"
     },
-    "docs/finite-row-energy-audit/audit.md": {
-      "bytes": 16915,
-      "sha256": "1cf6b5a37c9363c61a3cee2744a1c804a70e993c2909eec6f95253c9597c1efe"
+    "docs/arithmetic-integration.md": {
+      "bytes": 9636,
+      "sha256": "3b8119e0d828aba233c6d106e14bfbb2af56efb5b490b03d34db1d1fd14874b3"
     },
     "docs/finite-row-energy-audit/FinitePositiveRowDomination.candidate.lean": {
       "bytes": 2951,
       "sha256": "b1c646e98cd1b8e08a06da8076e4925c2d36086b9b443b5406dee858c270b01b"
     },
-    "docs/finite-row-energy-audit/metadata.json": {
-      "bytes": 48801,
-      "sha256": "ebb8a35492d53e78ecdea8930e01e8bb89d17d33a40b1422336777efb5963157"
-    },
     "docs/finite-row-energy-audit/README.md": {
       "bytes": 1218,
       "sha256": "78a4a3b9191e679ecb5c8ce79c4345c7dfab89d82ec5cb37b0c1958cf20108ba"
+    },
+    "docs/finite-row-energy-audit/audit.md": {
+      "bytes": 16915,
+      "sha256": "1cf6b5a37c9363c61a3cee2744a1c804a70e993c2909eec6f95253c9597c1efe"
+    },
+    "docs/finite-row-energy-audit/metadata.json": {
+      "bytes": 48801,
+      "sha256": "ebb8a35492d53e78ecdea8930e01e8bb89d17d33a40b1422336777efb5963157"
     },
     "docs/finite-row-energy-audit/source-snapshots/OAI/NumberTheory/DirichletL/Detector/DetectorMomentData.lean": {
       "bytes": 2851,
@@ -247,16 +251,8 @@
       "sha256": "5bf07ed42ea9380777bc4c9424173b99a8e355a8a2731ef8eda1fdb5b68e99bc"
     },
     "docs/finite-row-energy-integration.zh.md": {
-      "bytes": 5441,
-      "sha256": "63d12c7e1fb0b4e72114df783b9633660e0d5acf3c38ae7a0d34dbc4f514e3a7"
-    },
-    "docs/marked-moment-audit/audit.zh.md": {
-      "bytes": 16082,
-      "sha256": "17c08fdf4f67c69a038309d1bb85bb811edfb903d4bdd775bf1a4f8790b7d40b"
-    },
-    "docs/marked-moment-audit/canonical-row-domain.zh.md": {
-      "bytes": 2083,
-      "sha256": "ecc3a85624a4dd4df8fbd027a92986b20ce6d2476969cd146194922ed2ac15ce"
+      "bytes": 7813,
+      "sha256": "92520510af60af949de316f6bd75a1d2ad07b44fb4522015228f01a0afd7fe19"
     },
     "docs/marked-moment-audit/IdentityClassCoefficient.lean.raw-source.json": {
       "bytes": 1750,
@@ -266,21 +262,29 @@
       "bytes": 1463,
       "sha256": "d5333fe169c6f20868c27f5506a728b4f019dcb74e45cd9a82d5e63ecfd9f7a7"
     },
+    "docs/marked-moment-audit/audit.zh.md": {
+      "bytes": 16082,
+      "sha256": "17c08fdf4f67c69a038309d1bb85bb811edfb903d4bdd775bf1a4f8790b7d40b"
+    },
+    "docs/marked-moment-audit/canonical-row-domain.zh.md": {
+      "bytes": 2083,
+      "sha256": "ecc3a85624a4dd4df8fbd027a92986b20ce6d2476969cd146194922ed2ac15ce"
+    },
     "docs/marked-moment-audit/source-snapshot.json": {
       "bytes": 14789,
       "sha256": "213d3bf1dcc70ed523b94ad33f629c92ed6aec672e6b861fafa0e6f94b4ce056"
     },
     "docs/plain-kappa-extension.md": {
       "bytes": 5168,
-      "sha256": "74ca70cf0d41483ca45459820e1e8082cc0deaa71ccc3e1bb5f89247b30688a7"
+      "sha256": "d45db949861b3656f08f23aa4ef5d74c51a473da9f292e0e9bd9cb4ffc161ce4"
+    },
+    "docs/pnta-normalizer-audit/README.md": {
+      "bytes": 1320,
+      "sha256": "12eae3886e3abc78b0f700c318de5c4addee8e6069f9361a3ddacc40406924c7"
     },
     "docs/pnta-normalizer-audit/audit.md": {
       "bytes": 4167,
       "sha256": "0b4681baf48586b2a15fa7eff8a9e1b1891c0103b38d04ac5ed84ece2398f16b"
-    },
-    "docs/pnta-normalizer-audit/leaf-fresh-evidence/actual-supplies-axes.log": {
-      "bytes": 1436,
-      "sha256": "a5492f8c68ae3b2291db5bbcb08952d2edb71ee6b9258f97846365506986960b"
     },
     "docs/pnta-normalizer-audit/leaf-fresh-evidence/ActualSuppliesAudit.lean": {
       "bytes": 346,
@@ -290,6 +294,10 @@
       "bytes": 516,
       "sha256": "e4e4db002fe8112e38cba7068248304001e403284950fe37248ce297c5eb6d44"
     },
+    "docs/pnta-normalizer-audit/leaf-fresh-evidence/actual-supplies-axes.log": {
+      "bytes": 1436,
+      "sha256": "a5492f8c68ae3b2291db5bbcb08952d2edb71ee6b9258f97846365506986960b"
+    },
     "docs/pnta-normalizer-audit/leaf-fresh-evidence/fresh-axes.log": {
       "bytes": 1878,
       "sha256": "24496571e40d32b472a4226be210be77dc8a8b26089dcf8644c2a93bdefac9cb"
@@ -298,17 +306,9 @@
       "bytes": 6992,
       "sha256": "bd6aa8dfb869d8615b18bba06f942ce5cfd8502394aa8a03f29808dabc4831ec"
     },
-    "docs/pnta-normalizer-audit/README.md": {
-      "bytes": 1320,
-      "sha256": "12eae3886e3abc78b0f700c318de5c4addee8e6069f9361a3ddacc40406924c7"
-    },
     "docs/proof-status.md": {
-      "bytes": 8028,
-      "sha256": "3629d777af886fbe64d99a0794fec2ff2d7c167f90fcae045990020f90c329bd"
-    },
-    "README.md": {
-      "bytes": 7828,
-      "sha256": "a9493e8c1a104f49862304702a10b34992dcff4eee4e67820f5cd3cb399fa7d6"
+      "bytes": 8265,
+      "sha256": "6f5a8071089a2bc260f1de9af6d7a59ca4857a8d0fad20f0b43e9ceb191fc5b3"
     }
   }
 }

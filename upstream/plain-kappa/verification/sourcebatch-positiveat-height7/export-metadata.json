@@ -1,0 +1,32 @@
+{
+  "module": "UpstreamNano_20261009_165359",
+  "roots": [
+    "OAI.SevenEighths.ProbeHighRowFamily.physical_slot_widths_total",
+    "OAI.SevenEighths.ProbeHighRowFamily.retainedSourceBatchTotal",
+    "OAI.SevenEighths.ProbeHighRowFamily.actual_source_batch_total",
+    "OAI.SevenEighths.FiberPositiveAtLowKappa.actual_finite_fiber_bound_of_positiveAt",
+    "OAI.SevenEighths.FiniteLabelPositiveAtLowKappa.eventually_finite_label_positiveAt",
+    "OAI.SevenEighths.MarkedHeightBudgetLowKappa.exists_losses_before_height",
+    "OAI.SevenEighths.MarkedHeightBudgetLowKappa.actual_growth_absorption"
+  ],
+  "export_exit_code": 0,
+  "exporter_commit": "b18d673bd29b476466a51a3be1012df2ed322b10",
+  "exporter_sha256": "59c8e239262153a57d37b83869732b75b5b3b5a1689b489a0660a5e713dd3701",
+  "source_olean_sha256": "56b35d7dcbb2933a85606191a21da5fa0accdfa545b338646dea73b9b19b67e3",
+  "source_sha256": "368364e989a9ff302f75f5d9337b64623c762aa1f5ab27c4c73bf1d35ac70ca2",
+  "export_sha256": "2a667225b762d04536888877174becb9a06ac3e0df014d5db5fb231793a7326c",
+  "export_bytes": 1154089645,
+  "actual_export_command": [
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-kernel\\lean4export\\.lake\\build\\bin\\lean4export.exe",
+    "UpstreamNano_20261009_165359",
+    "--",
+    "OAI.SevenEighths.ProbeHighRowFamily.physical_slot_widths_total",
+    "OAI.SevenEighths.ProbeHighRowFamily.retainedSourceBatchTotal",
+    "OAI.SevenEighths.ProbeHighRowFamily.actual_source_batch_total",
+    "OAI.SevenEighths.FiberPositiveAtLowKappa.actual_finite_fiber_bound_of_positiveAt",
+    "OAI.SevenEighths.FiniteLabelPositiveAtLowKappa.eventually_finite_label_positiveAt",
+    "OAI.SevenEighths.MarkedHeightBudgetLowKappa.exists_losses_before_height",
+    "OAI.SevenEighths.MarkedHeightBudgetLowKappa.actual_growth_absorption"
+  ],
+  "compiler": "Lean (version 4.34.1, x86_64-w64-windows-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)"
+}

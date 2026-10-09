@@ -82,8 +82,11 @@ An unconditional improved-region theorem still requires kernel-checked proofs of
 1. Instantiate the terminal energy with the actual canonical finite detector
 rows and supply the complete marked moments. The new finite-row modules
 construct the radial profile, NaturalState and witness retraction and prove
-the actual fiber-to-energy dictionary. Canonical Batch admission, capacity
-coverage and the uniform height budget remain to be assembled.
+the actual fiber-to-energy dictionary. ActualSourceBatchTotal now constructs
+the source Batch for arbitrary positive total length from the actual detector
+and row gates. Finite-label PositiveAt constants and deterministic height
+absorption are proved. Their actual source/state admission and capacity/height
+bounds still need to be assembled into the marked moment field.
 2. The flexible compensated probe for new lx, ly, h and e, including its
 actual reflected-energy estimate. The new lowGramFactor and physical-scale
 extension proves the variable-exponent scale gate; the full low-probe bound

@@ -32,15 +32,37 @@ DetectorPairControl 对实际 p=detectorPairProfiles 证明
 
 两个 sourceControl 相乘后还要平方，频率指数因此是 4J。J、C 先于所有 profile 参数；它们不随所选有限行或高度变化。径向函数也先固定，其 diagonalControl 可以进入共同常数。
 
+## 从实际 source Batch 到终端上界
+
+ArbitraryTotalSourceBatch 保留原 Batch 的真实 supply=7/37 条件。对 Lambda>0、d>=dmin>0、sum(ell)=Lambda、ell_s<=dmin*mesh，条件 d<=37*Lambda/7 推出所有宽度 ell_s/d 正且不超过 mesh，并满足 supply。retainedSourceBatchTotal 调用原实际构造，保留已供给的 SupportedWitness。
+
+ActualSourceBatchTotal 进一步调用原 supported_witnesses_from_source_cube，实际构造 Batch 并证明 rows、data、reverse、slots、widths、profile、upper、external、mesh、binWidth 和有限行 family 的完整字典。它保留中央行带、校准非零、rowNorm<=Z^(d-margin)、检测器 current/next maxima、a>51/100 及原见证预算
+
+    12e*(22+2) + 8*kappa_w + 2*heightCost <= epsilon/2.
+
+这里 kappa_w 是小见证参数，和能量的 kappaTerminal 分别使用。总长度只在 supply 推导中参与；新的 dmax<=37*Lambda/7 替代原 dmax<=37/42。原窗口和 external 仍可指定，实际使用时要给出统一 profile/upper 与高度界。
+
+FiberPositiveAtLowKappa 将真实 PositiveAt 应用到同一个 marked square sum。FiniteLabelPositiveAtLowKappa 在固定有限 eta/Q 族上从真正的 terminal certificate 构造 PositiveAt，并统一常数与 atTop 阈值，包含空标签集。它没有要求调用者另给 CertifiedBand 或 PositiveAt。
+
+MarkedHeightBudgetLowKappa 先选 rho、epsilon_E，再对 degree/J 和任意正 ceiling 选 tau。若 external 高度和测试频率均不超过 Z^h，则已证明
+
+    rho + epsilon_E + h*(degree+4J) <= dmin*epsilon_m
+
+足以把 energy 上界的两个高度因子吸收到固定常数乘 U^(1+epsilon_m)，U=Z^d。对源事件常取 h=2*tau，已证明的选择预算相应为 rho+epsilon_E+2*tau*(degree+4J)。这个确定性吸收不供给实际高度不等式本身。
+
+SourceMomentsAt 要求对每个满足实际 source 字典的 q、Batch 及非空 fiber 供给完整 Moments。这是固定 source 数据下的全称接口；只证明某一个选定 Batch 不够。完整 Moments 的 inverse_raw、inverse_marked、plain_marked、plain_unmarked 四个字段仍须分别供给。
+
+FiniteLabelPositiveAtLowKappa 的已验类型先固定有限 eta/Q maps，再存在 degree/S 和共同常数。RawMomentInput 还要求 degree 先于所有 eta 的更强量词顺序；后续须直接使用原生 terminal certificate 证明该统一性，不能仅从当前有限族类型推出。
+
 ## 下一步实际供给
 
-1. 从真正的中心 rowBand、source family 和 detector witnesses 构造 canonical Batch，证明 source coefficient/data 字典、宽度 ell_s/d、共同窗口与 upper、行范围和实际 external 的界。有限 witness 回缩解决类型延拓，不供给这些有限见证本身。
-2. 用完整低 κ terminal certificate 供给实际 PositiveAt，再应用 fiber 字典和已构造的 NaturalState。需要保留 β≥51/100、κTerminal≥37/50、2β−1≤κTerminal，以及 internalQ 的实际条件。κPlain 的 padding 与 terminal κ 要满足真实容量比较。
-3. 统一有限 source labels 的常数和阈值；在 certificate 的 degree/S 和 profile 的 J 确定后选择高度指数 τ，使
+1. 用已证明的 ActualSourceBatchTotal 作用于实际保留行与 detector maxima，供给其校准、行增长、margin 和 mesh 条件。再证明共同窗口与 upper、素理想互素和实际 external 的界。
+2. 接合已构造的有限标签 PositiveAt、fiber 字典和 NaturalState。需要保留 β≥51/100、κTerminal≥37/50、2β−1≤κTerminal，以及 internalQ 的实际条件。κPlain 的 padding 与 terminal κ 要满足真实容量比较。
+3. 应用已证明的有限标签统一与高度吸收；在 certificate 的 degree/S 和 profile 的 J 确定后选择高度指数 h，使
 
-       ρ + εE + τ*(degree+4J) ≤ dmin*εm.
+       ρ + εE + h*(degree+4J) ≤ dmin*εm.
 
-   εm 是 Moments 中独立的正实数。实际测试频率和 external 高度均需共同界；i≤I 的固定因子进入共同常数。由此才能从 Z^(d+ρ+εE) 推出 U^(1+εm)。τ 的选择先于后续 tail order。
+   εm 是 Moments 中独立的正实数。实际测试频率和 external 高度均需共同界；i≤I 的固定因子进入共同常数。由此才能从 Z^(d+ρ+εE) 推出 U^(1+εm)。源参数 τ 可取满足 h=2τ 的值，其选择先于后续 tail order。
 4. 把实际 marked sum 交给 generic plain_fiber_count，统一修改下游分母 6κPlain、crossing 和 count 优化，并分别供给 inverse_raw、inverse_marked、plain_unmarked。旧 Moments 的 plain_marked 固定 3/4+2Δ；其 inverse 参数不能替代新的 plain κ。
 5. 完成 variable lx/ly/total 的实际 reflected-energy 和 small/floor/outer estimates，组装完整 low/raw-high probe，并在一个固定 Lean 环境中验证最终算术结论。
 
