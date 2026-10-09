@@ -1,0 +1,20 @@
+{
+  "status": "pending_actual_module_verification",
+  "preparation_exit_code": 0,
+  "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "copied_OAI_module_count": 2212,
+  "changed_OAI_module_count": 41,
+  "targets": [
+    "OAI.NumberTheory.DirichletL.Moments.ReflectionRetainedLength",
+    "OAI.NumberTheory.DirichletL.Energy.CertifiedExistence"
+  ],
+  "all_declared_baseline_and_modified_source_hashes_verified": true,
+  "manifest_sha256": "78eedb1d4621568b2b7e9334a55ef85db8d128db6911be3434e05b290a2d01ff",
+  "patch_sha256": "d18941bdb3a32f42032c5e82c6518baa5dc03968ff8af652ca30d62d6467566e",
+  "tool_source_sha256": "8b3aa995020479e30889bf0c67dfbb03b80610e71000b0a69fffd3748f64386a",
+  "canonical_source_inventory_sha256": "e2acb8d9f92b5ff456f683f7b2d8bc20cf97c51c37f7313ed3d44d07ec449271",
+  "full_local_preparation_record_sha256": "ddeca610b9c04155ea62384a5c5e6e0407d72eedab3da72cd7d645364d004154",
+  "complete_analytic_moment_verified": false,
+  "full_OAI_target_kernel_checks_completed": false,
+  "independent_kernel_replay_completed": false
+}

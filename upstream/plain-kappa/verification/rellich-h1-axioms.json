@@ -1,0 +1,44 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\tmp\\rellich-h1-compat\\AxiomAudit.lean"
+  ],
+  "cwd": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+  "exit_code": 0,
+  "elapsed_seconds": 11.827999999979511,
+  "roots": [
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.C1c",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.continuous_grad",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.hasCompactSupport_grad",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.tsupport_grad_subset",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.memLp_of_mem_C1c",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.memLp_grad_of_mem_C1c",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.toL2Linear",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.toL2GradLinear",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.graph",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.isClosed_h1",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.instCompleteSpace_h1",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1ToL2",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1ToL2Grad"
+  ],
+  "audit_count": 14,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "unexpected_axioms": [],
+  "source_before_sha256": "6d1914ab35038f45373ea41b12e9a2bd626d4e38904baedd5d14b9019b93c703",
+  "source_after_sha256": "6d1914ab35038f45373ea41b12e9a2bd626d4e38904baedd5d14b9019b93c703",
+  "source_unchanged": true,
+  "output_olean_sha256": "fecac5e6e6438e0aec062fdc6c75673020453cb83925162c9a9d0e5603fbae92",
+  "checked": true
+}

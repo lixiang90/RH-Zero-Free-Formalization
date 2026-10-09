@@ -1,0 +1,12 @@
+{
+  "package": "rellich-kondrachov",
+  "package_pin": "70f85d4c1bf99c6e7d61e8be4daa6f3664d08d23",
+  "relative_source": "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/Translation.lean",
+  "before_raw_sha256": "df5da59873b2dd56140eebeb7c458042559a6c630d2a7633894b9fb3086841ab",
+  "baseline_lf_sha256": "41d04c2c2da0652c8e1ae17136b23e8bac75bde1ed70d30a9bd1f00e72b8ddc6",
+  "after_lf_sha256": "76f47626c2283f005570c29c2496b59b2452e9635937d26f26083e74446896ea",
+  "patch_sha256": "562e5ea9713debc4dad659511122f6ede8412d198c3dedaa77d298432f3c7dda",
+  "mathlib_pin": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "lean_version": "4.34.1",
+  "preserves_definitions_and_statements": true
+}

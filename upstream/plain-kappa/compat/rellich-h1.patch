@@ -1,0 +1,41 @@
+--- a/RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/H1.lean
++++ b/RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/H1.lean
+@@ -78,7 +78,8 @@
+     intro c f hf
+     refine ⟨hf.1.const_smul c, ?_⟩
+     -- `HasCompactSupport` is stable under pointwise scalar multiplication.
+-    simpa using (HasCompactSupport.smul_left (f := fun _ : E => c) hf.2)
++    simpa only [Pi.smul_def, Pi.mul_def, smul_eq_mul] using
++      (HasCompactSupport.smul_left (f := fun _ : E => c) hf.2)
+ 
+ /-- The pointwise gradient (as an `E`-valued function), via Riesz representation. -/
+ noncomputable def grad (f : E → ℝ) : E → E :=
+@@ -88,21 +89,25 @@
+   have hcont : Continuous (fderiv ℝ f) := hf.continuous_fderiv one_ne_zero
+   have : Continuous fun x => (InnerProductSpace.toDual ℝ E).symm (fderiv ℝ f x) :=
+     (InnerProductSpace.toDual ℝ E).symm.continuous.comp hcont
+-  simpa [grad] using this
++  change Continuous (fun x => (InnerProductSpace.toDual ℝ E).symm (fderiv ℝ f x))
++  exact this
+ 
+ lemma hasCompactSupport_grad {f : E → ℝ} (hf : HasCompactSupport f) :
+     HasCompactSupport (grad (E := E) f) := by
+   -- Outside the support of `f`, `fderiv` is identically `0`, hence so is `grad`.
+   have hf' : HasCompactSupport (fderiv ℝ f) := hf.fderiv ℝ
+   -- `grad` is composition with a linear map sending `0` to `0`.
+-  simpa [grad] using
++  change HasCompactSupport ((InnerProductSpace.toDual ℝ E).symm ∘ fderiv ℝ f)
++  exact
+     (HasCompactSupport.comp_left (f := fderiv ℝ f) (g := (InnerProductSpace.toDual ℝ E).symm)
+       hf' (by simp))
+ 
+ lemma tsupport_grad_subset (f : E → ℝ) : tsupport (grad (E := E) f) ⊆ tsupport f := by
+   have hcomp :
+       tsupport (grad (E := E) f) ⊆ tsupport (fderiv ℝ f) := by
+-    simpa [grad, Function.comp] using
++    change tsupport ((InnerProductSpace.toDual ℝ E).symm ∘ fderiv ℝ f) ⊆
++      tsupport (fderiv ℝ f)
++    exact
+       (tsupport_comp_subset
+         (g := (InnerProductSpace.toDual ℝ E).symm) (hg := by simp)
+         (f := fderiv ℝ f))

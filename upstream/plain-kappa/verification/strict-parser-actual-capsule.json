@@ -1,0 +1,51 @@
+{
+  "actual_lean_stage": {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-j1",
+      "StrictCapsuleAxiomAudit.lean"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 6.484,
+    "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\StrictCapsuleAxiomAudit.log",
+    "log_sha256": "2d8c28a84cc12617c6f2bee7b14e3ebe51f202e63ed36c00c97936af81d5fcbc"
+  },
+  "validation": {
+    "declaration_count": 2,
+    "checks": [
+      {
+        "declaration": "RHZeroFreeReflectionWidthCapsule.one_reflection_total_width",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RHZeroFreeReflectionWidthCapsule.positive_slot_width_drop",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "only_standard_axioms": true,
+    "audit_source_sha256": "d5c03451a03f47071238525f3ef4d56542d696c7fd2ac34db0c837e0404528ef",
+    "log_sha256": "2d8c28a84cc12617c6f2bee7b14e3ebe51f202e63ed36c00c97936af81d5fcbc"
+  },
+  "negative_parser_cases": {
+    "unexpected_axiom": {
+      "rejected": true,
+      "reason": "Unapproved transitive axioms: {'declaration': 'RHZeroFreeReflectionWidthCapsule.one_reflection_total_width', 'axioms': ['propext', 'UnapprovedRecordAxiom', 'Quot.sound']}"
+    },
+    "missing_line": {
+      "rejected": true,
+      "reason": "Fresh axiom output declaration count or names mismatch: expected=['RHZeroFreeReflectionWidthCapsule.one_reflection_total_width', 'RHZeroFreeReflectionWidthCapsule.positive_slot_width_drop'] found=[{'declaration': 'RHZeroFreeReflectionWidthCapsule.one_reflection_total_width', 'axioms': ['propext', 'Classical.choice', 'Quot.sound']}]"
+    }
+  },
+  "tool_source_sha256": "8b3aa995020479e30889bf0c67dfbb03b80610e71000b0a69fffd3748f64386a",
+  "scope": "Two pure arithmetic declarations, not the analytic moment"
+}

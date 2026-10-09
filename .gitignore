@@ -10,3 +10,4 @@ tmp/
 *.toc
 __pycache__/
 !verification/*.log
+!upstream/plain-kappa/verification/*.log

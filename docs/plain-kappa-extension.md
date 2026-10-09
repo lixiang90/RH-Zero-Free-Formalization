@@ -56,3 +56,7 @@ The complete arithmetic low-kappa certificate must be compiled and checked,
 then applied at kappaStar, before this extension is counted as the paper's
 plain-moment input. Passing scalar proofs or a static forbidden-token scan
 cannot substitute for that check.
+
+The frozen pending patch, exact source-preparation/build tools, separate
+Rellich compatibility patches and local checkpoint records are in
+[upstream/plain-kappa](../upstream/plain-kappa/README.md).

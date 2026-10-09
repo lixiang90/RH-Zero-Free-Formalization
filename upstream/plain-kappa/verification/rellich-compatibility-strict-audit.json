@@ -1,0 +1,226 @@
+{
+  "actual_lean_stage": {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-j1",
+      "StrictRellichCompatibilityAudit.lean"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 8.969,
+    "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\StrictRellichCompatibilityAudit.log",
+    "log_sha256": "5ec967db209b464041cded4a3de1025816b61665ac3a6f2d7bb875bbc492c2e3"
+  },
+  "validation": {
+    "declaration_count": 24,
+    "checks": [
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.C1c",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.continuous_grad",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.hasCompactSupport_grad",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.tsupport_grad_subset",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.memLp_of_mem_C1c",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.memLp_grad_of_mem_C1c",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.toL2Linear",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.toL2GradLinear",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.graph",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.isClosed_h1",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.instCompleteSpace_h1",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1ToL2",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1ToL2Grad",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.contDiff_translate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.hasCompactSupport_translate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.grad_translate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.mem_C1c_translate",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateC1c",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_ae_eq",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_toL2",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_toL2Grad",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "only_standard_axioms": true,
+    "audit_source_sha256": "d5735cae03c738749fa73ad932891b3a9a31a8b3a63343e23f3e49242279443a",
+    "log_sha256": "5ec967db209b464041cded4a3de1025816b61665ac3a6f2d7bb875bbc492c2e3"
+  },
+  "source_before_sha256": {
+    "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/H1.lean": "6d1914ab35038f45373ea41b12e9a2bd626d4e38904baedd5d14b9019b93c703",
+    "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/Translation.lean": "76f47626c2283f005570c29c2496b59b2452e9635937d26f26083e74446896ea"
+  },
+  "source_after_sha256": {
+    "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/H1.lean": "6d1914ab35038f45373ea41b12e9a2bd626d4e38904baedd5d14b9019b93c703",
+    "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/Translation.lean": "76f47626c2283f005570c29c2496b59b2452e9635937d26f26083e74446896ea"
+  },
+  "source_unchanged": true,
+  "tool_source_sha256": "8b3aa995020479e30889bf0c67dfbb03b80610e71000b0a69fffd3748f64386a",
+  "independent_kernel_replay_completed": false
+}

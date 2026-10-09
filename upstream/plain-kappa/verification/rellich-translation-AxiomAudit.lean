@@ -1,0 +1,11 @@
+import RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Translation
+#print axioms RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translate
+#print axioms RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.contDiff_translate
+#print axioms RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.hasCompactSupport_translate
+#print axioms RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.grad_translate
+#print axioms RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.mem_C1c_translate
+#print axioms RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateC1c
+#print axioms RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2
+#print axioms RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_ae_eq
+#print axioms RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_toL2
+#print axioms RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_toL2Grad

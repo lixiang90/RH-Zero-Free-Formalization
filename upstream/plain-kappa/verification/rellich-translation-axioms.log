@@ -1,0 +1,31 @@
+warning: rellich-kondrachov: repository 'E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake/packages\rellich-kondrachov' has local changes
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.contDiff_translate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.hasCompactSupport_translate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.grad_translate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.mem_C1c_translate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateC1c' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_ae_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_toL2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_toL2Grad' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

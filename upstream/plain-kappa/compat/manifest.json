@@ -1,0 +1,66 @@
+{
+  "status": "pending_full_OAI_target_verification",
+  "packages": [
+    {
+      "name": "rellich-kondrachov",
+      "repository": "https://github.com/abenenson/rellich-kondrachov.git",
+      "commit": "70f85d4c1bf99c6e7d61e8be4daa6f3664d08d23",
+      "status": "compiled_and_fresh_axiom_audited_locally_pending_independent_replay",
+      "patches": [
+        {
+          "file": "rellich-h1.patch",
+          "sha256": "606df7d60128aa6aa9a727cf5108fd219f8328f525bd121ee1ede61dd9663e06"
+        },
+        {
+          "file": "rellich-translation.patch",
+          "sha256": "562e5ea9713debc4dad659511122f6ede8412d198c3dedaa77d298432f3c7dda"
+        }
+      ],
+      "files": [
+        {
+          "path": "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/H1.lean",
+          "baseline_sha256": "ee3947364efb12d300786f62e49324a58e893bbd1cd3acd3b5fc09019e84b0da",
+          "modified_sha256": "6d1914ab35038f45373ea41b12e9a2bd626d4e38904baedd5d14b9019b93c703"
+        },
+        {
+          "path": "RellichKondrachov/Analysis/FunctionalSpaces/Sobolev/Euclidean/Translation.lean",
+          "baseline_sha256": "41d04c2c2da0652c8e1ae17136b23e8bac75bde1ed70d30a9bd1f00e72b8ddc6",
+          "modified_sha256": "76f47626c2283f005570c29c2496b59b2452e9635937d26f26083e74446896ea"
+        }
+      ],
+      "targets": [
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.H1",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Translation"
+      ],
+      "declarations": [
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.C1c",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.continuous_grad",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.hasCompactSupport_grad",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.tsupport_grad_subset",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.memLp_of_mem_C1c",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.memLp_grad_of_mem_C1c",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.toL2Linear",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.toL2GradLinear",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.graph",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.isClosed_h1",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.instCompleteSpace_h1",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1ToL2",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1ToL2Grad",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translate",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.contDiff_translate",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.hasCompactSupport_translate",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.grad_translate",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.mem_C1c_translate",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateC1c",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_ae_eq",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_toL2",
+        "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_toL2Grad"
+      ],
+      "preserves_definitions_and_statements": true,
+      "independent_kernel_replay_completed": false,
+      "license": "../licenses/Rellich-LICENSE"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\tmp\\rellich-translation-compat\\AxiomAudit.lean"
+  ],
+  "cwd": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain",
+  "exit_code": 0,
+  "elapsed_seconds": 11.516000000061467,
+  "roots": [
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translate",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.contDiff_translate",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.hasCompactSupport_translate",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.grad_translate",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.mem_C1c_translate",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateC1c",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_ae_eq",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_toL2",
+    "RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_toL2Grad"
+  ],
+  "audit_count": 10,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "unexpected_axioms": [],
+  "source_before_sha256": "76f47626c2283f005570c29c2496b59b2452e9635937d26f26083e74446896ea",
+  "source_after_sha256": "76f47626c2283f005570c29c2496b59b2452e9635937d26f26083e74446896ea",
+  "source_unchanged": true,
+  "output_olean_sha256": "4ac5e6c81b40f49cdf94a7ea64acf1e0544ed9f2e806c14b007bb7bc11716ce1",
+  "checked": true
+}

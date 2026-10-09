@@ -1,0 +1,168 @@
+warning: rellich-kondrachov: repository 'E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake/packages\rellich-kondrachov' has local changes
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.C1c.{u_1} {E : Type u_1} [NormedAddCommGroup E]
+  [InnerProductSpace ℝ E] : Submodule ℝ (E → ℝ)
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.C1c' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.continuous_grad.{u_1} {E : Type u_1}
+  [NormedAddCommGroup E] [InnerProductSpace ℝ E] [CompleteSpace E] {f : E → ℝ} (hf : ContDiff ℝ 1 f) :
+  Continuous (RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.grad f)
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.continuous_grad' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.hasCompactSupport_grad.{u_1} {E : Type u_1}
+  [NormedAddCommGroup E] [InnerProductSpace ℝ E] [CompleteSpace E] {f : E → ℝ} (hf : HasCompactSupport f) :
+  HasCompactSupport (RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.grad f)
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.hasCompactSupport_grad' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.tsupport_grad_subset.{u_1} {E : Type u_1}
+  [NormedAddCommGroup E] [InnerProductSpace ℝ E] [CompleteSpace E] (f : E → ℝ) :
+  tsupport (RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.grad f) ⊆ tsupport f
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.tsupport_grad_subset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.memLp_of_mem_C1c.{u_1} {E : Type u_1}
+  [NormedAddCommGroup E] [InnerProductSpace ℝ E] (μ : MeasureTheory.Measure E)
+  [MeasureTheory.IsFiniteMeasureOnCompacts μ] {f : E → ℝ}
+  (hf : f ∈ RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.C1c) : MeasureTheory.MemLp f 2 μ
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.memLp_of_mem_C1c' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.memLp_grad_of_mem_C1c.{u_1} {E : Type u_1}
+  [NormedAddCommGroup E] [InnerProductSpace ℝ E] [CompleteSpace E] (μ : MeasureTheory.Measure E)
+  [MeasureTheory.IsFiniteMeasureOnCompacts μ] {f : E → ℝ}
+  (hf : f ∈ RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.C1c) :
+  MeasureTheory.MemLp (RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.grad f) 2 μ
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.memLp_grad_of_mem_C1c' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.toL2Linear.{u_1} {E : Type u_1} [NormedAddCommGroup E]
+  [InnerProductSpace ℝ E] (μ : MeasureTheory.Measure E) [MeasureTheory.IsFiniteMeasureOnCompacts μ] :
+  ↥RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.C1c →ₗ[ℝ]
+    RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2ℝ✝ μ
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.toL2Linear' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.toL2GradLinear.{u_1} {E : Type u_1} [NormedAddCommGroup E]
+  [InnerProductSpace ℝ E] [CompleteSpace E] (μ : MeasureTheory.Measure E) [MeasureTheory.IsFiniteMeasureOnCompacts μ] :
+  ↥RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.C1c →ₗ[ℝ]
+    RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2E✝ μ
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.toL2GradLinear' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.graph.{u_1} {E : Type u_1} [NormedAddCommGroup E]
+  [InnerProductSpace ℝ E] [CompleteSpace E] (μ : MeasureTheory.Measure E) [MeasureTheory.IsFiniteMeasureOnCompacts μ] :
+  ↥RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.C1c →ₗ[ℝ]
+    RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.H1Target✝ μ
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.graph' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1.{u_1} {E : Type u_1} [NormedAddCommGroup E]
+  [InnerProductSpace ℝ E] [CompleteSpace E] (μ : MeasureTheory.Measure E) [MeasureTheory.IsFiniteMeasureOnCompacts μ] :
+  Submodule ℝ (RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.H1Target✝ μ)
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.isClosed_h1.{u_1} {E : Type u_1} [NormedAddCommGroup E]
+  [InnerProductSpace ℝ E] [CompleteSpace E] (μ : MeasureTheory.Measure E) [MeasureTheory.IsFiniteMeasureOnCompacts μ] :
+  IsClosed ↑(RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1 μ)
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.isClosed_h1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.instCompleteSpace_h1.{u_1} {E : Type u_1}
+  [NormedAddCommGroup E] [InnerProductSpace ℝ E] [CompleteSpace E] (μ : MeasureTheory.Measure E)
+  [MeasureTheory.IsFiniteMeasureOnCompacts μ] :
+  CompleteSpace ↥(RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1 μ)
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.instCompleteSpace_h1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1ToL2.{u_1} {E : Type u_1} [NormedAddCommGroup E]
+  [InnerProductSpace ℝ E] [CompleteSpace E] (μ : MeasureTheory.Measure E) [MeasureTheory.IsFiniteMeasureOnCompacts μ] :
+  ↥(RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1 μ) →L[ℝ]
+    RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2ℝ✝ μ
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1ToL2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1ToL2Grad.{u_1} {E : Type u_1} [NormedAddCommGroup E]
+  [InnerProductSpace ℝ E] [CompleteSpace E] (μ : MeasureTheory.Measure E) [MeasureTheory.IsFiniteMeasureOnCompacts μ] :
+  ↥(RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1 μ) →L[ℝ]
+    RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2E✝ μ
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.h1ToL2Grad' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translate.{u_1, u_2} {E : Type u_1} [NormedAddCommGroup E]
+  {F : Type u_2} (a : E) (f : E → F) : E → F
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.contDiff_translate.{u_1} {E : Type u_1}
+  [NormedAddCommGroup E] [InnerProductSpace ℝ E] {f : E → ℝ} (hf : ContDiff ℝ 1 f) (a : E) :
+  ContDiff ℝ 1 (RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translate a f)
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.contDiff_translate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.hasCompactSupport_translate.{u_1, u_2} {E : Type u_1}
+  [NormedAddCommGroup E] {F : Type u_2} [Zero F] {f : E → F} (hf : HasCompactSupport f) (a : E) :
+  HasCompactSupport (RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translate a f)
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.hasCompactSupport_translate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.grad_translate.{u_1} {E : Type u_1} [NormedAddCommGroup E]
+  [InnerProductSpace ℝ E] [CompleteSpace E] (a : E) (f : E → ℝ) (x : E) :
+  RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.grad
+      (RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translate a f) x =
+    RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.grad f (x + a)
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.grad_translate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.mem_C1c_translate.{u_1} {E : Type u_1}
+  [NormedAddCommGroup E] [InnerProductSpace ℝ E] {f : E → ℝ}
+  (hf : f ∈ RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.C1c) (a : E) :
+  RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translate a f ∈
+    RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.C1c
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.mem_C1c_translate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateC1c.{u_1} {E : Type u_1} [NormedAddCommGroup E]
+  [InnerProductSpace ℝ E] (a : E) :
+  ↥RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.C1c →ₗ[ℝ]
+    ↥RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.C1c
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateC1c' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2.{u_1, u_2} {E : Type u_1}
+  [NormedAddCommGroup E] (μ : MeasureTheory.Measure E) [μ.IsAddRightInvariant] {F : Type u_2} [NormedAddCommGroup F]
+  [NormedSpace ℝ F] (a : E) : ↥(MeasureTheory.Lp F 2 μ) →ₗᵢ[ℝ] ↥(MeasureTheory.Lp F 2 μ)
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_ae_eq.{u_1, u_2} {E : Type u_1}
+  [NormedAddCommGroup E] (μ : MeasureTheory.Measure E) [μ.IsAddRightInvariant] {F : Type u_2} [NormedAddCommGroup F]
+  [NormedSpace ℝ F] (a : E) (g : ↥(MeasureTheory.Lp F 2 μ)) :
+  ↑↑((RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2 μ a) g) =ᵐ[μ] fun x => ↑↑g (x + a)
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_ae_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_toL2.{u_1} {E : Type u_1}
+  [NormedAddCommGroup E] [InnerProductSpace ℝ E] (μ : MeasureTheory.Measure E) [μ.IsAddRightInvariant]
+  [MeasureTheory.IsFiniteMeasureOnCompacts μ] (a : E)
+  (f : ↥RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.C1c) :
+  (RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2 μ a)
+      (RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.toL2 μ f) =
+    RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.toL2 μ
+      ((RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateC1c a) f)
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_toL2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_toL2Grad.{u_1} {E : Type u_1}
+  [NormedAddCommGroup E] [InnerProductSpace ℝ E] [CompleteSpace E] (μ : MeasureTheory.Measure E) [μ.IsAddRightInvariant]
+  [MeasureTheory.IsFiniteMeasureOnCompacts μ] (a : E)
+  (f : ↥RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.C1c) :
+  (RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2 μ a)
+      (RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.toL2Grad μ f) =
+    RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.toL2Grad μ
+      ((RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateC1c a) f)
+'RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.translateL2_toL2Grad' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

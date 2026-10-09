@@ -1,0 +1,130 @@
+{
+  "compat/manifest.json": {
+    "bytes": 3867,
+    "sha256": "7a9df7d42b8dd01c84dea7da6b82f91bd8fec30a8311893d97d6efdd8ac80b20"
+  },
+  "compat/rellich-h1.patch": {
+    "bytes": 2070,
+    "sha256": "606df7d60128aa6aa9a727cf5108fd219f8328f525bd121ee1ede61dd9663e06"
+  },
+  "compat/rellich-translation.patch": {
+    "bytes": 3711,
+    "sha256": "562e5ea9713debc4dad659511122f6ede8412d198c3dedaa77d298432f3c7dda"
+  },
+  "licenses/Rellich-LICENSE": {
+    "bytes": 11560,
+    "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+  },
+  "manifest.json": {
+    "bytes": 22336,
+    "sha256": "78eedb1d4621568b2b7e9334a55ef85db8d128db6911be3434e05b290a2d01ff"
+  },
+  "prepare_low_kappa_capsule.py": {
+    "bytes": 16369,
+    "sha256": "8b3aa995020479e30889bf0c67dfbb03b80610e71000b0a69fffd3748f64386a"
+  },
+  "README.md": {
+    "bytes": 11161,
+    "sha256": "e80d4b709d04864196901dd0f0d34b67e626b3daddb78cbdd52672cca3fdb41b"
+  },
+  "reviewed-pending.patch": {
+    "bytes": 48494,
+    "sha256": "d18941bdb3a32f42032c5e82c6518baa5dc03968ff8af652ca30d62d6467566e"
+  },
+  "template/lake-manifest.json": {
+    "bytes": 5147,
+    "sha256": "e12650d9308da592bb2d19a38b5abe9b6f1cf5380ae1c4a81e0409a19b1e7076"
+  },
+  "template/lakefile.lean": {
+    "bytes": 592,
+    "sha256": "65e40554258cf4ec2b04764fb3c4d0f9185cc4ac820f96a13f500aca92246103"
+  },
+  "template/lean-toolchain": {
+    "bytes": 26,
+    "sha256": "8152090414016dd5dc871752f8ce4ecdbd604d9845758e9b9047cb80101280b5"
+  },
+  "template/serial_build.py": {
+    "bytes": 5051,
+    "sha256": "287dfe0f6337248eae46c76e65378eb25424a91ce8a3a587037b172d6731c9b2"
+  },
+  "template/serial_build_bounded.py": {
+    "bytes": 7414,
+    "sha256": "424341b9060ac8095c26bb30b4cb14b1c53a92793a3e358f063fd179d2598019"
+  },
+  "verification/external-compatibility-application.json": {
+    "bytes": 4057,
+    "sha256": "17d2d8e51a31c0e53b8f6a8e739f4f59fb129af87577443f6d35b895a2d8c90f"
+  },
+  "verification/latest-actual-module-status.json": {
+    "bytes": 959,
+    "sha256": "63ec03bb648fa2cf19acc7f98b20890f50ff75d222c1c7f8b004ec4156480c64"
+  },
+  "verification/preparation-result.json": {
+    "bytes": 1084,
+    "sha256": "105d68e9d68f259698f376a6c9f3ba782cd2f9b29346a968cd8235be00a99802"
+  },
+  "verification/rellich-compatibility-strict-audit.json": {
+    "bytes": 7128,
+    "sha256": "2bd9336bbf4bed4b746d1c9db9306dfa215fe94f84acb11d0be7855a8081430f"
+  },
+  "verification/rellich-compatibility-strict-audit.lean": {
+    "bytes": 4405,
+    "sha256": "d5735cae03c738749fa73ad932891b3a9a31a8b3a63343e23f3e49242279443a"
+  },
+  "verification/rellich-compatibility-strict-audit.log": {
+    "bytes": 12420,
+    "sha256": "5ec967db209b464041cded4a3de1025816b61665ac3a6f2d7bb875bbc492c2e3"
+  },
+  "verification/rellich-h1-AxiomAudit.lean": {
+    "bytes": 1325,
+    "sha256": "b53da0b6ef2cf7723b19e4e374b5b1f2a9723aee3b8c8b5b68a04411f59df9b5"
+  },
+  "verification/rellich-h1-axioms.json": {
+    "bytes": 2013,
+    "sha256": "90129fb21799d09de7a1d33a47a1beb3e603f165e43f1e099917db3383182b12"
+  },
+  "verification/rellich-h1-axioms.log": {
+    "bytes": 2094,
+    "sha256": "01bc20bca9ca8a2857fb271dcd895bea0dc3be3c209ab7e0a942ee52da26d2c8"
+  },
+  "verification/rellich-h1-compile.json": {
+    "bytes": 838,
+    "sha256": "814b6d830dfc4406255930fc57aba2b690866dd4c2c803b9b518cbd4bccee038"
+  },
+  "verification/rellich-h1-compile.log": {
+    "bytes": 155,
+    "sha256": "416c5a1e8aea6b7c7a497c923f3e42370f7512928029f20d43420ea241e8dad0"
+  },
+  "verification/rellich-h1-metadata.json": {
+    "bytes": 700,
+    "sha256": "5c9dac3ca3b4bb5625399e64756a8e51ef840ed6202bb4bb467c33d718a3ea5c"
+  },
+  "verification/rellich-translation-AxiomAudit.lean": {
+    "bytes": 1012,
+    "sha256": "ff0ef4966a631a84b7c3815f0535e24444f1d21080a0712bff84edc0f349b689"
+  },
+  "verification/rellich-translation-axioms.json": {
+    "bytes": 1728,
+    "sha256": "28c5d5f4a2ddab0d14fe29bcae0225a7e0a30f807a67766075effd83e7878e8d"
+  },
+  "verification/rellich-translation-axioms.log": {
+    "bytes": 1576,
+    "sha256": "ac69e99ce8caa3dcda67e37ed9b45553f030088306811c4f4fa2228e43c836d7"
+  },
+  "verification/rellich-translation-compile.json": {
+    "bytes": 851,
+    "sha256": "223a218c5dc1d0932a70535cccfe18a63c5a6d0e39fb2d41cc398b603451f8c0"
+  },
+  "verification/rellich-translation-compile.log": {
+    "bytes": 155,
+    "sha256": "416c5a1e8aea6b7c7a497c923f3e42370f7512928029f20d43420ea241e8dad0"
+  },
+  "verification/rellich-translation-metadata.json": {
+    "bytes": 697,
+    "sha256": "979c780af632e6c01757933df65a52502bc553d6c765b11aae436738546ab21b"
+  },
+  "verification/strict-parser-actual-capsule.json": {
+    "bytes": 1991,
+    "sha256": "973629c2a77c5c82ec5ee1fddc57495f1f977451c9831ddef3e548e1c1950be8"
+  }
+}
