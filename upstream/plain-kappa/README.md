@@ -154,6 +154,9 @@ the complete improved zero-free theorem remains open. The
 [latest frozen build snapshot](verification/latest-actual-module-status.json)
 records actual process exits. Earlier records retain their original scopes;
 failed elaborations and proof-only repairs are preserved in the history.
+The three failed universal-source candidates, their raw logs and the successful
+private prototype inputs are retained in the [source-universal history](history/source-universal-prototype-20261009/README.md).
+These historical candidates add zero selected roots.
 
 The pinned external file `PrimeNumberTheoremAnd/Wiener.lean` contains the
 original placeholders `prelim_decay_2` and `prelim_decay_3`. A fresh axiom audit

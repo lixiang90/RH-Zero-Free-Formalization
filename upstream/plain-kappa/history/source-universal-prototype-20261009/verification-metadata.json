@@ -1,0 +1,272 @@
+{
+  "kind": "private_actual_source_dictionary_universal_plain_marked_candidate",
+  "status": "private_actual_compile_full_fresh_pass_not_independent_replay",
+  "source_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-universal-phase-20261009\\SourcePlainMarkedUniversal.candidate.lean",
+  "source_sha256": "74b844466e2ac6e04c0e4df55892ae147216c038dab38bcbc9a67338031afe3d",
+  "source_lf_sha256": "74b844466e2ac6e04c0e4df55892ae147216c038dab38bcbc9a67338031afe3d",
+  "roots": [
+    "OAI.SevenEighths.SourcePlainMarkedUniversalCandidate.exists_source_slots_and_universal_plain_marked"
+  ],
+  "mathematical_theorem_count": 1,
+  "predicate_definition_count": 1,
+  "defined_predicate": "OAI.SevenEighths.SourcePlainMarkedUniversalCandidate.SourcePlainMarkedAt",
+  "copied_helper_root_count": 0,
+  "prepared_audit_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-universal-phase-20261009\\AxiomAudit.prepared.lean",
+  "prepared_audit_sha256": "d66349fb4a71ad8b95798316adf67357baa852f82ea35350b8fa3cc0c58830a5",
+  "statement_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-universal-phase-20261009\\statement.lean.txt",
+  "statement_sha256": "0668552d095e00da487b0bf57ab2a3a90664de4adff0ae92ada25782b80dc0a9",
+  "contract_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-universal-phase-20261009\\contract.md",
+  "contract_sha256": "35de35f8ae227ba71994755473b20265fc9d05943063fae65b32968b3d247228",
+  "imports": [
+    "OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh",
+    "OAI.NumberTheory.DirichletL.Moments.DetectorDictionarySource"
+  ],
+  "canonical_promotion_dependencies": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh",
+      "prepared_source": "E:\\codex-build\\RH-Weil\\tmp\\generic-losses-supply-phase-20261009\\GenericSourceIdealAndMesh.lean",
+      "raw_sha256": "2a0fec6b6d42a2caeaaad8c30d73eefd8fcb46de2cf313f9b231661995346840",
+      "lf_sha256": "2a0fec6b6d42a2caeaaad8c30d73eefd8fcb46de2cf313f9b231661995346840",
+      "canonical_install_compile_fresh_replay_status": "pending_separate_graph_prep_phase"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa",
+      "prepared_source": "E:\\codex-build\\RH-Weil\\tmp\\generic-losses-supply-phase-20261009\\LossesBeforeSlotSourcePlainMarkedLowKappa.lean",
+      "raw_sha256": "d5b1e7b5be2f5aae02fc27b210d62cce3341b5a6a67a1f8490dca4599f3d42d4",
+      "lf_sha256": "d5b1e7b5be2f5aae02fc27b210d62cce3341b5a6a67a1f8490dca4599f3d42d4",
+      "canonical_install_compile_fresh_replay_status": "pending_separate_graph_prep_phase"
+    }
+  ],
+  "actual_reference_bindings": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.DetectorDictionarySource",
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionarySource.lean",
+      "source_sha256": "2f9894c7cc17a0b329229f826397b6708a0294bbc40726afa3c35248cd0f3e98",
+      "fingerprint": "e303f8055bb529379df9285495affcfd0e907a3038b2ad6804840076fc12baf4",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionarySource.olean": "089747bebbf2b0bd65dc152bd599524c7f5cc74639901a642fed234085c5b21a",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionarySource.ilean": "3a42d5585946517ebeebf5b7afd9893b71a3580211582d2fe27400e28690003b"
+      },
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-144413-bounded8v2\\OAI.NumberTheory.DirichletL.Moments.DetectorDictionarySource.log",
+      "wall_seconds": 12.109,
+      "actual_exit_code": 0
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Hecke.DetectorBatch",
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorBatch.lean",
+      "source_sha256": "ac1d356279c3fbc7e5813a717daa12585f289ee8168e7947bd5b0f018fea5589",
+      "fingerprint": "05503e4ca4e83de095268ffe828406bb602d17a1889b9a7b9fa6d2062a989149",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorBatch.olean": "40bfacdf8e83f3adeea7fe77d37e5a6a9a548333ab6ad8d9ba5c3a7901994736",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorBatch.ilean": "e5fb458cd2a48800ff6f9bf5c92a771049d5715d6e22bdcedede0290a14fab3c"
+      },
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-144413-bounded8v2\\OAI.NumberTheory.DirichletL.Hecke.DetectorBatch.log",
+      "wall_seconds": 11.828,
+      "actual_exit_code": 0
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Hecke.DetectorFiberPartition",
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorFiberPartition.lean",
+      "source_sha256": "60a73dc7e48734436db2d0553aa5132e9a26ef302006736c318bb289670f53af",
+      "fingerprint": "ebc2ee3973f086d9ace199dea9842bc41bf21fe5dde503c5ce0ea74ad10f2681",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorFiberPartition.olean": "33533699d266a5548e51a92de59e4700a007431e19bd588598b655af42b656ed",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorFiberPartition.ilean": "5ea82f89d6e53cf5c5596b9c60f0ac998ea05340d991afe1972609052772d02c"
+      },
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-144413-bounded8v2\\OAI.NumberTheory.DirichletL.Hecke.DetectorFiberPartition.log",
+      "wall_seconds": 11.687,
+      "actual_exit_code": 0
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Hecke.DetectorRawFiber",
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorRawFiber.lean",
+      "source_sha256": "67f7deaea66fbf26ca0c697aafa579afa58f12c17735f70cf83f4c14ac7a4607",
+      "fingerprint": "83104c9c306d3481c7828c19748aa292483dd3cb0a9cfdc04724d2ad112de2b6",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorRawFiber.olean": "c0d4a81d101a04bdc64d0c90149d7d35a85c6ca60b969bbc2398a0416042b54e",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Hecke\\DetectorRawFiber.ilean": "06169b9b7045ecc64adb262787165e35cd82efde5d2ec644e26bb3f8a6a6e13e"
+      },
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-144413-bounded8v2\\OAI.NumberTheory.DirichletL.Hecke.DetectorRawFiber.log",
+      "wall_seconds": 13.313,
+      "actual_exit_code": 0
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Energy.WidthRanges",
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Energy\\WidthRanges.lean",
+      "source_sha256": "9ab32adcd244a3f1662df6bdcc1263b94afbe2819fc435097743b01b40f43a4d",
+      "fingerprint": "de4611335431598f25f0244125d55d200ecb0db9a90a105705a0d0dee5a8d905",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\WidthRanges.olean": "e52e90261fc21ff27f39e81ebf8cc4f62dad4fedf8bb0822111454835c775f3b",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Energy\\WidthRanges.ilean": "81eb2b4018b3a9ee84867087e3f079c734a568c506279b331ccd5b4afd361820"
+      },
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-144413-bounded8v2\\OAI.NumberTheory.DirichletL.Energy.WidthRanges.log",
+      "wall_seconds": 11.469,
+      "actual_exit_code": 0
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.FiberPositiveAtLowKappa",
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\FiberPositiveAtLowKappa.lean",
+      "source_sha256": "4ddd9eb8ae83d8888db8c6d2fabb3e51262d307189ccbd9a779b0504d92bb4ef",
+      "fingerprint": "2584cf3dd28beaa7e3fb54cc6cf8d19a888d64b5a6dc1a4b43369bbbbb58bc12",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\FiberPositiveAtLowKappa.olean": "5c42e76629aa022c3ce43770e19414b087f20732f3094683284a306960e42731",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\FiberPositiveAtLowKappa.ilean": "c0ccbcda651d5c0acd7f01f80ce3bca71cde5bdba43e625d8644bfed49ee74d9"
+      },
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-165033-bounded8v2\\OAI.NumberTheory.DirichletL.Moments.FiberPositiveAtLowKappa.log",
+      "wall_seconds": 18.641,
+      "actual_exit_code": 0
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Detector.ActualSourceBatchTotal",
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Detector\\ActualSourceBatchTotal.lean",
+      "source_sha256": "aca72c6cc970e283a7054fe4b7250c5b741e95b1e9b134722d067a219eab6116",
+      "fingerprint": "167f9e72fca70b81ab2813f6086ddc43b14274e9b07652b6e01d9a6e46d1b117",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Detector\\ActualSourceBatchTotal.olean": "ff931e3e514e8ddfefaf85831126b97f52fb996693d9425327f76ade07e50bec",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Detector\\ActualSourceBatchTotal.ilean": "916c6de72c758fd958ca6c16cd71cf10c53f831acd22955f5673e446771adca2"
+      },
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-165033-bounded8v2\\OAI.NumberTheory.DirichletL.Detector.ActualSourceBatchTotal.log",
+      "wall_seconds": 16.485,
+      "actual_exit_code": 0
+    }
+  ],
+  "original_source_moments_reference": {
+    "repository": "E:\\codex-build\\math",
+    "pin": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+    "git_path": "lean/OAI/NumberTheory/DirichletL/PrimeRows/NonfloorMoments.lean",
+    "quoted_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-universal-phase-20261009\\quoted-sources\\OriginalNonfloorMoments.lean",
+    "raw_sha256": "1a858768eee8f4568ac011680d3ec6b742228f75b21e8a24f39d5d28f759788c",
+    "lf_sha256": "1a858768eee8f4568ac011680d3ec6b742228f75b21e8a24f39d5d28f759788c",
+    "imported_by_candidate": false
+  },
+  "exact_quantifier_order": "fixed source S/M/H/W/geometry -> rho/epsilonE -> energyMesh -> N/ell/slotLower -> native terminal degree/profileJ/common tau -> every outer eta -> positive Ceta -> eventuallyZ -> every0<tauPrime<=tau/d/rows/a/epsilon/binWidth/i/z/height -> all q/matching Batch/nonempty fibers/marked tests",
+  "universal_matching_batch_scope": true,
+  "original_dictionary_matching_conditions_retained": [
+    "rows subset",
+    "actual sourceMomentData",
+    "actual sourceMomentReverse",
+    "all slots",
+    "widths ell/d",
+    "common source W",
+    "common upper",
+    "constant external",
+    "physical Batch mesh",
+    "bin width",
+    "actual sourceDetectorFamily on retained rows"
+  ],
+  "actual_gates_derived": [
+    "row mask from actual source product",
+    "generic Q0/internal ideal gates",
+    "energy mesh positive before Slot",
+    "actual physical slot constructor",
+    "all-label eventual prime coprimality",
+    "actual fiber data identification",
+    "fiber lower norm from real filter membership",
+    "upper norm from actual Fiber record",
+    "actual profile/upper/width/external inheritance",
+    "absolute d*width=ell energy cap"
+  ],
+  "no_caller_whole_bound_positiveAt_or_state": true,
+  "not_supplied": [
+    "independent Nano replay",
+    "existence of a matching Batch",
+    "three other Moments fields",
+    "unrestricted RawMomentInput",
+    "old fixed-kappa count-consumer replacement",
+    "plain_unmarked for m>1/2",
+    "family nonvanishing"
+  ],
+  "frozen_canonical28_and_state_unchanged": true,
+  "controller_export_or_nano_started": false,
+  "sourceprep_script_sha256": "5ea72b1aab7b26d1f991031367e9828710c20c9daa282e34057f0ea27c06347f",
+  "prepared_metadata_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-universal-phase-20261009\\metadata.json",
+  "prepared_metadata_sha256": "2b4e5d0db6c2bf4ba2b0ad23f43b59c32674370dfa15332994397adc27547925",
+  "full_type_and_axes_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-universal-phase-20261009\\verification\\fresh.log",
+  "full_type_and_axes_sha256": "80d7458522c471c38ce572dd92cc22efaada3af191c2937ea30fb65bcb213f28",
+  "fresh_record_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-universal-phase-20261009\\verification\\fresh.json",
+  "fresh_record_sha256": "e6c49ea76d18668008638a738983213bfd6e9ffc245495d7041a5e53275dea04",
+  "audit_source_sha256": "e16c778f07de6d05ccf3774725e40df4649b56dcfd11a4a12a971b74f6022c33",
+  "actual_compile_seconds": 20.813,
+  "full_fresh_seconds": 22.656,
+  "selected_custom_closure_count": 2255,
+  "per_root_axioms": {
+    "OAI.SevenEighths.SourcePlainMarkedUniversalCandidate.exists_source_slots_and_universal_plain_marked": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "stable_source_and_artifacts": true,
+  "canonical_actual_dependency_bindings": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa",
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeSlotSourcePlainMarkedLowKappa.lean",
+      "source_sha256": "d5b1e7b5be2f5aae02fc27b210d62cce3341b5a6a67a1f8490dca4599f3d42d4",
+      "fingerprint": "024a7a16687c27276aebd3869979c6238f8c52b3ed8d19d4528ee07a8011a436",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeSlotSourcePlainMarkedLowKappa.olean": "f0e92416c8885d3774f314942c84410f25e0e79ac8b032085d60e6eeeb7af96f",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeSlotSourcePlainMarkedLowKappa.ilean": "17cb80ff5bf4bf387c7b1027151b2f474013deae600eb74acb9eba1f1ad3bb00"
+      },
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-212719-bounded8v2\\OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa.log",
+      "wall_seconds": 14.484,
+      "actual_exit_code": 0
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh",
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\GenericSourceIdealAndMesh.lean",
+      "source_sha256": "2a0fec6b6d42a2caeaaad8c30d73eefd8fcb46de2cf313f9b231661995346840",
+      "fingerprint": "525abb5272c8c7cc547161844297c2b64a6c413ddc037eb52ba9d74b67fdad8f",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\GenericSourceIdealAndMesh.olean": "1e8dea72b970d87cced8ee85543306ea9528848ec6bd0ce0d84522aeb252c35d",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\GenericSourceIdealAndMesh.ilean": "2a74ea3c7d0e80d3a395c9c94853269e1805d2f033334e29a53dfcc4856dd9e9"
+      },
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-212719-bounded8v2\\OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh.log",
+      "wall_seconds": 11.562,
+      "actual_exit_code": 0
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.DetectorDictionarySource",
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionarySource.lean",
+      "source_sha256": "2f9894c7cc17a0b329229f826397b6708a0294bbc40726afa3c35248cd0f3e98",
+      "fingerprint": "e303f8055bb529379df9285495affcfd0e907a3038b2ad6804840076fc12baf4",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionarySource.olean": "089747bebbf2b0bd65dc152bd599524c7f5cc74639901a642fed234085c5b21a",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionarySource.ilean": "3a42d5585946517ebeebf5b7afd9893b71a3580211582d2fe27400e28690003b"
+      },
+      "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-144413-bounded8v2\\OAI.NumberTheory.DirichletL.Moments.DetectorDictionarySource.log",
+      "wall_seconds": 12.109,
+      "actual_exit_code": 0
+    }
+  ],
+  "actual_dependency_source_and_artifacts_stable": true,
+  "compile_and_fresh_scripts_sha256": {
+    "compile_candidate.py": "48969ad1f853fc2b277712748de05ca70675c846ae49ed1b56b4cfa597fbaab2",
+    "fresh_candidate.py": "3d8aabf8bf5718eb2936342de524de642d930306a479e1466109670904ca0088"
+  },
+  "verification_finalization_script_sha256": "00bf94553091f88ac24a588064ffb31fddec46a94d6b647cac9bb2e620d18831",
+  "proof_elaboration_patch_path": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-universal-phase-20261009\\proof-elaboration.patch",
+  "proof_elaboration_patch_sha256": "2a061314d95a9d68b1e7f53ac9df9e948095e2a7765910eec8b1ec745059e199",
+  "statement_byte_identical_to_reviewed_prepared_source": true,
+  "source_dictionary_predicate_byte_identical_to_reviewed_prepared_source": true,
+  "routine_proof_changes": [
+    "Open CenteredMomentPrimeSlot for the true primePool",
+    "Locally use the actual generic fiber classical equality for its source label",
+    "Unfold the actual fiber filter and extract membership by its checked filter identity"
+  ],
+  "failed_history_bindings": {
+    "failure01/compile.json": "fb7a50d3cfe8810e2b3495339f42fb08beca0dd154d334272767da48248bdf75",
+    "failure01/compile.log": "e0225f20979abd65bf28360a048a4cb65018cedde2c9b31bcacacf70f5e84548",
+    "failure01/manifest.json": "53ed7a605e99cafb6f947705d7fcb1a0970197ff38c1f446f8d5b7c42fef2d15",
+    "failure01/SourcePlainMarkedUniversal.candidate.lean": "5940aeeab2af8b24d51138a9f1958c7dd5eb34916d169351024f7e005d859edd",
+    "failure02/compile.json": "126d525bbf1d452e608536fbe87cd6debea877a508b77383627a76f7892ce869",
+    "failure02/compile.log": "ad1b4bf386b493122ee011eb715a6978c28d72fb63c680a9a27d2161191fd850",
+    "failure02/manifest.json": "635b1c915b28b21564919ca2a495a0a8c42f8f892a38d9be547c582d87768b95",
+    "failure02/SourcePlainMarkedUniversal.candidate.lean": "b5dd91fa34f8049282475da00eb918cba9bb1d73eb66ba824130b5b5121bb16d",
+    "failure03/compile.json": "14317581b12501eabb4d713376a79776de18195861afb69c4c1b706f58f9c053",
+    "failure03/compile.log": "84dd8b5bedb219001d5f21e0fa58ee0980e9ca332018f9b6b5f97b502a85818e",
+    "failure03/manifest.json": "a6e7f849e04c421ad6c3fe4b07fc69edcb3339748c3655e72a2fb8756a0e9215",
+    "failure03/SourcePlainMarkedUniversal.candidate.lean": "857a7480757c774385d8bbff98bcd94c7d41afb11ca3ac7d8bf4daf1b5f10725"
+  },
+  "next_action": "Root review; no automatic canonical promotion or independent replay"
+}

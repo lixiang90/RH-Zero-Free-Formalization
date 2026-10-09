@@ -1,0 +1,27 @@
+--- prepared/SourcePlainMarkedUniversal.candidate.lean
++++ actual/SourcePlainMarkedUniversal.candidate.lean
+@@ -16,6 +16,7 @@
+ open HeckeDetectorBatch HeckeDetectorFiberPartition HeckeDetectorDyadicProfiles
+ open HeckeDetectorRowwisePolynomial HeckeDetectorWitnessRows ProbeHighRowFamily
+ open CenteredMomentDetectorDictionary CenteredMomentNaturalFixedRaySource
++open CenteredMomentPrimeSlot
+ open CenteredMomentEnergyWidthRanges GenericSourceIdealAndMesh
+ open LossesBeforeSlotSourcePlainMarkedLowKappa
+ local notation "O" => HeckeFamily.O
+@@ -137,10 +138,15 @@
+     rw [hdata]
+     exact sourceMomentData_base M H hH S hS η label
+   have hfrow : ∀u ∈ F.rows, Z^rowExponent ≤ ((Ideal.span {u.val}).absNorm : ℝ) := by
++    letI : DecidableEq (Sum Bool (RayQuotient.Characters M H)) :=
++      fun x y => Classical.propDecidable (x = y)
+     intro u hu
+     apply hrowLower u
+     apply hrows
+-    exact (Finset.mem_filter.mp hu).1
++    change u ∈ B.fiberRows bin label Ileft Iright at hu
++    dsimp only [Batch.fiberRows, HeckeDetectorFiberPartition.fiber] at hu
++    rw [Finset.mem_filter] at hu
++    exact hu.1
+   have hfprofile : F.profile = fun _ => W := hprofile
+   have hfupper : F.upper = fun _ => bslot := hupper
+   have hfwidths : F.widths = fun s => ell s/d := hwidths

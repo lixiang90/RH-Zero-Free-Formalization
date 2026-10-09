@@ -1,0 +1,1144 @@
+warning: rellich-kondrachov: repository 'E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake/packages\rellich-kondrachov' has local changes
+E:\codex-build\RH-Weil\tmp\source-plain-universal-phase-20261009\verification\AxiomAudit.lean:141:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+E:\codex-build\RH-Weil\tmp\source-plain-universal-phase-20261009\verification\AxiomAudit.lean:130:2: warning: Try this: intro τ' hτ' hτ'le d hd hd' rows hrowLower a ε binWidth i z hz height hheight hheight_le hzim q B hrows hdata
+  hreverse hBslots hwidths hprofile hupper hexternal hmesh hbinWidth hfamilySource bin label Ileft Iright hne
+OAI.SevenEighths.SourcePlainMarkedUniversalCandidate.exists_source_slots_and_universal_plain_marked : ∀
+  (M :
+    @Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+      (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+        (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+          (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+            (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+              Rat.instField)))))
+  [inst :
+    @NeZero.{0}
+      (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+        (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+          (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+            (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+              (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                Rat.instField)))))
+      (@Submodule.pointwiseZero.{0, 0} OAI.SevenEighths.HeckeFamily.O OAI.SevenEighths.HeckeFamily.O
+        (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+          (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+            (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+              (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                Rat.instField))))
+        (@Semiring.toAddCommMonoid.{0} OAI.SevenEighths.HeckeFamily.O
+          (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+            (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+              (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                  Rat.instField)))))
+        (@Semiring.toModule.{0} OAI.SevenEighths.HeckeFamily.O
+          (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+            (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+              (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                  Rat.instField))))))
+      M]
+  (H :
+    @Subgroup.{0}
+      (@Units.{0}
+        (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+          (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+            (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+              (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                  (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                    Rat.instField)))))
+          (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+            (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+              (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                Rat.instField)))
+          M)
+        (@Semiring.toMonoid.{0}
+          (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+            (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+              (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))))
+            (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+              (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                  Rat.instField)))
+            M)
+          (@Ideal.Quotient.semiring.{0} OAI.SevenEighths.HeckeFamily.O
+            (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+              (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                Rat.instField))
+            M)))
+      (@Units.instGroup.{0}
+        (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+          (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+            (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+              (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                  (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                    Rat.instField)))))
+          (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+            (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+              (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                Rat.instField)))
+          M)
+        (@Semiring.toMonoid.{0}
+          (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+            (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+              (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))))
+            (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+              (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                  Rat.instField)))
+            M)
+          (@Ideal.Quotient.semiring.{0} OAI.SevenEighths.HeckeFamily.O
+            (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+              (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                Rat.instField))
+            M))))
+  (hH :
+    @LE.le.{0}
+      (@Subgroup.{0}
+        (@Units.{0}
+          (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+            (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+              (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))))
+            (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+              (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                  Rat.instField)))
+            M)
+          (@Semiring.toMonoid.{0}
+            (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+              (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+                (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField)))))
+              (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+                (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                  (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                    Rat.instField)))
+              M)
+            (@Ideal.Quotient.semiring.{0} OAI.SevenEighths.HeckeFamily.O
+              (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                  Rat.instField))
+              M)))
+        (@Units.instGroup.{0}
+          (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+            (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+              (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))))
+            (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+              (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                  Rat.instField)))
+            M)
+          (@Semiring.toMonoid.{0}
+            (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+              (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+                (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField)))))
+              (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+                (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                  (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                    Rat.instField)))
+              M)
+            (@Ideal.Quotient.semiring.{0} OAI.SevenEighths.HeckeFamily.O
+              (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                  Rat.instField))
+              M))))
+      (@Preorder.toLE.{0}
+        (@Subgroup.{0}
+          (@Units.{0}
+            (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+              (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+                (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField)))))
+              (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+                (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                  (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                    Rat.instField)))
+              M)
+            (@Semiring.toMonoid.{0}
+              (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+                (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                      (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                        (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                          Rat Rat.instField)))))
+                (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))
+                M)
+              (@Ideal.Quotient.semiring.{0} OAI.SevenEighths.HeckeFamily.O
+                (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                  (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                    Rat.instField))
+                M)))
+          (@Units.instGroup.{0}
+            (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+              (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+                (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField)))))
+              (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+                (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                  (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                    Rat.instField)))
+              M)
+            (@Semiring.toMonoid.{0}
+              (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+                (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                      (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                        (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                          Rat Rat.instField)))))
+                (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))
+                M)
+              (@Ideal.Quotient.semiring.{0} OAI.SevenEighths.HeckeFamily.O
+                (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                  (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                    Rat.instField))
+                M))))
+        (@PartialOrder.toPreorder.{0}
+          (@Subgroup.{0}
+            (@Units.{0}
+              (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+                (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                      (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                        (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                          Rat Rat.instField)))))
+                (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))
+                M)
+              (@Semiring.toMonoid.{0}
+                (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+                  (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                      (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                        (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                          (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                            Rat Rat.instField)))))
+                  (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField)))
+                  M)
+                (@Ideal.Quotient.semiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField))
+                  M)))
+            (@Units.instGroup.{0}
+              (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+                (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                      (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                        (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                          Rat Rat.instField)))))
+                (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))
+                M)
+              (@Semiring.toMonoid.{0}
+                (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+                  (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                      (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                        (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                          (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                            Rat Rat.instField)))))
+                  (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField)))
+                  M)
+                (@Ideal.Quotient.semiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField))
+                  M))))
+          (@Subgroup.instPartialOrder.{0}
+            (@Units.{0}
+              (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+                (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                      (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                        (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                          Rat Rat.instField)))))
+                (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))
+                M)
+              (@Semiring.toMonoid.{0}
+                (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+                  (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                      (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                        (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                          (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                            Rat Rat.instField)))))
+                  (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField)))
+                  M)
+                (@Ideal.Quotient.semiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField))
+                  M)))
+            (@Units.instGroup.{0}
+              (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+                (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                      (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                        (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                          Rat Rat.instField)))))
+                (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))
+                M)
+              (@Semiring.toMonoid.{0}
+                (@HasQuotient.Quotient.{0, 0} OAI.SevenEighths.HeckeFamily.O
+                  (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                      (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                        (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                          (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                            Rat Rat.instField)))))
+                  (@Ideal.instHasQuotient_1.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField)))
+                  M)
+                (@Ideal.Quotient.semiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField))
+                  M))))))
+      (@OAI.SevenEighths.RayOrthogonality.globalUnits.{0} OAI.SevenEighths.HeckeFamily.O
+        (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+          (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+            Rat.instField))
+        M)
+      H)
+  (S :
+    Finset.{0}
+      (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+        (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+          (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+            (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+              (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                Rat.instField))))))
+  (hS :
+    ∀
+      (P :
+        @Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+          (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+            (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+              (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                  Rat.instField))))),
+      @Membership.mem.{0, 0}
+          (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+            (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+              (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                  (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                    Rat.instField)))))
+          (Finset.{0}
+            (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+              (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField))))))
+          (@SetLike.instMembership.{0, 0}
+            (Finset.{0}
+              (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+                (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField))))))
+            (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+              (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))))
+            (@Finset.instSetLike.{0}
+              (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+                (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField)))))))
+          S P →
+        @Prime.{0}
+          (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+            (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+              (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                  (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                    Rat.instField)))))
+          (@CommSemiring.toCommMonoidWithZero.{0}
+            (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+              (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))))
+            (@IdemCommSemiring.toCommSemiring.{0}
+              (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+                (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                    (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                      (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                        Rat.instField)))))
+              (@Ideal.instIdemCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField))))))
+          P)
+  (hbad :
+    @LE.le.{0}
+      (Finset.{0}
+        (@Ideal.{0} OAI.CanonicalQuadraticSieve.O
+          (@CommSemiring.toSemiring.{0} OAI.CanonicalQuadraticSieve.O
+            (@CommRing.toCommSemiring.{0} OAI.CanonicalQuadraticSieve.O
+              (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                  Rat.instField))))))
+      (@Preorder.toLE.{0}
+        (Finset.{0}
+          (@Ideal.{0} OAI.CanonicalQuadraticSieve.O
+            (@CommSemiring.toSemiring.{0} OAI.CanonicalQuadraticSieve.O
+              (@CommRing.toCommSemiring.{0} OAI.CanonicalQuadraticSieve.O
+                (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                  (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                    Rat.instField))))))
+        (@PartialOrder.toPreorder.{0}
+          (Finset.{0}
+            (@Ideal.{0} OAI.CanonicalQuadraticSieve.O
+              (@CommSemiring.toSemiring.{0} OAI.CanonicalQuadraticSieve.O
+                (@CommRing.toCommSemiring.{0} OAI.CanonicalQuadraticSieve.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField))))))
+          (@Finset.instPartialOrder.{0}
+            (@Ideal.{0} OAI.CanonicalQuadraticSieve.O
+              (@CommSemiring.toSemiring.{0} OAI.CanonicalQuadraticSieve.O
+                (@CommRing.toCommSemiring.{0} OAI.CanonicalQuadraticSieve.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.ActualEisensteinCubic.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField))))))))
+      OAI.CanonicalQuadraticSieve.fixedBadPrimes S)
+  (hM :
+    @Eq.{1}
+      (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+        (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+          (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+            (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+              (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                Rat.instField)))))
+      M
+      (@Finset.prod.{0, 0}
+        (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+          (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+            (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+              (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                  Rat.instField)))))
+        (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+          (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+            (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+              (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                  Rat.instField)))))
+        (@CommSemiring.toCommMonoid.{0}
+          (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+            (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+              (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                  (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                    Rat.instField)))))
+          (@IdemCommSemiring.toCommSemiring.{0}
+            (@Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+              (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField)))))
+            (@Ideal.instIdemCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+              (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                  (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                    Rat.instField))))))
+        S
+        fun
+          (P :
+            @Ideal.{0} OAI.SevenEighths.HeckeFamily.O
+              (@CommSemiring.toSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                (@CommRing.toCommSemiring.{0} OAI.SevenEighths.HeckeFamily.O
+                  (@NumberField.instCommRingRingOfIntegers.{0} OAI.SevenEighths.HeckeFamily.K
+                    (@CyclotomicField.instField.{0} (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) Rat
+                      Rat.instField))))) =>
+        P))
+  (W : Real → Complex)
+  (aslot bslot total dmin dmax Mcap L rowExponent εm τ₀ κEnergy κPlain batchMesh physicalRange : Real)
+  (haslot :
+    @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) aslot)
+  (hWs :
+    @LE.le.{0} (Set.{0} Real) (@Set.instLE.{0} Real) (@Function.support.{0, 0} Real Complex Complex.instZero W)
+      (@Set.Icc.{0} Real Real.instPreorder aslot bslot))
+  (hW :
+    @ContDiff.{0, 0, 0} Real (@DenselyNormedField.toNontriviallyNormedField.{0} Real Real.denselyNormedField) Real
+      Real.normedAddCommGroup
+      (@InnerProductSpace.toNormedSpace.{0, 0} Real Real Real.instRCLike
+        (@NormedAddCommGroup.toSeminormedAddCommGroup.{0} Real Real.normedAddCommGroup)
+        (@RCLike.toInnerProductSpaceReal.{0} Real Real.instRCLike))
+      Complex Complex.instNormedAddCommGroup
+      (@InnerProductSpace.toNormedSpace.{0, 0} Real Complex Real.instRCLike
+        (@NormedAddCommGroup.toSeminormedAddCommGroup.{0} Complex Complex.instNormedAddCommGroup)
+        instInnerProductSpaceRealComplex)
+      (@WithTop.some.{0} ENat (@Top.top.{0} ENat instTopENat)) W)
+  (hbslot :
+    @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) bslot)
+  (htotal :
+    @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) total)
+  (hdmin : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) dmin)
+  (hdmax : @LE.le.{0} Real Real.instLE dmin dmax) (hcapMargin : @LT.lt.{0} Real Real.instLT dmax Mcap)
+  (hL :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        dmax
+        (@OfNat.ofNat.{0} Real (nat_lit 2)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))))))))
+      L)
+  (hrowExponent :
+    @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) rowExponent)
+  (hεm : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) εm)
+  (hτ₀ : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) τ₀)
+  (hκ0 :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 37)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 37) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 36) (instOfNatNat (nat_lit 36)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 35) (instOfNatNat (nat_lit 35)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 50)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 50) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 49) (instOfNatNat (nat_lit 49)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 48) (instOfNatNat (nat_lit 48))))))))
+      κEnergy)
+  (hκPlain : @LE.le.{0} Real Real.instLE κEnergy κPlain)
+  (hbeta :
+    @LE.le.{0} Real Real.instLE
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@OfNat.ofNat.{0} Real (nat_lit 51)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 51) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 50) (instOfNatNat (nat_lit 50)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 49) (instOfNatNat (nat_lit 49)))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 100)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 100) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 99) (instOfNatNat (nat_lit 99)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 98) (instOfNatNat (nat_lit 98))))))))
+      OAI.SevenEighths.HeckeZeroSupremum.beta)
+  (hκ :
+    @LE.le.{0} Real Real.instLE
+      (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+          (@OfNat.ofNat.{0} Real (nat_lit 2)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))))))
+          OAI.SevenEighths.HeckeZeroSupremum.beta)
+        (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+      κEnergy)
+  (hbatchMesh :
+    @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) batchMesh)
+  (hphysicalRange :
+    @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))
+      physicalRange),
+  @Exists.{1} Real fun (ρ : Real) =>
+    @Exists.{1} Real fun (εE : Real) =>
+      And (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) ρ)
+        (And
+          (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) εE)
+          (And
+            (@LE.le.{0} Real Real.instLE ρ
+              (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub) Mcap dmax))
+            (@Exists.{1} Nat fun (N : Nat) =>
+              And (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) N)
+                (@Exists.{1} (Fin N → Real) fun (ell : Fin N → Real) =>
+                  @Exists.{1} Real fun (slotLower : Real) =>
+                    And
+                      (@LT.lt.{0} Real Real.instLT
+                        (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) slotLower)
+                      (And (@Function.Injective.{1, 1} (Fin N) Real ell)
+                        (And
+                          (@Eq.{1} Real
+                            (@Finset.sum.{0, 0} (Fin N) Real Real.instAddCommMonoid
+                              (@Finset.univ.{0} (Fin N) (Fin.fintype N)) fun (s : Fin N) => ell s)
+                            total)
+                          (And
+                            (∀ (s : Fin N),
+                              And
+                                (@LT.lt.{0} Real Real.instLT
+                                  (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) (ell s))
+                                (And
+                                  (@LE.le.{0} Real Real.instLE
+                                    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) dmax
+                                      slotLower)
+                                    (ell s))
+                                  (And
+                                    (@LE.le.{0} Real Real.instLE (ell s)
+                                      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) dmin
+                                        batchMesh))
+                                    (And
+                                      (@LE.le.{0} Real Real.instLE (ell s)
+                                        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) dmin
+                                          physicalRange))
+                                      (@LE.le.{0} Real Real.instLE (ell s)
+                                        (OAI.SevenEighths.CenteredMomentEnergyWidthRanges.fineMesh Mcap
+                                          (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) L
+                                          κEnergy εE))))))
+                            (And
+                              (∀ (d : Real),
+                                @LE.le.{0} Real Real.instLE dmin d →
+                                  @LE.le.{0} Real Real.instLE d dmax →
+                                    ∀ (s : Fin N),
+                                      And
+                                        (@LE.le.{0} Real Real.instLE slotLower
+                                          (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                                            (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                                            (ell s) d))
+                                        (And
+                                          (@LE.le.{0} Real Real.instLE
+                                            (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                                              (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                                              (ell s) d)
+                                            batchMesh)
+                                          (@LE.le.{0} Real Real.instLE
+                                            (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                                              (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                                              (ell s) d)
+                                            physicalRange)))
+                              (@Exists.{1} Nat fun (degree : Nat) =>
+                                @Exists.{1} Nat fun (J : Nat) =>
+                                  @Exists.{1} Real fun (τ : Real) =>
+                                    And
+                                      (@LT.lt.{0} Real Real.instLT
+                                        (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) τ)
+                                      (And (@LE.le.{0} Real Real.instLE τ τ₀)
+                                        (And
+                                          (@LE.le.{0} Real Real.instLE
+                                            (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                                              (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd) ρ
+                                                εE)
+                                              (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                                                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                                                  (@OfNat.ofNat.{0} Real (nat_lit 2)
+                                                    (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+                                                      (@Nat.instAtLeastTwoHAddOfNat
+                                                        (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                                                        (@Nat.instNeZeroSucc
+                                                          (@OfNat.ofNat.{0} Nat (nat_lit 0)
+                                                            (instOfNatNat (nat_lit 0)))))))
+                                                  τ)
+                                                (@Nat.cast.{0} Real Real.instNatCast
+                                                  (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+                                                    degree
+                                                    (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                                                      (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))
+                                                      J)))))
+                                            (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) dmin
+                                              εm))
+                                          (∀ (η : OAI.SevenEighths.HeckeFamily.Character),
+                                            @Exists.{1} Real fun (C : Real) =>
+                                              And
+                                                (@LT.lt.{0} Real Real.instLT
+                                                  (@OfNat.ofNat.{0} Real (nat_lit 0)
+                                                    (@Zero.toOfNat0.{0} Real Real.instZero))
+                                                  C)
+                                                (@Filter.Eventually.{0} Real
+                                                  (fun (Z : Real) =>
+                                                    And
+                                                      (@LT.lt.{0} Real Real.instLT
+                                                        (@OfNat.ofNat.{0} Real (nat_lit 1)
+                                                          (@One.toOfNat1.{0} Real Real.instOne))
+                                                        Z)
+                                                      (∀ (τ' : Real),
+                                                        @LT.lt.{0} Real Real.instLT
+                                                            (@OfNat.ofNat.{0} Real (nat_lit 0)
+                                                              (@Zero.toOfNat0.{0} Real Real.instZero))
+                                                            τ' →
+                                                          @LE.le.{0} Real Real.instLE τ' τ →
+                                                            ∀ (d : Real),
+                                                              @LE.le.{0} Real Real.instLE dmin d →
+                                                                @LE.le.{0} Real Real.instLE d dmax →
+                                                                  ∀
+                                                                    (rows :
+                                                                      Finset.{0}
+                                                                        OAI.SevenEighths.HeckeInverseAmplification.FreeRow),
+                                                                    (∀
+                                                                        (u :
+                                                                          OAI.SevenEighths.HeckeInverseAmplification.FreeRow),
+                                                                        @Membership.mem.{0, 0}
+                                                                            OAI.SevenEighths.HeckeInverseAmplification.FreeRow
+                                                                            (Finset.{0}
+                                                                              OAI.SevenEighths.HeckeInverseAmplification.FreeRow)
+                                                                            (@SetLike.instMembership.{0, 0}
+                                                                              (Finset.{0}
+                                                                                OAI.SevenEighths.HeckeInverseAmplification.FreeRow)
+                                                                              OAI.SevenEighths.HeckeInverseAmplification.FreeRow
+                                                                              (@Finset.instSetLike.{0}
+                                                                                OAI.SevenEighths.HeckeInverseAmplification.FreeRow))
+                                                                            rows u →
+                                                                          @LE.le.{0} Real Real.instLE
+                                                                            (@HPow.hPow.{0, 0, 0} Real Real Real
+                                                                              (@instHPow.{0, 0} Real Real Real.instPow)
+                                                                              Z rowExponent)
+                                                                            (@Nat.cast.{0} Real Real.instNatCast
+                                                                              (@DFunLike.coe.{1, 1, 1}
+                                                                                (@MonoidWithZeroHom.{0, 0}
+                                                                                  (@Ideal.{0}
+                                                                                    OAI.SevenEighths.HeckeFamily.O
+                                                                                    (@CommSemiring.toSemiring.{0}
+                                                                                      OAI.SevenEighths.HeckeFamily.O
+                                                                                      (@CommRing.toCommSemiring.{0}
+                                                                                        OAI.SevenEighths.HeckeFamily.O
+                                                                                        (@NumberField.instCommRingRingOfIntegers.{0}
+                                                                                          OAI.SevenEighths.HeckeFamily.K
+                                                                                          (@CyclotomicField.instField.{0}
+                                                                                            (@OfNat.ofNat.{0} Nat
+                                                                                              (nat_lit 3)
+                                                                                              (instOfNatNat
+                                                                                                (nat_lit 3)))
+                                                                                            Rat Rat.instField)))))
+                                                                                  Nat
+                                                                                  (@instMulZeroOneClassOfSemiring.{0}
+                                                                                    (@Ideal.{0}
+                                                                                      OAI.SevenEighths.HeckeFamily.O
+                                                                                      (@CommSemiring.toSemiring.{0}
+                                                                                        OAI.SevenEighths.HeckeFamily.O
+                                                                                        (@CommRing.toCommSemiring.{0}
+                                                                                          OAI.SevenEighths.HeckeFamily.O
+                                                                                          (@NumberField.instCommRingRingOfIntegers.{0}
+                                                                                            OAI.SevenEighths.HeckeFamily.K
+                                                                                            (@CyclotomicField.instField.{0}
+                                                                                              (@OfNat.ofNat.{0} Nat
+                                                                                                (nat_lit 3)
+                                                                                                (instOfNatNat
+                                                                                                  (nat_lit 3)))
+                                                                                              Rat Rat.instField)))))
+                                                                                    (@IdemSemiring.toSemiring.{0}
+                                                                                      (@Ideal.{0}
+                                                                                        OAI.SevenEighths.HeckeFamily.O
+                                                                                        (@CommSemiring.toSemiring.{0}
+                                                                                          OAI.SevenEighths.HeckeFamily.O
+                                                                                          (@CommRing.toCommSemiring.{0}
+                                                                                            OAI.SevenEighths.HeckeFamily.O
+                                                                                            (@NumberField.instCommRingRingOfIntegers.{0}
+                                                                                              OAI.SevenEighths.HeckeFamily.K
+                                                                                              (@CyclotomicField.instField.{0}
+                                                                                                (@OfNat.ofNat.{0} Nat
+                                                                                                  (nat_lit 3)
+                                                                                                  (instOfNatNat
+                                                                                                    (nat_lit 3)))
+                                                                                                Rat Rat.instField)))))
+                                                                                      (@Submodule.idemSemiring.{0, 0}
+                                                                                        OAI.SevenEighths.HeckeFamily.O
+                                                                                        (@CommRing.toCommSemiring.{0}
+                                                                                          OAI.SevenEighths.HeckeFamily.O
+                                                                                          (@NumberField.instCommRingRingOfIntegers.{0}
+                                                                                            OAI.SevenEighths.HeckeFamily.K
+                                                                                            (@CyclotomicField.instField.{0}
+                                                                                              (@OfNat.ofNat.{0} Nat
+                                                                                                (nat_lit 3)
+                                                                                                (instOfNatNat
+                                                                                                  (nat_lit 3)))
+                                                                                              Rat Rat.instField)))
+                                                                                        OAI.SevenEighths.HeckeFamily.O
+                                                                                        (@CommSemiring.toSemiring.{0}
+                                                                                          OAI.SevenEighths.HeckeFamily.O
+                                                                                          (@CommRing.toCommSemiring.{0}
+                                                                                            OAI.SevenEighths.HeckeFamily.O
+                                                                                            (@NumberField.instCommRingRingOfIntegers.{0}
+                                                                                              OAI.SevenEighths.HeckeFamily.K
+                                                                                              (@CyclotomicField.instField.{0}
+                                                                                                (@OfNat.ofNat.{0} Nat
+                                                                                                  (nat_lit 3)
+                                                                                                  (instOfNatNat
+                                                                                                    (nat_lit 3)))
+                                                                                                Rat Rat.instField))))
+                                                                                        (@Algebra.id.{0}
+                                                                                          OAI.SevenEighths.HeckeFamily.O
+                                                                                          (@CommRing.toCommSemiring.{0}
+                                                                                            OAI.SevenEighths.HeckeFamily.O
+                                                                                            (@NumberField.instCommRingRingOfIntegers.{0}
+                                                                                              OAI.SevenEighths.HeckeFamily.K
+                                                                                              (@CyclotomicField.instField.{0}
+                                                                                                (@OfNat.ofNat.{0} Nat
+                                                                                                  (nat_lit 3)
+                                                                                                  (instOfNatNat
+                                                                                                    (nat_lit 3)))
+                                                                                                Rat Rat.instField)))))))
+                                                                                  Nat.instMulZeroOneClass)
+                                                                                (@Ideal.{0}
+                                                                                  OAI.SevenEighths.HeckeFamily.O
+                                                                                  (@CommSemiring.toSemiring.{0}
+                                                                                    OAI.SevenEighths.HeckeFamily.O
+                                                                                    (@CommRing.toCommSemiring.{0}
+                                                                                      OAI.SevenEighths.HeckeFamily.O
+                                                                                      (@NumberField.instCommRingRingOfIntegers.{0}
+                                                                                        OAI.SevenEighths.HeckeFamily.K
+                                                                                        (@CyclotomicField.instField.{0}
+                                                                                          (@OfNat.ofNat.{0} Nat
+                                                                                            (nat_lit 3)
+                                                                                            (instOfNatNat (nat_lit 3)))
+                                                                                          Rat Rat.instField)))))
+                                                                                (fun
+                                                                                    (x :
+                                                                                      @Ideal.{0}
+                                                                                        OAI.SevenEighths.HeckeFamily.O
+                                                                                        (@CommSemiring.toSemiring.{0}
+                                                                                          OAI.SevenEighths.HeckeFamily.O
+                                                                                          (@CommRing.toCommSemiring.{0}
+                                                                                            OAI.SevenEighths.HeckeFamily.O
+                                                                                            (@NumberField.instCommRingRingOfIntegers.{0}
+                                                                                              OAI.SevenEighths.HeckeFamily.K
+                                                                                              (@CyclotomicField.instField.{0}
+                                                                                                (@OfNat.ofNat.{0} Nat
+                                                                                                  (nat_lit 3)
+                                                                                                  (instOfNatNat
+                                                                                                    (nat_lit 3)))
+                                                                                                Rat
+                                                                                                Rat.instField))))) =>
+                                                                                  Nat)
+                                                                                (@MonoidWithZeroHom.funLike.{0, 0}
+                                                                                  (@Ideal.{0}
+                                                                                    OAI.SevenEighths.HeckeFamily.O
+                                                                                    (@CommSemiring.toSemiring.{0}
+                                                                                      OAI.SevenEighths.HeckeFamily.O
+                                                                                      (@CommRing.toCommSemiring.{0}
+                                                                                        OAI.SevenEighths.HeckeFamily.O
+                                                                                        (@NumberField.instCommRingRingOfIntegers.{0}
+                                                                                          OAI.SevenEighths.HeckeFamily.K
+                                                                                          (@CyclotomicField.instField.{0}
+                                                                                            (@OfNat.ofNat.{0} Nat
+                                                                                              (nat_lit 3)
+                                                                                              (instOfNatNat
+                                                                                                (nat_lit 3)))
+                                                                                            Rat Rat.instField)))))
+                                                                                  Nat
+                                                                                  (@instMulZeroOneClassOfSemiring.{0}
+                                                                                    (@Ideal.{0}
+                                                                                      OAI.SevenEighths.HeckeFamily.O
+                                                                                      (@CommSemiring.toSemiring.{0}
+                                                                                        OAI.SevenEighths.HeckeFamily.O
+                                                                                        (@CommRing.toCommSemiring.{0}
+                                                                                          OAI.SevenEighths.HeckeFamily.O
+                                                                                          (@NumberField.instCommRingRingOfIntegers.{0}
+                                                                                            OAI.SevenEighths.HeckeFamily.K
+                                                                                            (@CyclotomicField.instField.{0}
+                                                                                              (@OfNat.ofNat.{0} Nat
+                                                                                                (nat_lit 3)
+                                                                                                (instOfNatNat
+                                                                                                  (nat_lit 3)))
+                                                                                              Rat Rat.instField)))))
+                                                                                    (@IdemSemiring.toSemiring.{0}
+                                                                                      (@Ideal.{0}
+                                                                                        OAI.SevenEighths.HeckeFamily.O
+                                                                                        (@CommSemiring.toSemiring.{0}
+                                                                                          OAI.SevenEighths.HeckeFamily.O
+                                                                                          (@CommRing.toCommSemiring.{0}
+                                                                                            OAI.SevenEighths.HeckeFamily.O
+                                                                                            (@NumberField.instCommRingRingOfIntegers.{0}
+                                                                                              OAI.SevenEighths.HeckeFamily.K
+                                                                                              (@CyclotomicField.instField.{0}
+                                                                                                (@OfNat.ofNat.{0} Nat
+                                                                                                  (nat_lit 3)
+                                                                                                  (instOfNatNat
+                                                                                                    (nat_lit 3)))
+                                                                                                Rat Rat.instField)))))
+                                                                                      (@Submodule.idemSemiring.{0, 0}
+                                                                                        OAI.SevenEighths.HeckeFamily.O
+                                                                                        (@CommRing.toCommSemiring.{0}
+                                                                                          OAI.SevenEighths.HeckeFamily.O
+                                                                                          (@NumberField.instCommRingRingOfIntegers.{0}
+                                                                                            OAI.SevenEighths.HeckeFamily.K
+                                                                                            (@CyclotomicField.instField.{0}
+                                                                                              (@OfNat.ofNat.{0} Nat
+                                                                                                (nat_lit 3)
+                                                                                                (instOfNatNat
+                                                                                                  (nat_lit 3)))
+                                                                                              Rat Rat.instField)))
+                                                                                        OAI.SevenEighths.HeckeFamily.O
+                                                                                        (@CommSemiring.toSemiring.{0}
+                                                                                          OAI.SevenEighths.HeckeFamily.O
+                                                                                          (@CommRing.toCommSemiring.{0}
+                                                                                            OAI.SevenEighths.HeckeFamily.O
+                                                                                            (@NumberField.instCommRingRingOfIntegers.{0}
+                                                                                              OAI.SevenEighths.HeckeFamily.K
+                                                                                              (@CyclotomicField.instField.{0}
+                                                                                                (@OfNat.ofNat.{0} Nat
+                                                                                                  (nat_lit 3)
+                                                                                                  (instOfNatNat
+                                                                                                    (nat_lit 3)))
+                                                                                                Rat Rat.instField))))
+                                                                                        (@Algebra.id.{0}
+                                                                                          OAI.SevenEighths.HeckeFamily.O
+                                                                                          (@CommRing.toCommSemiring.{0}
+                                                                                            OAI.SevenEighths.HeckeFamily.O
+                                                                                            (@NumberField.instCommRingRingOfIntegers.{0}
+                                                                                              OAI.SevenEighths.HeckeFamily.K
+                                                                                              (@CyclotomicField.instField.{0}
+                                                                                                (@OfNat.ofNat.{0} Nat
+                                                                                                  (nat_lit 3)
+                                                                                                  (instOfNatNat
+                                                                                                    (nat_lit 3)))
+                                                                                                Rat Rat.instField)))))))
+                                                                                  Nat.instMulZeroOneClass)
+                                                                                (@Ideal.absNorm.{0}
+                                                                                  OAI.SevenEighths.HeckeFamily.O
+                                                                                  (@NumberField.instCommRingRingOfIntegers.{0}
+                                                                                    OAI.SevenEighths.HeckeFamily.K
+                                                                                    (@CyclotomicField.instField.{0}
+                                                                                      (@OfNat.ofNat.{0} Nat (nat_lit 3)
+                                                                                        (instOfNatNat (nat_lit 3)))
+                                                                                      Rat Rat.instField))
+                                                                                  (@NumberField.RingOfIntegers.instIsDedekindDomain.{0}
+                                                                                    OAI.SevenEighths.HeckeFamily.K
+                                                                                    (@CyclotomicField.instField.{0}
+                                                                                      (@OfNat.ofNat.{0} Nat (nat_lit 3)
+                                                                                        (instOfNatNat (nat_lit 3)))
+                                                                                      Rat Rat.instField)
+                                                                                    (@CyclotomicField.instNumberField.{0}
+                                                                                      (@OfNat.ofNat.{0} Nat (nat_lit 3)
+                                                                                        (instOfNatNat (nat_lit 3)))
+                                                                                      Rat Rat.instField
+                                                                                      Rat.numberField))
+                                                                                  (@CharZero.infinite.{0}
+                                                                                    OAI.SevenEighths.HeckeFamily.O
+                                                                                    (@AddGroupWithOne.toAddMonoidWithOne.{0}
+                                                                                      OAI.SevenEighths.HeckeFamily.O
+                                                                                      (@Ring.toAddGroupWithOne.{0}
+                                                                                        OAI.SevenEighths.HeckeFamily.O
+                                                                                        (@CommRing.toRing.{0}
+                                                                                          OAI.SevenEighths.HeckeFamily.O
+                                                                                          (@NumberField.instCommRingRingOfIntegers.{0}
+                                                                                            OAI.SevenEighths.HeckeFamily.K
+                                                                                            (@CyclotomicField.instField.{0}
+                                                                                              (@OfNat.ofNat.{0} Nat
+                                                                                                (nat_lit 3)
+                                                                                                (instOfNatNat
+                                                                                                  (nat_lit 3)))
+                                                                                              Rat Rat.instField)))))
+                                                                                    (@NumberField.RingOfIntegers.instCharZero_1.{0}
+                                                                                      OAI.SevenEighths.HeckeFamily.K
+                                                                                      (@CyclotomicField.instField.{0}
+                                                                                        (@OfNat.ofNat.{0} Nat
+                                                                                          (nat_lit 3)
+                                                                                          (instOfNatNat (nat_lit 3)))
+                                                                                        Rat Rat.instField)
+                                                                                      (@CyclotomicField.instCharZero.{0}
+                                                                                        (@OfNat.ofNat.{0} Nat
+                                                                                          (nat_lit 3)
+                                                                                          (instOfNatNat (nat_lit 3)))
+                                                                                        Rat Rat.instField
+                                                                                        Rat.instCharZero))))
+                                                                                (@Ideal.span.{0}
+                                                                                  OAI.SevenEighths.HeckeFamily.O
+                                                                                  (@CommSemiring.toSemiring.{0}
+                                                                                    OAI.SevenEighths.HeckeFamily.O
+                                                                                    (@CommRing.toCommSemiring.{0}
+                                                                                      OAI.SevenEighths.HeckeFamily.O
+                                                                                      (@NumberField.instCommRingRingOfIntegers.{0}
+                                                                                        OAI.SevenEighths.HeckeFamily.K
+                                                                                        (@CyclotomicField.instField.{0}
+                                                                                          (@OfNat.ofNat.{0} Nat
+                                                                                            (nat_lit 3)
+                                                                                            (instOfNatNat (nat_lit 3)))
+                                                                                          Rat Rat.instField))))
+                                                                                  (@Singleton.singleton.{0, 0}
+                                                                                    OAI.SevenEighths.HeckeFamily.O
+                                                                                    (Set.{0}
+                                                                                      OAI.SevenEighths.HeckeFamily.O)
+                                                                                    (@Set.instSingletonSet.{0}
+                                                                                      OAI.SevenEighths.HeckeFamily.O)
+                                                                                    (@Subtype.val.{1}
+                                                                                      OAI.SevenEighths.HeckeFamily.O
+                                                                                      (fun
+                                                                                          (u :
+                                                                                            OAI.SevenEighths.HeckeFamily.O) =>
+                                                                                        And
+                                                                                          (@Ne.{1}
+                                                                                            OAI.SevenEighths.HeckeFamily.O
+                                                                                            u
+                                                                                            (@OfNat.ofNat.{0}
+                                                                                              OAI.SevenEighths.HeckeFamily.O
+                                                                                              (nat_lit 0)
+                                                                                              (@Zero.toOfNat0.{0}
+                                                                                                OAI.SevenEighths.HeckeFamily.O
+                                                                                                (@MulZeroClass.toZero.{0}
+                                                                                                  OAI.SevenEighths.HeckeFamily.O
+                                                                                                  (@instMulZeroClassOfSemiring.{0}
+                                                                                                    OAI.SevenEighths.HeckeFamily.O
+                                                                                                    (@CommSemiring.toSemiring.{0}
+                                                                                                      OAI.SevenEighths.HeckeFamily.O
+                                                                                                      (@CommRing.toCommSemiring.{0}
+                                                                                                        OAI.SevenEighths.HeckeFamily.O
+                                                                                                        (@NumberField.instCommRingRingOfIntegers.{0}
+                                                                                                          OAI.SevenEighths.HeckeFamily.K
+                                                                                                          (@CyclotomicField.instField.{0}
+                                                                                                            (@OfNat.ofNat.{0}
+                                                                                                              Nat
+                                                                                                              (nat_lit
+                                                                                                                3)
+                                                                                                              (instOfNatNat
+                                                                                                                (nat_lit
+                                                                                                                  3)))
+                                                                                                            Rat
+                                                                                                            Rat.instField)))))))))
+                                                                                          (OAI.SevenEighths.HeckeInverseAmplification.SixthFree
+                                                                                            (@Ideal.span.{0}
+                                                                                              OAI.SevenEighths.HeckeFamily.O
+                                                                                              (@CommSemiring.toSemiring.{0}
+                                                                                                OAI.SevenEighths.HeckeFamily.O
+                                                                                                (@CommRing.toCommSemiring.{0}
+                                                                                                  OAI.SevenEighths.HeckeFamily.O
+                                                                                                  (@NumberField.instCommRingRingOfIntegers.{0}
+                                                                                                    OAI.SevenEighths.HeckeFamily.K
+                                                                                                    (@CyclotomicField.instField.{0}
+                                                                                                      (@OfNat.ofNat.{0}
+                                                                                                        Nat (nat_lit 3)
+                                                                                                        (instOfNatNat
+                                                                                                          (nat_lit 3)))
+                                                                                                      Rat
+                                                                                                      Rat.instField))))
+                                                                                              (@Singleton.singleton.{0,
+                                                                                                    0}
+                                                                                                OAI.SevenEighths.HeckeFamily.O
+                                                                                                (Set.{0}
+                                                                                                  OAI.SevenEighths.HeckeFamily.O)
+                                                                                                (@Set.instSingletonSet.{0}
+                                                                                                  OAI.SevenEighths.HeckeFamily.O)
+                                                                                                u))))
+                                                                                      u)))))) →
+                                                                      ∀ (a ε binWidth : Real) (i : Nat) (z : Complex),
+                                                                        @Eq.{1} Real (Complex.re z)
+                                                                            (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                                                                              (@instHDiv.{0} Real
+                                                                                (@DivInvMonoid.toDiv.{0} Real
+                                                                                  Real.instDivInvMonoid))
+                                                                              (@OfNat.ofNat.{0} Real (nat_lit 17)
+                                                                                (@instOfNatAtLeastTwo.{0} Real
+                                                                                  (nat_lit 17) Real.instNatCast
+                                                                                  (@Nat.instAtLeastTwoHAddOfNat
+                                                                                    (@OfNat.ofNat.{0} Nat (nat_lit 16)
+                                                                                      (instOfNatNat (nat_lit 16)))
+                                                                                    (@Nat.instNeZeroSucc
+                                                                                      (@OfNat.ofNat.{0} Nat (nat_lit 15)
+                                                                                        (instOfNatNat (nat_lit 15)))))))
+                                                                              (@OfNat.ofNat.{0} Real (nat_lit 50)
+                                                                                (@instOfNatAtLeastTwo.{0} Real
+                                                                                  (nat_lit 50) Real.instNatCast
+                                                                                  (@Nat.instAtLeastTwoHAddOfNat
+                                                                                    (@OfNat.ofNat.{0} Nat (nat_lit 49)
+                                                                                      (instOfNatNat (nat_lit 49)))
+                                                                                    (@Nat.instNeZeroSucc
+                                                                                      (@OfNat.ofNat.{0} Nat (nat_lit 48)
+                                                                                        (instOfNatNat
+                                                                                          (nat_lit 48)))))))) →
+                                                                          ∀ (height : Real),
+                                                                            @LE.le.{0} Real Real.instLE
+                                                                                (@OfNat.ofNat.{0} Real (nat_lit 0)
+                                                                                  (@Zero.toOfNat0.{0} Real
+                                                                                    Real.instZero))
+                                                                                height →
+                                                                              @LE.le.{0} Real Real.instLE height
+                                                                                  (@HPow.hPow.{0, 0, 0} Real Real Real
+                                                                                    (@instHPow.{0, 0} Real Real
+                                                                                      Real.instPow)
+                                                                                    Z
+                                                                                    (@HMul.hMul.{0, 0, 0} Real Real Real
+                                                                                      (@instHMul.{0} Real Real.instMul)
+                                                                                      (@OfNat.ofNat.{0} Real (nat_lit 2)
+                                                                                        (@instOfNatAtLeastTwo.{0} Real
+                                                                                          (nat_lit 2) Real.instNatCast
+                                                                                          (@Nat.instAtLeastTwoHAddOfNat
+                                                                                            (@OfNat.ofNat.{0} Nat
+                                                                                              (nat_lit 1)
+                                                                                              (instOfNatNat
+                                                                                                (nat_lit 1)))
+                                                                                            (@Nat.instNeZeroSucc
+                                                                                              (@OfNat.ofNat.{0} Nat
+                                                                                                (nat_lit 0)
+                                                                                                (instOfNatNat
+                                                                                                  (nat_lit 0)))))))
+                                                                                      τ')) →
+                                                                                @LE.le.{0} Real Real.instLE
+                                                                                    (@abs.{0} Real Real.lattice
+                                                                                      Real.instAddGroup (Complex.im z))
+                                                                                    height →
+                                                                                  @OAI.SevenEighths.SourcePlainMarkedUniversalCandidate.SourcePlainMarkedAt
+                                                                                    M inst H hH N S hS η rows ell W Z d
+                                                                                    a ε τ' dmax bslot batchMesh binWidth
+                                                                                    i z κPlain C height εm))
+                                                  (@Filter.atTop.{0} Real Real.instPreorder))))))))))))))
+'OAI.SevenEighths.SourcePlainMarkedUniversalCandidate.exists_source_slots_and_universal_plain_marked' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]

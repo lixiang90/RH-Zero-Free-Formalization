@@ -1,0 +1,18 @@
+{
+  "status": "reviewed_normalized_prepared_not_installed_or_compiled",
+  "module": "OAI.NumberTheory.DirichletL.Moments.SourcePlainMarkedUniversalLowKappa",
+  "namespace": "OAI.SevenEighths.SourcePlainMarkedUniversalLowKappa",
+  "source": "E:\\codex-build\\RH-Weil\\tmp\\source-universal-unmarked-phase-20261009\\SourcePlainMarkedUniversalLowKappa.lean",
+  "sha256": "c1e3b3832bda8e904853ebd68b8f555a09721980e3e35c2c8d1461ce695b12c7",
+  "bytes": 10118,
+  "root": "OAI.SevenEighths.SourcePlainMarkedUniversalLowKappa.exists_source_slots_and_universal_plain_marked",
+  "predicate": "OAI.SevenEighths.SourcePlainMarkedUniversalLowKappa.SourcePlainMarkedAt",
+  "predicate_not_counted_as_selected_root": true,
+  "private_source": "E:\\codex-build\\RH-Weil\\tmp\\source-plain-universal-phase-20261009\\SourcePlainMarkedUniversal.candidate.lean",
+  "private_source_sha256": "74b844466e2ac6e04c0e4df55892ae147216c038dab38bcbc9a67338031afe3d",
+  "private_verification_metadata_sha256": "70e2d0bdd0a4b7bb97182abd4f9aaac093ad0744ddcdbfd65963703327edd285",
+  "normalization": "Only initial copyright/content header and namespace/end identifiers changed; declaration, source predicate and proof body byte-identical after reversing namespace substitution.",
+  "canonical_installed": false,
+  "lean_invoked": false,
+  "state_modified": false
+}

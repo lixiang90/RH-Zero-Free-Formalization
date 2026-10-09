@@ -1,0 +1,365 @@
+warning: rellich-kondrachov: repository 'E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake/packages\rellich-kondrachov' has local changes
+E:\codex-build\RH-Weil\tmp\source-plain-universal-phase-20261009\SourcePlainMarkedUniversal.candidate.lean:143:11: error: synthesized type class instance is not definitionally equal to expression inferred by typing rules, synthesized
+  fun a_1 =>
+    @instDecidableAnd
+      (amplitudeLabel B.slots (Z ^ d) ((2 * a - 1) / 2) B.binWidth ⋯ B.widths
+          (HeckeDetectorPhysicalSelection.physical M H (fun u => ↑u) B.profile B.upper B.widths B.external (Z ^ d))
+          a_1 =
+        bin)
+      ((B.witness a_1).label = label ∧ (B.witness a_1).left = Ileft ∧ (B.witness a_1).right = Iright)
+      (Fintype.decidablePiFintype
+        (amplitudeLabel B.slots (Z ^ d) ((2 * a - 1) / 2) B.binWidth ⋯ B.widths
+          (HeckeDetectorPhysicalSelection.physical M H (fun u => ↑u) B.profile B.upper B.widths B.external (Z ^ d)) a_1)
+        bin)
+      (@instDecidableAnd ((B.witness a_1).label = label) ((B.witness a_1).left = Ileft ∧ (B.witness a_1).right = Iright)
+        (instDecidableEqSum (B.witness a_1).label label) instDecidableAnd)
+inferred
+  fun a_1 =>
+    @instDecidableAnd
+      (amplitudeLabel B.slots (Z ^ d) ((2 * a - 1) / 2) B.binWidth ⋯ B.widths
+          (HeckeDetectorPhysicalSelection.physical M H (fun u => ↑u) B.profile B.upper B.widths B.external (Z ^ d))
+          a_1 =
+        bin)
+      ((B.witness a_1).label = label ∧ (B.witness a_1).left = Ileft ∧ (B.witness a_1).right = Iright)
+      (Fintype.decidablePiFintype
+        (amplitudeLabel B.slots (Z ^ d) ((2 * a - 1) / 2) B.binWidth ⋯ B.widths
+          (HeckeDetectorPhysicalSelection.physical M H (fun u => ↑u) B.profile B.upper B.widths B.external (Z ^ d)) a_1)
+        bin)
+      (@instDecidableAnd ((B.witness a_1).label = label) ((B.witness a_1).left = Ileft ∧ (B.witness a_1).right = Iright)
+        (Classical.propDecidable ((B.witness a_1).label = label)) instDecidableAnd)
+E:\codex-build\RH-Weil\tmp\source-plain-universal-phase-20261009\SourcePlainMarkedUniversal.candidate.lean:149:11: error(lean.unknownIdentifier): Unknown identifier `primePool`
+E:\codex-build\RH-Weil\tmp\source-plain-universal-phase-20261009\SourcePlainMarkedUniversal.candidate.lean:93:55: error: unsolved goals
+M : Ideal O
+inst✝ : NeZero M
+H : Subgroup (O ⧸ M)ˣ
+hH : RayOrthogonality.globalUnits M ≤ H
+S : Finset (Ideal O)
+hS : ∀ P ∈ S, Prime P
+hbad : CanonicalQuadraticSieve.fixedBadPrimes ⊆ S
+hM : M = ∏ P ∈ S, P
+W : ℝ → ℂ
+aslot bslot total dmin dmax Mcap L rowExponent εm τ₀ κEnergy κPlain batchMesh physicalRange : ℝ
+haslot : 0 < aslot
+hWs : Function.support W ⊆ Set.Icc aslot bslot
+hW : ContDiff ℝ ∞ W
+hbslot : 0 ≤ bslot
+htotal : 0 < total
+hdmin : 0 < dmin
+hdmax : dmin ≤ dmax
+hcapMargin : dmax < Mcap
+hL : dmax / 2 ≤ L
+hrowExponent : 0 < rowExponent
+hεm : 0 < εm
+hτ₀ : 0 < τ₀
+hκ0 : 37 / 50 ≤ κEnergy
+hκPlain : κEnergy ≤ κPlain
+hbeta : 51 / 100 ≤ HeckeZeroSupremum.beta
+hκ : 2 * HeckeZeroSupremum.beta - 1 ≤ κEnergy
+hbatchMesh : 0 < batchMesh
+hphysicalRange : 0 < physicalRange
+hMm : M ≤ Ideal.span {rowMaskElement}
+ρ εE : ℝ
+hρ : 0 < ρ
+hεE : 0 < εE
+hρcap : ρ ≤ Mcap - dmax
+hslotSupply :
+  ∀ {Slot : Type} [Fintype Slot] [DecidableEq Slot],
+    ∃ degree J τ,
+      0 < τ ∧
+        τ ≤ τ₀ ∧
+          ρ + εE + 2 * τ * ↑(degree + 4 * J) ≤ dmin * εm ∧
+            ∀ {Label : Type} [Fintype Label] (η : Label → Character) (Q : Label → Ideal O),
+              (∀ (j : Label), Q j ≤ M) →
+                (∀ (j : Label), internalQ (Q j) (η j) ≠ 0) →
+                  (∀ (j : Label), internalQ (Q j) (η j) ≠ ⊤) →
+                    (∀ (j : Label), internalQ (Q j) (η j) ≤ Ideal.span {72}) →
+                      ∃ Φ,
+                        (∀ (x : ℝ), 0 ≤ (Φ x).re) ∧
+                          (∀ (x : ℝ), (Φ x).im = 0) ∧
+                            ∃ Ctotal,
+                              0 < Ctotal ∧
+                                ∀ᶠ (Z : ℝ) in atTop,
+                                  1 < Z ∧
+                                    ∀ (τ' : ℝ),
+                                      0 < τ' →
+                                        τ' ≤ τ →
+                                          ∀ (d : ℝ),
+                                            dmin ≤ d →
+                                              d ≤ dmax →
+                                                ∀ (a ε tstar T allowance : ℝ) (i : ℕ)
+                                                  (F : Fiber M H Label Slot (Z ^ d) a ε tstar T allowance i),
+                                                  F.rowData = momentData (η F.label) →
+                                                    (∀ u ∈ F.rows,
+                                                        Z ^ rowExponent ≤ ↑(Ideal.absNorm (Ideal.span {↑u}))) →
+                                                      (∀ s ∈ F.slots, F.profile s = W) →
+                                                        (∀ s ∈ F.slots, F.upper s = bslot) →
+                                                          (∀ s ∈ F.slots,
+                                                              ∀
+                                                                P ∈
+                                                                  CenteredMomentPrimeSlot.primePool M H (F.upper s)
+                                                                    ((Z ^ d) ^ F.widths s),
+                                                                F.profile s
+                                                                      (↑(Ideal.absNorm P) / (Z ^ d) ^ F.widths s) ≠
+                                                                    0 →
+                                                                  IsCoprime P (η F.label).modulus) →
+                                                            (∀ s ∈ F.slots,
+                                                                d * F.widths s ≤ fineMesh Mcap 0 L κEnergy εE) →
+                                                              (∀ s ∈ F.slots, (F.external s).re = 17 / 50) →
+                                                                ∀ (height : ℝ),
+                                                                  0 ≤ height →
+                                                                    height ≤ Z ^ (2 * τ') →
+                                                                      (∀ s ∈ F.slots, |(F.external s).im| ≤ height) →
+                                                                        ∀ selected ⊆ F.slots,
+                                                                          2 * F.m + 6 * κPlain * ∑ s ∈ selected, ⋯ ≤ 1 →
+                                                                            ∀ (j k : ℕ),
+                                                                              j + k ≤ 2 → ∀ σ ∈ Set.Icc 0 1, ⋯
+hMcap : 0 ≤ Mcap
+hκEnergy : 0 ≤ κEnergy
+henergyMesh : 0 < fineMesh Mcap 0 L κEnergy εE
+N : ℕ
+hN : 0 < N
+ell : Fin N → ℝ
+slotLower : ℝ
+hslotLower : 0 < slotLower
+hinj : Function.Injective ell
+hsum : ∑ j, ell j = total
+hslots :
+  ∀ (j : Fin N),
+    0 < ell j ∧
+      dmax * slotLower ≤ ell j ∧
+        ell j ≤ dmin * batchMesh ∧ ell j ≤ dmin * physicalRange ∧ ell j ≤ fineMesh Mcap 0 L κEnergy εE
+hphysical :
+  ∀ (d : ℝ),
+    dmin ≤ d → d ≤ dmax → ∀ (j : Fin N), slotLower ≤ ell j / d ∧ ell j / d ≤ batchMesh ∧ ell j / d ≤ physicalRange
+degree J : ℕ
+τ : ℝ
+hτ : 0 < τ
+hτle : τ ≤ τ₀
+hbudget : ρ + εE + 2 * τ * ↑(degree + 4 * J) ≤ dmin * εm
+hfamily :
+  ∀ {Label : Type} [Fintype Label] (η : Label → Character) (Q : Label → Ideal O),
+    (∀ (j : Label), Q j ≤ M) →
+      (∀ (j : Label), internalQ (Q j) (η j) ≠ 0) →
+        (∀ (j : Label), internalQ (Q j) (η j) ≠ ⊤) →
+          (∀ (j : Label), internalQ (Q j) (η j) ≤ Ideal.span {72}) →
+            ∃ Φ,
+              (∀ (x : ℝ), 0 ≤ (Φ x).re) ∧
+                (∀ (x : ℝ), (Φ x).im = 0) ∧
+                  ∃ Ctotal,
+                    0 < Ctotal ∧
+                      ∀ᶠ (Z : ℝ) in atTop,
+                        1 < Z ∧
+                          ∀ (τ' : ℝ),
+                            0 < τ' →
+                              τ' ≤ τ →
+                                ∀ (d : ℝ),
+                                  dmin ≤ d →
+                                    d ≤ dmax →
+                                      ∀ (a ε tstar T allowance : ℝ) (i : ℕ)
+                                        (F : Fiber M H Label (Fin N) (Z ^ d) a ε tstar T allowance i),
+                                        F.rowData = momentData (η F.label) →
+                                          (∀ u ∈ F.rows, Z ^ rowExponent ≤ ↑(Ideal.absNorm (Ideal.span {↑u}))) →
+                                            (∀ s ∈ F.slots, F.profile s = W) →
+                                              (∀ s ∈ F.slots, F.upper s = bslot) →
+                                                (∀ s ∈ F.slots,
+                                                    ∀
+                                                      P ∈
+                                                        CenteredMomentPrimeSlot.primePool M H (F.upper s)
+                                                          ((Z ^ d) ^ F.widths s),
+                                                      F.profile s (↑(Ideal.absNorm P) / (Z ^ d) ^ F.widths s) ≠ 0 →
+                                                        IsCoprime P (η F.label).modulus) →
+                                                  (∀ s ∈ F.slots, d * F.widths s ≤ fineMesh Mcap 0 L κEnergy εE) →
+                                                    (∀ s ∈ F.slots, (F.external s).re = 17 / 50) →
+                                                      ∀ (height : ℝ),
+                                                        0 ≤ height →
+                                                          height ≤ Z ^ (2 * τ') →
+                                                            (∀ s ∈ F.slots, |(F.external s).im| ≤ height) →
+                                                              ∀ selected ⊆ F.slots,
+                                                                2 * F.m + 6 * κPlain * ∑ s ∈ selected, F.widths s ≤ 1 →
+                                                                  ∀ (j k : ℕ),
+                                                                    j + k ≤ 2 →
+                                                                      ∀ σ ∈ Set.Icc 0 1,
+                                                                        ∀ t ∈ Set.Icc (-height) height,
+                                                                          ∑ u ∈ F.rows,
+                                                                              ‖polynomial ⋯ false
+                                                                                        (logProfile^[j] positiveAnnular)
+                                                                                        ⋯ σ t *
+                                                                                      polynomial ⋯ false
+                                                                                        (logProfile^[k] positiveAnnular)
+                                                                                        ⋯ σ t *
+                                                                                    F.physicalProduct selected u‖ ^
+                                                                                2 ≤
+                                                                            Ctotal * (Z ^ d) ^ (1 + εm)
+η : Character
+ηlabel : Bool ⊕ ↥(RayQuotient.Characters M H) → Character := sourceMomentBase M H hH S hS η
+Q0 : Ideal O := M ⊓ Ideal.span {72}
+hQ :
+  have Q0 := M ⊓ Ideal.span {72};
+  Q0 ≤ M ∧
+    Q0 ≠ 0 ∧
+      Q0 ≠ ⊤ ∧
+        ∀ (η : Character),
+          internalQ Q0 η ≠ 0 ∧ internalQ Q0 η ≠ ⊤ ∧ internalQ Q0 η ≤ Ideal.span {72} ∧ internalQ Q0 η ≤ η.modulus
+Φ : 𝓢(ℝ, ℂ)
+hΦnonneg : ∀ (x : ℝ), 0 ≤ (Φ x).re
+hΦreal : ∀ (x : ℝ), (Φ x).im = 0
+C : ℝ
+hC : 0 < C
+hbound :
+  ∀ᶠ (Z : ℝ) in atTop,
+    1 < Z ∧
+      ∀ (τ' : ℝ),
+        0 < τ' →
+          τ' ≤ τ →
+            ∀ (d : ℝ),
+              dmin ≤ d →
+                d ≤ dmax →
+                  ∀ (a ε tstar T allowance : ℝ) (i : ℕ)
+                    (F : Fiber M H (Bool ⊕ ↥(RayQuotient.Characters M H)) (Fin N) (Z ^ d) a ε tstar T allowance i),
+                    F.rowData = momentData (ηlabel F.label) →
+                      (∀ u ∈ F.rows, Z ^ rowExponent ≤ ↑(Ideal.absNorm (Ideal.span {↑u}))) →
+                        (∀ s ∈ F.slots, F.profile s = W) →
+                          (∀ s ∈ F.slots, F.upper s = bslot) →
+                            (∀ s ∈ F.slots,
+                                ∀ P ∈ CenteredMomentPrimeSlot.primePool M H (F.upper s) ((Z ^ d) ^ F.widths s),
+                                  F.profile s (↑(Ideal.absNorm P) / (Z ^ d) ^ F.widths s) ≠ 0 →
+                                    IsCoprime P (ηlabel F.label).modulus) →
+                              (∀ s ∈ F.slots, d * F.widths s ≤ fineMesh Mcap 0 L κEnergy εE) →
+                                (∀ s ∈ F.slots, (F.external s).re = 17 / 50) →
+                                  ∀ (height : ℝ),
+                                    0 ≤ height →
+                                      height ≤ Z ^ (2 * τ') →
+                                        (∀ s ∈ F.slots, |(F.external s).im| ≤ height) →
+                                          ∀ selected ⊆ F.slots,
+                                            2 * F.m + 6 * κPlain * ∑ s ∈ selected, F.widths s ≤ 1 →
+                                              ∀ (j k : ℕ),
+                                                j + k ≤ 2 →
+                                                  ∀ σ ∈ Set.Icc 0 1,
+                                                    ∀ t ∈ Set.Icc (-height) height,
+                                                      ∑ u ∈ F.rows,
+                                                          ‖polynomial (F.family u F.label) false
+                                                                    (logProfile^[j] positiveAnnular) ((Z ^ d) ^ F.m) σ
+                                                                    t *
+                                                                  polynomial (F.family u F.label) false
+                                                                    (logProfile^[k] positiveAnnular) ((Z ^ d) ^ F.m) σ
+                                                                    t *
+                                                                F.physicalProduct selected u‖ ^
+                                                            2 ≤
+                                                        C * (Z ^ d) ^ (1 + εm)
+hcop :
+  ∀ᶠ (Z : ℝ) in atTop,
+    ∀ (j : Bool ⊕ ↥(RayQuotient.Characters M H)) (i : Fin N) (d : ℝ),
+      d ≠ 0 →
+        ∀ (W : ℝ → ℂ) (b : ℝ),
+          Function.support W ⊆ Set.Ici aslot →
+            ∀ P ∈ CenteredMomentPrimeSlot.primePool M H b ((Z ^ d) ^ (ell i / d)),
+              W (↑(Ideal.absNorm P) / (Z ^ d) ^ (ell i / d)) ≠ 0 →
+                IsCoprime P (sourceMomentBase M H hH S hS η j).modulus
+hWsLower : Function.support W ⊆ Set.Ici aslot
+Z : ℝ
+hb :
+  1 < Z ∧
+    ∀ (τ' : ℝ),
+      0 < τ' →
+        τ' ≤ τ →
+          ∀ (d : ℝ),
+            dmin ≤ d →
+              d ≤ dmax →
+                ∀ (a ε tstar T allowance : ℝ) (i : ℕ)
+                  (F : Fiber M H (Bool ⊕ ↥(RayQuotient.Characters M H)) (Fin N) (Z ^ d) a ε tstar T allowance i),
+                  F.rowData = momentData (ηlabel F.label) →
+                    (∀ u ∈ F.rows, Z ^ rowExponent ≤ ↑(Ideal.absNorm (Ideal.span {↑u}))) →
+                      (∀ s ∈ F.slots, F.profile s = W) →
+                        (∀ s ∈ F.slots, F.upper s = bslot) →
+                          (∀ s ∈ F.slots,
+                              ∀ P ∈ CenteredMomentPrimeSlot.primePool M H (F.upper s) ((Z ^ d) ^ F.widths s),
+                                F.profile s (↑(Ideal.absNorm P) / (Z ^ d) ^ F.widths s) ≠ 0 →
+                                  IsCoprime P (ηlabel F.label).modulus) →
+                            (∀ s ∈ F.slots, d * F.widths s ≤ fineMesh Mcap 0 L κEnergy εE) →
+                              (∀ s ∈ F.slots, (F.external s).re = 17 / 50) →
+                                ∀ (height : ℝ),
+                                  0 ≤ height →
+                                    height ≤ Z ^ (2 * τ') →
+                                      (∀ s ∈ F.slots, |(F.external s).im| ≤ height) →
+                                        ∀ selected ⊆ F.slots,
+                                          2 * F.m + 6 * κPlain * ∑ s ∈ selected, F.widths s ≤ 1 →
+                                            ∀ (j k : ℕ),
+                                              j + k ≤ 2 →
+                                                ∀ σ ∈ Set.Icc 0 1,
+                                                  ∀ t ∈ Set.Icc (-height) height,
+                                                    ∑ u ∈ F.rows,
+                                                        ‖polynomial (F.family u F.label) false
+                                                                  (logProfile^[j] positiveAnnular) ((Z ^ d) ^ F.m) σ t *
+                                                                polynomial (F.family u F.label) false
+                                                                  (logProfile^[k] positiveAnnular) ((Z ^ d) ^ F.m) σ t *
+                                                              F.physicalProduct selected u‖ ^
+                                                          2 ≤
+                                                      C * (Z ^ d) ^ (1 + εm)
+hc :
+  ∀ (j : Bool ⊕ ↥(RayQuotient.Characters M H)) (i : Fin N) (d : ℝ),
+    d ≠ 0 →
+      ∀ (W : ℝ → ℂ) (b : ℝ),
+        Function.support W ⊆ Set.Ici aslot →
+          ∀ P ∈ CenteredMomentPrimeSlot.primePool M H b ((Z ^ d) ^ (ell i / d)),
+            W (↑(Ideal.absNorm P) / (Z ^ d) ^ (ell i / d)) ≠ 0 → IsCoprime P (sourceMomentBase M H hH S hS η j).modulus
+τ' : ℝ
+hτ' : 0 < τ'
+hτ'le : τ' ≤ τ
+d : ℝ
+hd : dmin ≤ d
+hd' : d ≤ dmax
+rows : Finset FreeRow
+hrowLower : ∀ u ∈ rows, Z ^ rowExponent ≤ ↑(Ideal.absNorm (Ideal.span {↑u}))
+a ε binWidth : ℝ
+i : ℕ
+z : ℂ
+hz : z.re = 17 / 50
+height : ℝ
+hheight : 0 ≤ height
+hheight_le : height ≤ Z ^ (2 * τ')
+hzim : |z.im| ≤ height
+q : ℝ
+B :
+  Batch M H (Bool ⊕ ↥(RayQuotient.Characters M H)) (Fin N) (Z ^ d) a ε
+    (HeckeDetectorAdaptiveCutoff.cutoff (2 * a - 1) q) (Z ^ τ') ((Z ^ d) ^ (τ' / (2 * dmax))) i
+hrows : B.rows ⊆ rows
+hdata : B.data = sourceMomentData M H hH S hS η
+hreverse : B.reverse = sourceMomentReverse M H
+hBslots : B.slots = Finset.univ
+hwidths : B.widths = fun j => ell j / d
+hprofile : B.profile = fun x => W
+hupper : B.upper = fun x => bslot
+hexternal : B.external = fun x => z
+hmesh : B.mesh = batchMesh
+hbinWidth : B.binWidth = binWidth
+hfamilySource :
+  ∀ u ∈ B.rows,
+    ∀ (j : Bool ⊕ ↥(RayQuotient.Characters M H)),
+      B.family u j = sourceDetectorFamily S hS η u (rayCubeFamily M H hH u) j
+bin : B.Bin
+label : Bool ⊕ ↥(RayQuotient.Characters M H)
+Ileft Iright : Fin (dyadicLength (Z ^ d))
+hne : (B.fiberRows bin label Ileft Iright).Nonempty
+F : Fiber M H (Bool ⊕ ↥(RayQuotient.Characters M H)) (Fin N) (Z ^ d) a ε
+  (HeckeDetectorAdaptiveCutoff.cutoff (2 * a - 1) q) (Z ^ τ') ((Z ^ d) ^ (τ' / (2 * dmax))) i :=
+  B.fiber bin label Ileft Iright hne
+hd0 : 0 < d
+hfdata : F.rowData = momentData (ηlabel F.label)
+hfrow : ∀ u ∈ F.rows, Z ^ rowExponent ≤ ↑(Ideal.absNorm (Ideal.span {↑u}))
+hfprofile : F.profile = fun x => W
+hfupper : F.upper = fun x => bslot
+hfwidths : F.widths = fun s => ell s / d
+hfexternal : F.external = fun x => z
+⊢ have F := B.fiber bin label Ileft Iright hne;
+  ∀ selected ⊆ F.slots,
+    2 * F.m + 6 * κPlain * ∑ s ∈ selected, F.widths s ≤ 1 →
+      ∀ (j k : ℕ),
+        j + k ≤ 2 →
+          ∀ σ ∈ Set.Icc 0 1,
+            ∀ t ∈ Set.Icc (-height) height,
+              ∑ u ∈ F.rows,
+                  ‖polynomial (F.family u F.label) false (logProfile^[j] positiveAnnular) ((Z ^ d) ^ F.m) σ t *
+                          polynomial (F.family u F.label) false (logProfile^[k] positiveAnnular) ((Z ^ d) ^ F.m) σ t *
+                        F.physicalProduct selected u‖ ^
+                    2 ≤
+                C * (Z ^ d) ^ (1 + εm)

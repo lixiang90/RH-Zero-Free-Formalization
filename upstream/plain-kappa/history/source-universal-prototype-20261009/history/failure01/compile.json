@@ -1,0 +1,50 @@
+{
+  "status": "actual_compile_failure",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-j",
+    "2",
+    "--root=E:\\codex-build\\RH-Weil\\tmp\\source-plain-universal-phase-20261009",
+    "-o",
+    "E:\\codex-build\\RH-Weil\\tmp\\source-plain-universal-phase-20261009\\verification\\Candidate.olean",
+    "-i",
+    "E:\\codex-build\\RH-Weil\\tmp\\source-plain-universal-phase-20261009\\verification\\Candidate.ilean",
+    "E:\\codex-build\\RH-Weil\\tmp\\source-plain-universal-phase-20261009\\SourcePlainMarkedUniversal.candidate.lean"
+  ],
+  "exit_code": 1,
+  "elapsed_seconds": 14.328,
+  "source_sha256": "5940aeeab2af8b24d51138a9f1958c7dd5eb34916d169351024f7e005d859edd",
+  "log_sha256": "e0225f20979abd65bf28360a048a4cb65018cedde2c9b31bcacacf70f5e84548",
+  "dependency_source_and_artifacts_stable": true,
+  "dependency_bindings": {
+    "OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa": {
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeSlotSourcePlainMarkedLowKappa.lean",
+      "source_sha256": "d5b1e7b5be2f5aae02fc27b210d62cce3341b5a6a67a1f8490dca4599f3d42d4",
+      "fingerprint": "024a7a16687c27276aebd3869979c6238f8c52b3ed8d19d4528ee07a8011a436",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeSlotSourcePlainMarkedLowKappa.olean": "f0e92416c8885d3774f314942c84410f25e0e79ac8b032085d60e6eeeb7af96f",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeSlotSourcePlainMarkedLowKappa.ilean": "17cb80ff5bf4bf387c7b1027151b2f474013deae600eb74acb9eba1f1ad3bb00"
+      }
+    },
+    "OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh": {
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\GenericSourceIdealAndMesh.lean",
+      "source_sha256": "2a0fec6b6d42a2caeaaad8c30d73eefd8fcb46de2cf313f9b231661995346840",
+      "fingerprint": "525abb5272c8c7cc547161844297c2b64a6c413ddc037eb52ba9d74b67fdad8f",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\GenericSourceIdealAndMesh.olean": "1e8dea72b970d87cced8ee85543306ea9528848ec6bd0ce0d84522aeb252c35d",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\GenericSourceIdealAndMesh.ilean": "2a74ea3c7d0e80d3a395c9c94853269e1805d2f033334e29a53dfcc4856dd9e9"
+      }
+    },
+    "OAI.NumberTheory.DirichletL.Moments.DetectorDictionarySource": {
+      "source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionarySource.lean",
+      "source_sha256": "2f9894c7cc17a0b329229f826397b6708a0294bbc40726afa3c35248cd0f3e98",
+      "fingerprint": "e303f8055bb529379df9285495affcfd0e907a3038b2ad6804840076fc12baf4",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionarySource.olean": "089747bebbf2b0bd65dc152bd599524c7f5cc74639901a642fed234085c5b21a",
+        "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionarySource.ilean": "3a42d5585946517ebeebf5b7afd9893b71a3580211582d2fe27400e28690003b"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+warning: rellich-kondrachov: repository 'E:\codex-build\RH-Zero-Free-Formalization\tmp\upstream-plain\.lake/packages\rellich-kondrachov' has local changes
+E:\codex-build\RH-Weil\tmp\source-plain-universal-phase-20261009\SourcePlainMarkedUniversal.candidate.lean:146:8: error: synthesized type class instance is not definitionally equal to expression inferred by typing rules, synthesized
+  fun a_1 =>
+    @instDecidableAnd
+      (amplitudeLabel B.slots (Z ^ d) ((2 * a - 1) / 2) B.binWidth ⋯ B.widths
+          (HeckeDetectorPhysicalSelection.physical M H (fun u => ↑u) B.profile B.upper B.widths B.external (Z ^ d))
+          a_1 =
+        bin)
+      ((B.witness a_1).label = label ∧ (B.witness a_1).left = Ileft ∧ (B.witness a_1).right = Iright)
+      (Fintype.decidablePiFintype
+        (amplitudeLabel B.slots (Z ^ d) ((2 * a - 1) / 2) B.binWidth ⋯ B.widths
+          (HeckeDetectorPhysicalSelection.physical M H (fun u => ↑u) B.profile B.upper B.widths B.external (Z ^ d)) a_1)
+        bin)
+      (@instDecidableAnd ((B.witness a_1).label = label) ((B.witness a_1).left = Ileft ∧ (B.witness a_1).right = Iright)
+        (instDecidableEqSum (B.witness a_1).label label) instDecidableAnd)
+inferred
+  fun a_1 =>
+    @instDecidableAnd
+      (amplitudeLabel B.slots (Z ^ d) ((2 * a - 1) / 2) B.binWidth ⋯ B.widths
+          (HeckeDetectorPhysicalSelection.physical M H (fun u => ↑u) B.profile B.upper B.widths B.external (Z ^ d))
+          a_1 =
+        bin)
+      ((B.witness a_1).label = label ∧ (B.witness a_1).left = Ileft ∧ (B.witness a_1).right = Iright)
+      (Fintype.decidablePiFintype
+        (amplitudeLabel B.slots (Z ^ d) ((2 * a - 1) / 2) B.binWidth ⋯ B.widths
+          (HeckeDetectorPhysicalSelection.physical M H (fun u => ↑u) B.profile B.upper B.widths B.external (Z ^ d)) a_1)
+        bin)
+      (@instDecidableAnd ((B.witness a_1).label = label) ((B.witness a_1).left = Ileft ∧ (B.witness a_1).right = Iright)
+        (Classical.propDecidable ((B.witness a_1).label = label)) instDecidableAnd)

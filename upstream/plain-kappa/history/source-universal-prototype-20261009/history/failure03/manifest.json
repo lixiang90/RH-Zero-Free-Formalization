@@ -1,0 +1,9 @@
+{
+  "status": "failed_actual_compile_not_accepted_or_counted",
+  "files_sha256": {
+    "SourcePlainMarkedUniversal.candidate.lean": "857a7480757c774385d8bbff98bcd94c7d41afb11ca3ac7d8bf4daf1b5f10725",
+    "compile.log": "84dd8b5bedb219001d5f21e0fa58ee0980e9ca332018f9b6b5f97b502a85818e",
+    "compile.json": "14317581b12501eabb4d713376a79776de18195861afb69c4c1b706f58f9c053"
+  },
+  "no_declaration_from_failed_run_claimed_verified": true
+}

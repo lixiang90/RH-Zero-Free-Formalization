@@ -1,0 +1,34 @@
+theorem exists_source_slots_and_universal_plain_marked
+    (S : Finset (Ideal O)) (hS : ∀P ∈ S, Prime P)
+    (hbad : CanonicalQuadraticSieve.fixedBadPrimes ⊆ S) (hM : M = ∏P ∈ S, P)
+    (W : ℝ → ℂ)
+    (aslot bslot total dmin dmax Mcap L rowExponent εm τ₀ κEnergy κPlain
+      batchMesh physicalRange : ℝ)
+    (haslot : 0 < aslot) (hWs : Function.support W ⊆ Set.Icc aslot bslot)
+    (hW : ContDiff ℝ ∞ W) (hbslot : 0 ≤ bslot)
+    (htotal : 0 < total) (hdmin : 0 < dmin) (hdmax : dmin ≤ dmax)
+    (hcapMargin : dmax < Mcap) (hL : dmax/2 ≤ L)
+    (hrowExponent : 0 < rowExponent) (hεm : 0 < εm) (hτ₀ : 0 < τ₀)
+    (hκ0 : (37/50 : ℝ) ≤ κEnergy) (hκPlain : κEnergy ≤ κPlain)
+    (hbeta : (51/100 : ℝ) ≤ HeckeZeroSupremum.beta)
+    (hκ : 2*HeckeZeroSupremum.beta - 1 ≤ κEnergy)
+    (hbatchMesh : 0 < batchMesh) (hphysicalRange : 0 < physicalRange) :
+    ∃ρ εE : ℝ, 0 < ρ ∧ 0 < εE ∧ ρ ≤ Mcap-dmax ∧
+    ∃N : ℕ, 0 < N ∧ ∃ell : Fin N → ℝ, ∃slotLower : ℝ, 0 < slotLower ∧
+      Function.Injective ell ∧ (∑s, ell s) = total ∧
+      (∀s, 0 < ell s ∧ dmax*slotLower ≤ ell s ∧ ell s ≤ dmin*batchMesh ∧
+        ell s ≤ dmin*physicalRange ∧ ell s ≤ fineMesh Mcap 0 L κEnergy εE) ∧
+      (∀d : ℝ, dmin ≤ d → d ≤ dmax → ∀s,
+        slotLower ≤ ell s/d ∧ ell s/d ≤ batchMesh ∧ ell s/d ≤ physicalRange) ∧
+    ∃degree J : ℕ, ∃τ : ℝ, 0 < τ ∧ τ ≤ τ₀ ∧
+      ρ + εE + 2*τ*((degree+4*J : ℕ) : ℝ) ≤ dmin*εm ∧
+    ∀η : Character, ∃C : ℝ, 0 < C ∧
+    ∀ᶠZ : ℝ in atTop, 1 < Z ∧
+      ∀τ' : ℝ, 0 < τ' → τ' ≤ τ →
+      ∀d : ℝ, dmin ≤ d → d ≤ dmax →
+      ∀rows : Finset FreeRow,
+        (∀u ∈ rows, Z^rowExponent ≤ ((Ideal.span {u.val}).absNorm : ℝ)) →
+      ∀(a ε binWidth : ℝ) (i : ℕ) (z : ℂ), z.re = 17/50 →
+      ∀height : ℝ, 0 ≤ height → height ≤ Z^(2*τ') → |z.im| ≤ height →
+        SourcePlainMarkedAt M H hH S hS η rows ell W Z d a ε τ' dmax bslot
+          batchMesh binWidth i z κPlain C height εm

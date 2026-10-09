@@ -1,0 +1,13 @@
+{
+  "status": "failed_actual_compile_not_accepted_or_counted",
+  "files_sha256": {
+    "SourcePlainMarkedUniversal.candidate.lean": "5940aeeab2af8b24d51138a9f1958c7dd5eb34916d169351024f7e005d859edd",
+    "compile.log": "e0225f20979abd65bf28360a048a4cb65018cedde2c9b31bcacacf70f5e84548",
+    "compile.json": "fb7a50d3cfe8810e2b3495339f42fb08beca0dd154d334272767da48248bdf75"
+  },
+  "routine_failures": [
+    "stored generic filter decidability versus specialized Sum decidability",
+    "missing CenteredMomentPrimeSlot open for primePool"
+  ],
+  "no_declaration_from_failed_run_claimed_verified": true
+}
