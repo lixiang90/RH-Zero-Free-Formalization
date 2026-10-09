@@ -1,0 +1,8 @@
+RH-Zero-Free-Formalization
+Original formalization copyright 2026 Li Xiang (lixiang90).
+
+The generic Mellin-continuation and supremum code ported from openai/math
+is copyright its original contributors, distributed under Apache-2.0.
+Exact upstream revisions and modification details are in docs/upstream-audit.md.
+The code license does not change the publication status or original
+authorship of the archived papers.

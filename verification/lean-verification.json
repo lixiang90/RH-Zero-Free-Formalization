@@ -1,0 +1,59 @@
+{
+  "scope": "Full library build plus fresh transitive audit of all public theorems. Conditional analytic assumptions remain hypotheses.",
+  "lean": "Lean (version 4.33.0-rc2, x86_64-w64-windows-gnu, commit d8b18978322de05a8f3dba51ef03cf5461676c17, Release)",
+  "mathlib_commit": "51e6992efd06126df61a496bebf8f49482a4e129",
+  "build_exit_code": 0,
+  "build_elapsed_seconds": 37.39,
+  "audit_exit_code": 0,
+  "audit_elapsed_seconds": 13.563,
+  "root_count": 146,
+  "audited_count": 146,
+  "observed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "source_hashes_before": {
+    "ZeroFree.lean": "1e25ac971eb72ef93834547265acd34753f3aa35c97a60a5474945f1a4b6fcad",
+    "lakefile.toml": "d415053910be8cf1e815e419a100a822a43a3aaf9d08758ad50ca26e01b90e9a",
+    "lake-manifest.json": "7cf116831b486a870c495f5556fb71f411b077f591ab55e1fd0e5e6c0c5b6d23",
+    "lean-toolchain": "4bad8e3fbd71a33fa5e8505ad7af799e42a24796d171b3fb5b58e41d12408128",
+    "ZeroFree/Boundary.lean": "8aa03b36b4c5266e5f6fae1ee25a2fd33cb9d221c03b9ace943bdd396aa1a4e4",
+    "ZeroFree/Certificate.lean": "4779c1b305626265520cca4e4f031df40aa2061922b9a5300ae3f7cec3d19e35",
+    "ZeroFree/Continuation.lean": "6cf83fdc08e954de950ca93494c25c091707e44cc494b35c92b08bd01ca4cfa4",
+    "ZeroFree/Family.lean": "4fdc71c4c60306fae1b849c0d7ba0b9f9cf27ee42516c88066dd176fd4d4775b",
+    "ZeroFree/Feedback.lean": "f70a7dc94ac3c2ab714f57246fad931ccee9d957fee1fd68141d9b88c26b8012",
+    "ZeroFree/Geometry.lean": "752598925e85368eca2646812da1ebe4fe2dcc25b8e48c07b0f4f4b69fe4a4f5",
+    "ZeroFree/Main.lean": "ec1b90548596f1504eedc41d392f41abd14f8bf67f21f154ed9443a7f5af1bdf",
+    "ZeroFree/Signal.lean": "6d038fc45024a87542fbd38b5bdf9af70ce11efcbd12a7c97ec55d8aa88be675",
+    "ZeroFree/UpstreamSupremum.lean": "6cce00fa953704b8cf5799bd18ff6a76ec8f129b6ee3557a0bbcce5ddab04bfd",
+    "verification/AxiomAudit.lean": "3094312f99b6315213f5875d87badd81af5a935d04f11512e556c3208673da16",
+    "scripts/verify.py": "1b41f83d5a375c2abc012a97c0a75389b7a5a6aadd3cfd39cda8be36fe78ebb4"
+  },
+  "source_hashes_after": {
+    "ZeroFree.lean": "1e25ac971eb72ef93834547265acd34753f3aa35c97a60a5474945f1a4b6fcad",
+    "lakefile.toml": "d415053910be8cf1e815e419a100a822a43a3aaf9d08758ad50ca26e01b90e9a",
+    "lake-manifest.json": "7cf116831b486a870c495f5556fb71f411b077f591ab55e1fd0e5e6c0c5b6d23",
+    "lean-toolchain": "4bad8e3fbd71a33fa5e8505ad7af799e42a24796d171b3fb5b58e41d12408128",
+    "ZeroFree/Boundary.lean": "8aa03b36b4c5266e5f6fae1ee25a2fd33cb9d221c03b9ace943bdd396aa1a4e4",
+    "ZeroFree/Certificate.lean": "4779c1b305626265520cca4e4f031df40aa2061922b9a5300ae3f7cec3d19e35",
+    "ZeroFree/Continuation.lean": "6cf83fdc08e954de950ca93494c25c091707e44cc494b35c92b08bd01ca4cfa4",
+    "ZeroFree/Family.lean": "4fdc71c4c60306fae1b849c0d7ba0b9f9cf27ee42516c88066dd176fd4d4775b",
+    "ZeroFree/Feedback.lean": "f70a7dc94ac3c2ab714f57246fad931ccee9d957fee1fd68141d9b88c26b8012",
+    "ZeroFree/Geometry.lean": "752598925e85368eca2646812da1ebe4fe2dcc25b8e48c07b0f4f4b69fe4a4f5",
+    "ZeroFree/Main.lean": "ec1b90548596f1504eedc41d392f41abd14f8bf67f21f154ed9443a7f5af1bdf",
+    "ZeroFree/Signal.lean": "6d038fc45024a87542fbd38b5bdf9af70ce11efcbd12a7c97ec55d8aa88be675",
+    "ZeroFree/UpstreamSupremum.lean": "6cce00fa953704b8cf5799bd18ff6a76ec8f129b6ee3557a0bbcce5ddab04bfd",
+    "verification/AxiomAudit.lean": "3094312f99b6315213f5875d87badd81af5a935d04f11512e556c3208673da16",
+    "scripts/verify.py": "1b41f83d5a375c2abc012a97c0a75389b7a5a6aadd3cfd39cda8be36fe78ebb4"
+  },
+  "inputs_unchanged": true,
+  "checked": true,
+  "complete_arithmetic_zero_free_proof": false,
+  "open_input": "ZetaSignalObligation; lower-kappa arithmetic moment induction and physical estimates/identities are not constructed here.",
+  "independent_kernel_replay": "Separate record; not implied by this build.",
+  "logs": {
+    "build": "verification/build.log",
+    "axioms": "verification/axioms.log"
+  }
+}

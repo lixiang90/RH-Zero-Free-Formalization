@@ -1,0 +1,46 @@
+{
+  "upstream_url": "https://github.com/openai/math",
+  "revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "ported_modules": [
+    {
+      "source": "OAI/NumberTheory/DirichletL/Supremum.lean",
+      "target": "ZeroFree/UpstreamSupremum.lean",
+      "revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "source_sha256": "52a4ea682dc8eb58be4f774afecc72f9d6543501a8891b63d2bf3f8d9cfcca07",
+      "canonical_lf_sha256": "4731fe9e9d86cde2ba9accf807fa8e257fe8114674a304040d7515a0aee1880d",
+      "target_sha256": "6cce00fa953704b8cf5799bd18ff6a76ec8f129b6ee3557a0bbcce5ddab04bfd",
+      "changes": [
+        "namespace",
+        "import path",
+        "provenance header"
+      ]
+    },
+    {
+      "source": "OAI/NumberTheory/DirichletL/Continuation.lean",
+      "target": "ZeroFree/Continuation.lean",
+      "revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "source_sha256": "baf2cd9adb5911d766aabd9112eea36da4841e8ec04852a369882ae45d253e85",
+      "canonical_lf_sha256": "5e82c4cd2ddfad95227dbcd9f7a87c8cf9e16d62c46fee297309c0a99a9678ac",
+      "target_sha256": "6cf83fdc08e954de950ca93494c25c091707e44cc494b35c92b08bd01ca4cfa4",
+      "changes": [
+        "namespace",
+        "import path",
+        "provenance header",
+        "replace Complex.isOpen_re_gt by local proof using continuous_re (mathlib compatibility)"
+      ]
+    }
+  ],
+  "upstream_lean": "v4.34.1",
+  "upstream_mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "local_lean": "v4.33.0-rc2",
+  "local_mathlib": "51e6992efd06126df61a496bebf8f49482a4e129",
+  "compiled": true,
+  "build_command": [
+    "lake",
+    "build",
+    "ZeroFree.UpstreamSupremum",
+    "ZeroFree.Continuation"
+  ],
+  "build_returncode": 0,
+  "axiom_audit": "analytic-continuation-check.json"
+}

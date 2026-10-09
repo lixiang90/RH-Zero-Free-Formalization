@@ -1,0 +1,2 @@
+# Preserve exact artifact and verification hashes across platforms.
+* -text whitespace=blank-at-eol,space-before-tab,cr-at-eol

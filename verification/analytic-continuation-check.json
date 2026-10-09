@@ -1,0 +1,43 @@
+{
+  "lean": "v4.33.0-rc2",
+  "mathlib_revision": "51e6992efd06126df61a496bebf8f49482a4e129",
+  "command": [
+    "C:\\Users\\A\\.elan\\bin\\lake.exe",
+    "env",
+    "lean",
+    "tmp/AuditContinuation.lean"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 10.288,
+  "roots": [
+    "ZeroFree.Continuation.common_signal_bound",
+    "ZeroFree.Continuation.signalMellin_convergent",
+    "ZeroFree.Continuation.signalMellin_analytic",
+    "ZeroFree.Continuation.product_identity_on_halfPlane",
+    "ZeroFree.Continuation.nonzero_of_regularized_signal",
+    "ZeroFree.Continuation.nonzero_of_common_signal",
+    "ZeroFree.UpstreamSupremum.uniform_bound_below_supremum_false"
+  ],
+  "parsed_axiom_reports": 7,
+  "transitive_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "allowed_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "proof_gap_tokens_present": false,
+  "compiled_modules": [
+    "ZeroFree.UpstreamSupremum",
+    "ZeroFree.Continuation"
+  ],
+  "independent_replay": false,
+  "complete_arithmetic_nonvanishing_theorem": false,
+  "file_sha256": {
+    "ZeroFree/Continuation.lean": "6cf83fdc08e954de950ca93494c25c091707e44cc494b35c92b08bd01ca4cfa4",
+    "ZeroFree/UpstreamSupremum.lean": "6cce00fa953704b8cf5799bd18ff6a76ec8f129b6ee3557a0bbcce5ddab04bfd"
+  }
+}

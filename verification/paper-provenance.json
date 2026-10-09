@@ -1,0 +1,43 @@
+{
+  "source_repository": "https://github.com/lixiang90/RH-Weil",
+  "source_commit": "6087263c5784287899479274bbaf96b22faeb2ce",
+  "artifacts": [
+    {
+      "source": "papers/kappa-feedback-cubic-boundary-paper.tex",
+      "destination": "papers/kappa-feedback-cubic-boundary-paper.tex",
+      "sha256": "16c0ba50a2917f2ead56843eabf55b62fbbe214e162cff373b4d8554f84315ee",
+      "byte_identical": true
+    },
+    {
+      "source": "output/pdf/kappa-feedback-cubic-boundary-paper.pdf",
+      "destination": "papers/kappa-feedback-cubic-boundary-paper.pdf",
+      "sha256": "791b20f83db7223c75ba9a3ea54611cdc9e89b12831685c004507edabeade6a6",
+      "byte_identical": true
+    },
+    {
+      "source": "papers/free-b-compensated-probe-boundary-paper.tex",
+      "destination": "papers/free-b-compensated-probe-boundary-paper.tex",
+      "sha256": "5df2b6ad687572229e2c4d41292bee6cf81b57a13b762173d26732169f1688db",
+      "byte_identical": true
+    },
+    {
+      "source": "output/pdf/free-b-compensated-probe-boundary-paper.pdf",
+      "destination": "papers/free-b-compensated-probe-boundary-paper.pdf",
+      "sha256": "1c1322b67f30c136858fcc2de2fca468fc48f450be2ed573cff93e931774f436",
+      "byte_identical": true
+    },
+    {
+      "source": "papers/seven-eighths-boundary-improvement-paper.tex",
+      "destination": "papers/seven-eighths-boundary-improvement-paper.tex",
+      "sha256": "92ba93da7cc568579b0b982bcd712e1382af749d05460c1fa4c8b25064df66d6",
+      "byte_identical": true
+    },
+    {
+      "source": "output/pdf/seven-eighths-boundary-improvement-paper.pdf",
+      "destination": "papers/seven-eighths-boundary-improvement-paper.pdf",
+      "sha256": "1604c74dfa37ab576ea8d861604cffa49bb7611c79d34d5d46234d7097d8673f",
+      "byte_identical": true
+    }
+  ],
+  "note": "Archived source and PDF copies are byte-identical to delivered originals. Author metadata remains as originally published. The formalization is attributed to Li Xiang / lixiang90."
+}
