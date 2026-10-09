@@ -28,15 +28,24 @@ papers; it must not be silently identified with the newer inspected revision.
 
 ## Reused analytic proof
 
-Two small modules were ported with provenance and the upstream Apache-2.0 license:
+The following modules are ported with provenance and the upstream Apache-2.0 license:
 
 - ZeroFree/UpstreamSupremum.lean adapts the source Supremum.lean.
 - ZeroFree/Continuation.lean adapts the source Continuation.lean.
+- ZeroFree/ContinuationInversion.lean adapts the actual Mellin/Fourier inversion proof.
+- ZeroFree/ContinuationContour.lean adapts the Gaussian contour-shift proof.
+- ZeroFree/ZetaInverse.lean specializes Hecke/Signal.lean to actual Mathlib zeta,
+  with the reciprocal bound proved from the Moebius Dirichlet series.
+- ZeroFree/ZetaSignal.lean specializes Hecke/SignalIdentity.lean, then derives the
+  product identity from the constructed signal and the proved height closure.
 
 Their source hashes, revisions, and exact changes are recorded in
-verification/upstream-port-provenance.json. The changes are namespace,
-import path, provenance notice, and the compatibility replacement of the
-newer Complex.isOpen_re_gt helper by its proof from continuity of real part. The originals remain unchanged.
+verification/upstream-port-provenance.json. The generic inversion/contour proofs change namespace and imports.
+The zeta specialization replaces the character by riemannZeta, proves a
+uniform reciprocal bound in Re(s)>=2 from its Moebius series, and changes
+the correction domain to sigmaStar. One endpoint rearrangement uses simp
+instead of the upstream convert/ring tactic. Half-plane openness is proved
+from continuity of real part for compatibility. The originals remain unchanged.
 The local build uses Lean 4.33.0-rc2 and mathlib
 51e6992efd06126df61a496bebf8f49482a4e129, so it must be compiled here rather than
 assumed compatible from the upstream toolchain.
@@ -51,9 +60,13 @@ Mellin convergence and analyticity, propagates the product identity by analytic
 uniqueness, and derives the nonvanishing contradiction. It introduces no
 analytic axiom. The remaining seven-eighths wrappers keep their original scope.
 
-This verifies the continuation implication; constructing the arithmetic
-signal, proving its estimates, and matching its identity to the intended Hecke
-or zeta function remain separate obligations.
+For zeta the principal signal is now constructed as an actual inverse Mellin
+integral. Gaussian contour shifting proves rapid decay at zero; Fourier
+continuity proves local integrability. Mellin/Fourier inversion and analytic
+uniqueness prove its identity on the initial half-plane. Only the arithmetic
+correction and physical probe with their low/raw-high estimates remain as
+ZetaInverse.ArithmeticProbeObligation. The analogous concrete Hecke-family
+construction at the improved boundary is still pending.
 
 ## Why the improved boundary is not an upstream corollary
 
@@ -77,12 +90,13 @@ continuation proved here from these remaining arithmetic hypotheses.
 
 ## Local verification of the port
 
-Both ported modules successfully built with lake build
-ZeroFree.UpstreamSupremum ZeroFree.Continuation in the local pinned
-environment. A fresh Lean import audited seven exported dependency roots,
-including Mellin convergence, Mellin analyticity, product-identity propagation,
-and nonzero_of_regularized_signal. It returned exit code 0 in 10.288 seconds
-and reported only propext, Quot.sound, and Classical.choice. The records are
-verification/analytic-continuation-check.json and
-verification/analytic-continuation-axiom-audit.log.
-No independent replay of this port was performed in this audit.
+Every public theorem in these ports is included in the complete fresh library
+build and axiom audit, and in the independent serial Nano replay. The current
+records are verification/lean-verification.json and
+verification/independent-kernel.json. The old analytic-continuation-check.json
+records only the initial two-module audit and is preserved as history.
+
+The standalone upstream Lean 4.34.1 workcopy is separate. Its low-kappa patches
+are not imported into the checked 4.33.0-rc2 library. Actual upstream moment
+compilation and its fresh dependency audit must pass before that range
+extension is reported as a proved arithmetic input.

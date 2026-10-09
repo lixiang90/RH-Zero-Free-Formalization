@@ -21,12 +21,39 @@ multiplier control and the identity. No zero-free conclusion is a field.
 The family proof uses the supremum with a 1/2 sentinel and does not assume
 there is a zero at the supremum.
 
+The standard facts for actual zeta are now proved, rather than supplied as
+signal fields: its zero-real-part set is bounded by 1, its removed-pole
+function is entire, its value at one is the proved residue, and its
+regularizer is nonzero away from one.
+
+HeightClosure chooses tau before N and proves that the raw estimate
+C_N [x^(beta+c-m)(1+T)^A + x^B T^(-N)] gives error O(x^(beta+c-m/2)).
+A and B are independent of N. The same m/2 works for a family even when
+its constants, tau and N differ by member.
+
+ZetaInverse constructs the principal signal explicitly as
+x^c * mellinInv(-2, exp((s-5/6)^2) H(s)/zeta(s) reflected in s).
+The reciprocal bound in Re(s)>=2 follows from the Moebius Dirichlet series.
+Gaussian contour shifting proves arbitrary power decay at zero. Fourier
+continuity proves local integrability. Mellin inversion and the identity
+theorem prove the initial-half-plane product identity once the signal's
+upper growth bound is derived from the low/raw-high probe estimates.
+
 ## Open obligation
 
 `ZeroFree.ZetaSignalObligation` is a proposition, not an axiom declaration or
 a proved theorem. It requires a bounded zero-real-part set and, under the
 contradiction sigmaStar < beta, actual uniform signal data for Mathlib's zeta.
 `riemannZeta_ne_zero_of_cubic_signal` takes it explicitly and excludes s = 1.
+
+The sharper remaining input is
+`ZeroFree.ZetaInverse.ArithmeticProbeObligation`: under sigmaStar < beta,
+construct the analytic correction H close to 1 and an actual physical probe J,
+prove its low bound, and prove the raw high estimate against the explicitly
+constructed inverse Mellin signal. Integrability, decay, pole removal,
+boundedness and the Mellin identity no longer need to be provided as fields.
+It remains a proposition with no proved inhabitant. The theorem
+`riemannZeta_ne_zero_of_arithmetic_probe` takes it explicitly.
 
 An unconditional improved-region theorem still requires kernel-checked proofs of:
 
@@ -39,8 +66,9 @@ reflected-energy estimate, and the complete Gram bound. Verified exponent
 algebra provides only the numerical part of those estimates.
 3. Actual detector counts, strict widths, local Euler convergence, principal
 residues, prime normalizer and all physical small/middle/floor/outer estimates.
-4. Concrete physical/principal signals and their Mellin identity, including
-target-independent saving and target-dependent height choices in the paper's order.
+4. The physical probe and correction with their actual low/raw-high estimates.
+For zeta, the principal signal, Mellin identity, and height/tail-order closure
+are proved. Extending this construction to the intended Hecke family remains open.
 5. Concrete finite-order Hecke-family instantiation, imprimitive factors and
 quadratic Dirichlet transfer at the new boundary.
 
@@ -60,7 +88,7 @@ real algebra remain separately classified.
 | Continuous reference certificate | Certificate plus Main, complete for the stated envelope. |
 | Actual parameter feedback | Feedback plus Main, complete. |
 | Physical admission/Euler/outer rows | Exact margins/identities; convergence and arithmetic estimates open. |
-| Uniform continuation | Genuine Mellin implication and family contradiction proved; signal construction open. |
+| Uniform continuation | Mellin implication and family contradiction proved; actual zeta inverse signal, identity, origin decay and height closure proved; arithmetic probe estimates and the concrete Hecke family remain open. |
 
 ## Verification interpretation
 

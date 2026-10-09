@@ -31,7 +31,7 @@ with the same tmp layout:
 
     python scripts/run_nanoda.py --tool-root PATH_TO_TOOL_ROOT
 
-This invokes a fresh export of all 146 public theorem roots, followed by the
+This invokes a fresh export of all 214 public theorem roots, followed by the
 serial Nano checker. Only propext, Quot.sound and Classical.choice are allowed;
 unexpected axioms are hard errors. The wrapper checks all project Lean source
 and compiled-module hashes before and after, and binds the complete Lean
@@ -39,7 +39,7 @@ audit record. Detailed commands, binary hashes, resources and the observed
 checker result are retained in verification/independent-kernel.json.
 
 The proof checker verifies implications with their stated hypotheses.
-It does not construct ZetaSignalObligation or certify an unconditional
+It does not construct ZetaInverse.ArithmeticProbeObligation or certify an unconditional
 improved arithmetic zero-free theorem.
 
 ## Historical exact audit

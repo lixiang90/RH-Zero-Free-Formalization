@@ -1,3 +1,8 @@
-✔ [8705/8707] Built ZeroFree.Main (17s)
-✔ [8706/8707] Built ZeroFree (15s)
-Build completed successfully (8707 jobs).
+⚠ [8712/8714] Replayed ZeroFree.PlainComparison
+warning: ZeroFree/PlainComparison.lean:13:5: Variable name `hM` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hM
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (8714 jobs).

@@ -18,6 +18,13 @@ SCOPES={
 'Signal':'ZeroFree.Signal',
 'Family':'ZeroFree.Family',
 'Main':'ZeroFree',
+'HeightClosure':'ZeroFree.HeightClosure',
+'ZetaConcrete':'ZeroFree.ZetaConcrete',
+'ContinuationInversion':'ZeroFree.Continuation',
+'ContinuationContour':'ZeroFree.Continuation',
+'ZetaInverse':'ZeroFree.ZetaInverse',
+'ZetaSignal':'ZeroFree.ZetaInverse',
+'PlainComparison':'ZeroFree.PlainComparison',
 }
 def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
 def main():
@@ -61,7 +68,7 @@ def main():
         'root_count':len(roots),'audited_count':count,'observed_axioms':observed,
         'source_hashes_before':before,'source_hashes_after':after,'inputs_unchanged':before==after,
         'checked':passed,'complete_arithmetic_zero_free_proof':False,
-        'open_input':'ZetaSignalObligation; lower-kappa arithmetic moment induction and physical estimates/identities are not constructed here.',
+        'open_input':'ZetaInverse.ArithmeticProbeObligation: construct the arithmetic correction and physical probe with low/raw-high estimates; the low-kappa arithmetic induction is pending. The analytic zeta signal, Mellin identity and height closure are proved implications.',
         'independent_kernel_replay':'Separate record; not implied by this build.',
         'logs':{'build':'verification/build.log','axioms':'verification/axioms.log'}
     }

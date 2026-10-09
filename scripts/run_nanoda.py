@@ -23,7 +23,7 @@ def main():
  '--nanoda-repo',str(tool/'tmp/nanoda'),
  '--nanoda-bin',str(tool/'tmp/kernel-tools/nanoda-target/release/nanoda_bin'),
  '--threads','1','--output','verification/independent-kernel.json',
- '--scope','Every public theorem including exact cubic algebra, feedback, real Mellin continuation, quantified family reduction and conditional actual-zeta theorem. Explicit arithmetic hypotheses remain unproved; no official website acceptance.']
+ '--scope','Every public theorem including exact cubic algebra, feedback, checked scalar low-kappa comparison repairs, ordered height closure, concrete zeta pole removal and inverse Mellin signal, quantified family reduction and conditional actual-zeta theorem. Explicit arithmetic hypotheses remain unproved; no official website acceptance.']
  for root in roots:cmd+=['--root',root]
  process=subprocess.run(cmd,cwd=ROOT)
  after={str(f.relative_to(ROOT)).replace('\\','/'):sha(f) for f in files}

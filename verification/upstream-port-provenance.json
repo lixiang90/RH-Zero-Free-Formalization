@@ -28,6 +28,63 @@
         "provenance header",
         "replace Complex.isOpen_re_gt by local proof using continuous_re (mathlib compatibility)"
       ]
+    },
+    {
+      "source": "OAI/NumberTheory/DirichletL/ContinuationInversion.lean",
+      "target": "ZeroFree/ContinuationInversion.lean",
+      "revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "source_sha256": "fd0a5cdb4484bb36f988fecbf8f3a5539efe4ad338f5ff4ded1ce1eab2035a78",
+      "canonical_lf_sha256": "166139695fcd8753df43d21f7e0b3a5a0ffc774bd75d0535fb4d0b33757170d8",
+      "target_sha256": "c8bffb340737811f978347f09b3f331683a922f55d733a17e0a70fb47003726e",
+      "changes": [
+        "namespace",
+        "import path",
+        "provenance header",
+        "disable autoImplicit"
+      ]
+    },
+    {
+      "source": "OAI/NumberTheory/DirichletL/ContinuationContour.lean",
+      "target": "ZeroFree/ContinuationContour.lean",
+      "revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "source_sha256": "802518adb58151bb191b51683f36bbe81fcc297baff729b4521e3a1f8a8e7a62",
+      "canonical_lf_sha256": "3c29ca9681de5e41e20b9b8ada0a90b033efc4c4ce02583d32b89c0a33d81aac",
+      "target_sha256": "fbf6a82039578d90406165ff7ee5bcdacfd35dca80514050a8562682614806fa",
+      "changes": [
+        "namespace",
+        "import path",
+        "provenance header",
+        "disable autoImplicit"
+      ]
+    },
+    {
+      "source": "OAI/NumberTheory/DirichletL/Hecke/Signal.lean",
+      "target": "ZeroFree/ZetaInverse.lean",
+      "revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "source_sha256": "ec7a4403c352dee276850ea4418122c03dd3a5bc108ac8352fcd866578be36f6",
+      "canonical_lf_sha256": "91f3e1509427c767f43c6a57916aafd5915411bbae982449c73b9f2608ae6b76",
+      "target_sha256": "5f274acb64f210cd3ac7bb33b1880ae5dc1e32c3c48e22eeb3397023503fe226",
+      "changes": [
+        "specialize to actual Mathlib riemannZeta",
+        "prove reciprocal norm bound by Moebius series",
+        "replace 7/8 correction domain by sigmaStar",
+        "replace endpoint ring conversion by equivalent simp proof",
+        "disable autoImplicit"
+      ]
+    },
+    {
+      "source": "OAI/NumberTheory/DirichletL/Hecke/SignalIdentity.lean",
+      "target": "ZeroFree/ZetaSignal.lean",
+      "revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "source_sha256": "2ff1e2aab2956d512457f121068804d65b34d790ab70520f2836041c44776c2e",
+      "canonical_lf_sha256": "b62af8a2ae114e91f46d872392ccbd130c48b5bde2c8aeef073bcf9b831c8e1b",
+      "target_sha256": "2352543081c9bc6c9e038f4a2b7e2c1f6484ae2d9238a3bc6d349397ff84539b",
+      "changes": [
+        "specialize initial-half-plane Mellin identity to actual Mathlib zeta",
+        "construct ProbeData.toRawSignal using raw high-estimate collapse",
+        "replace newer half-plane openness helper by continuous_re proof",
+        "disable autoImplicit"
+      ]
     }
   ],
   "upstream_lean": "v4.34.1",
@@ -36,11 +93,10 @@
   "local_mathlib": "51e6992efd06126df61a496bebf8f49482a4e129",
   "compiled": true,
   "build_command": [
-    "lake",
-    "build",
-    "ZeroFree.UpstreamSupremum",
-    "ZeroFree.Continuation"
+    "python",
+    "scripts/verify.py"
   ],
   "build_returncode": 0,
-  "axiom_audit": "analytic-continuation-check.json"
+  "axiom_audit": "lean-verification.json",
+  "independent_replay": "independent-kernel.json"
 }

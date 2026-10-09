@@ -1,1 +1,2 @@
-import ZeroFree.Main
+import ZeroFree.ZetaSignal
+import ZeroFree.PlainComparison

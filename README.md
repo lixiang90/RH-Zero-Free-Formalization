@@ -15,10 +15,11 @@ $$
 \frac{16683858898628}{10^{14}}.
 $$
 
-**Proof status:** the exact boundary, continuous algebraic certificate, parameter
-feedback and generic analytic continuation are formalized. The arithmetic
-construction of the required signal package remains open. The best-boundary
-zeta theorem has an explicit `ZetaSignalObligation` hypothesis;
+**Proof status:** the exact boundary, continuous algebraic certificate,
+parameter feedback, ordered height closure and the concrete zeta inverse
+Mellin signal are formalized. The arithmetic correction and physical probe
+with their low/raw-high estimates remain open. The sharpest zeta theorem
+has an explicit `ZetaInverse.ArithmeticProbeObligation` hypothesis;
 an unconditional Lean proof of the improved zero-free region is still pending.
 
 The [main paper](papers/kappa-feedback-cubic-boundary-paper.pdf) derives the
@@ -38,6 +39,11 @@ line is excluded. The new code preserves those distinctions.
 | [Continuation](ZeroFree/Continuation.lean) | Actual Mellin convergence, analyticity, the identity theorem and nonvanishing; ported from OpenAI/math with provenance. |
 | [Signal](ZeroFree/Signal.lean) | Variable-boundary low/high signal combination and conditional specialization to Mathlib's actual riemannZeta. |
 | [Family](ZeroFree/Family.lean) | A uniform-margin family contradiction without assuming the zero supremum is attained. |
+| [HeightClosure](ZeroFree/HeightClosure.lean) | Choose the height exponent before the tail order, collapse raw high estimates, and retain a family-wide positive saving. |
+| [ZetaConcrete](ZeroFree/ZetaConcrete.lean) | Prove boundedness of actual zeta zero real parts and entire pole removal with the proved residue at one. |
+| [ZetaInverse](ZeroFree/ZetaInverse.lean) | Construct the actual Gaussian inverse Mellin signal; prove the reciprocal bound, local integrability and arbitrary power decay at zero. |
+| [ZetaSignal](ZeroFree/ZetaSignal.lean) | Derive the Mellin product identity and reduce the zeta theorem to arithmetic correction/probe estimates. |
+| [PlainComparison](ZeroFree/PlainComparison.lean) | Check repaired scalar reflected/clipping budgets at kappa >= 37/50; actual moment induction remains pending. |
 | [Main](ZeroFree/Main.lean) | Connection of the cubic certificate to the rational count, buffer admission, and the explicitly conditional best-boundary zeta theorem. |
 
 Lean proves every coefficient identity and real inequality using ordinary
@@ -68,11 +74,11 @@ of every public theorem. It rejects placeholders, custom axioms and unchecked
 computational proof methods. Permitted foundational axioms are
 `propext`, `Quot.sound`, and `Classical.choice`.
 
-The complete library build and fresh audit of **146 public theorems passed**,
+The complete library build and fresh audit of **214 public theorems passed**,
 with only the three foundational axioms above. Source-bound results and logs
 are in [lean-verification.json](verification/lean-verification.json).
-A fresh **serial independent Nano replay passed 54,774 declarations** from all
-146 public roots. Commands, input hashes and permitted-axiom output are in
+A fresh **serial independent Nano replay passed 58,109 declarations** from all
+214 public roots. Commands, input hashes and permitted-axiom output are in
 [independent-kernel.json](verification/independent-kernel.json).
 Both checks retain the explicit analytic hypotheses described above.
 Tool setup and local cache details: [reproduction.md](docs/reproduction.md).
@@ -92,7 +98,9 @@ were ported from the separately inspected revision `fd4aeeb2...`.
 Exact hashes, modifications, licenses and scope are in the
 [upstream audit](docs/upstream-audit.md). The full upstream seven-eighths
 proof was inspected statically; this repository has not compiled or
-kernel-certified that complete proof.
+kernel-certified that complete proof. The actual low-kappa source extension
+is compiled separately with its original toolchain; its current proof status
+and repaired margins are described in [plain-kappa-extension.md](docs/plain-kappa-extension.md).
 
 Code is distributed under Apache-2.0. Archived paper authorship and
 publication status are preserved.
