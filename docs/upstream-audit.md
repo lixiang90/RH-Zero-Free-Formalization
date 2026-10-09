@@ -39,6 +39,10 @@ The following modules are ported with provenance and the upstream Apache-2.0 lic
 - ZeroFree/ZetaSignal.lean specializes Hecke/SignalIdentity.lean, then derives the
   product identity from the constructed signal and the proved height closure.
 
+- ZeroFree/SourceScaling.lean generalizes the actual complex-power identity in
+  PrincipalSignalComparison to variable total slot length and scale imbalance,
+  retains the sixfold Mellin pole, and matches the constructed zeta amplitude.
+
 Their source hashes, revisions, and exact changes are recorded in
 verification/upstream-port-provenance.json. The generic inversion/contour proofs change namespace and imports.
 The zeta specialization replaces the character by riemannZeta, proves a

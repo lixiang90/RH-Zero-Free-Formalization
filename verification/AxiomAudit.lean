@@ -214,3 +214,13 @@ import ZeroFree
 #print axioms ZeroFree.PlainComparison.robust_reflected_low_admissible
 #print axioms ZeroFree.PlainComparison.robust_deleted_cases
 #print axioms ZeroFree.PlainComparison.robust_fixed_slack
+#print axioms ZeroFree.SourceScaling.total_scales
+#print axioms ZeroFree.SourceScaling.shift_identity
+#print axioms ZeroFree.SourceScaling.paper_shift_identity
+#print axioms ZeroFree.SourceScaling.legacy_scales
+#print axioms ZeroFree.SourceScaling.source_power_identity
+#print axioms ZeroFree.SourceScaling.slot_normalizer_ne_zero
+#print axioms ZeroFree.SourceScaling.normalized_source_power
+#print axioms ZeroFree.SourceScaling.normalized_zeta_source
+#print axioms ZeroFree.SourceScaling.best_low_exponent
+#print axioms ZeroFree.SourceScaling.best_source_power

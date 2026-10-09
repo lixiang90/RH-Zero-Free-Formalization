@@ -212,5 +212,15 @@
   "ZeroFree.PlainComparison.robust_reflected_low",
   "ZeroFree.PlainComparison.robust_reflected_low_admissible",
   "ZeroFree.PlainComparison.robust_deleted_cases",
-  "ZeroFree.PlainComparison.robust_fixed_slack"
+  "ZeroFree.PlainComparison.robust_fixed_slack",
+  "ZeroFree.SourceScaling.total_scales",
+  "ZeroFree.SourceScaling.shift_identity",
+  "ZeroFree.SourceScaling.paper_shift_identity",
+  "ZeroFree.SourceScaling.legacy_scales",
+  "ZeroFree.SourceScaling.source_power_identity",
+  "ZeroFree.SourceScaling.slot_normalizer_ne_zero",
+  "ZeroFree.SourceScaling.normalized_source_power",
+  "ZeroFree.SourceScaling.normalized_zeta_source",
+  "ZeroFree.SourceScaling.best_low_exponent",
+  "ZeroFree.SourceScaling.best_source_power"
 ]

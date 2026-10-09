@@ -85,6 +85,21 @@
         "replace newer half-plane openness helper by continuous_re proof",
         "disable autoImplicit"
       ]
+    },
+    {
+      "source": "OAI/NumberTheory/DirichletL/PrincipalSignalComparison.lean",
+      "target": "ZeroFree/SourceScaling.lean",
+      "revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "source_sha256": "fb59ccaed042ea0d445ca08b5333d0fd248b8db8ee12e691f79a32a351e1b08d",
+      "canonical_lf_sha256": "3609a84d40122a6137bfa44fcb41f2830046e3456b77d72c34eb83f5c29b0e7b",
+      "target_sha256": "a5431090ff99c2e267e0a66e34c749c19c5ccd44a25ed8185501bd9adfaceae5",
+      "changes": [
+        "Adapt source_power_identity, rather than porting the entire upstream module",
+        "Generalize total slot exponent ell and scale imbalance b",
+        "Retain intrinsic Mellin pole 1/6 and Gaussian center 5/6",
+        "Derive normalized_zeta_source for the actual Mathlib zeta amplitude",
+        "Check equality with the paper exponent and low-normalizer exponent"
+      ]
     }
   ],
   "upstream_lean": "v4.34.1",

@@ -53,9 +53,17 @@ A serial dependency build is in progress in the ignored workcopy. The public
 primary 4.33.0-rc2 proof record does not certify those upstream targets.
 
 The complete arithmetic low-kappa certificate must be compiled and checked,
-then applied at kappaStar, before this extension is counted as the paper's
-plain-moment input. Passing scalar proofs or a static forbidden-token scan
-cannot substitute for that check.
+then instantiated with the actual Hecke-family supremum beta and a moving
+kappa satisfying 2*beta-1<=kappa. In the contradiction beta>sigmaStar,
+kappaStar=2*sigmaStar-1 cannot satisfy that premise. It is the reference point
+for the cubic algebra and feedback; the arithmetic choice is kappa=2*beta-1
+(or an explicitly budgeted larger value). The existing 7/8 family bound gives
+the required moving range 37/50<=kappa<=3/4. A supremum of the single Riemann
+zeta function cannot replace the Hecke-family supremum in this certificate.
+
+Only after that check and correct instantiation can this extension count as
+the paper's plain-moment input. Passing scalar proofs or a static
+forbidden-token scan cannot substitute for the actual arithmetic proof.
 
 The frozen pending patch, exact source-preparation/build tools, separate
 Rellich compatibility patches and local checkpoint records are in

@@ -25,6 +25,7 @@ SCOPES={
 'ZetaInverse':'ZeroFree.ZetaInverse',
 'ZetaSignal':'ZeroFree.ZetaInverse',
 'PlainComparison':'ZeroFree.PlainComparison',
+'SourceScaling':'ZeroFree.SourceScaling',
 }
 def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
 def main():

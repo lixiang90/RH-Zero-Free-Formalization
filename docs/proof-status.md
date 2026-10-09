@@ -39,6 +39,16 @@ continuity proves local integrability. Mellin inversion and the identity
 theorem prove the initial-half-plane product identity once the signal's
 upper growth bound is derived from the low/raw-high probe estimates.
 
+SourceScaling proves the principal complex-power identity for
+lx=(1-ell-b)/2 and c=-(4+b)/6. Dividing the source expression by the slot
+normalizer Z^(-ell/6) gives exactly Z^(s+c) times the amplitude of the
+constructed zeta signal. This also equals the paper's shift
+lx/2-1+h/6, where h=(1+3*ell+b)/2. Its low exponent is
+sigmaStar+c=(1-ellStar)/4-bStar/6. The intrinsic sixfold Mellin pole
+z=1/6 and Gaussian center 5/6 remain fixed; the variable total slot length
+ell does not replace them. This identity does not supply the physical
+source residue theorem or the arithmetic low/raw-high bounds.
+
 ## Open obligation
 
 `ZeroFree.ZetaSignalObligation` is a proposition, not an axiom declaration or
@@ -84,7 +94,7 @@ real algebra remain separately classified.
 | Root and comparison | Boundary, complete. |
 | Extended plain moment | Numerical budget/slack in Geometry; analytic induction open. |
 | Inverse/plain counts | Rational envelope and feedback in Feedback; arithmetic realization open. |
-| Probe and low estimate | Normalizer/margin algebra; actual reflected sums and Gram estimates open. |
+| Probe and low estimate | SourceScaling proves actual complex-power normalization and its zeta-amplitude identity; actual reflected sums and Gram estimates remain open. |
 | Continuous reference certificate | Certificate plus Main, complete for the stated envelope. |
 | Actual parameter feedback | Feedback plus Main, complete. |
 | Physical admission/Euler/outer rows | Exact margins/identities; convergence and arithmetic estimates open. |

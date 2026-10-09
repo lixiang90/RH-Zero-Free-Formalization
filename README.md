@@ -44,6 +44,7 @@ line is excluded. The new code preserves those distinctions.
 | [ZetaInverse](ZeroFree/ZetaInverse.lean) | Construct the actual Gaussian inverse Mellin signal; prove the reciprocal bound, local integrability and arbitrary power decay at zero. |
 | [ZetaSignal](ZeroFree/ZetaSignal.lean) | Derive the Mellin product identity and reduce the zeta theorem to arithmetic correction/probe estimates. |
 | [PlainComparison](ZeroFree/PlainComparison.lean) | Check repaired scalar reflected/clipping budgets at kappa >= 37/50; actual moment induction remains pending. |
+| [SourceScaling](ZeroFree/SourceScaling.lean) | Normalize the actual complex powers at variable slot length and scale imbalance; match the paper exponent and the constructed zeta amplitude while preserving the intrinsic Mellin pole 1/6. |
 | [Main](ZeroFree/Main.lean) | Connection of the cubic certificate to the rational count, buffer admission, and the explicitly conditional best-boundary zeta theorem. |
 
 Lean proves every coefficient identity and real inequality using ordinary
@@ -74,11 +75,11 @@ of every public theorem. It rejects placeholders, custom axioms and unchecked
 computational proof methods. Permitted foundational axioms are
 `propext`, `Quot.sound`, and `Classical.choice`.
 
-The complete library build and fresh audit of **214 public theorems passed**,
+The complete library build and fresh audit of **224 public theorems passed**,
 with only the three foundational axioms above. Source-bound results and logs
 are in [lean-verification.json](verification/lean-verification.json).
-A fresh **serial independent Nano replay passed 58,109 declarations** from all
-214 public roots. Commands, input hashes and permitted-axiom output are in
+A fresh **serial independent Nano replay passed 58,126 declarations** from all
+224 public roots. Commands, input hashes and permitted-axiom output are in
 [independent-kernel.json](verification/independent-kernel.json).
 Both checks retain the explicit analytic hypotheses described above.
 Tool setup and local cache details: [reproduction.md](docs/reproduction.md).
