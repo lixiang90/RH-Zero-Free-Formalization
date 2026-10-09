@@ -1,0 +1,29 @@
+{
+  "module": "OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa",
+  "original_source": "E:\\codex-build\\RH-Weil\\tmp\\losses-before-arithmetic-source-phase-20261009\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.lean",
+  "source_sha256": "b793c307ed691f2bb516e8528428fbaefe181e6f5dc74827f8aa320865efbd07",
+  "source_copy": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-225816\\sources\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.lean",
+  "source_copy_sha256": "b793c307ed691f2bb516e8528428fbaefe181e6f5dc74827f8aa320865efbd07",
+  "roots": [
+    "OAI.SevenEighths.LossesBeforeArithmeticSourcePlainMarkedLowKappa.exists_losses_before_arithmetic_slots_degrees_height_and_finite_family"
+  ],
+  "command": [
+    "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-DautoImplicit=false",
+    "--root=E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-225816\\sources",
+    "-o",
+    "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-225816\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.olean",
+    "-i",
+    "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-225816\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.ilean",
+    "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-225816\\sources\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.lean"
+  ],
+  "exit_code": 1,
+  "elapsed_seconds": 0.344,
+  "log": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-225816\\OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa.compile.log",
+  "log_sha256": "44e7a69cf338b76d66e36a25398509cfafa1d1165a5de91bf8df6a7c93a13515",
+  "artifact_sha256": {},
+  "all_old_inputs_and_state_stable": true,
+  "scope": "Private candidate compilation, not a canonical controller record or independent Nano replay."
+}

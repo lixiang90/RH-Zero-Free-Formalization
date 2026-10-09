@@ -1,0 +1,11 @@
+{
+  "historical_source_preparation_record": "source-preparation-authored32-universal-unmarked.json",
+  "historical_source_preparation_record_sha256": "90a4bc3a8dfac96887516a0e36d3d8d1711ccc00a996b8ae62a5573fac350eae",
+  "historical_extension_manifest_sha256": "44e13fdfaa20004f078cc3b7e9765c6499a641be980abee2823a1a89d28aaf5d",
+  "current_extension_manifest_sha256": "8e5d98923ebe48c4b0ee571b7c687136bd6ba73bf74b5462b0adacedf5f78047",
+  "historically_prepared_authored_source_count": 32,
+  "current_authored_source_count": 32,
+  "current_source_payloads_all_match_last_successful_preparation": true,
+  "authored_source_payloads_pending_new_preparation": [],
+  "update_scope": "Verification status/evidence is separate from source preparation; exact sources match the current successful preparation, whose manifest contains historical pre-audit statuses."
+}

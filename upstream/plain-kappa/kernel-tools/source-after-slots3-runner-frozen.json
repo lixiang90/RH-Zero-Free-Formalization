@@ -1,0 +1,18 @@
+{
+  "status": "prepared_waiting_actual_canonical_compile_before_any_replay",
+  "runner_sha256": "e9cc518136e68b1b8af6f11010d561e6baaa44c1a69847fb344d5acebbd9b714",
+  "wrapper_sha256": "ab75861b08a0486fedd23b04ff7ce4041bf02ac41fd0582e6ea66e6006660104",
+  "groups_sha256": "0e183c27c69830527d94f78be806ca944cee6d5f6240da82f63e9c7f34b9b552",
+  "target_modules": [
+    "OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.SourceAfterSlotsPlainMarkedLowKappa"
+  ],
+  "selected_roots": [
+    "OAI.SevenEighths.LossesBeforeArithmeticSourcePlainMarkedLowKappa.exists_losses_before_arithmetic_slots_degrees_height_and_finite_family",
+    "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_slots_before_source_universal_plain_marked",
+    "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_first_tail_source_after_slots"
+  ],
+  "public_evidence_label": "source-after-slots3",
+  "scope": "Three new canonical actual mathematical roots. Native rho and epsilonE losses are constructed before every ideal M, subgroup H and finite Slot; later degrees/J/common height precede every finite eta/Q family. The source wrapper constructs arbitrary-positive-total physical/energy mesh slots before any arithmetic source. After every positive caller detector e and seed prime set it constructs actual S with SourceExclusions, FirstTail(4*e), maximal primes and nonzero product; the product ideal/subgroup is then followed by degree/J/common height before the outer character and its constant/eventual threshold, which cover all smaller positive heights and matching q/Batch/nonempty fibers. The detector e is distinct from epsilonE. Complete HighData/SourceData assembly, full SourceMomentsAt/RawMomentInput, the other three Moments fields, counts/probe and improved unconditional zero-free assembly remain pending. Older96 selected roots are not replayed. Exact unused imported PNTA holes remain disclosed and absent from selected exports.",
+  "previous96_roots_retested": false
+}

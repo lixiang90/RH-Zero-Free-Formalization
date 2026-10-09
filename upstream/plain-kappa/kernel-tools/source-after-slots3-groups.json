@@ -1,0 +1,9 @@
+{
+  "OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa": [
+    "OAI.SevenEighths.LossesBeforeArithmeticSourcePlainMarkedLowKappa.exists_losses_before_arithmetic_slots_degrees_height_and_finite_family"
+  ],
+  "OAI.NumberTheory.DirichletL.Moments.SourceAfterSlotsPlainMarkedLowKappa": [
+    "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_slots_before_source_universal_plain_marked",
+    "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_first_tail_source_after_slots"
+  ]
+}

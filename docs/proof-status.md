@@ -94,10 +94,16 @@ and absolute/scaled mesh gates. SourcePlainMarkedUniversalLowKappa proves
 the fixed-source plain_marked field for every matching q/Batch and nonempty
 fiber; degree/J/common height precede outer characters and each character's
 constant/threshold precede all smaller admitted heights and batches.
-This fixes S/product ideal first. Complete SourceData instead requires a
-FirstTail-compatible S after the slot-dependent detector parameter e; a
-stronger losses/slots-before-S interface remains to be proved, as recorded in
-the [source-order audit](source-assembly-order-audit/audit.md).
+That earlier theorem fixes S/product ideal first. The new
+LossesBeforeArithmeticSourcePlainMarkedLowKappa constructs scalar losses
+before every M/H and Slot type. SourceAfterSlotsPlainMarkedLowKappa chooses
+losses and actual slots before a later positive detector e, then constructs
+SourceExclusions, FirstTail(4e) and a nonzero product modulus. The universal
+marked field retains degree/J/common height before outer characters.
+This discharges the specific slots-before-final-S gate. It accepts a later
+genuine detector e; it does not construct the remaining HighData budgets or
+the complete SourceData/Moments assembly. The [historical order audit](source-assembly-order-audit/audit.md)
+and [current status](source-assembly-order-audit/README.md) distinguish these scopes.
 PlainUnmarkedAdmissionLowKappa proves actual admission with exponent
 max(1,2m), retaining PositiveAt, state.width=d*max(1,2m)+rho and real
 state-width/polynomial-scale caps. The source-wide state and uniform caps,
@@ -131,7 +137,7 @@ real algebra remain separately classified.
 | Paper section | Formal coverage |
 |---|---|
 | Root and comparison | Boundary, complete. |
-| Extended plain moment | Scalar budget/slack in Geometry; separate actual low-kappa energy induction and terminal output independently checked. Universal fixed-source plain_marked is checked; full four-field/source assembly remains open. |
+| Extended plain moment | Scalar budget/slack in Geometry; separate actual low-kappa energy induction and terminal output independently checked. Universal plain_marked and slots-before-FirstTail-S are checked; full HighData/four-field/source assembly remains open. |
 | Inverse/plain counts | Rational envelope and feedback in Feedback; arithmetic realization open. |
 | Probe and low estimate | SourceScaling checks complex-power normalization and its zeta-amplitude identity; separate actual source normalization and Gram-factor scale gates are available. Full reflected sums and the complete probe estimate remain open. |
 | Continuous reference certificate | Certificate plus Main, complete for the stated envelope. |

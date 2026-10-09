@@ -1,0 +1,33 @@
+{
+  "module": "OAI.NumberTheory.DirichletL.Moments.SourceAfterSlotsPlainMarkedLowKappa",
+  "original_source": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\SourceAfterSlotsPlainMarkedLowKappa.lean",
+  "source_sha256": "8735b9f59a421fe6e6f142ff97e1b5c58810bf5a9825b53180e731b1a6329bb6",
+  "source_copy": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\sources\\OAI\\NumberTheory\\DirichletL\\Moments\\SourceAfterSlotsPlainMarkedLowKappa.lean",
+  "source_copy_sha256": "8735b9f59a421fe6e6f142ff97e1b5c58810bf5a9825b53180e731b1a6329bb6",
+  "roots": [
+    "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_slots_before_source_universal_plain_marked",
+    "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_first_tail_source_after_slots"
+  ],
+  "command": [
+    "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-DautoImplicit=false",
+    "--root=E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\sources",
+    "-o",
+    "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\SourceAfterSlotsPlainMarkedLowKappa.olean",
+    "-i",
+    "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\SourceAfterSlotsPlainMarkedLowKappa.ilean",
+    "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\sources\\OAI\\NumberTheory\\DirichletL\\Moments\\SourceAfterSlotsPlainMarkedLowKappa.lean"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 17.437,
+  "log": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\OAI.NumberTheory.DirichletL.Moments.SourceAfterSlotsPlainMarkedLowKappa.compile.log",
+  "log_sha256": "c1df407ab35f648c00fae72344a5cc6f3a6cb89d184d7cf8d695d65af96aa665",
+  "artifact_sha256": {
+    "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\SourceAfterSlotsPlainMarkedLowKappa.olean": "3afaaff9c7e734a845f1b24d90964e61d91408cfe7af218c15e90f7a5158cd48",
+    "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\SourceAfterSlotsPlainMarkedLowKappa.ilean": "c84a05434cad5efb16aad6acf249b0dc84efdbb31968bf93d6eaa1fa261cd9c0"
+  },
+  "all_old_inputs_and_state_stable": true,
+  "scope": "Private candidate compilation, not a canonical controller record or independent Nano replay."
+}

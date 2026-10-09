@@ -12,6 +12,10 @@ now check the fixed-S universal plain_marked field and genuine unmarked
 admission with exponent max(1,2m). The latter retains its real enlarged state,
 PositiveAt and scale caps; it does not construct the complete source field.
 The [assembly-order audit](../source-assembly-order-audit/audit.md) separately
-records the remaining slots-before-FirstTail-S requirement. Its eight original
+records the historical slots-before-FirstTail-S requirement. The subsequent
+[three-root replay](../../upstream/plain-kappa/verification/source-after-slots3/strict-replay-result.json)
+now proves that specific order for the actual marked source interface;
+the [later status](../source-assembly-order-audit/README.md) retains the full
+HighData/four-field limits. Its eight original
 source bindings and zero-proof-root scope are explicit; the historical audit
 and its 48 uncompiled-node boundary remain unchanged.

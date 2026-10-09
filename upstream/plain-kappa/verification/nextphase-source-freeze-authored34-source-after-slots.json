@@ -1,0 +1,49 @@
+{
+  "published_baseline_git_commit": "7935395354c8c7cbf6c45762c066d87674aeee29",
+  "previous_verified_phase_history": "history/authored32-7935395/phase-boundary.json",
+  "previous_verified_phase_history_sha256": "455231cf472af68af9839b21eddfd92d78f8b4db2155bb1c5cae13fc086e9d1d",
+  "previous_phase_has_own_git_commit": true,
+  "old_authored32_manifest_sha256": "8e5d98923ebe48c4b0ee571b7c687136bd6ba73bf74b5462b0adacedf5f78047",
+  "old_selected_declaration_count": 96,
+  "new_authored_module_count": 34,
+  "new_selected_declaration_count": 99,
+  "new_prepared_module_count": 2,
+  "new_prepared_declaration_count": 3,
+  "new_prepared_sources": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/LossesBeforeArithmeticSourcePlainMarkedLowKappa.lean",
+      "source": "E:\\codex-build\\RH-Weil\\tmp\\losses-before-arithmetic-source-phase-20261009\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.lean",
+      "sha256": "b793c307ed691f2bb516e8528428fbaefe181e6f5dc74827f8aa320865efbd07",
+      "bytes": 10453,
+      "namespace": "OAI.SevenEighths.LossesBeforeArithmeticSourcePlainMarkedLowKappa",
+      "roots": [
+        "OAI.SevenEighths.LossesBeforeArithmeticSourcePlainMarkedLowKappa.exists_losses_before_arithmetic_slots_degrees_height_and_finite_family"
+      ],
+      "scope": "Native losses rho and epsilonE are explicitly constructed before every arithmetic ideal M, subgroup H and finite Slot. The later degree/J/common height precede each finite eta/Q family. Constants and thresholds still precede smaller positive heights, all actual fibers and source gates. This is a genuine reordered construction, not an exchange of existing quantifiers. Only the plain-marked field is supplied.",
+      "status": "canonical_prepared_not_actual_compiled_or_independently_replayed"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.SourceAfterSlotsPlainMarkedLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/SourceAfterSlotsPlainMarkedLowKappa.lean",
+      "source": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\SourceAfterSlotsPlainMarkedLowKappa.lean",
+      "sha256": "8735b9f59a421fe6e6f142ff97e1b5c58810bf5a9825b53180e731b1a6329bb6",
+      "bytes": 12153,
+      "namespace": "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa",
+      "roots": [
+        "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_slots_before_source_universal_plain_marked",
+        "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_first_tail_source_after_slots"
+      ],
+      "scope": "Two actual source-after-slots results: scalar losses and physical/energy mesh slots with any positive total are chosen before all arithmetic sources; after any positive caller detector parameter e and seed prime set, an actual source S with SourceExclusions and FirstTail(4*e) is constructed. Product ideal/subgroup then precede native degree/J/common height, outer character, its constant/threshold and all smaller heights/matching batches/nonempty fibers. The detector e is separate from the native epsilonE loss. Complete HighData/SourceData and the other three Moments fields remain pending.",
+      "status": "canonical_prepared_not_actual_compiled_or_independently_replayed"
+    }
+  ],
+  "original41_aggregate_patch_sha256_unchanged": "58ddc470f93afd26265525e78b951706ccb202839c6768f7ef39006af699dc42",
+  "source_installation_and_controller_owner": "upstream_build_prep",
+  "new_actual_compilation_status": "pending",
+  "new_selected_independent_replay_status": "pending",
+  "old96_declarations_retested": false,
+  "old_source_state_sha256_unchanged": "f144fb67f376648f0dd4f3b213e28a709339951a2b08e032e4794fe09f398043",
+  "canonical_metadata_sha256": "cb353066f3aaf8a3c4a466547b10308b1af889eae88def9041d51d27e06d7219",
+  "next37_target_input_sha256": "e260af3a04ec97ec98a8062959e3e8f86b9dba39eb086adb69200b069be73f15"
+}

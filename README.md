@@ -106,7 +106,7 @@ is compiled separately with its original toolchain; its current proof status
 and repaired margins are described in [plain-kappa-extension.md](docs/plain-kappa-extension.md).
 The [arithmetic capsule](upstream/plain-kappa/README.md) separately records
 actual Lean 4.34.1 compilation, fresh complete types/axioms and independent
-replays for all **96 selected roots in 32 authored modules**: slot construction,
+replays for all **99 selected roots in 34 authored modules**: slot construction,
 moving parameters, Euler correction, principal comparison/normalization,
 Gram-factor scales, the ray-prime normalizer, conditional Dirichlet/zeta
 transfer, actual finite-row energy interfaces, arbitrary-total source Batch
@@ -119,9 +119,12 @@ scale threshold precede every admitted smaller height exponent and Batch.
 The unmarked admission additionally covers max(1,2m), retaining its actual
 PositiveAt, enlarged state-width and polynomial-scale caps.
 A separate four-root replay checks the complete patched low-kappa induction
-and its terminal output. Full source assembly still needs slots before the
-FirstTail-dependent prime set, the remaining Moments fields, counts and the
-physical probe. See the [source-order audit](docs/source-assembly-order-audit/audit.md).
+and its terminal output. The source-after-slots interface now constructs
+scalar losses and physical slots before any later positive detector e, then
+chooses a genuine FirstTail-compatible excluded prime set and nonzero product
+ideal. Degrees and the common height are subsequently fixed before outer
+characters. The full HighData budgets, remaining Moments fields, counts and
+physical probe remain open. See the [source-order status](docs/source-assembly-order-audit/README.md).
 The [finite-row integration note](docs/finite-row-energy-integration.zh.md)
 explains the constructed NaturalState, exact fiber dictionary and height budget.
 The imported PNTA source contains two original placeholders; neither occurs

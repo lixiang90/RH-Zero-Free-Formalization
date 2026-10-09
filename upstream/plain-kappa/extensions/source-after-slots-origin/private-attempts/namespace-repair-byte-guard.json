@@ -1,0 +1,8 @@
+{
+  "before_source_sha256": "acc66a3ec52d43e0d574d03a2ed97530ae90d6aa1c393ddbfc9062f21c28fecf",
+  "after_source_sha256": "8735b9f59a421fe6e6f142ff97e1b5c58810bf5a9825b53180e731b1a6329bb6",
+  "only_change": "SourceExclusions S -> ProbePhysical.SourceExclusions S",
+  "whole_file_exact_equality_after_single_namespace_qualification": true,
+  "failed_before_source_type_was_not_claimed_to_elaborate": true,
+  "statement_mathematical_content_unchanged": true
+}

@@ -1,0 +1,17 @@
+{
+  "status": "prepared_candidate_not_compiled",
+  "module": "OAI.NumberTheory.DirichletL.Moments.SourceAfterSlotsPlainMarkedLowKappa",
+  "source": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\SourceAfterSlotsPlainMarkedLowKappa.lean",
+  "source_sha256": "8735b9f59a421fe6e6f142ff97e1b5c58810bf5a9825b53180e731b1a6329bb6",
+  "roots": [
+    "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_slots_before_source_universal_plain_marked",
+    "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_first_tail_source_after_slots"
+  ],
+  "quantifier_order": "fixed W and scalar geometry -> scalar losses -> mesh and physical slots -> any positive detector e and seed set -> actual FirstTail/exclusions S -> product ideal/subgroup -> native degree/J/common height -> outer character -> constant/eventualZ -> all smaller heights/all matching batches/nonempty fibers",
+  "first_tail_parameter": "4*e, where e is the genuine caller detector parameter after slots, distinct from native epsilonE",
+  "full_HighData_constructed": false,
+  "other_Moments_fields_supplied": false,
+  "compiled": false,
+  "independently_replayed": false,
+  "namespace_qualification_repair": "Use ProbePhysical.SourceExclusions, the actual original declaration; no mathematical condition changed."
+}

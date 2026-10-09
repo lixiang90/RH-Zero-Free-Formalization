@@ -1,0 +1,19 @@
+import UpstreamNano_20261009_231543
+set_option pp.universes true
+set_option pp.fullNames true
+set_option pp.explicit true
+set_option pp.all true
+set_option pp.maxSteps 1000000
+
+set_option pp.universes true
+#check @OAI.SevenEighths.LossesBeforeArithmeticSourcePlainMarkedLowKappa.exists_losses_before_arithmetic_slots_degrees_height_and_finite_family
+set_option pp.universes false
+#print axioms OAI.SevenEighths.LossesBeforeArithmeticSourcePlainMarkedLowKappa.exists_losses_before_arithmetic_slots_degrees_height_and_finite_family
+set_option pp.universes true
+#check @OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_slots_before_source_universal_plain_marked
+set_option pp.universes false
+#print axioms OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_slots_before_source_universal_plain_marked
+set_option pp.universes true
+#check @OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_first_tail_source_after_slots
+set_option pp.universes false
+#print axioms OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_first_tail_source_after_slots

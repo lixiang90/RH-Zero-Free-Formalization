@@ -5,12 +5,12 @@ our cubic boundary to the actual Hecke arithmetic in OpenAI/math. Author:
 **Li Xiang / lixiang90**. It is independent of the primary Lean 4.33.0-rc2
 library, and its results are counted separately.
 
-**The complete improved zero-free region is still pending.** All 96 selected
-roots in the thirty-two authored modules below passed actual compilation, fresh
+**The complete improved zero-free region is still pending.** All 99 selected
+roots in the thirty-four authored modules below passed actual compilation, fresh
 complete types/axioms and independent Nano replay. The complete patched
 low-kappa energy induction and terminal output passed a separate four-root
-independent replay. The final source controller compiled all 2279 custom
-dependency modules and 35 targets successfully. The previous 2277 successful
+independent replay. The final source controller compiled all 2281 custom
+dependency modules and 37 targets successfully. The previous 2279 successful
 modules were reused only after their source/dependency/artifact bindings matched.
 The terminal output preserves its arithmetic inputs. The fixed-source
 plain_marked field is now proved universally over matching batches. Complete
@@ -30,8 +30,8 @@ The original d18941bd revision is retained in the historical evidence. Four
 final proof-body repairs supply the exact weaker premises expected by existing
 APIs; their declaration headers and mathematical hypotheses are unchanged.
 
-The [authored-source manifest](extensions/manifest.json) records thirty-two extra
-modules with 96 selected roots separately from those patched upstream sources.
+The [authored-source manifest](extensions/manifest.json) records thirty-four extra
+modules with 99 selected roots separately from those patched upstream sources.
 Each has an exact
 source hash, declaration list and verification status.
 
@@ -128,9 +128,11 @@ adds one further declaration in one module, bringing the authored set to
 The [generic ideal/mesh and loss-before-slot replay](verification/generic-losses4/strict-replay-result.json)
 adds four roots across two modules, reaching the historical 30-module/93-root
 phase boundary. The [universal source/unmarked replay](verification/source-universal-unmarked3/strict-replay-result.json)
-adds three roots across two further modules. The current authored set is
-**32 modules and 96 distinct selected declarations**, with exact source and
-declaration bindings in the [integrity record](verification/authored96-independent-evidence-integrity.json).
+adds three roots across two further modules, reaching the historical 32/96
+checkpoint. The [source-after-slots replay](verification/source-after-slots3/strict-replay-result.json)
+adds three roots in two modules. The current authored set is **34 modules and
+99 distinct selected declarations**, with exact source and declaration bindings
+in the [integrity record](verification/authored99-independent-evidence-integrity.json).
 The 30/93 phase is a frozen intermediate snapshot, not a separate Git commit.
 The five additional original OAI sources were restored from exact pinned Git
 blobs and compiled without compatibility changes; the original SourceBatch
@@ -191,8 +193,16 @@ absolute-energy and scaled-Batch meshes. The existing source_product_le_rowMask
 supplies the mask gate. SourcePlainMarkedUniversalLowKappa
 assembles these into the actual source plain_marked field for every matching
 q/Batch and nonempty fiber, with S/product ideal fixed before the losses.
-The complete source assembly additionally needs losses/slots before the final
-FirstTail-compatible S/product ideal; see the [read-only order audit](../../docs/source-assembly-order-audit/audit.md).
+LossesBeforeArithmeticSourcePlainMarkedLowKappa now constructs the same
+scalar losses before every ideal/subgroup and finite Slot type.
+SourceAfterSlotsPlainMarkedLowKappa then constructs physical slots before
+every positive detector e and prime seed, and calls the actual
+Parameters.exists_fixed_source to obtain SourceExclusions and FirstTail(4e).
+The resulting prime set has a nonzero product and supplies the same universal
+marked source field, with degree/J/common height before outer characters.
+The original [order audit](../../docs/source-assembly-order-audit/audit.md)
+remains historical; its [later status](../../docs/source-assembly-order-audit/README.md)
+records the proved interface and the still-open full HighData budgets.
 PlainUnmarkedAdmissionLowKappa proves the genuine max(1,2m) admission without
 marked capacity, retaining actual PositiveAt, state.width=d*max(1,2m)+rho,
 state-width/polynomial-scale caps and radial cover. Its source-wide state and
@@ -232,6 +242,12 @@ replays bind complete types and the three standard axioms; the selected exports
 contain neither the disclosed PNTA auxiliary placeholders nor sorryAx.
 The [assembly-order audit](../../docs/source-assembly-order-audit/audit.md)
 binds eight original source snapshots and adds zero proved roots.
+The subsequent [source-after-slots replay](verification/source-after-slots3/strict-replay-result.json)
+checks the strengthened native loss-order root and both actual source-after-slots
+roots. No prepared candidate or read-only audit is counted as an extra root.
+The final source set and detector e are chosen in the order stated by these
+complete types; the other HighData budgets and the complete Moments record
+are not asserted.
 
 ## Pinned sources and tools
 

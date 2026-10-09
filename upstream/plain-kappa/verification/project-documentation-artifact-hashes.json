@@ -1,14 +1,14 @@
 {
   "path_base": "repository_root",
-  "scope": "Root-owned repository README and documentation include all60 exact-byte finite-row audit artifacts, finite-row integration, and the 18-file source-wrapper quantifier/gates ledger with14 quoted raw Lean sources, and the source-assembly quantifier-order audit with raw actual/pinned Git sources. Its FirstTail and fixed-source ledger is read-only source analysis, not new checked roots. These documents are outside the capsule directory; hashes are separate from capsule-relative artifacts and include ignored logs as exact bytes. Source audits do not make their uncompiled branches proof results. Current mathematical scope is authored32/96 with separate selected upstream22 and external Rellich54.",
+  "scope": "Root-owned repository README and documentation include all60 exact-byte finite-row audit artifacts, finite-row integration, and the 18-file source-wrapper quantifier/gates ledger with14 quoted raw Lean sources, and the source-assembly quantifier-order audit with raw actual/pinned Git sources. Its FirstTail and fixed-source ledger is read-only source analysis, not new checked roots. These documents are outside the capsule directory; hashes are separate from capsule-relative artifacts and include ignored logs as exact bytes. Source audits do not make their uncompiled branches proof results. Current mathematical scope is authored34/99 with separate selected upstream22 and external Rellich54.",
   "artifacts": {
     "README.md": {
-      "bytes": 8600,
-      "sha256": "d42532be2aa568eecdcf92f7604d66c337a4c87fe105be70a8555d7f207132ee"
+      "bytes": 8842,
+      "sha256": "cee78c28abb41a35dd3d86eff924f00e0152f03798a65d5f424064d122111ec9"
     },
     "docs/arithmetic-integration.md": {
-      "bytes": 11288,
-      "sha256": "7f2fd8da514ac910a1171c70aac5da78a9fcdf432770863d908f7134540ac4ee"
+      "bytes": 11745,
+      "sha256": "fb9217333192ecf2a810a50f9974e61ebca3956cb0d846e9d46daf20ed33dba3"
     },
     "docs/finite-row-energy-audit/FinitePositiveRowDomination.candidate.lean": {
       "bytes": 2951,
@@ -251,8 +251,8 @@
       "sha256": "5bf07ed42ea9380777bc4c9424173b99a8e355a8a2731ef8eda1fdb5b68e99bc"
     },
     "docs/finite-row-energy-integration.zh.md": {
-      "bytes": 12636,
-      "sha256": "85525ba098713fd410b09ea2d2c98fd1663a880fe0a30d460c53dff8e067a8ea"
+      "bytes": 13094,
+      "sha256": "20c3f35e1ca8800bb95d9522fbf6c0d1dcefa4076450c24e33f7eb4ed5ddfa6b"
     },
     "docs/marked-moment-audit/IdentityClassCoefficient.lean.raw-source.json": {
       "bytes": 1750,
@@ -276,7 +276,7 @@
     },
     "docs/plain-kappa-extension.md": {
       "bytes": 5227,
-      "sha256": "d6dc18a73ca8b2002f9628e843e94b3e032e41b45c8fbc24211394255e7c136a"
+      "sha256": "79c8e962c453afbb755c6f80febe6958c7d8cdffdb3ba2dd88422129c0226b81"
     },
     "docs/pnta-normalizer-audit/README.md": {
       "bytes": 1320,
@@ -307,8 +307,12 @@
       "sha256": "bd6aa8dfb869d8615b18bba06f942ce5cfd8502394aa8a03f29808dabc4831ec"
     },
     "docs/proof-status.md": {
-      "bytes": 9478,
-      "sha256": "3cb5c81844c36c9e9ee052711dd4000ef60fe70cf7f7b210369fd3225de2e693"
+      "bytes": 9998,
+      "sha256": "03b69f62d70f9da84b861478ef434925afc39be4f35dff052ad77952c3a690f9"
+    },
+    "docs/source-assembly-order-audit/README.md": {
+      "bytes": 1449,
+      "sha256": "9bc399db0bfece682fce454c894a0ca05d69902b8c75b7a6530354f175829deb"
     },
     "docs/source-assembly-order-audit/audit.md": {
       "bytes": 9212,
@@ -394,9 +398,81 @@
       "bytes": 4675,
       "sha256": "6bdd82394b7156566a7413444aa3d5188dd0df400f8cbe3e662d980de0d1035d"
     },
+    "docs/source-final-exclusions-interface-audit/freeze_review.py": {
+      "bytes": 4444,
+      "sha256": "936d6eb472b2946560cf3a916869552010bbc479762519efb44ba2bce67634ff"
+    },
+    "docs/source-final-exclusions-interface-audit/frozen-summary.json": {
+      "bytes": 393,
+      "sha256": "683a424cb12eeaac5796db30149bb46e7ebb5347e8aca56a1bd6298bb18966f0"
+    },
+    "docs/source-final-exclusions-interface-audit/metadata.json": {
+      "bytes": 14664,
+      "sha256": "401a337c6dde4c1dcc442fe7f808dcba19e525979980ce00ed582f89037debe7"
+    },
+    "docs/source-final-exclusions-interface-audit/prepared-candidate-reference/LossesBeforeArithmeticSourcePlainMarkedLowKappa.lean": {
+      "bytes": 10453,
+      "sha256": "b793c307ed691f2bb516e8528428fbaefe181e6f5dc74827f8aa320865efbd07"
+    },
+    "docs/source-final-exclusions-interface-audit/prepared-candidate-reference/SourceAfterSlotsPlainMarkedLowKappa.lean": {
+      "bytes": 12139,
+      "sha256": "acc66a3ec52d43e0d574d03a2ed97530ae90d6aa1c393ddbfc9062f21c28fecf"
+    },
+    "docs/source-final-exclusions-interface-audit/prepared-candidate-reference/contract.json": {
+      "bytes": 1162,
+      "sha256": "715b3760bea560b39e6d7e75c075b6a9e6d064dc0db7123ac3ae76b901b5dc5a"
+    },
+    "docs/source-final-exclusions-interface-audit/review.md": {
+      "bytes": 7207,
+      "sha256": "e571ec0d2be28cd80798977fb4447085f961717d616ec8e16c9b2a167155008a"
+    },
+    "docs/source-final-exclusions-interface-audit/sources/actual/OAI/NumberTheory/DirichletL/Detector/FixedEuler.lean": {
+      "bytes": 4040,
+      "sha256": "1d195dfdcdbcc7ac9df7f3d4c23229929911e4665b655f6b72237411587f4bd6"
+    },
+    "docs/source-final-exclusions-interface-audit/sources/actual/OAI/NumberTheory/DirichletL/Detector/SourceExclusions.lean": {
+      "bytes": 2561,
+      "sha256": "7ce136a63d2478f75c876bc7404717a426b97829132b9c634647009a4cb8d650"
+    },
+    "docs/source-final-exclusions-interface-audit/sources/actual/OAI/NumberTheory/DirichletL/Moments/DetectorDictionarySource.lean": {
+      "bytes": 3674,
+      "sha256": "2f9894c7cc17a0b329229f826397b6708a0294bbc40726afa3c35248cd0f3e98"
+    },
+    "docs/source-final-exclusions-interface-audit/sources/actual/OAI/NumberTheory/DirichletL/Moments/GenericSourceIdealAndMesh.lean": {
+      "bytes": 4421,
+      "sha256": "2a0fec6b6d42a2caeaaad8c30d73eefd8fcb46de2cf313f9b231661995346840"
+    },
+    "docs/source-final-exclusions-interface-audit/sources/actual/OAI/NumberTheory/DirichletL/ParametersFixedSource.lean": {
+      "bytes": 2281,
+      "sha256": "6d17586f6573f6ffcbc1343af5e7b27f5cc19824a0ada96a8bdff0b0adc2a1b8"
+    },
+    "docs/source-final-exclusions-interface-audit/sources/actual/OAI/NumberTheory/DirichletL/PrimeRows/FirstTail.lean": {
+      "bytes": 4780,
+      "sha256": "be3d26d2846b67df0a208d6050600a9a8cea312fc8b052cb1c0763fe8369e7ee"
+    },
+    "docs/source-final-exclusions-interface-audit/sources/original-git/OAI/NumberTheory/DirichletL/Detector/FixedEuler.lean": {
+      "bytes": 3956,
+      "sha256": "0e463f91308f01561e4c8dd1d71275e67f18009389f6e0a17d86187f994c807b"
+    },
+    "docs/source-final-exclusions-interface-audit/sources/original-git/OAI/NumberTheory/DirichletL/Detector/SourceExclusions.lean": {
+      "bytes": 2501,
+      "sha256": "1430bb9bf9e3d40b8162a9155578ac7c9e80c3d8416016614ebdc4e0533fffcd"
+    },
+    "docs/source-final-exclusions-interface-audit/sources/original-git/OAI/NumberTheory/DirichletL/Moments/DetectorDictionarySource.lean": {
+      "bytes": 3594,
+      "sha256": "b8f6d1f292e243d21ee2a48e3c7d0033e27055d1fad16953881064ed1b1e7391"
+    },
+    "docs/source-final-exclusions-interface-audit/sources/original-git/OAI/NumberTheory/DirichletL/ParametersFixedSource.lean": {
+      "bytes": 2227,
+      "sha256": "01fb197c3353d800ef80bc77d56ee3e27a09baab98f22c59ec23db235e901637"
+    },
+    "docs/source-final-exclusions-interface-audit/sources/original-git/OAI/NumberTheory/DirichletL/PrimeRows/FirstTail.lean": {
+      "bytes": 4675,
+      "sha256": "6bdd82394b7156566a7413444aa3d5188dd0df400f8cbe3e662d980de0d1035d"
+    },
     "docs/source-plain-wrapper-audit/README.md": {
-      "bytes": 1852,
-      "sha256": "cd9d6f3c8b88ea830e256b2a12d130eb74a99bc77b6ee617475bd0c194fabde9"
+      "bytes": 2152,
+      "sha256": "e033894f91a6c438eafcd8ae85cfdf6189a4e00053dbaec6505f7d7e69451a4a"
     },
     "docs/source-plain-wrapper-audit/audit.md": {
       "bytes": 10033,

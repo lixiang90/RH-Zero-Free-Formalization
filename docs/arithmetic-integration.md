@@ -87,7 +87,8 @@ The remaining integration must supply these actual interfaces:
    and Gram estimates for actual sums.
 3. Assemble the complete actual Moments at plain kappa=2*beta-1 from the
    now checked fixed-source universal marked field and the remaining fields.
-   The full source requires slots before the FirstTail-dependent S. The legacy raw
+   The slots-before-FirstTail-S interface is now proved; full HighData budgets
+   and the other source fields still need integration. The legacy raw
    fiber field uses 3/4+2*Delta and denominators 9/2+12*Delta; the generalized
    capacity denominator is 6*kappa. A bound on an abstract count envelope
    does not supply these marked moments.
@@ -153,10 +154,14 @@ Slot type. GenericSourceIdealAndMesh supplies the actual ideal gates and
 both mesh inequalities; the existing source_product_le_rowMask supplies the
 mask gate. SourcePlainMarkedUniversalLowKappa proves the field
 for every matching source q/Batch and nonempty fiber, keeping S/product ideal
-and W fixed before the scalar losses. Complete SourceData needs a stronger
-order: loss/mesh/slots, detector e, final FirstTail-compatible S/product ideal,
-then degree/J/common height. The [read-only source-order audit](source-assembly-order-audit/audit.md)
-shows why the current fixed-S type does not imply that order.
+and W fixed before the scalar losses. The subsequently checked LossesBeforeArithmeticSourcePlainMarkedLowKappa
+constructs actual losses before every ideal/subgroup. SourceAfterSlotsPlainMarkedLowKappa
+then proves loss/mesh/slots -> any positive detector e -> final actual
+FirstTail-compatible S/product ideal -> degree/J/common height -> outer
+characters and all matching batches. This stronger type is proved directly;
+it is not inferred by exchanging earlier existentials. The [historical source-order audit](source-assembly-order-audit/audit.md)
+and [later status](source-assembly-order-audit/README.md) preserve that distinction.
+Other HighData budgets and complete four-field source assembly remain open.
 ActualSourceBatchTotal now generalizes the real source constructor
 to sum(ell)=Lambda with dmax<=37*Lambda/7, preserving its witness budget.
 FiniteLabelPositiveAtLowKappa constructs and unifies the actual terminal

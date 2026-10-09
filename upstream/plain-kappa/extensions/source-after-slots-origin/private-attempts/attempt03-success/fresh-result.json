@@ -1,0 +1,160 @@
+{
+  "status": "private_actual_compile_and_full_fresh_pass",
+  "stage": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442",
+  "roots": [
+    "OAI.SevenEighths.LossesBeforeArithmeticSourcePlainMarkedLowKappa.exists_losses_before_arithmetic_slots_degrees_height_and_finite_family",
+    "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_slots_before_source_universal_plain_marked",
+    "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_first_tail_source_after_slots"
+  ],
+  "private_root_count": 3,
+  "compile_records": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa",
+      "original_source": "E:\\codex-build\\RH-Weil\\tmp\\losses-before-arithmetic-source-phase-20261009\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.lean",
+      "source_sha256": "b793c307ed691f2bb516e8528428fbaefe181e6f5dc74827f8aa320865efbd07",
+      "source_copy": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\sources\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.lean",
+      "source_copy_sha256": "b793c307ed691f2bb516e8528428fbaefe181e6f5dc74827f8aa320865efbd07",
+      "roots": [
+        "OAI.SevenEighths.LossesBeforeArithmeticSourcePlainMarkedLowKappa.exists_losses_before_arithmetic_slots_degrees_height_and_finite_family"
+      ],
+      "command": [
+        "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+        "-j",
+        "2",
+        "-DautoImplicit=false",
+        "--root=E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\sources",
+        "-o",
+        "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.olean",
+        "-i",
+        "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.ilean",
+        "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\sources\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 34.438,
+      "log": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa.compile.log",
+      "log_sha256": "d83db64189a0ab1ef32eb51bceef071308219d9711c75ea4ce5d918bc3936185",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.olean": "d12c2076bbfbc4e64fc6494ab9c6f4291145795dd6e2784e5af8ee3ca71f16ad",
+        "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.ilean": "a03ce3395d021c38c96a45bad90d7e3f8a66858847240c8ca715e240f1ab19d8"
+      },
+      "all_old_inputs_and_state_stable": true,
+      "scope": "Private candidate compilation, not a canonical controller record or independent Nano replay.",
+      "reused_private_compilation": true,
+      "prior_record_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa.compile.json",
+      "prior_record_sha256": "8f3ec3027f43239243dace7a23ba2bdd095db20bbcc998e8b410f55820ca639a",
+      "current_source_copy": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\sources\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.lean",
+      "copied_private_artifact_sha256": {
+        "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.olean": "d12c2076bbfbc4e64fc6494ab9c6f4291145795dd6e2784e5af8ee3ca71f16ad",
+        "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.ilean": "a03ce3395d021c38c96a45bad90d7e3f8a66858847240c8ca715e240f1ab19d8"
+      }
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.SourceAfterSlotsPlainMarkedLowKappa",
+      "original_source": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\SourceAfterSlotsPlainMarkedLowKappa.lean",
+      "source_sha256": "8735b9f59a421fe6e6f142ff97e1b5c58810bf5a9825b53180e731b1a6329bb6",
+      "source_copy": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\sources\\OAI\\NumberTheory\\DirichletL\\Moments\\SourceAfterSlotsPlainMarkedLowKappa.lean",
+      "source_copy_sha256": "8735b9f59a421fe6e6f142ff97e1b5c58810bf5a9825b53180e731b1a6329bb6",
+      "roots": [
+        "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_slots_before_source_universal_plain_marked",
+        "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_first_tail_source_after_slots"
+      ],
+      "command": [
+        "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+        "-j",
+        "2",
+        "-DautoImplicit=false",
+        "--root=E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\sources",
+        "-o",
+        "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\SourceAfterSlotsPlainMarkedLowKappa.olean",
+        "-i",
+        "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\SourceAfterSlotsPlainMarkedLowKappa.ilean",
+        "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\sources\\OAI\\NumberTheory\\DirichletL\\Moments\\SourceAfterSlotsPlainMarkedLowKappa.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 17.437,
+      "log": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\OAI.NumberTheory.DirichletL.Moments.SourceAfterSlotsPlainMarkedLowKappa.compile.log",
+      "log_sha256": "c1df407ab35f648c00fae72344a5cc6f3a6cb89d184d7cf8d695d65af96aa665",
+      "artifact_sha256": {
+        "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\SourceAfterSlotsPlainMarkedLowKappa.olean": "3afaaff9c7e734a845f1b24d90964e61d91408cfe7af218c15e90f7a5158cd48",
+        "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\SourceAfterSlotsPlainMarkedLowKappa.ilean": "c84a05434cad5efb16aad6acf249b0dc84efdbb31968bf93d6eaa1fa261cd9c0"
+      },
+      "all_old_inputs_and_state_stable": true,
+      "scope": "Private candidate compilation, not a canonical controller record or independent Nano replay."
+    }
+  ],
+  "compiler": "Lean (version 4.34.1, x86_64-w64-windows-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "fresh_command": [
+    "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-DautoImplicit=false",
+    "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\AxiomAudit.lean"
+  ],
+  "fresh_exit_code": 0,
+  "fresh_elapsed_seconds": 19.547,
+  "fresh_log_sha256": "b807ada2b48c654e523df7c7b58a90e40684f6d4b8e17eebd1838d558846b692",
+  "audit_source_sha256": "cf7269c3d8398be965f4321f7b3b6a4dcd6328f5141608488847634de4ea20f3",
+  "fresh_audit": {
+    "declaration_count": 3,
+    "checks": [
+      {
+        "declaration": "OAI.SevenEighths.LossesBeforeArithmeticSourcePlainMarkedLowKappa.exists_losses_before_arithmetic_slots_degrees_height_and_finite_family",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_slots_before_source_universal_plain_marked",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_first_tail_source_after_slots",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "only_standard_axioms": true
+  },
+  "fresh_error": null,
+  "selected_custom_dependency_count": 2256,
+  "cached_frontier_count": 282,
+  "all_old_inputs_and_state_bytes_stable": true,
+  "candidate_artifacts_stable": true,
+  "state_sha256_before": "f144fb67f376648f0dd4f3b213e28a709339951a2b08e032e4794fe09f398043",
+  "isolated_runtime_aliases_stable": true,
+  "isolated_runtime_alias_count": 4452,
+  "state_sha256_after": "f144fb67f376648f0dd4f3b213e28a709339951a2b08e032e4794fe09f398043",
+  "known_unproved_imported_auxiliaries": [
+    {
+      "module": "PrimeNumberTheoremAnd.Wiener",
+      "package_url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd.git",
+      "package_pin": "c39a751132c88b6e8080b74c74023fd95b3d8be0",
+      "raw_actual_source_sha256": "963151c22caeb12f5c203ae944961629bfe7840915519255d79220f415ca0fbf",
+      "canonical_lf_sha256": "7bd40c9cffedc1d9a0f675ea971c6719e490b1b106807459d549145f30d70f05",
+      "unproved_auxiliary_declarations": [
+        "prelim_decay_2",
+        "prelim_decay_3"
+      ],
+      "allowed_exact_warning_lines": [
+        "PrimeNumberTheoremAnd/Wiener.lean:325:8: warning: declaration uses `sorry`",
+        "PrimeNumberTheoremAnd/Wiener.lean:344:8: warning: declaration uses `sorry`"
+      ],
+      "only_unselected_imported_auxiliary_warnings_allowed": true,
+      "whole_import_environment_hole_free": false
+    }
+  ],
+  "whole_import_environment_hole_free": false,
+  "canonical_state_modified": false,
+  "independent_nano_invoked": false,
+  "strict_parser_sha256": "e9cc518136e68b1b8af6f11010d561e6baaa44c1a69847fb344d5acebbd9b714",
+  "private_verifier_sha256": "7303509a857528ca320c3fa02cc8ae12ac937dcac929bcfe30655876931cd594"
+}

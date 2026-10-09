@@ -1,6 +1,6 @@
 {
   "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
-  "status": "all_32_authored_modules_and_96_selected_declarations_independently_verified_full_analytic_supply_pending",
+  "status": "all_34_authored_modules_and_99_selected_declarations_independently_verified_full_analytic_supply_pending",
   "origin": "authored_extension",
   "files": [
     {
@@ -797,6 +797,55 @@
       "independently_replayed_declaration_count": 2,
       "joint_replay_selected_root_count": 3,
       "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/LossesBeforeArithmeticSourcePlainMarkedLowKappa.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Moments/LossesBeforeArithmeticSourcePlainMarkedLowKappa.lean",
+      "sha256": "b793c307ed691f2bb516e8528428fbaefe181e6f5dc74827f8aa320865efbd07",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "b793c307ed691f2bb516e8528428fbaefe181e6f5dc74827f8aa320865efbd07",
+      "canonical_lf_sha256": "b793c307ed691f2bb516e8528428fbaefe181e6f5dc74827f8aa320865efbd07",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "installation_owner": "upstream_build_prep",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "scope": "Native losses rho and epsilonE are explicitly constructed before every arithmetic ideal M, subgroup H and finite Slot. The later degree/J/common height precede each finite eta/Q family. Constants and thresholds still precede smaller positive heights, all actual fibers and source gates. This is a genuine reordered construction, not an exchange of existing quantifiers. Only the plain-marked field is supplied.",
+      "independent_replay_record": "../verification/source-after-slots3/strict-replay-result.json",
+      "independent_replay_record_sha256": "3c5f6793e4830b8e26dd02208451fd6d44a095298d75ca2ef23a98e41c9aed11",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.LossesBeforeArithmeticSourcePlainMarkedLowKappa.exists_losses_before_arithmetic_slots_degrees_height_and_finite_family"
+      ],
+      "independently_replayed_declaration_count": 1,
+      "joint_replay_selected_root_count": 3,
+      "imported_environment_contains_known_unproved_auxiliaries": true
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.SourceAfterSlotsPlainMarkedLowKappa",
+      "path": "OAI/NumberTheory/DirichletL/Moments/SourceAfterSlotsPlainMarkedLowKappa.lean",
+      "file": "files/OAI/NumberTheory/DirichletL/Moments/SourceAfterSlotsPlainMarkedLowKappa.lean",
+      "sha256": "8735b9f59a421fe6e6f142ff97e1b5c58810bf5a9825b53180e731b1a6329bb6",
+      "origin": "authored_extension",
+      "git_blob": null,
+      "author": "Li Xiang / lixiang90",
+      "status": "actual_compiled_fresh_types_axioms_and_independent_replay_passed",
+      "raw_actual_source_sha256": "8735b9f59a421fe6e6f142ff97e1b5c58810bf5a9825b53180e731b1a6329bb6",
+      "canonical_lf_sha256": "8735b9f59a421fe6e6f142ff97e1b5c58810bf5a9825b53180e731b1a6329bb6",
+      "raw_source_scope": "exact actual compiled and independently replayed input source",
+      "installation_owner": "upstream_build_prep",
+      "candidate_independent_audit_is_distinct_from_actual_module": true,
+      "scope": "Two actual source-after-slots results: scalar losses and physical/energy mesh slots with any positive total are chosen before all arithmetic sources; after any positive caller detector parameter e and seed prime set, an actual source S with SourceExclusions and FirstTail(4*e) is constructed. Product ideal/subgroup then precede native degree/J/common height, outer character, its constant/threshold and all smaller heights/matching batches/nonempty fibers. The detector e is separate from the native epsilonE loss. Complete HighData/SourceData and the other three Moments fields remain pending.",
+      "independent_replay_record": "../verification/source-after-slots3/strict-replay-result.json",
+      "independent_replay_record_sha256": "3c5f6793e4830b8e26dd02208451fd6d44a095298d75ca2ef23a98e41c9aed11",
+      "independently_replayed_declarations": [
+        "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_slots_before_source_universal_plain_marked",
+        "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_first_tail_source_after_slots"
+      ],
+      "independently_replayed_declaration_count": 2,
+      "joint_replay_selected_root_count": 3,
+      "imported_environment_contains_known_unproved_auxiliaries": true
     }
   ],
   "targets": [
@@ -831,7 +880,9 @@
     "OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh",
     "OAI.NumberTheory.DirichletL.Moments.LossesBeforeSlotSourcePlainMarkedLowKappa",
     "OAI.NumberTheory.DirichletL.Moments.SourcePlainMarkedUniversalLowKappa",
-    "OAI.NumberTheory.DirichletL.Moments.PlainUnmarkedAdmissionLowKappa"
+    "OAI.NumberTheory.DirichletL.Moments.PlainUnmarkedAdmissionLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.SourceAfterSlotsPlainMarkedLowKappa"
   ],
   "declarations": [
     "OAI.SevenEighths.ProbeEuler.unramifiedClosed_open_region_bound_lowKappa",
@@ -929,7 +980,10 @@
     "OAI.SevenEighths.LossesBeforeSlotSourcePlainMarkedLowKappa.exists_losses_before_slots_degrees_height_and_finite_family",
     "OAI.SevenEighths.SourcePlainMarkedUniversalLowKappa.exists_source_slots_and_universal_plain_marked",
     "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_growth_absorption_principal_exponent",
-    "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_plain_unmarked_admission"
+    "OAI.SevenEighths.PlainUnmarkedAdmissionLowKappa.actual_plain_unmarked_admission",
+    "OAI.SevenEighths.LossesBeforeArithmeticSourcePlainMarkedLowKappa.exists_losses_before_arithmetic_slots_degrees_height_and_finite_family",
+    "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_slots_before_source_universal_plain_marked",
+    "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_first_tail_source_after_slots"
   ],
   "note": "Authored sources retain per-file verification states and exact source hashes. Complete actual-module replay evidence applies only to listed selected declarations; standalone prototypes are distinct. Full analytic moment and zero-free supplies remain pending. Selected roots permit only three standard axioms; exact imported original PNTA holes, if present, are explicitly recorded and absent from selected kernel exports."
 }

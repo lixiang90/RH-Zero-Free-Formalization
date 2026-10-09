@@ -1,0 +1,9 @@
+{
+  "folder": "E:\\codex-build\\RH-Weil\\tmp\\source-final-exclusions-interface-audit-20261009",
+  "review_sha256": "e571ec0d2be28cd80798977fb4447085f961717d616ec8e16c9b2a167155008a",
+  "metadata_sha256": "401a337c6dde4c1dcc442fe7f808dcba19e525979980ce00ed582f89037debe7",
+  "actual_sources_exit0_bound": 6,
+  "pinned_git_blobs": 5,
+  "new_proof_roots": 0,
+  "all_before_after_stable": true
+}

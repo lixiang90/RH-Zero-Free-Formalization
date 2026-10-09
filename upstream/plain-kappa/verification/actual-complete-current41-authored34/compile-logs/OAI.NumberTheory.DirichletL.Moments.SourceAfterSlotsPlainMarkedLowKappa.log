@@ -1,0 +1,28 @@
+OAI\NumberTheory\DirichletL\Moments\SourceAfterSlotsPlainMarkedLowKappa.lean:117:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+OAI\NumberTheory\DirichletL\Moments\SourceAfterSlotsPlainMarkedLowKappa.lean:55:7: warning: Variable name `hbad` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hbad
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+OAI\NumberTheory\DirichletL\Moments\SourceAfterSlotsPlainMarkedLowKappa.lean:55:59: warning: Variable name `hM` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hM
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+OAI\NumberTheory\DirichletL\Moments\SourceAfterSlotsPlainMarkedLowKappa.lean:106:2: warning: Try this: intro τ' hτ' hτ'le d hd hd' rows hrowLower a ε binWidth i z hz height hheight hheight_le hzim q B hrows hdata
+  hreverse hBslots hwidths hprofile hupper hexternal hmesh hbinWidth hfamilySource bin label Ileft Iright hne
+OAI\NumberTheory\DirichletL\Moments\SourceAfterSlotsPlainMarkedLowKappa.lean:186:49: warning: Variable name `hM` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hM
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`

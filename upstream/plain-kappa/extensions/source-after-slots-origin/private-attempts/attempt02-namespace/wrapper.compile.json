@@ -1,0 +1,30 @@
+{
+  "module": "OAI.NumberTheory.DirichletL.Moments.SourceAfterSlotsPlainMarkedLowKappa",
+  "original_source": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\SourceAfterSlotsPlainMarkedLowKappa.lean",
+  "source_sha256": "acc66a3ec52d43e0d574d03a2ed97530ae90d6aa1c393ddbfc9062f21c28fecf",
+  "source_copy": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\sources\\OAI\\NumberTheory\\DirichletL\\Moments\\SourceAfterSlotsPlainMarkedLowKappa.lean",
+  "source_copy_sha256": "acc66a3ec52d43e0d574d03a2ed97530ae90d6aa1c393ddbfc9062f21c28fecf",
+  "roots": [
+    "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_slots_before_source_universal_plain_marked",
+    "OAI.SevenEighths.SourceAfterSlotsPlainMarkedLowKappa.exists_first_tail_source_after_slots"
+  ],
+  "command": [
+    "c:\\Users\\A\\.elan\\toolchains\\leanprover--lean4---v4.34.1\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-DautoImplicit=false",
+    "--root=E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\sources",
+    "-o",
+    "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\SourceAfterSlotsPlainMarkedLowKappa.olean",
+    "-i",
+    "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\SourceAfterSlotsPlainMarkedLowKappa.ilean",
+    "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\sources\\OAI\\NumberTheory\\DirichletL\\Moments\\SourceAfterSlotsPlainMarkedLowKappa.lean"
+  ],
+  "exit_code": 1,
+  "elapsed_seconds": 11.437,
+  "log": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\OAI.NumberTheory.DirichletL.Moments.SourceAfterSlotsPlainMarkedLowKappa.compile.log",
+  "log_sha256": "8ba059e8e31a7f33211fa5c427cbc8248050ee389f44eed99c04e2dfe9aca8b6",
+  "artifact_sha256": {},
+  "all_old_inputs_and_state_stable": true,
+  "scope": "Private candidate compilation, not a canonical controller record or independent Nano replay."
+}

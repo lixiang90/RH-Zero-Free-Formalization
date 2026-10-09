@@ -1,0 +1,212 @@
+{
+  "status": "exact_private_attempt_history_not_additional_independent_proof_scope",
+  "attempts": [
+    {
+      "private_directory": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-225816",
+      "public_directory": "attempt01-search-path",
+      "compile_results": [
+        {
+          "module": "OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa",
+          "source_sha256": "b793c307ed691f2bb516e8528428fbaefe181e6f5dc74827f8aa320865efbd07",
+          "exit_code": 1,
+          "actual_compile_seconds": 0.344,
+          "reused_private_compile": false
+        }
+      ],
+      "canonical_state_modified": false,
+      "Nano_invoked": false,
+      "note": "Runtime library routing failure before mathematical elaboration."
+    },
+    {
+      "private_directory": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054",
+      "public_directory": "attempt02-namespace",
+      "compile_results": [
+        {
+          "module": "OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa",
+          "source_sha256": "b793c307ed691f2bb516e8528428fbaefe181e6f5dc74827f8aa320865efbd07",
+          "exit_code": 0,
+          "actual_compile_seconds": 34.438,
+          "reused_private_compile": false
+        },
+        {
+          "module": "OAI.NumberTheory.DirichletL.Moments.SourceAfterSlotsPlainMarkedLowKappa",
+          "source_sha256": "acc66a3ec52d43e0d574d03a2ed97530ae90d6aa1c393ddbfc9062f21c28fecf",
+          "exit_code": 1,
+          "actual_compile_seconds": 11.437,
+          "reused_private_compile": false
+        }
+      ],
+      "canonical_state_modified": false,
+      "Nano_invoked": false,
+      "note": "Unqualified SourceExclusions identifier; this failed source was not claimed to elaborate."
+    },
+    {
+      "private_directory": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442",
+      "public_directory": "attempt03-success",
+      "compile_results": [
+        {
+          "module": "OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa",
+          "source_sha256": "b793c307ed691f2bb516e8528428fbaefe181e6f5dc74827f8aa320865efbd07",
+          "exit_code": 0,
+          "actual_compile_seconds": 34.438,
+          "reused_private_compile": true
+        },
+        {
+          "module": "OAI.NumberTheory.DirichletL.Moments.SourceAfterSlotsPlainMarkedLowKappa",
+          "source_sha256": "8735b9f59a421fe6e6f142ff97e1b5c58810bf5a9825b53180e731b1a6329bb6",
+          "exit_code": 0,
+          "actual_compile_seconds": 17.437,
+          "reused_private_compile": false
+        }
+      ],
+      "canonical_state_modified": false,
+      "Nano_invoked": false,
+      "note": "Namespace-only repaired wrapper and bound native private artifact passed full three-root types/standard-axiom audit; canonical controller and Nano remain separate."
+    }
+  ],
+  "files": {
+    "attempt01-search-path/native.compile.json": {
+      "sha256": "b4f4e11642a7e1f5e6d0e179cf6f1159a12b07b2f01d5de6d166f8accfa7b208",
+      "bytes": 2280,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-225816\\OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa.compile.json"
+    },
+    "attempt01-search-path/native.compile.log": {
+      "sha256": "44e7a69cf338b76d66e36a25398509cfafa1d1165a5de91bf8df6a7c93a13515",
+      "bytes": 493,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-225816\\OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa.compile.log"
+    },
+    "attempt01-search-path/native.lean": {
+      "sha256": "b793c307ed691f2bb516e8528428fbaefe181e6f5dc74827f8aa320865efbd07",
+      "bytes": 10453,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-225816\\sources\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.lean"
+    },
+    "attempt01-search-path/private-verifier-attempt.py": {
+      "sha256": "3a75563dd5704f173a637786f4cee5c14c42f08c17a8ee72e38649184feba4ad",
+      "bytes": 11440,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-225816\\private-verifier-attempt.py"
+    },
+    "attempt01-search-path/dependency-bindings.json": {
+      "sha256": "123d177b34874c6ed4f43f1948f4723fb6acf95190f55e558bbc588479c86288",
+      "bytes": 12844287,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-225816\\dependency-bindings.json"
+    },
+    "attempt02-namespace/native.compile.json": {
+      "sha256": "8f3ec3027f43239243dace7a23ba2bdd095db20bbcc998e8b410f55820ca639a",
+      "bytes": 2851,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa.compile.json"
+    },
+    "attempt02-namespace/native.compile.log": {
+      "sha256": "d83db64189a0ab1ef32eb51bceef071308219d9711c75ea4ce5d918bc3936185",
+      "bytes": 501,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa.compile.log"
+    },
+    "attempt02-namespace/native.lean": {
+      "sha256": "b793c307ed691f2bb516e8528428fbaefe181e6f5dc74827f8aa320865efbd07",
+      "bytes": 10453,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\sources\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.lean"
+    },
+    "attempt02-namespace/wrapper.compile.json": {
+      "sha256": "3f2a4cf1914a39547a0f96cb59cce4e02214d2d9ddf844bb01fcb096472efec3",
+      "bytes": 2248,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\OAI.NumberTheory.DirichletL.Moments.SourceAfterSlotsPlainMarkedLowKappa.compile.json"
+    },
+    "attempt02-namespace/wrapper.compile.log": {
+      "sha256": "8ba059e8e31a7f33211fa5c427cbc8248050ee389f44eed99c04e2dfe9aca8b6",
+      "bytes": 2324,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\OAI.NumberTheory.DirichletL.Moments.SourceAfterSlotsPlainMarkedLowKappa.compile.log"
+    },
+    "attempt02-namespace/wrapper.lean": {
+      "sha256": "acc66a3ec52d43e0d574d03a2ed97530ae90d6aa1c393ddbfc9062f21c28fecf",
+      "bytes": 12139,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\sources\\OAI\\NumberTheory\\DirichletL\\Moments\\SourceAfterSlotsPlainMarkedLowKappa.lean"
+    },
+    "attempt02-namespace/private-verifier-attempt.py": {
+      "sha256": "033bd78e81b2c3f3d085b5061ffcf2a2b0c1b2c192bafa9361dab3095d253984",
+      "bytes": 12719,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\private-verifier-attempt.py"
+    },
+    "attempt02-namespace/dependency-bindings.json": {
+      "sha256": "1e15f1a1a10db6d8e665f2ac58b0105e97fb22718344287122d7f8cb3fe11301",
+      "bytes": 12844287,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\dependency-bindings.json"
+    },
+    "attempt02-namespace/isolated-runtime-aliases.json": {
+      "sha256": "7fe33bddfaa9d631c53ad1dadcc2b87caa5819d3069cd50cab260ae86f231280",
+      "bytes": 1134916,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230054\\isolated-runtime-aliases.json"
+    },
+    "attempt03-success/native.compile.json": {
+      "sha256": "42748a1630b5fc48c02483c881c902e3b0a8a95a84e6c6643f486683e6288336",
+      "bytes": 4053,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa.compile.json"
+    },
+    "attempt03-success/native.compile.log": {
+      "sha256": "d83db64189a0ab1ef32eb51bceef071308219d9711c75ea4ce5d918bc3936185",
+      "bytes": 501,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa.compile.log"
+    },
+    "attempt03-success/native.lean": {
+      "sha256": "b793c307ed691f2bb516e8528428fbaefe181e6f5dc74827f8aa320865efbd07",
+      "bytes": 10453,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\sources\\OAI\\NumberTheory\\DirichletL\\Moments\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.lean"
+    },
+    "attempt03-success/wrapper.compile.json": {
+      "sha256": "c91876137813f6045585bf8d9bdeca4a96f56e2d0677e4b6a78634a301e160f6",
+      "bytes": 2794,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\OAI.NumberTheory.DirichletL.Moments.SourceAfterSlotsPlainMarkedLowKappa.compile.json"
+    },
+    "attempt03-success/wrapper.compile.log": {
+      "sha256": "c1df407ab35f648c00fae72344a5cc6f3a6cb89d184d7cf8d695d65af96aa665",
+      "bytes": 2411,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\OAI.NumberTheory.DirichletL.Moments.SourceAfterSlotsPlainMarkedLowKappa.compile.log"
+    },
+    "attempt03-success/wrapper.lean": {
+      "sha256": "8735b9f59a421fe6e6f142ff97e1b5c58810bf5a9825b53180e731b1a6329bb6",
+      "bytes": 12153,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\sources\\OAI\\NumberTheory\\DirichletL\\Moments\\SourceAfterSlotsPlainMarkedLowKappa.lean"
+    },
+    "attempt03-success/private-verifier-attempt.py": {
+      "sha256": "7303509a857528ca320c3fa02cc8ae12ac937dcac929bcfe30655876931cd594",
+      "bytes": 14636,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\private-verifier-attempt.py"
+    },
+    "attempt03-success/dependency-bindings.json": {
+      "sha256": "bd9016751efa1a4c18fcef7f482b9735a165a3be34b58a94db8f5b86e8776c51",
+      "bytes": 12844287,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\dependency-bindings.json"
+    },
+    "attempt03-success/isolated-runtime-aliases.json": {
+      "sha256": "a883822f2a1db80deae62561aa9db4eae2a0468d191ced74e3f10fec49c0d6a3",
+      "bytes": 1134916,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\isolated-runtime-aliases.json"
+    },
+    "attempt03-success/AxiomAudit.lean": {
+      "sha256": "cf7269c3d8398be965f4321f7b3b6a4dcd6328f5141608488847634de4ea20f3",
+      "bytes": 1125,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\AxiomAudit.lean"
+    },
+    "attempt03-success/fresh-types-and-axioms.log": {
+      "sha256": "b807ada2b48c654e523df7c7b58a90e40684f6d4b8e17eebd1838d558846b692",
+      "bytes": 641825,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\fresh-types-and-axioms.log"
+    },
+    "attempt03-success/fresh-result.json": {
+      "sha256": "c9a8b71478e1d5afc6c661636dc04522732d94d93feee6dd0c2d3345a3c1573b",
+      "bytes": 10924,
+      "original_private_path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\private-verification-20261009-230442\\fresh-result.json"
+    },
+    "namespace-repair-byte-guard.json": {
+      "sha256": "cc04e50e81a7bf595e175a78e49584c5d64622c749f6e7037608ea1958a11974",
+      "bytes": 457
+    },
+    "README.md": {
+      "sha256": "9c7f8f1bd71cf85f10caacba821fd0cc912acc2ea80bfadb980cc42c95abecaa",
+      "bytes": 862
+    }
+  },
+  "additional_selected_root_count": 0,
+  "additional_authored_module_count": 0,
+  "compiled_artifacts_and_hardlinks_published": false,
+  "canonical_sources_or_state_modified_by_attempts": false,
+  "private_Nano_invoked": false
+}

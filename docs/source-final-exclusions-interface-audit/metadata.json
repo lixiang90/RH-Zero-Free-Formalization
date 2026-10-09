@@ -1,0 +1,206 @@
+{
+  "schema": "source-final-exclusions-readonly-interface-review-v1",
+  "created_utc": "2026-10-09T14:56:02.684366+00:00",
+  "status": "frozen_read_only_review",
+  "review_sha256": "e571ec0d2be28cd80798977fb4447085f961717d616ec8e16c9b2a167155008a",
+  "key_actual_source_bindings": [
+    {
+      "module": "OAI.NumberTheory.DirichletL.ParametersFixedSource",
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\ParametersFixedSource.lean",
+      "actual_snapshot": "sources/actual/OAI/NumberTheory/DirichletL/ParametersFixedSource.lean",
+      "raw_sha256": "6d17586f6573f6ffcbc1343af5e7b27f5cc19824a0ada96a8bdff0b0adc2a1b8",
+      "lf_sha256": "01fb197c3353d800ef80bc77d56ee3e27a09baab98f22c59ec23db235e901637",
+      "existing_actual_compile": {
+        "exit_code": 0,
+        "source_sha256": "6d17586f6573f6ffcbc1343af5e7b27f5cc19824a0ada96a8bdff0b0adc2a1b8",
+        "fingerprint": "b64d3fec1de9b3672a01d3de4a6d0a14499f9d0321ede0be4543f4618a620300",
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-144413-bounded8v2\\OAI.NumberTheory.DirichletL.ParametersFixedSource.log",
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersFixedSource.olean": "aacdd852458eb9e2ef95ed0853efa563a53be1315a81bcf0cd1a0aff5d6382c6",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\ParametersFixedSource.ilean": "987dbd3d4cb956bb3f2f6250868694d3149b5723b7d5aa88fe481120d4ae4bcf"
+        },
+        "source_and_artifacts_match_at_review": true
+      },
+      "new_proof_claim": false,
+      "original_git_blob": {
+        "repository": "E:\\codex-build\\math",
+        "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+        "path": "lean/OAI/NumberTheory/DirichletL/ParametersFixedSource.lean",
+        "oid": "d7dc90c32ac1ceafb542191ac782e9ed4e13e9a9",
+        "snapshot": "sources/original-git/OAI/NumberTheory/DirichletL/ParametersFixedSource.lean",
+        "raw_sha256": "01fb197c3353d800ef80bc77d56ee3e27a09baab98f22c59ec23db235e901637",
+        "lf_sha256": "01fb197c3353d800ef80bc77d56ee3e27a09baab98f22c59ec23db235e901637",
+        "actual_equals_original_raw": false,
+        "actual_equals_original_lf": true
+      }
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Detector.FixedEuler",
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Detector\\FixedEuler.lean",
+      "actual_snapshot": "sources/actual/OAI/NumberTheory/DirichletL/Detector/FixedEuler.lean",
+      "raw_sha256": "1d195dfdcdbcc7ac9df7f3d4c23229929911e4665b655f6b72237411587f4bd6",
+      "lf_sha256": "0e463f91308f01561e4c8dd1d71275e67f18009389f6e0a17d86187f994c807b",
+      "existing_actual_compile": {
+        "exit_code": 0,
+        "source_sha256": "1d195dfdcdbcc7ac9df7f3d4c23229929911e4665b655f6b72237411587f4bd6",
+        "fingerprint": "da63a8d122bf18c45f957ad2fe70e993788c96da86786c8f03bb85ce9825253a",
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-131405-bounded8v2\\OAI.NumberTheory.DirichletL.Detector.FixedEuler.log",
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Detector\\FixedEuler.olean": "cb47f87d7e38c41c4ca5574c5924b47b6664d467df37d4daddbeeeeb02c55318",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Detector\\FixedEuler.ilean": "e0c7a42f2b7fe30ce033477cc5a66efadcbddc93f115c28b566a976450ef9988"
+        },
+        "source_and_artifacts_match_at_review": true
+      },
+      "new_proof_claim": false,
+      "original_git_blob": {
+        "repository": "E:\\codex-build\\math",
+        "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+        "path": "lean/OAI/NumberTheory/DirichletL/Detector/FixedEuler.lean",
+        "oid": "b4fd2c5bc76e8034eb0e1e83ef4631c73ab01613",
+        "snapshot": "sources/original-git/OAI/NumberTheory/DirichletL/Detector/FixedEuler.lean",
+        "raw_sha256": "0e463f91308f01561e4c8dd1d71275e67f18009389f6e0a17d86187f994c807b",
+        "lf_sha256": "0e463f91308f01561e4c8dd1d71275e67f18009389f6e0a17d86187f994c807b",
+        "actual_equals_original_raw": false,
+        "actual_equals_original_lf": true
+      }
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.PrimeRows.FirstTail",
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\FirstTail.lean",
+      "actual_snapshot": "sources/actual/OAI/NumberTheory/DirichletL/PrimeRows/FirstTail.lean",
+      "raw_sha256": "be3d26d2846b67df0a208d6050600a9a8cea312fc8b052cb1c0763fe8369e7ee",
+      "lf_sha256": "6bdd82394b7156566a7413444aa3d5188dd0df400f8cbe3e662d980de0d1035d",
+      "existing_actual_compile": {
+        "exit_code": 0,
+        "source_sha256": "be3d26d2846b67df0a208d6050600a9a8cea312fc8b052cb1c0763fe8369e7ee",
+        "fingerprint": "b864e3f756bc779d5d0620c600204bdaf9e3b9b8add21cd985bb5bc92b9a01e2",
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-142952-bounded8v2\\OAI.NumberTheory.DirichletL.PrimeRows.FirstTail.log",
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\FirstTail.olean": "f481ec01485ba8af27c99db5531c9b0d2320a2f99bc0379bfefd8ebe15a73d65",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\PrimeRows\\FirstTail.ilean": "12c6ef8c709703917c2801c1463c8b30844375084627d46795f45a1f73f3e467"
+        },
+        "source_and_artifacts_match_at_review": true
+      },
+      "new_proof_claim": false,
+      "original_git_blob": {
+        "repository": "E:\\codex-build\\math",
+        "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+        "path": "lean/OAI/NumberTheory/DirichletL/PrimeRows/FirstTail.lean",
+        "oid": "8806252442ce00087a3fd007dabcc17e56ac996a",
+        "snapshot": "sources/original-git/OAI/NumberTheory/DirichletL/PrimeRows/FirstTail.lean",
+        "raw_sha256": "6bdd82394b7156566a7413444aa3d5188dd0df400f8cbe3e662d980de0d1035d",
+        "lf_sha256": "6bdd82394b7156566a7413444aa3d5188dd0df400f8cbe3e662d980de0d1035d",
+        "actual_equals_original_raw": false,
+        "actual_equals_original_lf": true
+      }
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Detector.SourceExclusions",
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Detector\\SourceExclusions.lean",
+      "actual_snapshot": "sources/actual/OAI/NumberTheory/DirichletL/Detector/SourceExclusions.lean",
+      "raw_sha256": "7ce136a63d2478f75c876bc7404717a426b97829132b9c634647009a4cb8d650",
+      "lf_sha256": "1430bb9bf9e3d40b8162a9155578ac7c9e80c3d8416016614ebdc4e0533fffcd",
+      "existing_actual_compile": {
+        "exit_code": 0,
+        "source_sha256": "7ce136a63d2478f75c876bc7404717a426b97829132b9c634647009a4cb8d650",
+        "fingerprint": "bf2d0bad1e03b294e10524bbd0fde954934dd93c9e16ee47323036289d5a5849",
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-131405-bounded8v2\\OAI.NumberTheory.DirichletL.Detector.SourceExclusions.log",
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Detector\\SourceExclusions.olean": "b5d65e51d2923810ba1981536a788079473c9a5d803a1d83855f9b4c4ca96dac",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Detector\\SourceExclusions.ilean": "febce3c49e1f6c45fd570f879fb212fd702a9aaa8e1d28f64989270ccb3ae695"
+        },
+        "source_and_artifacts_match_at_review": true
+      },
+      "new_proof_claim": false,
+      "original_git_blob": {
+        "repository": "E:\\codex-build\\math",
+        "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+        "path": "lean/OAI/NumberTheory/DirichletL/Detector/SourceExclusions.lean",
+        "oid": "438bef0305ffa1afef7198d392a664c32afdac80",
+        "snapshot": "sources/original-git/OAI/NumberTheory/DirichletL/Detector/SourceExclusions.lean",
+        "raw_sha256": "1430bb9bf9e3d40b8162a9155578ac7c9e80c3d8416016614ebdc4e0533fffcd",
+        "lf_sha256": "1430bb9bf9e3d40b8162a9155578ac7c9e80c3d8416016614ebdc4e0533fffcd",
+        "actual_equals_original_raw": false,
+        "actual_equals_original_lf": true
+      }
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.DetectorDictionarySource",
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionarySource.lean",
+      "actual_snapshot": "sources/actual/OAI/NumberTheory/DirichletL/Moments/DetectorDictionarySource.lean",
+      "raw_sha256": "2f9894c7cc17a0b329229f826397b6708a0294bbc40726afa3c35248cd0f3e98",
+      "lf_sha256": "b8f6d1f292e243d21ee2a48e3c7d0033e27055d1fad16953881064ed1b1e7391",
+      "existing_actual_compile": {
+        "exit_code": 0,
+        "source_sha256": "2f9894c7cc17a0b329229f826397b6708a0294bbc40726afa3c35248cd0f3e98",
+        "fingerprint": "e303f8055bb529379df9285495affcfd0e907a3038b2ad6804840076fc12baf4",
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-144413-bounded8v2\\OAI.NumberTheory.DirichletL.Moments.DetectorDictionarySource.log",
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionarySource.olean": "089747bebbf2b0bd65dc152bd599524c7f5cc74639901a642fed234085c5b21a",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\DetectorDictionarySource.ilean": "3a42d5585946517ebeebf5b7afd9893b71a3580211582d2fe27400e28690003b"
+        },
+        "source_and_artifacts_match_at_review": true
+      },
+      "new_proof_claim": false,
+      "original_git_blob": {
+        "repository": "E:\\codex-build\\math",
+        "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+        "path": "lean/OAI/NumberTheory/DirichletL/Moments/DetectorDictionarySource.lean",
+        "oid": "e1ee26c29aa796ca308f071f135a1b19bac32b00",
+        "snapshot": "sources/original-git/OAI/NumberTheory/DirichletL/Moments/DetectorDictionarySource.lean",
+        "raw_sha256": "b8f6d1f292e243d21ee2a48e3c7d0033e27055d1fad16953881064ed1b1e7391",
+        "lf_sha256": "b8f6d1f292e243d21ee2a48e3c7d0033e27055d1fad16953881064ed1b1e7391",
+        "actual_equals_original_raw": false,
+        "actual_equals_original_lf": true
+      }
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh",
+      "actual_source": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\OAI\\NumberTheory\\DirichletL\\Moments\\GenericSourceIdealAndMesh.lean",
+      "actual_snapshot": "sources/actual/OAI/NumberTheory/DirichletL/Moments/GenericSourceIdealAndMesh.lean",
+      "raw_sha256": "2a0fec6b6d42a2caeaaad8c30d73eefd8fcb46de2cf313f9b231661995346840",
+      "lf_sha256": "2a0fec6b6d42a2caeaaad8c30d73eefd8fcb46de2cf313f9b231661995346840",
+      "existing_actual_compile": {
+        "exit_code": 0,
+        "source_sha256": "2a0fec6b6d42a2caeaaad8c30d73eefd8fcb46de2cf313f9b231661995346840",
+        "fingerprint": "525abb5272c8c7cc547161844297c2b64a6c413ddc037eb52ba9d74b67fdad8f",
+        "log_path": "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.serial-build\\20261009-212719-bounded8v2\\OAI.NumberTheory.DirichletL.Moments.GenericSourceIdealAndMesh.log",
+        "artifact_sha256": {
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\GenericSourceIdealAndMesh.olean": "1e8dea72b970d87cced8ee85543306ea9528848ec6bd0ce0d84522aeb252c35d",
+          "E:\\codex-build\\RH-Zero-Free-Formalization\\tmp\\upstream-plain\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\GenericSourceIdealAndMesh.ilean": "2a74ea3c7d0e80d3a395c9c94853269e1805d2f033334e29a53dfcc4856dd9e9"
+        },
+        "source_and_artifacts_match_at_review": true
+      },
+      "new_proof_claim": false,
+      "original_git_blob": null,
+      "origin": "previously checked authored extension, not in original pin"
+    }
+  ],
+  "prepared_candidate_references": [
+    {
+      "path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\SourceAfterSlotsPlainMarkedLowKappa.lean",
+      "snapshot": "prepared-candidate-reference/SourceAfterSlotsPlainMarkedLowKappa.lean",
+      "raw_sha256": "acc66a3ec52d43e0d574d03a2ed97530ae90d6aa1c393ddbfc9062f21c28fecf",
+      "lf_sha256": "acc66a3ec52d43e0d574d03a2ed97530ae90d6aa1c393ddbfc9062f21c28fecf",
+      "scope": "prepared proof or contract reviewed read-only, no compile/replay claim"
+    },
+    {
+      "path": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\contract.json",
+      "snapshot": "prepared-candidate-reference/contract.json",
+      "raw_sha256": "715b3760bea560b39e6d7e75c075b6a9e6d064dc0db7123ac3ae76b901b5dc5a",
+      "lf_sha256": "715b3760bea560b39e6d7e75c075b6a9e6d064dc0db7123ac3ae76b901b5dc5a",
+      "scope": "prepared proof or contract reviewed read-only, no compile/replay claim"
+    },
+    {
+      "path": "E:\\codex-build\\RH-Weil\\tmp\\losses-before-arithmetic-source-phase-20261009\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.lean",
+      "snapshot": "prepared-candidate-reference/LossesBeforeArithmeticSourcePlainMarkedLowKappa.lean",
+      "raw_sha256": "b793c307ed691f2bb516e8528428fbaefe181e6f5dc74827f8aa320865efbd07",
+      "lf_sha256": "b793c307ed691f2bb516e8528428fbaefe181e6f5dc74827f8aa320865efbd07",
+      "scope": "prepared proof or contract reviewed read-only, no compile/replay claim"
+    }
+  ],
+  "source_and_artifact_before_after_stable": true,
+  "ran_lean_or_controller_or_export_or_nanoda": false,
+  "modified_formal_sources_or_state": false,
+  "new_proof_roots": 0
+}

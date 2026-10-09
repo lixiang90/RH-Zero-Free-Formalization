@@ -85,10 +85,12 @@ PlainUnmarkedAdmissionLowKappa 已另行证明正确的无标记准入。真实 
 
 ## 下一步实际供给
 
-1. 补齐完整源参数的正确顺序。当前全称 marked 定理固定 S/product ideal 在损耗和 slots 之前，而真实 SourceData 包含 FirstTail(4*D.e) S；D.e 的上限又依赖 slot 数量和最小 ell。全局 correction 的 prime-norm cutoff 本身与物理 slot 数量无关；耦合来自 FirstTail。W 和实数能量 fineMesh 可早选。下一真实接口需要 ρ/εE、mesh、slots → detector e → 最终 S/product ideal → degree/J/τ，再选 outer η 的常数；不能从现有存在量词推出这个顺序。原始八个关键源码及只读结论见 [装配顺序审计](source-assembly-order-audit/audit.md)。
+1. 该关键顺序接口现已补齐。LossesBeforeArithmeticSourcePlainMarkedLowKappa 先从标量预算构造 ρ/εE，再引入任意 M/H 与有限 Slot；SourceAfterSlotsPlainMarkedLowKappa 随后证明 ρ/εE、mesh、N/ell → 任意后给的正 detector e 和 prime seed → 实际 SourceExclusions 与 FirstTail(4e) 的最终 S → 非零 product ideal/H → degree/J/共同 τ → outer η 的常数/eventual 阈值 → 所有匹配 Batch 和非空 fiber 的 marked 上界。这里的 e 是检测器参数，区别于总槽长和能量误差 εE。它接受以后按槽预算选好的真实 e，不构造完整 HighData 的其余预算；没有交换旧存在量词。保留原字节的 [历史装配顺序审计](source-assembly-order-audit/audit.md)与[后续证明状态](source-assembly-order-audit/README.md)分别说明旧缺口和新接口。
 2. 将已验的 ActualSourceBatchTotal 实例化到真实 retained rows、detector maxima、校准、行增长和 margin；完成 source-wide plain_unmarked 的放大 NaturalState 与上述统一 cap，同时分别供给 inverse_raw、inverse_marked。完整四字段记录仍未构造。
 3. 把已验的全称 marked sum 交给 generic plain_fiber_count，统一修改下游分母 6κPlain、crossing 和 count 优化。保留 β≥51/100、κTerminal≥37/50、2β−1≤κTerminal 与 κTerminal≤κPlain；旧 Moments 的 plain_marked 固定 3/4+2Δ，其 inverse 参数不能替代新的 plain κ。padding 后的 κ 上限也需真实 bootstrap/margin。
 4. 完成 variable lx/ly/total 的实际 reflected-energy 与 small/middle/floor/outer estimates，组装完整 low/raw-high probe，并保留共同高度先于后续 tail order。当前界只涵盖 0<τ′≤共同 τ，不自动给出旧 RawMomentInput 的任意 0<τ≤1。
 5. 实例化完整有限阶 Hecke 族及其延拓结论，并在同一固定 Lean 环境中验证最终算术定理。
+
+新的[三个源顺序声明](../upstream/plain-kappa/verification/source-after-slots3/strict-replay-result.json)已通过正式编译、完整类型/传递公理审查和独立内核回放；本轮不增加新边界或无条件无零结论。
 
 [完整源审计](finite-row-energy-audit/README.md) 保留实际源码与历史候选记录；[两批新增证明记录](../upstream/plain-kappa/verification/generic-losses4/strict-replay-result.json)与[全称源/无标记准入记录](../upstream/plain-kappa/verification/source-universal-unmarked3/strict-replay-result.json)分别核验本轮四根和三根。ArithmeticProbeObligation 仍需完整 Moments、改进 count 与实际 low/raw-high probe，尚无已证明的 inhabitant。

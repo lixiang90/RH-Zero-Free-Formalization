@@ -1,0 +1,60 @@
+{
+  "status": "prepared_uncompiled_root_review_pending",
+  "source_path": "E:\\codex-build\\RH-Weil\\tmp\\losses-before-arithmetic-source-phase-20261009\\LossesBeforeArithmeticSourcePlainMarkedLowKappa.lean",
+  "source_sha256": "b793c307ed691f2bb516e8528428fbaefe181e6f5dc74827f8aa320865efbd07",
+  "source_bytes": 10453,
+  "module": "OAI.NumberTheory.DirichletL.Moments.LossesBeforeArithmeticSourcePlainMarkedLowKappa",
+  "namespace": "OAI.SevenEighths.LossesBeforeArithmeticSourcePlainMarkedLowKappa",
+  "roots": [
+    "OAI.SevenEighths.LossesBeforeArithmeticSourcePlainMarkedLowKappa.exists_losses_before_arithmetic_slots_degrees_height_and_finite_family"
+  ],
+  "imports": [
+    "OAI.NumberTheory.DirichletL.Energy.UniformDegreePositiveAtLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.PlainMarkedAdmissionLowKappa",
+    "OAI.NumberTheory.DirichletL.Moments.FiniteRowNaturalState"
+  ],
+  "verified_reference_source": "E:\\codex-build\\RH-Weil\\tmp\\generic-losses-supply-phase-20261009\\LossesBeforeSlotSourcePlainMarkedLowKappa.lean",
+  "verified_reference_sha256": "d5b1e7b5be2f5aae02fc27b210d62cce3341b5a6a67a1f8490dca4599f3d42d4",
+  "changes": [
+    "Rename namespace/root and update explanatory header.",
+    "Replace the fixed ideal/subgroup local instance by the same finite-quotient instance universally parameterized by M.",
+    "Move M/NeZero M/H/hH/hMm from theorem inputs into universal binders after the explicitly constructed rho and epsilonE.",
+    "Introduce the universal arithmetic parameters only after rho/epsilonE and all their scalar properties have been constructed."
+  ],
+  "static_checks": {
+    "body_equal_except_arithmetic_intro": true,
+    "autoImplicit_false": true,
+    "no_sorry_token": true,
+    "no_axiom_declaration": true,
+    "no_Lean_executed": true,
+    "no_formal_source_or_state_write": true
+  },
+  "proof_validation": "NOT COMPILED; no new root counted; axioms not checked for this source.",
+  "quantifier_order": "scalar hypotheses -> exists rho epsilonE -> forall M [NeZero M] H hH hMm -> forall finite Slot -> exists degree J tau -> forall finite Label eta Q -> exists Phi Ctotal -> eventually Z -> forall bounded tau-prime and all actual fibers/gates",
+  "contract_path": "E:\\codex-build\\RH-Weil\\tmp\\losses-before-arithmetic-source-phase-20261009\\contract.md",
+  "wrapper_read_only_reference": "E:\\codex-build\\RH-Weil\\tmp\\source-after-slots-phase-20261009\\SourceAfterSlotsPlainMarkedLowKappa.lean",
+  "root_requested_native_name": true,
+  "old_scalar_argument_order_preserved": true,
+  "packet_files": {
+    "LossesBeforeArithmeticSourcePlainMarkedLowKappa.lean": {
+      "sha256": "b793c307ed691f2bb516e8528428fbaefe181e6f5dc74827f8aa320865efbd07",
+      "bytes": 10453
+    },
+    "contract.md": {
+      "sha256": "01256f5014c8df13f13c254d33ebb8d393626e9aedf8f9ef3ef8098da09da7f7",
+      "bytes": 5806
+    },
+    "complete-type.lean.txt": {
+      "sha256": "d79c7fd603a3a73f82284a672d28dbe5e95bf514f07ccea4111d97f893e214b6",
+      "bytes": 3054
+    },
+    "review.delta.patch": {
+      "sha256": "13619dacfd5ed25fe236069b6e4eae380f06b2dcc5f5dcd4e465ec7ead78a122",
+      "bytes": 4264
+    },
+    "AxiomAudit.prepared.lean": {
+      "sha256": "ecaab2444bd9ec42890854c966201fd6bdc0f3ad53d1bfe4262dde4f71070a97",
+      "bytes": 408
+    }
+  }
+}
