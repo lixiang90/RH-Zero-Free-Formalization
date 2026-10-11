@@ -1,9 +1,10 @@
 # RH-Zero-Free-Formalization
 
-Lean companion to the RH-Weil project's best zero-free-boundary derivation.
+Research papers and Lean formalization for explicit zero-free boundaries
+and local zero-free shapes.
 Author of this formalization: **Li Xiang / lixiang90**.
 
-The boundary is
+The current uniform boundary is
 $$
 \sigma_* = \frac{11}{12}-\frac{e_*}{4}
           =0.874957019420098946\ldots,
@@ -30,6 +31,49 @@ Q(sqrt(-3)), followed by Dirichlet functions and zeta, **relative to its stated
 imported analytic package**. Principal poles are allowed and the boundary
 line is excluded. The new code preserves those distinctions.
 
+## Local shape extension
+
+The new [local shape paper](papers/local-zero-free-shape-paper.pdf)
+([TeX source](papers/local-zero-free-shape-paper.tex)) uses positive terms in
+the completed zeta logarithmic derivative and same-height reflected zero
+pairs to construct a quartic zero-free region. Assuming every nontrivial
+zeta zero has real part at most `7/8`, an external Arb interval certificate
+at `219/250 + 4000000000000 i` gives the closed local window
+
+$$
+\zeta(\sigma+it)\ne0\qquad
+\left(\sigma\ge\frac45,\quad
+\left|t-4000000000000\right|\le\frac1{200}\right).
+$$
+
+The conjugate negative-height window also follows. This extends the shape
+locally; the uniform boundary above is unchanged.
+[LocalShape](ZeroFree/LocalShape.lean) kernel-checks the finite real algebra
+and conditional exclusions, including the entire real rectangle.
+It uses an abstract zero predicate and explicit analytic hypotheses.
+The global strip, Hadamard identity and Arb numeric bound are not thereby
+proved in Lean. [Verification](verification/local-shape-lean.json),
+[external interval certificate](verification/local-shape-arb.json) and
+[scope/reproduction guide](docs/local-shape.md) record these separate layers.
+
+![Local quartic shape and certified rectangle](docs/local-shape-regions.svg)
+
+Blue: the assumed zero-free half-plane `sigma > 7/8`. Green: the additional
+reflected-pair quartic region. Red: the exact closed rectangle reaching
+`sigma = 0.8` for `abs(t - 4e12) <= 0.005`. The vertical coordinate is the
+offset from `T0 = 4e12`. White gaps are not certified. The global bound and
+external Arb upper bound remain inputs; the plot is an illustration of the
+exact algebraic certificate.
+
+Recompute the external certificate and optional plot with Python 3.10+:
+
+```sh
+python -m pip install python-flint==0.9.0
+python scripts/local_shape_certificate.py
+# Optional figure: python -m pip install matplotlib numpy
+python scripts/local_shape_certificate.py --plot
+```
+
 ## What the kernel checks
 
 | Module | Content |
@@ -48,6 +92,7 @@ line is excluded. The new code preserves those distinctions.
 | [PlainComparison](ZeroFree/PlainComparison.lean) | Check repaired scalar reflected/clipping budgets at kappa >= 37/50; the separate arithmetic capsule also checks the actual terminal induction. |
 | [SourceScaling](ZeroFree/SourceScaling.lean) | Normalize the actual complex powers at variable slot length and scale imbalance; match the paper exponent and the constructed zeta amplitude while preserving the intrinsic Mellin pole 1/6. |
 | [Main](ZeroFree/Main.lean) | Connection of the cubic certificate to the rational count, buffer admission, and the explicitly conditional best-boundary zeta theorem. |
+| [LocalShape](ZeroFree/LocalShape.lean) | Reflected-pair quartic identity, exact corner values, positivity on the entire real rectangle, conditional shape/rectangle/disk exclusions and finite nonnegative weighted-anchor exclusion. |
 
 Lean proves every coefficient identity and real inequality using ordinary
 kernel-checked proofs. The historical Python audit is outside the proof trust
@@ -77,22 +122,42 @@ of every public theorem. It rejects placeholders, custom axioms and unchecked
 computational proof methods. Permitted foundational axioms are
 `propext`, `Quot.sound`, and `Classical.choice`.
 
-The complete library build and fresh audit of **224 public theorems passed**,
+Before the local shape addition, the complete library build and fresh audit
+of **224 public theorems passed**,
 with only the three foundational axioms above. Source-bound results and logs
 are in [lean-verification.json](verification/lean-verification.json).
 A fresh **serial independent Nano replay passed 58,126 declarations** from all
 224 public roots. Commands, input hashes and permitted-axiom output are in
 [independent-kernel.json](verification/independent-kernel.json).
 Both checks retain the explicit analytic hypotheses described above.
+With the local shape addition, a fresh compilation of all **19 library
+modules** and a fresh transitive axiom audit of all **246 public theorems
+passed**. The [integration record](verification/local-shape-integration.json)
+contains the source hashes, commands and complete root list; its
+[build log](verification/local-shape-integration-build.log) and
+[axiom log](verification/local-shape-integration-axioms.log) accompany it.
+This check used the pinned Lean compiler directly with read-only Mathlib
+dependencies. It preserves every explicit analytic hypothesis.
+Those historical records do not certify the added module. Its fresh
+Lean verification is recorded separately in
+[local-shape-lean.json](verification/local-shape-lean.json);
+`scripts/verify.py` now includes `LocalShape` in future full-library audits.
+No independent Nano replay of the added module is claimed here.
 Tool setup and local cache details: [reproduction.md](docs/reproduction.md).
 
 ## Papers and sources
 
-The [papers directory](papers/README.md) contains byte-identical TeX/PDF copies
-of the cubic paper and its two predecessors. Delivery hashes are retained in
-[paper-provenance.json](verification/paper-provenance.json).
-[RH-Weil](https://github.com/lixiang90/RH-Weil) continues to hold papers and
-research history. The separate
+The [papers directory](papers/README.md) contains the new local shape paper
+and byte-identical historical TeX/PDF copies of the cubic paper and its two
+predecessors. Historical delivery hashes are retained in
+[paper-provenance.json](verification/paper-provenance.json); the new paper
+has its own [manifest](verification/local-shape-paper.json).
+
+New zero-free-region research and formalization are maintained in this
+repository and are no longer synchronized to
+[RH-Weil](https://github.com/lixiang90/RH-Weil), which focuses on the general
+Riemann hypothesis. Earlier transferred papers keep their historical
+provenance. The separate
 [zero-proportion formalization](https://github.com/lixiang90/RH-Zero-Proportion-Formalization)
 concerns critical-line proportions.
 

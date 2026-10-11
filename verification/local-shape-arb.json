@@ -1,0 +1,95 @@
+{
+  "scope": "Conditional local zero-free certificate, not an unconditional Lean theorem",
+  "assumptions": [
+    "All nontrivial zeta zeros satisfy beta <= 7/8",
+    "Classical Hadamard real-part identity for xi with multiplicities",
+    "Functional-equation reflection rho -> 1-conjugate(rho)"
+  ],
+  "formalization_status": {
+    "Arb_enclosures": "externally verified; not Lean-kernel certified",
+    "global_strip": "input; not reproved here",
+    "Hadamard_identity": "classical analytic input; not formalized by this script",
+    "geometry": "real rectangle positivity and quartic conditional exclusion kernel-checked in ZeroFree/LocalShape.lean",
+    "Lean_analytic_scope": "generic zero predicate; global strip, pair-kernel majorization and numerical upper bound remain explicit inputs"
+  },
+  "environment": {
+    "python": "3.12.5",
+    "python_flint": "0.9.0",
+    "linked_flint": "3.6.0"
+  },
+  "exact_anchor": {
+    "real": "219/250",
+    "imaginary": 4000000000000
+  },
+  "replays": [
+    {
+      "precision_bits": 96,
+      "elapsed_seconds": 0.6249812999740243,
+      "zeta_enclosure": "[0.4127996851645504436070078646 +/- 6.02e-29] + [-0.4911270096895840245716713119 +/- 7.32e-29]j",
+      "zeta_prime_enclosure": "[0.7819707911112017359121 +/- 1.24e-23] + [-0.10173862383282511589012 +/- 6.86e-24]j",
+      "xi_log_derivative_real_enclosure": "[14.4953446725134969914321 +/- 6.08e-23]",
+      "rational_lower": "1449534467251349699/100000000000000000",
+      "rational_upper": "14495344672513497/1000000000000000",
+      "strict_upper_E": "29/2",
+      "all_enclosure_comparisons_passed": true
+    },
+    {
+      "precision_bits": 160,
+      "elapsed_seconds": 0.8355065998621285,
+      "zeta_enclosure": "[0.41279968516455044360700786457713974127032919478 +/- 4.44e-48] + [-0.49112700968958402457167131185848849715426345242 +/- 2.45e-48]j",
+      "zeta_prime_enclosure": "[0.781970791111201735912106261309386009820659 +/- 7.42e-43] + [-0.101738623832825115890119264381111992968611 +/- 4.38e-43]j",
+      "xi_log_derivative_real_enclosure": "[14.495344672513496991432147293120053955414637 +/- 9.02e-43]",
+      "rational_lower": "1449534467251349699/100000000000000000",
+      "rational_upper": "14495344672513497/1000000000000000",
+      "strict_upper_E": "29/2",
+      "all_enclosure_comparisons_passed": true
+    }
+  ],
+  "geometry": {
+    "pair_kernel_identity": "K_pair = c*(p+z) / ((p-z)^2+c^2*z)",
+    "polynomial": "S=c*(p+z)-E*((p-z)^2+c^2*z)",
+    "concavity": "Hessian = -2E * [[1,-1],[-1,1]]; E>0",
+    "p_interval": [
+      "751/1000000",
+      "3211/62500"
+    ],
+    "z_interval": [
+      "0/1",
+      "1/40000"
+    ],
+    "positive_corner_values": [
+      {
+        "p": "751/1000000",
+        "z": "0/1",
+        "S": "1113147971/2000000000000"
+      },
+      {
+        "p": "751/1000000",
+        "z": "1/40000",
+        "S": "185457099/500000000000"
+      },
+      {
+        "p": "3211/62500",
+        "z": "0/1",
+        "S": "2828891/7812500000"
+      },
+      {
+        "p": "3211/62500",
+        "z": "1/40000",
+        "S": "426282771/2000000000000"
+      }
+    ],
+    "minimum_corner": "426282771/2000000000000",
+    "single_zero_disk": {
+      "real_center": "6101/7250",
+      "radius": "1/29"
+    },
+    "conditional_rectangle": {
+      "real_part_at_least": "4/5",
+      "imaginary_center": 4000000000000,
+      "imaginary_half_width": "1/200",
+      "negative_height_copy": "by conjugation"
+    }
+  },
+  "script_sha256": "8a57c95347af6718cdd81ae257e55babd2697389afa27a4e8d955df6cbca6b22"
+}
