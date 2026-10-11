@@ -145,29 +145,6 @@ real algebra remain separately classified.
 | Physical admission/Euler/outer rows | Exact margins/identities; actual Euler correction and uniform exclusions independently checked. Complete physical and outer-row estimates remain open. |
 | Uniform continuation | Mellin implication and family contradiction proved; actual zeta inverse signal, identity, origin decay and height closure proved; arithmetic probe estimates and the concrete Hecke family remain open. |
 
-## Local shape certificate
-
-`ZeroFree.LocalShape` is a separate finite real-algebra development. It proves
-the reflected-pair kernel identity, quartic surplus exclusion, exact corner
-values, positivity on the full real rectangle and conditional disk/rectangle
-exclusions. Finite nonnegative weighted-anchor exclusion is an abstract
-implication; it does not enlarge the union of the single-anchor exclusion sets.
-
-At the exact anchor `219/250 + 4000000000000 i`, the external Arb certificate
-gives `Re(xi'/xi) < 29/2`. Combining it with the classical positive Hadamard
-identity and the assumed global bound `beta <= 7/8` excludes zeta zeros for
-`sigma >= 4/5` and `abs(t - 4000000000000) <= 1/200`.
-
-The Lean module uses an abstract zero predicate. `hAnalytic` and `hGlobal`
-remain explicit premises: no actual-zeta Hadamard sum, reflection theorem,
-global strip theorem or Arb enclosure is certified by this module.
-The external interval calculation is rigorous arithmetic but is outside
-the Lean proof kernel. The ordinary finite algebra is kernel checked.
-See [local-shape.md](local-shape.md),
-[Lean verification](../verification/local-shape-lean.json) and
-[external numeric certificate](../verification/local-shape-arb.json).
-No end-to-end Lean zeta shape theorem or new uniform strip is asserted.
-
 ## Verification interpretation
 
 `checked: true` in a build/replay record certifies only its listed declarations
